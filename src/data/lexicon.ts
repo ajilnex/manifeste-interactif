@@ -120,9 +120,9 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
   },
   "Feudalherr": {
     "fr": "seigneur féodal",
-    "lit": "maître féodal, suzerain terrien",
+    "lit": "maître et suzerain d'un domaine inféodé",
     "pos_fr": "Nom masculin",
-    "role": "Nom masculin composé (Feudal + Herr) désignant la classe dominante de l'ordre médiéval fondé sur le servage."
+    "role": "Nom masculin composé désignant les membres de la caste nobiliaire possédant le fief et les serfs."
   },
   "Freier": {
     "fr": "homme libre",
@@ -431,10 +431,10 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "role": "Nom féminin : le berceau urbain où s'émancipe la classe marchande (« Stadtluft macht frei »)."
   },
   "Stand": {
-    "fr": "ordre social / état",
-    "lit": "rang statutaire dans la hiérarchie d'Ancien Régime",
+    "fr": "ordre social / état / condition",
+    "lit": "statut, état stable d'un corps constitué dans la cité",
     "pos_fr": "Nom masculin",
-    "role": "Nom masculin féodal : ordre corporatif fondé sur des privilèges juridiques ancestraux."
+    "role": "Nom masculin médiéval désignant les ordres d'Ancien Régime (clergé, noblesse, tiers état) fondés sur le privilège."
   },
   "Stelle": {
     "fr": "place / position",
@@ -665,10 +665,10 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "role": "Adjectif national désignant les polices des monarchies de la Confédération germanique."
   },
   "direkt": {
-    "fr": "directement / sans intermédiaire",
-    "lit": "en ligne droite, immédiat",
-    "pos_fr": "Adjectif/Adverbe",
-    "role": "Adverbe marquant la simplification capitaliste réduisant les médiations féodales au rapport d'argent nu."
+    "fr": "direct / sans détour",
+    "lit": "en ligne droite, sans intermédiaire féodal ou spirituel",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif marquant la brutalité immédiate du contrat salarial entre le patron et l'ouvrier sans médiation corporative."
   },
   "dänisch": {
     "fr": "danois",
@@ -779,10 +779,10 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "role": "Adjectif soulignant la division monolithique de la société moderne en deux camps gigantesques."
   },
   "heilig": {
-    "fr": "saint / sacré (ironique)",
-    "lit": "consacré à Dieu",
+    "fr": "sacré / saint",
+    "lit": "intègre, consacré à la divinité",
     "pos_fr": "Adjectif",
-    "role": "Adjectif raillant le titre pieux de la Sainte-Alliance des despotes contre les peuples."
+    "role": "Adjectif qualifiant les fictions religieuses et solennités chrétiennes par lesquelles l'ordre féodal se sanctifiait."
   },
   "hoch": {
     "fr": "haut / grand",
@@ -875,10 +875,10 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "role": "Adverbe limitatif : la bourgeoisie s'est bornée à créer de nouvelles formes d'oppression."
   },
   "offen": {
-    "fr": "ouvert / déclaré",
-    "lit": "au grand jour, sans masque",
+    "fr": "ouvert / public / manifeste",
+    "lit": "ouvert au grand jour, sans voile protecteur",
     "pos_fr": "Adjectif",
-    "role": "Adjectif opposé à « versteckt » (masqué) pour désigner la lutte révolutionnaire ouverte."
+    "role": "Adjectif opposé à « verhüllt », soulignant le caractère transparent et sans pudeur de l'exploitation capitaliste."
   },
   "ostindisch": {
     "fr": "des Indes orientales",
@@ -1085,10 +1085,10 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "role": "Verbe d'état reliant le sujet à son attribut ontologique et politique."
   },
   "setzen": {
-    "fr": "poser / substituer / installer",
-    "lit": "placer fermement",
-    "pos_fr": "Verbe régulier",
-    "role": "Verbe de substitution de classe : installer une nouvelle exploitation à la place de l'ancienne."
+    "fr": "placer / substituer / installer",
+    "lit": "faire asseoir, poser fermement à un emplacement",
+    "pos_fr": "Verbe faible causatif",
+    "role": "Verbe causatif employé pour exprimer l'installation brutale d'un nouvel ordre d'exploitation à la place de l'ancien."
   },
   "spalten": {
     "fr": "se cliver / se scinder",
@@ -1103,10 +1103,10 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "role": "Verbe marquant l'opposition frontale dressée entre oppresseur et opprimé."
   },
   "treten": {
-    "fr": "faire son entrée / entrer en scène",
-    "lit": "poser le pied, s'avancer",
-    "pos_fr": "Verbe fort de mouvement",
-    "role": "Verbe théâtral et historique : l'entrée en scène d'une nouvelle classe sur le théâtre du monde."
+    "fr": "marcher / entrer / succéder",
+    "lit": "poser le pied en avant, avancer d'un pas",
+    "pos_fr": "Verbe fort",
+    "role": "Verbe fort employé dans la locution « an die Stelle treten » pour décrire la relève impitoyable des anciennes formes par les nouvelles."
   },
   "umgehen": {
     "fr": "hanter / rôder",
@@ -1371,7 +1371,667 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "lit": "dans l'espace intermédiaire séparant deux termes",
     "pos_fr": "Préposition mixte",
     "role": "Préposition spatiale désignant l'espace interstitiel entre deux ordres."
-  }
+  },
+  "Dampf": {
+    "fr": "vapeur / force motrice de la vapeur",
+    "lit": "vapeur d'eau sous pression, fumée thermomécanique",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin désignant la force motrice thermodynamique de la première révolution industrielle qui libéra les manufactures des cours d'eau ruraux."
+  },
+  "Maschinerie": {
+    "fr": "machinerie / parc de machines",
+    "lit": "système mécanique articulé de machines automatiques",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant chez Marx le système automatique d'outils et de moteurs qui supplante l'artisan et asservit l'ouvrier comme rouage."
+  },
+  "Weltmarkt": {
+    "fr": "marché mondial",
+    "lit": "marché à l'échelle planétaire",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin composé désignant l'arène globale des échanges capitalistes où se réalise la loi de la valeur universelle."
+  },
+  "Eisenbahn": {
+    "fr": "chemin de fer",
+    "lit": "voie de fer pour convois ferroviaires",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé désignant l'infrastructure de communication terrestre révolutionnant la vitesse de circulation du capital et des marchandises."
+  },
+  "Eisenbahnen": {
+    "fr": "chemins de fer",
+    "lit": "lignes ferroviaires multiples",
+    "pos_fr": "Nom féminin (pluriel)",
+    "role": "Forme plurielle désignant le réseau ferroviaire continental unifiant les marchés intérieurs et internationaux."
+  },
+  "Entwicklungsgang": {
+    "fr": "cours du développement / processus évolutif",
+    "lit": "cheminement du déploiement historique immanent",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin composé désignant la succession dialectique des étapes matérielles qui ont engendré la bourgeoisie moderne."
+  },
+  "Umwälzung": {
+    "fr": "bouleversement / révolution radicale",
+    "lit": "renversement complet de fond en comble",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin substantival désignant les transformations qualitatives et brutales des bases matérielles de production."
+  },
+  "Produktionsweise": {
+    "fr": "mode de production",
+    "lit": "manière et forme d'organisation de la production",
+    "pos_fr": "Nom féminin",
+    "role": "Concept central du matérialisme historique désignant l'unité articulée des forces productives et des rapports sociaux de production."
+  },
+  "Verkehrsweise": {
+    "fr": "mode d'échange / de circulation",
+    "lit": "manière d'interagir, de commercer et de communiquer",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé désignant les rapports de circulation marchande, de crédit et de transport inséparables de la production."
+  },
+  "Repräsentativstaat": {
+    "fr": "État représentatif",
+    "lit": "État fondé sur la représentation parlementaire",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin composé désignant la forme politique constitutionnelle adéquate à l'hégémonie bourgeoise moderne."
+  },
+  "Staatsgewalt": {
+    "fr": "pouvoir d'État / autorité étatique",
+    "lit": "puissance souveraine de coercition de l'État",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé désignant l'appareil de domination politique et répressif centralisé d'une classe."
+  },
+  "Ausschuß": {
+    "fr": "comité / commission déléguée",
+    "lit": "délégation restreinte d'hommes choisis pour gérer une charge",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin désignant métaphoriquement le gouvernement moderne comme simple conseil d'administration des intérêts communs de la bourgeoisie."
+  },
+  "Bourgeoisklasse": {
+    "fr": "classe bourgeoise",
+    "lit": "classe des détenteurs du capital moderne",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé désignant la classe dominante propriétaire des moyens de production sociaux."
+  },
+  "Feudalband": {
+    "fr": "lien féodal",
+    "lit": "attache morale et juridique de vassalité féodale",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre désignant les rapports coutumiers de sujétion servile liant l'homme à son seigneur."
+  },
+  "Feudalbande": {
+    "fr": "liens féodaux",
+    "lit": "chaînes et attaches coutumières de la féodalité",
+    "pos_fr": "Nom neutre (pluriel)",
+    "role": "Pluriel neutre régulier désignant l'ensemble disparate des attaches féodales brisées par le capital."
+  },
+  "bar": {
+    "fr": "au comptant / en liquide",
+    "lit": "à nu, à découvert, en espèces sonnantes visibles",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif d'étymologie discutée désignant le paiement monétaire immédiat sans crédit ni affectivité coutumière."
+  },
+  "Zahlung": {
+    "fr": "paiement / versement",
+    "lit": "action de compter et verser une somme d'argent",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin économique désignant le règlement numéraire qui devient le seul lien social de la société marchande."
+  },
+  "Schwärmerei": {
+    "fr": "extase religieuse / exaltation mystique",
+    "lit": "tourbillonnement d'essaim délirant, illumination dévote",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin péjoratif désignant l'illusion pieuse et fanatique médiévale sanctifiant l'oppression féodale."
+  },
+  "Begeisterung": {
+    "fr": "enthousiasme / exaltation héroïque",
+    "lit": "insufflation d'esprit noble, transport passionné",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant l'idéal chevaleresque et militaire d'honneur démasqué comme fiction d'ordre."
+  },
+  "spießbürgerlich": {
+    "fr": "petit-bourgeois / philistin",
+    "lit": "propre au bourgeois étriqué armé d'une pique sur les remparts",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif d'origine historique documentée désignant la mentalité étriquée, craintive et rétrograde de la petite bourgeoisie boutiquière."
+  },
+  "Wehmut": {
+    "fr": "mélancolie / sentimentalité nostalgique",
+    "lit": "douleur d'âme, tristesse nostalgique",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant la déploration passéiste des couches rétrogrades devant la dissolution de l'ancien monde."
+  },
+  "Tauschwert": {
+    "fr": "valeur d'échange",
+    "lit": "valeur de troc marchand mesurée par le marché",
+    "pos_fr": "Nom masculin",
+    "role": "Catégorie économique cardinale désignant la forme quantitative sous laquelle les produits et l'activité humaine deviennent marchandises échangeables."
+  },
+  "Handelsfreiheit": {
+    "fr": "liberté du commerce",
+    "lit": "liberté de circulation et de transaction des marchandises",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant chez Marx l'unique liberté réellement consacrée par la révolution bourgeoise : la liberté d'exploiter sans entrave."
+  },
+  "Ausbeutung": {
+    "fr": "exploitation",
+    "lit": "extraction complète jusqu'au bout d'un filon minier ou de travail",
+    "pos_fr": "Nom féminin",
+    "role": "Concept économique marxiste majeur désignant l'extorsion systématique de surtravail non rémunéré aux travailleurs."
+  },
+  "buntscheckig": {
+    "fr": "bariolé / disparate / bigarré",
+    "lit": "marqué de taches et carreaux bicolores variés",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif métaphorique qualifiant la multiplicité désordonnée et hétérogène des liens juridiques et seigneuriaux de la féodalité."
+  },
+  "Vorgesetzter": {
+    "fr": "supérieur (hiérarchique)",
+    "lit": "celui qui est installé en avant ou à la tête",
+    "pos_fr": "Nom masculin",
+    "role": "Participe substantivé désignant les seigneurs et maîtres de corporations investis d'une autorité coutumière."
+  },
+  "Landkommunikation": {
+    "fr": "voie de communication terrestre",
+    "lit": "communication et transport par voie de terre ferme",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé désignant les routes, canaux et chemins de fer unifiant l'espace géographique national."
+  },
+  "Landkommunikationen": {
+    "fr": "voies de communication par terre",
+    "lit": "voies de transport terrestre au pluriel",
+    "pos_fr": "Nom féminin (pluriel)",
+    "role": "Forme plurielle désignant le maillage territorial des réseaux routiers et ferrés modernes."
+  },
+  "Entwicklungsstufe": {
+    "fr": "étape de l'évolution / degré de développement",
+    "lit": "marche d'escalier ou palier du déploiement historique",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé marquant les transitions qualitatives successives de la puissance matérielle de la bourgeoisie."
+  },
+  "Entwicklungsstufen": {
+    "fr": "étapes du développement",
+    "lit": "degrés successifs d'évolution",
+    "pos_fr": "Nom féminin (pluriel)",
+    "role": "Forme plurielle désignant les paliers historiques franchis par la bourgeoisie depuis le Moyen Âge."
+  },
+  "Gegengewicht": {
+    "fr": "contrepoids",
+    "lit": "masse opposée faisant équilibre dans la balance",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre composé désignant le rôle d'équilibre politique joué par la bourgeoisie contre la noblesse sous la monarchie absolue."
+  },
+  "Hauptgrundlage": {
+    "fr": "fondement principal / pierre angulaire",
+    "lit": "fondation capitale posée à la base d'un édifice",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin composé désignant la bourgeoisie comme socle fiscal et matériel indispensable aux grandes monarchies."
+  },
+  "eiskalt": {
+    "fr": "glacial / froid comme la glace",
+    "lit": "froid au point de glacer",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif composé renforçant la métaphore du calcul économique froid qui étouffe l'ardeur des sentiments médiévaux."
+  },
+  "ertränken": {
+    "fr": "noyer / engloutir",
+    "lit": "faire périr par immersion dans l'eau",
+    "pos_fr": "Verbe causatif faible",
+    "role": "Verbe causatif hautement métaphorique décrivant la dissolution violente des croyances anciennes dans l'économie marchande."
+  },
+  "verbrieft": {
+    "fr": "scellé / garanti par charte",
+    "lit": "couché par écrit sur une lettre patente de privilège",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Participe adjectivé désignant les droits et immunités féodales consignés par rescrit royal sous l'Ancien Régime."
+  },
+  "wohlerworben": {
+    "fr": "si chèrement acquis / légitime",
+    "lit": "dûment et légitimement acquis par un labeur historique",
+    "pos_fr": "Adjectif",
+    "role": "Composé juridique désignant les prérogatives séculaires et coutumières des corporations et états."
+  },
+  "gewissenlos": {
+    "fr": "sans scrupule / impitoyable",
+    "lit": "dépourvu de toute conscience morale",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif privatif qualifiant la liberté marchande qui ne recule devant aucune misère humaine pour s'étendre."
+  },
+  "unverschämt": {
+    "fr": "éhonté / sans pudeur / cynique",
+    "lit": "dépourvu de honte morale ou de retenue",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif décrivant le cynisme franc du capitalisme moderne qui assume l'exploitation comme loi naturelle."
+  },
+  "dürr": {
+    "fr": "aride / brutale / décharnée",
+    "lit": "sec, desséché, sans chair ni fard",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif hautement expressif soulignant le caractère dépouillé et rigide de l'extorsion capitaliste sans habillage poétique."
+  },
+  "verhüllen": {
+    "fr": "voiler / masquer",
+    "lit": "couvrir d'un manteau, envelopper d'un voile",
+    "pos_fr": "Verbe faible inséparable",
+    "role": "Verbe inséparable désignant le rôle idéologique des mythes religieux dissimulant l'extorsion de surtravail sous le féodalisme."
+  },
+  "verhüllt": {
+    "fr": "voilée / masquée",
+    "lit": "couverte d'un voile protecteur",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Participe adjectivé qualifiant l'exploitation féodale parée des oripeaux de la piété chrétienne."
+  },
+  "Schauer": {
+    "fr": "frisson / transport d'effroi",
+    "lit": "averse soudaine, saisissement physique de terreur ou d'extase",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin désignant l'émotion sacrée et le frisson de dévotion mystique qui courbait l'échine des serfs."
+  },
+  "Millionär": {
+    "fr": "millionnaire",
+    "lit": "possesseur de millions en fortune monétaire",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin désignant les nouveaux magnats de la haute finance et de la grande industrie."
+  },
+  "Chef": {
+    "fr": "chef / dirigeant",
+    "lit": "tête, meneur, commandant en premier",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin emprunté au français désignant les maîtres capitalistes comme commandants suprêmes du procès de production."
+  },
+  "Armee": {
+    "fr": "armée",
+    "lit": "corps de troupes armées enrégimentées",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant métaphoriquement les légions d'ouvriers d'usine disciplinés selon une hiérarchie militaire."
+  },
+  "Bourgeois": {
+    "fr": "bourgeois",
+    "lit": "citadin affranchi puis détenteur de capital",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin invariable au pluriel désignant les membres de la classe dominante moderne."
+  },
+  "herstellen": {
+    "fr": "établir / créer / confectionner",
+    "lit": "poser ici debout, fabriquer matériellement",
+    "pos_fr": "Verbe séparable faible",
+    "role": "Verbe séparable décrivant l'action fondatrice de la grande industrie qui engendre le marché mondial."
+  },
+  "vorbereiten": {
+    "fr": "préparer / frayer la voie",
+    "lit": "apprêter préalablement à l'avance",
+    "pos_fr": "Verbe séparable faible",
+    "role": "Verbe marquant la gestation historique préalable des conditions du marché mondial par les découvertes maritimes."
+  },
+  "unermeßlich": {
+    "fr": "incommensurable / prodigieux",
+    "lit": "qui ne peut être mesuré d'après une norme ordinaire",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant l'accélération vertigineuse imprimée au commerce par l'ouverture planétaire."
+  },
+  "Ausdehnung": {
+    "fr": "extension / expansion spatiale",
+    "lit": "étirement vers l'extérieur au-delà des limites",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant l'accroissement continu de l'aire géographique et technique d'influence de l'industrie."
+  },
+  "zurückwirken": {
+    "fr": "réagir en retour / avoir un effet rétroactif",
+    "lit": "agir vers l'arrière sur le point de départ",
+    "pos_fr": "Verbe séparable faible",
+    "role": "Verbe dialectique clé exprimant l'action réciproque des transports et du commerce sur l'essor manufacturier."
+  },
+  "ausdehnen": {
+    "fr": "étendre / déployer",
+    "lit": "tendre vers le dehors, élargir les frontières",
+    "pos_fr": "Verbe séparable faible",
+    "role": "Verbe réflexif (sich ausdehnen) décrivant l'onde d'expansion conjointe de l'industrie et des transports."
+  },
+  "vermehren": {
+    "fr": "multiplier / accroître",
+    "lit": "rendre plus grand en quantité, faire fructifier",
+    "pos_fr": "Verbe faible",
+    "role": "Verbe décrivant le processus d'accumulation et d'auto-valorisation continue du capital."
+  },
+  "Kapital": {
+    "fr": "capital",
+    "lit": "fonds principal générateur de profit",
+    "pos_fr": "Nom neutre",
+    "role": "Concept économique fondamental désignant la valeur qui s'auto-accroît par l'exploitation du travail salarié."
+  },
+  "Kapitalien": {
+    "fr": "capitaux",
+    "lit": "fonds de capitaux accumulés (pluriel savant)",
+    "pos_fr": "Nom neutre (pluriel)",
+    "role": "Forme plurielle savante désignant les masses de capitaux industriels et bancaires détenues par la bourgeoisie."
+  },
+  "drängen": {
+    "fr": "refouler / pousser avec force",
+    "lit": "presser, pousser avec insistance vers un lieu",
+    "pos_fr": "Verbe faible",
+    "role": "Verbe d'action exprimant l'éviction brutale des anciennes classes féodales hors de l'avant-scène sociale."
+  },
+  "überliefern": {
+    "fr": "transmettre / léguer par tradition",
+    "lit": "remettre de la main à la main à travers le temps",
+    "pos_fr": "Verbe inséparable faible",
+    "role": "Verbe désignant l'héritage institutionnel et social médiéval que le capitalisme moderne liquide."
+  },
+  "überliefert": {
+    "fr": "légué / hérité du passé",
+    "lit": "transmis par la tradition séculaire",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Participe qualifiant les corporations, serfs et ordres issus du Moyen Âge."
+  },
+  "Hintergrund": {
+    "fr": "arrière-plan / coulisses",
+    "lit": "fond de scène, sol d'arrière",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin composé désignant la position marginale et subordonnée où sont confinées les classes déchues."
+  },
+  "Produkt": {
+    "fr": "produit / résultat matériel",
+    "lit": "ce qui est mis au jour par un processus de fabrication",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre soulignant que la bourgeoisie est elle-même le fruit déterminé d'une évolution matérielle."
+  },
+  "begleiten": {
+    "fr": "accompagner / faire escorte",
+    "lit": "marcher côte à côte en escorte",
+    "pos_fr": "Verbe inséparable faible",
+    "role": "Verbe passif (war begleitet) exprimant la corrélation rigoureuse entre avancée économique et progrès politique."
+  },
+  "entsprechend": {
+    "fr": "correspondant / proportionné",
+    "lit": "qui répond exactement à une mesure",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Adjectif relationnel soulignant l'adéquation structurelle entre l'infrastructure et la superstructure."
+  },
+  "Fortschritt": {
+    "fr": "progrès",
+    "lit": "pas accompli en avant",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin désignant les conquêtes politiques successives de la bourgeoisie vers l'hégémonie."
+  },
+  "unterdrückt": {
+    "fr": "opprimé / asservi",
+    "lit": "pressé vers le bas par une force écrasante",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Participe adjectivé décrivant la condition initiale de roture et de sujétion des bourgeois primitifs sous les barons."
+  },
+  "bewaffnet": {
+    "fr": "armé",
+    "lit": "muni d'armes de guerre défensives et offensives",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Participe qualifiant la commune bourgeoise médiévale qui s'armait pour défendre son autonomie contre les seigneurs."
+  },
+  "verwaltend": {
+    "fr": "s'administrant / gestionnaire",
+    "lit": "qui régit et gère ses propres affaires civiques",
+    "pos_fr": "Adjectif / Participe",
+    "role": "Participe présent décrivant l'auto-gouvernement municipal conquis par les bourgeoisies urbaines d'Italie et de France."
+  },
+  "Assoziation": {
+    "fr": "association / ligue civique",
+    "lit": "union volontaire d'alliés sous un même serment",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant la confédération jurée unissant les bourgeois des premières villes libres."
+  },
+  "Kommune": {
+    "fr": "commune médiévale / municipe autonome",
+    "lit": "association municipale libre de citadins confédérés",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant les villes franches médiévales émancipées du ban seigneurial."
+  },
+  "unabhängig": {
+    "fr": "indépendant",
+    "lit": "qui ne dépend d'aucun maître extérieur",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant les républiques urbaines italiennes (Venise, Gênes, Florence) affranchies de toute suzeraineté féodale."
+  },
+  "städtisch": {
+    "fr": "urbain / municipal",
+    "lit": "relatif à la cité fortifiée ou à la ville",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif caractérisant le berceau géographique municipal de la bourgeoisie en contraste avec le monde rural féodal."
+  },
+  "Republik": {
+    "fr": "république",
+    "lit": "chose publique, gouvernement civique sans monarque",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant les cités marchandes gouvernées par des magistrats civils sans prince."
+  },
+  "steuerpflichtig": {
+    "fr": "taillable / assujetti à l'impôt",
+    "lit": "astreint par devoir fiscal à la taxe royale",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant le Tiers État roturier en France qui supportait l'essentiel de la fiscalité royale."
+  },
+  "Monarchie": {
+    "fr": "monarchie",
+    "lit": "gouvernement exercé par un seul souverain",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant le régime royal centralisateur médiéval et d'Ancien Régime."
+  },
+  "ständisch": {
+    "fr": "d'états / d'ordres féodaux",
+    "lit": "fondé sur la division corporative en ordres privilégiés",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif désignant les monarchies où le pouvoir royal devait composer avec les assemblées d'états (noblesse, clergé, tiers)."
+  },
+  "absolut": {
+    "fr": "absolu",
+    "lit": "délié de toute entrave légale ou coutumière",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant les monarchies centralisées des XVIIe-XVIIIe siècles s'appuyant sur la bourgeoisie contre les barons."
+  },
+  "erkämpfen": {
+    "fr": "conquérir de haute lutte / arracher par le combat",
+    "lit": "obtenir au terme d'un combat acharné",
+    "pos_fr": "Verbe inséparable faible",
+    "role": "Verbe d'action soulignant la nature révolutionnaire violente de la conquête du pouvoir par la bourgeoisie."
+  },
+  "Herstellung": {
+    "fr": "établissement / instauration / création",
+    "lit": "action de poser debout et mettre sur pied durablement",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin d'action désignant la mise en place matérielle de l'industrie et du marché mondial."
+  },
+  "ausschließlich": {
+    "fr": "exclusif / sans partage",
+    "lit": "qui exclut tout tiers, monopole absolu",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif marquant le monopole politique total conquis par la bourgeoisie dans l'État représentatif contemporain."
+  },
+  "gemeinschaftlich": {
+    "fr": "commun / collectif",
+    "lit": "qui appartient à la collectivité partagée de tous les membres",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif désignant les intérêts de classe généraux de la bourgeoisie au-delà de la concurrence individuelle."
+  },
+  "Geschäft": {
+    "fr": "affaire / transaction / occupation lucrative",
+    "lit": "occupation créée, besogne d'intérêt économique",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre désignant les intérêts marchands et capitalistes gérés par l'État bourgeois."
+  },
+  "patriarchalisch": {
+    "fr": "patriarcal",
+    "lit": "fondé sur l'autorité absolue du père de famille et du suzerain",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant les relations précapitalistes d'autorité paternelle et bienveillante feinte liant maîtres et serfs."
+  },
+  "idyllisch": {
+    "fr": "idyllique",
+    "lit": "champêtre, d'une douceur rustique et naïve",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif ironique fustigeant la description enjolivée des campagnes d'Ancien Régime par les romantiques."
+  },
+  "Verhältnis": {
+    "fr": "rapport / relation sociale / condition",
+    "lit": "manière réciproque de se comporter et de se situer face à autrui",
+    "pos_fr": "Nom neutre",
+    "role": "Concept matérialiste majeur désignant les liens sociaux objectifs déterminés par le mode de production."
+  },
+  "zerstören": {
+    "fr": "détruire / anéantir",
+    "lit": "disloquer en morceaux, ravager de fond en comble",
+    "pos_fr": "Verbe inséparable faible",
+    "role": "Verbe destructif décrivant le travail historique de sape de la bourgeoisie contre l'ensemble des traditions féodales."
+  },
+  "Mensch": {
+    "fr": "l'homme / être humain",
+    "lit": "être humain mortel membre de l'humanité",
+    "pos_fr": "Nom masculin",
+    "role": "Nom masculin générique désignant les individus atomisés dont tous les liens de communauté sont dissous par le marché."
+  },
+  "natürlich": {
+    "fr": "naturel",
+    "lit": "conforme à la nature native, inné",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif ironique dénonçant la prétention de l'aristocratie à incarner une supériorité biologique naturelle."
+  },
+  "knüpfen": {
+    "fr": "nouer / lier / attacher",
+    "lit": "lier par des nœuds serrés",
+    "pos_fr": "Verbe faible",
+    "role": "Verbe décrivant les liens personnels et affectifs artificiels qui ligotaient le serf à son maître féodal."
+  },
+  "unbarmherzig": {
+    "fr": "sans pitié / impitoyable",
+    "lit": "dépourvu de cœur miséricordieux",
+    "pos_fr": "Adjectif / Adverbe",
+    "role": "Adverbe soulignant la violence inexorable avec laquelle le capital brise les coutumes et solidarités anciennes."
+  },
+  "zerreißen": {
+    "fr": "déchirer en morceaux / rompre brutalement",
+    "lit": "lacérer, fendre avec violence en lambeaux",
+    "pos_fr": "Verbe fort inséparable",
+    "role": "Verbe fort inséparable exprimant la dislocation radicale de l'ordre social médiéval par la marchandise."
+  },
+  "Band": {
+    "fr": "lien / attache",
+    "lit": "ce qui lie, corde, chaîne morale ou servile",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre désignant la relation sociale liant les hommes entre eux, réduite désormais au seul argent liquide."
+  },
+  "übriglassen": {
+    "fr": "laisser subsister / laisser de reste",
+    "lit": "laisser en surplus, conserver en reste",
+    "pos_fr": "Verbe séparable fort",
+    "role": "Verbe décrivant l'appauvrissement radical des liens humains réduits par la bourgeoisie au seul intérêt monétaire."
+  },
+  "nackt": {
+    "fr": "nu / froid",
+    "lit": "dénudé, sans vêtements ni parure protectrice",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif métaphorique qualifiant l'intérêt économique dépouillé de toute justification religieuse ou morale."
+  },
+  "Interesse": {
+    "fr": "intérêt / profit lucratif",
+    "lit": "ce qui importe, gain pécuniaire",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre désignant le mobile unique et sans masque qui commande l'ensemble de la société bourgeoise."
+  },
+  "gefühllos": {
+    "fr": "insensible / sans cœur / froid",
+    "lit": "dépourvu de tout sentiment ou émotion humaine",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif privatif qualifiant la rigueur arithmétique et glaciale de la transaction marchande."
+  },
+  "fromm": {
+    "fr": "pieux / dévot",
+    "lit": "vaillant, loyal, puis soumis à Dieu",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif décrivant la dévotion et l'obéissance chrétienne des masses féodales."
+  },
+  "ritterlich": {
+    "fr": "chevaleresque",
+    "lit": "propre au chevalier et noble cavalier d'armes",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif caractérisant l'idéal nobiliaire d'honneur militaire, de bravoure et de fidélité au suzerain."
+  },
+  "egoistisch": {
+    "fr": "égoïste",
+    "lit": "centré exclusivement sur son propre moi et profit",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant le principe individualiste bourgeois de maximisation du gain aux dépens d'autrui."
+  },
+  "Berechnung": {
+    "fr": "calcul / estimation chiffrée",
+    "lit": "compte arithmétique rigoureux des coûts et bénéfices",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant la rationalité comptable marchande qui subordonne toute décision au taux de profit."
+  },
+  "persönlich": {
+    "fr": "personnel",
+    "lit": "relatif à la personne humaine individuelle",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant la dignité propre de l'être humain que le capital transforme en marchandise tarifée."
+  },
+  "Würde": {
+    "fr": "dignité / valeur morale",
+    "lit": "valeur intrinsèque inestimable d'une personne",
+    "pos_fr": "Nom féminin",
+    "role": "Concept éthique kantien par excellence (la dignité au-dessus de tout prix), que le capitalisme liquide dans le prix de marché."
+  },
+  "auflösen": {
+    "fr": "dissoudre / liquéfier / décomposer",
+    "lit": "délier les liens solides pour transformer en solution liquide",
+    "pos_fr": "Verbe séparable faible",
+    "role": "Verbe chimique et dialectique décrivant la transmutation brutale de toutes les qualités morales en argent abstrait."
+  },
+  "zahllos": {
+    "fr": "innombrable / sans nombre",
+    "lit": "dépourvu de compte mesurable, trop nombreux pour être compté",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif privatif qualifiant la profusion de coutumes, règlements et franchises locales de la féodalité."
+  },
+  "Freiheit": {
+    "fr": "liberté / franchise corporative",
+    "lit": "condition d'homme libre, immunité légale",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin dont le pluriel sous l'Ancien Régime désignait les privilèges particuliers et franchises d'ordres."
+  },
+  "Wort": {
+    "fr": "mot / parole",
+    "lit": "unité lexicale de parole formulée",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre employé dans l'incise rhétorique « mit einem Wort » pour résumer d'un seul trait l'essence de la transformation bourgeoise."
+  },
+  "religiös": {
+    "fr": "religieux",
+    "lit": "relatif à la foi et au culte divin",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif désignant les représentations sacrées qui servaient d'alibi moral à l'exploitation féodale."
+  },
+  "Illusion": {
+    "fr": "illusion / fausse apparence",
+    "lit": "tromperie de l'esprit, jeu d'apparences fallacieuses",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant chez Marx les fictions idéologiques par lesquelles une société masquait la réalité de sa domination."
+  },
+  "revolutionieren": {
+    "fr": "révolutionner / transformer radicalement",
+    "lit": "bouleverser de fond en comble en provoquant une rupture",
+    "pos_fr": "Verbe faible",
+    "role": "Verbe marquant le saut qualitatif matériel opéré par le machinisme automatique sur la production."
+  },
+  "ausreichen": {
+    "fr": "suffire / être suffisant",
+    "lit": "tendre le bras jusqu'à la mesure requise",
+    "pos_fr": "Verbe séparable faible",
+    "role": "Verbe à particule décrivant l'incapacité objective des anciens ateliers à honorer l'immensité de la demande mondiale."
+  },
+  "steigen": {
+    "fr": "monter / s'accroître",
+    "lit": "gravir un échelon vers le haut",
+    "pos_fr": "Verbe fort",
+    "role": "Verbe fort décrivant l'escalade constante des besoins marchands sous l'impulsion de l'expansion coloniale."
+  },
+  "wachsen": {
+    "fr": "croître / s'agrandir",
+    "lit": "augmenter en volume physique et organique",
+    "pos_fr": "Verbe fort",
+    "role": "Verbe fort décrivant l'expansion continue et irrésistible de l'espace commercial mondial."
+  },
 };
 
 /**

@@ -186,4 +186,28 @@ export const PHILOSOPHY_NOTES: Record<string, PhilosophyNoteData> = {
     context: "Marx met en lumière le matérialisme historique spatial : la bourgeoisie moderne n'est pas née dans les palais princiers, mais aux marges physiques et économiques de la féodalité, par l'émancipation commerciale d'anciens serfs fugitifs.",
     furtherReading: "Max Weber, « La Ville » (1921) sur la typologie des citoyennetés urbaines médiévales.",
   },
+  weltmarkt: {
+    title: "Le Marché mondial (der Weltmarkt) et l'unification planétaire du capital",
+    termDe: 'Weltmarkt',
+    termFr: 'marché mondial',
+    content: "Pour Marx, le « Weltmarkt » n'est pas simplement une extension géographique du commerce extérieur, mais le résultat et la condition même du mode de production capitaliste. En reliant les continents par la vapeur, la navigation transatlantique et les voies ferrées, la grande industrie brise l'étroitesse corporative et provinciale, subordonnant l'ensemble des échanges à la loi de la valeur.",
+    context: "Le Manifeste montre comment la découverte de l'Amérique et la circumnavigation de l'Afrique ont préparé ce marché mondial que la grande industrie a achevé d'ériger en puissance universelle.",
+    furtherReading: "Karl Marx, « Grundrisse » (1857-1858) sur la tendance du capital à créer le marché mondial.",
+  },
+  repraesentativstaat: {
+    title: "L'État représentatif moderne (der moderne Repräsentativstaat)",
+    termDe: 'Repräsentativstaat / Staatsgewalt',
+    termFr: 'État représentatif / pouvoir d\'État',
+    content: "Dans l'une des formules politiques les plus célèbres du Manifeste, Marx déconstruit l'illusion d'un État neutre ou arbitre au-dessus de la société : « Die moderne Staatsgewalt ist nur ein Ausschuß, der die gemeinschaftlichen Geschäfte der ganzen Bourgeoisklasse verwaltet » (Le pouvoir exécutif moderne n'est qu'un comité qui gère les affaires communes de toute la classe bourgeoise). Les institutions représentatives consacrent juridiquement la domination économique du capital.",
+    context: "En 1848, face aux illusions républicaines bourgeoises, Marx souligne que l'État constitutionnel moderne organise les intérêts généraux de la classe dominante.",
+    furtherReading: "Karl Marx, « Le 18 Brumaire de Louis Bonaparte » (1852) ; Friedrich Engels, « L'Origine de la famille, de la propriété privée et de l'État » (1884).",
+  },
+  tauschwert: {
+    title: "La Valeur d'échange (der Tauschwert) et la déchéance des liens humains",
+    termDe: 'Tauschwert / bare Zahlung',
+    termFr: 'valeur d\'échange / paiement au comptant',
+    content: "Marx analyse la dynamique corrosive de la bourgeoisie : elle a « dissous la dignité personnelle dans la valeur d'échange » (hat die persönliche Würde in den Tauschwert aufgelöst) et substitué au faisceau des libertés coutumières l'unique liberté du commerce. Tout rapport humain se trouve désormais réduit au froid « paiement au comptant » (die bare Zahlung), substituant à l'exploitation masquée par la religion une exploitation directe, ouverte et sans fard.",
+    context: "Ce passage préfigure l'analyse du fétichisme de la marchandise et de la réification qui sera déployée dans le Livre I du « Capital » (1867).",
+    furtherReading: "Karl Marx, « Le Capital », Livre I, Section 1, chapitre 4 (« Le caractère fétiche de la marchandise »).",
+  },
 };

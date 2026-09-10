@@ -35,6 +35,9 @@ const PHILOSOPHY_NOTE_PLACEMENTS: Record<string, (keyof typeof PHILOSOPHY_NOTES)
   'ch1_p4': ['bourgeoisie', 'aufhebung'],
   'ch1_p5': ['proletariat'],
   'ch1_p6': ['pfahlbuerger'],
+  'ch1_p10': ['weltmarkt'],
+  'ch1_p12': ['repraesentativstaat'],
+  'ch1_p14': ['tauschwert'],
 };
 
 export const TextReader: React.FC<TextReaderProps> = ({

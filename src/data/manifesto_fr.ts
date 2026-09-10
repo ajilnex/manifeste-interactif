@@ -51,5 +51,35 @@ export const frenchTranslation: Record<string, string[]> = {
     "L'ancien mode d'exploitation féodal ou corporatif de l'industrie ne suffisait plus aux besoins qui croissaient avec les nouveaux marchés.",
     "La manufacture prit sa place.",
     "Les maîtres de jurande furent refoulés par la classe moyenne industrielle; la division du travail entre les différentes corporations céda la place à la division du travail au sein de l'atelier même."
+  ],
+
+'ch1_p9': [
+    "Mais les marchés s'agrandissaient sans cesse : les besoins s'accroissaient toujours.",
+    "La manufacture, elle-même, ne suffisait plus.",
+    "Alors la vapeur et la machine révolutionnèrent la production industrielle.",
+    "La grande industrie moderne supplanta la manufacture ; la classe moyenne industrielle céda la place aux millionnaires de l'industrie, aux chefs de véritables armées industrielles, aux bourgeois modernes."
+  ],
+  'ch1_p10': [
+    "La grande industrie a créé le marché mondial, préparé par la découverte de l'Amérique.",
+    "Le marché mondial a donné un essor prodigieux au commerce, à la navigation, aux voies de communication par terre.",
+    "Ce développement a réagi à son tour sur l'extension de l'industrie ; et, au fur et à mesure que l'industrie, le commerce, la navigation, les chemins de fer se développaient, la bourgeoisie grandissait, décuplait ses capitaux et reléguait à l'arrière-plan toutes les classes léguées par le moyen âge."
+  ],
+  'ch1_p11': [
+    "La bourgeoisie moderne, nous le voyons, est elle-même le produit d'un long développement, d'une série de révolutions dans les modes de production et d'échange."
+  ],
+  'ch1_p12': [
+    "Chaque étape de l'évolution parcourue par la bourgeoisie s'accompagnait d'un progrès politique correspondant.",
+    "Ordre opprimé sous le pouvoir des seigneurs féodaux, association armée s'administrant elle-même dans la commune, ici république urbaine indépendante, là tiers état taillable et corvéable de la monarchie, puis, durant la période manufacturière, contrepoids de la noblesse dans les monarchies féodales ou absolues, pierre angulaire des grandes monarchies en général, la bourgeoisie, depuis l'établissement de la grande industrie et du marché mondial, s'est enfin emparée de la souveraineté politique exclusive dans l'État représentatif moderne.",
+    "Le gouvernement moderne n'est qu'un comité qui gère les affaires communes de la classe bourgeoise tout entière."
+  ],
+  'ch1_p13': [
+    "La bourgeoisie a joué dans l'histoire un rôle éminemment révolutionnaire."
+  ],
+  'ch1_p14': [
+    "Partout où elle a conquis le pouvoir, elle a foulé aux pieds les relations féodales, patriarcales et idylliques.",
+    "Tous les liens bariolés qui unissaient l'homme féodal à ses supérieurs naturels, elle les a brisés sans pitié pour ne laisser subsister d'autre lien, entre l'homme et l'homme, que le froid intérêt, les dures exigences du « paiement au comptant ».",
+    "Elle a noyé les frissons sacrés de l'extase religieuse, de l'enthousiasme chevaleresque, de la sentimentalité petite-bourgeoise dans les eaux glacées du calcul égoïste.",
+    "Elle a dissous la dignité de la personne dans la valeur d'échange et substitué aux innombrables libertés reconnues et chèrement acquises l'unique et impitoyable liberté du commerce.",
+    "En un mot, à la place de l'exploitation que masquaient les illusions religieuses et politiques, elle a mis une exploitation ouverte, éhontée, directe, brutale."
   ]
 };
