@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500;1,6..72,600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Bauhaus / Modernist Architectural Palette */
+  --color-canvas: #F7F7F4;
+  --color-canvas-pure: #FFFFFF;
+  --color-canvas-subtle: #EFEFEA;
+  --color-canvas-dark: #121212;
+
+  --color-ink: #111111;
+  --color-ink-muted: #555552;
+  --color-ink-faint: #8E8E88;
+
+  --color-border-stark: #111111;
+  --color-border-subtle: #D8D8D2;
+  --color-border-faint: #E8E8E2;
+
+  /* Bauhaus Primaries */
+  --color-bauhaus-red: #D42B1E;
+  --color-bauhaus-blue: #0E47A1;
+  --color-bauhaus-yellow: #F2C94C;
+
+  /* Typographic Hierarchy */
+  --font-reading: 'Newsreader', Garamond, 'EB Garamond', Georgia, serif;
+  --font-bauhaus: 'Space Grotesk', -apple-system, system-ui, sans-serif;
+  --font-mono: 'Space Mono', 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Base typographic reset for supreme legibility */
+html {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-reading);
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Brutalist selection */
+::selection {
+  background-color: var(--color-ink);
+  color: var(--color-canvas);
+}
+
+/* Architectural typography classes */
+.font-bauhaus {
+  font-family: var(--font-bauhaus);
+}
+
+.font-reading {
+  font-family: var(--font-reading);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Interactive word styling - strictly functional, zero AI fluff */
+.word-interactive {
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.1s ease, color 0.1s ease;
+  border-radius: 1px;
+  padding: 0 1px;
+}
+
+.word-interactive:hover {
+  background-color: var(--color-ink);
+  color: var(--color-canvas-pure);
+}
+
+.word-interactive.word-locked {
+  outline: 2px solid var(--color-border-stark);
+  background-color: var(--color-canvas-pure);
+  box-shadow: 2px 2px 0 0 var(--color-border-stark);
+}
+
+/* POS color coding when grammar mode is active: functional, high-contrast Bauhaus tints */
+.grammar-colors .word-noun {
+  background-color: rgba(14, 71, 161, 0.08);
+  border-bottom: 2px solid var(--color-bauhaus-blue);
+  color: #0A3273;
+}
+.grammar-colors .word-noun:hover {
+  background-color: var(--color-bauhaus-blue);
+  color: #FFFFFF;
+}
+
+.grammar-colors .word-verb {
+  background-color: rgba(212, 43, 30, 0.08);
+  border-bottom: 2px solid var(--color-bauhaus-red);
+  color: #9E1F14;
+}
+.grammar-colors .word-verb:hover {
+  background-color: var(--color-bauhaus-red);
+  color: #FFFFFF;
+}
+
+.grammar-colors .word-adj,
+.grammar-colors .word-adv {
+  background-color: rgba(30, 100, 60, 0.08);
+  border-bottom: 2px solid #1E643C;
+  color: #164E2E;
+}
+.grammar-colors .word-adj:hover,
+.grammar-colors .word-adv:hover {
+  background-color: #164E2E;
+  color: #FFFFFF;
+}
+
+.grammar-colors .word-art,
+.grammar-colors .word-pron {
+  background-color: rgba(180, 130, 20, 0.08);
+  border-bottom: 2px solid #8A650F;
+  color: #6E500A;
+}
+.grammar-colors .word-art:hover,
+.grammar-colors .word-pron:hover {
+  background-color: #8A650F;
+  color: #FFFFFF;
+}
+
+.grammar-colors .word-prep,
+.grammar-colors .word-conj,
+.grammar-colors .word-part {
+  background-color: rgba(90, 90, 90, 0.08);
+  border-bottom: 2px dotted #555555;
+  color: #333333;
+}
+.grammar-colors .word-prep:hover,
+.grammar-colors .word-conj:hover,
+.grammar-colors .word-part:hover {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.grammar-colors .word-punct {
+  color: var(--color-ink-faint);
+  cursor: default;
+}
+
+/* Tooltip container styles - Modernist Box Model */
+.tooltip-container {
+  z-index: 9999;
+  max-width: 420px;
+  min-width: 300px;
+}
+
+.tooltip-container .tooltip-content {
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-border-stark);
+  box-shadow: 4px 4px 0 0 var(--color-border-stark);
+  border-radius: 0;
+  padding: 16px;
+  font-family: var(--font-sans);
+}
+
+.tooltip-locked .tooltip-content {
+  border: 2px solid var(--color-border-stark);
+  box-shadow: 6px 6px 0 0 var(--color-border-stark);
+}
+
+/* Excursus & Editorial Modules */
+.excursus-panel {
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-border-stark);
+  box-shadow: 3px 3px 0 0 var(--color-border-stark);
+}
+
+/* Scrollbar - Brutalist & Thin */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-canvas);
+  border-left: 1px solid var(--color-border-faint);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-stark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-muted);
+}

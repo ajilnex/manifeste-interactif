@@ -1,0 +1,4937 @@
+import type { Annotation } from '../types';
+
+export const annotations: Record<string, Annotation> = {
+  "ch0_p1_s1_w1": {
+    "wordId": "ch0_p1_s1_w1",
+    "translationFr": "Un",
+    "literalTranslation": "Un (article indéfini neutre)",
+    "contextNote": "Ouvre le texte par un article indéfini qui installe une tonalité d'irruption soudaine et d'indétermination menaçante avant la précision nominale.",
+    "grammaticalRole": "Article indéfini neutre singulier au nominatif (ein), déterminant du nom neutre « Gespenst ».",
+    "syntaxNote": "Première position syntaxique du groupe nominal sujet.",
+    "relatedConcepts": [
+      "indef_art",
+      "nom"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p1_s1_w2": {
+    "wordId": "ch0_p1_s1_w2",
+    "translationFr": "spectre / fantôme",
+    "literalTranslation": "apparition fantomatique, spectre, revenant terrifiant",
+    "contextNote": "Marx s'empare du lexique de la terreur panique employé par les chancelleries européennes. Au lieu de nier l'accusation, il assume et magnifie cette figure spectrale qui obsède les monarques.",
+    "grammaticalRole": "Nom neutre (das Gespenst), ici au nominatif singulier. Sujet grammatical de la première proposition.",
+    "etymology": "Issu du moyen haut-allemand « gespenst(e) » (illusion diabolique, apparition trompeuse, fantôme), lui-même issu du vieux haut-allemand « gispansti / spanst » (séduction, tentation, égarement par ruse ou leurre démoniaque), déverbal du verbe fort « spanan » (attirer, séduire, tenter). En allemand médiéval, le Gespenst n'est pas un simple revenant, mais un piège démoniaque destiné à fourvoyer les âmes (étymon conservé dans l'adjectif « abspenstig » = détourné de son devoir). C'est seulement au XVIe siècle que le terme se fixe au sens moderne d'apparition spectrale terrifiante.",
+    "philosophicalContext": "Jacques Derrida (« Spectres de Marx », 1993) a montré la force de cette spectralité : le communisme n'est pas encore un État ni une armée officielle, mais il hante déjà l'Europe comme la mauvaise conscience et l'imminence du dépassement de la société bourgeoise.",
+    "relatedConcepts": [
+      "gespenst",
+      "nom"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p1_s1_w3": {
+    "wordId": "ch0_p1_s1_w3",
+    "translationFr": "hante / rôde",
+    "literalTranslation": "circule autour, erre, hante (littéralement : va à la ronde)",
+    "contextNote": "En allemand, la locution impersonnelle « ein Geist geht um » signifie au sens propre « un fantôme hante les lieux ». Traduire par « hante » restitue parfaitement cette présence obsédante qui défie les frontières étatiques.",
+    "grammaticalRole": "Verbe à particule séparable (um|gehen), ici à la 3e personne du singulier de l'indicatif présent. Le radical « geht » est en 2e position syntaxique.",
+    "wordIds": [
+      "ch0_p1_s1_w3",
+      "ch0_p1_s1_w4"
+    ],
+    "etymology": "Verbe composé séparable unissant le préfixe adverbial germanique « um » (en cercle, alentour, issu du vieux haut-allemand « umbi », racine indo-européenne *ambʰi « des deux côtés, autour », cognat du grec amphi / ἀμφί et du latin ambi-) et le verbe fort « gehen » (marcher, errer, vieux haut-allemand « gān / gēn », racine germanique *gānan). En moyen haut-allemand, la locution impersonnelle « umbegān » acquiert le sens spectral spécifique de « hanter, rôder sans repos », propre aux revenants errant entre les mondes.",
+    "syntaxNote": "Règle fondamentale V2 : le radical verbal conjugué occupe la position 2, tandis que la particule « um » est repoussée après le sujet pour clore le verbe.",
+    "relatedConcepts": [
+      "sep_verb",
+      "v2",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s1_w6": {
+    "wordId": "ch0_p1_s1_w6",
+    "translationFr": "Europe",
+    "literalTranslation": "Europe (continent géographique)",
+    "contextNote": "L'absence d'article devant les noms de continents après « in » est la norme en allemand.",
+    "grammaticalRole": "Nom propre neutre singulier, employé sans article après la préposition spatiale « in » (qui régit ici le datif de localisation statique).",
+    "etymology": "Du grec ancien « Eurṓpē » (Εὐρώπη), personnage mythologique (princesse phénicienne enlevée par Zeus métamorphosé en taureau blanc). Étymon discuté par les linguistes : traditionnellement rattaché au grec « eurys » (εὐρύς = large, étendu) et « ōps » (ὤψ = regard, œil, face, d'où « celle qui a de grands yeux »), ou plus vraisemblablement d'origine sémitique phénicienne (*'ereb* = le couchant, l'occident, par opposition à *asu* / le levant, l'Asie). Pour Marx, l'Europe de 1848 désigne le théâtre historique où s'affrontent la Sainte-Alliance monarchique et l'émancipation prolétarienne.",
+    "cognatesFr": [
+      "Europe"
+    ],
+    "relatedConcepts": [
+      "dat"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p1_s1_w9": {
+    "wordId": "ch0_p1_s1_w9",
+    "translationFr": "le spectre",
+    "literalTranslation": "le spectre (nom déterminé par l'article défini)",
+    "contextNote": "Répétition anaphorique martelée : le spectre indéfini de la première partie de phrase (« Ein Gespenst ») est maintenant identifié et défini sans équivoque (« das Gespenst »).",
+    "grammaticalRole": "Nom neutre singulier (das Gespenst) au nominatif, en apposition explicative au sujet initial.",
+    "philosophicalContext": "La répétition souligne le basculement d'une vague peur diffuse à la désignation explicite du communisme moderne.",
+    "relatedConcepts": [
+      "gespenst",
+      "def_art",
+      "nom"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s1_w11": {
+    "wordId": "ch0_p1_s1_w11",
+    "translationFr": "du communisme",
+    "literalTranslation": "du communisme (complément déterminatif au génitif)",
+    "contextNote": "Nom masculin terminé par le suffixe savant gréco-latin -us, qui ne prend pas la désinence -es habituelle au génitif masculin.",
+    "grammaticalRole": "Nom masculin (der Kommunismus) au génitif singulier, précédé de l'article défini masculin au génitif « des ».",
+    "etymology": "Emprunt savant au latin classique « communis » (partagé, public, universel, composé de « com- » = ensemble et de l'adjectif archaïque « *munis » = qui s'acquitte de sa charge civique, racine de *munus* / charge, office). Le terme politique moderne « communisme » a été forgé en France vers 1840 au sein des sociétés secrètes révolutionnaires néo-babouvistes (notamment par Théodore Dézamy et Étienne Cabet) avant d'être transposé en allemand par les émigrés de la Ligue des justes.",
+    "philosophicalContext": "Chez Marx et Engels, le communisme ne désigne pas un état de choses à créer ou un idéal moral, mais « le mouvement réel qui abolit l'état actuel des choses » (L'Idéologie allemande, 1845).",
+    "cognatesFr": [
+      "communisme",
+      "commun",
+      "commune",
+      "communauté"
+    ],
+    "relatedConcepts": [
+      "gen",
+      "communism",
+      "latin_root"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p1_s2_w2": {
+    "wordId": "ch0_p1_s2_w2",
+    "translationFr": "puissances",
+    "literalTranslation": "forces souveraines, puissances politiques ou militaires",
+    "contextNote": "Désigne au sens géopolitique les grands États coalisés (Autriche, Russie, Prusse, France, Angleterre).",
+    "grammaticalRole": "Nom féminin pluriel (die Macht -> die Mächte) au nominatif. Forme son pluriel par flexion interne (Umlaut a->ä) et ajout d'un -e final.",
+    "etymology": "Issu du moyen haut-allemand « maht / macht », vieux haut-allemand « maht » (force physique, pouvoir d'action, autorité souveraine), de la racine germanique commune *mahti- (« capacité, puissance »), elle-même issue de la racine indo-européenne *magh- (« pouvoir, être capable », qui a aussi produit le verbe prétérito-présent « mögen » / vieux haut-allemand « magan »). Cognat étymologique exact du vieil anglais « meaht » et de l'anglais moderne « might ».",
+    "philosophicalContext": "Marx prépare le contraste dialectique : toutes les puissances d'État reconnues tremblent devant une entité qui ne possède encore aucun appareil d'État.",
+    "relatedConcepts": [
+      "plural",
+      "nom"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s2_w4": {
+    "wordId": "ch0_p1_s2_w4",
+    "translationFr": "de la vieille",
+    "literalTranslation": "vieux, antique, d'autrefois (adjectif au génitif faible)",
+    "contextNote": "La « vieille Europe » renvoie aux monarchies vermoulues issues du Congrès de Vienne (1815) et à l'ordre féodal agonisant.",
+    "grammaticalRole": "Adjectif qualificatif (alt) décliné au génitif neutre singulier (flexion faible en -en après le déterminant défini « des »).",
+    "relatedConcepts": [
+      "decl",
+      "gen"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s2_w10": {
+    "wordId": "ch0_p1_s2_w10",
+    "translationFr": "sainte",
+    "literalTranslation": "saint, sacré, consacré religieusement",
+    "contextNote": "Lafargue traduit « en une Sainte-Alliance pour traquer ». En allemand, « zu einer heiligen Hetzjagd » qualifie directement la battue de « sainte », parodiant l'appellation mystique de la Sainte-Alliance de 1815.",
+    "grammaticalRole": "Adjectif (heilig) décliné au datif féminin singulier après l'article indéfini « einer » (flexion mixte en -en).",
+    "philosophicalContext": "Sarcasme anti-religieux mordant : les monarques habillent leur répression policière du manteau de la sainteté théologique.",
+    "relatedConcepts": [
+      "decl",
+      "dat",
+      "holy_alliance"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s2_w11": {
+    "wordId": "ch0_p1_s2_w11",
+    "translationFr": "traque / battue / chasse acharnée",
+    "literalTranslation": "chasse à courre avec meute de chiens excités, battue impitoyable",
+    "contextNote": "Mot très dur du registre de la vénerie. Hetzen signifie lancer les chiens et traquer la bête sans lui laisser de répit. Lafargue a traduit par « pour traquer ce spectre » afin de conserver le dynamisme de la chasse.",
+    "grammaticalRole": "Nom composé féminin (die Hetzjagd), au datif singulier après la préposition « zu » indiquant ici le but de la coalition.",
+    "etymology": "Composé cynégétique associant : 1° « hetzen » (MHA « hetzen », VHA « hezzen »), formation causative germanique (*hatjanan) rattachée au verbe « hassen » (vieux haut-allemand « hazzōn », racine germanique commune *hataz « haine ») signifiant originellement « exciter à la haine, lancer les meutes de chiens aux trousses de la bête pour la traquer » ; 2° « die Jagd » (MHA « jaget », VHA « jagōd », déverbal de jagōn = chasser, poursuivre à vive allure). Marx détourne sarcastiquement le vocabulaire de la vénerie aristocratique pour dépeindre la Sainte-Alliance comme une meute de veneurs lancée aux trousses du spectre communiste.",
+    "philosophicalContext": "Marx dénonce la sauvagerie bestiale des gouvernements qui traitent les militants politiques comme du gibier traqué par des meutes policières.",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat",
+      "comp_word"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p1_s2_w13": {
+    "wordId": "ch0_p1_s2_w13",
+    "translationFr": "ce",
+    "literalTranslation": "ce / cet (forme archaïque ou stylisée pour dieses)",
+    "contextNote": "En prose du XIXe siècle, « dies » est couramment employé pour « dieses » au neutre accusatif singulier devant nom.",
+    "grammaticalRole": "Pronom démonstratif neutre singulier à l'accusatif régi par la préposition « gegen ».",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s2_w15": {
+    "wordId": "ch0_p1_s2_w15",
+    "translationFr": "se sont coalisées / unies",
+    "literalTranslation": "se sont liées en alliance (au parfait avec sich)",
+    "contextNote": "Ironie linguistique magistrale : Marx utilise « sich verbünden » (se liguer) pour décrire les monarques, alors que les communistes forment précisément la « Ligue » (der Bund der Kommunisten).",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe pronominal « sich verbünden », formant le parfait (passé composé) avec l'auxiliaire « haben » placé en position 2.",
+    "etymology": "Participe passé du verbe « verbünden », formé du préfixe transitif d'association « ver- » et du substantif « der Bund » (MHA « bunt », VHA « bunt » = alliance, pacte, ligue), lui-même déverbal à l'apophonie (Ablaut) du verbe fort germanique « binden » (lier, attacher, issu de la racine indo-européenne *bʰendʰ- d'où découlent le sanskrit bandha et l'anglais bind / bond). Évoque le pacte juré liant des puissances autrefois rivales contre un ennemi commun.",
+    "syntaxNote": "Cadre syntaxique (Satzklammer) : l'auxiliaire « haben » est en début d'énoncé (pos. 2) et le participe « verbündet » est repoussé à la fin de la proposition principale.",
+    "relatedConcepts": [
+      "v2",
+      "prefix_verb",
+      "comm_league"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p1_s2_w18": {
+    "wordId": "ch0_p1_s2_w18",
+    "translationFr": "le pape",
+    "literalTranslation": "le pape (chef de l'Église catholique romaine)",
+    "contextNote": "Fait référence à Pie IX, qui après quelques réformes initiales en 1846 condamna sans appel toute tentative socialiste.",
+    "grammaticalRole": "Nom masculin singulier (der Papst) au nominatif, premier terme de l'énumération des coalisés.",
+    "etymology": "Emprunt très ancien du vieux haut-allemand « bābest » (attesté au XIe siècle) au latin ecclésiastique « papa » (évêque de Rome), lui-même issu du grec affectueux « pappas » (πάππας = père spirituel vénéré, patriarche). L'adjonction tardive du -t parasite final en haut-allemand s'explique par attraction phonétique et analogique avec les participes passés et superlatifs en -t. Le pape (alors Pie IX) incarne pour Marx le sommet de la réaction théocratique coalisée contre la démocratie populaire.",
+    "cognatesFr": [
+      "pape",
+      "papauté"
+    ],
+    "relatedConcepts": [
+      "nom"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w21": {
+    "wordId": "ch0_p1_s2_w21",
+    "translationFr": "le tsar",
+    "literalTranslation": "le tsar (empereur autocratique de toutes les Russies)",
+    "contextNote": "Nicolas Ier de Russie, surnommé le « gendarme de l'Europe », prêt à envoyer ses cosaques réprimer tout soulèvement populaire.",
+    "grammaticalRole": "Nom masculin singulier (der Zar) au nominatif.",
+    "etymology": "Emprunt au russe « tsar » (царь), issu du vieux slave d'église « cěsari », lui-même emprunté au latin classique « Caesar » (cognomen de Jules César devenu titre impérial romain suprême sous Auguste). L'étymon a été reçu deux fois en territoire germanique : très précocement sous la forme « Kaiser », puis plus tardivement via le monde slave sous la forme « Zar ». Nicolas Ier incarne en 1848 le gendarme absolutiste de l'Europe, garant militaire du statu quo féodal.",
+    "cognatesFr": [
+      "tsar",
+      "tzar",
+      "césarisme"
+    ],
+    "relatedConcepts": [
+      "nom"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w23": {
+    "wordId": "ch0_p1_s2_w23",
+    "translationFr": "Metternich (chancelier autrichien)",
+    "literalTranslation": "Klemens von Metternich (nom propre)",
+    "contextNote": "Chancelier d'État de l'Empire d'Autriche et ordonnateur en chef du système de surveillance et de censure en Europe centrale.",
+    "grammaticalRole": "Nom propre au nominatif.",
+    "philosophicalContext": "Metternich incarne la réaction féodale et aristocratique pure, dont le pouvoir sera brisé à Vienne par la Révolution de mars 1848.",
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w25": {
+    "wordId": "ch0_p1_s2_w25",
+    "translationFr": "Guizot (ministre français)",
+    "literalTranslation": "François Guizot (nom propre)",
+    "contextNote": "Chef du gouvernement français sous Louis-Philippe, célèbre pour sa formule « Enrichissez-vous », qui fit expulser Marx de Paris en 1845 à la demande de l'ambassade prussienne.",
+    "grammaticalRole": "Nom propre au nominatif.",
+    "philosophicalContext": "Guizot représente le bourgeois libéral conservateur, hostile à la fois à l'absolutisme d'Ancien Régime et à toute démocratie populaire.",
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w28": {
+    "wordId": "ch0_p1_s2_w28",
+    "translationFr": "radicaux",
+    "literalTranslation": "les démocrates radicaux républicains",
+    "contextNote": "Adjectif substantivé sans article au pluriel. Désigne l'aile avancée des républicains parlementaires français (ex: Ledru-Rollin).",
+    "grammaticalRole": "Adjectif substantivé masculin pluriel au nominatif sans article (flexion forte en -e).",
+    "etymology": "Emprunt au bas-latin scolastique « radicalis », dérivé de « radix / radicis » (la racine, issu de la racine indo-européenne *wréh₂ds, cognat de l'allemand Wurzel et de l'anglais root). Forgé en Angleterre par Charles James Fox (1797) pour réclamer une « radical reform » du système électoral, le mot désigne en France sous la Monarchie de Juillet les républicains avancés (Ledru-Rollin) qui prétendent refonder l'État jusqu'aux racines, mais que les conservateurs confondent volontiers avec les communistes pour les discréditer.",
+    "philosophicalContext": "Marx note avec ironie que même la gauche républicaine radicale de France partage la frayeur bourgeoise devant l'abolition de la propriété privée.",
+    "cognatesFr": [
+      "radical",
+      "radicaux",
+      "racine"
+    ],
+    "relatedConcepts": [
+      "latin_root"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s2_w31": {
+    "wordId": "ch0_p1_s2_w31",
+    "translationFr": "policiers",
+    "literalTranslation": "agents de police, fonctionnaires de l'appareil policier",
+    "contextNote": "Nom masculin à déclinaison faible (n-Deklination), prenant la désinence -en à tous les cas obliques et au pluriel.",
+    "grammaticalRole": "Nom masculin de la déclinaison faible (der Polizist -> die Polizisten) au nominatif pluriel.",
+    "etymology": "Dérivé moderne avec suffixe d'agent -ist du mot « Polizei », emprunté au bas-latin « politia » et au grec ancien « politeia » (πολιτεία = constitution et gouvernement civique de la cité, de polis / πόλις). En moyen haut-allemand, la « gute Policey » désignait l'ensemble du bon ordre administratif, sanitaire et économique de la principauté, avant de se spécialiser aux XVIIIe-XIXe siècles dans le corps armé d'État chargé de la surveillance et de la répression politique.",
+    "cognatesFr": [
+      "policier",
+      "police"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p2_s1_w4": {
+    "wordId": "ch0_p2_s1_w4",
+    "translationFr": "parti d'opposition",
+    "literalTranslation": "parti d'opposition, formation politique contestataire",
+    "contextNote": "En 1848, le terme « Partei » désignait aussi bien un courant de pensée ou une mouvance d'opinion qu'une organisation partisane formalisée.",
+    "grammaticalRole": "Nom composé féminin (die Oppositionspartei), nominatif singulier sujet du verbe « ist ».",
+    "etymology": "Composé politique unissant : 1° l'emprunt savant au bas-latin « oppositio » (action d'opposer, contradiction dialectique ou parlementaire, du supin oppositum de opponere) ; 2° la consonne de liaison -s- ; 3° le substantif « die Partei », introduit au XVIIe siècle par le français « partie » et issu du latin classique « pars / partis » (part, portion, faction dissidente). Marx met à nu le paradoxe constitutionnel de la monarchie censitaire : toute fraction d'opposition légale est immédiatement criminalisée dès qu'elle menace l'hégémonie de la classe dominante.",
+    "relatedConcepts": [
+      "comp_noun",
+      "latin_root"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w10": {
+    "wordId": "ch0_p2_s1_w10",
+    "translationFr": "au pouvoir / gouvernants",
+    "literalTranslation": "qui gouvernent actuellement (participe présent adjectivé)",
+    "contextNote": "Lafargue traduit élégamment par « ses adversaires au pouvoir ». En allemand, c'est un participe présent employé comme épithète au datif.",
+    "grammaticalRole": "Participe présent adjectivé (regierend) au datif pluriel (flexion faible en -en après le possessif « ihren »).",
+    "etymology": "Participe présent de « regieren », emprunté en moyen haut-allemand au latin classique « regere » (conduire droit, guider, exercer la souveraineté, issu de la racine indo-européenne *h₃reǵ- « étendre en ligne droite », qui a produit rex / roi, Recht / droit, Reich / empire). Désigne chez Marx les tenants exclusifs du monopole exécutif et répressif d'État.",
+    "cognatesFr": [
+      "régir",
+      "régent",
+      "régime"
+    ],
+    "relatedConcepts": [
+      "dat",
+      "latin_root"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w11": {
+    "wordId": "ch0_p2_s1_w11",
+    "translationFr": "adversaires / ennemis",
+    "literalTranslation": "adversaires, opposants (ceux qui se dressent contre)",
+    "contextNote": "Régit un -n final obligatoire au datif pluriel en allemand (Gegner -> Gegnern).",
+    "grammaticalRole": "Nom masculin pluriel (der Gegner -> die Gegner) au datif pluriel après la préposition « von » indiquant l'agent du passif.",
+    "etymology": "Dérivé nominal d'agent formé sur la préposition et adverbe d'orientation spatiale et d'hostilité « gegen » (issu du vieux haut-allemand gagan / gegin = face à, à l'encontre, racine germanique *gagina) combiné au suffixe d'agent germanique « -er ». Désigne textuellement « celui qui se dresse en face, l'antagoniste sur le terrain de lutte ».",
+    "relatedConcepts": [
+      "dat",
+      "plural"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w14": {
+    "wordId": "ch0_p2_s1_w14",
+    "translationFr": "décrié / accusé bruyamment",
+    "literalTranslation": "décrié, diffamé par de grands cris, voué aux gémonies",
+    "contextNote": "Lafargue traduit par « accusée de communisme ». Le verbe allemand « verschreien » contient une charge beaucoup plus violente : c'est salir quelqu'un par la clameur publique.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe fort inséparable « verschreien » (verschreit, verschrie, verschrien). Forme le passif du subjonctif II avec « worden wäre ».",
+    "etymology": "Verbe fort composé du préfixe inséparable à valeur dépréciative et délétère « ver- » et du verbe expressif « schreien » (hurler, proférer des clameurs, du moyen haut-allemand schrīen, vieux haut-allemand skrīan, racine germanique *skrīaną). Littéralement : noyer quelqu'un sous des clameurs diffamatoires pour le jeter en pâture à l'opinion publique et le condamner sans procès.",
+    "syntaxNote": "Structure passive du subjonctif II : verschrien worden wäre (eût été décriée). Rejet des trois verbes en queue de la proposition relative introduite par « die ».",
+    "relatedConcepts": [
+      "sub_clause",
+      "subj_ii",
+      "passive",
+      "prefix_verb"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p2_s1_w16": {
+    "wordId": "ch0_p2_s1_w16",
+    "translationFr": "aurait été / eût été",
+    "literalTranslation": "serait, eût été (auxiliaire sein au subjonctif II)",
+    "contextNote": "Exprime l'irréel du passé dans une interrogation rhétorique signifiant : « Trouvez-moi un seul parti qui n'ait pas subi cela ! »",
+    "grammaticalRole": "3e personne du singulier du subjonctif II (Konjunktiv II) de l'auxiliaire « sein », régissant le participe passif « worden ».",
+    "relatedConcepts": [
+      "subj_ii",
+      "sub_clause"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p2_s2_w7": {
+    "wordId": "ch0_p2_s2_w7",
+    "translationFr": "plus avancés / progressistes",
+    "literalTranslation": "qui ont fait des pas en avant, plus progressistes (comparatif)",
+    "contextNote": "Désigne les courants politiques situés plus à gauche de l'échiquier politique. Lafargue traduit « aux adversaires plus avancés ».",
+    "grammaticalRole": "Adjectif au comparatif de supériorité (fortgeschritten -> fortgeschrittener), décliné au datif pluriel en -en après l'article « den ».",
+    "etymology": "Participe adjectivé au comparatif du verbe fort séparable « fortschreiten » : 1° l'adverbe dynamique « fort » (en avant, au loin, vieux haut-allemand fora / fort) ; 2° le verbe fort « schreiten » (avancer à pas fermes et mesurés, moyen haut-allemand schrīten, vieux haut-allemand scrītan, racine germanique *skrīþaną). Désigne chez Marx les fractions de l'opposition libérale ou républicaine qui s'estiment à l'avant-garde mais capitulent dès que l'ordre bourgeois est contesté à la racine.",
+    "syntaxNote": "Datif d'attribution (COI du verbe zurückschleudern).",
+    "relatedConcepts": [
+      "dat",
+      "decl"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s2_w8": {
+    "wordId": "ch0_p2_s2_w8",
+    "translationFr": "gens de l'opposition / opposants",
+    "literalTranslation": "gens de l'opposition, militants d'opposition",
+    "contextNote": "Le pluriel -leute (Leute = gens) remplace fréquemment -männer dans les composés socio-politiques allemands.",
+    "grammaticalRole": "Nom composé masculin/neutre au datif pluriel (die Oppositionsleute) après l'article « den ».",
+    "etymology": "Composé hybride politico-social associant : 1° « die Opposition », emprunt savant au bas-latin « oppositio » (action de placer en face, antithèse rhétorique et parlementaire, du supin oppositum de opponere) ; 2° le substantif collectif « die Leute » (le peuple, les gens, les personnes), issu du vieux haut-allemand « liuti » et du germanique commun *liudīz (les hommes libres d'une communauté, issu de la racine indo-européenne *h₁leudʰ- « croître, monter », cognat du vieux slave ljudije / peuple, du russe ljudi et du grec eleutheros / libre). Désigne au XIXe siècle les parlementaires et militants engagés dans la contestation des ministères absolutistes.",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s2_w9": {
+    "wordId": "ch0_p2_s2_w9",
+    "translationFr": "tant ... que",
+    "literalTranslation": "aussi bien ... que, tant ... que (conjonction corrélative)",
+    "contextNote": "Forme avec « wie » une locution coordonnante symétrique marquant que l'anathème frappe indistinctement la gauche et la droite.",
+    "grammaticalRole": "Conjonction de coordination corrélative (sowohl ... wie / als auch).",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s2_w12": {
+    "wordId": "ch0_p2_s2_w12",
+    "translationFr": "réactionnaires",
+    "literalTranslation": "réactionnaires, rétrogrades (qui veulent revenir en arrière)",
+    "contextNote": "Qualifie les partisans du statu quo absolutiste et féodal.",
+    "grammaticalRole": "Adjectif qualificatif décliné au datif pluriel en -en après le possessif « ihren ».",
+    "etymology": "Emprunt au français « réactionnaire », forgé sous la Révolution française vers 1795 lors de la Convention thermidorienne après la chute de Robespierre (dérivé de « réaction », du latin médiéval et philosophique reactio, formé sur re- + agere = agir en sens inverse). Introduit en allemand au début du XIXe siècle pour désigner les partisans de la restauration féodale et monarchique.",
+    "cognatesFr": [
+      "réactionnaire",
+      "réaction"
+    ],
+    "relatedConcepts": [
+      "dat",
+      "latin_root"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p2_s2_w15": {
+    "wordId": "ch0_p2_s2_w15",
+    "translationFr": "infamante / flétrissante",
+    "literalTranslation": "marquant au fer rouge, imprimant une marque de flétrissure (participe présent)",
+    "contextNote": "Lafargue traduit par « l'épithète infamante ». En allemand, « brandmarken » est un terme juridique et corporel d'une violence inouïe : c'est appliquer le fer rouge ardent sur la peau d'un criminel pour le marquer à jamais d'infamie.",
+    "grammaticalRole": "Participe présent adjectivé du verbe « brandmarken » (marquer au fer), décliné à l'accusatif masculin singulier en -en après l'article défini « den ».",
+    "etymology": "Composé pénal et corporel verbalisé unissant : 1° « der Brand » (le tison ardent, le fer rougi à blanc au brasier, déverbal fort de brennen = brûler, vieux haut-allemand brant, racine germanique *brannjanan) ; 2° « die Marke » (le stigmate indélébile, la signature d'infamie, du moyen haut-allemand marke, emprunt au vieux francique germanique *marka = signe distinctif, empreinte). Fait référence au supplice juridique de la flétrissure au fer rouge appliqué sous l'Ancien Régime sur la chair vive des suppliciés (la fleur de lys en France). L'accusation de communisme opère dans le discours bourgeois comme un fer rouge cherchant à marquer au corps l'adversaire pour le retrancher de l'humanité respectable.",
+    "philosophicalContext": "Marx démontre que le mot « communiste » sert d'arme de flétrissure universelle : dès qu'un groupe réclame la moindre réforme, ses ennemis lui impriment au fer rouge ce stigmate pour le bannir de la vie politique civile.",
+    "relatedConcepts": [
+      "acc",
+      "decl"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p2_s2_w16": {
+    "wordId": "ch0_p2_s2_w16",
+    "translationFr": "reproche / grief / accusation",
+    "literalTranslation": "ce qu'on jette devant ou à la face de quelqu'un, reproche",
+    "contextNote": "Lafargue traduit « l'épithète infamante de communiste », adaptant « Vorwurf » au registre lexical de l'injure politique.",
+    "grammaticalRole": "Nom masculin (der Vorwurf) à l'accusatif singulier, COD de « zurückgeschleudert hätte ».",
+    "etymology": "Déverbal de « vorwerfen » (moyen haut-allemand vorwerfen, vieux haut-allemand fora-werfan = jeter devant soi). Le substantif « Vorwurf » s'est fixé au XVIIe siècle comme calque morphologique et sémantique rigoureux du latin « obiectio » (de ob- = devant + iacere = jeter). Désigne ce que l'on jette à la figure d'un adversaire lors d'une joute oratoire.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p2_s2_w20": {
+    "wordId": "ch0_p2_s2_w20",
+    "translationFr": "renvoyé / catapulté en retour",
+    "literalTranslation": "lancé en arrière avec force, catapulté violemment à la face",
+    "contextNote": "Lafargue traduit par « renvoyé ». En allemand, « schleudern » implique un jet balistique très brutal (comme une pierre lancée par une fronde, Schleuder). Marx évoque une joute où chacun renvoie à l'autre le projectile incendiaire.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe séparable « zurück|schleudern », associé au subjonctif « hätte ».",
+    "etymology": "Verbe composé expressif associant : 1° l'adverbe directionnel « zurück » (en arrière, retour au point d'origine, contraction de « zu » + « Rücken » = vers le dos) ; 2° le verbe balistique « schleudern » (catapulter, projeter avec violence giratoire), issu du moyen haut-allemand « slūdern » et dérivé de « die Schleuder » (la fronde, l'engin de siège, racine germanique *sludrōn = osciller violemment, tournoyer pour projeter). Métaphore polémique énergique : l'accusation de communisme est assimilée à un projectile incendiaire renvoyé d'une barricade parlementaire à l'autre.",
+    "syntaxNote": "Verbe rejeté en fin de proposition subordonnée relative : le participe passé précède l'auxiliaire haben conjugué (« zurückgeschleudert hätte »).",
+    "relatedConcepts": [
+      "sep_verb",
+      "sub_clause",
+      "subj_ii"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p3_s1_w1": {
+    "wordId": "ch0_p3_s1_w1",
+    "translationFr": "Deux choses / un double enseignement",
+    "literalTranslation": "deux choses de sortes différentes, double élément",
+    "contextNote": "Lafargue traduit par « un double enseignement ». En allemand, le suffixe -erlei exprime la diversité des espèces (cf. allerlei, mancherlei).",
+    "grammaticalRole": "Pronom indéfini neutre invariable marquant une double réalité.",
+    "etymology": "Adjectif numéral indéfini invariable formé sur le génitif cardinal « zwei » (deux, du vieux haut-allemand zweio, racine indo-européenne *dwóh₁) adjoint du suffixe moyen haut-allemand « -erlei » (issu du génitif pluriel des adjectifs fléchis en *-ero-* et du substantif MHA « leie / leye » = manière, espèce, sorte, emprunt médiéval à l'ancien français 'lai' / coutume, façon, d'origine ultime discutée). Signifie textuellement « de deux natures distinctes, double enseignement ».",
+    "syntaxNote": "Occupe la première position de la proposition, entraînant obligatoirement l'inversion sujet-verbe (Verbzweitstellung : geht).",
+    "relatedConcepts": [
+      "v2"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p3_s1_w2": {
+    "wordId": "ch0_p3_s1_w2",
+    "translationFr": "ressort / découle / résulte",
+    "literalTranslation": "sort en s'avançant hors de, émane, résulte",
+    "contextNote": "Verbe séparable indiquant un surgissement visible hors d'un constat matériel.",
+    "grammaticalRole": "Verbe séparable (hervor|gehen) à la 3e personne du singulier au présent de l'indicatif.",
+    "wordIds": [
+      "ch0_p3_s1_w2",
+      "ch0_p3_s1_w6"
+    ],
+    "etymology": "Verbe composé séparable combinant : 1° l'adverbe spatial complexe « hervor » (issu de la préposition her = vers le locuteur + vor = devant, en avant, marquant l'émergence d'un élément dissimulé à la lumière) ; 2° le verbe de base « gehen » (marcher, se mouvoir, vieux haut-allemand gān / gēn, racine germanique *gānan). Utilisé ici au sens logique et dialectique de « résulter avec évidence, se manifester comme conséquence nécessaire d'un fait matériel ».",
+    "syntaxNote": "Cadre verbal : le radical « geht » est en 2e position, la particule « hervor » clôt la proposition (pos. 6).",
+    "relatedConcepts": [
+      "sep_verb",
+      "v2",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p3_s1_w5": {
+    "wordId": "ch0_p3_s1_w5",
+    "translationFr": "fait / réalité matérielle",
+    "literalTranslation": "fait concret, action matérielle avérée",
+    "contextNote": "Nom forgé au XVIIIe siècle pour supplanter l'emprunt latin « Factum ». Marx ancre sa déduction dans les faits objectifs et non dans des spéculations idéales.",
+    "grammaticalRole": "Nom composé féminin (die Tatsache) au datif singulier après la préposition « aus » (régissant obligatoirement le datif).",
+    "etymology": "Calque philosophique forgé au XVIIIe siècle (introduit par Johann Joachim Spalding en 1756, puis popularisé par Johann Gottlieb Fichte et la philosophie critique) pour traduire le latin « factum » : 1° « die Tat » (l'acte accompli, le haut-fait, du vieux haut-allemand tāt, dérivé du verbe tun / agir, racine indo-européenne *dʰē- « poser, faire ») ; 2° « die Sache » (la cause, le litige juridique, puis la chose concrète, du vieux haut-allemand sahha, proto-germanique *sakō « contestation, affaire légale », cognat de l'anglais sake). Exprime le fait matériel concret et indiscutable, par opposition aux spéculations idéales.",
+    "philosophicalContext": "C'est le point de départ matérialiste : Marx n'invente pas l'importance du communisme, il la constate comme un fait social avéré par le comportement même de ses adversaires.",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat",
+      "hist_mat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p4_s1_w3": {
+    "wordId": "ch0_p4_s1_w3",
+    "translationFr": "est reconnu",
+    "literalTranslation": "devient / est (auxiliaire du passif d'action werden)",
+    "contextNote": "Forme avec « anerkannt » le présent du passif (Vorgangspassiv).",
+    "grammaticalRole": "Auxiliaire « werden » à la 3e personne du singulier de l'indicatif présent.",
+    "wordIds": [
+      "ch0_p4_s1_w3",
+      "ch0_p4_s1_w12"
+    ],
+    "syntaxNote": "Cadre passif : l'auxiliaire « wird » est en 2e position, le participe passé « anerkannt » termine la phrase.",
+    "relatedConcepts": [
+      "passive",
+      "v2"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p4_s1_w4": {
+    "wordId": "ch0_p4_s1_w4",
+    "translationFr": "déjà / d'ores et déjà",
+    "literalTranslation": "déjà, d'ores et déjà, promptement",
+    "contextNote": "Souligne que la reconnaissance n'est plus à attendre : elle est déjà un acquis historique.",
+    "grammaticalRole": "Adverbe de temps marquant l'antériorité acquise.",
+    "etymology": "Adverbe de temps et d'insistance dérivé au génitif adverbial (-s) de l'adjectif moyen haut-allemand « bereit » (prêt à agir, équipé, préparé, issu du vieux haut-allemand bireiti = propre à être monté, préparé pour la chevauchée, préfixe bi- + verbe rītan / chevaucher). A pris au XVIe siècle le sens temporel d'antériorité accomplie : « déjà », marquant qu'une étape historique irréversible est d'ores et déjà franchie.",
+    "difficulty": "basic"
+  },
+  "ch0_p4_s1_w11": {
+    "wordId": "ch0_p4_s1_w11",
+    "translationFr": "une puissance",
+    "literalTranslation": "une puissance (attribut du sujet introduit par als)",
+    "contextNote": "Jeu de miroir dialectique magistral : les puissances (« Mächte ») européennes reconnaissent le communisme comme puissance (« Macht »).",
+    "grammaticalRole": "Nom féminin singulier (die Macht) au nominatif après la conjonction de comparaison/statut « als ».",
+    "philosophicalContext": "Ce passage consacre le saut qualitatif du communisme : d'une opinion clandestine pourchassée, il est devenu un acteur historique autonome et redouté.",
+    "relatedConcepts": [
+      "nom"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p4_s1_w12": {
+    "wordId": "ch0_p4_s1_w12",
+    "translationFr": "reconnu",
+    "literalTranslation": "reconnu officiellement, admis comme valable",
+    "contextNote": "Participe passé passif complétant « wird ».",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe inséparable mixte « anerkennen » (anerkannt).",
+    "etymology": "Participe passé du verbe inséparable mixte « anerkennen » : 1° préfixe de contact et d'adhésion « an » (vieux haut-allemand ana) ; 2° verbe préfixé « erkennen » (discerner par l'entendement, moyen haut-allemand erkennen, vieux haut-allemand irknāan / irkennen, formé sur kennen = connaître intimement, du germanique commun *kannjanan, issu de la racine indo-européenne *ǵneh₃- « savoir, reconnaître », cognat du grec gignôskein et du latin (g)noscere). « Anerkennen » dépasse la simple perception empirique : c'est l'acte juridique et politique solennel par lequel une force nouvelle s'impose comme interlocuteur légitime et incontournable dans le concert des puissances.",
+    "relatedConcepts": [
+      "passive",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p5_s1_w4": {
+    "wordId": "ch0_p5_s1_w4",
+    "translationFr": "grand temps",
+    "literalTranslation": "temps culminant, heure haute (locution idiomatique)",
+    "contextNote": "Lafargue traduit exactement par « Il est grand temps ». En allemand, « hohe Zeit » évoque le moment opportun culminant qui ne saurait être différé.",
+    "grammaticalRole": "Locution nominale au nominatif : adjectif « hoch » (décliné « hohe » sans déterminant au féminin) + nom « die Zeit ».",
+    "etymology": "Locution temporelle solennelle : « hoch » (haut, élevé, du vieux haut-allemand hōh, racine germanique *hauhaz) + « die Zeit » (le moment, l'époque, du vieux haut-allemand zīt, racine germanique *tīdiz, cognat de l'anglais tide / time). Utilisée dès le moyen haut-allemand (« hôhe zît ») pour désigner un temps de fête sacrée ou d'accomplissement décisif (qui a aussi donné Hochzeit / mariage). Dans la prose de Marx, elle acquiert une urgence historique dramatique : « le moment critique est venu où il n'est plus permis d'attendre ».",
+    "difficulty": "intermediate"
+  },
+  "ch0_p5_s1_w10": {
+    "wordId": "ch0_p5_s1_w10",
+    "translationFr": "conceptions / vision du monde",
+    "literalTranslation": "manière d'envisager les choses, mode de contemplation intuitive",
+    "contextNote": "Terme philosophique majeur de la tradition allemande (Kant, Goethe, Hegel). Lafargue traduit par « conceptions ». En allemand, c'est l'équivalent de « Weltanschauung » : une interprétation théorique globale de la réalité.",
+    "grammaticalRole": "Nom composé féminin (die Anschauungsweise) à l'accusatif singulier, premier COD du verbe « darlegen ».",
+    "etymology": "Composé philosophique unissant : 1° « die Anschauung » (terme cardinal forgé au XVIIIe siècle dans la langue philosophique allemande par Christian Wolff et Kant pour traduire le latin intuitio / intuition intellectuelle et sensible, dérivé de anschauen = regarder en face, contempler) ; 2° consonne de liaison -s- ; 3° « die Weise » (la manière, la modalité formelle, du vieux haut-allemand wīsa, racine germanique *wīsō- liée à l'adjectif weise / sage et au verbe wissen / savoir). Désigne une conception globale et articulée du monde (Weltanschauung).",
+    "philosophicalContext": "Marx indique que le communisme n'est pas un chapelet de doléances ouvrières ou de revendications salariales, mais une conception révolutionnaire et scientifique totale de l'histoire humaine.",
+    "relatedConcepts": [
+      "comp_noun",
+      "hist_mat",
+      "latin_root"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p5_s1_w13": {
+    "wordId": "ch0_p5_s1_w13",
+    "translationFr": "buts / finalités",
+    "literalTranslation": "buts visés, fins poursuivies, objectifs",
+    "contextNote": "Désigne les objectifs politiques explicites (abolition de la propriété bourgeoise, conquête du pouvoir démocratique par le prolétariat).",
+    "grammaticalRole": "Nom masculin pluriel (der Zweck -> die Zwecke) à l'accusatif pluriel.",
+    "etymology": "Du moyen haut-allemand « zwec » (cheville de bois, clou de fixation). L'étymon vieux haut-allemand est incertain (probable racine germanique *twakka- désignant un piquet appointé, étymologie discutée). Dans le tir à l'arc médiéval, le zwec désignait le clou fiché au centre de la cible. L'expression « den Zweck treffen » (frapper le clou en plein cœur) a fait glisser le mot au XVIIe siècle vers le sens abstrait de but conscient, de dessein délibéré et de finalité.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p5_s1_w16": {
+    "wordId": "ch0_p5_s1_w16",
+    "translationFr": "tendances",
+    "literalTranslation": "tendances objectives, orientations évolutives",
+    "contextNote": "Dans le matérialisme historique, les « tendances » sont les lois d'évolution immanentes du mode de production capitaliste (ex: baisse tendancielle du taux de profit).",
+    "grammaticalRole": "Nom féminin pluriel (die Tendenz -> die Tendenzen) à l'accusatif pluriel.",
+    "etymology": "Emprunt savant au latin classique « tendere » (tendre vers un but, déployer un effort continu, bander un arc, racine indo-européenne *ten- « étirer, tendre ») via le dérivé médiéval et scientifique « tendentia ». En économie politique marxiste, le terme désigne la direction vectorielle objective imprimée à l'histoire par les contradictions internes du mode de production (cf. la « tendance à la baisse du taux de profit »).",
+    "cognatesFr": [
+      "tendance",
+      "tendre",
+      "tension"
+    ],
+    "relatedConcepts": [
+      "latin_root"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p5_s1_w21": {
+    "wordId": "ch0_p5_s1_w21",
+    "translationFr": "ouvertement / à la face du monde",
+    "literalTranslation": "ouvert, de façon ouverte, sans dissimulation",
+    "contextNote": "Adjectif employé comme adverbe modifiant « darlegen ».",
+    "grammaticalRole": "Adjectif employé adverbialement.",
+    "difficulty": "basic"
+  },
+  "ch0_p5_s1_w22": {
+    "wordId": "ch0_p5_s1_w22",
+    "translationFr": "exposent / développent",
+    "literalTranslation": "posent là sous les yeux, étalent, exposent méthodiquement",
+    "contextNote": "Verbe séparable (dar|legen). Lafargue traduit « que les communistes exposent ». En subordonnée introduite par « daß », le verbe se retrouve réuni en fin de proposition.",
+    "grammaticalRole": "Verbe séparable « dar|legen » à la 3e personne du pluriel du présent de l'indicatif.",
+    "etymology": "Verbe composé séparable associant l'adverbe démonstratif « dar » (forme ancienne et locative de « da », vieux haut-allemand dara = vers là, sous les yeux du public) et le verbe fondamental « legen » (poser à plat, coucher, faire reposer, vieux haut-allemand leggen, verbe causatif germanique *lagjanan issu de liegen). Littéralement : exposer au grand jour sur la table politique, soumettre à l'examen rationnel de tous.",
+    "syntaxNote": "Ordre des mots en subordonnée conjonctive (daß-Satz) : le verbe conjugué est rejeté à la fin de sa proposition.",
+    "relatedConcepts": [
+      "sub_clause",
+      "sep_verb",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p5_s1_w25": {
+    "wordId": "ch0_p5_s1_w25",
+    "translationFr": "conte / fable puérile",
+    "literalTranslation": "conte de fées, petite histoire merveilleuse ou fictive",
+    "contextNote": "Lafargue traduit par « au conte du spectre ». Ironie dévastatrice : Marx ravale les anathèmes des rois et des flics au rang de contes de bonnes femmes destinés à effrayer les enfants crédules.",
+    "grammaticalRole": "Nom neutre singulier (das Märchen) au datif après l'article défini contracté « dem ».",
+    "etymology": "Diminutif hypocoristique en « -chen » du moyen haut-allemand « mære » (nouvelle, information, bruit qui court, récit fabuleux), issu du vieux haut-allemand « māri » (célèbre, fameux, objet de renommé, racine germanique commune *mērijaz, apparentée au germanique *marō / cauchemar, d'où l'anglais nightmare). Désigne le conte pour enfants, la fable mythologique ou la calomnie sans consistance réelle répandue par la propagande gouvernementale.",
+    "philosophicalContext": "Opposition polémique entre la fable idéaliste (« Märchen ») forgée par la bourgeoisie pour diaboliser ses adversaires, et le document scientifique et politique authentique (« Manifest »).",
+    "syntaxNote": "Complément d'attribution au datif du verbe « entgegenstellen » (opposer quelque chose [acc.] à quelque chose [dat.]).",
+    "difficulty": "advanced"
+  },
+  "ch0_p5_s1_w31": {
+    "wordId": "ch0_p5_s1_w31",
+    "translationFr": "un manifeste",
+    "literalTranslation": "un manifeste, une déclaration publique et solennelle",
+    "contextNote": "Terme éponyme de l'ouvrage. Titre et genre littéraire politique révolutionnaire.",
+    "grammaticalRole": "Nom neutre singulier (das Manifest) à l'accusatif, COD de « entgegenstellen ».",
+    "etymology": "Emprunté au XVIe siècle par l'intermédiaire de l'italien « manifesto » au latin classique « manifestus » (littéralement « palpable, touché de la main », composé de manus = main et du morphème verbal *-festus, apparenté au verbe archaïque *fendere = heurter, frapper, d'où ce qui est si évident qu'on le touche du doigt). Le Manifeste est la déclaration programmatique de principes clairs qui substitue la lumière de l'action publique aux complots de sectes secrètes.",
+    "cognatesFr": [
+      "manifeste",
+      "manifester",
+      "manifestation"
+    ],
+    "relatedConcepts": [
+      "latin_root"
+    ],
+    "difficulty": "basic"
+  },
+  "ch0_p5_s1_w35": {
+    "wordId": "ch0_p5_s1_w35",
+    "translationFr": "opposent / dressent en face",
+    "literalTranslation": "placent debout face à, dressent en vis-à-vis",
+    "contextNote": "Verbe séparable (entgegen|stellen) régissant l'accusatif (la chose qu'on oppose : ein Manifest) et le datif (la chose à laquelle on l'oppose : dem Märchen).",
+    "grammaticalRole": "Verbe séparable « entgegen|stellen » à la 3e personne du pluriel du présent de l'indicatif.",
+    "etymology": "Verbe composé séparable unissant : 1° la préposition et adverbe « entgegen » (au-devant de, en opposition directe, moyen haut-allemand entgegen, vieux haut-allemand in gegin = à l'encontre de) ; 2° le verbe causatif « stellen » (placer debout, faire tenir dressé, vieux haut-allemand stellen, du proto-germanique *stalljanan lié à Stall / écurie et Stelle / place fixe). Exprime l'affrontement frontal et irréductible de deux thèses qui se font face dans l'arène publique.",
+    "syntaxNote": "Verbe conjugué rejeté en fin de proposition subordonnée coordonnée.",
+    "relatedConcepts": [
+      "sep_verb",
+      "sub_clause"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p6_s1_w3": {
+    "wordId": "ch0_p6_s1_w3",
+    "translationFr": "à cette fin / dans ce but",
+    "literalTranslation": "dans ce but, à cette fin précise",
+    "contextNote": "Locution prépositionnelle au datif placée en tête de phrase pour opérer l'inversion sujet-verbe.",
+    "grammaticalRole": "Syntagme prépositionnel : « zu » (+ datif) + pronom démonstratif masculin « diesem » + nom masculin « Zweck » au datif singulier.",
+    "syntaxNote": "Position 1 de la phrase, provoquant la règle V2 : le verbe auxiliaire « haben » vient immédiatement en position 2 avant le sujet « Kommunisten ».",
+    "etymology": "Du moyen haut-allemand « zwec » (cheville de bois, clou de fixation, puis clou central d'une cible de tir à l'arc ; étymon antérieur incertain, probable racine germanique *twakka-). Par métaphore de précision balistique médiévale : le point de mire, le but conscient et délibéré que l'on vise.",
+    "relatedConcepts": [
+      "v2",
+      "dat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p6_s1_w8": {
+    "wordId": "ch0_p6_s1_w8",
+    "translationFr": "des plus diverses",
+    "literalTranslation": "les plus diverses, les plus variées (superlatif au génitif)",
+    "contextNote": "Souligne l'internationalisme concret des délégués réunis à Londres (Allemands, Français, Belges, Suisses, Britanniques).",
+    "grammaticalRole": "Adjectif qualificatif au superlatif de supériorité (verschieden -> am verschiedensten), décliné au génitif féminin singulier en -en après l'article « der ».",
+    "relatedConcepts": [
+      "decl",
+      "gen"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p6_s1_w12": {
+    "wordId": "ch0_p6_s1_w12",
+    "translationFr": "se sont réunis",
+    "literalTranslation": "se sont rassemblés en congrès",
+    "contextNote": "Fait référence au deuxième congrès de la Ligue des communistes tenu à Londres du 29 novembre au 8 décembre 1847, qui confia formellement la rédaction à Marx et Engels.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe pronominal inséparable « sich versammeln », formant le parfait avec « haben ».",
+    "etymology": "Participe passé du verbe « versammeln », formé du préfixe intensif et unificateur « ver- » adjoint à « sammeln » (moyen haut-allemand samelen, vieux haut-allemand samanōn = rassembler en un faisceau ou un corps unifié, dérivé de l'adverbe samano « ensemble », issu de la racine indo-européenne *sem- « un, uni », cognat du grec hama / ἅμα, du latin simul / semel et de l'anglais same). Évoque la convergence vivante des délégués prolétariens de multiples nations surmontant les frontières pour constituer la première internationale ouvrière moderne.",
+    "relatedConcepts": [
+      "comm_league",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch0_p6_s1_w17": {
+    "wordId": "ch0_p6_s1_w17",
+    "translationFr": "rédigé / conçu / ébauché",
+    "literalTranslation": "esquissé, conçu, jeté les premières lignes sur le papier",
+    "contextNote": "Lafargue traduit par « ont rédigé ». En allemand, « entwerfen » implique la création d'un projet, d'un dessein intellectuel et de son architecture textuelle.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe fort inséparable « entwerfen » (entwirft, entwarf, entworfen).",
+    "etymology": "Verbe de création intellectuelle combinant le préfixe d'arrachement et de jaillissement « ent- » (moyen haut-allemand ent-, vieux haut-allemand ant-) et le verbe fort « werfen » (lancer, jeter, moyen haut-allemand werfen, vieux haut-allemand werfan, du germanique *werpanan, cognat de l'anglais warp). Littéralement : projeter en avant les premiers traits directeurs d'un dessein révolutionnaire (cognat sémantique exact du latin pro-icere d'où découle projet).",
+    "relatedConcepts": [
+      "prefix_verb"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p6_s1_w33": {
+    "wordId": "ch0_p6_s1_w33",
+    "translationFr": "publié / rendu public",
+    "literalTranslation": "rendu public, divulgué officiellement au grand jour",
+    "contextNote": "Forme le passif présent (« veröffentlicht wird ») avec l'auxiliaire « wird » placé en fin de relative.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe inséparable « veröffentlichen ».",
+    "etymology": "Verbe verbalisé par le préfixe transitif « ver- » appliqué à l'adjectif « öffentlich » (public, ouvert à la vue de tous, moyen haut-allemand offenlich, vieux haut-allemand offanlīh), formé sur « offen » (ouvert, vieux haut-allemand offan, racine germanique *upana-, apparenté à la préposition auf et à l'anglais open). Littéralement : faire franchir à un texte la barrière de la clandestinité policière pour le faire retentir dans l'espace public universel.",
+    "relatedConcepts": [
+      "passive",
+      "sub_clause",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p1_s1_w2": {
+    "wordId": "ch1_p1_s1_w2",
+    "translationFr": "L'histoire",
+    "literalTranslation": "l'histoire (processus temporel et récit des événements advenus)",
+    "contextNote": "Mot inaugural de la thèse matérialiste du chapitre. Sujet de la phrase la plus célèbre du marxisme.",
+    "grammaticalRole": "Nom féminin singulier (die Geschichte) au nominatif avec l'article défini.",
+    "etymology": "Substantif abstrait issu du moyen haut-allemand « geschiht » (événement marquant, affaire survenue, destin, récit d'un fait), déverbal féminin en *-ti* du verbe fort « geschehen » (survenir promptement, se produire, vieux haut-allemand giskehan, racine germanique *ga-skehanan). C'est seulement au XVIIIe siècle, sous l'influence des Lumières et de Herder, que « Geschichte » au singulier collectif sans pluriel s'est imposé pour désigner le processus historique global et la science du devenir humain, supplantant l'emprunt latin Historie.",
+    "philosophicalContext": "Rupture décisive avec l'idéalisme de Hegel : l'histoire n'est pas la réalisation de l'Esprit absolu ou d'un dessein divin, mais l'histoire matérielle des conditions réelles d'existence et des luttes pour le surplus social.",
+    "relatedConcepts": [
+      "hist_mat",
+      "nom"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p1_s1_w3": {
+    "wordId": "ch1_p1_s1_w3",
+    "translationFr": "de toute",
+    "literalTranslation": "de chaque, de toute (déterminant indéfini au génitif)",
+    "contextNote": "Portée universelle de l'affirmation : aucune société historique n'échappe à cette dynamique.",
+    "grammaticalRole": "Déterminant indéfini (all) décliné au génitif féminin singulier (flexion forte en -er).",
+    "relatedConcepts": [
+      "gen",
+      "decl"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p1_s1_w4": {
+    "wordId": "ch1_p1_s1_w4",
+    "translationFr": "jusqu'à nos jours / passée",
+    "literalTranslation": "qui a existé jusqu'à présent, antérieure",
+    "contextNote": "Lafargue traduit « jusqu'à nos jours ». Engels précisera dans la note de l'édition anglaise de 1888 : « C'est-à-dire, exactement parlant, l'histoire transmise par l'écriture », excluant la préhistoire communautaire primitive alors mal connue.",
+    "grammaticalRole": "Adjectif qualificatif (bisherig) décliné au génitif féminin singulier (flexion faible en -en après « aller »).",
+    "etymology": "Adjectif temporel synthétique formé par le suffixe « -ig » sur l'adverbe « bisher » (jusqu'ici). « bisher » est composé de la préposition marquant la borne ultime « bis » (moyen haut-allemand biz, contraction discutée d'un étymon vieux haut-allemand *bi-ez / près de cela ou *bi-wizzan, étymologie disputée) et de l'adverbe déictique « her » (vieux haut-allemand hera = vers ici, mouvement en direction du présent de l'énonciation). Il circonscrit la totalité révolue de la préhistoire humaine avant la rupture révolutionnaire du prolétariat.",
+    "relatedConcepts": [
+      "decl",
+      "gen"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p1_s1_w5": {
+    "wordId": "ch1_p1_s1_w5",
+    "translationFr": "société",
+    "literalTranslation": "société, communauté d'individus associés",
+    "contextNote": "Complément du nom au génitif singulier dépendant de « Geschichte ».",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au génitif.",
+    "etymology": "Substantif sociologique primordial issu du moyen haut-allemand « geselleschaft », vieux haut-allemand « giselliscaf » (compagnonnage, confrérie de vie), dérivé de « gisello » (le compagnon de chambrée, textuellement celui qui partage la même salle d'habitation, Saal). Le suffixe statutaire « -schaft » (cognat de l'anglais -ship) institutionalise cette communauté : chez Marx, la Gesellschaft n'est pas une agrégation abstraite d'individus isolés, mais l'ensemble déterminé des rapports de production matériels qui lient organiquement les hommes entre eux.",
+    "philosophicalContext": "Pour Marx, la société n'est pas une simple collection d'individus autonomes (comme le postulent les économistes libéraux), mais l'ensemble organique des rapports sociaux que les hommes nouent dans la production de leur vie.",
+    "relatedConcepts": [
+      "gen",
+      "hist_mat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p1_s1_w10": {
+    "wordId": "ch1_p1_s1_w10",
+    "translationFr": "luttes de classes",
+    "literalTranslation": "combats de classes, affrontements de classes",
+    "contextNote": "Complément introduit par « von » (+ datif), tournure analytique équivalente à un génitif pluriel (« der Klassenkämpfe »).",
+    "grammaticalRole": "Nom composé masculin pluriel (der Klassenkampf -> die Klassenkämpfe) au datif pluriel après « von » (prenant la désinence -n du datif pluriel).",
+    "etymology": "Composé dialectique associant : 1° « die Klasse », emprunt au latin classique « classis » (les divisions censitaires civiques des citoyens romains selon leur fortune sous Servius Tullius, issu de la racine archaïque de calare = appeler, convoquer sous les armes) ; 2° consonne de liaison -n- ; 3° « der Kampf » (moyen haut-allemand kampf, vieux haut-allemand kampf), emprunté très tôt au Ier siècle av. J.-C. au latin classique « campus » (le champ de manœuvre militaire, le champ de bataille). La lutte des classes est le moteur objectif de l'histoire humaine.",
+    "philosophicalContext": "Concept moteur du marxisme : les classes sociales ne sont pas des castes étanches ou des strates de prestige sociologique, mais des groupements antagonistes définis par la possession ou la non-possession des moyens de production.",
+    "relatedConcepts": [
+      "class_struggle",
+      "comp_noun",
+      "dat",
+      "hist_mat"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p2_s1_w1": {
+    "wordId": "ch1_p2_s1_w1",
+    "translationFr": "Homme libre",
+    "literalTranslation": "homme libre, citoyen libre (antithèse de l'esclave)",
+    "contextNote": "Premier terme de la longue série d'antithèses historiques inaugurant le matérialisme historique.",
+    "grammaticalRole": "Adjectif substantivé masculin au nominatif singulier sans article (flexion forte en -er : Freier).",
+    "etymology": "Issu du moyen haut-allemand « vrī », vieux haut-allemand « frī », issu de la racine germanique commune *frijaz (« qui n'est pas asservi, de condition noble, exempt de corvée »), elle-même issue de la racine indo-européenne *prī- (« aimer, chérir, être bienveillant pour les siens »). L'homme libre dans la communauté germanique est celui qui appartient au clan familial protégé et choyé (d'où la parenté immédiate avec Freund / ami et Frieden / paix), par opposition absolue au captif asservi ou étranger réduit en servitude.",
+    "philosophicalContext": "Figure de l'Antiquité grecque et romaine : le citoyen libre jouit de prérogatives juridiques et politiques dont l'esclave est totalement privé.",
+    "relatedConcepts": [
+      "nom"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w3": {
+    "wordId": "ch1_p2_s1_w3",
+    "translationFr": "esclave",
+    "literalTranslation": "esclave (être humain réifié possédé comme marchandise)",
+    "contextNote": "Deuxième pôle de l'antagonisme antique. L'esclave est un moyen de production vivant appartenant corps et âme à son maître.",
+    "grammaticalRole": "Nom masculin de la déclinaison faible (der Sklave) au nominatif singulier.",
+    "etymology": "Issu du moyen haut-allemand « sklāve » (attesté au XIVe siècle), emprunté au latin médiéval « sclavus » (vers le Xe siècle), lui-même issu du grec byzantin « Sklabos » (Σκλάβος / le peuple slave). La capture et la réduction massive en servitude de prisonniers slaves païens d'Europe orientale sous les règnes carolingiens et ottoniens a fait glisser le nom ethnique vers la désignation juridique de marchandise humaine, remplaçant l'ancien terme latin servus (qui a évolué vers le serf de la glèbe).",
+    "cognatesFr": [
+      "esclave",
+      "esclavage"
+    ],
+    "relatedConcepts": [
+      "exploitation"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w5": {
+    "wordId": "ch1_p2_s1_w5",
+    "translationFr": "patricien",
+    "literalTranslation": "patricien (membre de la noblesse romaine de naissance)",
+    "contextNote": "Aristocratie foncière de la République romaine.",
+    "grammaticalRole": "Nom masculin singulier (der Patrizier) au nominatif.",
+    "etymology": "Emprunt au latin « patricius » (membre de la noblesse originaire de Rome), dérivé de « pater » (père de famille, chef des gentes patriciennes sénatoriales siégeant au Sénat sous la royauté). Dans la fresque matérialiste de Marx, les patriciens incarnent l'aristocratie terrienne esclavagiste de l'Antiquité, détentrice exclusive de l'imperium et des magistratures.",
+    "cognatesFr": [
+      "patricien",
+      "patrice"
+    ],
+    "relatedConcepts": [
+      "latin_root"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w7": {
+    "wordId": "ch1_p2_s1_w7",
+    "translationFr": "plébéien",
+    "literalTranslation": "plébéien (membre du peuple romain libre mais exclu du patriciat)",
+    "contextNote": "Contrepartie plébéienne du patriciat dans les luttes républicaines de Rome.",
+    "grammaticalRole": "Nom masculin singulier (der Plebejer) au nominatif.",
+    "etymology": "Emprunt au latin « plebeius », dérivé de « plebs / plebis » (la multitude civique populaire exclue des ordres nobles, issu de la racine indo-européenne *pleh₁- « être plein, remplir », cognat du grec plêthos / πλῆθος et du latin plenus). Représente la classe des citoyens libres romains dépourvus de privilèges gentilices, luttant continuellement contre l'oligarchie patricienne (sécessions de la plèbe sur le Mont Sacré).",
+    "cognatesFr": [
+      "plébéien",
+      "plèbe",
+      "plébiscite"
+    ],
+    "relatedConcepts": [
+      "latin_root"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w9": {
+    "wordId": "ch1_p2_s1_w9",
+    "translationFr": "baron / seigneur féodal",
+    "literalTranslation": "baron, haut vassal féodal possessionné",
+    "contextNote": "Lafargue traduit « baron et serf ». Représente la classe dominante féodale maîtresse des fiefs.",
+    "grammaticalRole": "Nom masculin singulier (der Baron) au nominatif.",
+    "etymology": "Emprunté au bas-latin médiéval « baro / baronis », d'origine germanique francique (*baro = homme libre, guerrier vaillant d'élite). Transmis par l'ancien français « baron » pour désigner le grand feudataire tenant son fief directement de la couronne féodale, exerçant haute et basse justice seigneuriale sur ses serfs territoriaux.",
+    "cognatesFr": [
+      "baron",
+      "baronnie"
+    ],
+    "relatedConcepts": [
+      "feudalism"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w11": {
+    "wordId": "ch1_p2_s1_w11",
+    "translationFr": "serf",
+    "literalTranslation": "celui dont le corps appartient en propre au maître (serf)",
+    "contextNote": "Traduction exacte du statut juridique médiéval de serf. Le serf n'est pas une marchandise meuble vendable comme l'esclave antique, mais sa personne physique et sa descendance sont attachées à la terre du seigneur.",
+    "grammaticalRole": "Adjectif substantivé masculin au nominatif singulier sans article (flexion forte en -er : Leibeigener).",
+    "etymology": "Substantif juridique féodal d'une littéralité corporelle saisissante : 1° « der Leib » (le corps vivant incarné, par opposition au cadavre ou à l'esprit, du moyen haut-allemand līp, vieux haut-allemand līb « vie, existence physique », racine germanique *lībam, cognat de l'anglais life) ; 2° l'adjectif « eigen » (propre, possédé en propriété exclusive, moyen haut-allemand eigen, vieux haut-allemand eigan, racine germanique *aiganaz). Le serf n'est pas seulement attaché à la terre (servus terrae) : sa corporéité même appartient au seigneur, qui perçoit des droits sur son mariage et sa progéniture.",
+    "philosophicalContext": "Dans le mode de production féodal, l'extorsion du surtravail s'opère par une contrainte extra-économique directe (corvée, banalités) reposant sur le lien corporel et coutumier du servage.",
+    "relatedConcepts": [
+      "feudalism",
+      "comp_noun",
+      "comp_word"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p2_s1_w13": {
+    "wordId": "ch1_p2_s1_w13",
+    "translationFr": "maître de jurande / maître de corporation",
+    "literalTranslation": "maître bourgeois corporatif, membre de plein droit d'une jurande",
+    "contextNote": "Engels précise en note en 1888 : « Le Zunftbürger est le maître de jurande, membre à part entière d'une corporation, et non son doyen ou chef ». Lafargue a traduit par « maître de jurande » pour adapter l'institution germanique aux corporations d'Ancien Régime en France.",
+    "grammaticalRole": "Nom composé masculin singulier (der Zunftbürger) au nominatif.",
+    "etymology": "Composé corporatif médiéval : 1° « die Zunft » (la jurande artisanale, corporation fermée dotée du monopole de fabrication, du moyen haut-allemand zumft, vieux haut-allemand zumft = accord réglé, convenance statutaire, déverbal du verbe ziemen « convenir, être décent et conforme à la règle statutaire ») ; 2° « der Bürger » (l'habitant franc du bourg fortifié, Burg). Désigne le maître artisan établi intra-muros, membre exclusif d'une jurande jurée jalouse de ses privilèges de corporation.",
+    "philosophicalContext": "Le maître de jurande possède son atelier, ses outils et emploie sous sa dépendance des compagnons et apprentis selon des règlements stricts limitant la production.",
+    "relatedConcepts": [
+      "comp_noun",
+      "feudalism"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p2_s1_w15": {
+    "wordId": "ch1_p2_s1_w15",
+    "translationFr": "compagnon",
+    "literalTranslation": "compagnon artisan (ouvrier qualifié non propriétaire d'atelier)",
+    "contextNote": "Artisan ayant accompli son apprentissage et son tour de compagnonnage, mais restant salarié et dépendant du maître de jurande pour accéder à la maîtrise.",
+    "grammaticalRole": "Nom masculin singulier (der Gesell / Geselle) au nominatif.",
+    "etymology": "Issu du moyen haut-allemand « geselle », vieux haut-allemand « gisello » (compagnon d'armes ou de travail), composé du préfixe associatif gi- et du radical « sal / Saal » (la grande salle de séjour, l'atelier artisanal). Désignait à l'origine celui qui dormait et mangeait sous le même toit que son maître avant de former, avec l'émergence des corporations fermées, l'ouvrier qualifié exploité interdit de maîtrise par l'endogamie des jurandes.",
+    "relatedConcepts": [
+      "feudalism"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w19": {
+    "wordId": "ch1_p2_s1_w19",
+    "translationFr": "oppresseurs",
+    "literalTranslation": "ceux qui exercent l'oppression, qui pèsent de tout leur poids",
+    "contextNote": "Synthèse binaire catégorielle qui subsume toute la diversité bariolée des exemples historiques.",
+    "grammaticalRole": "Nom d'agent masculin pluriel (der Unterdrücker -> die Unterdrücker) au nominatif pluriel.",
+    "etymology": "Substantif d'agent formé du préfixe spatial descendant « unter- » (vers le bas, sous le joug) et du verbe « drücken » (presser de force, comprimer violemment, écraser, du moyen haut-allemand drücken, vieux haut-allemand drucchan, racine germanique *þrukkijaną). Calque sémantique exact du latin « op-pressor » (de op-primere = presser sous le talon) : l'acteur structurel qui maintient la classe laborieuse sous la contrainte matérielle de son appareil d'asservissement.",
+    "philosophicalContext": "Coup de force dialectique : derrière les différences de costume, de droit et de religion entre patriciens, barons et maîtres de jurande, réside toujours le même rapport d'exploitation matérielle.",
+    "relatedConcepts": [
+      "exploitation",
+      "prefix_verb"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p2_s1_w21": {
+    "wordId": "ch1_p2_s1_w21",
+    "translationFr": "opprimés",
+    "literalTranslation": "ceux qui sont opprimés, écrasés sous le poids",
+    "contextNote": "Pôle dominé symétrique du rapport d'exploitation.",
+    "grammaticalRole": "Participe passé substantivé décliné au nominatif pluriel sans article (flexion forte en -e : Unterdrückte).",
+    "relatedConcepts": [
+      "exploitation"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w25": {
+    "wordId": "ch1_p2_s1_w25",
+    "translationFr": "opposition constante / antagonisme",
+    "literalTranslation": "opposition, antithèse posée en vis-à-vis",
+    "contextNote": "Lafargue traduit « en opposition constante ». En allemand philosophique, « Gegensatz » est le terme canonique de la dialectique pour désigner l'antagonisme structurel.",
+    "grammaticalRole": "Nom composé masculin singulier (der Gegensatz) au datif après « in ».",
+    "etymology": "Nom philosophique forgé dans la langue philosophique allemande (Christian Wolff, Kant, Hegel) comme calque direct du grec « antithesis » : 1° la préposition « gegen » (en face, opposé) ; 2° le substantif « der Satz » (ce qui est posé, le principe arrêté, déverbal du verbe setzen / poser, vieux haut-allemand saz). Désigne chez Marx la polarité antagonique objective entre deux classes dont les intérêts vitaux matériels s'excluent mutuellement.",
+    "philosophicalContext": "Catégorie hégélienne capitale : la contradiction interne (Gegensatz) au sein d'une formation sociale est le moteur nécessaire de son autodépassement.",
+    "relatedConcepts": [
+      "dat",
+      "comp_noun",
+      "hist_mat"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p2_s1_w30": {
+    "wordId": "ch1_p2_s1_w30",
+    "translationFr": "ininterrompue",
+    "literalTranslation": "ininterrompu, perpétuel, continu sans pause",
+    "contextNote": "Lafargue traduit « ont mené une guerre ininterrompue ». Souligne la permanence souterraine ou manifeste de la confrontation.",
+    "grammaticalRole": "Adjectif qualificatif au masculin accusatif singulier (flexion mixte en -en après « einen »).",
+    "etymology": "Participe adjectivé à double préfixation négative et médiane : 1° le préfixe privatif hérité de l'indo-européen « un- » ; 2° le préfixe « unter- » marquant l'interposition médiane ; 3° le verbe fort germanique « brechen » (briser net, moyen haut-allemand brechen, vieux haut-allemand brehhan, racine germanique *brekanan). Littéralement : « dont le cours ne subit jamais d'interruption », décrivant la continuité sous-jacente ininterrompue de la guerre des classes à travers les millénaires.",
+    "relatedConcepts": [
+      "acc",
+      "decl"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w33": {
+    "wordId": "ch1_p2_s1_w33",
+    "translationFr": "dissimulée / masquée",
+    "literalTranslation": "cachée, masquée, larvée, souterraine",
+    "contextNote": "Adjectif qualifiant « Kampf ». La lutte de classes existe au quotidien dans la résistance muette des exploités même sans révolution ouverte.",
+    "grammaticalRole": "Adjectif participe au masculin accusatif singulier en -en.",
+    "etymology": "Participe du verbe d'occultation « verstecken », formé du préfixe intensif « ver- » et du verbe « stecken » (ficher, enfoncer dans un recoin sombre, moyen haut-allemand stecken, vieux haut-allemand stehhan, racine germanique *stik-, cognat de l'anglais stick). Évoque la résistance passive, les grèves clandestines ou les sabotages quotidiens où la lutte des classes agit sans bruit avant d'exploser sur les barricades.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w36": {
+    "wordId": "ch1_p2_s1_w36",
+    "translationFr": "ouverte / déclarée",
+    "literalTranslation": "ouverte, déclarée au grand jour",
+    "contextNote": "Antithèse de « versteckt » : passage à la confrontation révolutionnaire ouverte.",
+    "grammaticalRole": "Adjectif qualificatif au masculin accusatif singulier en -en.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w47": {
+    "wordId": "ch1_p2_s1_w47",
+    "translationFr": "transformation révolutionnaire / refonte",
+    "literalTranslation": "refonte complète des formes, remodelage radical de la structure",
+    "contextNote": "Lafargue traduit par « transformation révolutionnaire ». En allemand, « Umgestaltung » insiste sur la métamorphose plastique globale de toute l'architecture de la société.",
+    "grammaticalRole": "Nom composé féminin (die Umgestaltung) au datif singulier après la préposition « mit ».",
+    "etymology": "Nom révolutionnaire unissant : 1° le préfixe de retournement complet de bas en haut « um- » (marquant une inversion radicale de cap, comme dans Umwälzung / révolution, issu du vieux haut-allemand umbi) ; 2° « die Gestaltung » (la mise en forme, la morphologie concrète, dérivé de Gestalt = forme, stature organisée, participe substantivé de stellen / poser debout). Désigne la refonte intégrale de la structure économique et de l'appareil d'État d'une société sous la hache révolutionnaire.",
+    "philosophicalContext": "Premier terme de l'alternative historique : l'aboutissement révolutionnaire où la classe ascendante réorganise l'ensemble du mode de production (ex: 1789 pour la bourgeoisie).",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat",
+      "revolution"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p2_s1_w56": {
+    "wordId": "ch1_p2_s1_w56",
+    "translationFr": "destruction commune / ruine mutuelle",
+    "literalTranslation": "naufrage commun, effondrement partagé vers le bas",
+    "contextNote": "Lafargue traduit « par la destruction des deux classes en lutte ». En allemand, « Untergang » évoque un naufrage ou un écroulement historique total.",
+    "grammaticalRole": "Nom composé masculin (der Untergang) au datif singulier après « mit dem ».",
+    "etymology": "Substantif dramatique unissant la préposition « unter » (vers le fond, dans les profondeurs) et le nom d'action « der Gang » (la marche, l'allée, moyen haut-allemand ganc, vieux haut-allemand gang, déverbal fort du verbe gehen). Littéralement « la descente au tombeau, le naufrage irrémédiable ». Appliqué au coucher des astres (Sonnenuntergang), il acquiert chez Marx une résonance tragique : si la classe révolutionnaire ne parvient pas à abattre l'ancien monde, la guerre civile s'achève par la ruine commune des belligérants.",
+    "philosophicalContext": "Second terme capital de l'alternative dialectique : la lutte des classes n'aboutit pas fatalement au progrès ; si aucune classe n'est capable d'opérer la refonte révolutionnaire, le conflit peut se solder par la ruine mutuelle et la barbarie (comme l'effondrement de l'Empire romain d'Occident).",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat",
+      "hist_mat"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p3_s1_w13": {
+    "wordId": "ch1_p3_s1_w13",
+    "translationFr": "division / organisation structurée",
+    "literalTranslation": "articulation en membres distincts, découpage anatomique ordonné",
+    "contextNote": "Lafargue traduit par « une organisation complète de la société en classes distinctes ». En allemand, « Gliederung » est une métaphore corporelle : les ordres sociaux étaient vus comme les organes d'un corps.",
+    "grammaticalRole": "Nom féminin singulier (die Gliederung) à l'accusatif, COD de « finden wir ».",
+    "etymology": "Nom d'anatomie sociale dérivé en « -ung » du verbe « gliedern » (articuler en organes), formé sur « das Glied » (le membre corporel, l'articulation osseuse, le maillon d'une chaîne, moyen haut-allemand glit, vieux haut-allemand glid, racine germanique *galiþą). Marx emploie ce terme morphologique pour disséquer l'emboîtement hyper-hiérarchisé des ordres corporatifs et des états d'Ancien Régime.",
+    "philosophicalContext": "Dans les sociétés pré-capitalistes, l'inégalité est juridiquement institutionnalisée et articulée en statuts distincts garantis par la coutume ou la foi.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p3_s1_w18": {
+    "wordId": "ch1_p3_s1_w18",
+    "translationFr": "ordres / états sociaux",
+    "literalTranslation": "ordres, états juridiques fermés (comme les trois ordres de l'Ancien Régime)",
+    "contextNote": "Lafargue traduit ici par « classes », mais en allemand, « Stand » s'oppose précisément à « Klasse » : le Stand est un ordre féodal juridique fixé par la naissance (noblesse, clergé, tiers-état).",
+    "grammaticalRole": "Nom masculin pluriel (der Stand -> die Stände) à l'accusatif pluriel après « in ».",
+    "etymology": "Issu du moyen haut-allemand « stant », vieux haut-allemand « stant » (posture debout, position ferme, rang statutaire immuable), déverbal direct de « stehen » (se tenir debout, demeurer immobile, issu de la racine indo-européenne *steh₂- « se tenir debout »). Cognat du latin status (d'où état) et de l'anglais estate / stand. Désigne les ordres féodaux corporatifs rigides et fermés, où l'individu est rivé héréditairement à son rang juridique.",
+    "philosophicalContext": "Distinction sociologique cardinale chez Marx : l'ordre (Stand) relève du privilège juridique féodal, tandis que la classe (Klasse) est une catégorie purement économique liée aux rapports marchands modernes.",
+    "relatedConcepts": [
+      "acc",
+      "plural",
+      "feudalism"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p3_s1_w21": {
+    "wordId": "ch1_p3_s1_w21",
+    "translationFr": "multiple / variée",
+    "literalTranslation": "qui a de multiples plis, variée, foisonnante",
+    "contextNote": "Qualifie l'extrême complexité des hiérarchies d'Ancien Régime.",
+    "grammaticalRole": "Adjectif qualificatif décliné à l'accusatif féminin singulier en -e après l'article indéfini « eine ».",
+    "etymology": "Issu du moyen haut-allemand « manecvalt », vieux haut-allemand « managfalt », composé du déterminant germanique commun *manag (maint, nombreux, qui a donné manch et l'anglais many) et du morphème suffixal multiplicatif « -falt » (dérivé du verbe falten = plier, racine indo-européenne *pel- « plier », qui a produit en latin multiplex et en grec pollaploûs). Cognat parfait de l'anglais « manifold » : textuellement « qui a de multiples plis », caractérisant ici l'infinie stratification des privilèges d'Ancien Régime.",
+    "relatedConcepts": [
+      "acc",
+      "decl"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s1_w22": {
+    "wordId": "ch1_p3_s1_w22",
+    "translationFr": "échelle graduée / hiérarchie",
+    "literalTranslation": "découpage en degrés successifs, échelonnement en marches d'escalier",
+    "contextNote": "Lafargue traduit par « une échelle graduée de conditions sociales ».",
+    "grammaticalRole": "Nom féminin singulier (die Abstufung) à l'accusatif.",
+    "etymology": "Nom d'architecture et de stratification dérivé en « -ung » de « abstufen », formé sur « die Stufe » (la marche d'escalier, le degré hiérarchique, moyen haut-allemand stuofe, vieux haut-allemand stuofa, racine germanique *stōpō liée à stapfen = marcher à pas réguliers) précédé du préfixe séparateur descendant « ab- ». Évoque la gradation en cascade des privilèges féodaux.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s2_w8": {
+    "wordId": "ch1_p3_s2_w8",
+    "translationFr": "chevaliers",
+    "literalTranslation": "chevaliers (ordre équestre dans la Rome antique : equites)",
+    "contextNote": "Dans la Rome républicaine et impériale, les chevaliers formaient la classe financière et commerçante située entre les patriciens sénatoriaux et la plèbe.",
+    "grammaticalRole": "Nom masculin pluriel (der Ritter -> die Ritter) à l'accusatif pluriel.",
+    "etymology": "Issu du moyen haut-allemand « ritter / rīter » (homme d'armes combattant à cheval, chevalier noble), dérivé d'agent moyen haut-allemand (en dialecte bas-allemand ou néerlandais ridder) du verbe fort germanique « rītan » (chevaucher, aller à cheval, vieux haut-allemand rītan, cognat de l'anglais ride). Équivalent féodal du latin eques et miles : dans la Rome antique citée par Marx, l'ordre équestre formait l'aristocratie financière et marchande enrichie par les fermes d'impôts de l'Empire.",
+    "relatedConcepts": [
+      "acc",
+      "plural"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p3_s2_w16": {
+    "wordId": "ch1_p3_s2_w16",
+    "translationFr": "seigneurs féodaux",
+    "literalTranslation": "seigneurs féodaux, maîtres du fief",
+    "contextNote": "Lafargue traduit par « des seigneurs ». En allemand, « Feudalherren » précise leur qualité juridique de possesseurs de fief.",
+    "grammaticalRole": "Nom composé masculin pluriel (der Feudalherr -> die Feudalherren) à l'accusatif pluriel.",
+    "etymology": "Composé féodal associant : 1° l'adjectif « feudal » (issu du latin médiéval feudalis, dérivé de feudum / le fief, emprunté au vieux francique germanique *fehu-ōd « bétail et propriété foncière héréditaire », cognat du vieil anglais feoh et de l'allemand Vieh / bétail) ; 2° « der Herr » (le seigneur terrien, issu du moyen haut-allemand hērre, comparatif du vieux haut-allemand hēriro « plus âgé, plus vénérable, supérieur en dignité »). Les Feudalherren sont les possesseurs exclusifs du sol seigneurial.",
+    "relatedConcepts": [
+      "feudalism",
+      "comp_noun",
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s2_w18": {
+    "wordId": "ch1_p3_s2_w18",
+    "translationFr": "vassaux",
+    "literalTranslation": "vassaux (hommes libres ayant prêté hommage à un suzerain)",
+    "contextNote": "Détenteurs de bénéfices féodaux subordonnés aux grands barons.",
+    "grammaticalRole": "Nom masculin pluriel (der Vasall -> die Vasallen) à l'accusatif pluriel (déclinaison faible en -en).",
+    "etymology": "Emprunté au bas-latin féodal « vassallus » (diminutif de vassus / serviteur, homme dépendant), lui-même issu du celtique gaulois *wasso- / *vassos (jeune serviteur d'armes, combattant fidèle d'un chef). En droit féodal, l'homme libre entré dans la clientèle d'un suzerain par l'hommage et le serment de foi, recevant un bénéfice foncier (le fief) en échange de l'aide militaire et du conseil.",
+    "cognatesFr": [
+      "vassal",
+      "vassaux",
+      "vasselage"
+    ],
+    "relatedConcepts": [
+      "feudalism"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p4_s1_w8": {
+    "wordId": "ch1_p4_s1_w8",
+    "translationFr": "issue / née des ruines",
+    "literalTranslation": "qui est sortie en s'avançant hors de (participe adjectivé)",
+    "contextNote": "Lafargue traduit par « élevée sur les ruines de la société féodale ». En allemand, c'est un participe parfait adjectivé (hervorgegangen) encadré dans un groupe participial épithète typique de la syntaxe savante allemande.",
+    "grammaticalRole": "Participe parfait adjectivé de « hervorgehen », décliné au nominatif féminin singulier en -e après « die ».",
+    "syntaxNote": "Construction participiale étendue allemande : « Die [aus dem Untergange...] hervorgegangene moderne bürgerliche Gesellschaft ». Le complément précède le participe placé avant le nom.",
+    "relatedConcepts": [
+      "decl",
+      "sep_verb"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p4_s1_w10": {
+    "wordId": "ch1_p4_s1_w10",
+    "translationFr": "bourgeoise / civile",
+    "literalTranslation": "bourgeoise (de la bourgeoisie urbaine) ET civile (société civile)",
+    "contextNote": "En allemand, « bürgerlich » possède un double sens fondamental : il signifie à la fois « bourgeois » (relatif à la classe capitaliste) et « civil » (relatif au citoyen de la société civile).",
+    "grammaticalRole": "Adjectif qualificatif décliné au nominatif féminin singulier en -e après « die ».",
+    "etymology": "Dérivé au moyen du suffixe d'appartenance « -lich » de « der Bürger » (l'habitant libre d'un bourg fortifié, Burg). Possède en allemand classique une ambivalence philosophique cruciale : il traduit à la fois le français 'bourgeois' (la classe des propriétaires du capital) et 'civil' (le citoyen privé, membre de la société civile). Marx démontre que la « bürgerliche Gesellschaft » célébrée par Hegel n'est rien d'autre que le règne économique sans partage de la bourgeoisie marchande.",
+    "philosophicalContext": "Chez Hegel (« Principes de la philosophie du droit », 1821), la « bürgerliche Gesellschaft » est la société civile des besoins économiques privés. Marx démontre que cette prétendue société civile universelle est en réalité la dictature de classe de la bourgeoisie capitaliste.",
+    "relatedConcepts": [
+      "bourgeoisie",
+      "decl"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p4_s1_w14": {
+    "wordId": "ch1_p4_s1_w14",
+    "translationFr": "antagonismes de classes",
+    "literalTranslation": "oppositions de classes, contradictions de classes",
+    "contextNote": "Pluriel de « Klassengegensatz ». Cœur de la critique marxienne du libéralisme bourgeois.",
+    "grammaticalRole": "Nom composé masculin pluriel (die Klassengegensätze) à l'accusatif, COD de « hat ... aufgehoben ».",
+    "etymology": "Composé dialectique unissant « die Klasse » (emprunt au latin classis, division civique des citoyens romains selon leur fortune) et « der Gegensatz » (calque philosophique de l'antithèse grecque, de gegen = en face + Satz = position posée). Souligne l'incompatibilité absolue des intérêts matériels de deux pôles sociaux irréconciliables.",
+    "relatedConcepts": [
+      "class_struggle",
+      "comp_noun",
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p4_s1_w16": {
+    "wordId": "ch1_p4_s1_w16",
+    "translationFr": "abolis / surmontés dialectiquement",
+    "literalTranslation": "levés, abolis, conservés en étant dépassés (verbe hégélien canonique)",
+    "contextNote": "Lafargue traduit simplement par « n'a pas aboli ». Mais en allemand, « aufheben » est le maître-mot de toute la philosophie de Hegel. Le verbe possède trois sens indissociables : 1° Supprimer / anéantir (tollere), 2° Conserver / préserver (conservare), 3° Élever à un palier supérieur (elevare).",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe fort inséparable « aufheben » (hebt auf, hob auf, aufgehoben). Forme le parfait avec « hat » en position 12.",
+    "philosophicalContext": "Thèse centrale : la société bourgeoise prétend avoir instauré l'égalité universelle en abolissant les ordres féodaux. Marx réplique qu'elle n'a pas accompli l'Aufhebung dialectique de l'antagonisme de classe : elle n'a fait que le dépouiller de ses oripeaux religieux et corporatifs pour le rendre plus direct et implacable.",
+    "syntaxNote": "Cadre de la proposition principale (Satzklammer) : l'auxiliaire conjugué « hat » est en position 12 et le participe « aufgehoben » clôt la phrase en position 16 après la négation « nicht ».",
+    "relatedConcepts": [
+      "aufhebung",
+      "hist_mat",
+      "prefix_verb"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p4_s2_w8": {
+    "wordId": "ch1_p4_s2_w8",
+    "translationFr": "conditions objectives",
+    "literalTranslation": "conditions, stipulations, termes d'un rapport",
+    "contextNote": "Lafargue traduit « de nouvelles conditions d'oppression ».",
+    "grammaticalRole": "Nom féminin pluriel (die Bedingung -> die Bedingungen) à l'accusatif.",
+    "etymology": "Substantif juridique forgé au moyen haut-allemand « bedingunge » (accord solennel, stipulation convenue lors d'un procès ou d'un traité), dérivé du verbe « bedingen » (de Ding / la cour de justice publique germanique, la cause plaidée). Chez Marx, les « Bedingungen » se matérialisent en 'conditions matérielles objectives' qui déterminent les formes de la vie sociale indépendamment de la volonté subjective des individus.",
+    "relatedConcepts": [
+      "acc",
+      "plural"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p4_s2_w13": {
+    "wordId": "ch1_p4_s2_w13",
+    "translationFr": "formes concrètes / configurations",
+    "literalTranslation": "mises en forme, conformations concrètes, configurations plastiques",
+    "contextNote": "Lafargue traduit « de nouvelles formes de lutte ». En allemand, « Gestaltungen » souligne que la lutte adopte un nouveau profil morphologique (syndicats, grèves, presse ouvrière contre coalitions patronales).",
+    "grammaticalRole": "Nom féminin pluriel (die Gestaltung -> die Gestaltungen) à l'accusatif.",
+    "etymology": "Nom de genèse formelle issu du moyen haut-allemand « gestalt », vieux haut-allemand « gistalt » (apparence corporelle, stature, conformation visible, participe substantivé du verbe stellen / poser debout). Désigne les métamorphoses et configurations concrètes sous lesquelles se réorganise la domination de classe au cours des transitions historiques.",
+    "relatedConcepts": [
+      "acc",
+      "plural"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p4_s2_w21": {
+    "wordId": "ch1_p4_s2_w21",
+    "translationFr": "substitué / posé à la place de",
+    "literalTranslation": "posé, placé à la place de (locution an die Stelle setzen)",
+    "contextNote": "Lafargue traduit « Elle n'a fait que substituer [...] à celles d'autrefois ». En allemand, la tournure idiomatique est « an die Stelle setzen » (+ génitif).",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe faible « setzen », complétant l'auxiliaire « hat » (en position 2).",
+    "syntaxNote": "Fermeture du cadre syntaxique verbal (Satzklammer) en dernière position.",
+    "relatedConcepts": [
+      "v2"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s1_w9": {
+    "wordId": "ch1_p5_s1_w9",
+    "translationFr": "se distingue / se caractérise",
+    "literalTranslation": "se détache par une marque distinctive, se signale (verbe auszeichnen)",
+    "contextNote": "Lafargue traduit par « le caractère distinctif de notre époque [...] est d'avoir... ».",
+    "grammaticalRole": "Verbe pronominal séparable (sich aus|zeichnen) à la 3e personne du singulier au présent.",
+    "wordIds": [
+      "ch1_p5_s1_w9",
+      "ch1_p5_s1_w10",
+      "ch1_p5_s1_w13"
+    ],
+    "etymology": "Verbe composé séparable unissant : 1° la préposition d'extraction « aus » (hors de, en dehors) ; 2° le verbe de marquage graphique « zeichnen » (dessiner, marquer d'un trait, moyen haut-allemand zeichenen, vieux haut-allemand zeihhanōn, dérivé de das Zeichen = le signe, l'empreinte, racine germanique *taikną, cognat de l'anglais token). Littéralement : tracer une ligne de démarcation qui isole et fait ressortir une singularité historique inédite par rapport à toutes les époques antérieures.",
+    "syntaxNote": "La particule séparable « aus » est rejetée en position 13, juste avant la subordonnée introduite par « daß ».",
+    "relatedConcepts": [
+      "sep_verb",
+      "v2"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s1_w19": {
+    "wordId": "ch1_p5_s1_w19",
+    "translationFr": "simplifiés en deux pôles",
+    "literalTranslation": "rendus simples, dépouillés de leurs compartiments multiples",
+    "contextNote": "Lafargue traduit par « simplifié les antagonismes de classes ». C'est l'un des constats sociologiques majeurs du Manifeste.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe « vereinfachen », complétant l'auxiliaire « hat » dans la subordonnée.",
+    "etymology": "Verbe factitif formé du préfixe d'accomplissement transitif « ver- » et de l'adjectif « einfach » (moyen haut-allemand einvach = simple, uni, composé de ein = un seul + Fach = division, pli d'étoffe, compartiment). Calque morphologique et sémantique rigoureux du latin « sim-plex » (qui n'a qu'un seul pli, par opposition à duplex ou multiplex). Marx montre que le capitalisme a balayé le lacis des ordres médiévaux pour réduire le drame historique à deux acteurs nus.",
+    "philosophicalContext": "Le capitalisme élimine la mosaïque médiévale des ordres, guildes et corporations pour polariser violemment toute la société en deux blocs uniques et face à face : Bourgeoisie et Prolétariat.",
+    "relatedConcepts": [
+      "sub_clause",
+      "hist_mat"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p5_s2_w4": {
+    "wordId": "ch1_p5_s2_w4",
+    "translationFr": "se divise / se scinde brutalement",
+    "literalTranslation": "se fend en deux sous la hache, se clive violemment (verbe spalten)",
+    "contextNote": "Lafargue traduit par « se divise de plus en plus ». En allemand, « spalten » est un verbe d'une très grande force expressive (fendre du bois d'un coup net de merlin).",
+    "grammaticalRole": "Verbe pronominal (sich spalten) à la 3e personne du singulier au présent de l'indicatif.",
+    "etymology": "Issu du moyen haut-allemand « spalten », vieux haut-allemand « spaltan » (verbe fort rédupliquant de la classe VII), de la racine germanique commune *spaldan- (« fendre en deux éclats »), issue de l'indo-européen *(s)pʰeld- (fendre le bois, cognat du vieil anglais speld / éclat de bois et de l'anglais moderne split). Verbe de rupture physique violente traduisant le déchirement irréversible du corps social.",
+    "philosophicalContext": "Cette métaphore géologique et physique montre la rupture irréversible du tissu social : il ne s'agit pas d'un simple désaccord politique, mais d'une cassure de la société en deux plaques tectoniques irréconciliables.",
+    "relatedConcepts": [
+      "v2"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p5_s2_w13": {
+    "wordId": "ch1_p5_s2_w13",
+    "translationFr": "camps / tranchées",
+    "literalTranslation": "cantonnements militaires, camps fortifiés de campagne",
+    "contextNote": "Lafargue traduit « en deux vastes camps ennemis ». Métaphore militaire de la guerre civile permanente.",
+    "grammaticalRole": "Nom neutre pluriel (das Lager -> die Lager) à l'accusatif pluriel après la préposition « in » marquant la division résultante.",
+    "etymology": "Substantif d'art militaire issu du moyen haut-allemand « lager », vieux haut-allemand « lagar » (l'endroit où l'on s'allonge pour dormir, gîte), déverbal de « liegen » (être couché, étendu en plaine). Passé dès le bas Moyen Âge au sens de campement retranché d'une armée en campagne belligérante (cognat de l'anglais lair). Métaphore de la polarisation guerrière de la société en deux camps retranchés prêts à l'affrontement.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w21": {
+    "wordId": "ch1_p5_s2_w21",
+    "translationFr": "directement opposées en vis-à-vis",
+    "literalTranslation": "qui se tiennent debout directement l'une en face de l'autre (participe)",
+    "contextNote": "Lafargue traduit « diamétralement opposées ». En allemand, c'est un participe présent adjectivé très visuel : elles sont debout, l'œil dans l'œil.",
+    "grammaticalRole": "Participe présent adjectivé du verbe séparable « gegenüber|stehen », décliné à l'accusatif féminin pluriel en -e.",
+    "etymology": "Participe adjectivé du verbe composé « gegenüberstehen » : adverbe de confrontation réciproque « gegenüber » (composé de gegen = contre, en face + über = par-dessus l'intervalle spatial) et verbe statique « stehen » (se tenir fermement debout sur ses gardes, vieux haut-allemand stān / stēn). Traduit visuellement la tension dramatique de deux lignes de front dressées à portée de canon.",
+    "relatedConcepts": [
+      "decl",
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w24": {
+    "wordId": "ch1_p5_s2_w24",
+    "translationFr": "la bourgeoisie",
+    "literalTranslation": "la classe bourgeoise capitaliste moderne",
+    "contextNote": "L'un des deux acteurs majeurs de l'antagonisme moderne.",
+    "grammaticalRole": "Nom féminin singulier (die Bourgeoisie) au nominatif en apposition.",
+    "philosophicalContext": "Définie par Engels en 1888 : « On entend par bourgeoisie la classe des capitalistes modernes qui possèdent les moyens de production sociale et emploient le travail salarié ».",
+    "cognatesFr": [
+      "bourgeoisie",
+      "bourgeois",
+      "bourg"
+    ],
+    "relatedConcepts": [
+      "bourgeoisie",
+      "capital"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p5_s2_w26": {
+    "wordId": "ch1_p5_s2_w26",
+    "translationFr": "le prolétariat",
+    "literalTranslation": "la classe ouvrière prolétaire moderne",
+    "contextNote": "Second pôle de l'antagonisme contemporain.",
+    "grammaticalRole": "Nom neutre singulier (das Proletariat) au nominatif en apposition.",
+    "etymology": "Emprunté dans les années 1830-1840 au français « prolétariat », lui-même dérivé de « prolétaire », issu du latin classique « proletarius » (dans la constitution attribuée à Servius Tullius, citoyen de la sixième et dernière classe censitaire, non imposable et exempt du service militaire régulier car dépourvu de tout bien foncier, dont l'unique apport reconnu à la cité était sa progéniture, proles < *pro-alere = nourrir en avant). Réintroduit dans l'analyse économique moderne par Lorenz von Stein et Karl Marx pour caractériser la classe des travailleurs libres juridiquement mais dépossédés de tout moyen de production.",
+    "philosophicalContext": "Définie par Engels en 1888 : « On entend par prolétariat la classe des ouvriers salariés modernes qui, privés de leurs propres moyens de production, sont réduits à vendre leur force de travail pour vivre ».",
+    "cognatesFr": [
+      "prolétariat",
+      "prolétaire"
+    ],
+    "relatedConcepts": [
+      "proletariat",
+      "exploitation"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p6_s1_w8": {
+    "wordId": "ch1_p6_s1_w8",
+    "translationFr": "premiers bourgeois / bourgeois forains",
+    "literalTranslation": "bourgeois du palis, habitants des faubourgs palissadés",
+    "contextNote": "Lafargue traduit par « les bourgeois des premières agglomérations urbaines ». En allemand historique, « Pfahlbürger » est un terme technique médiéval d'une précision remarquable : les serfs enfuis s'installaient entre la muraille de pierre de la cité et la palissade extérieure de pieux (Pfahlwerk).",
+    "grammaticalRole": "Nom composé masculin pluriel (der Pfahlbürger -> die Pfahlbürger) au nominatif sujet de « gingen ... hervor ».",
+    "etymology": "Composé médiéval de haute précision juridique : 1° « der Pfahl » (le pieu, palissade), issu du vieux haut-allemand « phāl », emprunté très tôt (dès le Ier siècle av. J.-C. lors des guerres germaniques de Rome) au latin classique « pālus » (pieu fiché en terre pour former un retranchement militaire ; cognat direct du français « pal », « palis » et « palissade ») ; 2° « der Bürger » (le citoyen urbain libre), issu du vieux haut-allemand « burgari », dérivé de « Burg » (la cité fortifiée, le château fort, de la racine germanique *burgz « lieu élevé et fortifié », apparenté à Berg et au grec pyrgos / tour). Dès le XIIIe siècle (vers 1240 dans les chartes de Worms et Spire), les « Pfahlbürger » désignaient les serfs campagnards fugitifs installés dans la zone intermédiaire palissadée (« im Pfahle ») située entre les remparts de pierre de la ville et les terres seigneuriales, accédant aux franchises communales par le droit coutumier selon l'adage « Stadtluft macht frei nach Jahr und Tag » (L'air de la ville rend libre après un an et un jour).",
+    "philosophicalContext": "Marx retrace la genèse spatiale et matérielle de la bourgeoisie : elle ne naît pas d'une concession des rois, mais de l'initiative clandestine de serfs fugitifs qui ont conquis leur émancipation hors des terres seigneuriales (« Stadtluft macht frei »).",
+    "relatedConcepts": [
+      "comp_noun",
+      "feudalism",
+      "bourgeoisie"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p6_s1_w16": {
+    "wordId": "ch1_p6_s1_w16",
+    "translationFr": "population municipale des faubourgs",
+    "literalTranslation": "la collectivité des bourgeois forains (nom collectif en -schaft)",
+    "contextNote": "Lafargue traduit par « de cette population municipale ». Suffixe collectif -schaft désignant l'ensemble du corps civique des faubourgs.",
+    "grammaticalRole": "Nom composé féminin singulier (die Pfahlbürgerschaft) au datif après « aus ».",
+    "etymology": "Dérivation institutionnelle médiévale combinant le substantif « Pfahlbürger » (bourgeois du palis, réfugié dans les faubourgs fortifiés) et le suffixe germanique de collectivité statutaire « -schaft » (du moyen haut-allemand « -schaft », vieux haut-allemand « -scaf / -scāphi », issu de la racine germanique *skapaz « constitution ordonnée, état, condition légale », directement apparenté au verbe schaffen « créer, instituer, façonner » et cognat étymologique de l'anglais « -ship » dans citizenship, fellowship). En droit médiéval germanique, le morphème « -schaft » élève la condition individuelle à celle d'un corps constitué et autonome doté de droits politiques communs (cf. Bürgerschaft, Bruderschaft, Genossenschaft). Marx emploie ici « Pfahlbürgerschaft » pour désigner non un simple groupe d'individus, mais la première corporation collective et municipale des bourgeois forains, matrice institutionnelle du tiers état et berceau historique de la bourgeoisie capitaliste.",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s1_w2": {
+    "wordId": "ch1_p7_s1_w2",
+    "translationFr": "découverte",
+    "literalTranslation": "découverte (action d'ôter la couverture, de révéler)",
+    "contextNote": "Lafargue traduit « La découverte de l'Amérique ». 1492 marque le coup d'envoi du marché mondial.",
+    "grammaticalRole": "Nom féminin singulier (die Entdeckung) au nominatif sujet.",
+    "etymology": "Nom d'action formé du préfixe privatif et réversif « ent- » (moyen haut-allemand ent-, vieux haut-allemand ant-, annulant l'effet du verbe de base) appliqué à « decken » (couvrir, protéger d'un voile ou d'un toit, moyen haut-allemand decken, vieux haut-allemand decken, racine indo-européenne *(s)teg- « couvrir », cognat du grec stegos / toit, du latin tegere et du français toit / tégument). Calque morphologique parfait du bas-latin « dis-cooperire » d'où découle le français 'découverte' : dévoiler une terre tenue jusque-là à l'abri des regards.",
+    "relatedConcepts": [
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s1_w6": {
+    "wordId": "ch1_p7_s1_w6",
+    "translationFr": "circumnavigation / contournement maritime",
+    "literalTranslation": "contournement par bateau, navigation autour du continent",
+    "contextNote": "Fait référence au passage historique du Cap de Bonne-Espérance par Vasco de Gama en 1497, contournant le monopole commercial terrestre de l'Empire ottoman et de Venise.",
+    "grammaticalRole": "Nom composé féminin singulier (die Umschiffung) au nominatif sujet coordonné.",
+    "etymology": "Terme nautique composé unissant : 1° le préfixe circulaire « um- » (rotation autour d'un centre ou contournement d'un obstacle, vieux haut-allemand umbi) ; 2° le nom marin « das Schiff » (le navire, issu du moyen haut-allemand schif, vieux haut-allemand skif, racine germanique commune *skipą, cognat de l'anglais ship) ; 3° le suffixe d'action « -ung ». Désigne la circumnavigation maritime pionnière autour du cap de Bonne-Espérance accomplie par Vasco de Gama en 1497-1498, ouvrant la route transocéanique directe vers les Indes.",
+    "relatedConcepts": [
+      "comp_noun"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s1_w10": {
+    "wordId": "ch1_p7_s1_w10",
+    "translationFr": "naissante / montante",
+    "literalTranslation": "qui monte, qui émerge, qui grandit (participe présent adjectivé)",
+    "contextNote": "Lafargue traduit par « à la bourgeoisie naissante ».",
+    "grammaticalRole": "Participe présent adjectivé de « auf|kommen », décliné au datif féminin singulier en -en après « der ».",
+    "etymology": "Participe présent adjectivé du verbe composé « aufkommen » : préposition directionnelle verticale « auf » (vers le haut, vieux haut-allemand ūf) + verbe fondamental « kommen » (venir, arriver, moyen haut-allemand komen, vieux haut-allemand queman, racine germanique *kwemaną, racine indo-européenne *gʷem-). Décrit la classe montante, dont la courbe ascensionnelle brise l'équilibre statique de l'ancien monde et s'élève vers le sommet du pouvoir économique.",
+    "relatedConcepts": [
+      "decl",
+      "dat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s1_w14": {
+    "wordId": "ch1_p7_s1_w14",
+    "translationFr": "champ d'action / terrain",
+    "literalTranslation": "terrain, espace d'activité ouvert",
+    "contextNote": "Emprunt au français « terrain » fréquemment utilisé en allemand au XIXe siècle dans le sens métaphorique d'arène d'action.",
+    "grammaticalRole": "Nom neutre singulier (das Terrain) à l'accusatif, COD du verbe « schufen ».",
+    "cognatesFr": [
+      "terrain"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p7_s2_w13": {
+    "wordId": "ch1_p7_s2_w13",
+    "translationFr": "échanges commerciaux / commerce",
+    "literalTranslation": "échange réciproque, troc, circulation commerciale",
+    "contextNote": "Lafargue traduit « le commerce colonial ». En allemand, « der Austausch mit den Kolonien » insiste sur le flux matériel de denrées échangées.",
+    "grammaticalRole": "Nom masculin singulier (der Austausch) au nominatif sujet.",
+    "etymology": "Substantif économique combinant le préfixe d'extension extérieure « aus- » et le nom « der Tausch » (l'échange marchand, le troc). « Tausch » est un déverbal de « tauschen » (moyen haut-allemand tûschen), doublet étymologique de « täuschen » (tromper, duper), dont l'origine ultime est discutée et incertaine (probablement liée au jargon commercial des foires médiévales et au maquignonnage de chevaux, où l'échange de bêtes s'accompagnait souvent de ruse). Le terme s'est pacifié au XVIIe siècle pour désigner l'échange loyal de biens, avant que Marx n'en fasse le concept de circulation générale des marchandises.",
+    "relatedConcepts": [
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s2_w19": {
+    "wordId": "ch1_p7_s2_w19",
+    "translationFr": "multiplication",
+    "literalTranslation": "multiplication quantitative, prolifération",
+    "contextNote": "Lafargue traduit « la multiplication des moyens d'échange ».",
+    "grammaticalRole": "Nom féminin singulier (die Vermehrung) au nominatif.",
+    "etymology": "Nom d'action économique forgé sur le comparatif quantitatif « mehr » (plus grand, plus nombreux, moyen haut-allemand mêre, vieux haut-allemand mēro, racine germanique *maizô) encadré par le préfixe transitif d'intensification « ver- » et le suffixe d'action « -ung ». Décrit l'accumulation matérielle auto-croissante du capital marchand qui exige continuellement l'augmentation en masse des marchandises produites.",
+    "relatedConcepts": [
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s2_w21": {
+    "wordId": "ch1_p7_s2_w21",
+    "translationFr": "moyens d'échange / instruments monétaires",
+    "literalTranslation": "moyens d'échange, instruments de circulation du troc et des marchandises",
+    "contextNote": "Terme technique d'économie politique. Désigne l'afflux massif d'argent et d'or extrait des mines des Amériques qui a bouleversé les prix et dynamisé la circulation marchande européenne.",
+    "grammaticalRole": "Nom composé neutre pluriel (das Tauschmittel -> die Tauschmittel) au génitif pluriel après l'article « der ».",
+    "etymology": "Composé économique rigoureux : 1° « der Tausch » (la circulation marchande, moyen haut-allemand tûschen, étymon discuté) ; 2° « das Mittel » (l'instrument médiateur, le moyen terme, substantivation de l'adjectif vieux haut-allemand mittil = qui se tient au centre, racine germanique *medilaz, cognat de l'anglais middle). Désigne la monnaie métallique (l'or et l'argent extraits des Amériques) en tant qu'équivalent général indispensable pour fluidifier les transactions transocéaniques.",
+    "philosophicalContext": "Préfigure l'analyse du Livre I du Capital sur la métamorphose de l'or américain en capital financier mondial.",
+    "relatedConcepts": [
+      "comp_noun",
+      "gen",
+      "capital"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p7_s2_w24": {
+    "wordId": "ch1_p7_s2_w24",
+    "translationFr": "marchandises",
+    "literalTranslation": "marchandises, biens produits pour la vente sur le marché",
+    "contextNote": "Lafargue traduit « et, en général, des marchandises ».",
+    "grammaticalRole": "Nom féminin pluriel (die Ware -> die Waren) au génitif pluriel.",
+    "etymology": "Issu du moyen haut-allemand « ware », vieux haut-allemand « wara » (marchandise transportée, denrée précieuse destinée au trafic marchand), issu de la racine germanique commune *warō- (« attention, soin vigilant, conservation soigneuse », cognat de wahren = préserver et du vieil anglais waru d'où découle l'anglais ware dans hardware, software). La marchandise est étymologiquement l'objet de précaution et d'estimation marchande, cellule élémentaire du mode de production capitaliste dans 'Le Capital'.",
+    "philosophicalContext": "La marchandise (die Ware) sera définie par Marx dès la première ligne du Capital comme la forme cellulaire élémentaire de la richesse dans les sociétés dominées par le capitalisme.",
+    "relatedConcepts": [
+      "gen",
+      "capital"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p7_s2_w38": {
+    "wordId": "ch1_p7_s2_w38",
+    "translationFr": "essor prodigieux / impulsion",
+    "literalTranslation": "envol soudain et puissant d'un battement d'ailes, essor vigoureux",
+    "contextNote": "Lafargue traduit par « un essor jusqu'alors inconnu ». En allemand, « Aufschwung » évoque un oiseau ou un aigle qui s'élance avec une énergie irrésistible vers les hauteurs.",
+    "grammaticalRole": "Nom masculin singulier (der Aufschwung) à l'accusatif, COD du verbe « gaben » (pos. 26).",
+    "etymology": "Substantif métaphorique d'une grande énergie cinétique unissant la particule ascendante « auf » (vers les hauteurs) et « der Schwung » (l'élan propulsif, la force centrifuge du pendule ou de la fronde, déverbal fort de schwingen / faire osciller avec vigueur, moyen haut-allemand swunc, vieux haut-allemand swingan, cognat de l'anglais swing). Évoque l'envolée soudaine et vertigineuse de la production marchande arrachée à la torpeur médiévale.",
+    "philosophicalContext": "Marx reconnaît sans réserve le rôle historique prodigieusement révolutionnaire et dynamique joué par la bourgeoisie dans l'expansion mondiale des forces productives.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p7_s2_w46": {
+    "wordId": "ch1_p7_s2_w46",
+    "translationFr": "en décomposition / en dissolution",
+    "literalTranslation": "qui tombe en morceaux, qui s'effondre en poussière (participe présent)",
+    "contextNote": "Lafargue traduit par « dans la société féodale en dissolution ». En allemand, le préfixe destructif « zer- » indique une dislocation physique irréversible en débris.",
+    "grammaticalRole": "Participe présent adjectivé du verbe inséparable « zerfallen », décliné au datif féminin singulier en -en après « der ».",
+    "etymology": "Participe adjectivé combinant le préfixe inséparable de destruction intégrale « zer- » (marquant la dislocation en mille morceaux, le broyage irréversible, issu du moyen haut-allemand zer-, vieux haut-allemand zir- / zar-) et le verbe de chute « fallen » (tomber sous son propre poids, moyen haut-allemand vallen, vieux haut-allemand fallan). Littéralement : s'écrouler en ruines et en poussière sous l'effet de sa propre caducité historique.",
+    "philosophicalContext": "L'irruption du commerce colonial et de la monnaie ne détruit pas le féodalisme de l'extérieur par la force militaire, elle le fait pourrir et s'effriter de l'intérieur en dissolvant les liens coutumiers naturels.",
+    "relatedConcepts": [
+      "dat",
+      "decl",
+      "prefix_verb",
+      "feudalism"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p7_s2_w51": {
+    "wordId": "ch1_p7_s2_w51",
+    "translationFr": "développement rapide",
+    "literalTranslation": "déploiement progressif, déroulement de ce qui était enroulé",
+    "contextNote": "Lafargue traduit « un développement rapide ».",
+    "grammaticalRole": "Nom féminin singulier (die Entwicklung) à l'accusatif, COD de « gaben ... eine Entwicklung ».",
+    "etymology": "Grand concept hégélien et marxiste de dialectique historique formé de : 1° le préfixe réversif « ent- » (cessation d'une contrainte) ; 2° le verbe « wickeln » (moyen haut-allemand wickeln, dénominal du vieux haut-allemand wickil = pelote de fil, fuseau, racine germanique *wik- liée à l'idée d'enroulement) ; 3° le suffixe « -ung ». Calque morphologique exact du latin « ex-plicare » (dé-plier les replis) et du français « dé-veloppement » (ôter les enveloppes qui brident l'organisme pour libérer la croissance des forces productives).",
+    "philosophicalContext": "Concept hégélien : le déploiement immanent des virtualités d'un être ou d'un rapport social.",
+    "relatedConcepts": [
+      "acc",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w5": {
+    "wordId": "ch1_p8_s1_w5",
+    "translationFr": "corporatif / des jurandes",
+    "literalTranslation": "propre aux jurandes, aux corporations fermées de métier",
+    "contextNote": "Lafargue traduit « feudale oder zünftige » par « féodal ou corporatif ».",
+    "grammaticalRole": "Adjectif qualificatif (zünftig) au nominatif féminin singulier en -e après « die ».",
+    "etymology": "Adjectif statutaire dérivé par le suffixe « -ig » de « die Zunft » (la corporation de métier jurée, du moyen haut-allemand zumft, vieux haut-allemand zumft « ce qui est convenable, statutairement réglé », du verbe ziemen). Caractérise le monopole corporatif féodal qui interdisait strictement à quiconque ne possédait pas la maîtrise jurée d'exercer un métier manuel ou d'embaucher des ouvriers au-delà du quota fixé.",
+    "relatedConcepts": [
+      "feudalism",
+      "decl"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w6": {
+    "wordId": "ch1_p8_s1_w6",
+    "translationFr": "mode d'exploitation / organisation productive",
+    "literalTranslation": "manière de faire fonctionner une exploitation, mode opératoire d'atelier",
+    "contextNote": "Lafargue traduit par « mode d'exploitation ». Préfigure la notion cardinale du marxisme de « Produktionsweise » (mode de production).",
+    "grammaticalRole": "Nom composé féminin singulier (die Betriebsweise) au nominatif sujet de « reichte ... aus ».",
+    "etymology": "Composé économique associant : 1° « der Betrieb » (l'exploitation productive, l'atelier en activité continue, dérivé du verbe transitif betreiben = mener en avant, pousser le bétail ou la machinerie, moyen haut-allemand trīben, vieux haut-allemand trīban) ; 2° « die Weise » (la manière, la modalité technique, du vieux haut-allemand wīsa, racine germanique *wīsō-, cognat de l'anglais wise). Désigne chez Marx la structure organisationnelle concrète du procès de travail (ici corporatif puis manufacturier).",
+    "philosophicalContext": "L'atelier corporatif artisanal (un maître, quelques compagnons, des règlements stricts limitant le rendement) entrait en contradiction insurmontable avec l'immensité de la demande solvable mondiale.",
+    "relatedConcepts": [
+      "comp_noun",
+      "prod_rel"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p8_s1_w9": {
+    "wordId": "ch1_p8_s1_w9",
+    "translationFr": "ne suffisait plus",
+    "literalTranslation": "ne suffisait plus, n'atteignait plus le niveau requis (verbe ausreichen)",
+    "contextNote": "Lafargue traduit exactement par « ne suffisait plus aux besoins ».",
+    "grammaticalRole": "Verbe à particule séparable « aus|reichen » à la 3e personne du singulier au prétérit (reichte).",
+    "wordIds": [
+      "ch1_p8_s1_w9",
+      "ch1_p8_s1_w12"
+    ],
+    "etymology": "Verbe composé séparable combinant la particule d'achèvement « aus » et le verbe germanique « reichen » (tendre la main, atteindre jusqu'au bout, moyen haut-allemand reichen, vieux haut-allemand reihhan « étendre le bras », racine germanique *raikijaną, apparenté à l'anglais reach). « Ausreichen » exprime la capacité de mesurer ses forces pour couvrir la totalité d'un besoin : l'atelier corporatif artisanal ne peut matériellement plus atteindre l'échelle requise par l'appétit du marché mondial.",
+    "syntaxNote": "Cadre verbal : « reichte » est en position 9 et la particule « aus » est en position 12 avant le complément prépositionnel.",
+    "relatedConcepts": [
+      "sep_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w19": {
+    "wordId": "ch1_p8_s1_w19",
+    "translationFr": "qui croissaient avec les marchés",
+    "literalTranslation": "qui grossissait en s'accroissant (participe présent adjectivé)",
+    "contextNote": "Lafargue traduit par « qui croissaient avec les nouveaux marchés ». En allemand, c'est une proposition participiale compacte placée devant « Bedarf ».",
+    "grammaticalRole": "Participe présent adjectivé du verbe « an|wachsen », décliné à l'accusatif masculin singulier en -en après « den ».",
+    "etymology": "Participe adjectivé unissant le préfixe d'adjonction continue « an- » et le verbe fort « wachsen » (croître biologiquement, augmenter en masse, moyen haut-allemand wahsen, vieux haut-allemand wahsan, racine germanique *wahsijaną, racine indo-européenne *h₂weks-, cognat du grec auxein et de l'anglais wax). Décrit l'enflure organique exponentielle de la demande mondiale qui submerge les anciennes capacités locales de production.",
+    "relatedConcepts": [
+      "decl",
+      "acc",
+      "sep_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w20": {
+    "wordId": "ch1_p8_s1_w20",
+    "translationFr": "besoins / demande économique",
+    "literalTranslation": "besoin solvable, demande quantitative de marchandises requises",
+    "contextNote": "Lafargue traduit par « aux besoins ». Terme économique rigoureux.",
+    "grammaticalRole": "Nom masculin singulier (der Bedarf) à l'accusatif après « für ».",
+    "etymology": "Substantif économique issu du moyen haut-allemand « bedarf », déverbal du verbe « bedürfen » (ressentir une nécessité impérieuse, vieux haut-allemand bidurfan, composé du préfixe be- et du verbe prétérito-présent durfan / manquer de, avoir besoin, cognat du vieil anglais þurfan). Désigne en économie la demande solvable impérative réclamée par les marchés coloniaux.",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s2_w2": {
+    "wordId": "ch1_p8_s2_w2",
+    "translationFr": "La manufacture",
+    "literalTranslation": "la manufacture (atelier de travail manuel concentré)",
+    "contextNote": "Lafargue traduit « La manufacture prit sa place ».",
+    "grammaticalRole": "Nom féminin singulier (die Manufaktur) au nominatif sujet.",
+    "etymology": "Emprunt technique au bas-latin humaniste « manufactura » (forgé sur le génitif/ablatif manus = main et factura = travail de façonnage, du supin factum de facere). Chez Marx, la manufacture constitue la période historique intermédiaire (du milieu du XVIe au dernier tiers du XVIIIe siècle) précédant la grande industrie mécanisée : les ouvriers sont déjà rassemblés dans un atelier unique et soumis à une division parcellaire minutieuse des tâches, mais les outils restent encore actionnés manuellement sans vapeur.",
+    "philosophicalContext": "Étape charnière entre l'artisanat corporatif médiéval dispersé et la grande industrie machiniste moderne (Fabrikindustrie) mue par la vapeur.",
+    "cognatesFr": [
+      "manufacture",
+      "manufacturier"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p8_s2_w3": {
+    "wordId": "ch1_p8_s2_w3",
+    "translationFr": "prit sa place / se substitua à elle",
+    "literalTranslation": "s'avança d'un pas à sa place (locution an die Stelle treten)",
+    "contextNote": "Verbe de mouvement vigoureux : « treten » signifie faire un pas, s'avancer fermement.",
+    "grammaticalRole": "Verbe fort « treten » (tritt, trat, ist getreten) à la 3e personne du singulier au prétérit.",
+    "syntaxNote": "Position 2 du verbe conjugué dans la proposition principale déclarative.",
+    "relatedConcepts": [
+      "v2"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s3_w2": {
+    "wordId": "ch1_p8_s3_w2",
+    "translationFr": "maîtres de jurande / maîtres artisans",
+    "literalTranslation": "maîtres de corporation, propriétaires jurés d'ateliers corporatifs",
+    "contextNote": "Lafargue traduit « Les maîtres de jurande furent refoulés ».",
+    "grammaticalRole": "Nom composé masculin pluriel (der Zunftmeister -> die Zunftmeister) au nominatif sujet passif.",
+    "etymology": "Composé corporatif associant « die Zunft » (la jurande fermée, du moyen haut-allemand zumft) et « der Meister » (le maître artisan ayant accompli son chef-d'œuvre, emprunt ancien du vieux haut-allemand meistar au latin classique magister = celui qui est plus grand, chef d'atelier, dérivé de magis / plus grand). Le Zunftmeister est le propriétaire individuel de son petit atelier qui emploie deux ou trois compagnons sous les règles strictes de la confrérie.",
+    "relatedConcepts": [
+      "comp_noun",
+      "feudalism"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s3_w4": {
+    "wordId": "ch1_p8_s3_w4",
+    "translationFr": "furent refoulés / évincés impitoyablement",
+    "literalTranslation": "furent poussés hors de leur place par une pression écrasante (passif prétérit)",
+    "contextNote": "Lafargue traduit par « furent refoulés ». Le verbe allemand « verdrängen » a une résonance économique et physique très forte : c'est être chassé de son terrain par une force supérieure.",
+    "grammaticalRole": "Participe passé (Partizip II) du verbe inséparable « verdrängen », formant le passif prétérit avec « wurden ».",
+    "etymology": "Verbe dynamique unissant le préfixe d'éviction impitoyable « ver- » et le verbe « drängen » (presser avec violence, acculer, bousculer en masse, moyen haut-allemand drengen, vieux haut-allemand drengen, verbe factitif germanique *drangijaną, issu de la racine de dringen = pénétrer de force). Littéralement : bousculer hors du terrain économique, évincer sans merci. Le même terme sera immortalisé par Freud pour conceptualiser le 'refoulement' psychologique hors de la conscience.",
+    "philosophicalContext": "Loi d'airain de la concurrence capitaliste : la grande manufacture concentrée anéantit économiquement les petits maîtres artisans incapables de rivaliser en volume et en coûts.",
+    "syntaxNote": "Forme passive prétérite : wurden ... verdrängt. Le complément d'agent de moyen est introduit par « durch » (+ accusatif).",
+    "relatedConcepts": [
+      "passive",
+      "prefix_verb"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p8_s3_w8": {
+    "wordId": "ch1_p8_s3_w8",
+    "translationFr": "classe moyenne industrielle / chefs de manufactures",
+    "literalTranslation": "ordre moyen industriel, bourgeoisie moyenne manufacturière",
+    "contextNote": "Lafargue traduit par « la classe moyenne industrielle ». Attention au glissement historique : en 1848, le « industrielle Mittelstand » désignait les fabricants et entrepreneurs manufacturiers, situés entre les barons terriens et les prolétaires, et non la petite bourgeoisie actuelle.",
+    "grammaticalRole": "Nom composé masculin singulier (der Mittelstand) à l'accusatif après « durch ».",
+    "etymology": "Syntagme historique essentiel : « industriell » (issu du latin industria = zèle actif, habileté technique) + « der Mittelstand » (composé de mittel = intermédiaire, vieux haut-allemand mittil + Stand = ordre social féodal, de stehen). Attention à l'anachronisme contemporain : en 1848, l'industrielle Mittelstand ne désigne pas les employés ou la petite-bourgeoisie tertiaire, mais les chefs d'entreprises manufacturières pionniers (les 'fabricants' anglais), situés entre l'aristocratie terrienne et les ouvriers d'atelier.",
+    "philosophicalContext": "Cette classe moyenne industrielle de 1848 formera la fraction montante de la bourgeoisie qui évincera l'artisanat avant de donner naissance aux magnats de la grande industrie.",
+    "relatedConcepts": [
+      "comp_noun",
+      "acc",
+      "bourgeoisie"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p8_s3_w11": {
+    "wordId": "ch1_p8_s3_w11",
+    "translationFr": "division du travail",
+    "literalTranslation": "partage de la peine, division de la tâche productive",
+    "contextNote": "Lafargue traduit « la division du travail entre les différentes corporations céda la place à la division du travail au sein de l'atelier même ».",
+    "grammaticalRole": "Syntagme nominal (die Teilung der Arbeit) : nom féminin singulier « Teilung » au nominatif sujet + génitif féminin singulier « der Arbeit ».",
+    "wordIds": [
+      "ch1_p8_s3_w11",
+      "ch1_p8_s3_w13"
+    ],
+    "etymology": "Syntagme cardinal de l'économie classique (Adam Smith, 'The Division of Labour') : 1° « die Teilung » (l'action de fragmenter, du verbe teilen = scinder en parts, moyen haut-allemand teilen, vieux haut-allemand teillan, racine germanique *dailijaną, cognat de l'anglais deal) ; 2° « die Arbeit » (le labeur productif, issu du moyen haut-allemand arbeit, vieux haut-allemand arabeit = épreuve pénible, détresse, peine subie par l'orphelin ou l'esclave, racine germanique *arba- « orphelin, serviteur corvéable », cognat du russe rabota / travail et du mot robot). Calque rigoureux de la parcellisation technique de la force de travail.",
+    "philosophicalContext": "Concept fondamental de l'économie politique classique (Adam Smith, David Ricardo) réanalysé par Marx : il y a un saut qualitatif entre la division sociale du travail (chaque corporation indépendante fabrique un produit fini) et la division technique du travail (dans l'atelier manufacturier, l'ouvrier n'accomplit plus qu'une fraction parcellaire et abrutissante du geste productif).",
+    "relatedConcepts": [
+      "prod_rel",
+      "gen"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p8_s3_w17": {
+    "wordId": "ch1_p8_s3_w17",
+    "translationFr": "corporations de métiers",
+    "literalTranslation": "corporations jurées, corps de métiers d'Ancien Régime",
+    "contextNote": "Lafargue traduit par « corporations ». Synonyme de Zünfte.",
+    "grammaticalRole": "Nom féminin pluriel (die Korporation -> die Korporationen) au datif pluriel après « zwischen ».",
+    "etymology": "Emprunt savant au bas-latin juridique « corporatio » (l'acte de former un corps politique ou commercial unifié, dérivé de corpus / corporis = corps physique). Désigne les corps de métier privilégiés d'Ancien Régime munis d'un monopole statutaire accordé par charte royale ou princière.",
+    "cognatesFr": [
+      "corporation",
+      "corporel",
+      "corps"
+    ],
+    "relatedConcepts": [
+      "dat",
+      "latin_root",
+      "feudalism"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p8_s3_w18": {
+    "wordId": "ch1_p8_s3_w18",
+    "translationFr": "disparut / céda la place",
+    "literalTranslation": "s'évanouit, disparut devant les yeux",
+    "contextNote": "Lafargue traduit par « céda la place à ». En allemand, « verschwand vor » souligne l'effacement direct sous la concurrence du nouveau modèle.",
+    "grammaticalRole": "Verbe fort « verschwinden » (verschwindet, verschwand, ist verschwunden) à la 3e personne du singulier au prétérit.",
+    "etymology": "Verbe fort marquant l'effacement définitif, formé du préfixe d'évanouissement « ver- » et du moyen haut-allemand « swinden » (s'épuiser, dépérir, disparaître sans laisser de trace, vieux haut-allemand swintan, racine germanique *swinþaną). Évoque la dissolution irrémédiable de l'artisanat médiéval balayé par la tornade productive de la mécanisation.",
+    "syntaxNote": "Position 2 du verbe conjugué dans la proposition indépendante coordonnée.",
+    "relatedConcepts": [
+      "v2",
+      "prefix_verb"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s3_w27": {
+    "wordId": "ch1_p8_s3_w27",
+    "translationFr": "l'atelier même",
+    "literalTranslation": "l'atelier, le lieu où l'on œuvre matériellement",
+    "contextNote": "Lafargue traduit « au sein de l'atelier même » (die Werkstatt selbst). L'atelier manufacturier unifié remplace l'émiettement corporatif dans la cité.",
+    "grammaticalRole": "Nom composé féminin singulier (die Werkstatt) au datif après « in der ».",
+    "etymology": "Composé unissant : 1° « das Werk » (l'ouvrage façonné, le produit du travail vivant, moyen haut-allemand werc, vieux haut-allemand werc, racine indo-européenne *werǵ- « fabriquer, agir », cognat du grec ergon / œuvre et de l'anglais work) ; 2° « die Statt / Stätte » (l'emplacement délimité, le lieu fixe où l'on se tient, moyen haut-allemand stat, vieux haut-allemand stat, apparenté au verbe stehen). La Werkstatt est le lieu spatial physique où s'opère la division technique interne entre ouvriers parcellaires.",
+    "philosophicalContext": "L'atelier moderne n'est plus le domicile chaleureux de l'artisan indépendant, mais le lieu de la concentration des prolétaires sous le commandement direct du capitaliste.",
+    "relatedConcepts": [
+      "comp_noun",
+      "dat",
+      "prod_rel"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch0_p1_s1_w4": {
+    "wordId": "ch0_p1_s1_w4",
+    "translationFr": "hanter / rôder",
+    "literalTranslation": "marcher autour en cercle, errer",
+    "grammaticalRole": "Particule verbale ou négative. Tournure impersonnelle allemande (« ein Geist geht um ») marquant la présence obsédante du spectre communiste.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s1_w5": {
+    "wordId": "ch0_p1_s1_w5",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p1_s1_w8": {
+    "wordId": "ch0_p1_s1_w8",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (neutre singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p1_s1_w10": {
+    "wordId": "ch0_p1_s1_w10",
+    "translationFr": "du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p1_s2_w1": {
+    "wordId": "ch0_p1_s2_w1",
+    "translationFr": "tous",
+    "literalTranslation": "la totalité sans exception",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Déterminant indéfini désignant l'universalité des forces liguées.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p1_s2_w3": {
+    "wordId": "ch0_p1_s2_w3",
+    "translationFr": "du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (neutre singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p1_s2_w5": {
+    "wordId": "ch0_p1_s2_w5",
+    "translationFr": "Europe",
+    "literalTranslation": "le continent européen",
+    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom propre neutre, théâtre historique de la première industrialisation et des révolutions de 1848.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p1_s2_w6": {
+    "wordId": "ch0_p1_s2_w6",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: présent · mode: indicatif. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p1_s2_w7": {
+    "wordId": "ch0_p1_s2_w7",
+    "translationFr": "se / soi-même",
+    "literalTranslation": "pronom réfléchi de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Pronom réfléchi accompagnant un verbe pronominal.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p1_s2_w8": {
+    "wordId": "ch0_p1_s2_w8",
+    "translationFr": "à / vers / en vue de",
+    "literalTranslation": "direction, destination ou but",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition régissant le datif marquant le but ou le résultat d'une alliance.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p1_s2_w9": {
+    "wordId": "ch0_p1_s2_w9",
+    "translationFr": "d'une / à une",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p1_s2_w12": {
+    "wordId": "ch0_p1_s2_w12",
+    "translationFr": "contre",
+    "literalTranslation": "en opposition spatiale ou politique",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition d'hostilité régissant l'accusatif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p1_s2_w14": {
+    "wordId": "ch0_p1_s2_w14",
+    "translationFr": "spectre / fantôme",
+    "literalTranslation": "apparition terrifiante, revenant menaçant",
+    "grammaticalRole": "Nom neutre singulier · au accusatif (complément d'objet direct). Nom neutre métaphorique : la hantise panique ressentie par les puissances d'Ancien Régime face au communisme émergent.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc",
+      "gespenst"
+    ]
+  },
+  "ch0_p1_s2_w17": {
+    "wordId": "ch0_p1_s2_w17",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p1_s2_w19": {
+    "wordId": "ch0_p1_s2_w19",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w20": {
+    "wordId": "ch0_p1_s2_w20",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p1_s2_w24": {
+    "wordId": "ch0_p1_s2_w24",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w27": {
+    "wordId": "ch0_p1_s2_w27",
+    "translationFr": "français",
+    "literalTranslation": "relatif à la France",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel nominatif (sujet ou attribut du sujet)). Adjectif désignant les républicains radicaux parisiens.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p1_s2_w29": {
+    "wordId": "ch0_p1_s2_w29",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch0_p1_s2_w30": {
+    "wordId": "ch0_p1_s2_w30",
+    "translationFr": "allemand",
+    "literalTranslation": "relatif aux États germaniques",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel nominatif (sujet ou attribut du sujet)). Adjectif national désignant les polices des monarchies de la Confédération germanique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p2_s1_w1": {
+    "wordId": "ch0_p2_s1_w1",
+    "translationFr": "où / quel est",
+    "literalTranslation": "en quel lieu",
+    "grammaticalRole": "Adverbe invariable. Adverbe interrogatif de rhétorique oratoire ouvrant les interrogations du Préambule.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w2": {
+    "wordId": "ch0_p2_s1_w2",
+    "translationFr": "être / exister",
+    "literalTranslation": "verbe d'état suprême",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Verbe d'état reliant le sujet à son attribut ontologique et politique.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w3": {
+    "wordId": "ch0_p2_s1_w3",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p2_s1_w6": {
+    "wordId": "ch0_p2_s1_w6",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p2_s1_w7": {
+    "wordId": "ch0_p2_s1_w7",
+    "translationFr": "ne pas / non",
+    "literalTranslation": "particule de négation",
+    "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w8": {
+    "wordId": "ch0_p2_s1_w8",
+    "translationFr": "de / par",
+    "literalTranslation": "provenance, cause ou complément d'agent",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition de provenance ou d'agent au passif régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p2_s1_w9": {
+    "wordId": "ch0_p2_s1_w9",
+    "translationFr": "à leurs",
+    "literalTranslation": "possessif de 3e personne",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Déterminant possessif rattachant un bien à son détenteur.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p2_s1_w12": {
+    "wordId": "ch0_p2_s1_w12",
+    "translationFr": "comme / en tant que",
+    "literalTranslation": "en qualité de",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction d'équivalence ou de comparaison.",
+    "difficulty": "basic"
+  },
+  "ch0_p2_s1_w13": {
+    "wordId": "ch0_p2_s1_w13",
+    "translationFr": "communiste",
+    "literalTranslation": "qui relève du parti ou de l'idéologie communiste",
+    "grammaticalRole": "Adjectif qualificatif décliné ( ). Adjectif politique identifiant le mouvement prolétarien révolutionnaire.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s1_w15": {
+    "wordId": "ch0_p2_s1_w15",
+    "translationFr": "devenir / auxiliaire du passif",
+    "literalTranslation": "entrer dans un état nouveau",
+    "grammaticalRole": "Forme verbale · temps: passé composé/parfait. Auxiliaire fondamental de la voix passive allemande.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s2_w1": {
+    "wordId": "ch0_p2_s2_w1",
+    "translationFr": "où / quel est",
+    "literalTranslation": "en quel lieu",
+    "grammaticalRole": "Adverbe invariable. Adverbe interrogatif de rhétorique oratoire ouvrant les interrogations du Préambule.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s2_w2": {
+    "wordId": "ch0_p2_s2_w2",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p2_s2_w3": {
+    "wordId": "ch0_p2_s2_w3",
+    "translationFr": "parti d'opposition",
+    "literalTranslation": "parti politique rival du gouvernement",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet) · nom composé (Kompositum). Nom féminin composé désignant les forces parlementaires contestataires.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom",
+      "comp_noun"
+    ]
+  },
+  "ch0_p2_s2_w5": {
+    "wordId": "ch0_p2_s2_w5",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p2_s2_w6": {
+    "wordId": "ch0_p2_s2_w6",
+    "translationFr": "aux",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p2_s2_w10": {
+    "wordId": "ch0_p2_s2_w10",
+    "translationFr": "comme / que",
+    "literalTranslation": "de même manière que",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction comparative liant des adversaires de même sorte.",
+    "difficulty": "basic"
+  },
+  "ch0_p2_s2_w11": {
+    "wordId": "ch0_p2_s2_w11",
+    "translationFr": "à leurs",
+    "literalTranslation": "possessif de 3e personne",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Déterminant possessif rattachant un bien à son détenteur.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p2_s2_w13": {
+    "wordId": "ch0_p2_s2_w13",
+    "translationFr": "aux adversaires",
+    "literalTranslation": "opposant politique ou social",
+    "grammaticalRole": "Nom masculin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin désignant les forces antagonistes dans l'arène de la lutte politique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p2_s2_w14": {
+    "wordId": "ch0_p2_s2_w14",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p2_s2_w17": {
+    "wordId": "ch0_p2_s2_w17",
+    "translationFr": "du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p2_s2_w18": {
+    "wordId": "ch0_p2_s2_w18",
+    "translationFr": "communisme",
+    "literalTranslation": "mouvement réel qui abolit l'ordre actuel",
+    "grammaticalRole": "Nom masculin singulier · au génitif (complément du nom marquant l'appartenance). Nom masculin désignant le mouvement politique d'émancipation de la classe travailleuse.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen",
+      "communism"
+    ]
+  },
+  "ch0_p2_s2_w19": {
+    "wordId": "ch0_p2_s2_w19",
+    "translationFr": "ne pas / non",
+    "literalTranslation": "particule de négation",
+    "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p2_s2_w21": {
+    "wordId": "ch0_p2_s2_w21",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · mode: subjonctif. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p3_s1_w3": {
+    "wordId": "ch0_p3_s1_w3",
+    "translationFr": "de / hors de / depuis",
+    "literalTranslation": "qui émane de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale et causale régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p3_s1_w4": {
+    "wordId": "ch0_p3_s1_w4",
+    "translationFr": "ce / cette / ces",
+    "literalTranslation": "pronom démonstratif désignant l'objet proche",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Démonstratif marquant la désignation concrète du spectre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p3_s1_w6": {
+    "wordId": "ch0_p3_s1_w6",
+    "translationFr": "découler / résulter",
+    "literalTranslation": "sortir en avant de",
+    "grammaticalRole": "Particule verbale ou négative. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p4_s1_w1": {
+    "wordId": "ch0_p4_s1_w1",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p4_s1_w2": {
+    "wordId": "ch0_p4_s1_w2",
+    "translationFr": "communisme",
+    "literalTranslation": "mouvement réel qui abolit l'ordre actuel",
+    "grammaticalRole": "Nom masculin singulier · au nominatif (sujet ou attribut du sujet). Nom masculin désignant le mouvement politique d'émancipation de la classe travailleuse.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom",
+      "communism"
+    ]
+  },
+  "ch0_p4_s1_w5": {
+    "wordId": "ch0_p4_s1_w5",
+    "translationFr": "de / par",
+    "literalTranslation": "provenance, cause ou complément d'agent",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition de provenance ou d'agent au passif régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p4_s1_w6": {
+    "wordId": "ch0_p4_s1_w6",
+    "translationFr": "toutes les",
+    "literalTranslation": "la totalité sans exception",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Déterminant indéfini désignant l'universalité des forces liguées.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p4_s1_w7": {
+    "wordId": "ch0_p4_s1_w7",
+    "translationFr": "européennes",
+    "literalTranslation": "propre au continent européen",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif définissant le champ continental de l'affrontement révolutionnaire.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p4_s1_w8": {
+    "wordId": "ch0_p4_s1_w8",
+    "translationFr": "aux puissances",
+    "literalTranslation": "pouvoir étatique, domination souveraine",
+    "grammaticalRole": "Nom féminin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant les États monarchiques et policiers d'Europe.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p4_s1_w9": {
+    "wordId": "ch0_p4_s1_w9",
+    "translationFr": "comme / en tant que",
+    "literalTranslation": "en qualité de",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction d'équivalence ou de comparaison.",
+    "difficulty": "basic"
+  },
+  "ch0_p4_s1_w10": {
+    "wordId": "ch0_p4_s1_w10",
+    "translationFr": "une",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p5_s1_w1": {
+    "wordId": "ch0_p5_s1_w1",
+    "translationFr": "il / cela",
+    "literalTranslation": "pronom neutre de 3e personne",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Sujet impersonnel ou représentatif d'une proposition.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p5_s1_w2": {
+    "wordId": "ch0_p5_s1_w2",
+    "translationFr": "être / exister",
+    "literalTranslation": "verbe d'état suprême",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Verbe d'état reliant le sujet à son attribut ontologique et politique.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p5_s1_w3": {
+    "wordId": "ch0_p5_s1_w3",
+    "translationFr": "grand / solennel",
+    "literalTranslation": "de rang élevé, solennel",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif marquant la gravité et l'imminence du moment révolutionnaire.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p5_s1_w6": {
+    "wordId": "ch0_p5_s1_w6",
+    "translationFr": "que",
+    "literalTranslation": "conjonction de subordination",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction introduisant une proposition complétive rejetant le verbe en fin de proposition.",
+    "difficulty": "basic"
+  },
+  "ch0_p5_s1_w7": {
+    "wordId": "ch0_p5_s1_w7",
+    "translationFr": "les",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p5_s1_w8": {
+    "wordId": "ch0_p5_s1_w8",
+    "translationFr": "communistes",
+    "literalTranslation": "partisan de l'émancipation prolétarienne",
+    "grammaticalRole": "Nom masculin pluriel · au nominatif (sujet ou attribut du sujet). Nom masculin désignant les militants de la Ligue des communistes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom",
+      "communism"
+    ]
+  },
+  "ch0_p5_s1_w9": {
+    "wordId": "ch0_p5_s1_w9",
+    "translationFr": "leur / son / sa / ses",
+    "literalTranslation": "possessif de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Déterminant possessif rattachant un bien à son détenteur.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p5_s1_w12": {
+    "wordId": "ch0_p5_s1_w12",
+    "translationFr": "leur / son / sa / ses",
+    "literalTranslation": "possessif de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Déterminant possessif rattachant un bien à son détenteur.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p5_s1_w15": {
+    "wordId": "ch0_p5_s1_w15",
+    "translationFr": "leur / son / sa / ses",
+    "literalTranslation": "possessif de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Déterminant possessif rattachant un bien à son détenteur.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p5_s1_w17": {
+    "wordId": "ch0_p5_s1_w17",
+    "translationFr": "devant / à la face de",
+    "literalTranslation": "en présence de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition marquant la publicité de la proclamation devant le monde entier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p5_s1_w18": {
+    "wordId": "ch0_p5_s1_w18",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p5_s1_w19": {
+    "wordId": "ch0_p5_s1_w19",
+    "translationFr": "tout entier",
+    "literalTranslation": "sans division ni réserve",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif insistant sur l'universalité de la polarisation de la société entière.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p5_s1_w20": {
+    "wordId": "ch0_p5_s1_w20",
+    "translationFr": "monde",
+    "literalTranslation": "l'ensemble de la terre et de l'humanité",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin embrassant l'arène globale de la révolution prolétarienne.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p5_s1_w23": {
+    "wordId": "ch0_p5_s1_w23",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch0_p5_s1_w24": {
+    "wordId": "ch0_p5_s1_w24",
+    "translationFr": "au",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (neutre singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p5_s1_w26": {
+    "wordId": "ch0_p5_s1_w26",
+    "translationFr": "du / de la part du",
+    "literalTranslation": "contraction 'vom'",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Contraction de 'von' avec l'article datif masculin/neutre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p5_s1_w27": {
+    "wordId": "ch0_p5_s1_w27",
+    "translationFr": "spectre / fantôme",
+    "literalTranslation": "apparition terrifiante, revenant menaçant",
+    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom neutre métaphorique : la hantise panique ressentie par les puissances d'Ancien Régime face au communisme émergent.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat",
+      "gespenst"
+    ]
+  },
+  "ch0_p5_s1_w28": {
+    "wordId": "ch0_p5_s1_w28",
+    "translationFr": "du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p5_s1_w29": {
+    "wordId": "ch0_p5_s1_w29",
+    "translationFr": "communisme",
+    "literalTranslation": "mouvement réel qui abolit l'ordre actuel",
+    "grammaticalRole": "Nom masculin singulier · au génitif (complément du nom marquant l'appartenance). Nom masculin désignant le mouvement politique d'émancipation de la classe travailleuse.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen",
+      "communism"
+    ]
+  },
+  "ch0_p5_s1_w30": {
+    "wordId": "ch0_p5_s1_w30",
+    "translationFr": "un",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (neutre singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p5_s1_w32": {
+    "wordId": "ch0_p5_s1_w32",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p5_s1_w33": {
+    "wordId": "ch0_p5_s1_w33",
+    "translationFr": "parti",
+    "literalTranslation": "organisation politique de lutte pour le pouvoir",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant le parti communiste constitué en force autonome.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p5_s1_w34": {
+    "wordId": "ch0_p5_s1_w34",
+    "translationFr": "lui-même / soi-même",
+    "literalTranslation": "en personne, sans intermédiaire",
+    "grammaticalRole": "Pronom décliné (). Pronom d'insistance soulignant l'initiative directe du Parti communiste.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p6_s1_w1": {
+    "wordId": "ch0_p6_s1_w1",
+    "translationFr": "à / vers / en vue de",
+    "literalTranslation": "direction, destination ou but",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition régissant le datif marquant le but ou le résultat d'une alliance.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w2": {
+    "wordId": "ch0_p6_s1_w2",
+    "translationFr": "ce / cette / ces",
+    "literalTranslation": "pronom démonstratif désignant l'objet proche",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Démonstratif marquant la désignation concrète du spectre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w4": {
+    "wordId": "ch0_p6_s1_w4",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch0_p6_s1_w5": {
+    "wordId": "ch0_p6_s1_w5",
+    "translationFr": "se / soi-même",
+    "literalTranslation": "pronom réfléchi de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Pronom réfléchi accompagnant un verbe pronominal.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p6_s1_w6": {
+    "wordId": "ch0_p6_s1_w6",
+    "translationFr": "communistes",
+    "literalTranslation": "partisan de l'émancipation prolétarienne",
+    "grammaticalRole": "Nom masculin pluriel · au nominatif (sujet ou attribut du sujet). Nom masculin désignant les militants de la Ligue des communistes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom",
+      "communism"
+    ]
+  },
+  "ch0_p6_s1_w7": {
+    "wordId": "ch0_p6_s1_w7",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p6_s1_w9": {
+    "wordId": "ch0_p6_s1_w9",
+    "translationFr": "nationalité",
+    "literalTranslation": "appartenance nationale",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin soulignant l'internationalisme du congrès des communistes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch0_p6_s1_w10": {
+    "wordId": "ch0_p6_s1_w10",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w11": {
+    "wordId": "ch0_p6_s1_w11",
+    "translationFr": "Londres",
+    "literalTranslation": "capitale britannique, siège de la Ligue",
+    "grammaticalRole": "Nom  singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom propre neutre, lieu du congrès communiste de novembre 1847.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w13": {
+    "wordId": "ch0_p6_s1_w13",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch0_p6_s1_w14": {
+    "wordId": "ch0_p6_s1_w14",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (neutre singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p6_s1_w15": {
+    "wordId": "ch0_p6_s1_w15",
+    "translationFr": "suivant",
+    "literalTranslation": "qui vient immédiatement après",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif introduisant le texte même du Manifeste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p6_s1_w16": {
+    "wordId": "ch0_p6_s1_w16",
+    "translationFr": "manifeste / déclaration publique",
+    "literalTranslation": "proclamation solennelle de principes",
+    "grammaticalRole": "Nom neutre singulier · au accusatif (complément d'objet direct). Nom neutre : le document programmatique fondateur du parti communiste mondial.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch0_p6_s1_w19": {
+    "wordId": "ch0_p6_s1_w19",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch0_p6_s1_w20": {
+    "wordId": "ch0_p6_s1_w20",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w21": {
+    "wordId": "ch0_p6_s1_w21",
+    "translationFr": "en langue anglaise",
+    "literalTranslation": "en langue anglaise",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour la publication à Londres de l'édition anglaise.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w23": {
+    "wordId": "ch0_p6_s1_w23",
+    "translationFr": "en langue française",
+    "literalTranslation": "relatif à la France",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif désignant les républicains radicaux parisiens.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w25": {
+    "wordId": "ch0_p6_s1_w25",
+    "translationFr": "en langue allemande",
+    "literalTranslation": "relatif aux États germaniques",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif national désignant les polices des monarchies de la Confédération germanique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w27": {
+    "wordId": "ch0_p6_s1_w27",
+    "translationFr": "en langue italienne",
+    "literalTranslation": "en langue italienne",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour l'édition italienne du Manifeste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w29": {
+    "wordId": "ch0_p6_s1_w29",
+    "translationFr": "en langue flamande",
+    "literalTranslation": "en langue flamande",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour l'édition belge du Manifeste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w30": {
+    "wordId": "ch0_p6_s1_w30",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch0_p6_s1_w31": {
+    "wordId": "ch0_p6_s1_w31",
+    "translationFr": "en langue danoise",
+    "literalTranslation": "en langue danoise",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour l'édition scandinave du Manifeste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w32": {
+    "wordId": "ch0_p6_s1_w32",
+    "translationFr": "langue / idiome",
+    "literalTranslation": "moyen linguistique de communication d'un peuple",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin : le Manifeste doit être traduit dans les principales langues d'Europe.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch0_p6_s1_w34": {
+    "wordId": "ch0_p6_s1_w34",
+    "translationFr": "devenir / auxiliaire du passif",
+    "literalTranslation": "entrer dans un état nouveau",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire fondamental de la voix passive allemande.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p1_s1_w1": {
+    "wordId": "ch1_p1_s1_w1",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p1_s1_w6": {
+    "wordId": "ch1_p1_s1_w6",
+    "translationFr": "être / exister",
+    "literalTranslation": "verbe d'état suprême",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Verbe d'état reliant le sujet à son attribut ontologique et politique.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p1_s1_w7": {
+    "wordId": "ch1_p1_s1_w7",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p1_s1_w8": {
+    "wordId": "ch1_p1_s1_w8",
+    "translationFr": "histoire",
+    "literalTranslation": "ce qui advient, récit des événements passés",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin : pour Marx, toute l'histoire des sociétés jusqu'à nos jours est l'histoire de la lutte des classes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p1_s1_w9": {
+    "wordId": "ch1_p1_s1_w9",
+    "translationFr": "de / par",
+    "literalTranslation": "provenance, cause ou complément d'agent",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition de provenance ou d'agent au passif régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w2": {
+    "wordId": "ch1_p2_s1_w2",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w6": {
+    "wordId": "ch1_p2_s1_w6",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w10": {
+    "wordId": "ch1_p2_s1_w10",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w14": {
+    "wordId": "ch1_p2_s1_w14",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w17": {
+    "wordId": "ch1_p2_s1_w17",
+    "translationFr": "bref / en un mot",
+    "literalTranslation": "en peu de termes",
+    "grammaticalRole": "Adverbe invariable. Adverbe synthétisant une énumération historique par une loi générale.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w20": {
+    "wordId": "ch1_p2_s1_w20",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w22": {
+    "wordId": "ch1_p2_s1_w22",
+    "translationFr": "se tenir debout / faire face",
+    "literalTranslation": "être érigé sur ses pieds",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe marquant l'opposition frontale dressée entre oppresseur et opprimé.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w23": {
+    "wordId": "ch1_p2_s1_w23",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w24": {
+    "wordId": "ch1_p2_s1_w24",
+    "translationFr": "constant / continuel",
+    "literalTranslation": "sans arrêt ni défaillance",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la permanence obstinée du conflit de classes à travers les âges.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w26": {
+    "wordId": "ch1_p2_s1_w26",
+    "translationFr": "l'un vis-à-vis de l'autre",
+    "literalTranslation": "en rapport réciproque",
+    "grammaticalRole": "Adverbe invariable. Adverbe marquant le tête-à-tête conflictuel inéluctable entre oppresseurs et opprimés.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w28": {
+    "wordId": "ch1_p2_s1_w28",
+    "translationFr": "mener / conduire",
+    "literalTranslation": "guider vers un terme",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant l'action continue de mener une lutte sans répit.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w29": {
+    "wordId": "ch1_p2_s1_w29",
+    "translationFr": "un",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (masculin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p2_s1_w32": {
+    "wordId": "ch1_p2_s1_w32",
+    "translationFr": "tantôt / bientôt",
+    "literalTranslation": "à un moment donné, rapidement",
+    "grammaticalRole": "Adverbe invariable. Adverbe corrélatif (bald... bald...) marquant l'alternance d'une lutte tantôt ouverte tantôt cachée.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w35": {
+    "wordId": "ch1_p2_s1_w35",
+    "translationFr": "tantôt / bientôt",
+    "literalTranslation": "à un moment donné, rapidement",
+    "grammaticalRole": "Adverbe invariable. Adverbe corrélatif (bald... bald...) marquant l'alternance d'une lutte tantôt ouverte tantôt cachée.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w37": {
+    "wordId": "ch1_p2_s1_w37",
+    "translationFr": "lutte / combat",
+    "literalTranslation": "affrontement antagonique",
+    "grammaticalRole": "Nom masculin singulier · au accusatif (complément d'objet direct). Nom masculin, moteur dialectique des transformations matérielles de l'humanité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p2_s1_w39": {
+    "wordId": "ch1_p2_s1_w39",
+    "translationFr": "un",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (masculin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p2_s1_w40": {
+    "wordId": "ch1_p2_s1_w40",
+    "translationFr": "lutte / combat",
+    "literalTranslation": "affrontement antagonique",
+    "grammaticalRole": "Nom masculin singulier · au accusatif (complément d'objet direct). Nom masculin, moteur dialectique des transformations matérielles de l'humanité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p2_s1_w42": {
+    "wordId": "ch1_p2_s1_w42",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p2_s1_w43": {
+    "wordId": "ch1_p2_s1_w43",
+    "translationFr": "chaque fois / à chaque reprise",
+    "literalTranslation": "à toutes les occurrences sans faille",
+    "grammaticalRole": "Adverbe invariable. Adverbe régulier marquant la loi constante de résolution des luttes de classe.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w44": {
+    "wordId": "ch1_p2_s1_w44",
+    "translationFr": "avec / au moyen de",
+    "literalTranslation": "en compagnie de, au moyen de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition d'accompagnement ou d'instrument régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w45": {
+    "wordId": "ch1_p2_s1_w45",
+    "translationFr": "d'une / à une",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w46": {
+    "wordId": "ch1_p2_s1_w46",
+    "translationFr": "révolutionnaire",
+    "literalTranslation": "qui renverse violemment les bases matérielles de la société",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif qualifiant la transformation radicale produite par la lutte des classes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w48": {
+    "wordId": "ch1_p2_s1_w48",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p2_s1_w49": {
+    "wordId": "ch1_p2_s1_w49",
+    "translationFr": "tout entier",
+    "literalTranslation": "sans division ni réserve",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier génitif (complément du nom marquant l'appartenance)). Adjectif insistant sur l'universalité de la polarisation de la société entière.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p2_s1_w50": {
+    "wordId": "ch1_p2_s1_w50",
+    "translationFr": "société",
+    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant la formation économique et sociale globale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p2_s1_w51": {
+    "wordId": "ch1_p2_s1_w51",
+    "translationFr": "se terminer / aboutir",
+    "literalTranslation": "trouver son terme",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: PAST. Verbe marquant l'issue dialectique inéluctable du combat de classe.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p2_s1_w52": {
+    "wordId": "ch1_p2_s1_w52",
+    "translationFr": "ou / ou bien",
+    "literalTranslation": "conjonction d'alternative",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction disjonctive liant deux issues alternatives.",
+    "difficulty": "basic"
+  },
+  "ch1_p2_s1_w53": {
+    "wordId": "ch1_p2_s1_w53",
+    "translationFr": "avec / au moyen de",
+    "literalTranslation": "en compagnie de, au moyen de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition d'accompagnement ou d'instrument régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w54": {
+    "wordId": "ch1_p2_s1_w54",
+    "translationFr": "au / au moyen du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w55": {
+    "wordId": "ch1_p2_s1_w55",
+    "translationFr": "commun / mutuel",
+    "literalTranslation": "partagé par les deux côtés",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la destruction réciproque des deux classes en lutte si la révolution échoue.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p2_s1_w57": {
+    "wordId": "ch1_p2_s1_w57",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p2_s1_w58": {
+    "wordId": "ch1_p2_s1_w58",
+    "translationFr": "combattant / en lutte",
+    "literalTranslation": "engagé dans un combat mortel",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif décrivant les deux classes aux prises dans l'arène historique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p2_s1_w59": {
+    "wordId": "ch1_p2_s1_w59",
+    "translationFr": "classes",
+    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
+    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept central du matérialisme historique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen",
+      "class_struggle"
+    ]
+  },
+  "ch1_p3_s1_w1": {
+    "wordId": "ch1_p3_s1_w1",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s1_w2": {
+    "wordId": "ch1_p3_s1_w2",
+    "translationFr": "aux",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s1_w3": {
+    "wordId": "ch1_p3_s1_w3",
+    "translationFr": "ancien / primitif",
+    "literalTranslation": "qui se situe au début des temps",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif comparatif marquant les époques historiques révolues.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s1_w4": {
+    "wordId": "ch1_p3_s1_w4",
+    "translationFr": "époque",
+    "literalTranslation": "période historique définie par un mode de production",
+    "grammaticalRole": "Nom féminin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant une ère matérielle spécifique dominée par des rapports de production distincts.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s1_w5": {
+    "wordId": "ch1_p3_s1_w5",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s1_w6": {
+    "wordId": "ch1_p3_s1_w6",
+    "translationFr": "histoire",
+    "literalTranslation": "ce qui advient, récit des événements passés",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin : pour Marx, toute l'histoire des sociétés jusqu'à nos jours est l'histoire de la lutte des classes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s1_w7": {
+    "wordId": "ch1_p3_s1_w7",
+    "translationFr": "trouver / constater",
+    "literalTranslation": "découvrir par l'observation",
+    "grammaticalRole": "Forme verbale · (1e personne du pluriel) · temps: présent. Verbe de constatation empirique dans l'examen de l'histoire humaine.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s1_w8": {
+    "wordId": "ch1_p3_s1_w8",
+    "translationFr": "nous",
+    "literalTranslation": "pronom personnel sujet 1re personne du pluriel",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Pronom sujet collectif désignant les observateurs historiques.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p3_s1_w9": {
+    "wordId": "ch1_p3_s1_w9",
+    "translationFr": "presque / quasiment",
+    "literalTranslation": "à très peu de chose près",
+    "grammaticalRole": "Adverbe invariable. Adverbe d'intensité nuancée caractérisant la généralité de la stratification féodale.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s1_w10": {
+    "wordId": "ch1_p3_s1_w10",
+    "translationFr": "partout / universellement",
+    "literalTranslation": "en tout lieu sans exclusion",
+    "grammaticalRole": "Adverbe invariable. Adverbe de généralisation spatiale décrivant l'extension des hiérarchies féodales.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s1_w11": {
+    "wordId": "ch1_p3_s1_w11",
+    "translationFr": "une",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (féminin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s1_w12": {
+    "wordId": "ch1_p3_s1_w12",
+    "translationFr": "complet / intégral",
+    "literalTranslation": "qui possède toutes ses composantes",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif décrivant la division méticuleuse du corps social médiéval.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s1_w14": {
+    "wordId": "ch1_p3_s1_w14",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s1_w15": {
+    "wordId": "ch1_p3_s1_w15",
+    "translationFr": "société",
+    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant la formation économique et sociale globale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s1_w16": {
+    "wordId": "ch1_p3_s1_w16",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s1_w17": {
+    "wordId": "ch1_p3_s1_w17",
+    "translationFr": "différent / divers",
+    "literalTranslation": "séparé, pluriel",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif marquant la pluralité des nationalités et des échelons féodaux.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s1_w20": {
+    "wordId": "ch1_p3_s1_w20",
+    "translationFr": "une",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (féminin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s1_w23": {
+    "wordId": "ch1_p3_s1_w23",
+    "translationFr": "des",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s1_w24": {
+    "wordId": "ch1_p3_s1_w24",
+    "translationFr": "social",
+    "literalTranslation": "qui relève de la société humaine",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif désignant les positions et hiérarchies au sein du corps social.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s1_w25": {
+    "wordId": "ch1_p3_s1_w25",
+    "translationFr": "positions sociales / rangs",
+    "literalTranslation": "emplacement institutionnel dans la société",
+    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant les échelons et rangs d'honneur au sein des ordres féodaux.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s2_w1": {
+    "wordId": "ch1_p3_s2_w1",
+    "translationFr": "dans le / au",
+    "literalTranslation": "contraction prépositionnelle 'im'",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Contraction de la préposition 'in' avec l'article défini masculin/neutre au datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w2": {
+    "wordId": "ch1_p3_s2_w2",
+    "translationFr": "vieux / ancien",
+    "literalTranslation": "d'âge mûr, révolu",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la décrépitude des monarchies d'Ancien Régime.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w3": {
+    "wordId": "ch1_p3_s2_w3",
+    "translationFr": "Rome",
+    "literalTranslation": "la Rome antique impériale et républicaine",
+    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom propre neutre, archétype historique de société esclavagiste divisée en ordres stricts.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w4": {
+    "wordId": "ch1_p3_s2_w4",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (1e personne du pluriel) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s2_w5": {
+    "wordId": "ch1_p3_s2_w5",
+    "translationFr": "nous",
+    "literalTranslation": "pronom personnel sujet 1re personne du pluriel",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Pronom sujet collectif désignant les observateurs historiques.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p3_s2_w6": {
+    "wordId": "ch1_p3_s2_w6",
+    "translationFr": "patriciens",
+    "literalTranslation": "noble citoyen de la Rome antique",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant la classe dominante aristocratique dans l'Antiquité romaine.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w10": {
+    "wordId": "ch1_p3_s2_w10",
+    "translationFr": "plébéiens",
+    "literalTranslation": "citoyen ordinaire non noble de Rome",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant la classe populaire laborieuse de l'Antiquité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w12": {
+    "wordId": "ch1_p3_s2_w12",
+    "translationFr": "esclaves",
+    "literalTranslation": "être humain réduit à l'état de marchandise et propriété d'un maître",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant la classe exploitée suprême du mode de production antique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w14": {
+    "wordId": "ch1_p3_s2_w14",
+    "translationFr": "dans le / au",
+    "literalTranslation": "contraction prépositionnelle 'im'",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Contraction de la préposition 'in' avec l'article défini masculin/neutre au datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w15": {
+    "wordId": "ch1_p3_s2_w15",
+    "translationFr": "Moyen Âge",
+    "literalTranslation": "l'âge intermédiaire, l'époque féodale",
+    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom neutre désignant la longue période féodale précédant l'essor bourgeois.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w20": {
+    "wordId": "ch1_p3_s2_w20",
+    "translationFr": "maîtres de jurande",
+    "literalTranslation": "maître artisan membre d'une corporation fermée",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin composé désignant les membres privilégiés des jurandes urbaines médiévales.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w22": {
+    "wordId": "ch1_p3_s2_w22",
+    "translationFr": "compagnons",
+    "literalTranslation": "artisan qualifié dépendant du maître",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant l'ouvrier corporatif placé sous l'autorité directe du maître de jurande.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w24": {
+    "wordId": "ch1_p3_s2_w24",
+    "translationFr": "serfs",
+    "literalTranslation": "paysan attaché corporellement à la glèbe",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant les producteurs ruraux dominés de la féodalité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w26": {
+    "wordId": "ch1_p3_s2_w26",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p3_s2_w27": {
+    "wordId": "ch1_p3_s2_w27",
+    "translationFr": "presque / quasiment",
+    "literalTranslation": "à très peu de chose près",
+    "grammaticalRole": "Adverbe invariable. Adverbe d'intensité nuancée caractérisant la généralité de la stratification féodale.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s2_w28": {
+    "wordId": "ch1_p3_s2_w28",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w29": {
+    "wordId": "ch1_p3_s2_w29",
+    "translationFr": "chaque / tout / chacun",
+    "literalTranslation": "tous les éléments pris un à un",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Déterminant indéfini distributif désignant chaque strate féodale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p3_s2_w30": {
+    "wordId": "ch1_p3_s2_w30",
+    "translationFr": "ce / cette / ces",
+    "literalTranslation": "pronom démonstratif désignant l'objet proche",
+    "grammaticalRole": "Pronom décliné (génitif (complément du nom marquant l'appartenance)). Démonstratif marquant la désignation concrète du spectre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p3_s2_w31": {
+    "wordId": "ch1_p3_s2_w31",
+    "translationFr": "classes",
+    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
+    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept central du matérialisme historique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen",
+      "class_struggle"
+    ]
+  },
+  "ch1_p3_s2_w32": {
+    "wordId": "ch1_p3_s2_w32",
+    "translationFr": "à nouveau / de nouveau",
+    "literalTranslation": "une seconde fois",
+    "grammaticalRole": "Adverbe invariable. Adverbe réitératif marquant la répétition des hiérarchies à chaque échelon féodal.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p3_s2_w33": {
+    "wordId": "ch1_p3_s2_w33",
+    "translationFr": "particulier / distinct",
+    "literalTranslation": "propre à un rang singulier",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif caractérisant les privilèges corporatifs spécifiques.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p3_s2_w34": {
+    "wordId": "ch1_p3_s2_w34",
+    "translationFr": "gradation / échelonnement",
+    "literalTranslation": "hiérarchie en gradins",
+    "grammaticalRole": "Nom féminin pluriel · au accusatif (complément d'objet direct). Nom féminin marquant la segmentation hiérarchique complexe des rangs sociaux féodaux.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s1_w1": {
+    "wordId": "ch1_p4_s1_w1",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p4_s1_w2": {
+    "wordId": "ch1_p4_s1_w2",
+    "translationFr": "de / hors de / depuis",
+    "literalTranslation": "qui émane de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale et causale régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p4_s1_w3": {
+    "wordId": "ch1_p4_s1_w3",
+    "translationFr": "au / au moyen du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p4_s1_w4": {
+    "wordId": "ch1_p4_s1_w4",
+    "translationFr": "ruine / disparition",
+    "literalTranslation": "effondrement, chute au fond de l'abîme",
+    "grammaticalRole": "Nom masculin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin tragique : l'issue historique où deux classes antagonistes s'abîment ensemble.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p4_s1_w5": {
+    "wordId": "ch1_p4_s1_w5",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s1_w6": {
+    "wordId": "ch1_p4_s1_w6",
+    "translationFr": "féodaux",
+    "literalTranslation": "fondé sur le fief et le servage",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier génitif (complément du nom marquant l'appartenance)). Adjectif désignant l'ordre hiérarchique seigneurial terrien antérieur au capital.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s1_w7": {
+    "wordId": "ch1_p4_s1_w7",
+    "translationFr": "société",
+    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant la formation économique et sociale globale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s1_w9": {
+    "wordId": "ch1_p4_s1_w9",
+    "translationFr": "moderne",
+    "literalTranslation": "propre au temps présent",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif qualifiant l'ordre bourgeois né des ruines de la féodalité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p4_s1_w11": {
+    "wordId": "ch1_p4_s1_w11",
+    "translationFr": "société",
+    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant la formation économique et sociale globale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p4_s1_w12": {
+    "wordId": "ch1_p4_s1_w12",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p4_s1_w13": {
+    "wordId": "ch1_p4_s1_w13",
+    "translationFr": "les",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s1_w15": {
+    "wordId": "ch1_p4_s1_w15",
+    "translationFr": "ne pas / non",
+    "literalTranslation": "particule de négation",
+    "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p4_s2_w1": {
+    "wordId": "ch1_p4_s2_w1",
+    "translationFr": "ils / elles / elle",
+    "literalTranslation": "pronom personnel de 3e personne",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Pronom personnel sujet désignant une entité plurielle ou féminine.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p4_s2_w2": {
+    "wordId": "ch1_p4_s2_w2",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p4_s2_w3": {
+    "wordId": "ch1_p4_s2_w3",
+    "translationFr": "seulement / uniquement",
+    "literalTranslation": "sans rien d'autre",
+    "grammaticalRole": "Adverbe invariable. Adverbe limitatif : la bourgeoisie s'est bornée à créer de nouvelles formes d'oppression.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p4_s2_w4": {
+    "wordId": "ch1_p4_s2_w4",
+    "translationFr": "nouvelles",
+    "literalTranslation": "qui n'existait pas auparavant",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s2_w5": {
+    "wordId": "ch1_p4_s2_w5",
+    "translationFr": "classes",
+    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
+    "grammaticalRole": "Nom féminin pluriel · au accusatif (complément d'objet direct). Nom féminin, concept central du matérialisme historique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc",
+      "class_struggle"
+    ]
+  },
+  "ch1_p4_s2_w7": {
+    "wordId": "ch1_p4_s2_w7",
+    "translationFr": "nouvelles",
+    "literalTranslation": "qui n'existait pas auparavant",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s2_w9": {
+    "wordId": "ch1_p4_s2_w9",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s2_w10": {
+    "wordId": "ch1_p4_s2_w10",
+    "translationFr": "oppression",
+    "literalTranslation": "action d'écraser sous le poids de la domination",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin caractérisant les rapports de soumission politique et économique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s2_w12": {
+    "wordId": "ch1_p4_s2_w12",
+    "translationFr": "nouvelles",
+    "literalTranslation": "qui n'existait pas auparavant",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s2_w14": {
+    "wordId": "ch1_p4_s2_w14",
+    "translationFr": "du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s2_w15": {
+    "wordId": "ch1_p4_s2_w15",
+    "translationFr": "lutte / combat",
+    "literalTranslation": "affrontement antagonique",
+    "grammaticalRole": "Nom masculin singulier · au génitif (complément du nom marquant l'appartenance). Nom masculin, moteur dialectique des transformations matérielles de l'humanité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s2_w16": {
+    "wordId": "ch1_p4_s2_w16",
+    "translationFr": "à / sur",
+    "literalTranslation": "en contact avec",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition spatiale ou d'attribution.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s2_w17": {
+    "wordId": "ch1_p4_s2_w17",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s2_w18": {
+    "wordId": "ch1_p4_s2_w18",
+    "translationFr": "place / position",
+    "literalTranslation": "lieu précis, rôle substitué",
+    "grammaticalRole": "Nom féminin singulier · au accusatif (complément d'objet direct). Nom féminin : la bourgeoisie a substitué de nouveaux rapports de classe aux anciens.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p4_s2_w19": {
+    "wordId": "ch1_p4_s2_w19",
+    "translationFr": "des",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p4_s2_w20": {
+    "wordId": "ch1_p4_s2_w20",
+    "translationFr": "vieux / ancien",
+    "literalTranslation": "d'âge mûr, révolu",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif marquant la décrépitude des monarchies d'Ancien Régime.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p5_s1_w1": {
+    "wordId": "ch1_p5_s1_w1",
+    "translationFr": "notre / nos",
+    "literalTranslation": "possessif de 1re personne du pluriel",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Possessif marquant l'adhésion des auteurs à l'époque contemporaine.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s1_w2": {
+    "wordId": "ch1_p5_s1_w2",
+    "translationFr": "époque",
+    "literalTranslation": "période historique définie par un mode de production",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant une ère matérielle spécifique dominée par des rapports de production distincts.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s1_w4": {
+    "wordId": "ch1_p5_s1_w4",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s1_w5": {
+    "wordId": "ch1_p5_s1_w5",
+    "translationFr": "époque",
+    "literalTranslation": "période historique définie par un mode de production",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant une ère matérielle spécifique dominée par des rapports de production distincts.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s1_w6": {
+    "wordId": "ch1_p5_s1_w6",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p5_s1_w7": {
+    "wordId": "ch1_p5_s1_w7",
+    "translationFr": "bourgeoisie",
+    "literalTranslation": "classe des détenteurs du capital moderne",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin emprunté au français, désignant chez Marx la classe dominante qui possède les moyens de production.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen",
+      "bourgeoisie"
+    ]
+  },
+  "ch1_p5_s1_w10": {
+    "wordId": "ch1_p5_s1_w10",
+    "translationFr": "se / soi-même",
+    "literalTranslation": "pronom réfléchi de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Pronom réfléchi accompagnant un verbe pronominal.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s1_w11": {
+    "wordId": "ch1_p5_s1_w11",
+    "translationFr": "cependant / toutefois",
+    "literalTranslation": "malgré cela, en revanche",
+    "grammaticalRole": "Adverbe invariable. Adverbe marquant la singularité spécifique de l'époque bourgeoise moderne.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s1_w12": {
+    "wordId": "ch1_p5_s1_w12",
+    "translationFr": "par là / de cette manière",
+    "literalTranslation": "à travers ce moyen précis",
+    "grammaticalRole": "Adverbe invariable. Adverbe pronominal reliant la cause matérielle à sa conséquence sociale.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s1_w13": {
+    "wordId": "ch1_p5_s1_w13",
+    "translationFr": "de / hors de / depuis",
+    "literalTranslation": "qui émane de",
+    "grammaticalRole": "Particule verbale ou négative. Préposition spatiale et causale régissant le datif.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s1_w15": {
+    "wordId": "ch1_p5_s1_w15",
+    "translationFr": "que",
+    "literalTranslation": "conjonction de subordination",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction introduisant une proposition complétive rejetant le verbe en fin de proposition.",
+    "difficulty": "basic"
+  },
+  "ch1_p5_s1_w16": {
+    "wordId": "ch1_p5_s1_w16",
+    "translationFr": "ils / elles / elle",
+    "literalTranslation": "pronom personnel de 3e personne",
+    "grammaticalRole": "Pronom décliné (nominatif (sujet ou attribut du sujet)). Pronom personnel sujet désignant une entité plurielle ou féminine.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s1_w17": {
+    "wordId": "ch1_p5_s1_w17",
+    "translationFr": "les",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s1_w18": {
+    "wordId": "ch1_p5_s1_w18",
+    "translationFr": "antagonismes de classe",
+    "literalTranslation": "opposition irréductible de deux classes",
+    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin composé désignant la contradiction motrice de la société bourgeoise.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s1_w20": {
+    "wordId": "ch1_p5_s1_w20",
+    "translationFr": "avoir / posséder",
+    "literalTranslation": "détenir comme bien ou auxiliaire",
+    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w1": {
+    "wordId": "ch1_p5_s2_w1",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s2_w2": {
+    "wordId": "ch1_p5_s2_w2",
+    "translationFr": "entier / tout / complet",
+    "literalTranslation": "sans division ni réserve",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif insistant sur l'universalité de la polarisation de la société entière.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s2_w3": {
+    "wordId": "ch1_p5_s2_w3",
+    "translationFr": "société",
+    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant la formation économique et sociale globale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p5_s2_w5": {
+    "wordId": "ch1_p5_s2_w5",
+    "translationFr": "se / soi-même",
+    "literalTranslation": "pronom réfléchi de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Pronom réfléchi accompagnant un verbe pronominal.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s2_w6": {
+    "wordId": "ch1_p5_s2_w6",
+    "translationFr": "plus / davantage",
+    "literalTranslation": "en quantité supérieure",
+    "grammaticalRole": "Adverbe invariable. Adverbe renforçant l'accélération de la division sociale (« immer mehr » = de plus en plus).",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w7": {
+    "wordId": "ch1_p5_s2_w7",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p5_s2_w8": {
+    "wordId": "ch1_p5_s2_w8",
+    "translationFr": "plus / davantage",
+    "literalTranslation": "en quantité supérieure",
+    "grammaticalRole": "Adverbe invariable. Adverbe renforçant l'accélération de la division sociale (« immer mehr » = de plus en plus).",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w9": {
+    "wordId": "ch1_p5_s2_w9",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s2_w10": {
+    "wordId": "ch1_p5_s2_w10",
+    "translationFr": "deux",
+    "literalTranslation": "adjectif numéral cardinal (2)",
+    "grammaticalRole": "Adjectif numéral marquant la bipolarisation irréductible de la société en deux camps.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w11": {
+    "wordId": "ch1_p5_s2_w11",
+    "translationFr": "grands",
+    "literalTranslation": "de vaste dimension",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif soulignant la division monolithique de la société moderne en deux camps gigantesques.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s2_w12": {
+    "wordId": "ch1_p5_s2_w12",
+    "translationFr": "ennemis / hostiles",
+    "literalTranslation": "portant une inimitié mortelle",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif caractérisant les deux camps belligérants de la société moderne.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s2_w15": {
+    "wordId": "ch1_p5_s2_w15",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s2_w16": {
+    "wordId": "ch1_p5_s2_w16",
+    "translationFr": "deux",
+    "literalTranslation": "adjectif numéral cardinal (2)",
+    "grammaticalRole": "Adjectif numéral marquant la bipolarisation irréductible de la société en deux camps.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w17": {
+    "wordId": "ch1_p5_s2_w17",
+    "translationFr": "grands",
+    "literalTranslation": "de vaste dimension",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif soulignant la division monolithique de la société moderne en deux camps gigantesques.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p5_s2_w19": {
+    "wordId": "ch1_p5_s2_w19",
+    "translationFr": "l'un l'autre / réciproquement",
+    "literalTranslation": "les uns les autres",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Pronom réciproque exprimant l'opposition face à face des deux classes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p5_s2_w20": {
+    "wordId": "ch1_p5_s2_w20",
+    "translationFr": "directement / sans intermédiaire",
+    "literalTranslation": "en ligne droite, immédiat",
+    "grammaticalRole": "Adjectif qualificatif décliné ( ). Adverbe marquant la simplification capitaliste réduisant les médiations féodales au rapport d'argent nu.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p5_s2_w22": {
+    "wordId": "ch1_p5_s2_w22",
+    "translationFr": "classes",
+    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
+    "grammaticalRole": "Nom féminin pluriel · au accusatif (complément d'objet direct). Nom féminin, concept central du matérialisme historique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc",
+      "class_struggle"
+    ]
+  },
+  "ch1_p5_s2_w25": {
+    "wordId": "ch1_p5_s2_w25",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p6_s1_w1": {
+    "wordId": "ch1_p6_s1_w1",
+    "translationFr": "de / hors de / depuis",
+    "literalTranslation": "qui émane de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale et causale régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p6_s1_w2": {
+    "wordId": "ch1_p6_s1_w2",
+    "translationFr": "aux",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p6_s1_w3": {
+    "wordId": "ch1_p6_s1_w3",
+    "translationFr": "serf",
+    "literalTranslation": "paysan attaché corporellement à la glèbe",
+    "grammaticalRole": "Nom masculin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin désignant les producteurs ruraux dominés de la féodalité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p6_s1_w4": {
+    "wordId": "ch1_p6_s1_w4",
+    "translationFr": "du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (neutre singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p6_s1_w5": {
+    "wordId": "ch1_p6_s1_w5",
+    "translationFr": "Moyen Âge",
+    "literalTranslation": "l'âge intermédiaire, l'époque féodale",
+    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom neutre désignant la longue période féodale précédant l'essor bourgeois.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p6_s1_w6": {
+    "wordId": "ch1_p6_s1_w6",
+    "translationFr": "découler / résulter",
+    "literalTranslation": "sortir en avant de",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p6_s1_w7": {
+    "wordId": "ch1_p6_s1_w7",
+    "translationFr": "les",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p6_s1_w9": {
+    "wordId": "ch1_p6_s1_w9",
+    "translationFr": "des",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p6_s1_w10": {
+    "wordId": "ch1_p6_s1_w10",
+    "translationFr": "premier",
+    "literalTranslation": "qui vient en tête chronologiquement",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif ordonnant les origines historiques de la bourgeoisie primitive.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p6_s1_w11": {
+    "wordId": "ch1_p6_s1_w11",
+    "translationFr": "villes",
+    "literalTranslation": "agglomération urbaine",
+    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin : le berceau urbain où s'émancipe la classe marchande (« Stadtluft macht frei »).",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p6_s1_w12": {
+    "wordId": "ch1_p6_s1_w12",
+    "translationFr": "découler / résulter",
+    "literalTranslation": "sortir en avant de",
+    "grammaticalRole": "Particule verbale ou négative. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p6_s1_w14": {
+    "wordId": "ch1_p6_s1_w14",
+    "translationFr": "de / hors de / depuis",
+    "literalTranslation": "qui émane de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale et causale régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p6_s1_w15": {
+    "wordId": "ch1_p6_s1_w15",
+    "translationFr": "ce / cette / ces",
+    "literalTranslation": "pronom démonstratif désignant l'objet proche",
+    "grammaticalRole": "Pronom décliné (datif (complément d'objet indirect ou régime prépositionnel)). Démonstratif marquant la désignation concrète du spectre.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p6_s1_w17": {
+    "wordId": "ch1_p6_s1_w17",
+    "translationFr": "développer / déployer",
+    "literalTranslation": "déplier ce qui était enroulé, faire croître",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe matérialiste marquant la croissance organique des forces productives.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p6_s1_w18": {
+    "wordId": "ch1_p6_s1_w18",
+    "translationFr": "se / soi-même",
+    "literalTranslation": "pronom réfléchi de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Pronom réfléchi accompagnant un verbe pronominal.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p6_s1_w19": {
+    "wordId": "ch1_p6_s1_w19",
+    "translationFr": "les",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p6_s1_w20": {
+    "wordId": "ch1_p6_s1_w20",
+    "translationFr": "premier",
+    "literalTranslation": "qui vient en tête chronologiquement",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel nominatif (sujet ou attribut du sujet)). Adjectif ordonnant les origines historiques de la bourgeoisie primitive.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p6_s1_w21": {
+    "wordId": "ch1_p6_s1_w21",
+    "translationFr": "éléments embryonnaires",
+    "literalTranslation": "composante fondamentale",
+    "grammaticalRole": "Nom neutre pluriel · au nominatif (sujet ou attribut du sujet). Nom neutre désignant les germes embryonnaires d'une classe au sein de l'ordre ancien.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p6_s1_w22": {
+    "wordId": "ch1_p6_s1_w22",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p6_s1_w23": {
+    "wordId": "ch1_p6_s1_w23",
+    "translationFr": "bourgeoisie",
+    "literalTranslation": "classe des détenteurs du capital moderne",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin emprunté au français, désignant chez Marx la classe dominante qui possède les moyens de production.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen",
+      "bourgeoisie"
+    ]
+  },
+  "ch1_p7_s1_w1": {
+    "wordId": "ch1_p7_s1_w1",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s1_w3": {
+    "wordId": "ch1_p7_s1_w3",
+    "translationFr": "Amérique",
+    "literalTranslation": "le continent américain",
+    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom propre neutre désignant le Nouveau Monde dont la découverte accéléra l'essor capitaliste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p7_s1_w5": {
+    "wordId": "ch1_p7_s1_w5",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s1_w7": {
+    "wordId": "ch1_p7_s1_w7",
+    "translationFr": "Afrique",
+    "literalTranslation": "le continent africain",
+    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom propre neutre, repère géographique de l'expansion coloniale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p7_s1_w8": {
+    "wordId": "ch1_p7_s1_w8",
+    "translationFr": "créer / engendrer",
+    "literalTranslation": "produire à l'existence",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant la puissance démiurgique de la bourgeoisie créant de nouveaux marchés.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s1_w9": {
+    "wordId": "ch1_p7_s1_w9",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s1_w11": {
+    "wordId": "ch1_p7_s1_w11",
+    "translationFr": "bourgeoisie",
+    "literalTranslation": "classe des détenteurs du capital moderne",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin emprunté au français, désignant chez Marx la classe dominante qui possède les moyens de production.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat",
+      "bourgeoisie"
+    ]
+  },
+  "ch1_p7_s1_w12": {
+    "wordId": "ch1_p7_s1_w12",
+    "translationFr": "un",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (neutre singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p7_s1_w13": {
+    "wordId": "ch1_p7_s1_w13",
+    "translationFr": "nouveau / inédit",
+    "literalTranslation": "qui n'existait pas auparavant",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p7_s2_w1": {
+    "wordId": "ch1_p7_s2_w1",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w2": {
+    "wordId": "ch1_p7_s2_w2",
+    "translationFr": "des Indes orientales",
+    "literalTranslation": "relatif à l'Asie méridionale sous domination marchande",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif marquant la conquête coloniale par les compagnies de commerce britanniques et hollandaises.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w3": {
+    "wordId": "ch1_p7_s2_w3",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p7_s2_w4": {
+    "wordId": "ch1_p7_s2_w4",
+    "translationFr": "chinois",
+    "literalTranslation": "relatif à la Chine impériale",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif géographique marquant l'ouverture impérialiste du gigantesque marché asiatique.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w5": {
+    "wordId": "ch1_p7_s2_w5",
+    "translationFr": "marché",
+    "literalTranslation": "espace marchand d'échange des denrées",
+    "grammaticalRole": "Nom masculin singulier · au nominatif (sujet ou attribut du sujet). Nom masculin économique dont la constante mondialisation nourrit la bourgeoisie.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w7": {
+    "wordId": "ch1_p7_s2_w7",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w8": {
+    "wordId": "ch1_p7_s2_w8",
+    "translationFr": "colonisation",
+    "literalTranslation": "soumission marchande et territoriale",
+    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin marquant le processus d'expansion mondiale des forces productives capitalistes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w9": {
+    "wordId": "ch1_p7_s2_w9",
+    "translationFr": "de / par",
+    "literalTranslation": "provenance, cause ou complément d'agent",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition de provenance ou d'agent au passif régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w10": {
+    "wordId": "ch1_p7_s2_w10",
+    "translationFr": "Amérique",
+    "literalTranslation": "le continent américain",
+    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom propre neutre désignant le Nouveau Monde dont la découverte accéléra l'essor capitaliste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w12": {
+    "wordId": "ch1_p7_s2_w12",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w14": {
+    "wordId": "ch1_p7_s2_w14",
+    "translationFr": "avec / au moyen de",
+    "literalTranslation": "en compagnie de, au moyen de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition d'accompagnement ou d'instrument régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w15": {
+    "wordId": "ch1_p7_s2_w15",
+    "translationFr": "aux",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w16": {
+    "wordId": "ch1_p7_s2_w16",
+    "translationFr": "colonies",
+    "literalTranslation": "territoire conquis et asservi par une métropole",
+    "grammaticalRole": "Nom féminin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant les débouchés impérialistes indispensables à la bourgeoisie manufacturière.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w18": {
+    "wordId": "ch1_p7_s2_w18",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p7_s2_w20": {
+    "wordId": "ch1_p7_s2_w20",
+    "translationFr": "des",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p7_s2_w22": {
+    "wordId": "ch1_p7_s2_w22",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p7_s2_w23": {
+    "wordId": "ch1_p7_s2_w23",
+    "translationFr": "des",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p7_s2_w25": {
+    "wordId": "ch1_p7_s2_w25",
+    "translationFr": "en général / d'une manière générale",
+    "literalTranslation": "par-dessus tout, globalement",
+    "grammaticalRole": "Adverbe invariable. Adverbe de synthèse marquant l'essor global des forces révolutionnaires marchandes.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s2_w26": {
+    "wordId": "ch1_p7_s2_w26",
+    "translationFr": "donner / procurer / susciter",
+    "literalTranslation": "remettre, apporter",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant l'impulsion décisive donnée par la colonisation aux forces marchandes.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s2_w27": {
+    "wordId": "ch1_p7_s2_w27",
+    "translationFr": "au / au moyen du",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w28": {
+    "wordId": "ch1_p7_s2_w28",
+    "translationFr": "commerce / négoce",
+    "literalTranslation": "échange marchand de biens",
+    "grammaticalRole": "Nom masculin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin désignant le capital commercial qui précipite la ruine du féodalisme.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w30": {
+    "wordId": "ch1_p7_s2_w30",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w31": {
+    "wordId": "ch1_p7_s2_w31",
+    "translationFr": "navigation maritime",
+    "literalTranslation": "voyage par mer sur des navires",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin composé marquant le réseau maritime mondial reliant les marchés planétaires.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w33": {
+    "wordId": "ch1_p7_s2_w33",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w34": {
+    "wordId": "ch1_p7_s2_w34",
+    "translationFr": "industrie / production manufacturière",
+    "literalTranslation": "activité technique de transformation matérielle",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant l'appareil de production mécanisé moderne.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w35": {
+    "wordId": "ch1_p7_s2_w35",
+    "translationFr": "un",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (masculin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p7_s2_w36": {
+    "wordId": "ch1_p7_s2_w36",
+    "translationFr": "jamais",
+    "literalTranslation": "en aucun temps passé ou futur",
+    "grammaticalRole": "Adverbe invariable. Adverbe absolu soulignant le caractère sans précédent de l'essor commercial moderne.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s2_w37": {
+    "wordId": "ch1_p7_s2_w37",
+    "translationFr": "connu / éprouvé",
+    "literalTranslation": "dont on a fait l'expérience",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif soulignant l'inédit sans précédent de l'essor industriel moderne.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p7_s2_w39": {
+    "wordId": "ch1_p7_s2_w39",
+    "translationFr": "et",
+    "literalTranslation": "conjonction d'addition",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
+    "difficulty": "basic"
+  },
+  "ch1_p7_s2_w40": {
+    "wordId": "ch1_p7_s2_w40",
+    "translationFr": "par là même / ainsi",
+    "literalTranslation": "avec cela, en conséquence",
+    "grammaticalRole": "Adverbe invariable. Adverbe pronominal marquant la corrélation immédiate entre expansion marchande et essor bourgeois.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p7_s2_w41": {
+    "wordId": "ch1_p7_s2_w41",
+    "translationFr": "au",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (neutre singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w42": {
+    "wordId": "ch1_p7_s2_w42",
+    "translationFr": "révolutionnaire",
+    "literalTranslation": "qui renverse violemment les bases matérielles de la société",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif qualifiant la transformation radicale produite par la lutte des classes.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w43": {
+    "wordId": "ch1_p7_s2_w43",
+    "translationFr": "élément",
+    "literalTranslation": "composante fondamentale",
+    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom neutre désignant les germes embryonnaires d'une classe au sein de l'ordre ancien.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w44": {
+    "wordId": "ch1_p7_s2_w44",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w45": {
+    "wordId": "ch1_p7_s2_w45",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w47": {
+    "wordId": "ch1_p7_s2_w47",
+    "translationFr": "féodaux",
+    "literalTranslation": "fondé sur le fief et le servage",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif désignant l'ordre hiérarchique seigneurial terrien antérieur au capital.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w48": {
+    "wordId": "ch1_p7_s2_w48",
+    "translationFr": "société",
+    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant la formation économique et sociale globale.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p7_s2_w49": {
+    "wordId": "ch1_p7_s2_w49",
+    "translationFr": "une",
+    "literalTranslation": "article indéfini",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (féminin singulier). Article indéfini déterminant un nom singulier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p7_s2_w50": {
+    "wordId": "ch1_p7_s2_w50",
+    "translationFr": "rapide / prompt",
+    "literalTranslation": "avec une extrême vitesse",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif soulignant la fulgurance du développement de l'industrie capitaliste.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s1_w1": {
+    "wordId": "ch1_p8_s1_w1",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p8_s1_w2": {
+    "wordId": "ch1_p8_s1_w2",
+    "translationFr": "qui a existé jusqu'alors / passé",
+    "literalTranslation": "qui s'étendait jusqu'à présent",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif marquant le seuil historique entre les sociétés passées et la modernité.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p8_s1_w3": {
+    "wordId": "ch1_p8_s1_w3",
+    "translationFr": "féodal",
+    "literalTranslation": "fondé sur le fief et le servage",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif désignant l'ordre hiérarchique seigneurial terrien antérieur au capital.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p8_s1_w4": {
+    "wordId": "ch1_p8_s1_w4",
+    "translationFr": "ou / ou bien",
+    "literalTranslation": "conjonction d'alternative",
+    "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction disjonctive liant deux issues alternatives.",
+    "difficulty": "basic"
+  },
+  "ch1_p8_s1_w7": {
+    "wordId": "ch1_p8_s1_w7",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p8_s1_w8": {
+    "wordId": "ch1_p8_s1_w8",
+    "translationFr": "industrie / production manufacturière",
+    "literalTranslation": "activité technique de transformation matérielle",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant l'appareil de production mécanisé moderne.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p8_s1_w10": {
+    "wordId": "ch1_p8_s1_w10",
+    "translationFr": "ne pas / non",
+    "literalTranslation": "particule de négation",
+    "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w11": {
+    "wordId": "ch1_p8_s1_w11",
+    "translationFr": "plus / davantage",
+    "literalTranslation": "en quantité supérieure",
+    "grammaticalRole": "Adverbe invariable. Adverbe renforçant l'accélération de la division sociale (« immer mehr » = de plus en plus).",
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w12": {
+    "wordId": "ch1_p8_s1_w12",
+    "translationFr": "de / hors de / depuis",
+    "literalTranslation": "qui émane de",
+    "grammaticalRole": "Particule verbale ou négative. Préposition spatiale et causale régissant le datif.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s1_w13": {
+    "wordId": "ch1_p8_s1_w13",
+    "translationFr": "pour",
+    "literalTranslation": "à destination de, en faveur de",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition de but ou de destination régissant l'accusatif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s1_w14": {
+    "wordId": "ch1_p8_s1_w14",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s1_w15": {
+    "wordId": "ch1_p8_s1_w15",
+    "translationFr": "avec / au moyen de",
+    "literalTranslation": "en compagnie de, au moyen de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition d'accompagnement ou d'instrument régissant le datif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s1_w16": {
+    "wordId": "ch1_p8_s1_w16",
+    "translationFr": "aux",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s1_w17": {
+    "wordId": "ch1_p8_s1_w17",
+    "translationFr": "nouveaux",
+    "literalTranslation": "qui n'existait pas auparavant",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s1_w18": {
+    "wordId": "ch1_p8_s1_w18",
+    "translationFr": "marché",
+    "literalTranslation": "espace marchand d'échange des denrées",
+    "grammaticalRole": "Nom masculin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin économique dont la constante mondialisation nourrit la bourgeoisie.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s2_w1": {
+    "wordId": "ch1_p8_s2_w1",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p8_s2_w4": {
+    "wordId": "ch1_p8_s2_w4",
+    "translationFr": "à / sur",
+    "literalTranslation": "en contact avec",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition spatiale ou d'attribution.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s2_w5": {
+    "wordId": "ch1_p8_s2_w5",
+    "translationFr": "leur / son / sa / ses",
+    "literalTranslation": "possessif de 3e personne",
+    "grammaticalRole": "Pronom décliné (accusatif (complément d'objet direct)). Déterminant possessif rattachant un bien à son détenteur.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s2_w6": {
+    "wordId": "ch1_p8_s2_w6",
+    "translationFr": "place / position",
+    "literalTranslation": "lieu précis, rôle substitué",
+    "grammaticalRole": "Nom féminin singulier · au accusatif (complément d'objet direct). Nom féminin : la bourgeoisie a substitué de nouveaux rapports de classe aux anciens.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s3_w1": {
+    "wordId": "ch1_p8_s3_w1",
+    "translationFr": "les",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p8_s3_w3": {
+    "wordId": "ch1_p8_s3_w3",
+    "translationFr": "devenir / auxiliaire du passif",
+    "literalTranslation": "entrer dans un état nouveau",
+    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Auxiliaire fondamental de la voix passive allemande.",
+    "difficulty": "intermediate"
+  },
+  "ch1_p8_s3_w5": {
+    "wordId": "ch1_p8_s3_w5",
+    "translationFr": "par / à travers",
+    "literalTranslation": "au moyen de",
+    "grammaticalRole": "Préposition régissant le accusatif (complément d'objet direct). Préposition d'instrument régissant l'accusatif.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s3_w6": {
+    "wordId": "ch1_p8_s3_w6",
+    "translationFr": "le",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au accusatif (complément d'objet direct) (masculin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s3_w7": {
+    "wordId": "ch1_p8_s3_w7",
+    "translationFr": "industrielle",
+    "literalTranslation": "relatif à la grande production mécanisée",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif définissant la bourgeoisie d'usine moderne.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "acc"
+    ]
+  },
+  "ch1_p8_s3_w10": {
+    "wordId": "ch1_p8_s3_w10",
+    "translationFr": "la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au nominatif (sujet ou attribut du sujet) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "nom"
+    ]
+  },
+  "ch1_p8_s3_w12": {
+    "wordId": "ch1_p8_s3_w12",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p8_s3_w13": {
+    "wordId": "ch1_p8_s3_w13",
+    "translationFr": "travail / force de travail",
+    "literalTranslation": "labeur, travail productif",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept cardinal chez Marx désignant l'activité productrice transformant la nature.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p8_s3_w14": {
+    "wordId": "ch1_p8_s3_w14",
+    "translationFr": "entre",
+    "literalTranslation": "dans l'espace intermédiaire séparant deux termes",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale désignant l'espace interstitiel entre deux ordres.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w15": {
+    "wordId": "ch1_p8_s3_w15",
+    "translationFr": "aux",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) ( pluriel). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w16": {
+    "wordId": "ch1_p8_s3_w16",
+    "translationFr": "différent / divers",
+    "literalTranslation": "séparé, pluriel",
+    "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la pluralité des nationalités et des échelons féodaux.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w19": {
+    "wordId": "ch1_p8_s3_w19",
+    "translationFr": "devant / à la face de",
+    "literalTranslation": "en présence de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition marquant la publicité de la proclamation devant le monde entier.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w20": {
+    "wordId": "ch1_p8_s3_w20",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w21": {
+    "wordId": "ch1_p8_s3_w21",
+    "translationFr": "division / morcellement",
+    "literalTranslation": "fragmentation d'une tâche ou d'un corps",
+    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin économique désignant la division manufacturière du travail.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w22": {
+    "wordId": "ch1_p8_s3_w22",
+    "translationFr": "de la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au génitif (complément du nom marquant l'appartenance) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p8_s3_w23": {
+    "wordId": "ch1_p8_s3_w23",
+    "translationFr": "travail / force de travail",
+    "literalTranslation": "labeur, travail productif",
+    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept cardinal chez Marx désignant l'activité productrice transformant la nature.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "gen"
+    ]
+  },
+  "ch1_p8_s3_w24": {
+    "wordId": "ch1_p8_s3_w24",
+    "translationFr": "en / dans",
+    "literalTranslation": "à l'intérieur de",
+    "grammaticalRole": "Préposition régissant le datif (complément d'objet indirect ou régime prépositionnel). Préposition spatiale régissant ici le datif (situation sans déplacement).",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w25": {
+    "wordId": "ch1_p8_s3_w25",
+    "translationFr": "à la",
+    "literalTranslation": "article défini ou pronom relatif",
+    "grammaticalRole": "Article décliné au datif (complément d'objet indirect ou régime prépositionnel) (féminin singulier). Article défini décliné déterminant le nom en cas, genre et nombre.",
+    "difficulty": "basic",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w26": {
+    "wordId": "ch1_p8_s3_w26",
+    "translationFr": "individuel / particulier",
+    "literalTranslation": "isolé un par un",
+    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant le morcellement des ouvriers au sein de la manufacture.",
+    "difficulty": "intermediate",
+    "relatedConcepts": [
+      "dat"
+    ]
+  },
+  "ch1_p8_s3_w28": {
+    "wordId": "ch1_p8_s3_w28",
+    "translationFr": "lui-même / soi-même",
+    "literalTranslation": "en personne, sans intermédiaire",
+    "grammaticalRole": "Pronom décliné (). Pronom d'insistance soulignant l'initiative directe du Parti communiste.",
+    "difficulty": "intermediate"
+  }
+};
