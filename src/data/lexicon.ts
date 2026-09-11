@@ -2032,6 +2032,150 @@ export const LEMMA_LEXICON: Record<string, LexiconEntry> = {
     "pos_fr": "Verbe fort",
     "role": "Verbe fort décrivant l'expansion continue et irrésistible de l'espace commercial mondial."
   },
+  "derselbe": {
+    "fr": "le même / ce même",
+    "lit": "celui-là même, le identique",
+    "pos_fr": "Pronom démonstratif d'identité",
+    "role": "Pronom ou adjectif d'identité marquant la stricte équivalence ou proportion (employé dans « in demselben Maße » : dans la même mesure, au fur et à mesure)."
+  },
+  "immer": {
+    "fr": "toujours / sans cesse",
+    "lit": "toujours, constamment (adverbe temporel)",
+    "pos_fr": "Adverbe de temps",
+    "role": "Adverbe temporel marquant l'inversion syntaxique V2 et la dynamique d'accroissement continu des marchés."
+  },
+  "dieser": {
+    "fr": "ce / cette / ces / celui-ci",
+    "lit": "celui-ci, ce proche (démonstratif)",
+    "pos_fr": "Pronom / déterminant démonstratif",
+    "role": "Déterminant démonstratif désignant avec précision un fait ou une institution immédiatement antérieure."
+  },
+  "auf": {
+    "fr": "sur / vers / contre",
+    "lit": "sur, en direction de (préposition)",
+    "pos_fr": "Préposition mixte",
+    "role": "Préposition spatiale régissant ici l'accusatif pour marquer la direction de l'effet produit (« auf die Ausdehnung zurückwirken » : réagir sur l'extension)."
+  },
+  "worin": {
+    "fr": "dans lequel / où / au fur et à mesure que",
+    "lit": "dans quoi, en quoi (adverbe relatif)",
+    "pos_fr": "Pronom relatif adverbial composé",
+    "role": "Adverbe relatif unissant wo- et la préposition in pour introduire une proposition de mesure et de temps."
+  },
+  "Maß": {
+    "fr": "mesure / degré / proportion",
+    "lit": "quantité mesurée, étalon de dimension",
+    "pos_fr": "Nom neutre",
+    "role": "Nom neutre employé au datif dans la locution corrélative « in demselben Maße, worin... » (au fur et à mesure que, dans la mesure où...)."
+  },
+  "her": {
+    "fr": "depuis / en provenance de",
+    "lit": "vers ici (adverbe directionnel)",
+    "pos_fr": "Adverbe directionnel",
+    "role": "Particule adverbiale marquant l'origine historique léguée par le passé (« vom Mittelalter her » : en provenance du moyen âge)."
+  },
+  "sehen": {
+    "fr": "voir / constater",
+    "lit": "percevoir par la vue, observer par l'intellect",
+    "pos_fr": "Verbe fort",
+    "role": "Verbe fort employé à la 1re personne du pluriel (« wir sehen » : nous le voyons, nous constatons) pour sceller l'accord intellectuel du lecteur."
+  },
+  "also": {
+    "fr": "donc / ainsi / par conséquent",
+    "lit": "ainsi fait, de cette manière",
+    "pos_fr": "Adverbe connecteur logique",
+    "role": "Connecteur argumentatif formulant la conclusion théorique rigoureuse d'une déduction historique."
+  },
+  "lang": {
+    "fr": "long / prolongé",
+    "lit": "étendu dans l'espace ou la durée temporelle",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualificatif soulignant la longue maturation pluriséculaire de la classe bourgeoise moderne."
+  },
+  "Reihe": {
+    "fr": "série / chaîne / succession",
+    "lit": "ligne ordonnée, rangée continue",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin désignant la succession dialectique des révolutions dans les modes de production et d'échange."
+  },
+  "politisch": {
+    "fr": "politique",
+    "lit": "relatif à la cité et au gouvernement",
+    "pos_fr": "Adjectif",
+    "role": "Adjectif qualifiant l'expression juridique et étatique des rapports de force matériels."
+  },
+  "unter": {
+    "fr": "sous / parmi",
+    "lit": "en dessous de, au bas de (préposition)",
+    "pos_fr": "Préposition mixte",
+    "role": "Préposition hiérarchique régissant le datif marquant la sujétion féodale primitive (« unter der Herrschaft » : sous la domination des seigneurs féodaux)."
+  },
+  "Herrschaft": {
+    "fr": "domination / pouvoir souverain / règne",
+    "lit": "autorité de maître, souveraineté seigneuriale",
+    "pos_fr": "Nom féminin",
+    "role": "Nom féminin abstrait désignant chez Marx l'exercice institutionnel et coercitif de la suprématie d'une classe sur la société."
+  },
+  "hier": {
+    "fr": "ici",
+    "lit": "en ce lieu-ci (adverbe de lieu)",
+    "pos_fr": "Adverbe de lieu",
+    "role": "Adverbe spatial apparié à « dort » pour illustrer la bigarrure géographique des communes bourgeoises médiévales."
+  },
+  "dort": {
+    "fr": "là / là-bas",
+    "lit": "en cet autre lieu éloigné",
+    "pos_fr": "Adverbe de lieu",
+    "role": "Adverbe spatial marquant la diversité territoriale des régimes urbains en Europe."
+  },
+  "dritt": {
+    "fr": "troisième / tiers",
+    "lit": "qui occupe le rang trois",
+    "pos_fr": "Adjectif numéral ordinal",
+    "role": "Adjectif ordinal employé dans l'expression institutionnelle historique « dritter Stand » (tiers état roturier taillable de la monarchie)."
+  },
+  "dann": {
+    "fr": "puis / ensuite / alors",
+    "lit": "à ce moment ultérieur (adverbe temporel)",
+    "pos_fr": "Adverbe de succession temporelle",
+    "role": "Adverbe temporel marquant la transition vers la période manufacturière de la bourgeoisie."
+  },
+  "endlich": {
+    "fr": "enfin / finalement / au terme du processus",
+    "lit": "qui touche à sa fin, qui arrive à son terme",
+    "pos_fr": "Adverbe",
+    "role": "Adverbe marquant l'aboutissement historique de la conquête du monopole politique d'État par la bourgeoisie moderne."
+  },
+  "seit": {
+    "fr": "depuis / à dater de",
+    "lit": "à partir de ce moment",
+    "pos_fr": "Préposition (régime datif)",
+    "role": "Préposition temporelle marquant l'ère historique moderne ouverte par le machinisme et le marché mondial."
+  },
+  "spielen": {
+    "fr": "jouer / interpréter",
+    "lit": "exécuter un jeu, incarner un personnage",
+    "pos_fr": "Verbe",
+    "role": "Verbe employé dans la formule célèbre « eine Rolle spielen » (jouer un rôle éminemment révolutionnaire dans l'histoire)."
+  },
+  "kommen": {
+    "fr": "venir / parvenir / accéder",
+    "lit": "se déplacer vers un but, arriver à destination",
+    "pos_fr": "Verbe fort",
+    "role": "Verbe fort employé dans la locution « zur Herrschaft kommen » (conquérir le pouvoir politique, accéder à l'hégémonie)."
+  },
+  "kein": {
+    "fr": "aucun / pas de / nul",
+    "lit": "pas un seul (déterminant négatif)",
+    "pos_fr": "Déterminant indéfini négatif",
+    "role": "Déterminant négatif absolu marquant la dissolution impitoyable de tous les liens traditionnels féodaux sans exception."
+  },
+  "ander": {
+    "fr": "autre / distinct",
+    "lit": "qui n'est pas le même, différent",
+    "pos_fr": "Adjectif indéfini",
+    "role": "Adjectif indéfini marquant l'exclusion de tout rapport social autre que l'intérêt égoïste du paiement au comptant."
+  }
 };
 
 /**

@@ -6430,5 +6430,28 @@ export const annotations: Record<string, Annotation> = {
       "bourgeoisie"
     ],
     "difficulty": "advanced"
+  },
+  "ch1_p10_s3_w13": {
+    "wordId": "ch1_p10_s3_w13",
+    "translationFr": "la même / cette même",
+    "literalTranslation": "dans cette même (mesure), dans la même proportion",
+    "grammaticalRole": "Pronom / adjectif démonstratif d'identité (derselbe -> demselben) au datif neutre singulier, s'accordant avec « Maße » pour former la locution corrélative « in demselben Maße, worin... » (au fur et à mesure que).",
+    "etymology": "Composé unissant l'article démonstratif « der » et le pronom germanique d'identité « selb » (identique, en vieux haut-allemand selbo, en moyen haut-allemand selbe, issu du proto-germanique *selbaz = de soi-même, propre, cognat de l'anglais self).",
+    "syntaxNote": "Structure corrélative temporelle et quantitative : « in demselben Maße, worin » (au fur et à mesure que).",
+    "relatedConcepts": [
+      "dat"
+    ],
+    "difficulty": "intermediate"
+  },
+  "ch1_p10_s3_w28": {
+    "wordId": "ch1_p10_s3_w28",
+    "translationFr": "la même / cette même",
+    "literalTranslation": "dans cette même (mesure), dans la même proportion",
+    "grammaticalRole": "Pronom / adjectif démonstratif d'identité (derselbe -> demselben) au datif neutre singulier, s'accordant avec « Maße » pour introduire la proposition principale corrélative.",
+    "etymology": "Composé de « der » et « selb » (en vieux haut-allemand selbo, en moyen haut-allemand selbe, issu du proto-germanique *selbaz = de soi-même, cognat de l'anglais self).",
+    "relatedConcepts": [
+      "dat"
+    ],
+    "difficulty": "intermediate"
   }
 };
