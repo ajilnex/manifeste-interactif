@@ -20,6 +20,13 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
     4. **Typographie** : Normale (jamais d'italique généralisé) pour respecter la fidélité des emphases du texte original.
   - **Fiche de mot** : La traduction contextuelle est affichée au sommet de l'encart. **Ne jamais ajouter d'encart redondant** de type « Justification du choix de traduction » qui paraphrase la traduction déjà visible.
 
+- **Règle Impérative de Découplage Strict Mot-à-Mot** :
+  - **Écueil critique** : Regrouper dans la fiche d'un mot (ex: le nom `Wehmut`) la traduction, le sens littéral ou l'étymologie de mots adjacents (ex: l'adjectif `spießbürgerlichen`, produisant à tort « de la sentimentalité petite-bourgeoise » et commençant l'étymologie par *spießbürgerlich*).
+  - **Norme** :
+    1. **Un mot = une traduction individuelle** : Chaque mot doit être traduit strictly pour lui-même en contexte (ex: `Wehmut` -> « sentimentalité / mélancolie », et `spießbürgerlichen` -> « petite-bourgeoise / philistine »). Le mot d'à côté ne doit JAMAIS apparaître dans la fiche du mot survolé.
+    2. **Étymologie strictement dédiée** : L'étymologie philologique doit concerner EXCLUSIVEMENT le mot survolé. Interdiction d'analyser l'adjectif ou le nom voisin dans l'encart d'un mot distinct.
+    3. **Champ `wordIds` unitaire** : Dans `annotations.ts`, `wordIds` doit toujours contenir exclusivement `[wordId]` de la clé annotée (`wordIds: [wordId]`), sans jamais englober les mots voisins.
+
 - **Rigueur Philologique & Étymologique** :
   - **Écueil majeur** : Halluciner des étymologies naïves (ex: décomposer *Pfahlbürger* en *Pfahl + bürger + schaft*, lier *Mannigfaltig* à *Mann*, ou inventer des racines).
   - **Norme** :
@@ -44,6 +51,13 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
   - Pliées contre les bords de l'écran, dépassant à peine, avec déploiement au survol (`group-hover:max-w-...`).
   - Haut gauche : Sommaire (`HammerSickleIcon`).
   - Haut droite : Réglages (`GearIcon`) et Plein écran.
+- **Confinement Viewport & Anti-Débordement Bas d'Écran (Tooltips)** :
+  - **Écueil** : En bas de page, l'infobulle/fiche de mot dépasse sous la ligne de flottaison de l'écran (`overflow` hors champ), empêchant la lecture de la traduction, de l'analyse ou de l'étymologie.
+  - **Norme** :
+    1. Middleware `size` de `@floating-ui/react` combiné à `flip` (`fallbackPlacements: ['bottom', 'top-start', ...]`) et `shift({ padding: 12 })`.
+    2. Calcul dynamique de `availableHeight` injecté sur `elements.floating.style.maxHeight = \`${Math.max(140, availableHeight)}px\``.
+    3. Chaîne CSS Flexbox stricte : conteneur flottant `flex flex-col`, carte motion `flex flex-col max-h-[inherit]`, et corps de texte `flex-1 min-h-0 overflow-y-auto`.
+    4. Résultat : l'encart reste 100% visible et scrollable en interne quel que soit le positionnement ou le zoom.
 
 ---
 

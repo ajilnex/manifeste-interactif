@@ -1,51 +1,25 @@
 import React, { Fragment } from 'react';
-import type { Annotation, Chapter, Concept } from '../types';
-import { GrammarPanel } from './GrammarPanel';
+import type { Annotation, Chapter } from '../types';
 import { InteractiveWord } from './InteractiveWord';
-import { PhilosophyNote } from './PhilosophyNote';
-import { GRAMMAR_PANELS, PHILOSOPHY_NOTES } from '../data/excursus';
 
 interface TextReaderProps {
   chapter: Chapter;
   annotations: Record<string, Annotation>;
-  concepts: Record<string, Concept>;
   showGrammarColors: boolean;
   filterBasicWords: boolean;
   showInterlinearTranslations: boolean;
-  showExcursus?: boolean;
   highlightedWordId: string | null;
   highlightedParagraphId: string | null;
   onWordHover: (wordId: string | null) => void;
   onParagraphHover: (paragraphId: string | null) => void;
 }
 
-const GRAMMAR_PANEL_PLACEMENTS: Record<string, (keyof typeof GRAMMAR_PANELS)[]> = {
-  'ch0_p1': ['v2_word_order'],
-  'ch0_p2': ['subjunctive_subclause'],
-  'ch1_p1': ['german_cases'],
-  'ch1_p3': ['compound_nouns'],
-  'ch1_p7': ['verbal_prefixes'],
-};
-
-const PHILOSOPHY_NOTE_PLACEMENTS: Record<string, (keyof typeof PHILOSOPHY_NOTES)[]> = {
-  'ch0_p1': ['gespenst'],
-  'ch1_p1': ['klassenkampf'],
-  'ch1_p4': ['bourgeoisie', 'aufhebung'],
-  'ch1_p5': ['proletariat'],
-  'ch1_p6': ['pfahlbuerger'],
-  'ch1_p10': ['weltmarkt'],
-  'ch1_p12': ['repraesentativstaat'],
-  'ch1_p14': ['tauschwert'],
-};
-
 export const TextReader: React.FC<TextReaderProps> = ({
   chapter,
   annotations,
-  concepts,
   showGrammarColors,
   filterBasicWords,
   showInterlinearTranslations,
-  showExcursus = true,
   highlightedWordId,
   highlightedParagraphId,
   onWordHover,
@@ -101,7 +75,6 @@ export const TextReader: React.FC<TextReaderProps> = ({
                               <InteractiveWord
                                 word={word}
                                 annotation={annotations[word.id]}
-                                concepts={concepts}
                                 showGrammarColors={showGrammarColors}
                                 filterBasicWords={filterBasicWords}
                                 isHighlighted={highlightedWordId === word.id}
@@ -151,7 +124,6 @@ export const TextReader: React.FC<TextReaderProps> = ({
                             <InteractiveWord
                               word={word}
                               annotation={annotations[word.id]}
-                              concepts={concepts}
                               showGrammarColors={showGrammarColors}
                               filterBasicWords={filterBasicWords}
                               isHighlighted={highlightedWordId === word.id}
@@ -165,32 +137,6 @@ export const TextReader: React.FC<TextReaderProps> = ({
                 </p>
               )}
             </section>
-
-            {/* Excursus grammaticaux et Notes philosophiques (Masquables sur demande) */}
-            {showExcursus && (
-              <>
-                {GRAMMAR_PANEL_PLACEMENTS[paragraph.id]?.map((panelKey) => {
-                  const panel = GRAMMAR_PANELS[panelKey];
-                  return panel ? (
-                    <GrammarPanel
-                      key={panelKey}
-                      title={panel.title}
-                      points={panel.points}
-                    />
-                  ) : null;
-                })}
-
-                {PHILOSOPHY_NOTE_PLACEMENTS[paragraph.id]?.map((noteKey) => {
-                  const note = PHILOSOPHY_NOTES[noteKey];
-                  return note ? (
-                    <PhilosophyNote
-                      key={noteKey}
-                      {...note}
-                    />
-                  ) : null;
-                })}
-              </>
-            )}
           </Fragment>
         ))}
       </div>

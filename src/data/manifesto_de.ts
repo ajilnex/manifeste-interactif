@@ -1,4 +1,8 @@
 import type { ManifestoData, Word, PartOfSpeech } from '../types';
+import { chapter1RemainingParagraphs } from './chapters/ch1_remaining';
+import { chapter2 } from './chapters/ch2';
+import { chapter3 } from './chapters/ch3';
+import { chapter4 } from './chapters/ch4';
 
 const w = (
   id: string, text: string, lemma: string, pos: PartOfSpeech, 
@@ -1328,8 +1332,12 @@ export const manifestoData: ManifestoData = {
         ]
       }
     ]
-  }
-      ]
-    }
-  ]
+  },
+  ...chapter1RemainingParagraphs
+]
+},
+chapter2,
+chapter3,
+chapter4
+]
 };

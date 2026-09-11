@@ -4,7 +4,6 @@ import { SettingsPanel } from './components/SettingsPanel';
 import { TextReader } from './components/TextReader';
 import { manifestoData } from './data/manifesto_de';
 import { annotations } from './data/annotations';
-import { concepts } from './data/concepts';
 import {
   HammerSickleIcon,
   FullscreenEnterIcon,
@@ -21,7 +20,6 @@ function App() {
   const [showGrammarColors, setShowGrammarColors] = useState(false);
   const [filterBasicWords, setFilterBasicWords] = useState(true);
   const [showInterlinearTranslations, setShowInterlinearTranslations] = useState(false);
-  const [showExcursus, setShowExcursus] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   const [highlightedWordId, setHighlightedWordId] = useState<string | null>(null);
@@ -67,7 +65,7 @@ function App() {
       window.removeEventListener('scroll', checkScroll);
       window.removeEventListener('resize', checkScroll);
     };
-  }, [currentChapterId, showInterlinearTranslations, showExcursus]);
+  }, [currentChapterId, showInterlinearTranslations]);
 
   const currentChapterIndex = manifestoData.chapters.findIndex((ch) => ch.id === currentChapterId);
   const currentChapter =
@@ -115,10 +113,6 @@ function App() {
     } else {
       setShowInterlinearTranslations((prev) => !prev);
     }
-  }, []);
-
-  const handleToggleShowExcursus = useCallback(() => {
-    setShowExcursus((prev) => !prev);
   }, []);
 
   const handleWordHover = useCallback((wordId: string | null) => {
@@ -326,8 +320,6 @@ function App() {
         onToggleInterlinearTranslations={handleToggleInterlinearTranslations}
         showGrammarColors={showGrammarColors}
         onToggleGrammarColors={handleToggleGrammarColors}
-        showExcursus={showExcursus}
-        onToggleShowExcursus={handleToggleShowExcursus}
         isFullscreen={isFullscreen}
         onToggleFullscreen={handleToggleFullscreen}
       />
@@ -337,11 +329,9 @@ function App() {
         <TextReader
           chapter={currentChapter}
           annotations={annotations}
-          concepts={concepts}
           showGrammarColors={showGrammarColors}
           filterBasicWords={filterBasicWords}
           showInterlinearTranslations={showInterlinearTranslations}
-          showExcursus={showExcursus}
           highlightedWordId={highlightedWordId}
           highlightedParagraphId={highlightedParagraphId}
           onWordHover={handleWordHover}

@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
-import type { Annotation, Concept, Word } from '../types';
+import type { Annotation, Word } from '../types';
 import { isBasicWord } from '../utils/language';
 import { getWordTranslationFr } from '../data/lexicon';
 import { Tooltip } from './Tooltip';
@@ -7,7 +7,6 @@ import { Tooltip } from './Tooltip';
 interface InteractiveWordProps {
   word: Word;
   annotation?: Annotation;
-  concepts?: Record<string, Concept>;
   showGrammarColors: boolean;
   filterBasicWords: boolean;
   isHighlighted: boolean;
@@ -32,7 +31,6 @@ const POS_CLASS_MAP: Record<string, string> = {
 export const InteractiveWord: React.FC<InteractiveWordProps> = ({
   word,
   annotation,
-  concepts,
   showGrammarColors,
   filterBasicWords,
   isHighlighted,
@@ -170,7 +168,6 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
       <Tooltip
         word={word}
         annotation={annotation}
-        concepts={concepts}
         isOpen={isTooltipOpen}
         isLocked={isLocked}
         anchorEl={anchorEl}

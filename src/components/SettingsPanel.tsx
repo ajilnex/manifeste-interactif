@@ -9,8 +9,6 @@ interface SettingsPanelProps {
   onToggleInterlinearTranslations: () => void;
   showGrammarColors: boolean;
   onToggleGrammarColors: () => void;
-  showExcursus: boolean;
-  onToggleShowExcursus: () => void;
   isFullscreen: boolean;
   onToggleFullscreen: () => void;
 }
@@ -24,8 +22,6 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
   onToggleInterlinearTranslations,
   showGrammarColors,
   onToggleGrammarColors,
-  showExcursus,
-  onToggleShowExcursus,
   isFullscreen,
   onToggleFullscreen,
 }) => {
@@ -165,31 +161,6 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
               }`}
             >
               {showGrammarColors ? 'ACTIF' : 'INACTIF'}
-            </span>
-          </button>
-
-          {/* Excursus & Concepts */}
-          <button
-            type="button"
-            onClick={onToggleShowExcursus}
-            className="w-full flex items-center justify-between p-2.5 border border-black bg-white hover:bg-neutral-50 transition-colors text-left cursor-pointer"
-          >
-            <div className="flex flex-col pr-2">
-              <span className="font-mono text-[11px] font-bold uppercase text-black">
-                Excursus & Concepts
-              </span>
-              <span className="text-[10px] text-neutral-500 leading-tight">
-                Modules grammaticaux et philosophiques
-              </span>
-            </div>
-            <span
-              className={`font-mono text-[10px] font-bold px-2 py-0.5 border ${
-                showExcursus
-                  ? 'bg-black text-white border-black'
-                  : 'bg-neutral-100 text-neutral-400 border-neutral-300'
-              }`}
-            >
-              {showExcursus ? 'AFFICHÉ' : 'MASQUÉ'}
             </span>
           </button>
 

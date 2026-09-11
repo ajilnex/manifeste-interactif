@@ -4,17 +4,19 @@ import {
   flip,
   offset,
   shift,
+  size,
   useFloating,
 } from '@floating-ui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react';
-import type { Annotation, Concept, Word } from '../types';
+import type { Annotation, Word } from '../types';
 import {
   CASE_LABELS_FR,
   GENDER_LABELS_FR,
   POS_LABELS_FR,
 } from '../types';
 import {
+  getEtymology,
   getGrammaticalRoleFr,
   getLiteralTranslation,
   getWordTranslationFr,
@@ -23,13 +25,11 @@ import {
 interface TooltipProps {
   word: Word;
   annotation?: Annotation;
-  concepts?: Record<string, Concept>;
   isOpen: boolean;
   isLocked: boolean;
   anchorEl: HTMLElement | null;
   onToggleLock: () => void;
   onClose: () => void;
-  onConceptClick?: (conceptId: string, position: { x: number; y: number }) => void;
   onMouseEnter: () => void;
   onMouseLeave: () => void;
 }
@@ -37,24 +37,19 @@ interface TooltipProps {
 export const Tooltip: React.FC<TooltipProps> = ({
   word,
   annotation,
-  concepts,
   isOpen,
   isLocked,
   anchorEl,
   onToggleLock,
   onClose,
-  onConceptClick,
   onMouseEnter,
   onMouseLeave,
 }) => {
-  const defaultTab =
-    annotation?.philosophicalContext && !annotation.grammaticalRole ? 'philosophy' : 'grammar';
   const [tabSelection, setTabSelection] = useState<{
     wordId: string;
-    tab: 'grammar' | 'etymology' | 'philosophy';
+    tab: 'grammar' | 'etymology';
   } | null>(null);
-  const activeTab = tabSelection?.wordId === word.id ? tabSelection.tab : defaultTab;
-  const [selectedConceptId, setSelectedConceptId] = useState<string | null>(null);
+  const activeTab = tabSelection?.wordId === word.id ? tabSelection.tab : 'grammar';
 
   // Floating UI en mode fixed pour un ancrage infaillible au défilement
   const { refs, floatingStyles, update } = useFloating({
@@ -68,6 +63,14 @@ export const Tooltip: React.FC<TooltipProps> = ({
         padding: 12,
       }),
       shift({ padding: 12 }),
+      size({
+        padding: 12,
+        apply({ availableHeight, elements }) {
+          Object.assign(elements.floating.style, {
+            maxHeight: `${Math.max(140, availableHeight)}px`,
+          });
+        },
+      }),
     ],
     whileElementsMounted: autoUpdate,
     elements: {
@@ -99,8 +102,8 @@ export const Tooltip: React.FC<TooltipProps> = ({
     }
   }, [isOpen, onClose]);
 
-  const hasEtymology = Boolean(annotation?.etymology);
-  const hasPhilosophy = Boolean(annotation?.philosophicalContext);
+  const etymologyDisplay = getEtymology(word, annotation);
+  const hasEtymology = Boolean(etymologyDisplay);
   const translationDisplay = getWordTranslationFr(word, annotation);
   const literalDisplay = getLiteralTranslation(word, annotation);
   const grammaticalRoleDisplay = getGrammaticalRoleFr(word, annotation);
@@ -115,7 +118,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
               ...floatingStyles,
               zIndex: 9999,
             }}
-            className="tooltip-container"
+            className="tooltip-container flex flex-col"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
             onClick={(e) => e.stopPropagation()}
@@ -132,7 +135,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
               onMouseDown={(e) => e.stopPropagation()}
               className={`relative bg-white border ${
                 isLocked ? 'border-black ring-2 ring-black shadow-[5px_5px_0px_0px_#111111]' : 'border-black shadow-[4px_4px_0px_0px_#111111]'
-              } p-4 font-sans text-xs text-black`}
+              } p-4 font-sans text-xs text-black flex flex-col max-h-[inherit] w-80 sm:w-96 max-w-[calc(100vw-24px)]`}
             >
               {/* En-tête architectural Bauhaus épuré */}
               <div className="flex items-center justify-between gap-3 pb-2.5 mb-3 border-b border-black">
@@ -229,11 +232,11 @@ export const Tooltip: React.FC<TooltipProps> = ({
                 )}
               </div>
 
-              {/* Onglets structurels Bauhaus */}
-              {(hasEtymology || hasPhilosophy) && (
+              {/* Onglets structurels Bauhaus si étymologie présente */}
+              {hasEtymology && (
                 <div className="flex border-b border-black mb-3 text-[10px] font-mono uppercase tracking-wider">
                   <button
-                    className={`px-3 py-1.5 font-bold transition-colors ${
+                    className={`px-3 py-1.5 font-bold transition-colors cursor-pointer ${
                       activeTab === 'grammar'
                         ? 'bg-black text-white'
                         : 'bg-white text-neutral-600 hover:text-black hover:bg-neutral-100'
@@ -245,41 +248,24 @@ export const Tooltip: React.FC<TooltipProps> = ({
                   >
                     01 / Analyse
                   </button>
-                  {hasEtymology && (
-                    <button
-                      className={`px-3 py-1.5 font-bold transition-colors ${
-                        activeTab === 'etymology'
-                          ? 'bg-black text-white'
-                          : 'bg-white text-neutral-600 hover:text-black hover:bg-neutral-100'
-                      }`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setTabSelection({ wordId: word.id, tab: 'etymology' });
-                      }}
-                    >
-                      02 / Étymologie
-                    </button>
-                  )}
-                  {hasPhilosophy && (
-                    <button
-                      className={`px-3 py-1.5 font-bold transition-colors ${
-                        activeTab === 'philosophy'
-                          ? 'bg-black text-white'
-                          : 'bg-white text-neutral-600 hover:text-black hover:bg-neutral-100'
-                      }`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setTabSelection({ wordId: word.id, tab: 'philosophy' });
-                      }}
-                    >
-                      03 / Philosophie
-                    </button>
-                  )}
+                  <button
+                    className={`px-3 py-1.5 font-bold transition-colors cursor-pointer ${
+                      activeTab === 'etymology'
+                        ? 'bg-black text-white'
+                        : 'bg-white text-neutral-600 hover:text-black hover:bg-neutral-100'
+                    }`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setTabSelection({ wordId: word.id, tab: 'etymology' });
+                    }}
+                  >
+                    02 / Étymologie
+                  </button>
                 </div>
               )}
 
-              {/* Corps de l'onglet actif */}
-              <div className="text-xs leading-relaxed max-h-64 overflow-y-auto pr-1">
+              {/* Corps de l'analyse ou de l'étymologie */}
+              <div className="text-xs leading-relaxed overflow-y-auto pr-1 flex-1 min-h-0">
                 {activeTab === 'grammar' && (
                   <div className="space-y-2.5">
                     <p className="font-sans text-neutral-800">
@@ -303,115 +289,16 @@ export const Tooltip: React.FC<TooltipProps> = ({
                   <div className="p-2.5 bg-neutral-50 border border-neutral-300 font-sans text-neutral-900 leading-normal">
                     <div className="flex items-center justify-between pb-1.5 mb-2 border-b border-neutral-200">
                       <span className="font-mono text-[9px] font-bold text-black uppercase tracking-wider">
-                        // ÉTYMOLOGIE PHILOLOGIQUE & HISTORIQUE
+                        // ÉTYMOLOGIE PHILOLOGIQUE
                       </span>
                       <span className="font-mono text-[8.5px] text-neutral-500 uppercase tracking-wider">
                         DWDS / Pfeifer · Duden · Kluge
                       </span>
                     </div>
-                    <p className="text-xs leading-relaxed text-neutral-800">{annotation!.etymology}</p>
-                  </div>
-                )}
-
-                {activeTab === 'philosophy' && hasPhilosophy && (
-                  <div className="p-2.5 bg-neutral-50 border border-black font-sans text-neutral-900 leading-relaxed">
-                    <p>{annotation!.philosophicalContext}</p>
+                    <p className="text-xs leading-relaxed text-neutral-800">{etymologyDisplay}</p>
                   </div>
                 )}
               </div>
-
-              {/* Concepts associés */}
-              {annotation?.relatedConcepts && annotation.relatedConcepts.length > 0 && concepts && (
-                <div className="mt-3 pt-2.5 border-t border-neutral-200">
-                  <div className="flex items-center justify-between mb-1.5">
-                    <span className="text-[9px] font-mono font-bold text-neutral-500 uppercase tracking-wider">
-                      Concepts associés
-                    </span>
-                    {selectedConceptId && (
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setSelectedConceptId(null);
-                        }}
-                        className="text-[9px] font-mono text-neutral-500 hover:text-black uppercase"
-                      >
-                        [Fermer fiche]
-                      </button>
-                    )}
-                  </div>
-                  <div className="flex flex-wrap gap-1">
-                    {annotation.relatedConcepts.map(conceptId => {
-                      const concept = concepts[conceptId];
-                      if (!concept) return null;
-                      const isSelected = selectedConceptId === conceptId;
-                      return (
-                        <button
-                          key={conceptId}
-                          type="button"
-                          className={`border px-2 py-0.5 text-[10px] font-mono uppercase tracking-wider transition-colors ${
-                            isSelected
-                              ? 'bg-black text-white border-black shadow-[1px_1px_0px_0px_#111111]'
-                              : 'bg-white text-black border-black hover:bg-neutral-100'
-                          }`}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setSelectedConceptId(prev => prev === conceptId ? null : conceptId);
-                            onConceptClick?.(conceptId, {
-                              x: e.clientX,
-                              y: e.clientY,
-                            });
-                          }}
-                        >
-                          § {concept.nameFr}
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {/* Fiche conceptuelle détaillée dépliée en ligne */}
-                  {selectedConceptId && concepts[selectedConceptId] && (
-                    <div className="mt-2.5 p-2.5 bg-neutral-50 border border-black text-xs font-sans animate-in fade-in duration-100">
-                      <div className="flex items-start justify-between gap-2 mb-1.5 pb-1 border-b border-neutral-300">
-                        <div>
-                          <span className="font-mono text-[9px] font-bold bg-black text-white px-1 py-0.5 mr-1.5 uppercase">
-                            {concepts[selectedConceptId].category}
-                          </span>
-                          <span className="font-bold text-black font-bauhaus text-xs uppercase">
-                            {concepts[selectedConceptId].nameFr}
-                          </span>
-                          <span className="text-[10px] font-mono text-neutral-500 ml-1">
-                            [{concepts[selectedConceptId].nameDe}]
-                          </span>
-                        </div>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setSelectedConceptId(null);
-                          }}
-                          className="font-mono text-xs font-bold text-neutral-600 hover:text-black px-1"
-                          title="Fermer la fiche conceptuelle"
-                        >
-                          ✕
-                        </button>
-                      </div>
-                      <p className="text-neutral-800 text-[11px] leading-relaxed mb-2">
-                        {concepts[selectedConceptId].explanation}
-                      </p>
-                      {concepts[selectedConceptId].examples && concepts[selectedConceptId].examples.length > 0 && (
-                        <div className="space-y-1 pt-1.5 border-t border-neutral-200">
-                          {concepts[selectedConceptId].examples.map((ex, i) => (
-                            <div key={i} className="font-mono text-[10px] text-black">
-                              <span className="font-bold text-neutral-500 mr-1">EX //</span>
-                              <span className="font-semibold">{ex.textDe}</span>
-                              <span className="italic text-neutral-600 ml-1">({ex.textFr})</span>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )}
-                </div>
-              )}
             </motion.div>
           </div>
         </FloatingPortal>

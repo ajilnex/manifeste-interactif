@@ -1,3 +1,7 @@
+// Annotations philologiques, lexicales et étymologiques des termes clés du Manifeste
+// RÈGLE FONDAMENTALE : chaque annotation porte STRICTEMENT sur LE mot survolé individuel.
+// ZÉRO regroupement de mots adjacents dans la traduction, le sens littéral ou l'étymologie.
+
 import type { Annotation } from '../types';
 
 export const annotations: Record<string, Annotation> = {
@@ -12,7 +16,10 @@ export const annotations: Record<string, Annotation> = {
       "indef_art",
       "nom"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s1_w1"
+    ]
   },
   "ch0_p1_s1_w2": {
     "wordId": "ch0_p1_s1_w2",
@@ -26,19 +33,21 @@ export const annotations: Record<string, Annotation> = {
       "gespenst",
       "nom"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p1_s1_w2"
+    ]
   },
   "ch0_p1_s1_w3": {
     "wordId": "ch0_p1_s1_w3",
     "translationFr": "hante / rôde",
-    "literalTranslation": "circule autour, erre, hante (littéralement : va à la ronde)",
+    "literalTranslation": "va en rond, hante",
     "contextNote": "En allemand, la locution impersonnelle « ein Geist geht um » signifie au sens propre « un fantôme hante les lieux ». Traduire par « hante » restitue parfaitement cette présence obsédante qui défie les frontières étatiques.",
-    "grammaticalRole": "Verbe à particule séparable (um|gehen), ici à la 3e personne du singulier de l'indicatif présent. Le radical « geht » est en 2e position syntaxique.",
+    "grammaticalRole": "Verbe séparable au présent (3e personne singulier, verbe umgehen).",
     "wordIds": [
-      "ch0_p1_s1_w3",
-      "ch0_p1_s1_w4"
+      "ch0_p1_s1_w3"
     ],
-    "etymology": "Verbe composé séparable unissant le préfixe adverbial germanique « um » (en cercle, alentour, issu du vieux haut-allemand « umbi », racine indo-européenne *ambʰi « des deux côtés, autour », cognat du grec amphi / ἀμφί et du latin ambi-) et le verbe fort « gehen » (marcher, errer, vieux haut-allemand « gān / gēn », racine germanique *gānan). En moyen haut-allemand, la locution impersonnelle « umbegān » acquiert le sens spectral spécifique de « hanter, rôder sans repos », propre aux revenants errant entre les mondes.",
+    "etymology": "Verbe composé séparable unissant le préfixe adverbial germanique « um » (en cercle, alentour, vieux haut-allemand umbi) et le verbe « gehen » (marcher, errer, vieux haut-allemand gān). En moyen haut-allemand, « umbegān » acquiert le sens spécifique de hanter pour un revenant.",
     "syntaxNote": "Règle fondamentale V2 : le radical verbal conjugué occupe la position 2, tandis que la particule « um » est repoussée après le sujet pour clore le verbe.",
     "relatedConcepts": [
       "sep_verb",
@@ -60,7 +69,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s1_w6"
+    ]
   },
   "ch0_p1_s1_w9": {
     "wordId": "ch0_p1_s1_w9",
@@ -74,7 +86,10 @@ export const annotations: Record<string, Annotation> = {
       "def_art",
       "nom"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s1_w9"
+    ]
   },
   "ch0_p1_s1_w11": {
     "wordId": "ch0_p1_s1_w11",
@@ -95,7 +110,10 @@ export const annotations: Record<string, Annotation> = {
       "communism",
       "latin_root"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p1_s1_w11"
+    ]
   },
   "ch0_p1_s2_w2": {
     "wordId": "ch0_p1_s2_w2",
@@ -109,7 +127,10 @@ export const annotations: Record<string, Annotation> = {
       "plural",
       "nom"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s2_w2"
+    ]
   },
   "ch0_p1_s2_w4": {
     "wordId": "ch0_p1_s2_w4",
@@ -121,7 +142,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "gen"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s2_w4"
+    ]
   },
   "ch0_p1_s2_w10": {
     "wordId": "ch0_p1_s2_w10",
@@ -135,7 +159,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "holy_alliance"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s2_w10"
+    ]
   },
   "ch0_p1_s2_w11": {
     "wordId": "ch0_p1_s2_w11",
@@ -150,7 +177,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "comp_word"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p1_s2_w11"
+    ]
   },
   "ch0_p1_s2_w13": {
     "wordId": "ch0_p1_s2_w13",
@@ -161,7 +191,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s2_w13"
+    ]
   },
   "ch0_p1_s2_w15": {
     "wordId": "ch0_p1_s2_w15",
@@ -176,7 +209,10 @@ export const annotations: Record<string, Annotation> = {
       "prefix_verb",
       "comm_league"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p1_s2_w15"
+    ]
   },
   "ch0_p1_s2_w18": {
     "wordId": "ch0_p1_s2_w18",
@@ -192,7 +228,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s2_w18"
+    ]
   },
   "ch0_p1_s2_w21": {
     "wordId": "ch0_p1_s2_w21",
@@ -209,25 +248,36 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s2_w21"
+    ]
   },
   "ch0_p1_s2_w23": {
     "wordId": "ch0_p1_s2_w23",
-    "translationFr": "Metternich (chancelier autrichien)",
-    "literalTranslation": "Klemens von Metternich (nom propre)",
+    "translationFr": "Metternich",
+    "literalTranslation": "Klemens von Metternich (chancelier autrichien)",
     "contextNote": "Chancelier d'État de l'Empire d'Autriche et ordonnateur en chef du système de surveillance et de censure en Europe centrale.",
-    "grammaticalRole": "Nom propre au nominatif.",
+    "grammaticalRole": "Nom propre masculin.",
     "philosophicalContext": "Metternich incarne la réaction féodale et aristocratique pure, dont le pouvoir sera brisé à Vienne par la Révolution de mars 1848.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "etymology": "Patronyme rhénan de la maison noble de Metternich, incarnant le chef de file de la Restauration absolutiste.",
+    "wordIds": [
+      "ch0_p1_s2_w23"
+    ]
   },
   "ch0_p1_s2_w25": {
     "wordId": "ch0_p1_s2_w25",
-    "translationFr": "Guizot (ministre français)",
-    "literalTranslation": "François Guizot (nom propre)",
+    "translationFr": "Guizot",
+    "literalTranslation": "François Guizot (président du Conseil français)",
     "contextNote": "Chef du gouvernement français sous Louis-Philippe, célèbre pour sa formule « Enrichissez-vous », qui fit expulser Marx de Paris en 1845 à la demande de l'ambassade prussienne.",
-    "grammaticalRole": "Nom propre au nominatif.",
+    "grammaticalRole": "Nom propre masculin.",
     "philosophicalContext": "Guizot représente le bourgeois libéral conservateur, hostile à la fois à l'absolutisme d'Ancien Régime et à toute démocratie populaire.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "etymology": "Patronyme cévenol de François Guizot, ministre doctrinaire de la Monarchie de Juillet.",
+    "wordIds": [
+      "ch0_p1_s2_w25"
+    ]
   },
   "ch0_p1_s2_w28": {
     "wordId": "ch0_p1_s2_w28",
@@ -245,7 +295,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s2_w28"
+    ]
   },
   "ch0_p1_s2_w31": {
     "wordId": "ch0_p1_s2_w31",
@@ -258,7 +311,10 @@ export const annotations: Record<string, Annotation> = {
       "policier",
       "police"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s2_w31"
+    ]
   },
   "ch0_p2_s1_w4": {
     "wordId": "ch0_p2_s1_w4",
@@ -271,7 +327,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w4"
+    ]
   },
   "ch0_p2_s1_w10": {
     "wordId": "ch0_p2_s1_w10",
@@ -289,7 +348,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w10"
+    ]
   },
   "ch0_p2_s1_w11": {
     "wordId": "ch0_p2_s1_w11",
@@ -302,7 +364,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "plural"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w11"
+    ]
   },
   "ch0_p2_s1_w14": {
     "wordId": "ch0_p2_s1_w14",
@@ -318,7 +383,10 @@ export const annotations: Record<string, Annotation> = {
       "passive",
       "prefix_verb"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p2_s1_w14"
+    ]
   },
   "ch0_p2_s1_w16": {
     "wordId": "ch0_p2_s1_w16",
@@ -330,7 +398,10 @@ export const annotations: Record<string, Annotation> = {
       "subj_ii",
       "sub_clause"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p2_s1_w16"
+    ]
   },
   "ch0_p2_s2_w7": {
     "wordId": "ch0_p2_s2_w7",
@@ -344,7 +415,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s2_w7"
+    ]
   },
   "ch0_p2_s2_w8": {
     "wordId": "ch0_p2_s2_w8",
@@ -357,7 +431,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "dat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s2_w8"
+    ]
   },
   "ch0_p2_s2_w9": {
     "wordId": "ch0_p2_s2_w9",
@@ -365,7 +442,10 @@ export const annotations: Record<string, Annotation> = {
     "literalTranslation": "aussi bien ... que, tant ... que (conjonction corrélative)",
     "contextNote": "Forme avec « wie » une locution coordonnante symétrique marquant que l'anathème frappe indistinctement la gauche et la droite.",
     "grammaticalRole": "Conjonction de coordination corrélative (sowohl ... wie / als auch).",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s2_w9"
+    ]
   },
   "ch0_p2_s2_w12": {
     "wordId": "ch0_p2_s2_w12",
@@ -382,7 +462,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p2_s2_w12"
+    ]
   },
   "ch0_p2_s2_w15": {
     "wordId": "ch0_p2_s2_w15",
@@ -396,7 +479,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p2_s2_w15"
+    ]
   },
   "ch0_p2_s2_w16": {
     "wordId": "ch0_p2_s2_w16",
@@ -408,7 +494,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p2_s2_w16"
+    ]
   },
   "ch0_p2_s2_w20": {
     "wordId": "ch0_p2_s2_w20",
@@ -423,7 +512,10 @@ export const annotations: Record<string, Annotation> = {
       "sub_clause",
       "subj_ii"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p2_s2_w20"
+    ]
   },
   "ch0_p3_s1_w1": {
     "wordId": "ch0_p3_s1_w1",
@@ -436,19 +528,21 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p3_s1_w1"
+    ]
   },
   "ch0_p3_s1_w2": {
     "wordId": "ch0_p3_s1_w2",
-    "translationFr": "ressort / découle / résulte",
-    "literalTranslation": "sort en s'avançant hors de, émane, résulte",
+    "translationFr": "ressort / résulte",
+    "literalTranslation": "s'avance hors de, émane",
     "contextNote": "Verbe séparable indiquant un surgissement visible hors d'un constat matériel.",
-    "grammaticalRole": "Verbe séparable (hervor|gehen) à la 3e personne du singulier au présent de l'indicatif.",
+    "grammaticalRole": "Verbe séparable au présent (verbe hervorgehen).",
     "wordIds": [
-      "ch0_p3_s1_w2",
-      "ch0_p3_s1_w6"
+      "ch0_p3_s1_w2"
     ],
-    "etymology": "Verbe composé séparable combinant : 1° l'adverbe spatial complexe « hervor » (issu de la préposition her = vers le locuteur + vor = devant, en avant, marquant l'émergence d'un élément dissimulé à la lumière) ; 2° le verbe de base « gehen » (marcher, se mouvoir, vieux haut-allemand gān / gēn, racine germanique *gānan). Utilisé ici au sens logique et dialectique de « résulter avec évidence, se manifester comme conséquence nécessaire d'un fait matériel ».",
+    "etymology": "Verbe composé séparable combinant « hervor » (vers l'avant hors de) et « gehen » (marcher, aller).",
     "syntaxNote": "Cadre verbal : le radical « geht » est en 2e position, la particule « hervor » clôt la proposition (pos. 6).",
     "relatedConcepts": [
       "sep_verb",
@@ -470,24 +564,27 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "hist_mat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p3_s1_w5"
+    ]
   },
   "ch0_p4_s1_w3": {
     "wordId": "ch0_p4_s1_w3",
-    "translationFr": "est reconnu",
-    "literalTranslation": "devient / est (auxiliaire du passif d'action werden)",
+    "translationFr": "est (auxiliaire du passif)",
+    "literalTranslation": "devient / est",
     "contextNote": "Forme avec « anerkannt » le présent du passif (Vorgangspassiv).",
-    "grammaticalRole": "Auxiliaire « werden » à la 3e personne du singulier de l'indicatif présent.",
+    "grammaticalRole": "Auxiliaire du passif de devenir (werden) au présent.",
     "wordIds": [
-      "ch0_p4_s1_w3",
-      "ch0_p4_s1_w12"
+      "ch0_p4_s1_w3"
     ],
     "syntaxNote": "Cadre passif : l'auxiliaire « wird » est en 2e position, le participe passé « anerkannt » termine la phrase.",
     "relatedConcepts": [
       "passive",
       "v2"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "etymology": "Du moyen haut-allemand « werden », vieux haut-allemand « werdan » (tourner vers, advenir)."
   },
   "ch0_p4_s1_w4": {
     "wordId": "ch0_p4_s1_w4",
@@ -496,7 +593,10 @@ export const annotations: Record<string, Annotation> = {
     "contextNote": "Souligne que la reconnaissance n'est plus à attendre : elle est déjà un acquis historique.",
     "grammaticalRole": "Adverbe de temps marquant l'antériorité acquise.",
     "etymology": "Adverbe de temps et d'insistance dérivé au génitif adverbial (-s) de l'adjectif moyen haut-allemand « bereit » (prêt à agir, équipé, préparé, issu du vieux haut-allemand bireiti = propre à être monté, préparé pour la chevauchée, préfixe bi- + verbe rītan / chevaucher). A pris au XVIe siècle le sens temporel d'antériorité accomplie : « déjà », marquant qu'une étape historique irréversible est d'ores et déjà franchie.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p4_s1_w4"
+    ]
   },
   "ch0_p4_s1_w11": {
     "wordId": "ch0_p4_s1_w11",
@@ -508,7 +608,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p4_s1_w11"
+    ]
   },
   "ch0_p4_s1_w12": {
     "wordId": "ch0_p4_s1_w12",
@@ -521,7 +624,10 @@ export const annotations: Record<string, Annotation> = {
       "passive",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p4_s1_w12"
+    ]
   },
   "ch0_p5_s1_w4": {
     "wordId": "ch0_p5_s1_w4",
@@ -530,7 +636,10 @@ export const annotations: Record<string, Annotation> = {
     "contextNote": "Lafargue traduit exactement par « Il est grand temps ». En allemand, « hohe Zeit » évoque le moment opportun culminant qui ne saurait être différé.",
     "grammaticalRole": "Locution nominale au nominatif : adjectif « hoch » (décliné « hohe » sans déterminant au féminin) + nom « die Zeit ».",
     "etymology": "Locution temporelle solennelle : « hoch » (haut, élevé, du vieux haut-allemand hōh, racine germanique *hauhaz) + « die Zeit » (le moment, l'époque, du vieux haut-allemand zīt, racine germanique *tīdiz, cognat de l'anglais tide / time). Utilisée dès le moyen haut-allemand (« hôhe zît ») pour désigner un temps de fête sacrée ou d'accomplissement décisif (qui a aussi donné Hochzeit / mariage). Dans la prose de Marx, elle acquiert une urgence historique dramatique : « le moment critique est venu où il n'est plus permis d'attendre ».",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w4"
+    ]
   },
   "ch0_p5_s1_w10": {
     "wordId": "ch0_p5_s1_w10",
@@ -545,7 +654,10 @@ export const annotations: Record<string, Annotation> = {
       "hist_mat",
       "latin_root"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p5_s1_w10"
+    ]
   },
   "ch0_p5_s1_w13": {
     "wordId": "ch0_p5_s1_w13",
@@ -554,7 +666,10 @@ export const annotations: Record<string, Annotation> = {
     "contextNote": "Désigne les objectifs politiques explicites (abolition de la propriété bourgeoise, conquête du pouvoir démocratique par le prolétariat).",
     "grammaticalRole": "Nom masculin pluriel (der Zweck -> die Zwecke) à l'accusatif pluriel.",
     "etymology": "Du moyen haut-allemand « zwec » (cheville de bois, clou de fixation). L'étymon vieux haut-allemand est incertain (probable racine germanique *twakka- désignant un piquet appointé, étymologie discutée). Dans le tir à l'arc médiéval, le zwec désignait le clou fiché au centre de la cible. L'expression « den Zweck treffen » (frapper le clou en plein cœur) a fait glisser le mot au XVIIe siècle vers le sens abstrait de but conscient, de dessein délibéré et de finalité.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w13"
+    ]
   },
   "ch0_p5_s1_w16": {
     "wordId": "ch0_p5_s1_w16",
@@ -571,7 +686,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w16"
+    ]
   },
   "ch0_p5_s1_w21": {
     "wordId": "ch0_p5_s1_w21",
@@ -579,7 +697,10 @@ export const annotations: Record<string, Annotation> = {
     "literalTranslation": "ouvert, de façon ouverte, sans dissimulation",
     "contextNote": "Adjectif employé comme adverbe modifiant « darlegen ».",
     "grammaticalRole": "Adjectif employé adverbialement.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p5_s1_w21"
+    ]
   },
   "ch0_p5_s1_w22": {
     "wordId": "ch0_p5_s1_w22",
@@ -594,7 +715,10 @@ export const annotations: Record<string, Annotation> = {
       "sep_verb",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w22"
+    ]
   },
   "ch0_p5_s1_w25": {
     "wordId": "ch0_p5_s1_w25",
@@ -605,7 +729,10 @@ export const annotations: Record<string, Annotation> = {
     "etymology": "Diminutif hypocoristique en « -chen » du moyen haut-allemand « mære » (nouvelle, information, bruit qui court, récit fabuleux), issu du vieux haut-allemand « māri » (célèbre, fameux, objet de renommé, racine germanique commune *mērijaz, apparentée au germanique *marō / cauchemar, d'où l'anglais nightmare). Désigne le conte pour enfants, la fable mythologique ou la calomnie sans consistance réelle répandue par la propagande gouvernementale.",
     "philosophicalContext": "Opposition polémique entre la fable idéaliste (« Märchen ») forgée par la bourgeoisie pour diaboliser ses adversaires, et le document scientifique et politique authentique (« Manifest »).",
     "syntaxNote": "Complément d'attribution au datif du verbe « entgegenstellen » (opposer quelque chose [acc.] à quelque chose [dat.]).",
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p5_s1_w25"
+    ]
   },
   "ch0_p5_s1_w31": {
     "wordId": "ch0_p5_s1_w31",
@@ -622,7 +749,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p5_s1_w31"
+    ]
   },
   "ch0_p5_s1_w35": {
     "wordId": "ch0_p5_s1_w35",
@@ -636,7 +766,10 @@ export const annotations: Record<string, Annotation> = {
       "sep_verb",
       "sub_clause"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w35"
+    ]
   },
   "ch0_p6_s1_w3": {
     "wordId": "ch0_p6_s1_w3",
@@ -650,7 +783,10 @@ export const annotations: Record<string, Annotation> = {
       "v2",
       "dat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p6_s1_w3"
+    ]
   },
   "ch0_p6_s1_w8": {
     "wordId": "ch0_p6_s1_w8",
@@ -662,7 +798,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "gen"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p6_s1_w8"
+    ]
   },
   "ch0_p6_s1_w12": {
     "wordId": "ch0_p6_s1_w12",
@@ -675,7 +814,10 @@ export const annotations: Record<string, Annotation> = {
       "comm_league",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p6_s1_w12"
+    ]
   },
   "ch0_p6_s1_w17": {
     "wordId": "ch0_p6_s1_w17",
@@ -687,7 +829,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch0_p6_s1_w17"
+    ]
   },
   "ch0_p6_s1_w33": {
     "wordId": "ch0_p6_s1_w33",
@@ -701,7 +846,10 @@ export const annotations: Record<string, Annotation> = {
       "sub_clause",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p6_s1_w33"
+    ]
   },
   "ch1_p1_s1_w2": {
     "wordId": "ch1_p1_s1_w2",
@@ -715,7 +863,10 @@ export const annotations: Record<string, Annotation> = {
       "hist_mat",
       "nom"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p1_s1_w2"
+    ]
   },
   "ch1_p1_s1_w3": {
     "wordId": "ch1_p1_s1_w3",
@@ -727,7 +878,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "decl"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p1_s1_w3"
+    ]
   },
   "ch1_p1_s1_w4": {
     "wordId": "ch1_p1_s1_w4",
@@ -740,7 +894,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "gen"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p1_s1_w4"
+    ]
   },
   "ch1_p1_s1_w5": {
     "wordId": "ch1_p1_s1_w5",
@@ -754,7 +911,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "hist_mat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p1_s1_w5"
+    ]
   },
   "ch1_p1_s1_w10": {
     "wordId": "ch1_p1_s1_w10",
@@ -770,7 +930,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p1_s1_w10"
+    ]
   },
   "ch1_p2_s1_w1": {
     "wordId": "ch1_p2_s1_w1",
@@ -783,7 +946,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w1"
+    ]
   },
   "ch1_p2_s1_w3": {
     "wordId": "ch1_p2_s1_w3",
@@ -799,7 +965,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "exploitation"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w3"
+    ]
   },
   "ch1_p2_s1_w5": {
     "wordId": "ch1_p2_s1_w5",
@@ -815,7 +984,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w5"
+    ]
   },
   "ch1_p2_s1_w7": {
     "wordId": "ch1_p2_s1_w7",
@@ -832,7 +1004,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w7"
+    ]
   },
   "ch1_p2_s1_w9": {
     "wordId": "ch1_p2_s1_w9",
@@ -848,7 +1023,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "feudalism"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w9"
+    ]
   },
   "ch1_p2_s1_w11": {
     "wordId": "ch1_p2_s1_w11",
@@ -863,7 +1041,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "comp_word"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p2_s1_w11"
+    ]
   },
   "ch1_p2_s1_w13": {
     "wordId": "ch1_p2_s1_w13",
@@ -877,7 +1058,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "feudalism"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p2_s1_w13"
+    ]
   },
   "ch1_p2_s1_w15": {
     "wordId": "ch1_p2_s1_w15",
@@ -889,7 +1073,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w15"
+    ]
   },
   "ch1_p2_s1_w19": {
     "wordId": "ch1_p2_s1_w19",
@@ -903,7 +1090,10 @@ export const annotations: Record<string, Annotation> = {
       "exploitation",
       "prefix_verb"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p2_s1_w19"
+    ]
   },
   "ch1_p2_s1_w21": {
     "wordId": "ch1_p2_s1_w21",
@@ -914,7 +1104,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "exploitation"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w21"
+    ]
   },
   "ch1_p2_s1_w25": {
     "wordId": "ch1_p2_s1_w25",
@@ -929,7 +1122,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p2_s1_w25"
+    ]
   },
   "ch1_p2_s1_w30": {
     "wordId": "ch1_p2_s1_w30",
@@ -942,7 +1138,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w30"
+    ]
   },
   "ch1_p2_s1_w33": {
     "wordId": "ch1_p2_s1_w33",
@@ -954,7 +1153,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w33"
+    ]
   },
   "ch1_p2_s1_w36": {
     "wordId": "ch1_p2_s1_w36",
@@ -965,7 +1167,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w36"
+    ]
   },
   "ch1_p2_s1_w47": {
     "wordId": "ch1_p2_s1_w47",
@@ -980,7 +1185,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "revolution"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p2_s1_w47"
+    ]
   },
   "ch1_p2_s1_w56": {
     "wordId": "ch1_p2_s1_w56",
@@ -995,7 +1203,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p2_s1_w56"
+    ]
   },
   "ch1_p3_s1_w13": {
     "wordId": "ch1_p3_s1_w13",
@@ -1008,7 +1219,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p3_s1_w13"
+    ]
   },
   "ch1_p3_s1_w18": {
     "wordId": "ch1_p3_s1_w18",
@@ -1023,7 +1237,10 @@ export const annotations: Record<string, Annotation> = {
       "plural",
       "feudalism"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p3_s1_w18"
+    ]
   },
   "ch1_p3_s1_w21": {
     "wordId": "ch1_p3_s1_w21",
@@ -1036,7 +1253,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s1_w21"
+    ]
   },
   "ch1_p3_s1_w22": {
     "wordId": "ch1_p3_s1_w22",
@@ -1048,7 +1268,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s1_w22"
+    ]
   },
   "ch1_p3_s2_w8": {
     "wordId": "ch1_p3_s2_w8",
@@ -1061,7 +1284,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "plural"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p3_s2_w8"
+    ]
   },
   "ch1_p3_s2_w16": {
     "wordId": "ch1_p3_s2_w16",
@@ -1075,7 +1301,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s2_w16"
+    ]
   },
   "ch1_p3_s2_w18": {
     "wordId": "ch1_p3_s2_w18",
@@ -1092,7 +1321,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "feudalism"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p3_s2_w18"
+    ]
   },
   "ch1_p4_s1_w8": {
     "wordId": "ch1_p4_s1_w8",
@@ -1105,7 +1337,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "sep_verb"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p4_s1_w8"
+    ]
   },
   "ch1_p4_s1_w10": {
     "wordId": "ch1_p4_s1_w10",
@@ -1119,7 +1354,10 @@ export const annotations: Record<string, Annotation> = {
       "bourgeoisie",
       "decl"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p4_s1_w10"
+    ]
   },
   "ch1_p4_s1_w14": {
     "wordId": "ch1_p4_s1_w14",
@@ -1133,7 +1371,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s1_w14"
+    ]
   },
   "ch1_p4_s1_w16": {
     "wordId": "ch1_p4_s1_w16",
@@ -1148,7 +1389,10 @@ export const annotations: Record<string, Annotation> = {
       "hist_mat",
       "prefix_verb"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p4_s1_w16"
+    ]
   },
   "ch1_p4_s2_w8": {
     "wordId": "ch1_p4_s2_w8",
@@ -1161,7 +1405,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "plural"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s2_w8"
+    ]
   },
   "ch1_p4_s2_w13": {
     "wordId": "ch1_p4_s2_w13",
@@ -1174,7 +1421,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "plural"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p4_s2_w13"
+    ]
   },
   "ch1_p4_s2_w21": {
     "wordId": "ch1_p4_s2_w21",
@@ -1186,20 +1436,21 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s2_w21"
+    ]
   },
   "ch1_p5_s1_w9": {
     "wordId": "ch1_p5_s1_w9",
-    "translationFr": "se distingue / se caractérise",
-    "literalTranslation": "se détache par une marque distinctive, se signale (verbe auszeichnen)",
+    "translationFr": "distingue / caractérise",
+    "literalTranslation": "marque d'un signe distinctif",
     "contextNote": "Lafargue traduit par « le caractère distinctif de notre époque [...] est d'avoir... ».",
-    "grammaticalRole": "Verbe pronominal séparable (sich aus|zeichnen) à la 3e personne du singulier au présent.",
+    "grammaticalRole": "Verbe réfléchi à particule séparable au présent (verbe auszeichnen).",
     "wordIds": [
-      "ch1_p5_s1_w9",
-      "ch1_p5_s1_w10",
-      "ch1_p5_s1_w13"
+      "ch1_p5_s1_w9"
     ],
-    "etymology": "Verbe composé séparable unissant : 1° la préposition d'extraction « aus » (hors de, en dehors) ; 2° le verbe de marquage graphique « zeichnen » (dessiner, marquer d'un trait, moyen haut-allemand zeichenen, vieux haut-allemand zeihhanōn, dérivé de das Zeichen = le signe, l'empreinte, racine germanique *taikną, cognat de l'anglais token). Littéralement : tracer une ligne de démarcation qui isole et fait ressortir une singularité historique inédite par rapport à toutes les époques antérieures.",
+    "etymology": "Verbe composé séparable unissant la préposition d'extraction « aus » (hors de) et « zeichnen » (dessiner, marquer d'un signe, de Zeichen / signe).",
     "syntaxNote": "La particule séparable « aus » est rejetée en position 13, juste avant la subordonnée introduite par « daß ».",
     "relatedConcepts": [
       "sep_verb",
@@ -1219,7 +1470,10 @@ export const annotations: Record<string, Annotation> = {
       "sub_clause",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p5_s1_w19"
+    ]
   },
   "ch1_p5_s2_w4": {
     "wordId": "ch1_p5_s2_w4",
@@ -1232,7 +1486,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p5_s2_w4"
+    ]
   },
   "ch1_p5_s2_w13": {
     "wordId": "ch1_p5_s2_w13",
@@ -1241,7 +1498,10 @@ export const annotations: Record<string, Annotation> = {
     "contextNote": "Lafargue traduit « en deux vastes camps ennemis ». Métaphore militaire de la guerre civile permanente.",
     "grammaticalRole": "Nom neutre pluriel (das Lager -> die Lager) à l'accusatif pluriel après la préposition « in » marquant la division résultante.",
     "etymology": "Substantif d'art militaire issu du moyen haut-allemand « lager », vieux haut-allemand « lagar » (l'endroit où l'on s'allonge pour dormir, gîte), déverbal de « liegen » (être couché, étendu en plaine). Passé dès le bas Moyen Âge au sens de campement retranché d'une armée en campagne belligérante (cognat de l'anglais lair). Métaphore de la polarisation guerrière de la société en deux camps retranchés prêts à l'affrontement.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w13"
+    ]
   },
   "ch1_p5_s2_w21": {
     "wordId": "ch1_p5_s2_w21",
@@ -1254,7 +1514,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w21"
+    ]
   },
   "ch1_p5_s2_w24": {
     "wordId": "ch1_p5_s2_w24",
@@ -1272,7 +1535,10 @@ export const annotations: Record<string, Annotation> = {
       "bourgeoisie",
       "capital"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p5_s2_w24"
+    ]
   },
   "ch1_p5_s2_w26": {
     "wordId": "ch1_p5_s2_w26",
@@ -1290,7 +1556,10 @@ export const annotations: Record<string, Annotation> = {
       "proletariat",
       "exploitation"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p5_s2_w26"
+    ]
   },
   "ch1_p6_s1_w8": {
     "wordId": "ch1_p6_s1_w8",
@@ -1305,7 +1574,10 @@ export const annotations: Record<string, Annotation> = {
       "feudalism",
       "bourgeoisie"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p6_s1_w8"
+    ]
   },
   "ch1_p6_s1_w16": {
     "wordId": "ch1_p6_s1_w16",
@@ -1318,7 +1590,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "dat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p6_s1_w16"
+    ]
   },
   "ch1_p7_s1_w2": {
     "wordId": "ch1_p7_s1_w2",
@@ -1330,7 +1605,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s1_w2"
+    ]
   },
   "ch1_p7_s1_w6": {
     "wordId": "ch1_p7_s1_w6",
@@ -1342,7 +1620,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "comp_noun"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s1_w6"
+    ]
   },
   "ch1_p7_s1_w10": {
     "wordId": "ch1_p7_s1_w10",
@@ -1355,7 +1636,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "dat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s1_w10"
+    ]
   },
   "ch1_p7_s1_w14": {
     "wordId": "ch1_p7_s1_w14",
@@ -1366,7 +1650,10 @@ export const annotations: Record<string, Annotation> = {
     "cognatesFr": [
       "terrain"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p7_s1_w14"
+    ]
   },
   "ch1_p7_s2_w13": {
     "wordId": "ch1_p7_s2_w13",
@@ -1378,7 +1665,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w13"
+    ]
   },
   "ch1_p7_s2_w19": {
     "wordId": "ch1_p7_s2_w19",
@@ -1390,7 +1680,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w19"
+    ]
   },
   "ch1_p7_s2_w21": {
     "wordId": "ch1_p7_s2_w21",
@@ -1405,7 +1698,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "capital"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p7_s2_w21"
+    ]
   },
   "ch1_p7_s2_w24": {
     "wordId": "ch1_p7_s2_w24",
@@ -1419,7 +1715,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "capital"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p7_s2_w24"
+    ]
   },
   "ch1_p7_s2_w38": {
     "wordId": "ch1_p7_s2_w38",
@@ -1432,7 +1731,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p7_s2_w38"
+    ]
   },
   "ch1_p7_s2_w46": {
     "wordId": "ch1_p7_s2_w46",
@@ -1448,7 +1750,10 @@ export const annotations: Record<string, Annotation> = {
       "prefix_verb",
       "feudalism"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p7_s2_w46"
+    ]
   },
   "ch1_p7_s2_w51": {
     "wordId": "ch1_p7_s2_w51",
@@ -1462,7 +1767,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w51"
+    ]
   },
   "ch1_p8_s1_w5": {
     "wordId": "ch1_p8_s1_w5",
@@ -1475,7 +1783,10 @@ export const annotations: Record<string, Annotation> = {
       "feudalism",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s1_w5"
+    ]
   },
   "ch1_p8_s1_w6": {
     "wordId": "ch1_p8_s1_w6",
@@ -1489,19 +1800,21 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "prod_rel"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p8_s1_w6"
+    ]
   },
   "ch1_p8_s1_w9": {
     "wordId": "ch1_p8_s1_w9",
-    "translationFr": "ne suffisait plus",
-    "literalTranslation": "ne suffisait plus, n'atteignait plus le niveau requis (verbe ausreichen)",
+    "translationFr": "suffisait",
+    "literalTranslation": "atteignait le niveau requis",
     "contextNote": "Lafargue traduit exactement par « ne suffisait plus aux besoins ».",
-    "grammaticalRole": "Verbe à particule séparable « aus|reichen » à la 3e personne du singulier au prétérit (reichte).",
+    "grammaticalRole": "Verbe à particule séparable au prétérit singulier (verbe ausreichen).",
     "wordIds": [
-      "ch1_p8_s1_w9",
-      "ch1_p8_s1_w12"
+      "ch1_p8_s1_w9"
     ],
-    "etymology": "Verbe composé séparable combinant la particule d'achèvement « aus » et le verbe germanique « reichen » (tendre la main, atteindre jusqu'au bout, moyen haut-allemand reichen, vieux haut-allemand reihhan « étendre le bras », racine germanique *raikijaną, apparenté à l'anglais reach). « Ausreichen » exprime la capacité de mesurer ses forces pour couvrir la totalité d'un besoin : l'atelier corporatif artisanal ne peut matériellement plus atteindre l'échelle requise par l'appétit du marché mondial.",
+    "etymology": "Verbe composé séparable combinant la particule d'achèvement « aus » et le verbe germanique « reichen » (atteindre, suffire, vieux haut-allemand reihhan).",
     "syntaxNote": "Cadre verbal : « reichte » est en position 9 et la particule « aus » est en position 12 avant le complément prépositionnel.",
     "relatedConcepts": [
       "sep_verb"
@@ -1520,7 +1833,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "sep_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s1_w19"
+    ]
   },
   "ch1_p8_s1_w20": {
     "wordId": "ch1_p8_s1_w20",
@@ -1532,7 +1848,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s1_w20"
+    ]
   },
   "ch1_p8_s2_w2": {
     "wordId": "ch1_p8_s2_w2",
@@ -1546,7 +1865,10 @@ export const annotations: Record<string, Annotation> = {
       "manufacture",
       "manufacturier"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p8_s2_w2"
+    ]
   },
   "ch1_p8_s2_w3": {
     "wordId": "ch1_p8_s2_w3",
@@ -1558,7 +1880,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s2_w3"
+    ]
   },
   "ch1_p8_s3_w2": {
     "wordId": "ch1_p8_s3_w2",
@@ -1571,7 +1896,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s3_w2"
+    ]
   },
   "ch1_p8_s3_w4": {
     "wordId": "ch1_p8_s3_w4",
@@ -1586,7 +1914,10 @@ export const annotations: Record<string, Annotation> = {
       "passive",
       "prefix_verb"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p8_s3_w4"
+    ]
   },
   "ch1_p8_s3_w8": {
     "wordId": "ch1_p8_s3_w8",
@@ -1601,19 +1932,21 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "bourgeoisie"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p8_s3_w8"
+    ]
   },
   "ch1_p8_s3_w11": {
     "wordId": "ch1_p8_s3_w11",
-    "translationFr": "division du travail",
-    "literalTranslation": "partage de la peine, division de la tâche productive",
+    "translationFr": "division / partage",
+    "literalTranslation": "action de diviser en parts",
     "contextNote": "Lafargue traduit « la division du travail entre les différentes corporations céda la place à la division du travail au sein de l'atelier même ».",
-    "grammaticalRole": "Syntagme nominal (die Teilung der Arbeit) : nom féminin singulier « Teilung » au nominatif sujet + génitif féminin singulier « der Arbeit ».",
+    "grammaticalRole": "Nom féminin singulier au nominatif sujet.",
     "wordIds": [
-      "ch1_p8_s3_w11",
-      "ch1_p8_s3_w13"
+      "ch1_p8_s3_w11"
     ],
-    "etymology": "Syntagme cardinal de l'économie classique (Adam Smith, 'The Division of Labour') : 1° « die Teilung » (l'action de fragmenter, du verbe teilen = scinder en parts, moyen haut-allemand teilen, vieux haut-allemand teillan, racine germanique *dailijaną, cognat de l'anglais deal) ; 2° « die Arbeit » (le labeur productif, issu du moyen haut-allemand arbeit, vieux haut-allemand arabeit = épreuve pénible, détresse, peine subie par l'orphelin ou l'esclave, racine germanique *arba- « orphelin, serviteur corvéable », cognat du russe rabota / travail et du mot robot). Calque rigoureux de la parcellisation technique de la force de travail.",
+    "etymology": "Déverbal en « -ung » du verbe « teilen » (partager, diviser, vieux haut-allemand teiljan).",
     "philosophicalContext": "Concept fondamental de l'économie politique classique (Adam Smith, David Ricardo) réanalysé par Marx : il y a un saut qualitatif entre la division sociale du travail (chaque corporation indépendante fabrique un produit fini) et la division technique du travail (dans l'atelier manufacturier, l'ouvrier n'accomplit plus qu'une fraction parcellaire et abrutissante du geste productif).",
     "relatedConcepts": [
       "prod_rel",
@@ -1638,7 +1971,10 @@ export const annotations: Record<string, Annotation> = {
       "latin_root",
       "feudalism"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p8_s3_w17"
+    ]
   },
   "ch1_p8_s3_w18": {
     "wordId": "ch1_p8_s3_w18",
@@ -1652,7 +1988,10 @@ export const annotations: Record<string, Annotation> = {
       "v2",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s3_w18"
+    ]
   },
   "ch1_p8_s3_w27": {
     "wordId": "ch1_p8_s3_w27",
@@ -1667,14 +2006,20 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "prod_rel"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p8_s3_w27"
+    ]
   },
   "ch0_p1_s1_w4": {
     "wordId": "ch0_p1_s1_w4",
     "translationFr": "hanter / rôder",
     "literalTranslation": "marcher autour en cercle, errer",
     "grammaticalRole": "Particule verbale ou négative. Tournure impersonnelle allemande (« ein Geist geht um ») marquant la présence obsédante du spectre communiste.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s1_w4"
+    ]
   },
   "ch0_p1_s1_w5": {
     "wordId": "ch0_p1_s1_w5",
@@ -1684,6 +2029,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p1_s1_w5"
     ]
   },
   "ch0_p1_s1_w8": {
@@ -1694,6 +2042,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p1_s1_w8"
     ]
   },
   "ch0_p1_s1_w10": {
@@ -1704,6 +2055,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p1_s1_w10"
     ]
   },
   "ch0_p1_s2_w1": {
@@ -1714,6 +2068,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w1"
     ]
   },
   "ch0_p1_s2_w3": {
@@ -1724,6 +2081,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w3"
     ]
   },
   "ch0_p1_s2_w5": {
@@ -1734,6 +2094,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w5"
     ]
   },
   "ch0_p1_s2_w6": {
@@ -1741,7 +2104,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: présent · mode: indicatif. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p1_s2_w6"
+    ]
   },
   "ch0_p1_s2_w7": {
     "wordId": "ch0_p1_s2_w7",
@@ -1751,6 +2117,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w7"
     ]
   },
   "ch0_p1_s2_w8": {
@@ -1761,6 +2130,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w8"
     ]
   },
   "ch0_p1_s2_w9": {
@@ -1771,6 +2143,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w9"
     ]
   },
   "ch0_p1_s2_w12": {
@@ -1781,6 +2156,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w12"
     ]
   },
   "ch0_p1_s2_w14": {
@@ -1792,6 +2170,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc",
       "gespenst"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w14"
     ]
   },
   "ch0_p1_s2_w17": {
@@ -1802,6 +2183,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w17"
     ]
   },
   "ch0_p1_s2_w19": {
@@ -1809,7 +2193,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s2_w19"
+    ]
   },
   "ch0_p1_s2_w20": {
     "wordId": "ch0_p1_s2_w20",
@@ -1819,6 +2206,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w20"
     ]
   },
   "ch0_p1_s2_w24": {
@@ -1826,7 +2216,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s2_w24"
+    ]
   },
   "ch0_p1_s2_w27": {
     "wordId": "ch0_p1_s2_w27",
@@ -1836,6 +2229,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w27"
     ]
   },
   "ch0_p1_s2_w29": {
@@ -1843,7 +2239,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p1_s2_w29"
+    ]
   },
   "ch0_p1_s2_w30": {
     "wordId": "ch0_p1_s2_w30",
@@ -1853,6 +2252,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p1_s2_w30"
     ]
   },
   "ch0_p2_s1_w1": {
@@ -1860,14 +2262,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "où / quel est",
     "literalTranslation": "en quel lieu",
     "grammaticalRole": "Adverbe invariable. Adverbe interrogatif de rhétorique oratoire ouvrant les interrogations du Préambule.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w1"
+    ]
   },
   "ch0_p2_s1_w2": {
     "wordId": "ch0_p2_s1_w2",
     "translationFr": "être / exister",
     "literalTranslation": "verbe d'état suprême",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Verbe d'état reliant le sujet à son attribut ontologique et politique.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w2"
+    ]
   },
   "ch0_p2_s1_w3": {
     "wordId": "ch0_p2_s1_w3",
@@ -1877,6 +2285,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p2_s1_w3"
     ]
   },
   "ch0_p2_s1_w6": {
@@ -1887,6 +2298,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p2_s1_w6"
     ]
   },
   "ch0_p2_s1_w7": {
@@ -1894,7 +2308,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "ne pas / non",
     "literalTranslation": "particule de négation",
     "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w7"
+    ]
   },
   "ch0_p2_s1_w8": {
     "wordId": "ch0_p2_s1_w8",
@@ -1904,6 +2321,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p2_s1_w8"
     ]
   },
   "ch0_p2_s1_w9": {
@@ -1914,6 +2334,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p2_s1_w9"
     ]
   },
   "ch0_p2_s1_w12": {
@@ -1921,28 +2344,40 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "comme / en tant que",
     "literalTranslation": "en qualité de",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction d'équivalence ou de comparaison.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p2_s1_w12"
+    ]
   },
   "ch0_p2_s1_w13": {
     "wordId": "ch0_p2_s1_w13",
     "translationFr": "communiste",
     "literalTranslation": "qui relève du parti ou de l'idéologie communiste",
     "grammaticalRole": "Adjectif qualificatif décliné ( ). Adjectif politique identifiant le mouvement prolétarien révolutionnaire.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w13"
+    ]
   },
   "ch0_p2_s1_w15": {
     "wordId": "ch0_p2_s1_w15",
     "translationFr": "devenir / auxiliaire du passif",
     "literalTranslation": "entrer dans un état nouveau",
     "grammaticalRole": "Forme verbale · temps: passé composé/parfait. Auxiliaire fondamental de la voix passive allemande.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s1_w15"
+    ]
   },
   "ch0_p2_s2_w1": {
     "wordId": "ch0_p2_s2_w1",
     "translationFr": "où / quel est",
     "literalTranslation": "en quel lieu",
     "grammaticalRole": "Adverbe invariable. Adverbe interrogatif de rhétorique oratoire ouvrant les interrogations du Préambule.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s2_w1"
+    ]
   },
   "ch0_p2_s2_w2": {
     "wordId": "ch0_p2_s2_w2",
@@ -1952,6 +2387,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w2"
     ]
   },
   "ch0_p2_s2_w3": {
@@ -1963,6 +2401,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom",
       "comp_noun"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w3"
     ]
   },
   "ch0_p2_s2_w5": {
@@ -1973,6 +2414,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w5"
     ]
   },
   "ch0_p2_s2_w6": {
@@ -1983,6 +2427,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w6"
     ]
   },
   "ch0_p2_s2_w10": {
@@ -1990,7 +2437,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "comme / que",
     "literalTranslation": "de même manière que",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction comparative liant des adversaires de même sorte.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p2_s2_w10"
+    ]
   },
   "ch0_p2_s2_w11": {
     "wordId": "ch0_p2_s2_w11",
@@ -2000,6 +2450,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w11"
     ]
   },
   "ch0_p2_s2_w13": {
@@ -2010,6 +2463,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w13"
     ]
   },
   "ch0_p2_s2_w14": {
@@ -2020,6 +2476,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w14"
     ]
   },
   "ch0_p2_s2_w17": {
@@ -2030,6 +2489,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w17"
     ]
   },
   "ch0_p2_s2_w18": {
@@ -2041,6 +2503,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "gen",
       "communism"
+    ],
+    "wordIds": [
+      "ch0_p2_s2_w18"
     ]
   },
   "ch0_p2_s2_w19": {
@@ -2048,14 +2513,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "ne pas / non",
     "literalTranslation": "particule de négation",
     "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s2_w19"
+    ]
   },
   "ch0_p2_s2_w21": {
     "wordId": "ch0_p2_s2_w21",
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · mode: subjonctif. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p2_s2_w21"
+    ]
   },
   "ch0_p3_s1_w3": {
     "wordId": "ch0_p3_s1_w3",
@@ -2065,6 +2536,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p3_s1_w3"
     ]
   },
   "ch0_p3_s1_w4": {
@@ -2075,6 +2549,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p3_s1_w4"
     ]
   },
   "ch0_p3_s1_w6": {
@@ -2082,7 +2559,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "découler / résulter",
     "literalTranslation": "sortir en avant de",
     "grammaticalRole": "Particule verbale ou négative. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p3_s1_w6"
+    ]
   },
   "ch0_p4_s1_w1": {
     "wordId": "ch0_p4_s1_w1",
@@ -2092,6 +2572,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w1"
     ]
   },
   "ch0_p4_s1_w2": {
@@ -2103,6 +2586,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom",
       "communism"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w2"
     ]
   },
   "ch0_p4_s1_w5": {
@@ -2113,6 +2599,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w5"
     ]
   },
   "ch0_p4_s1_w6": {
@@ -2123,6 +2612,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w6"
     ]
   },
   "ch0_p4_s1_w7": {
@@ -2133,6 +2625,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w7"
     ]
   },
   "ch0_p4_s1_w8": {
@@ -2143,6 +2638,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w8"
     ]
   },
   "ch0_p4_s1_w9": {
@@ -2150,7 +2648,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "comme / en tant que",
     "literalTranslation": "en qualité de",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction d'équivalence ou de comparaison.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p4_s1_w9"
+    ]
   },
   "ch0_p4_s1_w10": {
     "wordId": "ch0_p4_s1_w10",
@@ -2160,6 +2661,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p4_s1_w10"
     ]
   },
   "ch0_p5_s1_w1": {
@@ -2170,6 +2674,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w1"
     ]
   },
   "ch0_p5_s1_w2": {
@@ -2177,7 +2684,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "être / exister",
     "literalTranslation": "verbe d'état suprême",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Verbe d'état reliant le sujet à son attribut ontologique et politique.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w2"
+    ]
   },
   "ch0_p5_s1_w3": {
     "wordId": "ch0_p5_s1_w3",
@@ -2187,6 +2697,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w3"
     ]
   },
   "ch0_p5_s1_w6": {
@@ -2194,7 +2707,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "que",
     "literalTranslation": "conjonction de subordination",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction introduisant une proposition complétive rejetant le verbe en fin de proposition.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p5_s1_w6"
+    ]
   },
   "ch0_p5_s1_w7": {
     "wordId": "ch0_p5_s1_w7",
@@ -2204,6 +2720,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w7"
     ]
   },
   "ch0_p5_s1_w8": {
@@ -2215,6 +2734,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom",
       "communism"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w8"
     ]
   },
   "ch0_p5_s1_w9": {
@@ -2225,6 +2747,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w9"
     ]
   },
   "ch0_p5_s1_w12": {
@@ -2235,6 +2760,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w12"
     ]
   },
   "ch0_p5_s1_w15": {
@@ -2245,6 +2773,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w15"
     ]
   },
   "ch0_p5_s1_w17": {
@@ -2255,6 +2786,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w17"
     ]
   },
   "ch0_p5_s1_w18": {
@@ -2265,6 +2799,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w18"
     ]
   },
   "ch0_p5_s1_w19": {
@@ -2275,6 +2812,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w19"
     ]
   },
   "ch0_p5_s1_w20": {
@@ -2285,6 +2825,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w20"
     ]
   },
   "ch0_p5_s1_w23": {
@@ -2292,7 +2835,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p5_s1_w23"
+    ]
   },
   "ch0_p5_s1_w24": {
     "wordId": "ch0_p5_s1_w24",
@@ -2302,6 +2848,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w24"
     ]
   },
   "ch0_p5_s1_w26": {
@@ -2312,6 +2861,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w26"
     ]
   },
   "ch0_p5_s1_w27": {
@@ -2323,6 +2875,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat",
       "gespenst"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w27"
     ]
   },
   "ch0_p5_s1_w28": {
@@ -2333,6 +2888,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w28"
     ]
   },
   "ch0_p5_s1_w29": {
@@ -2344,6 +2902,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "gen",
       "communism"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w29"
     ]
   },
   "ch0_p5_s1_w30": {
@@ -2354,6 +2915,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w30"
     ]
   },
   "ch0_p5_s1_w32": {
@@ -2364,6 +2928,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w32"
     ]
   },
   "ch0_p5_s1_w33": {
@@ -2374,6 +2941,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p5_s1_w33"
     ]
   },
   "ch0_p5_s1_w34": {
@@ -2381,7 +2951,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "lui-même / soi-même",
     "literalTranslation": "en personne, sans intermédiaire",
     "grammaticalRole": "Pronom décliné (). Pronom d'insistance soulignant l'initiative directe du Parti communiste.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p5_s1_w34"
+    ]
   },
   "ch0_p6_s1_w1": {
     "wordId": "ch0_p6_s1_w1",
@@ -2391,6 +2964,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w1"
     ]
   },
   "ch0_p6_s1_w2": {
@@ -2401,6 +2977,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w2"
     ]
   },
   "ch0_p6_s1_w4": {
@@ -2408,7 +2987,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p6_s1_w4"
+    ]
   },
   "ch0_p6_s1_w5": {
     "wordId": "ch0_p6_s1_w5",
@@ -2418,6 +3000,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w5"
     ]
   },
   "ch0_p6_s1_w6": {
@@ -2429,6 +3014,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "nom",
       "communism"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w6"
     ]
   },
   "ch0_p6_s1_w7": {
@@ -2439,6 +3027,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w7"
     ]
   },
   "ch0_p6_s1_w9": {
@@ -2449,6 +3040,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w9"
     ]
   },
   "ch0_p6_s1_w10": {
@@ -2459,6 +3053,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w10"
     ]
   },
   "ch0_p6_s1_w11": {
@@ -2469,6 +3066,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w11"
     ]
   },
   "ch0_p6_s1_w13": {
@@ -2476,7 +3076,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p6_s1_w13"
+    ]
   },
   "ch0_p6_s1_w14": {
     "wordId": "ch0_p6_s1_w14",
@@ -2486,6 +3089,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w14"
     ]
   },
   "ch0_p6_s1_w15": {
@@ -2496,6 +3102,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w15"
     ]
   },
   "ch0_p6_s1_w16": {
@@ -2506,6 +3115,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w16"
     ]
   },
   "ch0_p6_s1_w19": {
@@ -2516,6 +3128,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w19"
     ]
   },
   "ch0_p6_s1_w20": {
@@ -2526,6 +3141,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w20"
     ]
   },
   "ch0_p6_s1_w21": {
@@ -2536,6 +3154,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w21"
     ]
   },
   "ch0_p6_s1_w23": {
@@ -2546,6 +3167,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w23"
     ]
   },
   "ch0_p6_s1_w25": {
@@ -2556,6 +3180,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w25"
     ]
   },
   "ch0_p6_s1_w27": {
@@ -2566,6 +3193,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w27"
     ]
   },
   "ch0_p6_s1_w29": {
@@ -2576,6 +3206,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w29"
     ]
   },
   "ch0_p6_s1_w30": {
@@ -2583,7 +3216,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch0_p6_s1_w30"
+    ]
   },
   "ch0_p6_s1_w31": {
     "wordId": "ch0_p6_s1_w31",
@@ -2593,6 +3229,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w31"
     ]
   },
   "ch0_p6_s1_w32": {
@@ -2603,6 +3242,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch0_p6_s1_w32"
     ]
   },
   "ch0_p6_s1_w34": {
@@ -2610,7 +3252,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "devenir / auxiliaire du passif",
     "literalTranslation": "entrer dans un état nouveau",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire fondamental de la voix passive allemande.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch0_p6_s1_w34"
+    ]
   },
   "ch1_p1_s1_w1": {
     "wordId": "ch1_p1_s1_w1",
@@ -2620,6 +3265,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p1_s1_w1"
     ]
   },
   "ch1_p1_s1_w6": {
@@ -2627,7 +3275,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "être / exister",
     "literalTranslation": "verbe d'état suprême",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Verbe d'état reliant le sujet à son attribut ontologique et politique.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p1_s1_w6"
+    ]
   },
   "ch1_p1_s1_w7": {
     "wordId": "ch1_p1_s1_w7",
@@ -2637,6 +3288,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p1_s1_w7"
     ]
   },
   "ch1_p1_s1_w8": {
@@ -2647,6 +3301,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p1_s1_w8"
     ]
   },
   "ch1_p1_s1_w9": {
@@ -2657,6 +3314,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p1_s1_w9"
     ]
   },
   "ch1_p2_s1_w2": {
@@ -2664,49 +3324,70 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w2"
+    ]
   },
   "ch1_p2_s1_w6": {
     "wordId": "ch1_p2_s1_w6",
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w6"
+    ]
   },
   "ch1_p2_s1_w10": {
     "wordId": "ch1_p2_s1_w10",
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w10"
+    ]
   },
   "ch1_p2_s1_w14": {
     "wordId": "ch1_p2_s1_w14",
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w14"
+    ]
   },
   "ch1_p2_s1_w17": {
     "wordId": "ch1_p2_s1_w17",
     "translationFr": "bref / en un mot",
     "literalTranslation": "en peu de termes",
     "grammaticalRole": "Adverbe invariable. Adverbe synthétisant une énumération historique par une loi générale.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w17"
+    ]
   },
   "ch1_p2_s1_w20": {
     "wordId": "ch1_p2_s1_w20",
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w20"
+    ]
   },
   "ch1_p2_s1_w22": {
     "wordId": "ch1_p2_s1_w22",
     "translationFr": "se tenir debout / faire face",
     "literalTranslation": "être érigé sur ses pieds",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe marquant l'opposition frontale dressée entre oppresseur et opprimé.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w22"
+    ]
   },
   "ch1_p2_s1_w23": {
     "wordId": "ch1_p2_s1_w23",
@@ -2716,6 +3397,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w23"
     ]
   },
   "ch1_p2_s1_w24": {
@@ -2726,6 +3410,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w24"
     ]
   },
   "ch1_p2_s1_w26": {
@@ -2733,14 +3420,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "l'un vis-à-vis de l'autre",
     "literalTranslation": "en rapport réciproque",
     "grammaticalRole": "Adverbe invariable. Adverbe marquant le tête-à-tête conflictuel inéluctable entre oppresseurs et opprimés.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w26"
+    ]
   },
   "ch1_p2_s1_w28": {
     "wordId": "ch1_p2_s1_w28",
     "translationFr": "mener / conduire",
     "literalTranslation": "guider vers un terme",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant l'action continue de mener une lutte sans répit.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w28"
+    ]
   },
   "ch1_p2_s1_w29": {
     "wordId": "ch1_p2_s1_w29",
@@ -2750,6 +3443,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w29"
     ]
   },
   "ch1_p2_s1_w32": {
@@ -2757,14 +3453,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "tantôt / bientôt",
     "literalTranslation": "à un moment donné, rapidement",
     "grammaticalRole": "Adverbe invariable. Adverbe corrélatif (bald... bald...) marquant l'alternance d'une lutte tantôt ouverte tantôt cachée.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w32"
+    ]
   },
   "ch1_p2_s1_w35": {
     "wordId": "ch1_p2_s1_w35",
     "translationFr": "tantôt / bientôt",
     "literalTranslation": "à un moment donné, rapidement",
     "grammaticalRole": "Adverbe invariable. Adverbe corrélatif (bald... bald...) marquant l'alternance d'une lutte tantôt ouverte tantôt cachée.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w35"
+    ]
   },
   "ch1_p2_s1_w37": {
     "wordId": "ch1_p2_s1_w37",
@@ -2774,6 +3476,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w37"
     ]
   },
   "ch1_p2_s1_w39": {
@@ -2784,6 +3489,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w39"
     ]
   },
   "ch1_p2_s1_w40": {
@@ -2794,6 +3502,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w40"
     ]
   },
   "ch1_p2_s1_w42": {
@@ -2804,6 +3515,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w42"
     ]
   },
   "ch1_p2_s1_w43": {
@@ -2811,7 +3525,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "chaque fois / à chaque reprise",
     "literalTranslation": "à toutes les occurrences sans faille",
     "grammaticalRole": "Adverbe invariable. Adverbe régulier marquant la loi constante de résolution des luttes de classe.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w43"
+    ]
   },
   "ch1_p2_s1_w44": {
     "wordId": "ch1_p2_s1_w44",
@@ -2821,6 +3538,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w44"
     ]
   },
   "ch1_p2_s1_w45": {
@@ -2831,6 +3551,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w45"
     ]
   },
   "ch1_p2_s1_w46": {
@@ -2841,6 +3564,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w46"
     ]
   },
   "ch1_p2_s1_w48": {
@@ -2851,6 +3577,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w48"
     ]
   },
   "ch1_p2_s1_w49": {
@@ -2861,6 +3590,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w49"
     ]
   },
   "ch1_p2_s1_w50": {
@@ -2871,6 +3603,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w50"
     ]
   },
   "ch1_p2_s1_w51": {
@@ -2878,14 +3613,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "se terminer / aboutir",
     "literalTranslation": "trouver son terme",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: PAST. Verbe marquant l'issue dialectique inéluctable du combat de classe.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p2_s1_w51"
+    ]
   },
   "ch1_p2_s1_w52": {
     "wordId": "ch1_p2_s1_w52",
     "translationFr": "ou / ou bien",
     "literalTranslation": "conjonction d'alternative",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction disjonctive liant deux issues alternatives.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p2_s1_w52"
+    ]
   },
   "ch1_p2_s1_w53": {
     "wordId": "ch1_p2_s1_w53",
@@ -2895,6 +3636,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w53"
     ]
   },
   "ch1_p2_s1_w54": {
@@ -2905,6 +3649,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w54"
     ]
   },
   "ch1_p2_s1_w55": {
@@ -2915,6 +3662,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w55"
     ]
   },
   "ch1_p2_s1_w57": {
@@ -2925,6 +3675,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w57"
     ]
   },
   "ch1_p2_s1_w58": {
@@ -2935,6 +3688,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w58"
     ]
   },
   "ch1_p2_s1_w59": {
@@ -2946,6 +3702,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "gen",
       "class_struggle"
+    ],
+    "wordIds": [
+      "ch1_p2_s1_w59"
     ]
   },
   "ch1_p3_s1_w1": {
@@ -2956,6 +3715,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w1"
     ]
   },
   "ch1_p3_s1_w2": {
@@ -2966,6 +3728,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w2"
     ]
   },
   "ch1_p3_s1_w3": {
@@ -2976,6 +3741,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w3"
     ]
   },
   "ch1_p3_s1_w4": {
@@ -2986,6 +3754,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w4"
     ]
   },
   "ch1_p3_s1_w5": {
@@ -2996,6 +3767,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w5"
     ]
   },
   "ch1_p3_s1_w6": {
@@ -3006,6 +3780,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w6"
     ]
   },
   "ch1_p3_s1_w7": {
@@ -3013,7 +3790,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "trouver / constater",
     "literalTranslation": "découvrir par l'observation",
     "grammaticalRole": "Forme verbale · (1e personne du pluriel) · temps: présent. Verbe de constatation empirique dans l'examen de l'histoire humaine.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s1_w7"
+    ]
   },
   "ch1_p3_s1_w8": {
     "wordId": "ch1_p3_s1_w8",
@@ -3023,6 +3803,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w8"
     ]
   },
   "ch1_p3_s1_w9": {
@@ -3030,14 +3813,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "presque / quasiment",
     "literalTranslation": "à très peu de chose près",
     "grammaticalRole": "Adverbe invariable. Adverbe d'intensité nuancée caractérisant la généralité de la stratification féodale.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s1_w9"
+    ]
   },
   "ch1_p3_s1_w10": {
     "wordId": "ch1_p3_s1_w10",
     "translationFr": "partout / universellement",
     "literalTranslation": "en tout lieu sans exclusion",
     "grammaticalRole": "Adverbe invariable. Adverbe de généralisation spatiale décrivant l'extension des hiérarchies féodales.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s1_w10"
+    ]
   },
   "ch1_p3_s1_w11": {
     "wordId": "ch1_p3_s1_w11",
@@ -3047,6 +3836,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w11"
     ]
   },
   "ch1_p3_s1_w12": {
@@ -3057,6 +3849,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w12"
     ]
   },
   "ch1_p3_s1_w14": {
@@ -3067,6 +3862,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w14"
     ]
   },
   "ch1_p3_s1_w15": {
@@ -3077,6 +3875,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w15"
     ]
   },
   "ch1_p3_s1_w16": {
@@ -3087,6 +3888,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w16"
     ]
   },
   "ch1_p3_s1_w17": {
@@ -3097,6 +3901,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w17"
     ]
   },
   "ch1_p3_s1_w20": {
@@ -3107,6 +3914,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w20"
     ]
   },
   "ch1_p3_s1_w23": {
@@ -3117,6 +3927,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w23"
     ]
   },
   "ch1_p3_s1_w24": {
@@ -3127,6 +3940,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w24"
     ]
   },
   "ch1_p3_s1_w25": {
@@ -3137,6 +3953,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s1_w25"
     ]
   },
   "ch1_p3_s2_w1": {
@@ -3147,6 +3966,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w1"
     ]
   },
   "ch1_p3_s2_w2": {
@@ -3157,6 +3979,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w2"
     ]
   },
   "ch1_p3_s2_w3": {
@@ -3167,6 +3992,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w3"
     ]
   },
   "ch1_p3_s2_w4": {
@@ -3174,7 +4002,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (1e personne du pluriel) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s2_w4"
+    ]
   },
   "ch1_p3_s2_w5": {
     "wordId": "ch1_p3_s2_w5",
@@ -3184,6 +4015,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w5"
     ]
   },
   "ch1_p3_s2_w6": {
@@ -3194,6 +4028,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w6"
     ]
   },
   "ch1_p3_s2_w10": {
@@ -3204,6 +4041,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w10"
     ]
   },
   "ch1_p3_s2_w12": {
@@ -3214,6 +4054,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w12"
     ]
   },
   "ch1_p3_s2_w14": {
@@ -3224,6 +4067,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w14"
     ]
   },
   "ch1_p3_s2_w15": {
@@ -3234,6 +4080,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w15"
     ]
   },
   "ch1_p3_s2_w20": {
@@ -3244,6 +4093,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w20"
     ]
   },
   "ch1_p3_s2_w22": {
@@ -3254,6 +4106,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w22"
     ]
   },
   "ch1_p3_s2_w24": {
@@ -3264,6 +4119,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w24"
     ]
   },
   "ch1_p3_s2_w26": {
@@ -3271,14 +4129,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p3_s2_w26"
+    ]
   },
   "ch1_p3_s2_w27": {
     "wordId": "ch1_p3_s2_w27",
     "translationFr": "presque / quasiment",
     "literalTranslation": "à très peu de chose près",
     "grammaticalRole": "Adverbe invariable. Adverbe d'intensité nuancée caractérisant la généralité de la stratification féodale.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s2_w27"
+    ]
   },
   "ch1_p3_s2_w28": {
     "wordId": "ch1_p3_s2_w28",
@@ -3288,6 +4152,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w28"
     ]
   },
   "ch1_p3_s2_w29": {
@@ -3298,6 +4165,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w29"
     ]
   },
   "ch1_p3_s2_w30": {
@@ -3308,6 +4178,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w30"
     ]
   },
   "ch1_p3_s2_w31": {
@@ -3319,6 +4192,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "gen",
       "class_struggle"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w31"
     ]
   },
   "ch1_p3_s2_w32": {
@@ -3326,7 +4202,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "à nouveau / de nouveau",
     "literalTranslation": "une seconde fois",
     "grammaticalRole": "Adverbe invariable. Adverbe réitératif marquant la répétition des hiérarchies à chaque échelon féodal.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p3_s2_w32"
+    ]
   },
   "ch1_p3_s2_w33": {
     "wordId": "ch1_p3_s2_w33",
@@ -3336,6 +4215,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w33"
     ]
   },
   "ch1_p3_s2_w34": {
@@ -3346,6 +4228,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p3_s2_w34"
     ]
   },
   "ch1_p4_s1_w1": {
@@ -3356,6 +4241,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w1"
     ]
   },
   "ch1_p4_s1_w2": {
@@ -3366,6 +4254,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w2"
     ]
   },
   "ch1_p4_s1_w3": {
@@ -3376,6 +4267,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w3"
     ]
   },
   "ch1_p4_s1_w4": {
@@ -3386,6 +4280,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w4"
     ]
   },
   "ch1_p4_s1_w5": {
@@ -3396,6 +4293,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w5"
     ]
   },
   "ch1_p4_s1_w6": {
@@ -3406,6 +4306,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w6"
     ]
   },
   "ch1_p4_s1_w7": {
@@ -3416,6 +4319,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w7"
     ]
   },
   "ch1_p4_s1_w9": {
@@ -3426,6 +4332,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w9"
     ]
   },
   "ch1_p4_s1_w11": {
@@ -3436,6 +4345,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w11"
     ]
   },
   "ch1_p4_s1_w12": {
@@ -3443,7 +4355,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s1_w12"
+    ]
   },
   "ch1_p4_s1_w13": {
     "wordId": "ch1_p4_s1_w13",
@@ -3453,6 +4368,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s1_w13"
     ]
   },
   "ch1_p4_s1_w15": {
@@ -3460,7 +4378,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "ne pas / non",
     "literalTranslation": "particule de négation",
     "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s1_w15"
+    ]
   },
   "ch1_p4_s2_w1": {
     "wordId": "ch1_p4_s2_w1",
@@ -3470,6 +4391,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w1"
     ]
   },
   "ch1_p4_s2_w2": {
@@ -3477,14 +4401,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s2_w2"
+    ]
   },
   "ch1_p4_s2_w3": {
     "wordId": "ch1_p4_s2_w3",
     "translationFr": "seulement / uniquement",
     "literalTranslation": "sans rien d'autre",
     "grammaticalRole": "Adverbe invariable. Adverbe limitatif : la bourgeoisie s'est bornée à créer de nouvelles formes d'oppression.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p4_s2_w3"
+    ]
   },
   "ch1_p4_s2_w4": {
     "wordId": "ch1_p4_s2_w4",
@@ -3494,6 +4424,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w4"
     ]
   },
   "ch1_p4_s2_w5": {
@@ -3505,6 +4438,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc",
       "class_struggle"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w5"
     ]
   },
   "ch1_p4_s2_w7": {
@@ -3515,6 +4451,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w7"
     ]
   },
   "ch1_p4_s2_w9": {
@@ -3525,6 +4464,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w9"
     ]
   },
   "ch1_p4_s2_w10": {
@@ -3535,6 +4477,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w10"
     ]
   },
   "ch1_p4_s2_w12": {
@@ -3545,6 +4490,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w12"
     ]
   },
   "ch1_p4_s2_w14": {
@@ -3555,6 +4503,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w14"
     ]
   },
   "ch1_p4_s2_w15": {
@@ -3565,6 +4516,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w15"
     ]
   },
   "ch1_p4_s2_w16": {
@@ -3575,6 +4529,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w16"
     ]
   },
   "ch1_p4_s2_w17": {
@@ -3585,6 +4542,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w17"
     ]
   },
   "ch1_p4_s2_w18": {
@@ -3595,6 +4555,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w18"
     ]
   },
   "ch1_p4_s2_w19": {
@@ -3605,6 +4568,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w19"
     ]
   },
   "ch1_p4_s2_w20": {
@@ -3615,6 +4581,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p4_s2_w20"
     ]
   },
   "ch1_p5_s1_w1": {
@@ -3625,6 +4594,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w1"
     ]
   },
   "ch1_p5_s1_w2": {
@@ -3635,6 +4607,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w2"
     ]
   },
   "ch1_p5_s1_w4": {
@@ -3645,6 +4620,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w4"
     ]
   },
   "ch1_p5_s1_w5": {
@@ -3655,6 +4633,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w5"
     ]
   },
   "ch1_p5_s1_w6": {
@@ -3665,6 +4646,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w6"
     ]
   },
   "ch1_p5_s1_w7": {
@@ -3676,6 +4660,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "gen",
       "bourgeoisie"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w7"
     ]
   },
   "ch1_p5_s1_w10": {
@@ -3686,6 +4673,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w10"
     ]
   },
   "ch1_p5_s1_w11": {
@@ -3693,28 +4683,40 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "cependant / toutefois",
     "literalTranslation": "malgré cela, en revanche",
     "grammaticalRole": "Adverbe invariable. Adverbe marquant la singularité spécifique de l'époque bourgeoise moderne.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s1_w11"
+    ]
   },
   "ch1_p5_s1_w12": {
     "wordId": "ch1_p5_s1_w12",
     "translationFr": "par là / de cette manière",
     "literalTranslation": "à travers ce moyen précis",
     "grammaticalRole": "Adverbe invariable. Adverbe pronominal reliant la cause matérielle à sa conséquence sociale.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s1_w12"
+    ]
   },
   "ch1_p5_s1_w13": {
     "wordId": "ch1_p5_s1_w13",
     "translationFr": "de / hors de / depuis",
     "literalTranslation": "qui émane de",
     "grammaticalRole": "Particule verbale ou négative. Préposition spatiale et causale régissant le datif.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s1_w13"
+    ]
   },
   "ch1_p5_s1_w15": {
     "wordId": "ch1_p5_s1_w15",
     "translationFr": "que",
     "literalTranslation": "conjonction de subordination",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction introduisant une proposition complétive rejetant le verbe en fin de proposition.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p5_s1_w15"
+    ]
   },
   "ch1_p5_s1_w16": {
     "wordId": "ch1_p5_s1_w16",
@@ -3724,6 +4726,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w16"
     ]
   },
   "ch1_p5_s1_w17": {
@@ -3734,6 +4739,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w17"
     ]
   },
   "ch1_p5_s1_w18": {
@@ -3744,6 +4752,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s1_w18"
     ]
   },
   "ch1_p5_s1_w20": {
@@ -3751,7 +4762,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avoir / posséder",
     "literalTranslation": "détenir comme bien ou auxiliaire",
     "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: présent. Auxiliaire du parfait (passé composé) ou verbe de possession.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s1_w20"
+    ]
   },
   "ch1_p5_s2_w1": {
     "wordId": "ch1_p5_s2_w1",
@@ -3761,6 +4775,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w1"
     ]
   },
   "ch1_p5_s2_w2": {
@@ -3771,6 +4788,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w2"
     ]
   },
   "ch1_p5_s2_w3": {
@@ -3781,6 +4801,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w3"
     ]
   },
   "ch1_p5_s2_w5": {
@@ -3791,6 +4814,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w5"
     ]
   },
   "ch1_p5_s2_w6": {
@@ -3798,21 +4824,30 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "plus / davantage",
     "literalTranslation": "en quantité supérieure",
     "grammaticalRole": "Adverbe invariable. Adverbe renforçant l'accélération de la division sociale (« immer mehr » = de plus en plus).",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w6"
+    ]
   },
   "ch1_p5_s2_w7": {
     "wordId": "ch1_p5_s2_w7",
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p5_s2_w7"
+    ]
   },
   "ch1_p5_s2_w8": {
     "wordId": "ch1_p5_s2_w8",
     "translationFr": "plus / davantage",
     "literalTranslation": "en quantité supérieure",
     "grammaticalRole": "Adverbe invariable. Adverbe renforçant l'accélération de la division sociale (« immer mehr » = de plus en plus).",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w8"
+    ]
   },
   "ch1_p5_s2_w9": {
     "wordId": "ch1_p5_s2_w9",
@@ -3822,6 +4857,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w9"
     ]
   },
   "ch1_p5_s2_w10": {
@@ -3829,7 +4867,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "deux",
     "literalTranslation": "adjectif numéral cardinal (2)",
     "grammaticalRole": "Adjectif numéral marquant la bipolarisation irréductible de la société en deux camps.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w10"
+    ]
   },
   "ch1_p5_s2_w11": {
     "wordId": "ch1_p5_s2_w11",
@@ -3839,6 +4880,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w11"
     ]
   },
   "ch1_p5_s2_w12": {
@@ -3849,6 +4893,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w12"
     ]
   },
   "ch1_p5_s2_w15": {
@@ -3859,6 +4906,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w15"
     ]
   },
   "ch1_p5_s2_w16": {
@@ -3866,7 +4916,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "deux",
     "literalTranslation": "adjectif numéral cardinal (2)",
     "grammaticalRole": "Adjectif numéral marquant la bipolarisation irréductible de la société en deux camps.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w16"
+    ]
   },
   "ch1_p5_s2_w17": {
     "wordId": "ch1_p5_s2_w17",
@@ -3876,6 +4929,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w17"
     ]
   },
   "ch1_p5_s2_w19": {
@@ -3886,6 +4942,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w19"
     ]
   },
   "ch1_p5_s2_w20": {
@@ -3893,7 +4952,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "directement / sans intermédiaire",
     "literalTranslation": "en ligne droite, immédiat",
     "grammaticalRole": "Adjectif qualificatif décliné ( ). Adverbe marquant la simplification capitaliste réduisant les médiations féodales au rapport d'argent nu.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p5_s2_w20"
+    ]
   },
   "ch1_p5_s2_w22": {
     "wordId": "ch1_p5_s2_w22",
@@ -3904,6 +4966,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "acc",
       "class_struggle"
+    ],
+    "wordIds": [
+      "ch1_p5_s2_w22"
     ]
   },
   "ch1_p5_s2_w25": {
@@ -3911,7 +4976,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p5_s2_w25"
+    ]
   },
   "ch1_p6_s1_w1": {
     "wordId": "ch1_p6_s1_w1",
@@ -3921,6 +4989,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w1"
     ]
   },
   "ch1_p6_s1_w2": {
@@ -3931,6 +5002,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w2"
     ]
   },
   "ch1_p6_s1_w3": {
@@ -3941,6 +5015,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w3"
     ]
   },
   "ch1_p6_s1_w4": {
@@ -3951,6 +5028,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w4"
     ]
   },
   "ch1_p6_s1_w5": {
@@ -3961,6 +5041,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w5"
     ]
   },
   "ch1_p6_s1_w6": {
@@ -3968,7 +5051,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "découler / résulter",
     "literalTranslation": "sortir en avant de",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p6_s1_w6"
+    ]
   },
   "ch1_p6_s1_w7": {
     "wordId": "ch1_p6_s1_w7",
@@ -3978,6 +5064,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w7"
     ]
   },
   "ch1_p6_s1_w9": {
@@ -3988,6 +5077,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w9"
     ]
   },
   "ch1_p6_s1_w10": {
@@ -3998,6 +5090,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w10"
     ]
   },
   "ch1_p6_s1_w11": {
@@ -4008,6 +5103,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w11"
     ]
   },
   "ch1_p6_s1_w12": {
@@ -4015,7 +5113,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "découler / résulter",
     "literalTranslation": "sortir en avant de",
     "grammaticalRole": "Particule verbale ou négative. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p6_s1_w12"
+    ]
   },
   "ch1_p6_s1_w14": {
     "wordId": "ch1_p6_s1_w14",
@@ -4025,6 +5126,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w14"
     ]
   },
   "ch1_p6_s1_w15": {
@@ -4035,6 +5139,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w15"
     ]
   },
   "ch1_p6_s1_w17": {
@@ -4042,7 +5149,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "développer / déployer",
     "literalTranslation": "déplier ce qui était enroulé, faire croître",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe matérialiste marquant la croissance organique des forces productives.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p6_s1_w17"
+    ]
   },
   "ch1_p6_s1_w18": {
     "wordId": "ch1_p6_s1_w18",
@@ -4052,6 +5162,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w18"
     ]
   },
   "ch1_p6_s1_w19": {
@@ -4062,6 +5175,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w19"
     ]
   },
   "ch1_p6_s1_w20": {
@@ -4072,6 +5188,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w20"
     ]
   },
   "ch1_p6_s1_w21": {
@@ -4082,6 +5201,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w21"
     ]
   },
   "ch1_p6_s1_w22": {
@@ -4092,6 +5214,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w22"
     ]
   },
   "ch1_p6_s1_w23": {
@@ -4103,6 +5228,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "gen",
       "bourgeoisie"
+    ],
+    "wordIds": [
+      "ch1_p6_s1_w23"
     ]
   },
   "ch1_p7_s1_w1": {
@@ -4113,6 +5241,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w1"
     ]
   },
   "ch1_p7_s1_w3": {
@@ -4123,6 +5254,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w3"
     ]
   },
   "ch1_p7_s1_w5": {
@@ -4133,6 +5267,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w5"
     ]
   },
   "ch1_p7_s1_w7": {
@@ -4143,6 +5280,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w7"
     ]
   },
   "ch1_p7_s1_w8": {
@@ -4150,7 +5290,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "créer / engendrer",
     "literalTranslation": "produire à l'existence",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant la puissance démiurgique de la bourgeoisie créant de nouveaux marchés.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s1_w8"
+    ]
   },
   "ch1_p7_s1_w9": {
     "wordId": "ch1_p7_s1_w9",
@@ -4160,6 +5303,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w9"
     ]
   },
   "ch1_p7_s1_w11": {
@@ -4171,6 +5317,9 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat",
       "bourgeoisie"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w11"
     ]
   },
   "ch1_p7_s1_w12": {
@@ -4181,6 +5330,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w12"
     ]
   },
   "ch1_p7_s1_w13": {
@@ -4191,6 +5343,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p7_s1_w13"
     ]
   },
   "ch1_p7_s2_w1": {
@@ -4201,6 +5356,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w1"
     ]
   },
   "ch1_p7_s2_w2": {
@@ -4211,6 +5369,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w2"
     ]
   },
   "ch1_p7_s2_w3": {
@@ -4218,7 +5379,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p7_s2_w3"
+    ]
   },
   "ch1_p7_s2_w4": {
     "wordId": "ch1_p7_s2_w4",
@@ -4228,6 +5392,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w4"
     ]
   },
   "ch1_p7_s2_w5": {
@@ -4238,6 +5405,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w5"
     ]
   },
   "ch1_p7_s2_w7": {
@@ -4248,6 +5418,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w7"
     ]
   },
   "ch1_p7_s2_w8": {
@@ -4258,6 +5431,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w8"
     ]
   },
   "ch1_p7_s2_w9": {
@@ -4268,6 +5444,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w9"
     ]
   },
   "ch1_p7_s2_w10": {
@@ -4278,6 +5457,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w10"
     ]
   },
   "ch1_p7_s2_w12": {
@@ -4288,6 +5470,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w12"
     ]
   },
   "ch1_p7_s2_w14": {
@@ -4298,6 +5483,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w14"
     ]
   },
   "ch1_p7_s2_w15": {
@@ -4308,6 +5496,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w15"
     ]
   },
   "ch1_p7_s2_w16": {
@@ -4318,6 +5509,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w16"
     ]
   },
   "ch1_p7_s2_w18": {
@@ -4328,6 +5522,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w18"
     ]
   },
   "ch1_p7_s2_w20": {
@@ -4338,6 +5535,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w20"
     ]
   },
   "ch1_p7_s2_w22": {
@@ -4345,7 +5545,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p7_s2_w22"
+    ]
   },
   "ch1_p7_s2_w23": {
     "wordId": "ch1_p7_s2_w23",
@@ -4355,6 +5558,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w23"
     ]
   },
   "ch1_p7_s2_w25": {
@@ -4362,14 +5568,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "en général / d'une manière générale",
     "literalTranslation": "par-dessus tout, globalement",
     "grammaticalRole": "Adverbe invariable. Adverbe de synthèse marquant l'essor global des forces révolutionnaires marchandes.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w25"
+    ]
   },
   "ch1_p7_s2_w26": {
     "wordId": "ch1_p7_s2_w26",
     "translationFr": "donner / procurer / susciter",
     "literalTranslation": "remettre, apporter",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant l'impulsion décisive donnée par la colonisation aux forces marchandes.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w26"
+    ]
   },
   "ch1_p7_s2_w27": {
     "wordId": "ch1_p7_s2_w27",
@@ -4379,6 +5591,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w27"
     ]
   },
   "ch1_p7_s2_w28": {
@@ -4389,6 +5604,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w28"
     ]
   },
   "ch1_p7_s2_w30": {
@@ -4399,6 +5617,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w30"
     ]
   },
   "ch1_p7_s2_w31": {
@@ -4409,6 +5630,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w31"
     ]
   },
   "ch1_p7_s2_w33": {
@@ -4419,6 +5643,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w33"
     ]
   },
   "ch1_p7_s2_w34": {
@@ -4429,6 +5656,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w34"
     ]
   },
   "ch1_p7_s2_w35": {
@@ -4439,6 +5669,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w35"
     ]
   },
   "ch1_p7_s2_w36": {
@@ -4446,7 +5679,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "jamais",
     "literalTranslation": "en aucun temps passé ou futur",
     "grammaticalRole": "Adverbe invariable. Adverbe absolu soulignant le caractère sans précédent de l'essor commercial moderne.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w36"
+    ]
   },
   "ch1_p7_s2_w37": {
     "wordId": "ch1_p7_s2_w37",
@@ -4456,6 +5692,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w37"
     ]
   },
   "ch1_p7_s2_w39": {
@@ -4463,14 +5702,20 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et",
     "literalTranslation": "conjonction d'addition",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction liant deux termes ou propositions de même rang syntaxique.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p7_s2_w39"
+    ]
   },
   "ch1_p7_s2_w40": {
     "wordId": "ch1_p7_s2_w40",
     "translationFr": "par là même / ainsi",
     "literalTranslation": "avec cela, en conséquence",
     "grammaticalRole": "Adverbe invariable. Adverbe pronominal marquant la corrélation immédiate entre expansion marchande et essor bourgeois.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p7_s2_w40"
+    ]
   },
   "ch1_p7_s2_w41": {
     "wordId": "ch1_p7_s2_w41",
@@ -4480,6 +5725,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w41"
     ]
   },
   "ch1_p7_s2_w42": {
@@ -4490,6 +5738,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w42"
     ]
   },
   "ch1_p7_s2_w43": {
@@ -4500,6 +5751,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w43"
     ]
   },
   "ch1_p7_s2_w44": {
@@ -4510,6 +5764,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w44"
     ]
   },
   "ch1_p7_s2_w45": {
@@ -4520,6 +5777,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w45"
     ]
   },
   "ch1_p7_s2_w47": {
@@ -4530,6 +5790,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w47"
     ]
   },
   "ch1_p7_s2_w48": {
@@ -4540,6 +5803,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w48"
     ]
   },
   "ch1_p7_s2_w49": {
@@ -4550,6 +5816,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w49"
     ]
   },
   "ch1_p7_s2_w50": {
@@ -4560,6 +5829,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p7_s2_w50"
     ]
   },
   "ch1_p8_s1_w1": {
@@ -4570,6 +5842,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w1"
     ]
   },
   "ch1_p8_s1_w2": {
@@ -4580,6 +5855,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w2"
     ]
   },
   "ch1_p8_s1_w3": {
@@ -4590,6 +5868,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w3"
     ]
   },
   "ch1_p8_s1_w4": {
@@ -4597,7 +5878,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "ou / ou bien",
     "literalTranslation": "conjonction d'alternative",
     "grammaticalRole": "Conjonction de coordination ou subordination. Conjonction disjonctive liant deux issues alternatives.",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p8_s1_w4"
+    ]
   },
   "ch1_p8_s1_w7": {
     "wordId": "ch1_p8_s1_w7",
@@ -4607,6 +5891,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w7"
     ]
   },
   "ch1_p8_s1_w8": {
@@ -4617,6 +5904,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w8"
     ]
   },
   "ch1_p8_s1_w10": {
@@ -4624,21 +5914,30 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "ne pas / non",
     "literalTranslation": "particule de négation",
     "grammaticalRole": "Particule verbale ou négative. Particule négative infirmant une proposition.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s1_w10"
+    ]
   },
   "ch1_p8_s1_w11": {
     "wordId": "ch1_p8_s1_w11",
     "translationFr": "plus / davantage",
     "literalTranslation": "en quantité supérieure",
     "grammaticalRole": "Adverbe invariable. Adverbe renforçant l'accélération de la division sociale (« immer mehr » = de plus en plus).",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s1_w11"
+    ]
   },
   "ch1_p8_s1_w12": {
     "wordId": "ch1_p8_s1_w12",
     "translationFr": "de / hors de / depuis",
     "literalTranslation": "qui émane de",
     "grammaticalRole": "Particule verbale ou négative. Préposition spatiale et causale régissant le datif.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s1_w12"
+    ]
   },
   "ch1_p8_s1_w13": {
     "wordId": "ch1_p8_s1_w13",
@@ -4648,6 +5947,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w13"
     ]
   },
   "ch1_p8_s1_w14": {
@@ -4658,6 +5960,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w14"
     ]
   },
   "ch1_p8_s1_w15": {
@@ -4668,6 +5973,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w15"
     ]
   },
   "ch1_p8_s1_w16": {
@@ -4678,6 +5986,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w16"
     ]
   },
   "ch1_p8_s1_w17": {
@@ -4688,6 +5999,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w17"
     ]
   },
   "ch1_p8_s1_w18": {
@@ -4698,6 +6012,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s1_w18"
     ]
   },
   "ch1_p8_s2_w1": {
@@ -4708,6 +6025,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p8_s2_w1"
     ]
   },
   "ch1_p8_s2_w4": {
@@ -4718,6 +6038,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s2_w4"
     ]
   },
   "ch1_p8_s2_w5": {
@@ -4728,6 +6051,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s2_w5"
     ]
   },
   "ch1_p8_s2_w6": {
@@ -4738,6 +6064,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s2_w6"
     ]
   },
   "ch1_p8_s3_w1": {
@@ -4748,6 +6077,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w1"
     ]
   },
   "ch1_p8_s3_w3": {
@@ -4755,7 +6087,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "devenir / auxiliaire du passif",
     "literalTranslation": "entrer dans un état nouveau",
     "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Auxiliaire fondamental de la voix passive allemande.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s3_w3"
+    ]
   },
   "ch1_p8_s3_w5": {
     "wordId": "ch1_p8_s3_w5",
@@ -4765,6 +6100,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w5"
     ]
   },
   "ch1_p8_s3_w6": {
@@ -4775,6 +6113,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w6"
     ]
   },
   "ch1_p8_s3_w7": {
@@ -4785,6 +6126,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "acc"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w7"
     ]
   },
   "ch1_p8_s3_w10": {
@@ -4795,6 +6139,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "nom"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w10"
     ]
   },
   "ch1_p8_s3_w12": {
@@ -4805,6 +6152,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w12"
     ]
   },
   "ch1_p8_s3_w13": {
@@ -4815,6 +6165,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w13"
     ]
   },
   "ch1_p8_s3_w14": {
@@ -4825,6 +6178,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w14"
     ]
   },
   "ch1_p8_s3_w15": {
@@ -4835,6 +6191,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w15"
     ]
   },
   "ch1_p8_s3_w16": {
@@ -4845,6 +6204,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w16"
     ]
   },
   "ch1_p8_s3_w19": {
@@ -4855,6 +6217,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w19"
     ]
   },
   "ch1_p8_s3_w20": {
@@ -4865,6 +6230,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w20"
     ]
   },
   "ch1_p8_s3_w21": {
@@ -4875,6 +6243,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w21"
     ]
   },
   "ch1_p8_s3_w22": {
@@ -4885,6 +6256,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w22"
     ]
   },
   "ch1_p8_s3_w23": {
@@ -4895,6 +6269,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w23"
     ]
   },
   "ch1_p8_s3_w24": {
@@ -4905,6 +6282,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w24"
     ]
   },
   "ch1_p8_s3_w25": {
@@ -4915,6 +6295,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w25"
     ]
   },
   "ch1_p8_s3_w26": {
@@ -4925,6 +6308,9 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
+    ],
+    "wordIds": [
+      "ch1_p8_s3_w26"
     ]
   },
   "ch1_p8_s3_w28": {
@@ -4932,7 +6318,10 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "lui-même / soi-même",
     "literalTranslation": "en personne, sans intermédiaire",
     "grammaticalRole": "Pronom décliné (). Pronom d'insistance soulignant l'initiative directe du Parti communiste.",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p8_s3_w28"
+    ]
   },
   "ch1_p9_s1_w1": {
     "wordId": "ch1_p9_s1_w1",
@@ -4943,7 +6332,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "conj"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s1_w1"
+    ]
   },
   "ch1_p9_s1_w2": {
     "wordId": "ch1_p9_s1_w2",
@@ -4955,7 +6347,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s1_w2"
+    ]
   },
   "ch1_p9_s1_w3": {
     "wordId": "ch1_p9_s1_w3",
@@ -4968,7 +6363,10 @@ export const annotations: Record<string, Annotation> = {
       "v2",
       "prod_rel"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s1_w3"
+    ]
   },
   "ch1_p9_s1_w5": {
     "wordId": "ch1_p9_s1_w5",
@@ -4986,7 +6384,10 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "capital"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s1_w5"
+    ]
   },
   "ch1_p9_s1_w8": {
     "wordId": "ch1_p9_s1_w8",
@@ -4998,7 +6399,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s1_w8"
+    ]
   },
   "ch1_p9_s1_w10": {
     "wordId": "ch1_p9_s1_w10",
@@ -5011,7 +6415,10 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "capital"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s1_w10"
+    ]
   },
   "ch1_p9_s2_w1": {
     "wordId": "ch1_p9_s2_w1",
@@ -5022,7 +6429,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "part"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s2_w1"
+    ]
   },
   "ch1_p9_s2_w3": {
     "wordId": "ch1_p9_s2_w3",
@@ -5040,18 +6450,20 @@ export const annotations: Record<string, Annotation> = {
       "prod_rel",
       "ind_rev"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s2_w3"
+    ]
   },
   "ch1_p9_s2_w4": {
     "wordId": "ch1_p9_s2_w4",
-    "translationFr": "ne suffisait plus",
-    "literalTranslation": "ne suffisait plus, n'atteignait plus la mesure requise (verbe à particule aus|reichen)",
-    "grammaticalRole": "Verbe composé à particule séparable (aus|reichen) à la 3e personne du singulier du prétérit de l'indicatif. Le radical « reichte » occupe la position 2 (V2) et la particule « aus » clôt l'énoncé en position 7.",
+    "translationFr": "suffisait",
+    "literalTranslation": "atteignait le niveau requis",
+    "grammaticalRole": "Verbe à particule séparable au prétérit singulier (verbe ausreichen).",
     "wordIds": [
-      "ch1_p9_s2_w4",
-      "ch1_p9_s2_w7"
+      "ch1_p9_s2_w4"
     ],
-    "etymology": "Verbe composé séparable unissant la préposition-adverbe germanique « aus » (hors de, complètement, en vieux haut-allemand « ūz », proto-germanique *ūt) et le verbe « reichen » (tendre, atteindre, suffire, en moyen haut-allemand « reichen », en vieux haut-allemand « reihhen », proto-germanique *raikijaną = tendre le bras pour saisir, atteindre une mesure).",
+    "etymology": "Verbe composé séparable combinant la particule d'achèvement « aus » et le verbe germanique « reichen » (atteindre, suffire, vieux haut-allemand reihhan).",
     "syntaxNote": "Parenthèse verbale allemande (Satzklammer) : le verbe recteur conjugué « reichte » est séparé de son préverbe « aus » par la négation « nicht mehr ».",
     "relatedConcepts": [
       "sep_verb",
@@ -5068,7 +6480,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s3_w1"
+    ]
   },
   "ch1_p9_s3_w2": {
     "wordId": "ch1_p9_s3_w2",
@@ -5086,7 +6501,10 @@ export const annotations: Record<string, Annotation> = {
       "revolution",
       "ind_rev"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s3_w2"
+    ]
   },
   "ch1_p9_s3_w4": {
     "wordId": "ch1_p9_s3_w4",
@@ -5099,7 +6517,10 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "ind_rev"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s3_w4"
+    ]
   },
   "ch1_p9_s3_w7": {
     "wordId": "ch1_p9_s3_w7",
@@ -5118,19 +6539,20 @@ export const annotations: Record<string, Annotation> = {
       "ind_rev",
       "prod_rel"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p9_s3_w7"
+    ]
   },
   "ch1_p9_s3_w10": {
     "wordId": "ch1_p9_s3_w10",
-    "translationFr": "la production industrielle",
-    "literalTranslation": "la production industrielle (complément d'objet direct à l'accusatif)",
-    "grammaticalRole": "Groupe nominal féminin singulier à l'accusatif précédé de l'article défini « die » et de l'adjectif épithète « industrielle », COD de « revolutionierte ».",
+    "translationFr": "production",
+    "literalTranslation": "fabrication / mise en œuvre de produits",
+    "grammaticalRole": "Nom féminin singulier à l'accusatif singulier.",
     "wordIds": [
-      "ch1_p9_s3_w8",
-      "ch1_p9_s3_w9",
       "ch1_p9_s3_w10"
     ],
-    "etymology": "« Produktion » : emprunt savant au latin classique « productio » (prolongement, mise en avant, création), dérivé du supin « productum » du verbe « producere » (faire paraître, mener en avant, de pro- et ducere / mener). « Industriell » : dérivé en -ell de Industrie (latin industria / zèle, activité assidue).",
+    "etymology": "Emprunt savant au latin classique « productio » (prolongement, mise en avant), du verbe « producere ».",
     "cognatesFr": [
       "production",
       "industrielle"
@@ -5151,7 +6573,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "prep"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s4_w3"
+    ]
   },
   "ch1_p9_s4_w6": {
     "wordId": "ch1_p9_s4_w6",
@@ -5162,20 +6587,20 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "v2"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s4_w6"
+    ]
   },
   "ch1_p9_s4_w10": {
     "wordId": "ch1_p9_s4_w10",
-    "translationFr": "la grande industrie moderne",
-    "literalTranslation": "la grande industrie moderne (groupe nominal sujet au nominatif)",
-    "grammaticalRole": "Groupe nominal féminin singulier au nominatif sujet du verbe « trat », composé de l'article « die », des adjectifs « moderne », « große » et du substantif « Industrie ».",
+    "translationFr": "industrie",
+    "literalTranslation": "production mécanique / grande industrie",
+    "grammaticalRole": "Nom féminin singulier au nominatif sujet.",
     "wordIds": [
-      "ch1_p9_s4_w7",
-      "ch1_p9_s4_w8",
-      "ch1_p9_s4_w9",
       "ch1_p9_s4_w10"
     ],
-    "etymology": "« Industrie » : emprunté au XVIIIe siècle au français « industrie », issu du latin classique « industria » (application zélée, activité laborieuse assidue, composé de l'adverbe archaïque *endo- / indu- = dedans, à l'intérieur, et de la racine de struere = bâtir, agencer). « groß » : en moyen haut-allemand grōz, en vieux haut-allemand grōz, proto-germanique *grauta- (grossier, épais, grand).",
+    "etymology": "Emprunté au XVIIIe siècle au français « industrie », issu du latin classique « industria » (activité, zèle assidu).",
     "philosophicalContext": "La « grande industrie » (Großindustrie) constitue pour Marx la forme achevée du mode de production capitaliste, où la production n'est plus limitée par l'habileté manuelle mais soumise au rythme automatique de la machinerie universelle.",
     "cognatesFr": [
       "industrie",
@@ -5190,24 +6615,27 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s4_w17": {
     "wordId": "ch1_p9_s4_w17",
-    "translationFr": "de la classe moyenne industrielle",
-    "literalTranslation": "de l'état intermédiaire / de la bourgeoisie moyenne de manufacture (génitif masculin singulier)",
-    "grammaticalRole": "Nom masculin composé (der Mittelstand) au génitif singulier en -es après « des industriellen », complément de nom de « Stelle ».",
-    "etymology": "Composé associant : 1° « mittel- » (moyen, central, du moyen haut-allemand mittel, en vieux haut-allemand mittil, proto-germanique *medila-, dérivé de *medjaz / milieu, cf. latin medius) ; 2° « der Stand » (ordre social, état, statut, déverbal apophonique du verbe stehen / se tenir debout, en vieux haut-allemand stant).",
+    "translationFr": "classe moyenne",
+    "literalTranslation": "état moyen / condition intermédiaire",
+    "grammaticalRole": "Nom masculin singulier au génitif.",
+    "etymology": "Composé de « mittel » (moyen) + « der Stand » (état, ordre social).",
     "philosophicalContext": "Marx désigne par « industrieller Mittelstand » les petits patrons de manufactures et maîtres artisans qui formaient la classe moyenne entre les seigneurs féodaux et les plébéiens, avant d'être évincés par la concentration du grand capital.",
     "relatedConcepts": [
       "gen",
       "comp_noun",
       "class_struggle"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s4_w17"
+    ]
   },
   "ch1_p9_s4_w21": {
     "wordId": "ch1_p9_s4_w21",
-    "translationFr": "les millionnaires de l'industrie",
-    "literalTranslation": "les industriels millionnaires (nominatif pluriel masculin)",
-    "grammaticalRole": "Nom masculin pluriel (der Millionär -> die Millionäre) au nominatif, sujet grammatical du verbe « traten ».",
-    "etymology": "Emprunt au français « millionnaire » (terme attesté en France sous la Régence vers 1719-1720 lors du système de Law), dérivé avec le suffixe -aire du substantif « million », lui-même emprunté au XIVe siècle à l'italien « milione » (augmentatif en -one du latin classique mille = mille, textuellement 'un grand millier').",
+    "translationFr": "millionnaires",
+    "literalTranslation": "possesseurs de millions",
+    "grammaticalRole": "Nom masculin pluriel au datif.",
+    "etymology": "Emprunté au français « millionnaire », dérivé de « million ».",
     "philosophicalContext": "Désignation sarcastique de la nouvelle oligarchie du grand capital : la puissance sociale ne découle plus d'un titre de noblesse ou de la naissance, mais de l'ampleur quantitative du capital financier accumulé.",
     "cognatesFr": [
       "millionnaire",
@@ -5218,7 +6646,10 @@ export const annotations: Record<string, Annotation> = {
       "capital",
       "bourgeoisie"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s4_w21"
+    ]
   },
   "ch1_p9_s4_w24": {
     "wordId": "ch1_p9_s4_w24",
@@ -5235,14 +6666,17 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p9_s4_w24"
+    ]
   },
   "ch1_p9_s4_w27": {
     "wordId": "ch1_p9_s4_w27",
-    "translationFr": "d'armées industrielles entières",
-    "literalTranslation": "d'armées industrielles complètes (génitif pluriel féminin)",
-    "grammaticalRole": "Nom féminin pluriel (die Armee -> die Armeen) au génitif pluriel après les adjectifs sans article « ganzer industrieller », complément déterminatif de « Chefs ».",
-    "etymology": "Emprunt au XVIIe siècle au français « armée », participe passé substantivé du verbe « armer », issu du latin classique « armare » (équiper d'armes de guerre, supin armatum de arma).",
+    "translationFr": "armées",
+    "literalTranslation": "troupes armées ordonnées",
+    "grammaticalRole": "Nom féminin pluriel au génitif.",
+    "etymology": "Emprunté au français « armée », du participe passé substantivé du latin armare (armer).",
     "philosophicalContext": "Métaphore militaire rigoureuse : Marx compare la fabrique moderne à une caserne où les masses prolétaires sont enrégimentées sous le commandement despotique des capitalistes et de leurs officiers (les contremaîtres).",
     "cognatesFr": [
       "armée",
@@ -5252,14 +6686,17 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "proletariat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s4_w27"
+    ]
   },
   "ch1_p9_s4_w31": {
     "wordId": "ch1_p9_s4_w31",
-    "translationFr": "les bourgeois modernes",
-    "literalTranslation": "les bourgeois modernes (nominatif pluriel)",
-    "grammaticalRole": "Nom masculin pluriel invariable (der Bourgeois -> die Bourgeois) au nominatif, ultime apposition fermant la longue période.",
-    "etymology": "Emprunt au français « bourgeois », dérivé de « bourg » (cité marchande fortifiée), issu du bas-latin « burgus », lui-même emprunté au germanique commun *burgz (hauteur fortifiée, château fort, en vieux haut-allemand burg, allemand moderne Burg).",
+    "translationFr": "bourgeois",
+    "literalTranslation": "citadins francs des bourgs / capitalistes modernes",
+    "grammaticalRole": "Nom masculin pluriel au datif.",
+    "etymology": "Emprunt direct au français « bourgeois » (habitant du bourg, Burg).",
     "philosophicalContext": "La genèse se conclut : le bourgeois moderne n'est plus l'habitant timoré d'un bourg médiéval, mais le maître cosmopolite des armées de travailleurs salariés et du marché mondial.",
     "cognatesFr": [
       "bourgeois",
@@ -5270,7 +6707,10 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "bourgeoisie"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p9_s4_w31"
+    ]
   },
   "ch1_p10_s1_w6": {
     "wordId": "ch1_p10_s1_w6",
@@ -5288,7 +6728,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "capital"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p10_s1_w6"
+    ]
   },
   "ch1_p10_s1_w7": {
     "wordId": "ch1_p10_s1_w7",
@@ -5301,7 +6744,10 @@ export const annotations: Record<string, Annotation> = {
       "sep_verb",
       "prod_rel"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s1_w7"
+    ]
   },
   "ch1_p10_s1_w9": {
     "wordId": "ch1_p10_s1_w9",
@@ -5314,7 +6760,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "sub_clause"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s1_w9"
+    ]
   },
   "ch1_p10_s1_w13": {
     "wordId": "ch1_p10_s1_w13",
@@ -5326,7 +6775,10 @@ export const annotations: Record<string, Annotation> = {
       "sub_clause",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s1_w13"
+    ]
   },
   "ch1_p10_s2_w5": {
     "wordId": "ch1_p10_s2_w5",
@@ -5337,7 +6789,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p10_s2_w5"
+    ]
   },
   "ch1_p10_s2_w8": {
     "wordId": "ch1_p10_s2_w8",
@@ -5349,7 +6804,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "comp_noun"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p10_s2_w8"
+    ]
   },
   "ch1_p10_s2_w11": {
     "wordId": "ch1_p10_s2_w11",
@@ -5367,7 +6825,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s2_w11"
+    ]
   },
   "ch1_p10_s2_w13": {
     "wordId": "ch1_p10_s2_w13",
@@ -5383,7 +6844,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s2_w13"
+    ]
   },
   "ch1_p10_s3_w6": {
     "wordId": "ch1_p10_s3_w6",
@@ -5400,7 +6864,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w6"
+    ]
   },
   "ch1_p10_s3_w9": {
     "wordId": "ch1_p10_s3_w9",
@@ -5413,7 +6880,10 @@ export const annotations: Record<string, Annotation> = {
       "sep_verb",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p10_s3_w9"
+    ]
   },
   "ch1_p10_s3_w14": {
     "wordId": "ch1_p10_s3_w14",
@@ -5426,7 +6896,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "formal_german"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w14"
+    ]
   },
   "ch1_p10_s3_w23": {
     "wordId": "ch1_p10_s3_w23",
@@ -5440,7 +6913,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "ind_rev"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w23"
+    ]
   },
   "ch1_p10_s3_w38": {
     "wordId": "ch1_p10_s3_w38",
@@ -5459,19 +6935,25 @@ export const annotations: Record<string, Annotation> = {
       "capital",
       "latin_root"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p10_s3_w38"
+    ]
   },
   "ch1_p10_s3_w46": {
     "wordId": "ch1_p10_s3_w46",
-    "translationFr": "léguées par le moyen âge",
-    "literalTranslation": "remises par tradition depuis le Moyen Âge (participe passé adjectivé)",
-    "grammaticalRole": "Participe passé adjectivé du verbe inséparable « überliefern », décliné à l'accusatif féminin pluriel en -en, qualifiant « Klassen ».",
-    "etymology": "Composé du préfixe inséparable de transmission « über- » (par-dessus, à travers les générations) et du verbe « liefern » (remettre, livrer, en moyen haut-allemand leveren, emprunt à l'ancien français livrer, du latin classique liberare / rendre libre, remettre en possession).",
+    "translationFr": "héritées / transmises",
+    "literalTranslation": "livrées d'une génération à l'autre",
+    "grammaticalRole": "Participe adjectivé à l'accusatif féminin pluriel.",
+    "etymology": "Participe passé de « überliefern » (transmettre, léguer, de über + liefern livrer).",
     "relatedConcepts": [
       "acc",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w46"
+    ]
   },
   "ch1_p10_s3_w50": {
     "wordId": "ch1_p10_s3_w50",
@@ -5485,7 +6967,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "class_struggle"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w50"
+    ]
   },
   "ch1_p11_s1_w11": {
     "wordId": "ch1_p11_s1_w11",
@@ -5503,7 +6988,10 @@ export const annotations: Record<string, Annotation> = {
       "hist_mat",
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p11_s1_w11"
+    ]
   },
   "ch1_p11_s1_w14": {
     "wordId": "ch1_p11_s1_w14",
@@ -5517,7 +7005,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p11_s1_w14"
+    ]
   },
   "ch1_p11_s1_w19": {
     "wordId": "ch1_p11_s1_w19",
@@ -5531,7 +7022,10 @@ export const annotations: Record<string, Annotation> = {
       "revolution",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p11_s1_w19"
+    ]
   },
   "ch1_p11_s1_w22": {
     "wordId": "ch1_p11_s1_w22",
@@ -5546,7 +7040,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "prod_rel"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p11_s1_w22"
+    ]
   },
   "ch1_p11_s1_w24": {
     "wordId": "ch1_p11_s1_w24",
@@ -5560,7 +7057,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "prod_rel"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p11_s1_w24"
+    ]
   },
   "ch1_p12_s1_w3": {
     "wordId": "ch1_p12_s1_w3",
@@ -5574,7 +7074,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "hist_mat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s1_w3"
+    ]
   },
   "ch1_p12_s1_w12": {
     "wordId": "ch1_p12_s1_w12",
@@ -5587,7 +7090,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "formal_german"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s1_w12"
+    ]
   },
   "ch1_p12_s2_w2": {
     "wordId": "ch1_p12_s2_w2",
@@ -5601,7 +7107,10 @@ export const annotations: Record<string, Annotation> = {
       "feudalism",
       "class_struggle"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w2"
+    ]
   },
   "ch1_p12_s2_w7": {
     "wordId": "ch1_p12_s2_w7",
@@ -5614,14 +7123,17 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w7"
+    ]
   },
   "ch1_p12_s2_w14": {
     "wordId": "ch1_p12_s2_w14",
-    "translationFr": "association (armée)",
-    "literalTranslation": "association d'hommes libres armés s'administrant eux-mêmes",
-    "grammaticalRole": "Nom féminin singulier (die Assoziation) au nominatif sans article, deuxième apposition historique qualifiée par « bewaffnete und sich selbst verwaltende ».",
-    "etymology": "Emprunt au français « association », dérivé du bas-latin « associare » (lier en société, unir des compagnons, de ad- et socius / compagnon, allié, de la racine indo-européenne *sekʷ- = suivre, accompagner).",
+    "translationFr": "association",
+    "literalTranslation": "union de compagnons",
+    "grammaticalRole": "Nom féminin singulier.",
+    "etymology": "Emprunté au français « association », du latin médiéval « associatio » (union en société, de socius).",
     "cognatesFr": [
       "association",
       "associer"
@@ -5630,7 +7142,10 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p12_s2_w14"
+    ]
   },
   "ch1_p12_s2_w17": {
     "wordId": "ch1_p12_s2_w17",
@@ -5648,7 +7163,10 @@ export const annotations: Record<string, Annotation> = {
       "latin_root",
       "bourgeoisie"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w17"
+    ]
   },
   "ch1_p12_s2_w26": {
     "wordId": "ch1_p12_s2_w26",
@@ -5662,20 +7180,26 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w26"
+    ]
   },
   "ch1_p12_s2_w36": {
     "wordId": "ch1_p12_s2_w36",
-    "translationFr": "contrepoids (de la noblesse)",
-    "literalTranslation": "poids d'équilibre opposé sur la balance politique",
-    "grammaticalRole": "Nom neutre singulier composé (das Gegengewicht) au nominatif sans article, apposition descriptive.",
-    "etymology": "Composé unissant : 1° la préposition d'opposition spatiale « gegen » (contre, à l'opposé de, en vieux haut-allemand gagan / gegin) ; 2° « das Gewicht » (le poids, la masse pesante, en moyen haut-allemand gewiht, en vieux haut-allemand giwiht, dérivé en -t du verbe fort wiegen / peser, proto-germanique *wehtiz, racine indo-européenne *weǵʰ- = mouvoir, porter).",
+    "translationFr": "contrepoids",
+    "literalTranslation": "poids opposé pour équilibrer",
+    "grammaticalRole": "Nom neutre singulier.",
+    "etymology": "Composé de « gegen » (contre, vis-à-vis) + « das Gewicht » (le poids, pesanteur).",
     "philosophicalContext": "Dans les monarchies absolutistes du XVIIe siècle (comme sous Louis XIV), le pouvoir royal s'appuya sur la bourgeoisie manufacturière et financière naissante pour tenir en échec les rébellions de la noblesse d'épée.",
     "relatedConcepts": [
       "nom",
       "comp_noun"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w36"
+    ]
   },
   "ch1_p12_s2_w39": {
     "wordId": "ch1_p12_s2_w39",
@@ -5687,7 +7211,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w39"
+    ]
   },
   "ch1_p12_s2_w49": {
     "wordId": "ch1_p12_s2_w49",
@@ -5699,7 +7226,10 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "comp_noun"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w49"
+    ]
   },
   "ch1_p12_s2_w55": {
     "wordId": "ch1_p12_s2_w55",
@@ -5714,7 +7244,10 @@ export const annotations: Record<string, Annotation> = {
       "prefix_verb",
       "class_struggle"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s2_w55"
+    ]
   },
   "ch1_p12_s2_w70": {
     "wordId": "ch1_p12_s2_w70",
@@ -5732,20 +7265,20 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "latin_root"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p12_s2_w70"
+    ]
   },
   "ch1_p12_s2_w74": {
     "wordId": "ch1_p12_s2_w74",
-    "translationFr": "la souveraineté politique exclusive",
-    "literalTranslation": "la domination politique exclusive (COD à l'accusatif féminin singulier)",
-    "grammaticalRole": "Groupe nominal féminin singulier à l'accusatif précédé de « die » et des épithètes « ausschließliche » et « politische », complément d'objet direct de « erkämpfte sie sich ».",
+    "translationFr": "domination / souveraineté",
+    "literalTranslation": "pouvoir souverain / seigneurie",
+    "grammaticalRole": "Nom féminin singulier à l'accusatif singulier.",
     "wordIds": [
-      "ch1_p12_s2_w71",
-      "ch1_p12_s2_w72",
-      "ch1_p12_s2_w73",
       "ch1_p12_s2_w74"
     ],
-    "etymology": "« Herrschaft » : substantif dérivé avec le suffixe abstrait de dignité « -schaft » (en vieux haut-allemand -scaf, proto-germanique *skapiz = condition, état façonné) sur « der Herr » (maître, seigneur). « ausschließlich » : dérivé de ausschließen (exclure, fermer la porte à clef).",
+    "etymology": "Substantif dérivé avec le suffixe abstrait de dignité « -schaft » (en vieux haut-allemand hēriscaf) de l'adjectif comparatif germanique « hēro » (vénérable, noble, d'où Herr / seigneur).",
     "philosophicalContext": "La bourgeoisie ne partage plus le pouvoir avec l'aristocratie terrienne : elle a conquis le monopole absolu de l'appareil d'État moderne.",
     "cognatesFr": [
       "politique"
@@ -5768,7 +7301,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "bourgeoisie"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p12_s3_w3"
+    ]
   },
   "ch1_p12_s3_w7": {
     "wordId": "ch1_p12_s3_w7",
@@ -5781,19 +7317,20 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "bourgeoisie"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p12_s3_w7"
+    ]
   },
   "ch1_p12_s3_w12": {
     "wordId": "ch1_p12_s3_w12",
-    "translationFr": "les affaires communes",
-    "literalTranslation": "les affaires, besognes et transactions collectives (accusatif neutre pluriel)",
-    "grammaticalRole": "Nom neutre pluriel (das Geschäft -> die Geschäfte) à l'accusatif précédé de « die gemeinschaftlichen », COD de « verwaltet ».",
+    "translationFr": "affaires / besognes",
+    "literalTranslation": "occupations / transactions",
+    "grammaticalRole": "Nom neutre pluriel à l'accusatif pluriel.",
     "wordIds": [
-      "ch1_p12_s3_w10",
-      "ch1_p12_s3_w11",
       "ch1_p12_s3_w12"
     ],
-    "etymology": "Issu du moyen haut-allemand « geschefte » (mandat, occupation, besogne, œuvre), vieux haut-allemand « giscaft » (création, décret du destin). Dérivé collectif à préfixe « gi- » formé sur le verbe fort « schaffen » (créer, façonner, travailler, en vieux haut-allemand scaffan, proto-germanique *skapjaną).",
+    "etymology": "Issu du moyen haut-allemand « geschefte » (mandat, occupation, besogne, œuvre), vieux haut-allemand « giscaft », déverbal de « schaffen » (créer, faire).",
     "relatedConcepts": [
       "acc",
       "capital"
@@ -5816,7 +7353,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "bourgeoisie"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s3_w15"
+    ]
   },
   "ch1_p12_s3_w16": {
     "wordId": "ch1_p12_s3_w16",
@@ -5828,7 +7368,10 @@ export const annotations: Record<string, Annotation> = {
       "sub_clause",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p12_s3_w16"
+    ]
   },
   "ch1_p13_s1_w8": {
     "wordId": "ch1_p13_s1_w8",
@@ -5839,7 +7382,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "adv"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p13_s1_w8"
+    ]
   },
   "ch1_p13_s1_w10": {
     "wordId": "ch1_p13_s1_w10",
@@ -5857,7 +7403,10 @@ export const annotations: Record<string, Annotation> = {
       "bourgeoisie",
       "hist_mat"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p13_s1_w10"
+    ]
   },
   "ch1_p14_s1_w14": {
     "wordId": "ch1_p14_s1_w14",
@@ -5874,7 +7423,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s1_w14"
+    ]
   },
   "ch1_p14_s1_w16": {
     "wordId": "ch1_p14_s1_w16",
@@ -5892,7 +7444,10 @@ export const annotations: Record<string, Annotation> = {
       "decl",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s1_w16"
+    ]
   },
   "ch1_p14_s1_w17": {
     "wordId": "ch1_p14_s1_w17",
@@ -5905,7 +7460,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "prod_rel"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s1_w17"
+    ]
   },
   "ch1_p14_s1_w18": {
     "wordId": "ch1_p14_s1_w18",
@@ -5916,7 +7474,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s1_w18"
+    ]
   },
   "ch1_p14_s2_w4": {
     "wordId": "ch1_p14_s2_w4",
@@ -5929,7 +7490,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p14_s2_w4"
+    ]
   },
   "ch1_p14_s2_w5": {
     "wordId": "ch1_p14_s2_w5",
@@ -5949,20 +7513,26 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "feudalism"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p14_s2_w5"
+    ]
   },
   "ch1_p14_s2_w13": {
     "wordId": "ch1_p14_s2_w13",
-    "translationFr": "supérieurs (naturels)",
-    "literalTranslation": "celui qui est placé au-dessus, le supérieur hiérarchique d'ordre (accusatif masculin singulier)",
-    "grammaticalRole": "Substantif à déclinaison adjectivale faible (der Vorgesetzte -> den Vorgesetzten) à l'accusatif masculin singulier après la préposition « an ».",
-    "etymology": "Participe passé substantivé du verbe à particule séparable « vor|setzen » (placer devant, installer à la tête). Composé de « vor » (devant, en avant, en vieux haut-allemand fora) et de « setzen » (faire asseoir, poser, en vieux haut-allemand sezzen, causatif du verbe sitzen).",
+    "translationFr": "supérieurs / maîtres",
+    "literalTranslation": "ceux placés au-dessus / chefs",
+    "grammaticalRole": "Participe passé substantivé au datif pluriel.",
+    "etymology": "Participe passé substantivé de « vorsetzen » (placer devant ou au-dessus).",
     "philosophicalContext": "Ironie mordante de Marx contre l'idéologie aristocratique qui présentait la domination du seigneur sur le paysan comme une hiérarchie « naturelle » providentiellement ordonnée par Dieu.",
     "relatedConcepts": [
       "acc",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s2_w13"
+    ]
   },
   "ch1_p14_s2_w14": {
     "wordId": "ch1_p14_s2_w14",
@@ -5973,7 +7543,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "sub_clause"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s2_w14"
+    ]
   },
   "ch1_p14_s2_w16": {
     "wordId": "ch1_p14_s2_w16",
@@ -5985,7 +7558,10 @@ export const annotations: Record<string, Annotation> = {
       "adv",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s2_w16"
+    ]
   },
   "ch1_p14_s2_w17": {
     "wordId": "ch1_p14_s2_w17",
@@ -5996,7 +7572,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s2_w17"
+    ]
   },
   "ch1_p14_s2_w26": {
     "wordId": "ch1_p14_s2_w26",
@@ -6007,19 +7586,20 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "sep_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s2_w26"
+    ]
   },
   "ch1_p14_s2_w30": {
     "wordId": "ch1_p14_s2_w30",
-    "translationFr": "l'intérêt tout nu / le froid intérêt",
-    "literalTranslation": "l'intérêt mis à nu, sans fard moral (accusatif neutre singulier)",
-    "grammaticalRole": "Nom neutre singulier (das Interesse) à l'accusatif précédé de « das nackte », introduit par la conjonction restrictive « als ».",
+    "translationFr": "l'intérêt",
+    "literalTranslation": "ce qui importe / avantage financier",
+    "grammaticalRole": "Nom neutre singulier à l'accusatif, premier terme de l'alternative après « als ».",
     "wordIds": [
-      "ch1_p14_s2_w28",
-      "ch1_p14_s2_w29",
       "ch1_p14_s2_w30"
     ],
-    "etymology": "« Interesse » : emprunt savant au XVIe siècle au latin classique « interesse » (littéralement : être entre, importer, y avoir de la différence, composé de inter = entre et esse = être), substantivé en droit médiéval pour désigner le dédommagement pécuniaire d'une perte ou l'intérêt financier. « nackt » : en moyen haut-allemand nacket, en vieux haut-allemand nahhit, proto-germanique *nakwida- (nu, cognat du latin nudus et de l'anglais naked).",
+    "etymology": "Emprunt savant au XVIe siècle au latin classique « interesse » (littéralement être entre, différer, puis au bas-latin juridique id quod interest = le dédommagement, l'avantage financier calculable).",
     "philosophicalContext": "Le capitalisme simplifie les rapports humains : il arrache le masque de la piété, de la courtoisie chevaleresque et des devoirs chrétiens pour ne laisser subsister que la recherche brutale du gain.",
     "cognatesFr": [
       "intérêt",
@@ -6033,18 +7613,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s2_w36": {
     "wordId": "ch1_p14_s2_w36",
-    "translationFr": "le « paiement au comptant »",
-    "literalTranslation": "le paiement liquide, le règlement immédiat en espèces métalliques sonnantes",
-    "grammaticalRole": "Locution nominale féminine singulière entre guillemets à l'accusatif précédée de « die gefühllose », introduite par la conjonction restrictive « als ».",
+    "translationFr": "au comptant / liquide",
+    "literalTranslation": "nu, en espèces métalliques",
+    "grammaticalRole": "Adjectif à l'accusatif féminin singulier, épithète de Zahlung.",
     "wordIds": [
-      "ch1_p14_s2_w33",
-      "ch1_p14_s2_w34",
-      "ch1_p14_s2_w35",
-      "ch1_p14_s2_w36",
-      "ch1_p14_s2_w37",
-      "ch1_p14_s2_w38"
+      "ch1_p14_s2_w36"
     ],
-    "etymology": "« bar » : en moyen haut-allemand bar (nu, dénudé, sans parure, pur), en vieux haut-allemand bar (nu, découvert). Proto-germanique *baza- (nu, découvert, cognat de l'anglais bare et du lituanien basas). Le sens commercial monétaire de « monnaie liquide sonnante et trébuchante » (bares Geld) apparaît au XVe siècle ; étymon discuté et glissement sémantique monétaire incertain selon Pfeifer et Kluge. « Zahlung » : substantif en -ung dérivé du verbe zahlen (compter, payer), en vieux haut-allemand zalōn, dérivé de Zahl (nombre, compte, en vieux haut-allemand zala, cognat de l'anglais tale/tell).",
+    "etymology": "En moyen haut-allemand « bar » (nu, dénudé, sans parure, pur), en vieux haut-allemand « bar », proto-germanique *bazaz (nu, découvert, cognat de l'anglais bare). Dans le langage commercial, il a désigné l'argent payé à découvert sur la table, en espèces réelles immédiates.",
     "philosophicalContext": "Emprunt explicite à la critique du capitalisme de Thomas Carlyle dans 'Chartism' (1839) : le « cash payment » (paiement au comptant) est devenu le seul lien de société (« cash nexus »), rompant tout engagement d'entraide ou de fidélité communautaire.",
     "relatedConcepts": [
       "acc",
@@ -6054,15 +7629,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w5": {
     "wordId": "ch1_p14_s3_w5",
-    "translationFr": "les frissons sacrés",
-    "literalTranslation": "les frissons d'effroi et de saisissement sacré (accusatif masculin pluriel)",
-    "grammaticalRole": "Nom masculin pluriel (der Schauer -> die Schauer) à l'accusatif pluriel précédé de l'article « die » et de l'adjectif « heiligen », COD du verbe « ertränkt ».",
+    "translationFr": "frissons",
+    "literalTranslation": "frissons d'effroi ou de saisissement",
+    "grammaticalRole": "Nom masculin pluriel (die Schauer) à l'accusatif, complément d'objet direct de ertränkt.",
     "wordIds": [
-      "ch1_p14_s3_w3",
-      "ch1_p14_s3_w4",
       "ch1_p14_s3_w5"
     ],
-    "etymology": "Issu du moyen haut-allemand « schūr » (giboulée violente, averse soudaine, puis assaut, frisson d'angoisse), vieux haut-allemand « scūr » (tempête, combat). Proto-germanique *skūra- (giboulée, tempête, cognat du vieil anglais scūr / anglais shower). Le sens s'est étendu métaphoriquement dès le Moyen Âge au tremblement d'effroi physique et au saisissement mystique devant la majesté divine (heiliger Schauer).",
+    "etymology": "Issu du moyen haut-allemand « schūr » (giboulée violente, averse soudaine, puis assaut, frisson d'horreur sacrée), vieux haut-allemand « scūr » (tempête, giboulée), d'origine proto-germanique *skūraz.",
     "philosophicalContext": "Marx évoque le tremblement sacré du fidèle dans la cathédrale gothique : le sentiment d'anéantissement devant le sacré religieux qui sanctifiait l'ordre féodal.",
     "relatedConcepts": [
       "acc",
@@ -6072,15 +7645,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w8": {
     "wordId": "ch1_p14_s3_w8",
-    "translationFr": "de l'extase religieuse / de l'exaltation pieuse",
-    "literalTranslation": "de l'exaltation dévote d'illuminés religieux (génitif féminin singulier)",
-    "grammaticalRole": "Nom féminin singulier dérivé (die Schwärmerei) au génitif singulier après « der frommen », premier complément déterminatif de « Schauer ».",
+    "translationFr": "extase / exaltation mystique",
+    "literalTranslation": "rêverie exaltée / exaltation d'essaim",
+    "grammaticalRole": "Nom féminin singulier (die Schwärmerei) au génitif singulier après « der », premier complément de Schauer.",
     "wordIds": [
-      "ch1_p14_s3_w6",
-      "ch1_p14_s3_w7",
       "ch1_p14_s3_w8"
     ],
-    "etymology": "« fromm » : en moyen haut-allemand vrum / vrom (brave, vaillant, utile, pieux), en vieux haut-allemand fruma (utilité, profit), issu de la racine indo-européenne *pro- (en avant, premier). Glissement vers la dévotion pieuse à la Réforme luthérienne. « Schwärmerei » : dérivé avec le suffixe dépréciatif -erei du verbe schwärmen (errer en essaim, délirer de passion mystique), dérivé de der Schwarm (l'essaim d'abeilles ou d'insectes, en moyen haut-allemand swam, en vieux haut-allemand swarm, proto-germanique *swarmaz, racine indo-européenne *swer- = bourdonner, faire du bruit). Utilisé par Luther pour stigmatiser les 'Schwärmer' (anabaptistes et illuminés exaltés).",
+    "etymology": "Dérivé en « -erei » de « schwärmen » (bourdonner, tournoyer en essaim, en moyen haut-allemand swermen, de Schwarm / essaim). Utilisé polémiquement par Martin Luther pour fustiger les anabaptistes et illuminés religieux (« die Schwärmer »), puis au siècle des Lumières pour dénoncer le mysticisme déréglé.",
     "philosophicalContext": "L'extase religieuse et le mysticisme chrétien sont démasqués comme des narcotiques spirituels qui justifiaient l'ordre féodal en détournant les opprimés de la lutte matérielle.",
     "relatedConcepts": [
       "gen",
@@ -6090,15 +7661,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w12": {
     "wordId": "ch1_p14_s3_w12",
-    "translationFr": "de l'enthousiasme chevaleresque",
-    "literalTranslation": "du transport d'esprit chevaleresque héroïque (génitif féminin singulier)",
-    "grammaticalRole": "Nom féminin singulier dérivé (die Begeisterung) au génitif singulier après « der ritterlichen », deuxième complément de « Schauer ».",
+    "translationFr": "enthousiasme / ferveur",
+    "literalTranslation": "transport d'esprit / animation sacrée",
+    "grammaticalRole": "Nom féminin singulier (die Begeisterung) au génitif singulier après « der », deuxième complément de Schauer.",
     "wordIds": [
-      "ch1_p14_s3_w10",
-      "ch1_p14_s3_w11",
       "ch1_p14_s3_w12"
     ],
-    "etymology": "« ritterlich » : dérivé en -lich de Ritter (chevalier noble, cavalier d'armes), emprunt du bas-allemand ou néerlandais ridder, issu du verbe reiten (chevaucher, en vieux haut-allemand rītan, proto-germanique *rīdanan). « Begeisterung » : substantif en -ung formé sur le verbe begeistern (insuffler un esprit divin, enthousiasmer), forgé au XVIIIe siècle (Herder) sur der Geist (l'esprit, souffle, âme, en vieux haut-allemand geist, proto-germanique *gaistaz, cognat de l'anglais ghost).",
+    "etymology": "Substantif en « -ung » formé sur le verbe « begeistern » (insuffler un esprit divin, enthousiasmer), forgé au XVIIIe siècle (notamment par Herder) sur « der Geist » (l'esprit, souffle, âme, en vieux haut-allemand geist, racine proto-germanique *gaistaz, cognat de l'anglais ghost).",
     "philosophicalContext": "L'idéal chevaleresque (prouesse, courtoisie, vœu de croisade) n'était qu'un fard poétique masquant la violence des seigneurs et l'assujettissement des serfs.",
     "relatedConcepts": [
       "gen",
@@ -6108,15 +7677,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w16": {
     "wordId": "ch1_p14_s3_w16",
-    "translationFr": "de la sentimentalité petite-bourgeoise",
-    "literalTranslation": "de la tristesse d'âme étroite du petit-bourgeois étriqué (génitif singulier)",
-    "grammaticalRole": "Nom féminin singulier composé (die Wehmut) au génitif singulier après « der spießbürgerlichen », troisième complément de « Schauer ».",
+    "translationFr": "sentimentalité / mélancolie",
+    "literalTranslation": "tristesse d'âme / affliction douloureuse (génitif)",
+    "grammaticalRole": "Nom féminin singulier (die Wehmut) au génitif singulier après « der », troisième complément de Schauer.",
     "wordIds": [
-      "ch1_p14_s3_w14",
-      "ch1_p14_s3_w15",
       "ch1_p14_s3_w16"
     ],
-    "etymology": "« spießbürgerlich » : dérivé de Spießbürger (petit-bourgeois borné, philistin). Composé historique : der Spieß (la pique de guerre, arme d'hast modeste des miliciens bourgeois gardant les remparts médiévaux, en moyen haut-allemand spiez, en vieux haut-allemand spioz, proto-germanique *speutaz) + der Bürger. Étymologie documentée chez Kluge et Pfeifer (le milicien armé d'une simple pique par opposition au noble à cheval et à l'épée est devenu une épithète méprisante d'étudiants désignant les boutiquiers timorés). « Wehmut » : en moyen haut-allemand wēmuot, en vieux haut-allemand wēmuoti (affliction d'âme), composé de wehe / wē (hélas, malheur, interjection germanique *wai, cf. latin vae) et de Mut (disposition intérieure de l'âme, humeur, en vieux haut-allemand muot, cognat de l'anglais mood).",
+    "etymology": "En moyen haut-allemand « wēmuot », en vieux haut-allemand « wēmuoti » (affliction d'âme, mélancolie), composé de « wehe / wē » (hélas, malheur, interjection germanique *wai, cf. latin vae) et de « Mut » (disposition intérieure de l'âme, humeur, en vieux haut-allemand muot, cognat de l'anglais mood).",
     "philosophicalContext": "Marx tourne en dérision les lamentations sentimentales et régressives des artisans et boutiquiers qui pleurent la dissolution de leurs corporations tranquilles sous les coups du grand capital.",
     "relatedConcepts": [
       "gen",
@@ -6126,16 +7693,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w20": {
     "wordId": "ch1_p14_s3_w20",
-    "translationFr": "les eaux glacées",
-    "literalTranslation": "l'eau froide comme la glace (datif neutre singulier)",
-    "grammaticalRole": "Nom neutre singulier (das Wasser) au datif singulier après la préposition spatiale « in dem » et l'adjectif « eiskalten ».",
+    "translationFr": "l'eau",
+    "literalTranslation": "l'eau (datif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Wasser) au datif singulier après « in dem ».",
     "wordIds": [
-      "ch1_p14_s3_w17",
-      "ch1_p14_s3_w18",
-      "ch1_p14_s3_w19",
       "ch1_p14_s3_w20"
     ],
-    "etymology": "« Wasser » : issu du moyen haut-allemand « wazzer », vieux haut-allemand « wazzar » (eau). Proto-germanique *watar, issu de la racine indo-européenne *wod-r̥ / *wed- (eau, humide, d'où découlent le grec ὕδωρ / hydōr, le latin unda / vague, le russe вода / voda et l'anglais water). « eiskalt » : composé de Eis (glace, en vieux haut-allemand īs) et kalt (froid, en vieux haut-allemand kalt).",
+    "etymology": "Issu du moyen haut-allemand « wazzer », vieux haut-allemand « wazzar » (eau). Proto-germanique *watar, issu de la racine indo-européenne *wod-r̥ / *wed- (eau, humide, d'où découlent le grec hydōr, le latin unda / vague, le russe voda et l'anglais water).",
     "philosophicalContext": "Une des plus célèbres métaphores de la littérature mondiale : le capitalisme refroidit instantanément toute chaleur émotionnelle, spirituelle et communautaire dans le bain glacé de l'arithmétique du profit.",
     "cognatesFr": [
       "eau",
@@ -6149,14 +7713,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w22": {
     "wordId": "ch1_p14_s3_w22",
-    "translationFr": "du calcul égoïste",
-    "literalTranslation": "du compte arithmétique égoïste (génitif singulier féminin)",
-    "grammaticalRole": "Nom féminin singulier (die Berechnung) au génitif singulier sans article après l'adjectif « egoistischer » (flexion forte en -er), complément de « Wasser ».",
+    "translationFr": "calcul",
+    "literalTranslation": "action de chiffrer / comput",
+    "grammaticalRole": "Nom féminin singulier au génitif singulier, complément déterminatif de Wasser.",
     "wordIds": [
-      "ch1_p14_s3_w21",
       "ch1_p14_s3_w22"
     ],
-    "etymology": "« Berechnung » : substantif en -ung dérivé du verbe transitif berechnen (calculer, chiffrer), composé du préfixe d'application be- et de rechnen (compter, en vieux haut-allemand rehhanōn = mettre en bon ordre, dénominatif du germanique *rekanō = ordre, ligne). « egoistisch » : dérivé en -istisch du latin ego (moi).",
+    "etymology": "Substantif en « -ung » dérivé du verbe transitif « berechnen » (calculer, chiffrer), formé sur « rechnen » (compter, en vieux haut-allemand rehhanōn, ordonner, évaluer).",
     "philosophicalContext": "La rationalité économique bourgeoise ne reconnaît qu'une seule valeur : la rentabilité comptable, où chaque être et chaque rapport est converti en colonne de débit et de crédit.",
     "cognatesFr": [
       "égoïste"
@@ -6176,19 +7739,20 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s3_w23"
+    ]
   },
   "ch1_p14_s4_w5": {
     "wordId": "ch1_p14_s4_w5",
-    "translationFr": "la dignité personnelle",
-    "literalTranslation": "la dignité morale intrinsèque de la personne humaine (accusatif féminin singulier)",
-    "grammaticalRole": "Nom féminin singulier (die Würde) à l'accusatif précédé de « die persönliche », premier COD du verbe « aufgelöst ».",
+    "translationFr": "dignité",
+    "literalTranslation": "valeur / honneur intrinsèque",
+    "grammaticalRole": "Nom féminin singulier (die Würde) à l'accusatif singulier, complément d'objet direct de aufgelöst.",
     "wordIds": [
-      "ch1_p14_s4_w3",
-      "ch1_p14_s4_w4",
       "ch1_p14_s4_w5"
     ],
-    "etymology": "Issu du moyen haut-allemand « wirde / werde » (valeur, dignité, honneur, noblesse), vieux haut-allemand « wirdī » (dignité, considération, mérite). Dérivé abstrait de l'adjectif « wert / werd » (digne, estimable, de valeur, proto-germanique *werþaz, issu de la racine indo-européenne *wert- = tourner, valoir).",
+    "etymology": "Issu du moyen haut-allemand « wirde / werde » (valeur, dignité, honneur, noblesse), vieux haut-allemand « wirdī », dérivé de l'adjectif « wert » (digne, estimable, de grand prix).",
     "philosophicalContext": "Contre Kant qui posait dans les 'Fondements de la métaphysique des mœurs' (1785) : « Ce qui a un prix peut être remplacé par autre chose d'équivalent ; ce qui est au-dessus de tout prix possède une dignité (Würde) », Marx constate avec amertume que le capitalisme anéantit cette frontière et assigne un prix marchand à l'être humain.",
     "relatedConcepts": [
       "acc",
@@ -6211,7 +7775,10 @@ export const annotations: Record<string, Annotation> = {
       "comp_noun",
       "capital"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p14_s4_w8"
+    ]
   },
   "ch1_p14_s4_w9": {
     "wordId": "ch1_p14_s4_w9",
@@ -6227,7 +7794,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "sep_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s4_w9"
+    ]
   },
   "ch1_p14_s4_w16": {
     "wordId": "ch1_p14_s4_w16",
@@ -6240,7 +7810,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s4_w16"
+    ]
   },
   "ch1_p14_s4_w18": {
     "wordId": "ch1_p14_s4_w18",
@@ -6252,7 +7825,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "comp_word"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s4_w18"
+    ]
   },
   "ch1_p14_s4_w19": {
     "wordId": "ch1_p14_s4_w19",
@@ -6265,7 +7841,10 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "feudalism"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s4_w19"
+    ]
   },
   "ch1_p14_s4_w22": {
     "wordId": "ch1_p14_s4_w22",
@@ -6277,20 +7856,20 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "comp_word"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s4_w22"
+    ]
   },
   "ch1_p14_s4_w23": {
     "wordId": "ch1_p14_s4_w23",
-    "translationFr": "la liberté du commerce",
-    "literalTranslation": "la liberté du trafic marchand et du négoce (accusatif féminin singulier)",
-    "grammaticalRole": "Nom féminin composé (die Handelsfreiheit) à l'accusatif singulier précédé de « die eine gewissenlose », COD de « gesetzt ».",
+    "translationFr": "liberté du commerce",
+    "literalTranslation": "liberté du négoce marchand",
+    "grammaticalRole": "Nom féminin composé à l'accusatif singulier.",
     "wordIds": [
-      "ch1_p14_s4_w20",
-      "ch1_p14_s4_w21",
-      "ch1_p14_s4_w22",
       "ch1_p14_s4_w23"
     ],
-    "etymology": "Composé associant : 1° « der Handel » (commerce, négoce, déverbal de handeln = agir, commercer, dérivé de die Hand = la main) ; 2° le « -s- » de liaison ; 3° « die Freiheit » (la liberté, en moyen haut-allemand vrīheit, en vieux haut-allemand frīheit, formé de frei = libre et du suffixe d'état -heit).",
+    "etymology": "Composé associant : 1° « der Handel » (commerce, négoce, déverbal de handeln = agir, commercer, issu de Hand / main) ; 2° consonne de liaison -s- ; 3° « die Freiheit » (la liberté, vieux haut-allemand frīhals).",
     "philosophicalContext": "Coup de force critique magistral : à la place des multiples franchises protectrices du passé, la bourgeoisie n'érige qu'une seule liberté : celle d'exploiter sans entrave le travail d'autrui sur le marché.",
     "relatedConcepts": [
       "acc",
@@ -6301,15 +7880,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s5_w6": {
     "wordId": "ch1_p14_s5_w6",
-    "translationFr": "En un mot",
-    "literalTranslation": "avec un seul mot, en résumé concis (locution adverbiale)",
-    "grammaticalRole": "Locution adverbiale incise de synthèse rhétorique régie par la préposition « mit » (+ datif singulier neutre).",
+    "translationFr": "mot / terme",
+    "literalTranslation": "mot, parole",
+    "grammaticalRole": "Nom neutre singulier au datif après « mit ».",
     "wordIds": [
-      "ch1_p14_s5_w4",
-      "ch1_p14_s5_w5",
       "ch1_p14_s5_w6"
     ],
-    "etymology": "Issu du moyen haut-allemand « wort », vieux haut-allemand « wort » (parole, verbe). Proto-germanique *wurdan (mot, parole), issu de la racine indo-européenne *werdʰh₁-o- (mot, verbe, cognat direct du latin verbum et de l'anglais word).",
+    "etymology": "Du moyen haut-allemand « wort », vieux haut-allemand « wort » (parole, verbe). Proto-germanique *wurda- (cognat du latin verbum et de l'anglais word).",
     "cognatesFr": [
       "verbe"
     ],
@@ -6320,10 +7897,10 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s5_w16": {
     "wordId": "ch1_p14_s5_w16",
-    "translationFr": "d'illusions (religieuses et politiques)",
-    "literalTranslation": "d'illusions décevantes, d'apparences trompeuses (datif féminin pluriel)",
-    "grammaticalRole": "Nom féminin pluriel (die Illusion -> die Illusionen) au datif pluriel après « mit religiösen und politischen ».",
-    "etymology": "Emprunt savant au XVIIIe siècle au latin classique « illusio » (ironie, tromperie, moquerie), dérivé du supin « illusum » du verbe « illudere » (se jouer de, tromper, berner, de in- et ludere / jouer).",
+    "translationFr": "illusions",
+    "literalTranslation": "illusions trompeuses (datif pluriel)",
+    "grammaticalRole": "Nom féminin pluriel au datif après « mit ».",
+    "etymology": "Emprunt au latin « illusio » (raillerie, tromperie des sens), du verbe « illudere » (se jouer de, de in- + ludere jouer).",
     "philosophicalContext": "L'idéologie religieuse féodale (droit divin, obéissance au prêtre et au baron) n'était qu'un voile trompeur masquant le fait objectif de l'extorsion de surtravail paysan.",
     "cognatesFr": [
       "illusion",
@@ -6333,7 +7910,10 @@ export const annotations: Record<string, Annotation> = {
       "dat",
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p14_s5_w16"
+    ]
   },
   "ch1_p14_s5_w17": {
     "wordId": "ch1_p14_s5_w17",
@@ -6345,14 +7925,17 @@ export const annotations: Record<string, Annotation> = {
       "gen",
       "prefix_verb"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s5_w17"
+    ]
   },
   "ch1_p14_s5_w18": {
     "wordId": "ch1_p14_s5_w18",
-    "translationFr": "de l'exploitation (voilée)",
-    "literalTranslation": "de l'exploitation matérielle, de l'extorsion de surtravail (génitif féminin singulier)",
-    "grammaticalRole": "Nom féminin singulier (die Ausbeutung) au génitif singulier après « der ... verhüllten », premier terme de l'antithèse.",
-    "etymology": "Substantif d'action en « -ung » du verbe technique « ausbeuten » (épuiser une mine, extraire tout le minerai d'un filon). Terme de la langue minière du XVIe siècle (Bergmannssprache) composé de « aus- » (hors de, jusqu'au bout) et de « die Beute » (le butin, la prise profitable), emprunté au moyen-bas-allemand būte (partage d'une prise de guerre, cognat du français butin).",
+    "translationFr": "exploitation",
+    "literalTranslation": "action de tirer profit, exploitation",
+    "grammaticalRole": "Nom féminin singulier au génitif singulier.",
+    "etymology": "Déverbal en « -ung » de « ausbeuten » (terme technique minier désignant l'extraction complète du filon 'Beute', transposé par Marx à l'extraction de plus-value sur le travail vivant).",
     "philosophicalContext": "Marx transfère le terme de l'exploitation des mines de charbon à l'exploitation de l'homme par l'homme : l'extraction systématique de la plus-value ouvrière.",
     "cognatesFr": [
       "butin"
@@ -6362,7 +7945,10 @@ export const annotations: Record<string, Annotation> = {
       "exploitation",
       "hist_mat"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "wordIds": [
+      "ch1_p14_s5_w18"
+    ]
   },
   "ch1_p14_s5_w20": {
     "wordId": "ch1_p14_s5_w20",
@@ -6374,7 +7960,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p14_s5_w20"
+    ]
   },
   "ch1_p14_s5_w22": {
     "wordId": "ch1_p14_s5_w22",
@@ -6387,7 +7976,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s5_w22"
+    ]
   },
   "ch1_p14_s5_w24": {
     "wordId": "ch1_p14_s5_w24",
@@ -6403,7 +7995,10 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "latin_root"
     ],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "wordIds": [
+      "ch1_p14_s5_w24"
+    ]
   },
   "ch1_p14_s5_w26": {
     "wordId": "ch1_p14_s5_w26",
@@ -6416,20 +8011,27 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "decl"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p14_s5_w26"
+    ]
   },
   "ch1_p14_s5_w27": {
     "wordId": "ch1_p14_s5_w27",
-    "translationFr": "l'exploitation (ouverte et brutale)",
-    "literalTranslation": "l'exploitation (posée en face de l'ancienne exploitation voilée)",
-    "grammaticalRole": "Nom féminin singulier (die Ausbeutung) à l'accusatif singulier précédé de l'article « die » et des quatre adjectifs « offene, unverschämte, direkte, dürre », COD de « gesetzt ».",
+    "translationFr": "exploitation",
+    "literalTranslation": "exploitation, tirage de butin",
+    "grammaticalRole": "Nom féminin singulier à l'accusatif singulier.",
     "philosophicalContext": "Chiasme historique et anaphore antithétique monumentale qui clôt le paragraphe 14 : la bourgeoisie n'a nullement émancipé l'humanité de l'exploitation féodale, elle a simplement substitué à une exploitation voilée d'illusions une exploitation nue, impudente et cynique.",
     "relatedConcepts": [
       "acc",
       "exploitation",
       "bourgeoisie"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "etymology": "Déverbal de « ausbeuten » (extraire le minerai ou le butin utile).",
+    "wordIds": [
+      "ch1_p14_s5_w27"
+    ]
   },
   "ch1_p10_s3_w13": {
     "wordId": "ch1_p10_s3_w13",
@@ -6441,7 +8043,10 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w13"
+    ]
   },
   "ch1_p10_s3_w28": {
     "wordId": "ch1_p10_s3_w28",
@@ -6452,6 +8057,140 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat"
     ],
+    "difficulty": "intermediate",
+    "wordIds": [
+      "ch1_p10_s3_w28"
+    ]
+  },
+  "ch1_p14_s3_w15": {
+    "wordId": "ch1_p14_s3_w15",
+    "translationFr": "petite-bourgeoise / philistine",
+    "literalTranslation": "de petit-bourgeois étriqué",
+    "grammaticalRole": "Adjectif qualificatif au génitif féminin singulier, épithète de Wehmut.",
+    "wordIds": [
+      "ch1_p14_s3_w15"
+    ],
+    "etymology": "Dérivé de « Spießbürger » (petit-bourgeois borné, philistin). Composé historique de : 1° « der Spieß » (la pique de guerre, arme d'hast modeste des miliciens bourgeois gardant les remparts médiévaux, en moyen haut-allemand spiez, en vieux haut-allemand spioz, proto-germanique *speutaz) + 2° « der Bürger » (le bourgeois). Étymologie documentée chez Kluge et Pfeifer (le milicien armé d'une simple pique par opposition au noble à cheval et à l'épée est devenu une épithète méprisante d'étudiants désignant les boutiquiers timorés).",
+    "philosophicalContext": "Marx tourne en dérision les lamentations sentimentales et régressives des artisans et boutiquiers qui pleurent la dissolution de leurs corporations tranquilles sous les coups du grand capital.",
+    "relatedConcepts": [
+      "gen"
+    ],
+    "difficulty": "advanced"
+  },
+  "ch1_p14_s3_w11": {
+    "wordId": "ch1_p14_s3_w11",
+    "translationFr": "chevaleresque",
+    "literalTranslation": "propre aux chevaliers",
+    "grammaticalRole": "Adjectif qualificatif au génitif féminin singulier, épithète de Begeisterung.",
+    "wordIds": [
+      "ch1_p14_s3_w11"
+    ],
+    "etymology": "Dérivé en « -lich » de « Ritter » (chevalier noble, cavalier d'armes), emprunt du bas-allemand ou néerlandais « ridder », issu du verbe fort « reiten » (chevaucher, en vieux haut-allemand rītan, proto-germanique *rīdanan).",
+    "philosophicalContext": "L'idéal chevaleresque (prouesse, courtoisie, vœu de croisade) n'était qu'un fard poétique masquant la violence des seigneurs et l'assujettissement des serfs.",
+    "relatedConcepts": [
+      "gen",
+      "feudalism"
+    ],
     "difficulty": "intermediate"
+  },
+  "ch1_p14_s3_w7": {
+    "wordId": "ch1_p14_s3_w7",
+    "translationFr": "pieuse / religieuse",
+    "literalTranslation": "dévote, pieuse",
+    "grammaticalRole": "Adjectif qualificatif au génitif féminin singulier, épithète de Schwärmerei.",
+    "wordIds": [
+      "ch1_p14_s3_w7"
+    ],
+    "etymology": "Du moyen haut-allemand « vrum / vrom » (brave, vaillant, utile, pieux), vieux haut-allemand « fruma » (utilité, profit). Évolution sémantique de l'utilité chevaleresque vers la dévotion pieuse sous l'influence du christianisme médiéval.",
+    "philosophicalContext": "La piété médiévale fournissait la caution transcendante légitimant l'ordre féodal hiérarchique.",
+    "relatedConcepts": [
+      "gen"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p14_s3_w4": {
+    "wordId": "ch1_p14_s3_w4",
+    "translationFr": "sacrés",
+    "literalTranslation": "sacrés, consacrés",
+    "grammaticalRole": "Adjectif qualificatif à l'accusatif masculin pluriel, épithète de Schauer.",
+    "wordIds": [
+      "ch1_p14_s3_w4"
+    ],
+    "etymology": "Du moyen haut-allemand « heilic », vieux haut-allemand « heilig » (consacré, intact), dérivé de « heil » (sain, intègre, sauvé).",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p14_s3_w19": {
+    "wordId": "ch1_p14_s3_w19",
+    "translationFr": "glacée / glaciale",
+    "literalTranslation": "froide comme la glace",
+    "grammaticalRole": "Adjectif composé au datif neutre singulier, épithète de Wasser.",
+    "wordIds": [
+      "ch1_p14_s3_w19"
+    ],
+    "etymology": "Composé de « das Eis » (la glace, vieux haut-allemand īs) + « kalt » (froid, vieux haut-allemand kalt, proto-germanique *kaldaz).",
+    "relatedConcepts": [
+      "dat",
+      "comp_adj"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p14_s3_w21": {
+    "wordId": "ch1_p14_s3_w21",
+    "translationFr": "égoïste",
+    "literalTranslation": "rapporté à son propre intérêt",
+    "grammaticalRole": "Adjectif au génitif féminin singulier, épithète de Berechnung.",
+    "wordIds": [
+      "ch1_p14_s3_w21"
+    ],
+    "etymology": "Emprunté au français « égoïste », forgé au XVIIIe siècle sur le pronom latin « ego » (moi, je).",
+    "relatedConcepts": [
+      "gen"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p14_s2_w29": {
+    "wordId": "ch1_p14_s2_w29",
+    "translationFr": "nu / dépouillé",
+    "literalTranslation": "nu, sans fard",
+    "grammaticalRole": "Adjectif qualificatif à l'accusatif neutre singulier, épithète de Interesse.",
+    "wordIds": [
+      "ch1_p14_s2_w29"
+    ],
+    "etymology": "Du moyen haut-allemand « nacket », vieux haut-allemand « naccot », proto-germanique *nakwadaz (nu, dévêtu, cognat du latin nudus).",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p14_s2_w37": {
+    "wordId": "ch1_p14_s2_w37",
+    "translationFr": "paiement / règlement",
+    "literalTranslation": "action de compter les deniers, versement",
+    "grammaticalRole": "Nom féminin singulier à l'accusatif singulier.",
+    "wordIds": [
+      "ch1_p14_s2_w37"
+    ],
+    "etymology": "Déverbal en « -ung » du verbe « zahlen » (payer, en vieux haut-allemand zālōn, énumérer, compter, de Zahl / nombre).",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "basic"
+  },
+  "ch1_p14_s4_w4": {
+    "wordId": "ch1_p14_s4_w4",
+    "translationFr": "personnelle",
+    "literalTranslation": "propre à la personne",
+    "grammaticalRole": "Adjectif qualificatif à l'accusatif féminin singulier, épithète de Würde.",
+    "wordIds": [
+      "ch1_p14_s4_w4"
+    ],
+    "etymology": "Dérivé de « Person » (du latin persona, masque d'acteur, rôle, sujet de droit) avec le suffixe germanique « -lich ».",
+    "relatedConcepts": [
+      "acc"
+    ],
+    "difficulty": "basic"
   }
 };
