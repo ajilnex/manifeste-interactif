@@ -22,7 +22,8 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
     1. Chaque étymologie doit provenir du **DWDS / Wolfgang Pfeifer** (*Etymologisches Wörterbuch des Deutschen*), de **Duden** (*Herkunftswörterbuch*), des **frères Grimm** (*DWB*) ou de **Kluge**.
     2. **Interdiction d'inventer**.
     3. Si l'étymon ultime est débattu ou inconnu, **l'indiquer expressément** : `étymon discuté`, `étymologie incertaine`, ou `origine controversée` (ex: *Zweck*, *bis*, *Tausch*, *Europa*).
-    4. Indiquer le vieux haut-allemand (VHA), le moyen haut-allemand (MHA) et le proto-germanique reconstruit (*).
+    4. Indiquer les formes historiques **en toutes lettres** : « **en vieux haut-allemand** » et « **en moyen haut-allemand** », ainsi que le proto-germanique reconstruit (*). **Proscription absolue des sigles cryptiques `MHA` et `VHA`**, incompréhensibles pour le lecteur.
+    5. **Autonomie absolue de chaque encart** : **Interdiction formelle de renvois « voir supra » ou « voir infra »**. L'utilisateur accède aux mots au clic de manière indépendante : chaque mot ou composant d'un terme doit recevoir sa glose explicite et complète directement dans sa propre fiche.
 
 ---
 

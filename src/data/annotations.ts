@@ -143,7 +143,7 @@ export const annotations: Record<string, Annotation> = {
     "literalTranslation": "chasse à courre avec meute de chiens excités, battue impitoyable",
     "contextNote": "Mot très dur du registre de la vénerie. Hetzen signifie lancer les chiens et traquer la bête sans lui laisser de répit. Lafargue a traduit par « pour traquer ce spectre » afin de conserver le dynamisme de la chasse.",
     "grammaticalRole": "Nom composé féminin (die Hetzjagd), au datif singulier après la préposition « zu » indiquant ici le but de la coalition.",
-    "etymology": "Composé cynégétique associant : 1° « hetzen » (MHA « hetzen », VHA « hezzen »), formation causative germanique (*hatjanan) rattachée au verbe « hassen » (vieux haut-allemand « hazzōn », racine germanique commune *hataz « haine ») signifiant originellement « exciter à la haine, lancer les meutes de chiens aux trousses de la bête pour la traquer » ; 2° « die Jagd » (MHA « jaget », VHA « jagōd », déverbal de jagōn = chasser, poursuivre à vive allure). Marx détourne sarcastiquement le vocabulaire de la vénerie aristocratique pour dépeindre la Sainte-Alliance comme une meute de veneurs lancée aux trousses du spectre communiste.",
+    "etymology": "Composé cynégétique associant : 1° « hetzen » (en moyen haut-allemand « hetzen », en vieux haut-allemand « hezzen »), formation causative germanique (*hatjanan) rattachée au verbe « hassen » (vieux haut-allemand « hazzōn », racine germanique commune *hataz « haine ») signifiant originellement « exciter à la haine, lancer les meutes de chiens aux trousses de la bête pour la traquer » ; 2° « die Jagd » (en moyen haut-allemand « jaget », en vieux haut-allemand « jagōd », déverbal de jagōn = chasser, poursuivre à vive allure). Marx détourne sarcastiquement le vocabulaire de la vénerie aristocratique pour dépeindre la Sainte-Alliance comme une meute de veneurs lancée aux trousses du spectre communiste.",
     "philosophicalContext": "Marx dénonce la sauvagerie bestiale des gouvernements qui traitent les militants politiques comme du gibier traqué par des meutes policières.",
     "relatedConcepts": [
       "comp_noun",
@@ -169,7 +169,7 @@ export const annotations: Record<string, Annotation> = {
     "literalTranslation": "se sont liées en alliance (au parfait avec sich)",
     "contextNote": "Ironie linguistique magistrale : Marx utilise « sich verbünden » (se liguer) pour décrire les monarques, alors que les communistes forment précisément la « Ligue » (der Bund der Kommunisten).",
     "grammaticalRole": "Participe passé (Partizip II) du verbe pronominal « sich verbünden », formant le parfait (passé composé) avec l'auxiliaire « haben » placé en position 2.",
-    "etymology": "Participe passé du verbe « verbünden », formé du préfixe transitif d'association « ver- » et du substantif « der Bund » (MHA « bunt », VHA « bunt » = alliance, pacte, ligue), lui-même déverbal à l'apophonie (Ablaut) du verbe fort germanique « binden » (lier, attacher, issu de la racine indo-européenne *bʰendʰ- d'où découlent le sanskrit bandha et l'anglais bind / bond). Évoque le pacte juré liant des puissances autrefois rivales contre un ennemi commun.",
+    "etymology": "Participe passé du verbe « verbünden », formé du préfixe transitif d'association « ver- » et du substantif « der Bund » (en moyen haut-allemand « bunt », en vieux haut-allemand « bunt » = alliance, pacte, ligue), lui-même déverbal à l'apophonie (Ablaut) du verbe fort germanique « binden » (lier, attacher, issu de la racine indo-européenne *bʰendʰ- d'où découlent le sanskrit bandha et l'anglais bind / bond). Évoque le pacte juré liant des puissances autrefois rivales contre un ennemi commun.",
     "syntaxNote": "Cadre syntaxique (Satzklammer) : l'auxiliaire « haben » est en début d'énoncé (pos. 2) et le participe « verbündet » est repoussé à la fin de la proposition principale.",
     "relatedConcepts": [
       "v2",
@@ -431,7 +431,7 @@ export const annotations: Record<string, Annotation> = {
     "literalTranslation": "deux choses de sortes différentes, double élément",
     "contextNote": "Lafargue traduit par « un double enseignement ». En allemand, le suffixe -erlei exprime la diversité des espèces (cf. allerlei, mancherlei).",
     "grammaticalRole": "Pronom indéfini neutre invariable marquant une double réalité.",
-    "etymology": "Adjectif numéral indéfini invariable formé sur le génitif cardinal « zwei » (deux, du vieux haut-allemand zweio, racine indo-européenne *dwóh₁) adjoint du suffixe moyen haut-allemand « -erlei » (issu du génitif pluriel des adjectifs fléchis en *-ero-* et du substantif MHA « leie / leye » = manière, espèce, sorte, emprunt médiéval à l'ancien français 'lai' / coutume, façon, d'origine ultime discutée). Signifie textuellement « de deux natures distinctes, double enseignement ».",
+    "etymology": "Adjectif numéral indéfini invariable formé sur le génitif cardinal « zwei » (deux, du vieux haut-allemand zweio, racine indo-européenne *dwóh₁) adjoint du suffixe moyen haut-allemand « -erlei » (issu du génitif pluriel des adjectifs fléchis en *-ero-* et du substantif en moyen haut-allemand « leie / leye » = manière, espèce, sorte, emprunt médiéval à l'ancien français 'lai' / coutume, façon, d'origine ultime discutée). Signifie textuellement « de deux natures distinctes, double enseignement ».",
     "syntaxNote": "Occupe la première position de la proposition, entraînant obligatoirement l'inversion sujet-verbe (Verbzweitstellung : geht).",
     "relatedConcepts": [
       "v2"
@@ -5051,7 +5051,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p9_s2_w4",
       "ch1_p9_s2_w7"
     ],
-    "etymology": "Verbe composé séparable unissant la préposition-adverbe germanique « aus » (hors de, complètement, VHA « ūz », proto-germanique *ūt) et le verbe « reichen » (tendre, atteindre, suffire, MHA « reichen », VHA « reihhen », proto-germanique *raikijaną = tendre le bras pour saisir, atteindre une mesure).",
+    "etymology": "Verbe composé séparable unissant la préposition-adverbe germanique « aus » (hors de, complètement, en vieux haut-allemand « ūz », proto-germanique *ūt) et le verbe « reichen » (tendre, atteindre, suffire, en moyen haut-allemand « reichen », en vieux haut-allemand « reihhen », proto-germanique *raikijaną = tendre le bras pour saisir, atteindre une mesure).",
     "syntaxNote": "Parenthèse verbale allemande (Satzklammer) : le verbe recteur conjugué « reichte » est séparé de son préverbe « aus » par la négation « nicht mehr ».",
     "relatedConcepts": [
       "sep_verb",
@@ -5093,7 +5093,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "la vapeur",
     "literalTranslation": "la vapeur d'eau sous pression (force motrice thermomécanique)",
     "grammaticalRole": "Nom masculin singulier (der Dampf) au nominatif, premier sujet grammatical coordonné de « revolutionierte ».",
-    "etymology": "Issu du moyen haut-allemand « tampf » (vapeur, fumée chaude étouffante), vieux haut-allemand « damph » (XIe siècle). Proto-germanique *dampaz (vapeur, fumée), substantif apophonique rattaché au verbe fort VHA « dimpfen » (fumer sans flamme) et au causatif germanique *dampjanan (allemand moderne dämpfen = étouffer, cuire à la vapeur). Cognat direct du néerlandais « damp » et de l'anglais « damp ».",
+    "etymology": "Issu du moyen haut-allemand « tampf » (vapeur, fumée chaude étouffante), vieux haut-allemand « damph » (XIe siècle). Proto-germanique *dampaz (vapeur, fumée), substantif apophonique rattaché au verbe fort en vieux haut-allemand « dimpfen » (fumer sans flamme) et au causatif germanique *dampjanan (allemand moderne dämpfen = étouffer, cuire à la vapeur). Cognat direct du néerlandais « damp » et de l'anglais « damp ».",
     "philosophicalContext": "La machine à vapeur (perfectionnée par James Watt) émancipe la manufacture des cours d'eau ruraux et permet la concentration gigantesque des usines dans les métropoles charbonnières.",
     "relatedConcepts": [
       "nom",
@@ -5175,7 +5175,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p9_s4_w9",
       "ch1_p9_s4_w10"
     ],
-    "etymology": "« Industrie » : emprunté au XVIIIe siècle au français « industrie », issu du latin classique « industria » (application zélée, activité laborieuse assidue, composé de l'adverbe archaïque *endo- / indu- = dedans, à l'intérieur, et de la racine de struere = bâtir, agencer). « groß » : MHA grōz, VHA grōz, proto-germanique *grauta- (grossier, épais, grand).",
+    "etymology": "« Industrie » : emprunté au XVIIIe siècle au français « industrie », issu du latin classique « industria » (application zélée, activité laborieuse assidue, composé de l'adverbe archaïque *endo- / indu- = dedans, à l'intérieur, et de la racine de struere = bâtir, agencer). « groß » : en moyen haut-allemand grōz, en vieux haut-allemand grōz, proto-germanique *grauta- (grossier, épais, grand).",
     "philosophicalContext": "La « grande industrie » (Großindustrie) constitue pour Marx la forme achevée du mode de production capitaliste, où la production n'est plus limitée par l'habileté manuelle mais soumise au rythme automatique de la machinerie universelle.",
     "cognatesFr": [
       "industrie",
@@ -5193,7 +5193,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "de la classe moyenne industrielle",
     "literalTranslation": "de l'état intermédiaire / de la bourgeoisie moyenne de manufacture (génitif masculin singulier)",
     "grammaticalRole": "Nom masculin composé (der Mittelstand) au génitif singulier en -es après « des industriellen », complément de nom de « Stelle ».",
-    "etymology": "Composé associant : 1° « mittel- » (moyen, central, du MHA mittel, VHA mittil, proto-germanique *medila-, dérivé de *medjaz / milieu, cf. latin medius) ; 2° « der Stand » (ordre social, état, statut, déverbal apophonique du verbe stehen / se tenir debout, VHA stant).",
+    "etymology": "Composé associant : 1° « mittel- » (moyen, central, du moyen haut-allemand mittel, en vieux haut-allemand mittil, proto-germanique *medila-, dérivé de *medjaz / milieu, cf. latin medius) ; 2° « der Stand » (ordre social, état, statut, déverbal apophonique du verbe stehen / se tenir debout, en vieux haut-allemand stant).",
     "philosophicalContext": "Marx désigne par « industrieller Mittelstand » les petits patrons de manufactures et maîtres artisans qui formaient la classe moyenne entre les seigneurs féodaux et les plébéiens, avant d'être évincés par la concentration du grand capital.",
     "relatedConcepts": [
       "gen",
@@ -5259,7 +5259,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "les bourgeois modernes",
     "literalTranslation": "les bourgeois modernes (nominatif pluriel)",
     "grammaticalRole": "Nom masculin pluriel invariable (der Bourgeois -> die Bourgeois) au nominatif, ultime apposition fermant la longue période.",
-    "etymology": "Emprunt au français « bourgeois », dérivé de « bourg » (cité marchande fortifiée), issu du bas-latin « burgus », lui-même emprunté au germanique commun *burgz (hauteur fortifiée, château fort, VHA burg, allemand moderne Burg).",
+    "etymology": "Emprunt au français « bourgeois », dérivé de « bourg » (cité marchande fortifiée), issu du bas-latin « burgus », lui-même emprunté au germanique commun *burgz (hauteur fortifiée, château fort, en vieux haut-allemand burg, allemand moderne Burg).",
     "philosophicalContext": "La genèse se conclut : le bourgeois moderne n'est plus l'habitant timoré d'un bourg médiéval, mais le maître cosmopolite des armées de travailleurs salariés et du marché mondial.",
     "cognatesFr": [
       "bourgeois",
@@ -5277,7 +5277,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "le marché mondial",
     "literalTranslation": "le marché mondial (COD à l'accusatif masculin singulier)",
     "grammaticalRole": "Nom masculin singulier composé (der Weltmarkt) à l'accusatif singulier après l'article masculin « den », complément d'objet direct de « hergestellt ».",
-    "etymology": "Composé associant : 1° « die Welt » (MHA werlt / welt, VHA weralt / werolt, littéralement 'l'âge de l'homme', composé germanique de *wira- / homme, latin vir, et de *aldi- / âge, génération, cf. alt/old) ; 2° « der Markt » (emprunt du VIIIe siècle au latin classique mercātus / commerce, foire, de merx = marchandise). Le composé « Weltmarkt » apparaît au début du XIXe siècle chez Goethe et les économistes libéraux.",
+    "etymology": "Composé associant : 1° « die Welt » (en moyen haut-allemand werlt / welt, en vieux haut-allemand weralt / werolt, littéralement 'l'âge de l'homme', composé germanique de *wira- / homme, latin vir, et de *aldi- / âge, génération, cf. alt/old) ; 2° « der Markt » (emprunt du VIIIe siècle au latin classique mercātus / commerce, foire, de merx = marchandise). Le composé « Weltmarkt » apparaît au début du XIXe siècle chez Goethe et les économistes libéraux.",
     "philosophicalContext": "Concept fondamental du matérialisme historique : le marché mondial est à la fois la condition préalable et le résultat achevé du mode de production capitaliste, brisant tous les particularismes nationaux et locaux.",
     "cognatesFr": [
       "marché",
@@ -5295,7 +5295,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "créé / établi",
     "literalTranslation": "établi, mis sur pied, produit (participe passé du verbe à particule her|stellen)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe à particule séparable « her|stellen », formant le passé composé (Perfekt) avec l'auxiliaire « hat » placé en position 2.",
-    "etymology": "Verbe composé séparable associant l'adverbe déictique « her » (vers ici, du VHA hera / herot = en venant vers le locuteur) et le verbe « stellen » (poser debout, placer, VHA stellen, causatif de stehen). Au sens d'établir durablement ou de fabriquer industriellement à partir du XVIIIe siècle.",
+    "etymology": "Verbe composé séparable associant l'adverbe déictique « her » (vers ici, du vieux haut-allemand hera / herot = en venant vers le locuteur) et le verbe « stellen » (poser debout, placer, en vieux haut-allemand stellen, causatif de stehen). Au sens d'établir durablement ou de fabriquer industriellement à partir du XVIIIe siècle.",
     "syntaxNote": "Parenthèse verbale de proposition principale : « hat » (V2) régit le participe séparable « hergestellt » repoussé en fin de proposition principale avant la relative.",
     "relatedConcepts": [
       "sep_verb",
@@ -5321,7 +5321,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "avait préparé / prépara",
     "literalTranslation": "prépara d'avance, fraya la voie à (verbe faible au prétérit)",
     "grammaticalRole": "Verbe faible composé (vor|bereiten) à la 3e personne du singulier du prétérit de l'indicatif. Rejeté en fin de subordonnée relative.",
-    "etymology": "Composé du préfixe adverbial « vor » (en avant, préalablement, VHA fora) et du verbe faible « bereiten » (rendre prêt, apprêter, MHA bereiten, dérivé de l'adjectif bereit = prêt, équipé, VHA bireiti).",
+    "etymology": "Composé du préfixe adverbial « vor » (en avant, préalablement, en vieux haut-allemand fora) et du verbe faible « bereiten » (rendre prêt, apprêter, en moyen haut-allemand bereiten, dérivé de l'adjectif bereit = prêt, équipé, en vieux haut-allemand bireiti).",
     "relatedConcepts": [
       "sub_clause",
       "prefix_verb"
@@ -5333,7 +5333,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "au commerce",
     "literalTranslation": "au négoce, aux échanges marchands (datif singulier masculin)",
     "grammaticalRole": "Nom masculin singulier (der Handel) au datif singulier après « dem », premier COI d'attribution du verbe « hat ... gegeben ».",
-    "etymology": "Issu du moyen haut-allemand « handel » (maniement, besogne, affaire, négoce), déverbal de « handeln » (agir, commercer, manier), dérivé de « die Hand » (la main, VHA hant, proto-germanique *handuz = l'organe qui prend, saisit).",
+    "etymology": "Issu du moyen haut-allemand « handel » (maniement, besogne, affaire, négoce), déverbal de « handeln » (agir, commercer, manier), dérivé de « die Hand » (la main, en vieux haut-allemand hant, proto-germanique *handuz = l'organe qui prend, saisit).",
     "relatedConcepts": [
       "dat"
     ],
@@ -5344,7 +5344,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "à la navigation",
     "literalTranslation": "au voyage par bateau, à la navigation maritime et fluviale (datif singulier féminin)",
     "grammaticalRole": "Nom féminin composé (die Schiffahrt) au datif singulier après « der », deuxième COI coordonné.",
-    "etymology": "Composé de : 1° « das Schiff » (MHA schif, VHA skif, proto-germanique *skipą = navire, cognat de l'anglais ship) ; 2° « die Fahrt » (voyage, trajet, MHA vart, VHA fart, déverbal apophonique du verbe fort fahren = se déplacer, racine indo-européenne *per- = passer à travers, traverser).",
+    "etymology": "Composé de : 1° « das Schiff » (en moyen haut-allemand schif, en vieux haut-allemand skif, proto-germanique *skipą = navire, cognat de l'anglais ship) ; 2° « die Fahrt » (voyage, trajet, en moyen haut-allemand vart, en vieux haut-allemand fart, déverbal apophonique du verbe fort fahren = se déplacer, racine indo-européenne *per- = passer à travers, traverser).",
     "relatedConcepts": [
       "dat",
       "comp_noun"
@@ -5356,7 +5356,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "aux voies de communication par terre",
     "literalTranslation": "aux communications terrestres (datif pluriel féminin)",
     "grammaticalRole": "Nom féminin pluriel composé (die Landkommunikation -> die Landkommunikationen) au datif pluriel avec désinence en -en après « den », troisième COI coordonné.",
-    "etymology": "Composé associant : 1° « das Land » (la terre, terre ferme, contrée, MHA lant, VHA lant, proto-germanique *landą) ; 2° « die Kommunikation », emprunt savant au latin classique « communicatio » (partage, mise en commun), dérivé de « communicare » (rendre commun), formé sur « communis » (commun, public).",
+    "etymology": "Composé associant : 1° « das Land » (la terre, terre ferme, contrée, en moyen haut-allemand lant, en vieux haut-allemand lant, proto-germanique *landą) ; 2° « die Kommunikation », emprunt savant au latin classique « communicatio » (partage, mise en commun), dérivé de « communicare » (rendre commun), formé sur « communis » (commun, public).",
     "cognatesFr": [
       "communication",
       "communiquer",
@@ -5374,7 +5374,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "une impulsion incommensurable / prodigieuse",
     "literalTranslation": "qui ne peut être mesuré, sans commune mesure (accusatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif (unermeßlich) à l'accusatif féminin singulier en -e après l'article indéfini « eine » (flexion mixte), qualifiant « Entwicklung ».",
-    "etymology": "Composé du préfixe privatif germanique « un- », du préfixe verbal d'achèvement « er- », du radical du verbe fort « messen » (mesurer, MHA mezzen, VHA mezzan, proto-germanique *metaną, racine indo-européenne *med- = peser, mesurer) et du suffixe adjectival de potentialité « -lich ».",
+    "etymology": "Composé du préfixe privatif germanique « un- », du préfixe verbal d'achèvement « er- », du radical du verbe fort « messen » (mesurer, en moyen haut-allemand mezzen, en vieux haut-allemand mezzan, proto-germanique *metaną, racine indo-européenne *med- = peser, mesurer) et du suffixe adjectival de potentialité « -lich ».",
     "cognatesFr": [
       "mesure",
       "mètre"
@@ -5390,7 +5390,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "l'extension",
     "literalTranslation": "l'étirement vers l'extérieur, l'agrandissement de l'aire productive (accusatif singulier)",
     "grammaticalRole": "Nom féminin singulier (die Ausdehnung) à l'accusatif singulier après la préposition directrice « auf » régissant l'accusatif.",
-    "etymology": "Substantif d'action en « -ung » dérivé du verbe à particule séparable « aus|dehnen » (étirer, étendre au loin). Composé de « aus » (hors de, au loin) et du verbe « dehnen » (étirer, tendre, MHA denen, VHA denen, proto-germanique *þanjaną, issu de la racine indo-européenne *ten- = tendre, étendre, cognat du latin tendere et du grec teinō).",
+    "etymology": "Substantif d'action en « -ung » dérivé du verbe à particule séparable « aus|dehnen » (étirer, étendre au loin). Composé de « aus » (hors de, au loin) et du verbe « dehnen » (étirer, tendre, en moyen haut-allemand denen, en vieux haut-allemand denen, proto-germanique *þanjaną, issu de la racine indo-européenne *ten- = tendre, étendre, cognat du latin tendere et du grec teinō).",
     "cognatesFr": [
       "extension",
       "étendre",
@@ -5407,7 +5407,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "réagi en retour / eu des répercussions",
     "literalTranslation": "agi en retour, exercé un effet rétroactif (participe passé du verbe zurück|wirken)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe à particule séparable « zurück|wirken », formant le passé composé (Perfekt) avec l'auxiliaire « hat ».",
-    "etymology": "Composé séparable associant l'adverbe « zurück » (en arrière, vers l'arrière, contraction du moyen haut-allemand ze rücke = vers le dos, de Rücken / dos) et du verbe « wirken » (agir, produire un effet, opérer, MHA wirken, VHA wurken / wirkan, proto-germanique *wurkjaną, rattaché à la racine indo-européenne *werǵ- = travailler, agir, d'où proviennent l'allemand Werk et l'anglais work).",
+    "etymology": "Composé séparable associant l'adverbe « zurück » (en arrière, vers l'arrière, contraction du moyen haut-allemand ze rücke = vers le dos, de Rücken / dos) et du verbe « wirken » (agir, produire un effet, opérer, en moyen haut-allemand wirken, en vieux haut-allemand wurken / wirkan, proto-germanique *wurkjaną, rattaché à la racine indo-européenne *werǵ- = travailler, agir, d'où proviennent l'allemand Werk et l'anglais work).",
     "philosophicalContext": "Application de la catégorie dialectique hégélienne d'action réciproque (« Wechselwirkung ») : les infrastructures de transport créées par l'industrie deviennent à leur tour la cause motrice qui démultiplie l'essor industriel.",
     "relatedConcepts": [
       "sep_verb",
@@ -5433,7 +5433,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "les chemins de fer",
     "literalTranslation": "les voies de fer (nominatif pluriel)",
     "grammaticalRole": "Nom féminin pluriel composé (die Eisenbahn -> die Eisenbahnen) au nominatif pluriel, sujet coordonné de « sich ausdehnten ».",
-    "etymology": "Composé moderne du premier tiers du XIXe siècle : 1° « das Eisen » (MHA īsen, VHA īsan, proto-germanique *īsarnan = fer, emprunt au celtique *īsarnon) ; 2° « die Bahn » (MHA ban / bane = chemin frayé, voie ouverte, VHA bana, rattaché à la racine germanique *banan = frapper, ouvrir un passage à coups).",
+    "etymology": "Composé moderne du premier tiers du XIXe siècle : 1° « das Eisen » (en moyen haut-allemand īsen, en vieux haut-allemand īsan, proto-germanique *īsarnan = fer, emprunt au celtique *īsarnon) ; 2° « die Bahn » (en moyen haut-allemand ban / bane = chemin frayé, voie ouverte, en vieux haut-allemand bana, rattaché à la racine germanique *banan = frapper, ouvrir un passage à coups).",
     "philosophicalContext": "Pour Marx, le chemin de fer est l'incarnation technologique suprême de l'anéantissement de l'espace par le temps (« Vernichtung des Raums durch die Zeit ») nécessaire à la rotation rapide du capital.",
     "relatedConcepts": [
       "nom",
@@ -5466,7 +5466,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "léguées par le moyen âge",
     "literalTranslation": "remises par tradition depuis le Moyen Âge (participe passé adjectivé)",
     "grammaticalRole": "Participe passé adjectivé du verbe inséparable « überliefern », décliné à l'accusatif féminin pluriel en -en, qualifiant « Klassen ».",
-    "etymology": "Composé du préfixe inséparable de transmission « über- » (par-dessus, à travers les générations) et du verbe « liefern » (remettre, livrer, MHA leveren, emprunt à l'ancien français livrer, du latin classique liberare / rendre libre, remettre en possession).",
+    "etymology": "Composé du préfixe inséparable de transmission « über- » (par-dessus, à travers les générations) et du verbe « liefern » (remettre, livrer, en moyen haut-allemand leveren, emprunt à l'ancien français livrer, du latin classique liberare / rendre libre, remettre en possession).",
     "relatedConcepts": [
       "acc",
       "prefix_verb"
@@ -5478,7 +5478,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "à l'arrière-plan",
     "literalTranslation": "au fond de la scène, à l'arrière-plan (accusatif directionnel)",
     "grammaticalRole": "Nom masculin composé (der Hintergrund) à l'accusatif après la préposition directrice « in den » dans la locution « in den Hintergrund drängen » (reléguer à l'arrière-plan, refouler).",
-    "etymology": "Composé spatial associant : 1° l'adverbe-préposition « hinter » (derrière, en arrière, MHA hinter, VHA hintar, comparatif germanique issu de la racine indo-européenne *ḱen- / en arrière) ; 2° « der Grund » (le fond, sol, fondement, MHA grunt, VHA grunt, proto-germanique *grunduz).",
+    "etymology": "Composé spatial associant : 1° l'adverbe-préposition « hinter » (derrière, en arrière, en moyen haut-allemand hinter, en vieux haut-allemand hintar, comparatif germanique issu de la racine indo-européenne *ḱen- / en arrière) ; 2° « der Grund » (le fond, sol, fondement, en moyen haut-allemand grunt, en vieux haut-allemand grunt, proto-germanique *grunduz).",
     "philosophicalContext": "Métaphore scénographique de l'histoire : la bourgeoisie n'élimine pas instantanément les corporations et la paysannerie servile, mais elle les relègue dans les coulisses de la scène économique où seul règne désormais l'antagonisme moderne.",
     "relatedConcepts": [
       "acc",
@@ -5510,7 +5510,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "d'un long développement / d'une longue évolution",
     "literalTranslation": "d'un long cours de déploiement (génitif masculin singulier)",
     "grammaticalRole": "Nom masculin composé (der Entwicklungsgang) au génitif singulier en -es après « eines langen », premier complément déterminatif du nom « Produkt ».",
-    "etymology": "Composé associant : 1° « die Entwicklung » (déploiement de ce qui était enveloppé, de ent- et wickeln, calque d'explicatio) ; 2° le « -s- » de liaison du génitif ; 3° « der Gang » (marche, cheminement, cours des choses, MHA ganc, VHA gang, substantif apophonique du verbe fort gehen, proto-germanique *gangaz).",
+    "etymology": "Composé associant : 1° « die Entwicklung » (déploiement de ce qui était enveloppé, de ent- et wickeln, calque d'explicatio) ; 2° le « -s- » de liaison du génitif ; 3° « der Gang » (marche, cheminement, cours des choses, en moyen haut-allemand ganc, en vieux haut-allemand gang, substantif apophonique du verbe fort gehen, proto-germanique *gangaz).",
     "philosophicalContext": "La dialectique matérialiste conçoit la bourgeoisie à travers son « Entwicklungsgang » : une lente maturation matérielle où chaque stade technique dissout l'ordre politique précédent.",
     "relatedConcepts": [
       "gen",
@@ -5524,7 +5524,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "de révolutions / de bouleversements",
     "literalTranslation": "de renversements de fond en comble, de bouleversements radicaux (datif pluriel)",
     "grammaticalRole": "Nom féminin pluriel (die Umwälzung -> die Umwälzungen) au datif pluriel en -en après la préposition régissant le datif « von ».",
-    "etymology": "Substantif d'action en « -ung » dérivé du verbe « umwälzen » (bouleverser, faire rouler sens dessus dessous). Composé du préfixe séparable germanique « um- » (autour, renversement complet, VHA umbi) et du verbe « wälzen » (faire rouler avec force, MHA welzen, VHA welzen, causatif germanique *waltjanan sur le verbe fort walzan / rouler, tourner, d'où dérive la valse, racine indo-européenne *wel-).",
+    "etymology": "Substantif d'action en « -ung » dérivé du verbe « umwälzen » (bouleverser, faire rouler sens dessus dessous). Composé du préfixe séparable germanique « um- » (autour, renversement complet, en vieux haut-allemand umbi) et du verbe « wälzen » (faire rouler avec force, en moyen haut-allemand welzen, en vieux haut-allemand welzen, causatif germanique *waltjanan sur le verbe fort walzan / rouler, tourner, d'où dérive la valse, racine indo-européenne *wel-).",
     "philosophicalContext": "Le terme « Umwälzung » est chez Marx la désignation rigoureuse des ruptures qualitatives brutales qui refondent l'infrastructure économique, par contraste avec les simples réformes quantitatives.",
     "relatedConcepts": [
       "dat",
@@ -5538,7 +5538,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "dans le mode de production",
     "literalTranslation": "dans le mode de production (nom composé tronqué par trait d'union de suspension)",
     "grammaticalRole": "Nom composé féminin avec trait d'union de suspension (« Ergänzungsbindestrich »), coordonné par « und » avec « Verkehrsweise », au datif singulier après « in der ».",
-    "etymology": "Composé de : 1° « die Produktion » (du latin productio) ; 2° « -s- » ; 3° le noyau sous-entendu « die Weise » (façon, mode, manière, MHA wīse, VHA wīsa, proto-germanique *wīsō-, issu de la racine indo-européenne *weyd- = voir, savoir, cognat du latin videre).",
+    "etymology": "Composé de : 1° « die Produktion » (du latin productio) ; 2° « -s- » ; 3° le noyau sous-entendu « die Weise » (façon, mode, manière, en moyen haut-allemand wīse, en vieux haut-allemand wīsa, proto-germanique *wīsō-, issu de la racine indo-européenne *weyd- = voir, savoir, cognat du latin videre).",
     "philosophicalContext": "Concept fondamental du marxisme : le « mode de production » (Produktionsweise) désigne l'articulation historiquement déterminée des forces productives matérielles et des rapports sociaux de production.",
     "syntaxNote": "Ellipse morphosyntaxique : la forme tronquée « Produktions- » partage le second terme composé « -weise » avec « Verkehrsweise », évitant la redondance phonétique.",
     "relatedConcepts": [
@@ -5553,7 +5553,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "et d'échange / de circulation",
     "literalTranslation": "et mode de circulation marchande et de communication sociale (datif singulier féminin)",
     "grammaticalRole": "Nom féminin singulier composé (die Verkehrsweise) au datif singulier après « in der », coordonné à « Produktions- ».",
-    "etymology": "Composé unissant : 1° « der Verkehr » (déverbal de verkehren = échanger, fréquenter, tourner en sens inverse, formé de ver- et kehren, MHA kēren, VHA kēran = tourner, proto-germanique *kaizjanan) ; 2° « -s- » ; 3° « die Weise » (mode, manière).",
+    "etymology": "Composé unissant : 1° « der Verkehr » (déverbal de verkehren = échanger, fréquenter, tourner en sens inverse, formé de ver- et kehren, en moyen haut-allemand kēren, en vieux haut-allemand kēran = tourner, proto-germanique *kaizjanan) ; 2° « -s- » ; 3° « die Weise » (mode, manière).",
     "philosophicalContext": "Dans L'Idéologie allemande (1845), Marx et Engels désignaient par « Verkehrsform » ou « Verkehrsweise » les formes d'interaction et d'échange économique avant de systématiser le concept de rapports de production.",
     "relatedConcepts": [
       "dat",
@@ -5567,7 +5567,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "étapes de l'évolution / degrés de développement",
     "literalTranslation": "marches, degrés d'ascension du déploiement historique (génitif pluriel)",
     "grammaticalRole": "Nom féminin pluriel composé (die Entwicklungsstufe -> die Entwicklungsstufen) au génitif pluriel après le démonstratif « dieser ».",
-    "etymology": "Composé de : 1° « die Entwicklung » (développement, voir supra) + -s- ; 2° « die Stufe » (marche d'escalier, degré, échelon, MHA stuofe, VHA stuofa, proto-germanique *stōpō-, rattaché au verbe stapfen / marcher à pas pesants, racine indo-européenne *stebʰ- = fixer, fouler d'un pas ferme).",
+    "etymology": "Composé de : 1° « die Entwicklung » (développement, déploiement progressif de ce qui était enveloppé, formé du préfixe ent- marquant l'ouverture et de wickeln = enrouler) ; 2° le « -s- » de liaison ; 3° « die Stufe » (degré, échelon, marche d'escalier, en moyen haut-allemand stuofe, en vieux haut-allemand stuofa, proto-germanique *stōpō-, rattaché au verbe stapfen / marcher à pas pesants, racine indo-européenne *stebʰ- = fixer, fouler d'un pas ferme).",
     "philosophicalContext": "Les « Entwicklungsstufen » traduisent l'historicité dialectique : à chaque avancée dans l'infrastructure économique correspond une conquête politique correspondante de la bourgeoisie.",
     "relatedConcepts": [
       "gen",
@@ -5581,7 +5581,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "progrès politique",
     "literalTranslation": "pas en avant politique (datif masculin singulier avec -e archaïque)",
     "grammaticalRole": "Nom masculin singulier (der Fortschritt) au datif singulier portant le « -e » archaïque de datif (Dativ-e), régi par la préposition « von » régissant le complément d'agent.",
-    "etymology": "Composé unissant : 1° l'adverbe dynamique « fort » (en avant, au loin, MHA vort, VHA fora / fort) ; 2° « der Schritt » (le pas, MHA schrit, déverbal apophonique de schreiten = marcher à pas mesurés, proto-germanique *skrīþaną). Calque humaniste du latin progressus.",
+    "etymology": "Composé unissant : 1° l'adverbe dynamique « fort » (en avant, au loin, en moyen haut-allemand vort, en vieux haut-allemand fora / fort) ; 2° « der Schritt » (le pas, en moyen haut-allemand schrit, déverbal apophonique de schreiten = marcher à pas mesurés, proto-germanique *skrīþaną). Calque humaniste du latin progressus.",
     "philosophicalContext": "Le « progrès » politique est matérialistement redéfini : il n'est pas une marche abstraite vers la liberté morale, mais la mise en accord de l'appareil d'État avec les impératifs de la classe montante.",
     "relatedConcepts": [
       "dat",
@@ -5594,7 +5594,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "classe opprimée / ordre opprimé",
     "literalTranslation": "état social opprimé sous le joug féodal (nominatif masculin sans article)",
     "grammaticalRole": "Nom masculin singulier (der Stand) au nominatif sans article qualifié par l'adjectif « unterdrückter », première apposition historique caractérisant le sujet « sie » (la bourgeoisie).",
-    "etymology": "Issu du moyen haut-allemand « stant » (état, statut, rang d'ordre, tenue), vieux haut-allemand « stant ». Déverbal apophonique du verbe fort « stehen » (se tenir debout, VHA stān / stēn, proto-germanique *standaną, racine indo-européenne *steh₂-). Équivalent direct du latin status (condition, état social).",
+    "etymology": "Issu du moyen haut-allemand « stant » (état, statut, rang d'ordre, tenue), vieux haut-allemand « stant ». Déverbal apophonique du verbe fort « stehen » (se tenir debout, en vieux haut-allemand stān / stēn, proto-germanique *standaną, racine indo-européenne *steh₂-). Équivalent direct du latin status (condition, état social).",
     "philosophicalContext": "Distinction capitale entre « Stand » (ordre d'Ancien Régime défini par des privilèges coutumiers et de sang) et « Klasse » (classe moderne définie par les rapports économiques de production). La bourgeoisie naît comme ordre asservi avant de devenir classe dominante.",
     "relatedConcepts": [
       "nom",
@@ -5608,7 +5608,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "des seigneurs féodaux",
     "literalTranslation": "des maîtres de fief féodaux (génitif pluriel masculin à déclinaison faible)",
     "grammaticalRole": "Nom masculin composé à déclinaison faible (der Feudalherr, des Feudalherrn -> die Feudalherren) au génitif pluriel après « der », complément déterminatif de « Herrschaft ».",
-    "etymology": "Composé associant : 1° « feudal » (du bas-latin feudum = fief, emprunt au vieux bas-francique *fehu-ōd / bétail-possession, cf. allemand Vieh et anglais fee) ; 2° « der Herr » (seigneur, maître, VHA hērro, comparatif substantivé de l'adjectif hēr = noble, vénérable, aux cheveux blancs, proto-germanique *hairaz).",
+    "etymology": "Composé associant : 1° « feudal » (du bas-latin feudum = fief, emprunt au vieux bas-francique *fehu-ōd / bétail-possession, cf. allemand Vieh et anglais fee) ; 2° « der Herr » (seigneur, maître, en vieux haut-allemand hērro, comparatif substantivé de l'adjectif hēr = noble, vénérable, aux cheveux blancs, proto-germanique *hairaz).",
     "relatedConcepts": [
       "gen",
       "comp_noun",
@@ -5655,7 +5655,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "taillable / soumis à l'impôt",
     "literalTranslation": "soumis à l'obligation de l'impôt de la couronne (adjectif au nominatif masculin singulier)",
     "grammaticalRole": "Adjectif composé au nominatif masculin singulier en -er (flexion forte sans article), qualifiant « Stand ».",
-    "etymology": "Composé associant : 1° « die Steuer » (l'impôt royal, la contribution, VHA stiura = soutien matériel, aide, mât d'appui, proto-germanique *stiurjō-) ; 2° « pflichtig » (obligé par devoir, astreint par la loi, dérivé en -ig de Pflicht / devoir, déverbal de pflegen = prendre soin, s'engager, VHA pflegan).",
+    "etymology": "Composé associant : 1° « die Steuer » (l'impôt royal, la contribution, en vieux haut-allemand stiura = soutien matériel, aide, mât d'appui, proto-germanique *stiurjō-) ; 2° « pflichtig » (obligé par devoir, astreint par la loi, dérivé en -ig de Pflicht / devoir, déverbal de pflegen = prendre soin, s'engager, en vieux haut-allemand pflegan).",
     "philosophicalContext": "Allusion historique directe au « Tiers État » en France sous la monarchie d'Ancien Régime : l'ordre roturier taillable et corvéable à merci, qui finançait à lui seul les guerres et le faste de la monarchie absolue.",
     "relatedConcepts": [
       "nom",
@@ -5669,7 +5669,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "contrepoids (de la noblesse)",
     "literalTranslation": "poids d'équilibre opposé sur la balance politique",
     "grammaticalRole": "Nom neutre singulier composé (das Gegengewicht) au nominatif sans article, apposition descriptive.",
-    "etymology": "Composé unissant : 1° la préposition d'opposition spatiale « gegen » (contre, à l'opposé de, VHA gagan / gegin) ; 2° « das Gewicht » (le poids, la masse pesante, MHA gewiht, VHA giwiht, dérivé en -t du verbe fort wiegen / peser, proto-germanique *wehtiz, racine indo-européenne *weǵʰ- = mouvoir, porter).",
+    "etymology": "Composé unissant : 1° la préposition d'opposition spatiale « gegen » (contre, à l'opposé de, en vieux haut-allemand gagan / gegin) ; 2° « das Gewicht » (le poids, la masse pesante, en moyen haut-allemand gewiht, en vieux haut-allemand giwiht, dérivé en -t du verbe fort wiegen / peser, proto-germanique *wehtiz, racine indo-européenne *weǵʰ- = mouvoir, porter).",
     "philosophicalContext": "Dans les monarchies absolutistes du XVIIe siècle (comme sous Louis XIV), le pouvoir royal s'appuya sur la bourgeoisie manufacturière et financière naissante pour tenir en échec les rébellions de la noblesse d'épée.",
     "relatedConcepts": [
       "nom",
@@ -5694,7 +5694,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "pierre angulaire / fondement principal",
     "literalTranslation": "fondement primordial posé à la base (nominatif féminin singulier)",
     "grammaticalRole": "Nom féminin singulier composé (die Hauptgrundlage) au nominatif sans article, apposition descriptive.",
-    "etymology": "Composé ternaire associant : 1° « Haupt- » (tête, chef, premier en rang, VHA houbit, proto-germanique *haubida-) ; 2° « der Grund » (sol, fond, terre ferme, VHA grunt) ; 3° « die Lage » (assiette, position, couche, déverbal de liegen = reposer à plat).",
+    "etymology": "Composé ternaire associant : 1° « Haupt- » (tête, chef, premier en rang, en vieux haut-allemand houbit, proto-germanique *haubida-) ; 2° « der Grund » (sol, fond, terre ferme, en vieux haut-allemand grunt) ; 3° « die Lage » (assiette, position, couche, déverbal de liegen = reposer à plat).",
     "relatedConcepts": [
       "nom",
       "comp_noun"
@@ -5706,7 +5706,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "conquit de haute lutte",
     "literalTranslation": "arracha par le combat, conquit par une lutte opiniâtre (verbe faible au prétérit)",
     "grammaticalRole": "Verbe faible composé transitif (erkämpfen) à la 3e personne du singulier du prétérit de l'indicatif. Verbe recteur principal fermant la longue période après l'accumulation d'appositions historiques.",
-    "etymology": "Composé du préfixe inséparable perfectif « er- » (qui exprime l'obtention victorieuse au prix d'un labeur extrême) et du verbe « kämpfen » (combattre), dérivé de « der Kampf » (le combat), très ancien emprunt du VHA « kampf » au latin classique « campus » (la plaine, champ clos de combat).",
+    "etymology": "Composé du préfixe inséparable perfectif « er- » (qui exprime l'obtention victorieuse au prix d'un labeur extrême) et du verbe « kämpfen » (combattre), dérivé de « der Kampf » (le combat), très ancien emprunt du vieux haut-allemand « kampf » au latin classique « campus » (la plaine, champ clos de combat).",
     "philosophicalContext": "La domination politique de la bourgeoisie ne lui a pas été octroyée gracieusement par la monarchie : elle a dû l'arracher par des révolutions violentes (1648 en Angleterre, 1789 en France).",
     "syntaxNote": "Point d'orgue syntaxique : l'énorme accumulation des appositions historiques formant une position 1 colossale est enfin résolue par le verbe conjugué « erkämpfte » en position 2, immédiatement suivi du sujet pronominal « sie » (inversion).",
     "relatedConcepts": [
@@ -5745,7 +5745,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p12_s2_w73",
       "ch1_p12_s2_w74"
     ],
-    "etymology": "« Herrschaft » : substantif dérivé avec le suffixe abstrait de dignité « -schaft » (VHA -scaf, proto-germanique *skapiz = condition, état façonné) sur « der Herr » (maître, seigneur). « ausschließlich » : dérivé de ausschließen (exclure, fermer la porte à clef).",
+    "etymology": "« Herrschaft » : substantif dérivé avec le suffixe abstrait de dignité « -schaft » (en vieux haut-allemand -scaf, proto-germanique *skapiz = condition, état façonné) sur « der Herr » (maître, seigneur). « ausschließlich » : dérivé de ausschließen (exclure, fermer la porte à clef).",
     "philosophicalContext": "La bourgeoisie ne partage plus le pouvoir avec l'aristocratie terrienne : elle a conquis le monopole absolu de l'appareil d'État moderne.",
     "cognatesFr": [
       "politique"
@@ -5761,7 +5761,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "le pouvoir d'État moderne / le gouvernement moderne",
     "literalTranslation": "la puissance publique étatique moderne (nominatif féminin singulier)",
     "grammaticalRole": "Nom féminin singulier composé (die Staatsgewalt) au nominatif singulier, sujet grammatical du verbe « ist ».",
-    "etymology": "Composé associant : 1° « der Staat » (l'État, du latin status) + « -s- » ; 2° « die Gewalt » (la puissance, l'autorité souveraine de coercition légitime, MHA gewalt, VHA giwalt, dérivé à préfixe gi- du verbe fort germanique walten = gouverner, régner, racine indo-européenne *wald- = avoir du pouvoir).",
+    "etymology": "Composé associant : 1° « der Staat » (l'État, du latin status) + « -s- » ; 2° « die Gewalt » (la puissance, l'autorité souveraine de coercition légitime, en moyen haut-allemand gewalt, en vieux haut-allemand giwalt, dérivé à préfixe gi- du verbe fort germanique walten = gouverner, régner, racine indo-européenne *wald- = avoir du pouvoir).",
     "philosophicalContext": "Thèse fondamentale de la théorie marxiste de l'État : la « Staatsgewalt » n'est pas un arbitre neutre ou universel garant de l'intérêt général, mais l'appareil répressif centralisé d'une classe.",
     "relatedConcepts": [
       "nom",
@@ -5775,7 +5775,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "un comité / une commission",
     "literalTranslation": "un comité de gestion délégué, une commission d'hommes triés sur le volet (attribut du sujet)",
     "grammaticalRole": "Nom masculin singulier (der Ausschuß) au nominatif après l'article indéfini « ein », attribut du sujet « die moderne Staatsgewalt » relié par le verbe copule « ist ».",
-    "etymology": "Issu du moyen haut-allemand « ausschuz » (rebut ou au contraire sélection choisie), déverbal du verbe fort « ausschießen » (VHA ūzsciozan = rejeter, séparer en triant). Le mot s'est fixé au XVIIe siècle dans la terminologie administrative pour désigner un comité restreint d'élus chargés de gérer une mission commune.",
+    "etymology": "Issu du moyen haut-allemand « ausschuz » (rebut ou au contraire sélection choisie), déverbal du verbe fort « ausschießen » (en vieux haut-allemand ūzsciozan = rejeter, séparer en triant). Le mot s'est fixé au XVIIe siècle dans la terminologie administrative pour désigner un comité restreint d'élus chargés de gérer une mission commune.",
     "philosophicalContext": "Formulation politique devenue proverbiale : l'État moderne n'est rien d'autre que le conseil d'administration du grand patronat, chargé de concilier les concurrences féroces entre capitalistes pour sauvegarder l'ordre bourgeois global.",
     "relatedConcepts": [
       "nom",
@@ -5793,7 +5793,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p12_s3_w11",
       "ch1_p12_s3_w12"
     ],
-    "etymology": "Issu du moyen haut-allemand « geschefte » (mandat, occupation, besogne, œuvre), vieux haut-allemand « giscaft » (création, décret du destin). Dérivé collectif à préfixe « gi- » formé sur le verbe fort « schaffen » (créer, façonner, travailler, VHA scaffan, proto-germanique *skapjaną).",
+    "etymology": "Issu du moyen haut-allemand « geschefte » (mandat, occupation, besogne, œuvre), vieux haut-allemand « giscaft » (création, décret du destin). Dérivé collectif à préfixe « gi- » formé sur le verbe fort « schaffen » (créer, façonner, travailler, en vieux haut-allemand scaffan, proto-germanique *skapjaną).",
     "relatedConcepts": [
       "acc",
       "capital"
@@ -5823,7 +5823,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "gère / administre",
     "literalTranslation": "administre en tuteur pour autrui (verbe faible à la 3e personne du singulier)",
     "grammaticalRole": "Verbe faible transitif (verwalten) à la 3e personne du singulier du présent de l'indicatif. Rejeté en fin de subordonnée relative introduite par « der ».",
-    "etymology": "Composé du préfixe inséparable d'attribution « ver- » et du verbe fort « walten » (régner, gouverner, avoir la tutelle, VHA waltan, proto-germanique *waldaną). Au sens juridique : gérer comme un mandataire ou exécuteur testamentaire.",
+    "etymology": "Composé du préfixe inséparable d'attribution « ver- » et du verbe fort « walten » (régner, gouverner, avoir la tutelle, en vieux haut-allemand waltan, proto-germanique *waldaną). Au sens juridique : gérer comme un mandataire ou exécuteur testamentaire.",
     "relatedConcepts": [
       "sub_clause",
       "prefix_verb"
@@ -5835,7 +5835,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "éminemment / au plus haut point",
     "literalTranslation": "au plus haut point, suprêmement (superlatif absolu adverbial)",
     "grammaticalRole": "Adverbe au superlatif absolu de l'adjectif « hoch », modifiant l'adjectif « revolutionäre ».",
-    "etymology": "Forme de superlatif figée en adverbe de « hoch » (élevé, haut, MHA hōch, VHA hōh, proto-germanique *hauhaz = haut, élevé, racine indo-européenne *kewk- = courbé en hauteur, colline).",
+    "etymology": "Forme de superlatif figée en adverbe de « hoch » (élevé, haut, en moyen haut-allemand hōch, en vieux haut-allemand hōh, proto-germanique *hauhaz = haut, élevé, racine indo-européenne *kewk- = courbé en hauteur, colline).",
     "relatedConcepts": [
       "adv"
     ],
@@ -5899,7 +5899,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "rapports / relations sociales",
     "literalTranslation": "rapports sociaux objectifs, relations réciproques (accusatif neutre pluriel)",
     "grammaticalRole": "Nom neutre pluriel (das Verhältnis -> die Verhältnisse) à l'accusatif pluriel déterminé par « alle », COD de « zerstört ».",
-    "etymology": "Substantif dérivé avec le suffixe abstrait neutre « -nis » sur le verbe « sich verhalten » (se comporter, être en rapport mutuel, de ver- et halten = tenir, garder, VHA haltan). Le sens a évolué au XVIIIe siècle de la proportion mathématique vers la relation sociale concrète.",
+    "etymology": "Substantif dérivé avec le suffixe abstrait neutre « -nis » sur le verbe « sich verhalten » (se comporter, être en rapport mutuel, de ver- et halten = tenir, garder, en vieux haut-allemand haltan). Le sens a évolué au XVIIIe siècle de la proportion mathématique vers la relation sociale concrète.",
     "philosophicalContext": "Concept fondamental du matérialisme historique : les hommes nouent des « Verhältnisse » (rapports de production) qui s'imposent à eux indépendamment de leur volonté subjective.",
     "relatedConcepts": [
       "acc",
@@ -5912,7 +5912,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "a détruit / anéanti",
     "literalTranslation": "détruit de fond en comble, anéanti en éclats (participe passé du verbe inséparable zerstören)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe transitif inséparable « zerstören », formant le passé composé (Perfekt) avec l'auxiliaire « hat ».",
-    "etymology": "Composé du préfixe inséparable destructif « zer- » (marquant la dislocation complète, le broyage, VHA zir- / zar-) et du verbe « stören » (troubler, saccager, MHA stœren, VHA stōren = disperser, disloquer, détruire, proto-germanique *stōrijaną, racine indo-européenne *strew- = répandre, démolir).",
+    "etymology": "Composé du préfixe inséparable destructif « zer- » (marquant la dislocation complète, le broyage, en vieux haut-allemand zir- / zar-) et du verbe « stören » (troubler, saccager, en moyen haut-allemand stœren, en vieux haut-allemand stōren = disperser, disloquer, détruire, proto-germanique *stōrijaną, racine indo-européenne *strew- = répandre, démolir).",
     "relatedConcepts": [
       "prefix_verb"
     ],
@@ -5923,7 +5923,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "bariolés / disparates",
     "literalTranslation": "tachetés de multiples couleurs bigarrées (accusatif neutre pluriel)",
     "grammaticalRole": "Adjectif qualificatif composé (buntscheckig) décliné à l'accusatif neutre pluriel en -en après l'article « die », qualifiant « Feudalbande ».",
-    "etymology": "Composé associant : 1° « bunt » (de plusieurs couleurs, bigarré, MHA bunt, emprunté au moyen-bas-allemand bunt = fourrure de vair aux peaux grises et blanches alternées, issu de l'ancien français vair) ; 2° « scheckig » (tacheté, moucheté, dérivé de die Schecke = pourpoint bicolore ou robe tachetée au XVe siècle, emprunté à l'ancien français jaque ; étymon discuté et origine incertaine selon Kluge).",
+    "etymology": "Composé associant : 1° « bunt » (de plusieurs couleurs, bigarré, en moyen haut-allemand bunt, emprunté au moyen-bas-allemand bunt = fourrure de vair aux peaux grises et blanches alternées, issu de l'ancien français vair) ; 2° « scheckig » (tacheté, moucheté, dérivé de die Schecke = pourpoint bicolore ou robe tachetée au XVe siècle, emprunté à l'ancien français jaque ; étymon discuté et origine incertaine selon Kluge).",
     "philosophicalContext": "Image visuelle éclatante : la société féodale était un patchwork bigarré de statuts locaux, de coutumes bizarres et de dépendances personnelles que le capital uniformise dans la prose grise du marché.",
     "relatedConcepts": [
       "acc",
@@ -5936,7 +5936,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "les liens féodaux",
     "literalTranslation": "les liens, chaînes et attaches féodales (accusatif neutre pluriel)",
     "grammaticalRole": "Nom neutre pluriel composé (das Feudalband -> die Feudalbande) à l'accusatif neutre pluriel après « die », COD du verbe « zerrissen ».",
-    "etymology": "Composé de : 1° « feudal » (du bas-latin feudum = fief, emprunt au vieux bas-francique *fehu-ōd / bétail-propriété, cf. Vieh) ; 2° « das Band » (lien, chaîne, attache, MHA bant, VHA bant, proto-germanique *bandą, déverbal apophonique du verbe fort binden = lier, attacher, racine indo-européenne *bʰendʰ-).",
+    "etymology": "Composé de : 1° « feudal » (du bas-latin feudum = fief, emprunt au vieux bas-francique *fehu-ōd / bétail-propriété, cf. Vieh) ; 2° « das Band » (lien, chaîne, attache, en moyen haut-allemand bant, en vieux haut-allemand bant, proto-germanique *bandą, déverbal apophonique du verbe fort binden = lier, attacher, racine indo-européenne *bʰendʰ-).",
     "philosophicalContext": "Les liens féodaux (hommage, foi jurée, servage) attachaient l'homme à son seigneur par une soumission personnalisée et sanctifiée par l'Église.",
     "syntaxNote": "Attention philologique : « Feudalbande » est ici le pluriel neutre régulier en -e du nom neutre « das Band » (le lien, l'attache physique ou morale, pluriel : die Bande), et nullement le substantif féminin singulier die Bande (la bande de malfaiteurs).",
     "cognatesFr": [
@@ -5956,7 +5956,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "supérieurs (naturels)",
     "literalTranslation": "celui qui est placé au-dessus, le supérieur hiérarchique d'ordre (accusatif masculin singulier)",
     "grammaticalRole": "Substantif à déclinaison adjectivale faible (der Vorgesetzte -> den Vorgesetzten) à l'accusatif masculin singulier après la préposition « an ».",
-    "etymology": "Participe passé substantivé du verbe à particule séparable « vor|setzen » (placer devant, installer à la tête). Composé de « vor » (devant, en avant, VHA fora) et de « setzen » (faire asseoir, poser, VHA sezzen, causatif du verbe sitzen).",
+    "etymology": "Participe passé substantivé du verbe à particule séparable « vor|setzen » (placer devant, installer à la tête). Composé de « vor » (devant, en avant, en vieux haut-allemand fora) et de « setzen » (faire asseoir, poser, en vieux haut-allemand sezzen, causatif du verbe sitzen).",
     "philosophicalContext": "Ironie mordante de Marx contre l'idéologie aristocratique qui présentait la domination du seigneur sur le paysan comme une hiérarchie « naturelle » providentiellement ordonnée par Dieu.",
     "relatedConcepts": [
       "acc",
@@ -5992,7 +5992,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "a déchiré / a brisé en morceaux",
     "literalTranslation": "a lacéré, rompu violemment en lambeaux (participe passé du verbe fort zerreißen)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe fort transitif inséparable « zerreißen » (zerreißt, zerriss, zerrissen), formant le passé composé avec l'auxiliaire « hat ».",
-    "etymology": "Composé du préfixe inséparable de rupture destructrice « zer- » (en morceaux, en lambeaux, VHA zir- / zar-) et du verbe fort « reißen » (déchirer, arracher, fendre, MHA rīzen, VHA rīzan = fendre, graver des runes, proto-germanique *hrītanan, cognat direct de l'anglais write / écrire).",
+    "etymology": "Composé du préfixe inséparable de rupture destructrice « zer- » (en morceaux, en lambeaux, en vieux haut-allemand zir- / zar-) et du verbe fort « reißen » (déchirer, arracher, fendre, en moyen haut-allemand rīzen, en vieux haut-allemand rīzan = fendre, graver des runes, proto-germanique *hrītanan, cognat direct de l'anglais write / écrire).",
     "relatedConcepts": [
       "prefix_verb"
     ],
@@ -6003,7 +6003,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "laissé subsister",
     "literalTranslation": "laissé en reste, réservé (participe passé de übrig|lassen)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe composé séparable « übrig|lassen », dépendant de l'auxiliaire « hat ».",
-    "etymology": "Composé du préverbe adjectival « übrig » (de reste, en surplus, MHA überic, dérivé de über / au-dessus) et du verbe fort « lassen » (laisser, abandonner, MHA lāzen, VHA lāzzan, proto-germanique *lētaną, cognat de l'anglais let).",
+    "etymology": "Composé du préverbe adjectival « übrig » (de reste, en surplus, en moyen haut-allemand überic, dérivé de über / au-dessus) et du verbe fort « lassen » (laisser, abandonner, en moyen haut-allemand lāzen, en vieux haut-allemand lāzzan, proto-germanique *lētaną, cognat de l'anglais let).",
     "relatedConcepts": [
       "sep_verb"
     ],
@@ -6019,7 +6019,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s2_w29",
       "ch1_p14_s2_w30"
     ],
-    "etymology": "« Interesse » : emprunt savant au XVIe siècle au latin classique « interesse » (littéralement : être entre, importer, y avoir de la différence, composé de inter = entre et esse = être), substantivé en droit médiéval pour désigner le dédommagement pécuniaire d'une perte ou l'intérêt financier. « nackt » : MHA nacket, VHA nahhit, proto-germanique *nakwida- (nu, cognat du latin nudus et de l'anglais naked).",
+    "etymology": "« Interesse » : emprunt savant au XVIe siècle au latin classique « interesse » (littéralement : être entre, importer, y avoir de la différence, composé de inter = entre et esse = être), substantivé en droit médiéval pour désigner le dédommagement pécuniaire d'une perte ou l'intérêt financier. « nackt » : en moyen haut-allemand nacket, en vieux haut-allemand nahhit, proto-germanique *nakwida- (nu, cognat du latin nudus et de l'anglais naked).",
     "philosophicalContext": "Le capitalisme simplifie les rapports humains : il arrache le masque de la piété, de la courtoisie chevaleresque et des devoirs chrétiens pour ne laisser subsister que la recherche brutale du gain.",
     "cognatesFr": [
       "intérêt",
@@ -6044,7 +6044,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s2_w37",
       "ch1_p14_s2_w38"
     ],
-    "etymology": "« bar » : MHA bar (nu, dénudé, sans parure, pur), VHA bar (nu, découvert). Proto-germanique *baza- (nu, découvert, cognat de l'anglais bare et du lituanien basas). Le sens commercial monétaire de « monnaie liquide sonnante et trébuchante » (bares Geld) apparaît au XVe siècle ; étymon discuté et glissement sémantique monétaire incertain selon Pfeifer et Kluge. « Zahlung » : substantif en -ung dérivé du verbe zahlen (compter, payer), VHA zalōn, dérivé de Zahl (nombre, compte, VHA zala, cognat de l'anglais tale/tell).",
+    "etymology": "« bar » : en moyen haut-allemand bar (nu, dénudé, sans parure, pur), en vieux haut-allemand bar (nu, découvert). Proto-germanique *baza- (nu, découvert, cognat de l'anglais bare et du lituanien basas). Le sens commercial monétaire de « monnaie liquide sonnante et trébuchante » (bares Geld) apparaît au XVe siècle ; étymon discuté et glissement sémantique monétaire incertain selon Pfeifer et Kluge. « Zahlung » : substantif en -ung dérivé du verbe zahlen (compter, payer), en vieux haut-allemand zalōn, dérivé de Zahl (nombre, compte, en vieux haut-allemand zala, cognat de l'anglais tale/tell).",
     "philosophicalContext": "Emprunt explicite à la critique du capitalisme de Thomas Carlyle dans 'Chartism' (1839) : le « cash payment » (paiement au comptant) est devenu le seul lien de société (« cash nexus »), rompant tout engagement d'entraide ou de fidélité communautaire.",
     "relatedConcepts": [
       "acc",
@@ -6080,7 +6080,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s3_w7",
       "ch1_p14_s3_w8"
     ],
-    "etymology": "« fromm » : MHA vrum / vrom (brave, vaillant, utile, pieux), VHA fruma (utilité, profit), issu de la racine indo-européenne *pro- (en avant, premier). Glissement vers la dévotion pieuse à la Réforme luthérienne. « Schwärmerei » : dérivé avec le suffixe dépréciatif -erei du verbe schwärmen (errer en essaim, délirer de passion mystique), dérivé de der Schwarm (l'essaim d'abeilles ou d'insectes, MHA swam, VHA swarm, proto-germanique *swarmaz, racine indo-européenne *swer- = bourdonner, faire du bruit). Utilisé par Luther pour stigmatiser les 'Schwärmer' (anabaptistes et illuminés exaltés).",
+    "etymology": "« fromm » : en moyen haut-allemand vrum / vrom (brave, vaillant, utile, pieux), en vieux haut-allemand fruma (utilité, profit), issu de la racine indo-européenne *pro- (en avant, premier). Glissement vers la dévotion pieuse à la Réforme luthérienne. « Schwärmerei » : dérivé avec le suffixe dépréciatif -erei du verbe schwärmen (errer en essaim, délirer de passion mystique), dérivé de der Schwarm (l'essaim d'abeilles ou d'insectes, en moyen haut-allemand swam, en vieux haut-allemand swarm, proto-germanique *swarmaz, racine indo-européenne *swer- = bourdonner, faire du bruit). Utilisé par Luther pour stigmatiser les 'Schwärmer' (anabaptistes et illuminés exaltés).",
     "philosophicalContext": "L'extase religieuse et le mysticisme chrétien sont démasqués comme des narcotiques spirituels qui justifiaient l'ordre féodal en détournant les opprimés de la lutte matérielle.",
     "relatedConcepts": [
       "gen",
@@ -6098,7 +6098,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s3_w11",
       "ch1_p14_s3_w12"
     ],
-    "etymology": "« ritterlich » : dérivé en -lich de Ritter (chevalier noble, cavalier d'armes), emprunt du bas-allemand ou néerlandais ridder, issu du verbe reiten (chevaucher, VHA rītan, proto-germanique *rīdanan). « Begeisterung » : substantif en -ung formé sur le verbe begeistern (insuffler un esprit divin, enthousiasmer), forgé au XVIIIe siècle (Herder) sur der Geist (l'esprit, souffle, âme, VHA geist, proto-germanique *gaistaz, cognat de l'anglais ghost).",
+    "etymology": "« ritterlich » : dérivé en -lich de Ritter (chevalier noble, cavalier d'armes), emprunt du bas-allemand ou néerlandais ridder, issu du verbe reiten (chevaucher, en vieux haut-allemand rītan, proto-germanique *rīdanan). « Begeisterung » : substantif en -ung formé sur le verbe begeistern (insuffler un esprit divin, enthousiasmer), forgé au XVIIIe siècle (Herder) sur der Geist (l'esprit, souffle, âme, en vieux haut-allemand geist, proto-germanique *gaistaz, cognat de l'anglais ghost).",
     "philosophicalContext": "L'idéal chevaleresque (prouesse, courtoisie, vœu de croisade) n'était qu'un fard poétique masquant la violence des seigneurs et l'assujettissement des serfs.",
     "relatedConcepts": [
       "gen",
@@ -6116,7 +6116,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s3_w15",
       "ch1_p14_s3_w16"
     ],
-    "etymology": "« spießbürgerlich » : dérivé de Spießbürger (petit-bourgeois borné, philistin). Composé historique : der Spieß (la pique de guerre, arme d'hast modeste des miliciens bourgeois gardant les remparts médiévaux, MHA spiez, VHA spioz, proto-germanique *speutaz) + der Bürger. Étymologie documentée chez Kluge et Pfeifer (le milicien armé d'une simple pique par opposition au noble à cheval et à l'épée est devenu une épithète méprisante d'étudiants désignant les boutiquiers timorés). « Wehmut » : MHA wēmuot, VHA wēmuoti (affliction d'âme), composé de wehe / wē (hélas, malheur, interjection germanique *wai, cf. latin vae) et de Mut (disposition intérieure de l'âme, humeur, VHA muot, cognat de l'anglais mood).",
+    "etymology": "« spießbürgerlich » : dérivé de Spießbürger (petit-bourgeois borné, philistin). Composé historique : der Spieß (la pique de guerre, arme d'hast modeste des miliciens bourgeois gardant les remparts médiévaux, en moyen haut-allemand spiez, en vieux haut-allemand spioz, proto-germanique *speutaz) + der Bürger. Étymologie documentée chez Kluge et Pfeifer (le milicien armé d'une simple pique par opposition au noble à cheval et à l'épée est devenu une épithète méprisante d'étudiants désignant les boutiquiers timorés). « Wehmut » : en moyen haut-allemand wēmuot, en vieux haut-allemand wēmuoti (affliction d'âme), composé de wehe / wē (hélas, malheur, interjection germanique *wai, cf. latin vae) et de Mut (disposition intérieure de l'âme, humeur, en vieux haut-allemand muot, cognat de l'anglais mood).",
     "philosophicalContext": "Marx tourne en dérision les lamentations sentimentales et régressives des artisans et boutiquiers qui pleurent la dissolution de leurs corporations tranquilles sous les coups du grand capital.",
     "relatedConcepts": [
       "gen",
@@ -6135,7 +6135,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s3_w19",
       "ch1_p14_s3_w20"
     ],
-    "etymology": "« Wasser » : issu du moyen haut-allemand « wazzer », vieux haut-allemand « wazzar » (eau). Proto-germanique *watar, issu de la racine indo-européenne *wod-r̥ / *wed- (eau, humide, d'où découlent le grec ὕδωρ / hydōr, le latin unda / vague, le russe вода / voda et l'anglais water). « eiskalt » : composé de Eis (glace, VHA īs) et kalt (froid, VHA kalt).",
+    "etymology": "« Wasser » : issu du moyen haut-allemand « wazzer », vieux haut-allemand « wazzar » (eau). Proto-germanique *watar, issu de la racine indo-européenne *wod-r̥ / *wed- (eau, humide, d'où découlent le grec ὕδωρ / hydōr, le latin unda / vague, le russe вода / voda et l'anglais water). « eiskalt » : composé de Eis (glace, en vieux haut-allemand īs) et kalt (froid, en vieux haut-allemand kalt).",
     "philosophicalContext": "Une des plus célèbres métaphores de la littérature mondiale : le capitalisme refroidit instantanément toute chaleur émotionnelle, spirituelle et communautaire dans le bain glacé de l'arithmétique du profit.",
     "cognatesFr": [
       "eau",
@@ -6156,7 +6156,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s3_w21",
       "ch1_p14_s3_w22"
     ],
-    "etymology": "« Berechnung » : substantif en -ung dérivé du verbe transitif berechnen (calculer, chiffrer), composé du préfixe d'application be- et de rechnen (compter, VHA rehhanōn = mettre en bon ordre, dénominatif du germanique *rekanō = ordre, ligne). « egoistisch » : dérivé en -istisch du latin ego (moi).",
+    "etymology": "« Berechnung » : substantif en -ung dérivé du verbe transitif berechnen (calculer, chiffrer), composé du préfixe d'application be- et de rechnen (compter, en vieux haut-allemand rehhanōn = mettre en bon ordre, dénominatif du germanique *rekanō = ordre, ligne). « egoistisch » : dérivé en -istisch du latin ego (moi).",
     "philosophicalContext": "La rationalité économique bourgeoise ne reconnaît qu'une seule valeur : la rentabilité comptable, où chaque être et chaque rapport est converti en colonne de débit et de crédit.",
     "cognatesFr": [
       "égoïste"
@@ -6172,7 +6172,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "a noyé",
     "literalTranslation": "a submergé dans l'eau jusqu'à ce que mort s'ensuive (participe passé causatif)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe causatif faible « ertränken », fermant la proposition principale avec l'auxiliaire « hat ».",
-    "etymology": "Verbe causatif en *-jan dérivé du verbe fort « trinken » (boire, MHA trinken, VHA trinkan, proto-germanique *trinkanan). MHA trenken / ertrenken, VHA trenken (faire boire, abreuver, submerger), avec préfixe perfectif destructif « er- » marquant l'anéantissement mortel.",
+    "etymology": "Verbe causatif en *-jan dérivé du verbe fort « trinken » (boire, en moyen haut-allemand trinken, en vieux haut-allemand trinkan, proto-germanique *trinkanan). en moyen haut-allemand trenken / ertrenken, en vieux haut-allemand trenken (faire boire, abreuver, submerger), avec préfixe perfectif destructif « er- » marquant l'anéantissement mortel.",
     "relatedConcepts": [
       "prefix_verb"
     ],
@@ -6201,7 +6201,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "la valeur d'échange",
     "literalTranslation": "la valeur marchande de troc et d'échange pécuniaire (accusatif masculin singulier)",
     "grammaticalRole": "Nom masculin composé (der Tauschwert) à l'accusatif singulier après la préposition « in den » marquant la transformation / transmutation.",
-    "etymology": "Composé économique associant : 1° « der Tausch » (déverbal du verbe tauschen / troquer, échanger, MHA tūschen = marchander, badiner, tromper par le troc ; étymon discuté et origine incertaine selon Kluge et Pfeifer, sans doute onomatopéique ou moyen-bas-allemand) ; 2° « der Wert » (valeur, prix, MHA wert, VHA werd, proto-germanique *werþaz = équivalent en prix, cognat de l'anglais worth).",
+    "etymology": "Composé économique associant : 1° « der Tausch » (déverbal du verbe tauschen / troquer, échanger, en moyen haut-allemand tūschen = marchander, badiner, tromper par le troc ; étymon discuté et origine incertaine selon Kluge et Pfeifer, sans doute onomatopéique ou moyen-bas-allemand) ; 2° « der Wert » (valeur, prix, en moyen haut-allemand wert, en vieux haut-allemand werd, proto-germanique *werþaz = équivalent en prix, cognat de l'anglais worth).",
     "philosophicalContext": "Concept cardinal de la critique de l'économie politique : la réduction de l'individu et de son travail à une pure « valeur d'échange » quantifiée déracine toutes les relations qualitatives humaines pour les soumettre au fétichisme de la marchandise.",
     "cognatesFr": [
       "valeur"
@@ -6218,7 +6218,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "a dissous / résolu",
     "literalTranslation": "a liquéfié, désagrégé complètement en solution (participe passé du verbe à particule auf|lösen)",
     "grammaticalRole": "Participe passé (Partizip II) du verbe à particule séparable « auf|lösen », formant le passé composé avec « hat ».",
-    "etymology": "Composé séparable associant « auf » (vers le haut, ouverture complète, VHA ūf) et le verbe faible « lösen » (délier, détacher, MHA lœsen, VHA lōsjan, dérivé de l'adjectif los = libre, détaché, proto-germanique *lausaz, racine indo-européenne *lewh₁- = délier, laver, cognat du grec lyein / λύειν = délier, dissoudre).",
+    "etymology": "Composé séparable associant « auf » (vers le haut, ouverture complète, en vieux haut-allemand ūf) et le verbe faible « lösen » (délier, détacher, en moyen haut-allemand lœsen, en vieux haut-allemand lōsjan, dérivé de l'adjectif los = libre, détaché, proto-germanique *lausaz, racine indo-européenne *lewh₁- = délier, laver, cognat du grec lyein / λύειν = délier, dissoudre).",
     "philosophicalContext": "Terme de la chimie et de la dialectique : une consistance éthique concrète est dissoute dans l'acide universel de la monnaie.",
     "cognatesFr": [
       "analyse",
@@ -6234,7 +6234,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "scellées / garanties par charte",
     "literalTranslation": "consignées par écrit sur lettre patente ou charte juridique (participe passé adjectivé)",
     "grammaticalRole": "Participe passé adjectivé du verbe « verbriefen », décliné au génitif féminin pluriel en -en après « der zahllosen ».",
-    "etymology": "Composé du préfixe transitif « ver- » et du substantif « der Brief » (charte scellée, lettre, diplôme). MHA brief, emprunt très ancien du VIIIe siècle au latin classique brevis (court), via le bas-latin breve / brevis libellus (écrit abrégé consignant un acte légal ou un privilège royal).",
+    "etymology": "Composé du préfixe transitif « ver- » et du substantif « der Brief » (charte scellée, lettre, diplôme). en moyen haut-allemand brief, emprunt très ancien du VIIIe siècle au latin classique brevis (court), via le bas-latin breve / brevis libellus (écrit abrégé consignant un acte légal ou un privilège royal).",
     "philosophicalContext": "Désigne l'ensemble des chartes médiévales et immunités par lesquelles les rois et évêques reconnaissaient par écrit les privilèges corporatifs locaux.",
     "relatedConcepts": [
       "gen",
@@ -6247,7 +6247,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "si chèrement acquises / légitimes",
     "literalTranslation": "bien et légitimement acquises par un long labeur historique (génitif féminin pluriel)",
     "grammaticalRole": "Adjectif composé au génitif féminin pluriel en -en, coordonné à « verbrieften ».",
-    "etymology": "Composé juridique traditionnel associant : 1° l'adverbe « wohl » (bien, légitimement, VHA wola) ; 2° « erworben », participe passé du verbe fort « erwerben » (acquérir par le travail, MHA erwerben, VHA erwerban = s'affairer, accomplir par un effort soutenu, issu de hwerban = aller et venir, tourner). Formule juridique de l'Ancien Régime : les 'droits acquis' (wohlerworbene Rechte).",
+    "etymology": "Composé juridique traditionnel associant : 1° l'adverbe « wohl » (bien, légitimement, en vieux haut-allemand wola) ; 2° « erworben », participe passé du verbe fort « erwerben » (acquérir par le travail, en moyen haut-allemand erwerben, en vieux haut-allemand erwerban = s'affairer, accomplir par un effort soutenu, issu de hwerban = aller et venir, tourner). Formule juridique de l'Ancien Régime : les 'droits acquis' (wohlerworbene Rechte).",
     "relatedConcepts": [
       "gen",
       "comp_word"
@@ -6259,7 +6259,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "des libertés / des franchises",
     "literalTranslation": "des libertés particulières et franchises corporatives (génitif pluriel)",
     "grammaticalRole": "Nom féminin pluriel (die Freiheit -> die Freiheiten) au génitif pluriel après « der zahllosen verbrieften und wohlerworbenen ».",
-    "etymology": "Issu du moyen haut-allemand « vrīheit », vieux haut-allemand « frīheit » (condition d'homme libre, privilège légal, franchise). Dérivé en -heit de l'adjectif « frei » (libre, VHA frī, proto-germanique *frijaz = chéri, aimé, de condition libre au sein du clan par opposition aux serfs capturés, racine indo-européenne *priyH-ó- = aimé, cher).",
+    "etymology": "Issu du moyen haut-allemand « vrīheit », vieux haut-allemand « frīheit » (condition d'homme libre, privilège légal, franchise). Dérivé en -heit de l'adjectif « frei » (libre, en vieux haut-allemand frī, proto-germanique *frijaz = chéri, aimé, de condition libre au sein du clan par opposition aux serfs capturés, racine indo-européenne *priyH-ó- = aimé, cher).",
     "philosophicalContext": "Sous le féodalisme, la liberté n'existait pas au singulier universel, mais uniquement au pluriel (« die Freiheiten ») : c'étaient des exemptions, franchises de foire, droits de péage ou immunités seigneuriales particulières.",
     "relatedConcepts": [
       "gen",
@@ -6272,7 +6272,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "impitoyable / sans scrupule",
     "literalTranslation": "dépourvue de toute conscience morale, éhontée (accusatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif composé (gewissenlos) à l'accusatif féminin singulier en -e après « die eine », qualifiant « Handelsfreiheit ».",
-    "etymology": "Composé associant : 1° « das Gewissen » (la conscience morale, MHA gewizzen, calque chrétien savant du VHA giwizzani sur le latin conscientia, dérivé du verbe wissen = savoir) ; 2° le suffixe privatif « -los » (dépourvu de, sans, cognat de l'anglais -less).",
+    "etymology": "Composé associant : 1° « das Gewissen » (la conscience morale, en moyen haut-allemand gewizzen, calque chrétien savant du vieux haut-allemand giwizzani sur le latin conscientia, dérivé du verbe wissen = savoir) ; 2° le suffixe privatif « -los » (dépourvu de, sans, cognat de l'anglais -less).",
     "relatedConcepts": [
       "acc",
       "comp_word"
@@ -6290,7 +6290,7 @@ export const annotations: Record<string, Annotation> = {
       "ch1_p14_s4_w22",
       "ch1_p14_s4_w23"
     ],
-    "etymology": "Composé associant : 1° « der Handel » (commerce, négoce, déverbal de handeln, dérivé de Hand) + « -s- » ; 2° « die Freiheit » (la liberté, voir supra).",
+    "etymology": "Composé associant : 1° « der Handel » (commerce, négoce, déverbal de handeln = agir, commercer, dérivé de die Hand = la main) ; 2° le « -s- » de liaison ; 3° « die Freiheit » (la liberté, en moyen haut-allemand vrīheit, en vieux haut-allemand frīheit, formé de frei = libre et du suffixe d'état -heit).",
     "philosophicalContext": "Coup de force critique magistral : à la place des multiples franchises protectrices du passé, la bourgeoisie n'érige qu'une seule liberté : celle d'exploiter sans entrave le travail d'autrui sur le marché.",
     "relatedConcepts": [
       "acc",
@@ -6340,7 +6340,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "voilée / masquée",
     "literalTranslation": "dissimulée sous un voile, enveloppée d'un manteau (participe passé adjectivé)",
     "grammaticalRole": "Participe passé adjectivé du verbe inséparable « verhüllen », décliné au génitif féminin singulier en -en après « der », qualifiant « Ausbeutung ».",
-    "etymology": "Composé du préfixe transitif d'occultation « ver- » et du verbe « hüllen » (envelopper, couvrir), MHA hüllen, VHA hullen, dérivé de die Hülle (le voile, l'enveloppe, VHA hulla, proto-germanique *huljaną = couvrir, cacher, issu de la racine indo-européenne *ḱel- = cacher, dérober, d'où proviennent le latin celare, occultere, et l'allemand hehlen).",
+    "etymology": "Composé du préfixe transitif d'occultation « ver- » et du verbe « hüllen » (envelopper, couvrir), en moyen haut-allemand hüllen, en vieux haut-allemand hullen, dérivé de die Hülle (le voile, l'enveloppe, en vieux haut-allemand hulla, proto-germanique *huljaną = couvrir, cacher, issu de la racine indo-européenne *ḱel- = cacher, dérober, d'où proviennent le latin celare, occultere, et l'allemand hehlen).",
     "relatedConcepts": [
       "gen",
       "prefix_verb"
@@ -6381,7 +6381,7 @@ export const annotations: Record<string, Annotation> = {
     "translationFr": "éhontée / sans pudeur",
     "literalTranslation": "dépourvue de toute honte ou retenue, impudente (accusatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif (unverschämt) à l'accusatif féminin singulier en -e, deuxième épithète de l'énumération.",
-    "etymology": "Composé du préfixe négatif « un- » et du participe « verschämt » (pudique, modeste), dérivé de « die Scham » (la honte, pudeur morale, MHA scham, VHA scama, proto-germanique *skamō = honte, issu de la racine indo-européenne *(s)kem- = couvrir, cacher).",
+    "etymology": "Composé du préfixe négatif « un- » et du participe « verschämt » (pudique, modeste), dérivé de « die Scham » (la honte, pudeur morale, en moyen haut-allemand scham, en vieux haut-allemand scama, proto-germanique *skamō = honte, issu de la racine indo-européenne *(s)kem- = couvrir, cacher).",
     "philosophicalContext": "Le capitalisme ne prend plus la peine de justifier l'inégalité par des mythes de sang noble : il revendique fièrement la recherche effrénée du profit.",
     "relatedConcepts": [
       "acc",
