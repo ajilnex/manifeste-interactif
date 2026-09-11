@@ -113,28 +113,33 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
             </span>
           </button>
 
-          {/* Traduction continue sous chaque phrase */}
+          {/* Traduction française bilingue sous chaque phrase */}
           <button
             type="button"
             onClick={onToggleInterlinearTranslations}
             className="w-full flex items-center justify-between p-2.5 border border-black bg-white hover:bg-neutral-50 transition-colors text-left cursor-pointer"
           >
             <div className="flex flex-col pr-2">
-              <span className="font-mono text-[11px] font-bold uppercase text-black">
-                Traduction continue
+              <span className="font-mono text-[11px] font-bold uppercase text-black flex items-center gap-1.5">
+                <span
+                  className={`w-2 h-2 transition-colors duration-200 ${
+                    showInterlinearTranslations ? 'bg-[#D42B1E]' : 'border border-black bg-white'
+                  }`}
+                />
+                Traduction française
               </span>
-              <span className="text-[10px] text-neutral-500 leading-tight">
-                Fixer toujours sous chaque phrase
+              <span className="text-[10px] text-neutral-500 leading-tight mt-0.5">
+                Afficher sous chaque phrase (décalage du texte)
               </span>
             </div>
             <span
-              className={`font-mono text-[10px] font-bold px-2 py-0.5 border ${
+              className={`font-mono text-[10px] font-bold px-2 py-0.5 border transition-colors ${
                 showInterlinearTranslations
                   ? 'bg-black text-white border-black'
                   : 'bg-neutral-100 text-neutral-400 border-neutral-300'
               }`}
             >
-              {showInterlinearTranslations ? 'FIXÉE' : 'SURVOL'}
+              {showInterlinearTranslations ? 'BILINGUE' : 'ALLEMAND SEUL'}
             </span>
           </button>
 

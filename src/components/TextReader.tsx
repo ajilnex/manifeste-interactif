@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 import type { Annotation, Chapter, Concept } from '../types';
 import { GrammarPanel } from './GrammarPanel';
 import { InteractiveWord } from './InteractiveWord';
@@ -15,10 +15,8 @@ interface TextReaderProps {
   showExcursus?: boolean;
   highlightedWordId: string | null;
   highlightedParagraphId: string | null;
-  highlightedSentenceId: string | null;
   onWordHover: (wordId: string | null) => void;
   onParagraphHover: (paragraphId: string | null) => void;
-  onSentenceHover: (sentenceId: string | null) => void;
 }
 
 const GRAMMAR_PANEL_PLACEMENTS: Record<string, (keyof typeof GRAMMAR_PANELS)[]> = {
@@ -50,25 +48,9 @@ export const TextReader: React.FC<TextReaderProps> = ({
   showExcursus = true,
   highlightedWordId,
   highlightedParagraphId,
-  highlightedSentenceId,
   onWordHover,
   onParagraphHover,
-  onSentenceHover,
 }) => {
-  const [pinnedSentenceIds, setPinnedSentenceIds] = useState<Set<string>>(new Set());
-
-  const handleSentenceClick = (sentenceId: string) => {
-    setPinnedSentenceIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(sentenceId)) {
-        next.delete(sentenceId);
-      } else {
-        next.add(sentenceId);
-      }
-      return next;
-    });
-  };
-
   return (
     <article className={`max-w-[70ch] mx-auto ${showGrammarColors ? 'grammar-colors' : ''}`}>
       {/* En-tête architectural Bauhaus */}
@@ -97,27 +79,16 @@ export const TextReader: React.FC<TextReaderProps> = ({
               onMouseEnter={() => onParagraphHover(paragraph.id)}
               onMouseLeave={() => onParagraphHover(null)}
             >
-              {/* Lignes de phrases avec espaces fixes réservés pour les traductions */}
-              <div className="space-y-4">
-                {paragraph.sentences.map((sentence) => {
-                  const isSentenceHovered = highlightedSentenceId === sentence.id;
-                  const isPinned = pinnedSentenceIds.has(sentence.id);
-                  const showTranslationBox = isSentenceHovered || isPinned || showInterlinearTranslations;
-
-                  return (
+              {showInterlinearTranslations ? (
+                /* Mode Traduction bilingue : Chaque phrase forme une unité architecturale avec sa dalle française */
+                <div className="space-y-6">
+                  {paragraph.sentences.map((sentence) => (
                     <div
                       key={sentence.id}
-                      className={`transition-all duration-100 rounded-none cursor-default ${
-                        showTranslationBox
-                          ? 'border-l-2 border-black pl-4 -ml-4'
-                          : 'border-l-2 border-transparent pl-4 -ml-4 hover:border-neutral-300'
-                      }`}
-                      onMouseEnter={() => onSentenceHover(sentence.id)}
-                      onMouseLeave={() => onSentenceHover(null)}
-                      onClick={() => handleSentenceClick(sentence.id)}
+                      className="group/sentence border-l-2 border-transparent hover:border-black/20 pl-3 -ml-3 transition-colors duration-150"
                     >
-                      {/* Texte original allemand */}
-                      <p className="font-reading text-[1.28rem] leading-[1.9] text-black tracking-[0.005em]">
+                      {/* Phrase allemande originale */}
+                      <p className="font-reading text-[1.28rem] leading-[1.85] text-black tracking-[0.005em]">
                         {sentence.words.map((word, wIdx) => {
                           const needsSpace =
                             wIdx > 0 &&
@@ -141,29 +112,58 @@ export const TextReader: React.FC<TextReaderProps> = ({
                         })}
                       </p>
 
-                      {/* Espace réservé fixe pour la traduction française : surface grisée avec typographie normale */}
+                      {/* Dalle de traduction française avec animation de guillotine mécanique brutaliste */}
                       <div
-                        className={`my-2 px-3.5 py-2.5 border-l-2 transition-all duration-150 ${
-                          showTranslationBox
-                            ? 'opacity-100 bg-[#E8E8E1] border-neutral-600 pointer-events-auto'
-                            : 'opacity-0 bg-transparent border-transparent select-none pointer-events-none'
-                        }`}
-                        aria-hidden={!showTranslationBox}
+                        className="mt-2.5 mb-2 pl-4 pr-4 py-3 bg-[#EAE8E2] border-l-[3px] border-black shadow-[3px_3px_0px_0px_#111111] animate-translation-slab select-text"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <p className="font-reading text-[1.06rem] font-normal not-italic text-black leading-relaxed">
+                        <div className="flex items-center justify-between mb-1.5 border-b border-black/10 pb-1">
+                          <span className="font-mono text-[9px] font-bold text-black uppercase tracking-widest flex items-center gap-1.5">
+                            <span className="inline-block w-2 h-2 bg-[#D42B1E]" />
+                            FRANÇAIS · {sentence.id.replace('ch', 'CH. ').replace('_p', ' §').replace('_s', ' : ')}
+                          </span>
+                          <span className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">
+                            Trad. Laura Lafargue
+                          </span>
+                        </div>
+                        <p className="font-reading text-[1.08rem] font-normal not-italic text-black leading-relaxed">
                           {sentence.translationFr}
-                          {isPinned && (
-                            <span className="ml-2.5 font-mono text-[9.5px] font-bold text-neutral-500 uppercase tracking-widest inline-block border border-neutral-400 px-1 py-0.5 bg-white/70">
-                              [ÉPINGLÉ]
-                            </span>
-                          )}
                         </p>
                       </div>
                     </div>
-                  );
-                })}
-              </div>
+                  ))}
+                </div>
+              ) : (
+                /* Mode Allemand Seul : Paragraphe continu pur et fluide sans aucun espace blanc artificiel */
+                <p className="font-reading text-[1.28rem] leading-[1.9] text-black tracking-[0.005em]">
+                  {paragraph.sentences.map((sentence, sIdx) => (
+                    <Fragment key={sentence.id}>
+                      {sIdx > 0 && <span> </span>}
+                      {sentence.words.map((word, wIdx) => {
+                        const needsSpace =
+                          wIdx > 0 &&
+                          word.pos !== 'PUNCT' &&
+                          !['»', ')', ']', ',', '.', '!', '?', ':', ';', '–', '—'].includes(word.text);
+
+                        return (
+                          <Fragment key={word.id}>
+                            {needsSpace && <span> </span>}
+                            <InteractiveWord
+                              word={word}
+                              annotation={annotations[word.id]}
+                              concepts={concepts}
+                              showGrammarColors={showGrammarColors}
+                              filterBasicWords={filterBasicWords}
+                              isHighlighted={highlightedWordId === word.id}
+                              onHover={onWordHover}
+                            />
+                          </Fragment>
+                        );
+                      })}
+                    </Fragment>
+                  ))}
+                </p>
+              )}
             </section>
 
             {/* Excursus grammaticaux et Notes philosophiques (Masquables sur demande) */}

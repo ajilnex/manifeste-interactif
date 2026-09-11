@@ -11,9 +11,13 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
   - **Écueil** : Auto-qualification académique ou commerciale (« Édition critique », « Édition critique textuelle », etc.).
   - **Norme** : **Interdiction absolue** de toute mention auto-glorifiante. Ne jamais dire ce qu'on fait dans l'interface. Afficher sobrement le titre, les auteurs et la date : `Manifest der Kommunistischen Partei` · `Marx & Engels · 1848`.
 
-- **Traduction Interlinéaire Contextuelle** :
-  - La traduction française de chaque phrase (Laura Lafargue) s'intercale discrètement.
-  - **Norme visuelle** : Surface grisée sobre (`bg-[#E8E8E1]`), bordure latérale sobre, **typographie normale** (jamais d'italique généralisé afin de respecter les italiques du texte original allemand).
+- **Modalité de Traduction & Décalage Brutaliste** :
+  - **Écueil** : Traduction de phrase au survol ou espaces blancs réservés artificiels créant des sauts de ligne entre les phrases en allemand.
+  - **Norme** :
+    1. **Aucun survol ni clic sur les phrases** : la traduction ne se déclenche jamais au survol d'une phrase. Seuls les mots individuels restent interactifs.
+    2. **Mode Allemand Seul (défaut)** : Le paragraphe forme un bloc continu fluide de prose sans aucun espace blanc ni saut de ligne entre les phrases.
+    3. **Mode Bilingue (Traduction)** : Activé via les Réglages ou le commutateur d'en-tête `[FR]`. Tout le texte se décale d'un bloc avec une animation de guillotine mécanique brutaliste (`animate-translation-slab`, `clip-path`, ombre `shadow-[3px_3px_0px_0px_#111111]`, accent carré rouge Bauhaus `#D42B1E`, `startViewTransition`).
+    4. **Typographie** : Normale (jamais d'italique généralisé) pour respecter la fidélité des emphases du texte original.
   - **Fiche de mot** : La traduction contextuelle est affichée au sommet de l'encart. **Ne jamais ajouter d'encart redondant** de type « Justification du choix de traduction » qui paraphrase la traduction déjà visible.
 
 - **Rigueur Philologique & Étymologique** :

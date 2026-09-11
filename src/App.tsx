@@ -26,7 +26,6 @@ function App() {
   
   const [highlightedWordId, setHighlightedWordId] = useState<string | null>(null);
   const [highlightedParagraphId, setHighlightedParagraphId] = useState<string | null>(null);
-  const [highlightedSentenceId, setHighlightedSentenceId] = useState<string | null>(null);
 
   // Synchronisation de l'état plein écran avec le navigateur
   useEffect(() => {
@@ -109,7 +108,13 @@ function App() {
   }, []);
 
   const handleToggleInterlinearTranslations = useCallback(() => {
-    setShowInterlinearTranslations((prev) => !prev);
+    if (typeof document !== 'undefined' && 'startViewTransition' in document) {
+      (document as unknown as { startViewTransition: (cb: () => void) => void }).startViewTransition(() => {
+        setShowInterlinearTranslations((prev) => !prev);
+      });
+    } else {
+      setShowInterlinearTranslations((prev) => !prev);
+    }
   }, []);
 
   const handleToggleShowExcursus = useCallback(() => {
@@ -122,10 +127,6 @@ function App() {
 
   const handleParagraphHover = useCallback((paragraphId: string | null) => {
     setHighlightedParagraphId(paragraphId);
-  }, []);
-
-  const handleSentenceHover = useCallback((sentenceId: string | null) => {
-    setHighlightedSentenceId(sentenceId);
   }, []);
 
   const handleToggleFullscreen = useCallback(() => {
@@ -175,6 +176,30 @@ function App() {
 
         {/* Languettes Réglages & Plein écran collées au bord droit de l'écran */}
         <div className="flex items-center h-full">
+          {/* Languette Bascule Traduction bilingue */}
+          <button
+            onClick={handleToggleInterlinearTranslations}
+            className={`group flex items-center h-full border-l-2 border-black pl-3 pr-3 transition-all duration-300 ease-out cursor-pointer select-none ${
+              showInterlinearTranslations
+                ? 'bg-black text-white hover:bg-neutral-800'
+                : 'bg-white text-black hover:bg-neutral-100'
+            }`}
+            title={showInterlinearTranslations ? "Désactiver la traduction (Allemand seul)" : "Activer la traduction française (Bilingue)"}
+            aria-label="Traduction française"
+          >
+            <span
+              className={`w-2 h-2 shrink-0 transition-colors duration-200 ${
+                showInterlinearTranslations ? 'bg-[#D42B1E]' : 'border border-black bg-white'
+              }`}
+            />
+            <span className="ml-1.5 font-mono text-[11px] font-bold uppercase tracking-wider">
+              FR
+            </span>
+            <span className="max-w-0 opacity-0 group-hover:max-w-28 group-hover:opacity-100 group-hover:ml-1.5 overflow-hidden whitespace-nowrap font-mono text-[11px] font-bold uppercase tracking-wider transition-all duration-300 ease-out">
+              {showInterlinearTranslations ? '(Bilingue)' : '(Allemand seul)'}
+            </span>
+          </button>
+
           {/* Languette Réglages (Engrenage situé à gauche du plein écran) */}
           <button
             onClick={handleToggleSettings}
@@ -319,10 +344,8 @@ function App() {
           showExcursus={showExcursus}
           highlightedWordId={highlightedWordId}
           highlightedParagraphId={highlightedParagraphId}
-          highlightedSentenceId={highlightedSentenceId}
           onWordHover={handleWordHover}
           onParagraphHover={handleParagraphHover}
-          onSentenceHover={handleSentenceHover}
         />
       </main>
     </div>
