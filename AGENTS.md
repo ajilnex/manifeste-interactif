@@ -12,12 +12,18 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
   - **Norme** : **Interdiction absolue** de toute mention auto-glorifiante. Ne jamais dire ce qu'on fait dans l'interface. Afficher sobrement le titre, les auteurs et la date : `Manifest der Kommunistischen Partei` · `Marx & Engels · 1848`.
 
 - **Modalité de Traduction & Décalage Brutaliste** :
-  - **Écueil** : Traduction de phrase au survol ou espaces blancs réservés artificiels créant des sauts de ligne entre les phrases en allemand.
+  - **Écueil** : Traduction de phrase au survol, espaces blancs réservés artificiels créant des sauts de ligne entre les phrases en allemand, ou ajout d'en-têtes métatextuels (« FRANÇAIS », numéros de paragraphes, « Trad. Laura Lafargue ») et de décors (petit carré rouge).
   - **Norme** :
     1. **Aucun survol ni clic sur les phrases** : la traduction ne se déclenche jamais au survol d'une phrase. Seuls les mots individuels restent interactifs.
     2. **Mode Allemand Seul (défaut)** : Le paragraphe forme un bloc continu fluide de prose sans aucun espace blanc ni saut de ligne entre les phrases.
-    3. **Mode Bilingue (Traduction)** : Activé via les Réglages ou le commutateur d'en-tête `[FR]`. Tout le texte se décale d'un bloc avec une animation de guillotine mécanique brutaliste (`animate-translation-slab`, `clip-path`, ombre `shadow-[3px_3px_0px_0px_#111111]`, accent carré rouge Bauhaus `#D42B1E`, `startViewTransition`).
-    4. **Typographie** : Normale (jamais d'italique généralisé) pour respecter la fidélité des emphases du texte original.
+    3. **Mode Bilingue (Traduction)** : Activé via les Réglages ou le commutateur d'en-tête `[FR]`. Tout le texte se décale d'un bloc avec une animation mécanique brutaliste (`animate-translation-slab`, `clip-path`, `startViewTransition`).
+    4. **Bande de traduction française purement textuelle** :
+       - **Proscription totale des métadonnées et artifices visuels** : Ne jamais afficher d'en-tête (« FRANÇAIS », « CH. 0 §1 : 1 », « Trad. Laura Lafargue »), ni de carré rouge, ni de ligne séparatrice décorative. Seuls les mots du texte français sont affichés.
+       - **Style architectural de la bande** : Le texte français s'inscrit dans une bande légèrement plus grisée que le reste du texte (`bg-[#E6E4DE]`, canvas `#F7F7F4`), encadrée par deux barres latérales franches (`border-l-2 border-r-2 border-black`) avec typographie normale (`font-reading text-[1.12rem] font-normal not-italic text-black`).
+    5. **Animation de retrait mécanique symétrique** :
+       - **Écueil** : Disparition instantanée ou précipitée lors du retrait du français (snapping brusque).
+       - **Norme** : Lors de la désactivation du français, les dalles jouent une animation de repli mécanique ascendant (`animate-translation-slab-exit`, 300ms avec `clip-path: inset(0 0 100% 0)` et `max-height: 0`) au même rythme que l'apparition, avant que les phrases allemandes ne se rejoignent fluidement via `startViewTransition`.
+    6. **Typographie** : Normale (jamais d'italique généralisé) pour respecter la fidélité des emphases du texte original.
   - **Fiche de mot** : La traduction contextuelle est affichée au sommet de l'encart. **Ne jamais ajouter d'encart redondant** de type « Justification du choix de traduction » qui paraphrase la traduction déjà visible.
 
 - **Règle Impérative de Découplage Strict Mot-à-Mot** :

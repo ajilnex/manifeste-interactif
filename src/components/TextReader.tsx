@@ -8,6 +8,7 @@ interface TextReaderProps {
   showGrammarColors: boolean;
   filterBasicWords: boolean;
   showInterlinearTranslations: boolean;
+  isCollapsingTranslations?: boolean;
   highlightedWordId: string | null;
   highlightedParagraphId: string | null;
   onWordHover: (wordId: string | null) => void;
@@ -20,6 +21,7 @@ export const TextReader: React.FC<TextReaderProps> = ({
   showGrammarColors,
   filterBasicWords,
   showInterlinearTranslations,
+  isCollapsingTranslations = false,
   highlightedWordId,
   highlightedParagraphId,
   onWordHover,
@@ -59,7 +61,7 @@ export const TextReader: React.FC<TextReaderProps> = ({
                   {paragraph.sentences.map((sentence) => (
                     <div
                       key={sentence.id}
-                      className="group/sentence border-l-2 border-transparent hover:border-black/20 pl-3 -ml-3 transition-colors duration-150"
+                      className="group/sentence border-l-2 border-black/15 hover:border-black/40 pl-3.5 -ml-3.5 transition-colors duration-150"
                     >
                       {/* Phrase allemande originale */}
                       <p className="font-reading text-[1.28rem] leading-[1.85] text-black tracking-[0.005em]">
@@ -85,21 +87,16 @@ export const TextReader: React.FC<TextReaderProps> = ({
                         })}
                       </p>
 
-                      {/* Dalle de traduction française avec animation de guillotine mécanique brutaliste */}
+                      {/* Bande de traduction française : fond plus grisé encadré par deux barres latérales, sans métadonnées */}
                       <div
-                        className="mt-2.5 mb-2 pl-4 pr-4 py-3 bg-[#EAE8E2] border-l-[3px] border-black shadow-[3px_3px_0px_0px_#111111] animate-translation-slab select-text"
+                        className={`my-2.5 px-4 py-3 bg-[#E6E4DE] border-l-2 border-r-2 border-black select-text ${
+                          isCollapsingTranslations
+                            ? 'animate-translation-slab-exit'
+                            : 'animate-translation-slab'
+                        }`}
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <div className="flex items-center justify-between mb-1.5 border-b border-black/10 pb-1">
-                          <span className="font-mono text-[9px] font-bold text-black uppercase tracking-widest flex items-center gap-1.5">
-                            <span className="inline-block w-2 h-2 bg-[#D42B1E]" />
-                            FRANÇAIS · {sentence.id.replace('ch', 'CH. ').replace('_p', ' §').replace('_s', ' : ')}
-                          </span>
-                          <span className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">
-                            Trad. Laura Lafargue
-                          </span>
-                        </div>
-                        <p className="font-reading text-[1.08rem] font-normal not-italic text-black leading-relaxed">
+                        <p className="font-reading text-[1.12rem] font-normal not-italic text-black leading-relaxed">
                           {sentence.translationFr}
                         </p>
                       </div>

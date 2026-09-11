@@ -224,6 +224,48 @@ body {
   transform-origin: top center;
 }
 
+@keyframes brutalist-slab-retract {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+    clip-path: inset(0 0 0% 0);
+    max-height: 250px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  30% {
+    opacity: 0.9;
+    transform: translateY(-2px) scaleY(0.98);
+    clip-path: inset(0 0 15% 0);
+  }
+  70% {
+    opacity: 0.4;
+    transform: translateY(-8px) scaleY(0.92);
+    clip-path: inset(0 0 70% 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-14px) scaleY(0.85);
+    clip-path: inset(0 0 100% 0);
+    max-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-width: 0px;
+    overflow: hidden;
+  }
+}
+
+.animate-translation-slab-exit {
+  animation: brutalist-slab-retract 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transform-origin: top center;
+  overflow: hidden;
+  pointer-events: none;
+}
+
 /* Native Browser View Transition rules for seamless document reflow */
 ::view-transition-group(root) {
   animation-duration: 320ms;
@@ -231,7 +273,7 @@ body {
 }
 
 ::view-transition-old(root) {
-  animation: brutalist-view-exit 180ms cubic-bezier(0.4, 0, 1, 1) both;
+  animation: brutalist-view-exit 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 ::view-transition-new(root) {
@@ -244,18 +286,19 @@ body {
   }
   to {
     opacity: 0;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
 }
 
 @keyframes brutalist-view-enter {
   from {
     opacity: 0;
-    transform: translateY(4px);
+    transform: translateY(3px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 

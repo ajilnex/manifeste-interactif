@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { Navigation } from './components/Navigation';
 import { SettingsPanel } from './components/SettingsPanel';
 import { TextReader } from './components/TextReader';
@@ -20,6 +20,8 @@ function App() {
   const [showGrammarColors, setShowGrammarColors] = useState(false);
   const [filterBasicWords, setFilterBasicWords] = useState(true);
   const [showInterlinearTranslations, setShowInterlinearTranslations] = useState(false);
+  const [isCollapsingTranslations, setIsCollapsingTranslations] = useState(false);
+  const collapseTimerRef = useRef<number | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   const [highlightedWordId, setHighlightedWordId] = useState<string | null>(null);
@@ -83,8 +85,22 @@ function App() {
   const showNext = Boolean(nextChapter) && isAtExtremity;
 
   const handleChapterSelect = useCallback((chapterId: string) => {
+    if (collapseTimerRef.current) {
+      window.clearTimeout(collapseTimerRef.current);
+      collapseTimerRef.current = null;
+      setIsCollapsingTranslations(false);
+    }
     setCurrentChapterId(chapterId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
+  // Nettoyage du timer de repli au démontage
+  useEffect(() => {
+    return () => {
+      if (collapseTimerRef.current) {
+        window.clearTimeout(collapseTimerRef.current);
+      }
+    };
   }, []);
 
   const handleToggleSidebar = useCallback(() => {
@@ -106,14 +122,50 @@ function App() {
   }, []);
 
   const handleToggleInterlinearTranslations = useCallback(() => {
-    if (typeof document !== 'undefined' && 'startViewTransition' in document) {
-      (document as unknown as { startViewTransition: (cb: () => void) => void }).startViewTransition(() => {
-        setShowInterlinearTranslations((prev) => !prev);
-      });
-    } else {
-      setShowInterlinearTranslations((prev) => !prev);
+    if (isCollapsingTranslations) {
+      // Annule le repli en cours et restaure la traduction immédiatement si recliqué
+      if (collapseTimerRef.current) {
+        window.clearTimeout(collapseTimerRef.current);
+        collapseTimerRef.current = null;
+      }
+      setIsCollapsingTranslations(false);
+      setShowInterlinearTranslations(true);
+      return;
     }
-  }, []);
+
+    if (showInterlinearTranslations) {
+      // Déclenchement du repli mécanique ascendant des bandes françaises (durée 280ms)
+      setIsCollapsingTranslations(true);
+      if (collapseTimerRef.current) {
+        window.clearTimeout(collapseTimerRef.current);
+      }
+      collapseTimerRef.current = window.setTimeout(() => {
+        if (typeof document !== 'undefined' && 'startViewTransition' in document) {
+          (document as unknown as { startViewTransition: (cb: () => void) => void }).startViewTransition(() => {
+            setShowInterlinearTranslations(false);
+            setIsCollapsingTranslations(false);
+          });
+        } else {
+          setShowInterlinearTranslations(false);
+          setIsCollapsingTranslations(false);
+        }
+        collapseTimerRef.current = null;
+      }, 280);
+    } else {
+      if (collapseTimerRef.current) {
+        window.clearTimeout(collapseTimerRef.current);
+        collapseTimerRef.current = null;
+      }
+      setIsCollapsingTranslations(false);
+      if (typeof document !== 'undefined' && 'startViewTransition' in document) {
+        (document as unknown as { startViewTransition: (cb: () => void) => void }).startViewTransition(() => {
+          setShowInterlinearTranslations(true);
+        });
+      } else {
+        setShowInterlinearTranslations(true);
+      }
+    }
+  }, [isCollapsingTranslations, showInterlinearTranslations]);
 
   const handleWordHover = useCallback((wordId: string | null) => {
     setHighlightedWordId(wordId);
@@ -174,23 +226,29 @@ function App() {
           <button
             onClick={handleToggleInterlinearTranslations}
             className={`group flex items-center h-full border-l-2 border-black pl-3 pr-3 transition-all duration-300 ease-out cursor-pointer select-none ${
-              showInterlinearTranslations
+              showInterlinearTranslations && !isCollapsingTranslations
                 ? 'bg-black text-white hover:bg-neutral-800'
                 : 'bg-white text-black hover:bg-neutral-100'
             }`}
-            title={showInterlinearTranslations ? "Désactiver la traduction (Allemand seul)" : "Activer la traduction française (Bilingue)"}
+            title={
+              showInterlinearTranslations && !isCollapsingTranslations
+                ? "Désactiver la traduction (Allemand seul)"
+                : "Activer la traduction française (Bilingue)"
+            }
             aria-label="Traduction française"
           >
             <span
               className={`w-2 h-2 shrink-0 transition-colors duration-200 ${
-                showInterlinearTranslations ? 'bg-[#D42B1E]' : 'border border-black bg-white'
+                showInterlinearTranslations && !isCollapsingTranslations
+                  ? 'bg-[#D42B1E]'
+                  : 'border border-black bg-white'
               }`}
             />
             <span className="ml-1.5 font-mono text-[11px] font-bold uppercase tracking-wider">
               FR
             </span>
             <span className="max-w-0 opacity-0 group-hover:max-w-28 group-hover:opacity-100 group-hover:ml-1.5 overflow-hidden whitespace-nowrap font-mono text-[11px] font-bold uppercase tracking-wider transition-all duration-300 ease-out">
-              {showInterlinearTranslations ? '(Bilingue)' : '(Allemand seul)'}
+              {showInterlinearTranslations && !isCollapsingTranslations ? '(Bilingue)' : '(Allemand seul)'}
             </span>
           </button>
 
@@ -316,7 +374,7 @@ function App() {
         onClose={() => setSettingsOpen(false)}
         filterBasicWords={filterBasicWords}
         onToggleFilterBasicWords={handleToggleFilterBasicWords}
-        showInterlinearTranslations={showInterlinearTranslations}
+        showInterlinearTranslations={showInterlinearTranslations && !isCollapsingTranslations}
         onToggleInterlinearTranslations={handleToggleInterlinearTranslations}
         showGrammarColors={showGrammarColors}
         onToggleGrammarColors={handleToggleGrammarColors}
@@ -332,6 +390,7 @@ function App() {
           showGrammarColors={showGrammarColors}
           filterBasicWords={filterBasicWords}
           showInterlinearTranslations={showInterlinearTranslations}
+          isCollapsingTranslations={isCollapsingTranslations}
           highlightedWordId={highlightedWordId}
           highlightedParagraphId={highlightedParagraphId}
           onWordHover={handleWordHover}
