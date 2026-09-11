@@ -17,13 +17,19 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
     1. **Aucun survol ni clic sur les phrases** : la traduction ne se déclenche jamais au survol d'une phrase. Seuls les mots individuels restent interactifs.
     2. **Mode Allemand Seul (défaut)** : Le paragraphe forme un bloc continu fluide de prose sans aucun espace blanc ni saut de ligne entre les phrases.
     3. **Mode Bilingue (Traduction)** : Activé via les Réglages ou le commutateur d'en-tête `[FR]`. Tout le texte se décale d'un bloc avec une animation mécanique brutaliste (`animate-translation-slab`, `clip-path`, `startViewTransition`).
-    4. **Bande de traduction française purement textuelle** :
+    4. **Espace de traduction française & Bordure assourdie** :
        - **Proscription totale des métadonnées et artifices visuels** : Ne jamais afficher d'en-tête (« FRANÇAIS », « CH. 0 §1 : 1 », « Trad. Laura Lafargue »), ni de carré rouge, ni de ligne séparatrice décorative. Seuls les mots du texte français sont affichés.
-       - **Style architectural de la bande** : Le texte français s'inscrit dans une bande légèrement plus grisée que le reste du texte (`bg-[#E6E4DE]`, canvas `#F7F7F4`), encadrée par deux barres latérales franches (`border-l-2 border-r-2 border-black`) avec typographie normale (`font-reading text-[1.12rem] font-normal not-italic text-black`).
+       - **Zéro bande à droite** : Aucune bordure sur le côté droit (`border-r-0`).
+       - **Espace grisé généreux** : Le texte français s'inscrit dans un coussin d'espacement aéré (`my-3 px-4 py-3.5`) avec un fond nettement plus grisé que le reste de la page (`bg-[#E7E5DE]`, canvas `#F7F7F4`).
+       - **Hiérarchie des bandes latérales gauches** :
+         - La ligne la plus à gauche (qui court du haut du texte allemand jusqu'au bas du texte français) est un gris très clair architectural (`border-l-2 border-[#D4D2CB]`).
+         - La bande à gauche de l'encart français (`border-l-2 border-[#9E9B93]`) est une nuance de gris moyen, assourdie (non noire), un tout petit peu plus sombre que la ligne extérieure.
     5. **Animation de retrait mécanique symétrique** :
        - **Écueil** : Disparition instantanée ou précipitée lors du retrait du français (snapping brusque).
        - **Norme** : Lors de la désactivation du français, les dalles jouent une animation de repli mécanique ascendant (`animate-translation-slab-exit`, 300ms avec `clip-path: inset(0 0 100% 0)` et `max-height: 0`) au même rythme que l'apparition, avant que les phrases allemandes ne se rejoignent fluidement via `startViewTransition`.
-    6. **Typographie** : Normale (jamais d'italique généralisé) pour respecter la fidélité des emphases du texte original.
+    6. **Typographie en italique avec règle d'inversion stricte** :
+       - Le texte français est composé en **italique** (`font-reading italic text-black`).
+       - **Règle d'inversion** : Tout élément mis en valeur ou en italique dans le texte original est rigoureusement inversé pour s'afficher en **romain droit** (`not-italic font-normal`) dans la traduction française (`renderInvertedFrench`).
   - **Fiche de mot** : La traduction contextuelle est affichée au sommet de l'encart. **Ne jamais ajouter d'encart redondant** de type « Justification du choix de traduction » qui paraphrase la traduction déjà visible.
 
 - **Règle Impérative de Découplage Strict Mot-à-Mot** :

@@ -15,6 +15,34 @@ interface TextReaderProps {
   onParagraphHover: (paragraphId: string | null) => void;
 }
 
+const renderInvertedFrench = (text: string) => {
+  // Découpe le texte sur les balises *mot*, _mot_ ou <em>mot</em> pour appliquer l'inversion typographique :
+  // Le texte global français étant en italique, les éléments mis en valeur dans l'original s'affichent en romain droit (not-italic).
+  const parts = text.split(/(\*[^*]+\*|_[^_]+_|<em>.*?<\/em>)/g);
+  return parts.map((part, idx) => {
+    if (
+      (part.startsWith('*') && part.endsWith('*')) ||
+      (part.startsWith('_') && part.endsWith('_'))
+    ) {
+      const clean = part.slice(1, -1);
+      return (
+        <span key={idx} className="not-italic font-normal">
+          {clean}
+        </span>
+      );
+    }
+    if (part.startsWith('<em>') && part.endsWith('</em>')) {
+      const clean = part.slice(4, -5);
+      return (
+        <span key={idx} className="not-italic font-normal">
+          {clean}
+        </span>
+      );
+    }
+    return <Fragment key={idx}>{part}</Fragment>;
+  });
+};
+
 export const TextReader: React.FC<TextReaderProps> = ({
   chapter,
   annotations,
@@ -61,7 +89,7 @@ export const TextReader: React.FC<TextReaderProps> = ({
                   {paragraph.sentences.map((sentence) => (
                     <div
                       key={sentence.id}
-                      className="group/sentence border-l-2 border-black/15 hover:border-black/40 pl-3.5 -ml-3.5 transition-colors duration-150"
+                      className="group/sentence border-l-2 border-[#D4D2CB] hover:border-[#B5B2AA] pl-3.5 -ml-3.5 transition-colors duration-150"
                     >
                       {/* Phrase allemande originale */}
                       <p className="font-reading text-[1.28rem] leading-[1.85] text-black tracking-[0.005em]">
@@ -87,17 +115,17 @@ export const TextReader: React.FC<TextReaderProps> = ({
                         })}
                       </p>
 
-                      {/* Bande de traduction française : fond plus grisé encadré par deux barres latérales, sans métadonnées */}
+                      {/* Espace de traduction française : coussin grisé généreux, bordure gauche assourdie, zéro bande droite */}
                       <div
-                        className={`my-2.5 px-4 py-3 bg-[#E6E4DE] border-l-2 border-r-2 border-black select-text ${
+                        className={`my-3 px-4 py-3.5 bg-[#E7E5DE] border-l-2 border-[#9E9B93] select-text ${
                           isCollapsingTranslations
                             ? 'animate-translation-slab-exit'
                             : 'animate-translation-slab'
                         }`}
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <p className="font-reading text-[1.12rem] font-normal not-italic text-black leading-relaxed">
-                          {sentence.translationFr}
+                        <p className="font-reading text-[1.12rem] font-normal italic text-black leading-relaxed">
+                          {renderInvertedFrench(sentence.translationFr)}
                         </p>
                       </div>
                     </div>
