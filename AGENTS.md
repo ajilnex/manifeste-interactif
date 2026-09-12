@@ -48,6 +48,20 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
     4. Indiquer les formes historiques **en toutes lettres** : « **en vieux haut-allemand** » et « **en moyen haut-allemand** », ainsi que le proto-germanique reconstruit (*). **Proscription absolue des sigles cryptiques `MHA` et `VHA`**, incompréhensibles pour le lecteur.
     5. **Autonomie absolue de chaque encart** : **Interdiction formelle de renvois « voir supra » ou « voir infra »**. L'utilisateur accède aux mots au clic de manière indépendante : chaque mot ou composant d'un terme doit recevoir sa glose explicite et complète directement dans sa propre fiche.
 
+- **Excellence Académique & Traitement des Cruces Marxologiques** :
+  - **Références fondamentales** : Maximilien Rubel (*Bibliothèque de la Pléiade*), Étienne Balibar (*La philosophie de Marx*), Charles Andler, Jean-Numa Ducange, ainsi que le corpus critique GEME / MEGA².
+  - **Table des cruces conceptuels cardinaux** :
+    1. **`Klasse` vs `Stand`** : Ne jamais anachroniser *Stand* en « classe ». *Stand* (pluriel *Stände*) désigne les **ordres et états juridiques féodaux héréditaires** d'Ancien Régime (clergé, noblesse, tiers-état). *Klasse* désigne la **classe économique moderne** déterminée par sa place objective dans les rapports de production. Le capitalisme se caractérise précisément par la dissolution des multiples *Stände* en deux *Klassen* polaires.
+    2. **`Pfahlbürger`** : Terme de droit médiéval germanique désignant les résidents extramuros des faubourgs sous juridiction urbaine (*im Pfahle*, entre remparts et palissade). Traduire par « bourgeois des faubourgs / bourgeois de palissade ».
+    3. **`Zunftbürger`** : Maître de jurande / de corporation détenant un atelier (note d'Engels de 1888), strictement opposé au compagnon (*Gesell*).
+    4. **`Aufhebung`** : Négation dialectique hégélienne triadique (*tollere, conservare, elevare*). Traduire par « abolition / dépassement » (et non simple suppression mécanique).
+    5. **`Wehmut`** : « mélancolie / sentimentalité nostalgique » (moyen haut-allemand *wēmuot* = douleur d'âme), strictement découplé de l'adjectif voisin *spießbürgerlich*.
+    6. **`Spießbürger`** : « bourgeois philistin / esprit étriqué » (milicien urbain à la pique modeste, devenu symbole du conservateur borné).
+    7. **`Hetzjagd`** : « chasse à courre / traque acharnée » (métaphore cynégétique parodiant la Sainte-Alliance de 1815 traquant le spectre communiste).
+    8. **`Ausbeutung`** : « exploitation » (terme minier saxon désignant l'extraction intégrale d'un filon, transposé par Marx à l'extorsion de surtravail).
+    9. **`Untergang`** : « ruine / effondrement / perte » (l'alternative dialectique : révolution ou ruine commune des classes belligérantes).
+    10. **`Produktionsverhältnisse`** : « rapports de production » (ontologie matérialiste des relations sociales objectives, et non simples conditions extérieures).
+
 ---
 
 ## 2. Design System Bauhaus & Ergonomie UI
@@ -79,11 +93,14 @@ Guide opérationnel dense à destination des agents autonomes et contributeurs I
   - **Écueil critique** : Dans React, les portails (`FloatingPortal`) propagent les événements synthétiques le long de l'arbre virtuel des composants. Un clic dans un encart (ex: onglet « Étymologie ») remonte au parent `<div onClick={() => handleSentenceClick(sentence.id)}>` et épingle involontairement la phrase sous-jacente.
   - **Norme** : Tout composant flottant (`Tooltip.tsx`, boutons d'onglets, popovers) **doit intercepter** et couper la propagation sur `onClick`, `onMouseDown`, `onMouseUp` et `onPointerDown`. De même sur `InteractiveWord.tsx`.
 
-- **Structure des Données** :
+- **Structure Modulaire des Données** :
   - `src/types/index.ts` : Types TypeScript stricts (`ManifestoData`, `Chapter`, `Paragraph`, `Sentence`, `Word`, `Annotation`, `Concept`).
   - `src/data/manifesto_de.ts` : Corpus allemand balisé mot à mot (ID déterministe `chX_pY_sZ_wW`, lemme, POS, cas, genre, nombre, temps, préverbes séparables).
-  - `src/data/lexicon.ts` : Dictionnaire contextuel, résolutions lemmatiques et règles morphologiques de secours.
-  - `src/data/annotations.ts` : Fiches analytiques approfondies (grammaire, étymologie scientifique, notes de syntaxe, cognats).
+  - `src/data/chapters/` : Découpage modulaire du texte allemand et des traductions françaises de phrases (`ch1_remaining.ts`, `ch2.ts`, `ch3.ts`, `ch4.ts`).
+  - `src/data/annotations.ts` : Hub central d'annotations approfondies (ch0 & ch1) et agrégateur universel via `Object.assign(annotations, annotationsCh2, annotationsCh3Ch4)`.
+  - `src/data/annotations_ch2.ts` : Module d'annotations dialectiques et conceptuelles du Chapitre 2 (75 fiches complètes).
+  - `src/data/annotations_ch3_ch4.ts` : Module d'annotations critiques, historiques et tactiques des Chapitres 3 et 4 (43 fiches complètes).
+  - `src/data/lexicon.ts` : Dictionnaire universel lemmatisé de secours (2 207 lemmes de `LEMMA_LEXICON`), 100% catégorisé en `pos_fr`, avec 755 étymologies DWDS/Pfeifer/Grimm complètes écrites en toutes lettres.
   - `src/data/concepts.ts` : Graphe conceptuel marxiste et grammatical.
 
 ---
