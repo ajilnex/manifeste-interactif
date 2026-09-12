@@ -8,7 +8,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p1_s1',
-        translationFr: 'Quelle est la position des communistes vis-à-vis des prolétaires pris en masse ?',
+        translationFr: 'Dans quel rapport les communistes se trouvent-ils à l\'égard des prolétaires en général ?',
         words: [
           w('ch2_p1_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p1_s1_w2', 'welchem', 'welcher', 'PRON', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -25,7 +25,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p1_s2',
-        translationFr: 'Les communistes ne forment pas un parti distinct opposé aux autres partis ouvriers.',
+        translationFr: 'Les communistes ne forment pas un parti distinct en face des autres partis ouvriers.',
         words: [
           w('ch2_p1_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p1_s2_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -42,7 +42,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p1_s3',
-        translationFr: 'Ils n’ont point d’intérêts qui les séparent du prolétariat en général.',
+        translationFr: 'Ils n\'ont point d\'intérêts séparés des intérêts de l\'ensemble du prolétariat.',
         words: [
           w('ch2_p1_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch2_p1_s3_w2', 'haben', 'haben', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -65,7 +65,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p2_s1',
-        translationFr: 'Ils ne proclament pas de principes sectaires sur lesquels ils voudraient modeler le mouvement ouvrier.',
+        translationFr: 'Ils n\'établissent point de principes particuliers sur lesquels ils voudraient modeler le mouvement prolétarien.',
         words: [
           w('ch2_p2_s1_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch2_p2_s1_w2', 'stellen', 'aufstellen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND', separablePrefix: 'auf' }),
@@ -91,7 +91,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p3_s1',
-        translationFr: 'Les communistes ne se distinguent des autres partis ouvriers que sur deux points : 1° Dans les différentes luttes nationales des prolétaires, ils mettent en avant et font valoir les intérêts communs du prolétariat tout entier, sans considération de nationalité ; 2° Dans les différentes phases évolutives de la lutte entre prolétaires et bourgeois, ils représentent toujours l’intérêt du mouvement dans son ensemble.',
+        translationFr: 'Les communistes ne se distinguent des autres partis prolétariens que sur deux points : d\'une part, dans les différentes luttes nationales des prolétaires, ils mettent en avant et font valoir les intérêts communs à tout le prolétariat, indépendants de la nationalité ; d\'autre part, dans les différentes étapes de développement que traverse la lutte entre prolétariat et bourgeoisie, ils représentent toujours l\'intérêt du mouvement dans son ensemble.',
         words: [
           w('ch2_p3_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p3_s1_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -167,7 +167,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p4_s1',
-        translationFr: 'Pratiquement, les communistes sont donc la section la plus résolue, la plus avancée des partis ouvriers de tous les pays ; théoriquement, ils ont sur le reste du prolétariat l’avantage d’une intelligence claire des conditions, de la marche et des fins générales du mouvement prolétarien.',
+        translationFr: 'Pratiquement, les communistes sont donc la fraction la plus résolue des partis ouvriers de tous les pays, celle qui pousse toujours en avant ; théoriquement, ils ont sur le reste de la masse prolétarienne l\'avantage d\'une claire intelligence des conditions, de la marche et des résultats généraux du mouvement prolétarien.',
         words: [
           w('ch2_p4_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p4_s1_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -220,7 +220,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p5_s1',
-        translationFr: 'Le but immédiat des communistes est le même que celui de toutes les fractions du prolétariat : constitution des prolétaires en classe, renversement de la domination bourgeoise, conquête du pouvoir politique par le prolétariat.',
+        translationFr: 'Le but immédiat des communistes est le même que celui de tous les autres partis prolétariens : constitution du prolétariat en classe, renversement de la domination bourgeoise, conquête du pouvoir politique par le prolétariat.',
         words: [
           w('ch2_p5_s1_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p5_s1_w2', 'nächste', 'nächster', 'ADJ', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -258,7 +258,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p5_s2',
-        translationFr: 'Les propositions théoriques des communistes ne reposent nullement sur des idées, des principes inventés ou découverts par tel ou tel réformateur du monde.',
+        translationFr: 'Les thèses théoriques des communistes ne reposent nullement sur des idées, des principes inventés ou découverts par tel ou tel réformateur du monde.',
         words: [
           w('ch2_p5_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p5_s2_w2', 'theoretischen', 'theoretisch', 'ADJ', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -293,7 +293,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p6_s1',
-        translationFr: 'Elles ne sont que l’expression, en termes généraux, des conditions réelles d’une lutte de classe existante, d’un mouvement historique évoluant sous nos yeux.',
+        translationFr: 'Elles ne sont que l\'expression générale de conditions réelles d\'une lutte de classes existante, d\'un mouvement historique qui s\'accomplit sous nos yeux.',
         words: [
           w('ch2_p6_s1_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch2_p6_s1_w2', 'sind', 'sein', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -320,7 +320,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p6_s2',
-        translationFr: 'L’abolition des rapports de propriété qui ont existé jusqu’ici n’est pas le caractère distinctif du communisme.',
+        translationFr: 'L\'abolition des rapports de propriété qui ont existé jusqu\'ici n\'a rien qui caractérise en propre le communisme.',
         words: [
           w('ch2_p6_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p6_s2_w2', 'Abschaffung', 'Abschaffung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -342,7 +342,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p7_s1',
-        translationFr: 'La propriété a subi de constants changements, de continuelles transformations historiques.',
+        translationFr: 'Tous les rapports de propriété ont été soumis à une constante mutation historique, à un perpétuel changement historique.',
         words: [
           w('ch2_p7_s1_w1', 'Alle', 'all', 'PRON', { case: 'NOM', gender: 'N', number: 'PL' }),
           w('ch2_p7_s1_w2', 'Eigentumsverhältnisse', 'Eigentumsverhältnis', 'NOUN', { case: 'NOM', gender: 'N', number: 'PL', isCompound: true, compoundParts: ['Eigentums', 'Verhältnis'] }),
@@ -367,7 +367,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p8_s1',
-        translationFr: 'La Révolution française, par exemple, abolit la propriété féodale en faveur de la propriété bourgeoise.',
+        translationFr: 'La Révolution française, par exemple, a aboli la propriété féodale en faveur de la propriété bourgeoise.',
         words: [
           w('ch2_p8_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p8_s1_w2', 'Französische', 'französisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -390,7 +390,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p9_s1',
-        translationFr: 'Le caractère distinctif du communisme n’est pas l’abolition de la propriété en général, mais l’abolition de la propriété bourgeoise.',
+        translationFr: 'Ce qui caractérise le communisme, ce n\'est pas l\'abolition de la propriété en général, mais l\'abolition de la propriété bourgeoise.',
         words: [
           w('ch2_p9_s1_w1', 'Was', 'was', 'PRON', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p9_s1_w2', 'den', 'der', 'ART', { case: 'ACC', gender: 'M', number: 'SG' }),
@@ -421,7 +421,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p10_s1',
-        translationFr: 'Or, la propriété privée, la propriété bourgeoise moderne, est la dernière et la plus parfaite expression du mode de production et d’appropriation basé sur les antagonismes de classes, sur l’exploitation des uns par les autres.',
+        translationFr: 'Or, la propriété privée bourgeoise moderne est l\'expression ultime et la plus achevée de la production et de l\'appropriation des produits reposant sur des antagonismes de classes, sur l\'exploitation des uns par les autres.',
         words: [
           w('ch2_p10_s1_w1', 'Aber', 'aber', 'CONJ'),
           w('ch2_p10_s1_w2', 'das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -464,7 +464,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p11_s1',
-        translationFr: 'En ce sens, les communistes peuvent résumer leur théorie dans cette proposition unique : abolition de la propriété privée.',
+        translationFr: 'En ce sens, les communistes peuvent résumer leur théorie en cette formule unique : abolition de la propriété privée.',
         words: [
           w('ch2_p11_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p11_s1_w2', 'diesem', 'dies', 'PRON', { case: 'DAT', gender: 'M', number: 'SG' }),
@@ -494,7 +494,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p12_s1',
-        translationFr: 'On nous a reproché, à nous autres communistes, de vouloir abolir la propriété personnelle, péniblement acquise par le travail, propriété que l’on déclare être la base de toute liberté, de toute activité, de toute indépendance individuelle.',
+        translationFr: 'On nous a reproché, à nous autres communistes, de vouloir abolir la propriété acquise personnellement, fruit du propre travail de chacun ; cette propriété qui formerait le fondement de toute liberté, de toute activité et de toute indépendance personnelles.',
         words: [
           w('ch2_p12_s1_w1', 'Man', 'man', 'PRON', { case: 'NOM', number: 'SG' }),
           w('ch2_p12_s1_w2', 'hat', 'haben', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -536,7 +536,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p13_s1',
-        translationFr: 'La propriété personnelle, fruit du travail d’un homme !',
+        translationFr: 'Propriété acquise par le travail, acquise par soi-même, méritée par soi-même !',
         words: [
           w('ch2_p13_s1_w1', 'Erarbeitetes', 'Erarbeitet', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p13_s1_w2', ',', ',', 'PUNCT'),
@@ -549,7 +549,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p13_s2',
-        translationFr: 'Veut-on parler de la propriété du petit bourgeois, du petit paysan, forme de propriété antérieure à la propriété bourgeoise ?',
+        translationFr: 'Parlez-vous de la propriété du petit bourgeois, du petit paysan, qui a précédé la propriété bourgeoise ?',
         words: [
           w('ch2_p13_s2_w1', 'Sprecht', 'Sprecht', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p13_s2_w2', 'ihr', 'ihr', 'PRON', { case: 'ACC', gender: 'N', number: 'SG' }),
@@ -570,7 +570,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p13_s3',
-        translationFr: 'Nous n’avons que faire de l’abolir, le progrès de l’industrie l’a abolie, ou est en train de l’abolir.',
+        translationFr: 'Nous n\'avons pas besoin de l\'abolir : le développement de l\'industrie l\'a abolie et l\'abolit chaque jour.',
         words: [
           w('ch2_p13_s3_w1', 'Wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
           w('ch2_p13_s3_w2', 'brauchen', 'brauchen', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
@@ -600,7 +600,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p14_s1',
-        translationFr: 'Ou bien veut-on parler de la propriété privée, de la propriété bourgeoise moderne ?',
+        translationFr: 'Ou bien parlez-vous de la propriété privée bourgeoise moderne ?',
         words: [
           w('ch2_p14_s1_w1', 'Oder', 'oder', 'CONJ'),
           w('ch2_p14_s1_w2', 'sprecht', 'sprechen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -619,7 +619,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p15_s1',
-        translationFr: 'Est-ce que le travail salarié crée de la propriété pour le prolétaire ?',
+        translationFr: 'Mais le travail salarié, le travail du prolétaire, lui crée-t-il de la propriété ?',
         words: [
           w('ch2_p15_s1_w1', 'Schafft', 'schaffen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
           w('ch2_p15_s1_w2', 'aber', 'aber', 'ADV'),
@@ -645,7 +645,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p15_s3',
-        translationFr: 'Il crée le capital, c’est-à-dire la propriété qui exploite le travail salarié, et qui ne peut s’accroître qu’à la condition de produire du nouveau travail salarié afin de l’exploiter de nouveau.',
+        translationFr: 'Il crée le capital, c\'est-à-dire la propriété qui exploite le travail salarié, et qui ne peut s\'accroître qu\'à la condition de produire du nouveau travail salarié afin de l\'exploiter à nouveau.',
         words: [
           w('ch2_p15_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', gender: 'F', number: 'SG', person: 3 }),
           w('ch2_p15_s3_w2', 'schafft', 'schaffen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -686,7 +686,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p15_s4',
-        translationFr: 'Dans sa forme présente la propriété se meut entre ces deux termes antinomiques : capital et travail.',
+        translationFr: 'La propriété, dans sa forme actuelle, se meut dans l\'antagonisme du capital et du travail salarié.',
         words: [
           w('ch2_p15_s4_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p15_s4_w2', 'Eigentum', 'Eigentum', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -708,7 +708,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p15_s5',
-        translationFr: 'Examinons les deux côtés de cet antagonisme.',
+        translationFr: 'Examinons les deux termes de cet antagonisme :',
         words: [
           w('ch2_p15_s5_w1', 'Betrachten', 'betrachten', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
           w('ch2_p15_s5_w2', 'wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
@@ -727,7 +727,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p16_s1',
-        translationFr: 'Être capitaliste signifie occuper non seulement une position personnelle, mais encore une position sociale dans le système de la production.',
+        translationFr: 'Être capitaliste, ce n\'est pas seulement occuper une position purement personnelle, mais une position sociale dans la production.',
         words: [
           w('ch2_p16_s1_w1', 'Kapitalist', 'Kapitalist', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p16_s1_w2', 'sein', 'sein', 'VERB'),
@@ -752,7 +752,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p16_s2',
-        translationFr: 'Le capital est un produit collectif ; il ne peut être mis en mouvement que par les efforts combinés de beaucoup de membres de la société, et même, en dernière instance, que par les efforts combinés de tous les membres de la société.',
+        translationFr: 'Le capital est un produit collectif et ne peut être mis en mouvement que par l\'activité commune de nombreux membres de la société, et même, en dernière instance, par l\'activité commune de tous les membres de la société.',
         words: [
           w('ch2_p16_s2_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p16_s2_w2', 'Kapital', 'Kapital', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -792,7 +792,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p16_s3',
-        translationFr: 'Le capital n’est donc pas une force personnelle ; il est une force sociale.',
+        translationFr: 'Le capital n\'est donc pas une puissance personnelle, c\'est une puissance sociale.',
         words: [
           w('ch2_p16_s3_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p16_s3_w2', 'Kapital', 'Kapital', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -816,7 +816,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p17_s1',
-        translationFr: 'Dès lors, quand le capital est transformé en propriété commune, appartenant à tous les membres de la société, ce n’est pas là une propriété personnelle transformée en propriété sociale.',
+        translationFr: 'Dès lors, quand le capital est transformé en propriété commune, appartenant à tous les membres de la société, ce n\'est pas une propriété personnelle qui se transforme en propriété sociale.',
         words: [
           w('ch2_p17_s1_w1', 'Wenn', 'wenn', 'CONJ'),
           w('ch2_p17_s1_w2', 'also', 'also', 'ADV'),
@@ -848,7 +848,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p17_s2',
-        translationFr: 'Il n’y a que le caractère social de la propriété qui soit transformé.',
+        translationFr: 'Seul le caractère social de la propriété se transforme.',
         words: [
           w('ch2_p17_s2_w1', 'Nur', 'nur', 'ADV'),
           w('ch2_p17_s2_w2', 'der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -863,7 +863,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p17_s3',
-        translationFr: 'Elle perd son caractère de propriété de classe.',
+        translationFr: 'Elle perd son caractère de classe.',
         words: [
           w('ch2_p17_s3_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch2_p17_s3_w2', 'verliert', 'verlieren', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -879,7 +879,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p18_s1',
-        translationFr: 'Arrivons au travail salarié.',
+        translationFr: 'Venons-en au travail salarié :',
         words: [
           w('ch2_p18_s1_w1', 'Kommen', 'kommen', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
           w('ch2_p18_s1_w2', 'wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
@@ -895,7 +895,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p19_s1',
-        translationFr: 'Le prix moyen du travail salarié est le minimum du salaire, c’est-à-dire la somme des moyens d’existence dont l’ouvrier a besoin pour vivre en ouvrier.',
+        translationFr: 'Le prix moyen du travail salarié est le minimum du salaire, c\'est-à-dire la somme des moyens de subsistance nécessaires pour maintenir l\'ouvrier en vie en tant qu\'ouvrier.',
         words: [
           w('ch2_p19_s1_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p19_s1_w2', 'Durchschnittspreis', 'Durchschnittspreis', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG', isCompound: true, compoundParts: ['Durchschnitts', 'Preis'] }),
@@ -931,7 +931,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p19_s2',
-        translationFr: 'Par conséquent, ce que l’ouvrier s’approprie par son activité est tout juste ce qui lui est nécessaire pour entretenir une maigre existence, et pour se reproduire.',
+        translationFr: 'Ce que le salarié s\'approprie donc par son activité suffit tout juste à reproduire sa nue existence.',
         words: [
           w('ch2_p19_s2_w1', 'Was', 'was', 'PRON', { case: 'ACC', gender: 'N', number: 'SG' }),
           w('ch2_p19_s2_w2', 'also', 'also', 'ADV'),
@@ -960,7 +960,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p19_s3',
-        translationFr: 'Nous ne voulons en aucune façon abolir cette appropriation personnelle des produits du travail, indispensable à l’entretien et à la reproduction de la vie humaine, cette appropriation ne laissant aucun profit net qui donne du pouvoir sur le travail d’autrui.',
+        translationFr: 'Nous ne voulons nullement abolir cette appropriation personnelle des produits du travail destinée à la reproduction de la vie immédiate, appropriation qui ne laisse aucun produit net conférant un pouvoir sur le travail d\'autrui.',
         words: [
           w('ch2_p19_s3_w1', 'Wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
           w('ch2_p19_s3_w2', 'wollen', 'wollen', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
@@ -997,7 +997,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p19_s4',
-        translationFr: 'Ce que nous voulons, c’est supprimer ce triste mode d’appropriation qui fait que l’ouvrier ne vit que pour accroître le capital et ne vit que juste autant que l’exigent les intérêts de la classe régnante.',
+        translationFr: 'Nous voulons seulement supprimer le caractère misérable de cette appropriation, où l\'ouvrier ne vit que pour accroître le capital, et ne vit qu\'autant que l\'exige l\'intérêt de la classe dominante.',
         words: [
           w('ch2_p19_s4_w1', 'Wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
           w('ch2_p19_s4_w2', 'wollen', 'wollen', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
@@ -1039,7 +1039,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p19_s5',
-        translationFr: 'Dans la société bourgeoise, le travail vivant n’est qu’un moyen d’accroître le travail accumulé.',
+        translationFr: 'Dans la société bourgeoise, le travail vivant n\'est qu\'un moyen d\'accroître le travail accumulé.',
         words: [
           w('ch2_p19_s5_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p19_s5_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1063,7 +1063,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p19_s6',
-        translationFr: 'Dans la société communiste, le travail accumulé n’est qu’un moyen d’élargir, d’enrichir, et d’embellir l’existence.',
+        translationFr: 'Dans la société communiste, le travail accumulé n\'est qu\'un moyen d\'élargir, d\'enrichir, de promouvoir le processus vital des travailleurs.',
         words: [
           w('ch2_p19_s6_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p19_s6_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1100,7 +1100,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p20_s1',
-        translationFr: 'Dans la société bourgeoise, le passé domine le présent ; dans la société communiste c’est le présent qui domine le passé.',
+        translationFr: 'Dans la société bourgeoise, le passé domine donc le présent ; dans la société communiste, c\'est le présent qui domine le passé.',
         words: [
           w('ch2_p20_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p20_s1_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1127,7 +1127,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p20_s2',
-        translationFr: 'Dans la société bourgeoise, le capital est indépendant et personnel, tandis que l’individu agissant est dépendant et privé de personnalité.',
+        translationFr: 'Dans la société bourgeoise, le capital est indépendant et personnel, tandis que l\'individu agissant est dépendant et impersonnel.',
         words: [
           w('ch2_p20_s2_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p20_s2_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1158,7 +1158,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p21_s1',
-        translationFr: 'C’est l’abolition d’un pareil état de choses que la bourgeoisie flétrit comme l’abolition de l’individualité et de la liberté.',
+        translationFr: 'Et c\'est l\'abolition d\'un tel rapport que la bourgeoisie qualifie d\'abolition de la personnalité et de la liberté !',
         words: [
           w('ch2_p21_s1_w1', 'Und', 'und', 'CONJ'),
           w('ch2_p21_s1_w2', 'die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1178,7 +1178,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p21_s2',
-        translationFr: 'Et avec juste raison.',
+        translationFr: 'Et avec raison !',
         words: [
           w('ch2_p21_s2_w1', 'Und', 'und', 'CONJ'),
           w('ch2_p21_s2_w2', 'mit', 'mit', 'PREP', { case: 'DAT' }),
@@ -1188,7 +1188,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p21_s3',
-        translationFr: 'Car il s’agit effectivement de l’abolition de l’individualité, de l’indépendance et de la liberté bourgeoises.',
+        translationFr: 'Car il s\'agit bel et bien d\'abolir la personnalité, l\'indépendance et la liberté bourgeoises.',
         words: [
           w('ch2_p21_s3_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch2_p21_s3_w2', 'handelt', 'handeln', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -1213,7 +1213,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p22_s1',
-        translationFr: 'Par liberté, dans les conditions actuelles de la production bourgeoise, on entend la liberté du commerce, du libre-échange.',
+        translationFr: 'Par liberté, on entend, dans le cadre des actuels rapports de production bourgeois, la liberté du commerce, la liberté d\'acheter et de vendre.',
         words: [
           w('ch2_p22_s1_w1', 'Unter', 'unter', 'PREP', { case: 'DAT' }),
           w('ch2_p22_s1_w2', 'Freiheit', 'Freiheit', 'NOUN', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1243,7 +1243,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p23_s1',
-        translationFr: 'Mais avec le trafic, le trafic libre disparaît aussi.',
+        translationFr: 'Mais si le trafic s\'écroule, le libre trafic s\'écroule aussi.',
         words: [
           w('ch2_p23_s1_w1', 'Fällt', 'fallen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
           w('ch2_p23_s1_w2', 'aber', 'aber', 'ADV'),
@@ -1261,7 +1261,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p23_s2',
-        translationFr: 'Au reste, tous les grands mots sur le libre-échange, de même que toutes les forfanteries libérales de nos bourgeois n’ont un sens que par contraste au commerce entravé, au bourgeois asservi du moyen âge ; ils n’en ont aucun lorsqu’il s’agit de l’abolition, par les communistes, du trafic, des rapports de la production bourgeoise et de la bourgeoisie elle-même.',
+        translationFr: 'Les déclamations sur le libre trafic, comme toutes les autres rodomontades libérales de notre bourgeoisie, n\'ont de sens qu\'en regard du trafic entravé, du bourgeois asservi du Moyen Âge, mais n\'en ont aucun face à l\'abolition communiste du trafic, des rapports de production bourgeois et de la bourgeoisie elle-même.',
         words: [
           w('ch2_p23_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch2_p23_s2_w2', 'Redensarten', 'Redensart', 'NOUN', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -1319,7 +1319,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p24_s1',
-        translationFr: 'Vous êtes saisi d’horreur parce que nous voulons abolir la propriété privée.',
+        translationFr: 'Vous êtes saisis d\'horreur parce que nous voulons abolir la propriété privée.',
         words: [
           w('ch2_p24_s1_w1', 'Ihr', 'ihr', 'PRON', { case: 'NOM', number: 'PL', person: 2 }),
           w('ch2_p24_s1_w2', 'entsetzt', 'entsetzen', 'VERB', { number: 'PL', person: 2, tense: 'PRES', mood: 'IND' }),
@@ -1337,7 +1337,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p24_s2',
-        translationFr: 'Mais dans votre société la propriété privée est abolie pour les neuf dixièmes de ses membres ; elle n\'existe précisément que parce qu\'elle n\'existe pas pour ces neuf dixièmes.',
+        translationFr: 'Mais dans votre société actuelle, la propriété privée est abolie pour les neuf dixièmes de ses membres ; elle n\'existe précisément que parce qu\'elle n\'existe pas pour ces neuf dixièmes.',
         words: [
           w('ch2_p24_s2_w1', 'Aber', 'aber', 'CONJ'),
           w('ch2_p24_s2_w2', 'in', 'in', 'PREP', { case: 'DAT' }),
@@ -1371,7 +1371,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p24_s3',
-        translationFr: 'Vous nous reprochez donc de vouloir abolir une forme de la propriété qui ne peut se constituer qu’à la condition de priver l’immense majorité de la société de toute propriété.',
+        translationFr: 'Vous nous reprochez donc de vouloir abolir une propriété qui présuppose, comme condition nécessaire, la privation de toute propriété pour l\'immense majorité de la société.',
         words: [
           w('ch2_p24_s3_w1', 'Ihr', 'ihr', 'PRON', { case: 'NOM', number: 'PL', person: 2 }),
           w('ch2_p24_s3_w2', 'werft', 'vorwerfen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND', separablePrefix: 'vor' }),
@@ -1408,7 +1408,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p25_s1',
-        translationFr: 'En un mot, vous nous accusez de vouloir abolir votre propriété à vous.',
+        translationFr: 'En un mot, vous nous reprochez de vouloir abolir votre propriété.',
         words: [
           w('ch2_p25_s1_w1', 'Ihr', 'ihr', 'PRON', { case: 'NOM', number: 'PL', person: 2 }),
           w('ch2_p25_s1_w2', 'werft', 'vorwerfen', 'VERB', { number: 'PL', person: 2, tense: 'PRES', mood: 'IND', separablePrefix: 'vor' }),
@@ -1429,7 +1429,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p25_s2',
-        translationFr: 'À la vérité, c’est bien là notre intention.',
+        translationFr: 'À la vérité, c\'est bien là ce que nous voulons.',
         words: [
           w('ch2_p25_s2_w1', 'Allerdings', 'allerdings', 'ADV'),
           w('ch2_p25_s2_w2', ',', ',', 'PUNCT'),
@@ -1446,7 +1446,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p26_s1',
-        translationFr: 'Dès que le travail ne peut plus être converti en capital, en argent, en propriété foncière, bref, en pouvoir social, capable d’être monopolisé, c’est-à-dire dès que la propriété individuelle ne peut plus se transformer en propriété bourgeoise, vous déclarez que l’individualité est supprimée.',
+        translationFr: 'Dès l\'instant où le travail ne peut plus être converti en capital, en argent, en rente foncière, bref, en une puissance sociale monopolisable, c\'est-à-dire dès l\'instant où la propriété personnelle ne peut plus se muer en propriété bourgeoise, en capital, dès cet instant vous déclarez que la personne est abolie.',
         words: [
           w('ch2_p26_s1_w1', 'Von', 'von', 'PREP', { case: 'DAT' }),
           w('ch2_p26_s1_w2', 'dem', 'der', 'ART', { case: 'DAT', gender: 'M', number: 'SG' }),
@@ -1513,7 +1513,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p27_s1',
-        translationFr: 'Vous avouez donc que lorsque vous parlez de l’individu, vous n’entendez parler que du bourgeois.',
+        translationFr: 'Vous avouez donc que, par personne, vous n\'entendez nul autre que le bourgeois, le propriétaire bourgeois.',
         words: [
           w('ch2_p27_s1_w1', 'Ihr', 'ihr', 'PRON', { case: 'NOM', number: 'PL', person: 2 }),
           w('ch2_p27_s1_w2', 'gesteht', 'gestehen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -1539,7 +1539,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p27_s2',
-        translationFr: 'Et cet individu-là, sans contredit, doit être supprimé.',
+        translationFr: 'Et cette personne-là, il est vrai, doit être abolie.',
         words: [
           w('ch2_p27_s2_w1', 'Und', 'und', 'CONJ'),
           w('ch2_p27_s2_w2', 'diese', 'dies', 'PRON', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1558,7 +1558,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p28_s1',
-        translationFr: 'Le communisme n’enlève à personne le pouvoir de s’approprier sa part des produits sociaux, il n’ôte que le pouvoir d’assujettir, à l’aide de cette appropriation, le travail d’autrui.',
+        translationFr: 'Le communisme n\'enlève à personne le pouvoir de s\'approprier des produits sociaux ; il n\'ôte que le pouvoir d\'assujettir le travail d\'autrui au moyen de cette appropriation.',
         words: [
           w('ch2_p28_s1_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p28_s1_w2', 'Kommunismus', 'Kommunismus', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -1596,7 +1596,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p29_s1',
-        translationFr: 'On a objecté encore qu’avec l’abolition de la propriété privée toute activité cesserait, qu’une paresse générale s’emparerait du monde.',
+        translationFr: 'On a objecté qu\'avec l\'abolition de la propriété privée toute activité cesserait et qu\'une paresse générale s\'emparerait du monde.',
         words: [
           w('ch2_p29_s1_w1', 'Man', 'man', 'PRON', { case: 'NOM', number: 'SG' }),
           w('ch2_p29_s1_w2', 'hat', 'haben', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -1627,7 +1627,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p30_s1',
-        translationFr: 'Si cela était, il y a beau jour que la société bourgeoise aurait succombé à la fainéantise, puisque ceux qui y travaillent ne gagnent pas et que ceux qui y gagnent ne travaillent pas.',
+        translationFr: 'Si tel était le cas, il y a beau temps que la société bourgeoise aurait péri par l\'oisiveté ; car ceux qui y travaillent n\'acquièrent rien, et ceux qui y acquièrent ne travaillent pas.',
         words: [
           w('ch2_p30_s1_w1', 'Hiernach', 'Hiernach', 'NOUN', { case: 'NOM', number: 'SG' }),
           w('ch2_p30_s1_w2', 'müßte', 'müssen', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'SUBJ' }),
@@ -1664,7 +1664,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p30_s2',
-        translationFr: 'Toute l’objection se réduit à cette tautologie, qu’il n’y a plus de travail salarié là où il n’y a plus de capital.',
+        translationFr: 'Toute l\'objection se réduit à cette tautologie : il n\'y a plus de travail salarié dès lors qu\'il n\'y a plus de capital.',
         words: [
           w('ch2_p30_s2_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p30_s2_w2', 'ganze', 'ganz', 'ADJ', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -1698,7 +1698,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p31_s1',
-        translationFr: 'Les accusations portées contre le mode communiste de production et d’appropriation des produits matériels ont été également portées contre la production et l’appropriation intellectuelles.',
+        translationFr: 'Toutes les objections dirigées contre le mode d\'appropriation et de production communiste des produits matériels ont été de même étendues à l\'appropriation et à la production des produits intellectuels.',
         words: [
           w('ch2_p31_s1_w1', 'Alle', 'all', 'PRON', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p31_s1_w2', 'Einwürfe', 'Einwurf', 'NOUN', { case: 'ACC', gender: 'F', number: 'PL' }),
@@ -1733,7 +1733,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p31_s2',
-        translationFr: 'De même que pour le bourgeois la disparition de la propriété de classe équivaut à la disparition de toute production, de même la disparition de la culture intellectuelle de classe signifie, pour lui, la disparition de toute culture intellectuelle.',
+        translationFr: 'De même que pour le bourgeois la disparition de la propriété de classe équivaut à la disparition de la production elle-même, de même la disparition de la culture de classe est pour lui identique à la disparition de toute culture en général.',
         words: [
           w('ch2_p31_s2_w1', 'Wie', 'wie', 'PREP'),
           w('ch2_p31_s2_w2', 'für', 'für', 'PREP', { case: 'ACC' }),
@@ -1770,7 +1770,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p31_s3',
-        translationFr: 'La culture, dont il déplore la perte, n’est pour l’immense majorité, que le façonnement à devenir machine.',
+        translationFr: 'La culture dont il déplore la perte n\'est pour l\'immense majorité qu\'un dressage à devenir machine.',
         words: [
           w('ch2_p31_s3_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p31_s3_w2', 'Bildung', 'Bildung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1799,7 +1799,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p32_s1',
-        translationFr: 'Mais ne nous querellez pas tant que vous appliquerez à l’abolition de la propriété bourgeoise l’étalon de vos notions bourgeoises de liberté, de culture, de droit, etc.',
+        translationFr: 'Mais ne venez point polémiquer avec nous en mesurant l\'abolition de la propriété bourgeoise à l\'aune de vos représentations bourgeoises de liberté, de culture, de droit, etc.',
         words: [
           w('ch2_p32_s1_w1', 'Aber', 'aber', 'CONJ'),
           w('ch2_p32_s1_w2', 'streitet', 'streiten', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -1831,7 +1831,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p32_s2',
-        translationFr: 'Vos idées sont elles-mêmes les produits des rapports de la production et de la propriété bourgeoises, comme votre droit n’est que la volonté de votre classe érigée en loi, volonté dont le contenu est déterminé par les conditions matérielles d’existence de votre classe.',
+        translationFr: 'Vos idées elles-mêmes sont les produits des rapports bourgeois de production et de propriété, tout comme votre droit n\'est que la volonté de votre classe érigée en loi, volonté dont le contenu est déterminé par les conditions matérielles d\'existence de votre classe.',
         words: [
           w('ch2_p32_s2_w1', 'Eure', 'euer', 'ADV'),
           w('ch2_p32_s2_w2', 'Ideen', 'Idee', 'NOUN', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -1880,7 +1880,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p33_s1',
-        translationFr: 'La conception intéressée qui vous fait ériger en lois éternelles de la nature et de la raison les rapports sociaux qui naissent de votre mode de production — rapports sociaux transitoires, qui surgissent et disparaissent au cours de la production — cette conception vous la partagez avec toutes les classes jadis régnantes et disparues aujourd’hui.',
+        translationFr: 'La conception intéressée par laquelle vous métamorphosez vos rapports de production et de propriété — de rapports historiques et transitoires au cours de la production qu\'ils sont — en lois éternelles de la nature et de la raison, vous la partagez avec toutes les classes dominantes disparues.',
         words: [
           w('ch2_p33_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p33_s1_w2', 'interessierte', 'interessiert', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1921,7 +1921,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p33_s2',
-        translationFr: 'Ce que vous concevez pour la propriété antique, ce que vous comprenez pour la propriété féodale, il vous est défendu de l’admettre pour la propriété bourgeoise.',
+        translationFr: 'Ce que vous comprenez pour la propriété antique, ce que vous comprenez pour la propriété féodale, il vous est interdit de le comprendre pour la propriété bourgeoise. —',
         words: [
           w('ch2_p33_s2_w1', 'Was', 'was', 'PRON', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p33_s2_w2', 'ihr', 'ihr', 'PRON', { case: 'DAT', gender: 'F', number: 'SG', person: 3 }),
@@ -1959,7 +1959,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p34_s1',
-        translationFr: 'Vouloir abolir la famille !',
+        translationFr: 'Abolition de la famille !',
         words: [
           w('ch2_p34_s1_w1', 'Aufhebung', 'Aufhebung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p34_s1_w2', 'der', 'der', 'ART', { case: 'GEN', gender: 'F', number: 'SG' }),
@@ -1969,7 +1969,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p34_s2',
-        translationFr: 'Jusqu’aux plus radicaux qui s’indignent de cet infâme dessein des communistes.',
+        translationFr: 'Même les plus radicaux s\'indignent de cet infâme dessein des communistes.',
         words: [
           w('ch2_p34_s2_w1', 'Selbst', 'selbst', 'ADV'),
           w('ch2_p34_s2_w2', 'die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -1992,7 +1992,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p35_s1',
-        translationFr: 'Sur quelle base repose la famille bourgeoise de notre époque ?',
+        translationFr: 'Sur quoi repose la famille actuelle, la famille bourgeoise ?',
         words: [
           w('ch2_p35_s1_w1', 'Worauf', 'worauf', 'ADV'),
           w('ch2_p35_s1_w2', 'beruht', 'beruhen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2007,7 +2007,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p35_s2',
-        translationFr: 'Sur le capital, le gain individuel.',
+        translationFr: 'Sur le capital, sur le gain privé.',
         words: [
           w('ch2_p35_s2_w1', 'Auf', 'auf', 'PREP', { case: 'ACC' }),
           w('ch2_p35_s2_w2', 'dem', 'der', 'ART', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -2021,7 +2021,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p35_s3',
-        translationFr: 'La famille, à l’état complet, n’existe que pour la bourgeoisie ; mais elle trouve son complément dans la suppression forcée de toute famille pour le prolétaire, et dans la prostitution publique.',
+        translationFr: 'Pleinement développée, elle n\'existe que pour la bourgeoisie ; mais elle trouve son complément dans l\'absence forcée de famille chez les prolétaires et dans la prostitution publique.',
         words: [
           w('ch2_p35_s3_w1', 'Vollständig', 'vollständig', 'ADV'),
           w('ch2_p35_s3_w2', 'entwickelt', 'entwickeln', 'VERB', { tense: 'PERF' }),
@@ -2057,7 +2057,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p36_s1',
-        translationFr: 'La famille bourgeoise s’évanouit naturellement avec l’évanouissement de son complément nécessaire, et l’un et l’autre disparaissent avec la disparition du capital.',
+        translationFr: 'La famille bourgeoise s\'évanouit naturellement avec l\'évanouissement de ce complément qui est le sien, et toutes deux disparaissent avec la disparition du capital.',
         words: [
           w('ch2_p36_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p36_s1_w2', 'Familie', 'Familie', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2091,7 +2091,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p37_s1',
-        translationFr: 'Nous reprochez-vous de vouloir abolir l’exploitation des enfants par leurs parents ?',
+        translationFr: 'Nous reprochez-vous de vouloir abolir l\'exploitation des enfants par leurs parents ?',
         words: [
           w('ch2_p37_s1_w1', 'Werft', 'Werft', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p37_s1_w2', 'ihr', 'ihr', 'PRON', { case: 'NOM', number: 'PL', person: 2 }),
@@ -2114,7 +2114,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p37_s2',
-        translationFr: 'Nous avouons le crime.',
+        translationFr: 'Ce crime, nous l\'avouons.',
         words: [
           w('ch2_p37_s2_w1', 'Wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
           w('ch2_p37_s2_w2', 'gestehen', 'eingestehen', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND', separablePrefix: 'ein' }),
@@ -2131,7 +2131,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p38_s1',
-        translationFr: 'Mais nous brisons, dites-vous, les liens les plus sacrés, en substituant à l’éducation de famille, l’éducation sociale.',
+        translationFr: 'Mais, dites-vous, nous détruisons les rapports les plus intimes en substituant l\'éducation sociale à l\'éducation domestique.',
         words: [
           w('ch2_p38_s1_w1', 'Aber', 'aber', 'CONJ'),
           w('ch2_p38_s1_w2', ',', ',', 'PUNCT'),
@@ -2166,7 +2166,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p39_s1',
-        translationFr: 'Et votre éducation à vous, n’est-elle pas, elle aussi, déterminée par la société ?',
+        translationFr: 'Et votre éducation à vous, n\'est-elle pas, elle aussi, déterminée par la société ?',
         words: [
           w('ch2_p39_s1_w1', 'Und', 'und', 'CONJ'),
           w('ch2_p39_s1_w2', 'ist', 'sein', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2183,7 +2183,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p39_s2',
-        translationFr: 'Par les conditions sociales dans lesquelles vous élevez vos enfants, par l’intervention directe ou indirecte de la société à l’aide des écoles, etc. ?',
+        translationFr: 'Déterminée par les rapports sociaux au sein desquels vous éduquez, par l\'intervention plus ou moins directe de la société, par le truchement de l\'école, etc. ?',
         words: [
           w('ch2_p39_s2_w1', 'Durch', 'durch', 'PREP', { case: 'ACC' }),
           w('ch2_p39_s2_w2', 'die', 'der', 'ART', { case: 'ACC', gender: 'N', number: 'PL' }),
@@ -2213,7 +2213,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p39_s3',
-        translationFr: 'Les communistes n’inventent pas cette ingérence de la société dans l’éducation, ils ne cherchent qu’à en changer le caractère et à arracher l’éducation à l’influence de la classe régnante.',
+        translationFr: 'Les communistes n\'inventent pas l\'action de la société sur l\'éducation ; ils ne font qu\'en modifier le caractère et arracher l\'éducation à l\'influence de la classe dominante.',
         words: [
           w('ch2_p39_s3_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p39_s3_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -2252,7 +2252,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p40_s1',
-        translationFr: 'Les déclamations bourgeoises sur la famille et l’éducation, sur les doux liens qui unissent l’enfant à ses parents, deviennent de plus en plus écœurantes à mesure que la grande industrie détruit tout lien de famille pour le prolétaire et transforme les enfants en simples articles de commerce, en simples instruments de travail.',
+        translationFr: 'Les déclamations bourgeoises sur la famille et l\'éducation, sur les doux rapports entre parents et enfants, deviennent d\'autant plus écœurantes qu\'avec le développement de la grande industrie tous les liens de famille sont brisés pour les prolétaires et les enfants transformés en simples articles de commerce et instruments de travail.',
         words: [
           w('ch2_p40_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch2_p40_s1_w2', 'bürgerlichen', 'bürgerlich', 'ADJ', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -2307,7 +2307,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p41_s1',
-        translationFr: 'Mais de la bourgeoisie tout entière s’élève une clameur : vous autres communistes, vous voulez introduire la communauté des femmes !',
+        translationFr: 'Mais vous autres communistes, vous voulez introduire la communauté des femmes ! nous crie en chœur la bourgeoisie tout entière.',
         words: [
           w('ch2_p41_s1_w1', 'Aber', 'aber', 'CONJ'),
           w('ch2_p41_s1_w2', 'ihr', 'ihr', 'PRON', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2335,7 +2335,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p42_s1',
-        translationFr: 'Pour le bourgeois sa femme n’est rien qu’un instrument de production.',
+        translationFr: 'Le bourgeois ne voit dans sa femme qu\'un simple instrument de production.',
         words: [
           w('ch2_p42_s1_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p42_s1_w2', 'Bourgeois', 'Bourgeois', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2351,7 +2351,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p42_s2',
-        translationFr: 'Il entend dire que les instruments de production doivent être mis en commun et il conclut naturellement qu’il y aura communauté des femmes.',
+        translationFr: 'Il entend dire que les instruments de production doivent être exploités en commun, et ne peut naturellement se représenter autre chose sinon que le sort de la mise en commun frappera tout autant les femmes.',
         words: [
           w('ch2_p42_s2_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch2_p42_s2_w2', 'hört', 'hören', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2393,7 +2393,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p43_s1',
-        translationFr: 'Il ne soupçonne pas qu’il s’agit précisément d’assigner à la femme un autre rôle que celui de simple instrument de production.',
+        translationFr: 'Il ne soupçonne pas qu\'il s\'agit précisément d\'abolir la condition faite aux femmes de n\'être que de simples instruments de production.',
         words: [
           w('ch2_p43_s1_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch2_p43_s1_w2', 'ahnt', 'ahnen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2424,7 +2424,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p44_s1',
-        translationFr: 'Rien de plus grotesque, d’ailleurs, que l’horreur ultra-morale qu’inspire à nos bourgeois la prétendue communauté officielle des femmes chez les communistes.',
+        translationFr: 'Rien n\'est d\'ailleurs plus grotesque que l\'effroi ultra-moralisateur de nos bourgeois devant la prétendue communauté officielle des femmes chez les communistes.',
         words: [
           w('ch2_p44_s1_w1', 'Übrigens', 'übrigens', 'ADV'),
           w('ch2_p44_s1_w2', 'ist', 'sein', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2448,7 +2448,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p44_s2',
-        translationFr: 'Les communistes n’ont pas besoin d’introduire la communauté des femmes, elle a presque toujours existé.',
+        translationFr: 'Les communistes n\'ont pas besoin d\'introduire la communauté des femmes : elle a presque toujours existé.',
         words: [
           w('ch2_p44_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p44_s2_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -2473,7 +2473,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p45_s1',
-        translationFr: 'Nos bourgeois, non contents d’avoir à leur disposition les femmes et les filles de leurs prolétaires, sans parler de la prostitution officielle, trouvent un plaisir singulier à se cocufier mutuellement.',
+        translationFr: 'Nos bourgeois, non contents d\'avoir à leur disposition les femmes et les filles de leurs prolétaires, sans même parler de la prostitution officielle, trouvent un plaisir suprême à séduire mutuellement leurs épouses.',
         words: [
           w('ch2_p45_s1_w1', 'Unsre', 'Unsre', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p45_s1_w2', 'Bourgeois', 'Bourgeois', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2523,7 +2523,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p46_s1',
-        translationFr: 'Le mariage bourgeois est, en réalité, la communauté des femmes mariées.',
+        translationFr: 'Le mariage bourgeois est en réalité la communauté des femmes mariées.',
         words: [
           w('ch2_p46_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p46_s1_w2', 'bürgerliche', 'bürgerlich', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2540,7 +2540,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p46_s2',
-        translationFr: 'Tout au plus pourrait-on accuser les communistes de vouloir mettre à la place d’une communauté de femmes hypocrite et dissimulée, une autre qui serait franche et officielle.',
+        translationFr: 'Tout au plus pourrait-on reprocher aux communistes de vouloir substituer à une communauté des femmes hypocritement dissimulée une communauté officielle et sans fard.',
         words: [
           w('ch2_p46_s2_w1', 'Man', 'man', 'PRON', { case: 'NOM', number: 'SG' }),
           w('ch2_p46_s2_w2', 'könnte', 'können', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'SUBJ' }),
@@ -2568,7 +2568,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p46_s3',
-        translationFr: 'Il est évident, du reste, qu’avec l’abolition des rapports de production actuels, la communauté des femmes qui en dérive, c’est-à-dire la prostitution officielle et non officielle, disparaîtra.',
+        translationFr: 'Il va d\'ailleurs de soi qu\'avec l\'abolition des rapports de production actuels disparaîtra aussi la communauté des femmes qui en dérive, c\'est-à-dire la prostitution officielle et clandestine.',
         words: [
           w('ch2_p46_s3_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch2_p46_s3_w2', 'versteht', 'verstehen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2608,7 +2608,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p47_s1',
-        translationFr: 'En outre, on accuse les communistes de vouloir abolir la patrie, la nationalité.',
+        translationFr: 'On a reproché en outre aux communistes de vouloir abolir la patrie, la nationalité.',
         words: [
           w('ch2_p47_s1_w1', 'Den', 'der', 'ART', { case: 'DAT', gender: 'M', number: 'PL' }),
           w('ch2_p47_s1_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'DAT', gender: 'M', number: 'PL' }),
@@ -2630,7 +2630,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p47_s2',
-        translationFr: 'Les ouvriers n’ont pas de patrie.',
+        translationFr: 'Les ouvriers n\'ont pas de patrie.',
         words: [
           w('ch2_p47_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p47_s2_w2', 'Arbeiter', 'Arbeiter', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -2642,7 +2642,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p47_s3',
-        translationFr: 'On ne peut leur ravir ce qu’ils n’ont pas.',
+        translationFr: 'On ne peut leur ravir ce qu\'ils n\'ont pas.',
         words: [
           w('ch2_p47_s3_w1', 'Man', 'man', 'PRON', { case: 'NOM', number: 'SG' }),
           w('ch2_p47_s3_w2', 'kann', 'können', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2659,7 +2659,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p47_s4',
-        translationFr: 'Comme le prolétariat de chaque pays doit, en premier lieu, conquérir le pouvoir politique, s’ériger en classe maîtresse de la nation, il est par là encore national lui-même, quoique nullement dans le sens bourgeois.',
+        translationFr: 'Comme le prolétariat doit d\'abord conquérir le pouvoir politique, s\'ériger en classe nationale, se constituer lui-même en nation, il est encore par là national lui-même, quoique nullement au sens où l\'entend la bourgeoisie.',
         words: [
           w('ch2_p47_s4_w1', 'Indem', 'indem', 'CONJ'),
           w('ch2_p47_s4_w2', 'das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -2707,7 +2707,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p48_s1',
-        translationFr: 'Déjà les démarcations et les antagonismes nationaux des peuples disparaissent de plus en plus avec le développement de la bourgeoisie, la liberté du commerce et le marché mondial, avec l’uniformité de la production industrielle et les conditions d’existence qui y correspondent.',
+        translationFr: 'Les démarcations nationales et les antagonismes entre peuples s\'effacent déjà de plus en plus avec le développement de la bourgeoisie, la liberté du commerce, le marché mondial, l\'uniformité de la production industrielle et les conditions d\'existence qui y correspondent.',
         words: [
           w('ch2_p48_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p48_s1_w2', 'nationalen', 'national', 'ADJ', { case: 'NOM', number: 'PL' }),
@@ -2754,7 +2754,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p49_s1',
-        translationFr: 'L’avènement du prolétariat les fera disparaître plus vite encore.',
+        translationFr: 'La domination du prolétariat les fera disparaître plus encore.',
         words: [
           w('ch2_p49_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p49_s1_w2', 'Herrschaft', 'Herrschaft', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2771,7 +2771,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p49_s2',
-        translationFr: 'L’action commune des différents prolétariats, dans les pays civilisés, tout au moins, est une des premières conditions de leur émancipation.',
+        translationFr: 'L\'action commune, au moins dans les pays civilisés, est l\'une des premières conditions de son émancipation.',
         words: [
           w('ch2_p49_s2_w1', 'Vereinigte', 'vereinigt', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p49_s2_w2', 'Aktion', 'Aktion', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2798,7 +2798,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p50_s1',
-        translationFr: 'Abolissez l’exploitation de l’homme par l’homme, et vous abolissez l’exploitation d’une nation par une autre nation.',
+        translationFr: 'À mesure qu\'est abolie l\'exploitation d\'un individu par un autre, l\'exploitation d\'une nation par une autre est abolie.',
         words: [
           w('ch2_p50_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch2_p50_s1_w2', 'dem', 'der', 'ART', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -2830,7 +2830,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p50_s2',
-        translationFr: 'Lorsque l’antagonisme des classes, à l’intérieur des nations, aura disparu, l’hostilité de nation à nation disparaîtra.',
+        translationFr: 'Avec l\'antagonisme des classes à l\'intérieur de la nation tombe l\'hostilité entre les nations.',
         words: [
           w('ch2_p50_s2_w1', 'Mit', 'mit', 'PREP', { case: 'DAT' }),
           w('ch2_p50_s2_w2', 'dem', 'der', 'ART', { case: 'DAT', gender: 'M', number: 'SG' }),
@@ -2858,7 +2858,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p51_s1',
-        translationFr: 'Quant aux accusations portées contre les communistes, au nom de la religion, de la philosophie et de l’idéologie en général, elles ne méritent pas un examen approfondi.',
+        translationFr: 'Les accusations portées contre le communisme sous des angles religieux, philosophiques et généralement idéologiques ne méritent pas un examen plus approfondi.',
         words: [
           w('ch2_p51_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch2_p51_s1_w2', 'Anklagen', 'Anklage', 'NOUN', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -2892,7 +2892,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p52_s1',
-        translationFr: 'Est-il besoin d’un esprit bien profond pour comprendre que les vues, les notions et les conceptions, en un mot, que la conscience de l’homme change avec tout changement survenu dans ses relations sociales, dans son existence sociale ?',
+        translationFr: 'Faut-il une perspicacité bien profonde pour comprendre qu\'avec les conditions de vie des hommes, avec leurs relations sociales, avec leur existence sociale, changent aussi leurs représentations, leurs conceptions et leurs notions, en un mot leur conscience ?',
         words: [
           w('ch2_p52_s1_w1', 'Bedarf', 'Bedarf', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p52_s1_w2', 'es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
@@ -2946,7 +2946,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p53_s1',
-        translationFr: 'Que démontre l’histoire de la pensée si ce n’est que la production intellectuelle se transforme avec la production matérielle ?',
+        translationFr: 'Que prouve l\'histoire des idées, sinon que la production intellectuelle se métamorphose avec la production matérielle ?',
         words: [
           w('ch2_p53_s1_w1', 'Was', 'was', 'PRON', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p53_s1_w2', 'beweist', 'beweisen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2971,7 +2971,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p53_s2',
-        translationFr: 'Les idées dominantes d’une époque n’ont jamais été que les idées de la classe dominante.',
+        translationFr: 'Les idées dominantes d\'une époque n\'ont jamais été que les idées de la classe dominante.',
         words: [
           w('ch2_p53_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch2_p53_s2_w2', 'herrschenden', 'herrschend', 'ADJ', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -2996,7 +2996,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p54_s1',
-        translationFr: 'Lorsqu’on parle d’idées qui révolutionnent une société tout entière, on annonce seulement le fait que dans le sein de la vieille société les éléments d’une nouvelle société se sont formés et que la dissolution des vieilles idées marche de pair avec la dissolution des anciennes relations sociales.',
+        translationFr: 'Parle-t-on d\'idées qui révolutionnent une société tout entière, on ne fait qu\'énoncer le fait qu\'au sein de la vieille société se sont formés les éléments d\'une société nouvelle, et que la dissolution des vieilles idées va de pair avec la dissolution des anciennes conditions d\'existence.',
         words: [
           w('ch2_p54_s1_w1', 'Man', 'man', 'PRON', { case: 'NOM', number: 'SG' }),
           w('ch2_p54_s1_w2', 'spricht', 'sprechen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3055,7 +3055,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p55_s1',
-        translationFr: 'Quand l’ancien monde était à son déclin, les vieilles religions furent vaincues par la religion chrétienne.',
+        translationFr: 'Lorsque le monde antique était à son déclin, les vieilles religions furent vaincues par la religion chrétienne.',
         words: [
           w('ch2_p55_s1_w1', 'Als', 'als', 'CONJ'),
           w('ch2_p55_s1_w2', 'die', 'der', 'ART', { case: 'ACC', gender: 'F', number: 'SG' }),
@@ -3080,7 +3080,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p55_s2',
-        translationFr: 'Quand au XVIIIe siècle, les idées chrétiennes cédèrent la place aux idées philosophiques, la société féodale livrait sa dernière bataille à la bourgeoisie, alors révolutionnaire.',
+        translationFr: 'Lorsque les idées chrétiennes succombèrent au XVIIIe siècle devant les idées des Lumières, la société féodale livrait son combat à mort contre la bourgeoisie, alors révolutionnaire.',
         words: [
           w('ch2_p55_s2_w1', 'Als', 'als', 'CONJ'),
           w('ch2_p55_s2_w2', 'die', 'der', 'ART', { case: 'ACC', gender: 'F', number: 'PL' }),
@@ -3109,7 +3109,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p55_s3',
-        translationFr: 'Les idées de liberté religieuse et de liberté de conscience ne firent que proclamer le règne de la libre concurrence dans le domaine de la connaissance.',
+        translationFr: 'Les idées de liberté de conscience et de liberté religieuse ne firent que proclamer le règne de la libre concurrence dans le domaine du savoir.',
         words: [
           w('ch2_p55_s3_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch2_p55_s3_w2', 'Ideen', 'Idee', 'NOUN', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -3140,7 +3140,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p56_s1',
-        translationFr: '« Sans doute, dira-t-on, les idées religieuses, morales, philosophiques, politiques et juridiques se sont modifiées dans le cours du développement historique.',
+        translationFr: '« Sans doute », dira-t-on, « les idées religieuses, morales, philosophiques, politiques, juridiques, etc., se sont modifiées au cours du développement historique.',
         words: [
           w('ch2_p56_s1_w1', '„', '„', 'PUNCT'),
           w('ch2_p56_s1_w2', 'Aber', 'aber', 'CONJ'),
@@ -3175,7 +3175,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p56_s2',
-        translationFr: 'Mais la religion, la morale, la philosophie se maintenaient toujours à travers ces transformations.',
+        translationFr: 'Mais la religion, la morale, la philosophie, la politique, le droit se maintenaient toujours à travers ces changements.',
         words: [
           w('ch2_p56_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p56_s2_w2', 'Religion', 'Religion', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3202,7 +3202,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p56_s3',
-        translationFr: 'Il y a de plus des vérités éternelles, telles que la liberté, la justice, etc., qui sont communes à toutes les conditions sociales.',
+        translationFr: 'Il y a en outre des vérités éternelles, telles que la liberté, la justice, etc., qui sont communes à tous les états de la société.',
         words: [
           w('ch2_p56_s3_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch2_p56_s3_w2', 'gibt', 'geben', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3227,7 +3227,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p56_s4',
-        translationFr: 'Or, le communisme abolit les vérités éternelles, il abolit la religion et la morale au lieu de les constituer sur une nouvelle base, ce qui est contradictoire à tout le développement historique antérieur. »',
+        translationFr: 'Or, le communisme abolit les vérités éternelles, il abolit la religion et la morale au lieu de leur donner une forme nouvelle ; il contredit donc tous les développements historiques antérieurs. »',
         words: [
           w('ch2_p56_s4_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p56_s4_w2', 'Kommunismus', 'Kommunismus', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -3271,7 +3271,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p57_s1',
-        translationFr: 'À quoi se réduit cette objection ?',
+        translationFr: 'À quoi se réduit cette accusation ?',
         words: [
           w('ch2_p57_s1_w1', 'Worauf', 'worauf', 'ADV'),
           w('ch2_p57_s1_w2', 'reduziert', 'reduzieren', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3283,7 +3283,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p57_s2',
-        translationFr: 'L’histoire de toute société se résume dans le développement des antagonismes des classes, antagonismes qui ont revêtu des formes différentes aux différentes époques.',
+        translationFr: 'L\'histoire de toute la société jusqu\'à nos jours s\'est déroulée dans des antagonismes de classes, qui ont revêtu des formes différentes selon les époques.',
         words: [
           w('ch2_p57_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p57_s2_w2', 'Geschichte', 'Geschichte', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3309,7 +3309,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p57_s3',
-        translationFr: 'Mais quelle qu’ait été la forme revêtue par ces antagonismes, l’exploitation d’une partie de la société par l’autre est un fait commun à tous les siècles antérieurs.',
+        translationFr: 'Mais quelle que soit la forme qu\'ils aient prise, l\'exploitation d\'une partie de la société par l\'autre est un fait commun à tous les siècles passés.',
         words: [
           w('ch2_p57_s3_w1', 'Welche', 'welcher', 'PRON', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p57_s3_w2', 'Form', 'Form', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3341,7 +3341,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p57_s4',
-        translationFr: 'Donc, rien d’étonnant à ce que la conscience sociale de tous les âges, en dépit de toute divergence et de toute diversité, se soit toujours mue dans de certaines formes communes, dans des formes de conscience qui ne se dissoudront complètement qu’avec l’entière disparition de l’antagonisme des classes.',
+        translationFr: 'Rien d\'étonnant dès lors si la conscience sociale de tous les siècles, en dépit de toute multiplicité et diversité, se meut dans certaines formes communes, dans des formes de conscience qui ne se dissoudront complètement qu\'avec l\'entière disparition de l\'antagonisme des classes.',
         words: [
           w('ch2_p57_s4_w1', 'Kein', 'kein', 'PRON', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p57_s4_w2', 'Wunder', 'Wunder', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -3392,7 +3392,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p58_s1',
-        translationFr: 'La révolution communiste est la rupture la plus radicale avec les rapports de propriété traditionnels ; rien d’étonnant à ce que, dans le cours de son développement, elle rompe de la façon la plus radicale avec les vieilles idées traditionnelles.',
+        translationFr: 'La révolution communiste est la rupture la plus radicale avec les rapports de propriété traditionnels ; rien d\'étonnant si, dans le cours de son développement, elle rompt de la façon la plus radicale avec les idées traditionnelles.',
         words: [
           w('ch2_p58_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p58_s1_w2', 'kommunistische', 'kommunistisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3431,7 +3431,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p59_s1',
-        translationFr: 'Cependant laissons là les objections faites par la bourgeoisie au communisme.',
+        translationFr: 'Mais laissons là les objections de la bourgeoisie contre le communisme.',
         words: [
           w('ch2_p59_s1_w1', 'Doch', 'doch', 'CONJ'),
           w('ch2_p59_s1_w2', 'lassen', 'lassen', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
@@ -3448,7 +3448,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p59_s2',
-        translationFr: 'Ainsi que nous l’avons vu plus haut, la première étape dans la révolution ouvrière est la constitution du prolétariat en classe régnante, la conquête du pouvoir public par la démocratie.',
+        translationFr: 'Nous avons déjà vu plus haut que la première étape de la révolution ouvrière est la constitution du prolétariat en classe dominante, la conquête de la démocratie.',
         words: [
           w('ch2_p59_s2_w1', 'Wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
           w('ch2_p59_s2_w2', 'sahen', 'sehen', 'VERB', { number: 'PL', person: 1, tense: 'PAST', mood: 'IND' }),
@@ -3485,7 +3485,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p60_s1',
-        translationFr: 'Le prolétariat se servira de sa suprématie politique pour arracher petit à petit tout capital à la bourgeoisie, pour centraliser tous les instruments de production dans les mains de l’État, c’est-à-dire du prolétariat organisé en classe régnante, et pour augmenter au plus vite les masses des forces productives disponibles.',
+        translationFr: 'Le prolétariat utilisera sa domination politique pour arracher peu à peu tout capital à la bourgeoisie, pour centraliser tous les instruments de production entre les mains de l\'État, c\'est-à-dire du prolétariat organisé en classe dominante, et pour accroître au plus vite la masse des forces productives.',
         words: [
           w('ch2_p60_s1_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch2_p60_s1_w2', 'Proletariat', 'Proletariat', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -3543,7 +3543,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p61_s1',
-        translationFr: 'Ceci, naturellement, ne pourra s’accomplir, au début, que par une violation despotique des droits de propriété et des rapports de production bourgeoise, c’est-à-dire par la prise de mesures qui, au point de vue économique, paraîtront insuffisantes et insoutenables, mais qui au cours du mouvement se dépassent elles-mêmes et sont indispensables comme moyen de révolutionner le mode de production tout entier.',
+        translationFr: 'Cela ne pourra naturellement s\'accomplir au début que par des interventions despotiques dans le droit de propriété et dans les rapports de production bourgeois, c\'est-à-dire par des mesures qui apparaissent économiquement insuffisantes et insoutenables, mais qui, au cours du mouvement, se dépassent elles-mêmes et sont inévitables comme moyens de bouleverser l\'ensemble du mode de production.',
         words: [
           w('ch2_p61_s1_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch2_p61_s1_w2', 'kann', 'können', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3600,7 +3600,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p61_s2',
-        translationFr: 'Ces mesures, bien entendu, seront différentes dans les différents pays.',
+        translationFr: 'Ces mesures seront naturellement différentes selon les différents pays.',
         words: [
           w('ch2_p61_s2_w1', 'Diese', 'dies', 'PRON', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch2_p61_s2_w2', 'Maßregeln', 'Maßregel', 'NOUN', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -3623,7 +3623,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p62_s1',
-        translationFr: 'Cependant, pour les pays les plus avancés, les mesures suivantes pourront assez généralement être applicables.',
+        translationFr: 'Pour les pays les plus avancés, les mesures suivantes pourront toutefois être appliquées assez généralement :',
         words: [
           w('ch2_p62_s1_w1', 'Für', 'für', 'PREP', { case: 'ACC' }),
           w('ch2_p62_s1_w2', 'die', 'der', 'ART', { case: 'ACC', gender: 'N', number: 'PL' }),
@@ -3649,7 +3649,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p63_s1',
-        translationFr: '1° Expropriation de la propriété foncière et confiscation de la rente foncière au profit de l’État.',
+        translationFr: '1. Expropriation de la propriété foncière et affectation de la rente foncière aux dépenses de l\'État.',
         words: [
           w('ch2_p63_s1_w1', 'Expropriation', 'Expropriation', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p63_s1_w2', 'des', 'der', 'ART', { case: 'GEN', gender: 'N', number: 'SG' }),
@@ -3670,7 +3670,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p64_s1',
-        translationFr: '2° Impôt fortement progressif.',
+        translationFr: '2. Impôt fortement progressif.',
         words: [
           w('ch2_p64_s1_w1', 'Starke', 'stark', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p64_s1_w2', 'Progressivsteuer', 'Progressivsteuer', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG', isCompound: true, compoundParts: ['Progressiv', 'Steuer'] }),
@@ -3684,7 +3684,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p65_s1',
-        translationFr: '3° Abolition de l’héritage.',
+        translationFr: '3. Abolition du droit d\'héritage.',
         words: [
           w('ch2_p65_s1_w1', 'Abschaffung', 'Abschaffung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p65_s1_w2', 'des', 'der', 'ART', { case: 'GEN', gender: 'N', number: 'SG' }),
@@ -3699,7 +3699,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p66_s1',
-        translationFr: '4° Confiscation de la propriété de tous les émigrants et de tous les rebelles.',
+        translationFr: '4. Confiscation de la propriété de tous les émigrés et rebelles.',
         words: [
           w('ch2_p66_s1_w1', 'Konfiskation', 'Konfiskation', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p66_s1_w2', 'des', 'der', 'ART', { case: 'GEN', gender: 'N', number: 'SG' }),
@@ -3718,7 +3718,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p67_s1',
-        translationFr: '5° Centralisation du crédit dans les mains de l’État au moyen d’une banque nationale avec capital de l’État et avec le monopole exclusif.',
+        translationFr: '5. Centralisation du crédit entre les mains de l\'État au moyen d\'une banque nationale à capital d\'État et à monopole exclusif.',
         words: [
           w('ch2_p67_s1_w1', 'Zentralisation', 'Zentralisation', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p67_s1_w2', 'des', 'der', 'ART', { case: 'GEN', gender: 'M', number: 'SG' }),
@@ -3746,7 +3746,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p68_s1',
-        translationFr: '6° Centralisation, dans les mains de l’État, de tous les moyens de transport.',
+        translationFr: '6. Centralisation de tous les transports entre les mains de l\'État.',
         words: [
           w('ch2_p68_s1_w1', 'Zentralisation', 'Zentralisation', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p68_s1_w2', 'des', 'der', 'ART', { case: 'GEN', gender: 'N', number: 'SG' }),
@@ -3766,7 +3766,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p69_s1',
-        translationFr: '7° Augmentation des manufactures nationales et des instruments de production, défrichement des terrains incultes et amélioration des terres cultivées d’après un système général.',
+        translationFr: '7. Augmentation du nombre des fabriques nationales et des instruments de production, défrichement et amélioration de toutes les terres selon un plan concerté.',
         words: [
           w('ch2_p69_s1_w1', 'Vermehrung', 'Vermehrung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p69_s1_w2', 'der', 'der', 'ART', { case: 'GEN', number: 'PL' }),
@@ -3793,7 +3793,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p70_s1',
-        translationFr: '8° Travail obligatoire pour tous, organisation d’armées industrielles, particulièrement pour l’agriculture.',
+        translationFr: '8. Travail obligatoire pour tous, levée d\'armées industrielles, particulièrement pour l\'agriculture.',
         words: [
           w('ch2_p70_s1_w1', 'Gleicher', 'gleicher', 'ADJ', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch2_p70_s1_w2', 'Arbeitszwang', 'Arbeitszwang', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG', isCompound: true, compoundParts: ['Arbeits', 'Zwang'] }),
@@ -3818,7 +3818,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p71_s1',
-        translationFr: '9° Combinaison du travail agricole et industriel, mesures tendant à faire disparaître la distinction entre ville et campagne.',
+        translationFr: '9. Unification de l\'agriculture et de l\'industrie, mesures tendant à éliminer graduellement la différence entre la ville et la campagne.',
         words: [
           w('ch2_p71_s1_w1', 'Vereinigung', 'Vereinigung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p71_s1_w2', 'des', 'der', 'ART', { case: 'GEN', gender: 'M', number: 'SG' }),
@@ -3849,7 +3849,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p72_s1',
-        translationFr: '10° Éducation publique et gratuite de tous les enfants.',
+        translationFr: '10. Éducation publique et gratuite de tous les enfants.',
         words: [
           w('ch2_p72_s1_w1', 'Öffentliche', 'öffentlich', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch2_p72_s1_w2', 'und', 'und', 'CONJ'),
@@ -3862,7 +3862,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p72_s2',
-        translationFr: 'Abolition du travail des enfants dans les fabriques, tel qu’il est pratiqué aujourd’hui.',
+        translationFr: 'Abolition du travail des enfants en fabrique sous sa forme actuelle.',
         words: [
           w('ch2_p72_s2_w1', 'Beseitigung', 'Beseitigung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p72_s2_w2', 'der', 'der', 'ART', { case: 'GEN', gender: 'F', number: 'SG' }),
@@ -3878,7 +3878,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p72_s3',
-        translationFr: 'Combinaison de l’éducation avec la production matérielle, etc.',
+        translationFr: 'Combinaison de l\'éducation avec la production matérielle, etc.',
         words: [
           w('ch2_p72_s3_w1', 'Vereinigung', 'Vereinigung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p72_s3_w2', 'der', 'der', 'ART', { case: 'GEN', gender: 'F', number: 'SG' }),
@@ -3893,7 +3893,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p72_s4',
-        translationFr: 'Les antagonismes de classes une fois disparus dans le cours du développement, et toute la production concentrée dans les mains des individus associés, le pouvoir public perd son caractère politique.',
+        translationFr: 'Une fois que, dans le cours du développement, les différences de classes ont disparu et que toute la production est concentrée entre les mains des individus associés, le pouvoir public perd son caractère politique.',
         words: [
           w('ch2_p72_s4_w1', 'Sind', 'sein', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
           w('ch2_p72_s4_w2', 'im', 'in', 'PREP', { case: 'DAT' }),
@@ -3928,7 +3928,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p72_s5',
-        translationFr: 'Le pouvoir politique, à proprement parler, est le pouvoir organisé d’une classe pour l’oppression d’une autre.',
+        translationFr: 'Le pouvoir politique au sens propre est le pouvoir organisé d\'une classe pour l\'oppression d\'une autre.',
         words: [
           w('ch2_p72_s5_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch2_p72_s5_w2', 'politische', 'politisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3951,7 +3951,7 @@ export const chapter2Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch2_p72_s6',
-        translationFr: 'Si le prolétariat, dans sa lutte contre la bourgeoisie, se constitue forcément en classe, s’il s’érige par une révolution en classe régnante, et, comme classe régnante détruit violemment les anciens rapports de production, il détruit, en même temps que ces rapports de production, les conditions d’existence de l’antagonisme des classes ; il détruit les classes en général et, par là, sa propre domination comme classe.',
+        translationFr: 'Si le prolétariat, dans sa lutte contre la bourgeoisie, s\'unit nécessairement en une classe, s\'érige par une révolution en classe dominante et, comme classe dominante, abolit violemment les anciens rapports de production, il abolit en même temps que ces rapports de production les conditions d\'existence de l\'antagonisme des classes, les classes en général, et supprime par là sa propre domination comme classe.',
         words: [
           w('ch2_p72_s6_w1', 'Wenn', 'wenn', 'CONJ'),
           w('ch2_p72_s6_w2', 'das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -4018,7 +4018,7 @@ export const chapter2Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch2_p73_s1',
-        translationFr: 'À la place de l’ancienne société bourgeoise, avec ses classes et ses antagonismes de classes, surgit une association où le libre développement de chacun est la condition du libre développement pour tous.',
+        translationFr: 'À la place de l\'ancienne société bourgeoise, avec ses classes et ses antagonismes de classes, surgit une association où le libre développement de chacun est la condition du libre développement de tous.',
         words: [
           w('ch2_p73_s1_w1', 'An', 'an', 'PREP', { case: 'DAT' }),
           w('ch2_p73_s1_w2', 'die', 'der', 'ART', { case: 'ACC', gender: 'F', number: 'SG' }),
@@ -4058,287 +4058,287 @@ export const chapter2Paragraphs: Paragraph[] = [
 
 export const chapter2French: Record<string, string[]> = {
   "ch2_p1": [
-    "Quelle est la position des communistes vis-à-vis des prolétaires pris en masse ?",
-    "Les communistes ne forment pas un parti distinct opposé aux autres partis ouvriers.",
-    "Ils n’ont point d’intérêts qui les séparent du prolétariat en général."
+    "Dans quel rapport les communistes se trouvent-ils à l'égard des prolétaires en général ?",
+    "Les communistes ne forment pas un parti distinct en face des autres partis ouvriers.",
+    "Ils n'ont point d'intérêts séparés des intérêts de l'ensemble du prolétariat."
   ],
   "ch2_p2": [
-    "Ils ne proclament pas de principes sectaires sur lesquels ils voudraient modeler le mouvement ouvrier."
+    "Ils n'établissent point de principes particuliers sur lesquels ils voudraient modeler le mouvement prolétarien."
   ],
   "ch2_p3": [
-    "Les communistes ne se distinguent des autres partis ouvriers que sur deux points : 1° Dans les différentes luttes nationales des prolétaires, ils mettent en avant et font valoir les intérêts communs du prolétariat tout entier, sans considération de nationalité ; 2° Dans les différentes phases évolutives de la lutte entre prolétaires et bourgeois, ils représentent toujours l’intérêt du mouvement dans son ensemble."
+    "Les communistes ne se distinguent des autres partis prolétariens que sur deux points : d'une part, dans les différentes luttes nationales des prolétaires, ils mettent en avant et font valoir les intérêts communs à tout le prolétariat, indépendants de la nationalité ; d'autre part, dans les différentes étapes de développement que traverse la lutte entre prolétariat et bourgeoisie, ils représentent toujours l'intérêt du mouvement dans son ensemble."
   ],
   "ch2_p4": [
-    "Pratiquement, les communistes sont donc la section la plus résolue, la plus avancée des partis ouvriers de tous les pays ; théoriquement, ils ont sur le reste du prolétariat l’avantage d’une intelligence claire des conditions, de la marche et des fins générales du mouvement prolétarien."
+    "Pratiquement, les communistes sont donc la fraction la plus résolue des partis ouvriers de tous les pays, celle qui pousse toujours en avant ; théoriquement, ils ont sur le reste de la masse prolétarienne l'avantage d'une claire intelligence des conditions, de la marche et des résultats généraux du mouvement prolétarien."
   ],
   "ch2_p5": [
-    "Le but immédiat des communistes est le même que celui de toutes les fractions du prolétariat : constitution des prolétaires en classe, renversement de la domination bourgeoise, conquête du pouvoir politique par le prolétariat.",
-    "Les propositions théoriques des communistes ne reposent nullement sur des idées, des principes inventés ou découverts par tel ou tel réformateur du monde."
+    "Le but immédiat des communistes est le même que celui de tous les autres partis prolétariens : constitution du prolétariat en classe, renversement de la domination bourgeoise, conquête du pouvoir politique par le prolétariat.",
+    "Les thèses théoriques des communistes ne reposent nullement sur des idées, des principes inventés ou découverts par tel ou tel réformateur du monde."
   ],
   "ch2_p6": [
-    "Elles ne sont que l’expression, en termes généraux, des conditions réelles d’une lutte de classe existante, d’un mouvement historique évoluant sous nos yeux.",
-    "L’abolition des rapports de propriété qui ont existé jusqu’ici n’est pas le caractère distinctif du communisme."
+    "Elles ne sont que l'expression générale de conditions réelles d'une lutte de classes existante, d'un mouvement historique qui s'accomplit sous nos yeux.",
+    "L'abolition des rapports de propriété qui ont existé jusqu'ici n'a rien qui caractérise en propre le communisme."
   ],
   "ch2_p7": [
-    "La propriété a subi de constants changements, de continuelles transformations historiques."
+    "Tous les rapports de propriété ont été soumis à une constante mutation historique, à un perpétuel changement historique."
   ],
   "ch2_p8": [
-    "La Révolution française, par exemple, abolit la propriété féodale en faveur de la propriété bourgeoise."
+    "La Révolution française, par exemple, a aboli la propriété féodale en faveur de la propriété bourgeoise."
   ],
   "ch2_p9": [
-    "Le caractère distinctif du communisme n’est pas l’abolition de la propriété en général, mais l’abolition de la propriété bourgeoise."
+    "Ce qui caractérise le communisme, ce n'est pas l'abolition de la propriété en général, mais l'abolition de la propriété bourgeoise."
   ],
   "ch2_p10": [
-    "Or, la propriété privée, la propriété bourgeoise moderne, est la dernière et la plus parfaite expression du mode de production et d’appropriation basé sur les antagonismes de classes, sur l’exploitation des uns par les autres."
+    "Or, la propriété privée bourgeoise moderne est l'expression ultime et la plus achevée de la production et de l'appropriation des produits reposant sur des antagonismes de classes, sur l'exploitation des uns par les autres."
   ],
   "ch2_p11": [
-    "En ce sens, les communistes peuvent résumer leur théorie dans cette proposition unique : abolition de la propriété privée."
+    "En ce sens, les communistes peuvent résumer leur théorie en cette formule unique : abolition de la propriété privée."
   ],
   "ch2_p12": [
-    "On nous a reproché, à nous autres communistes, de vouloir abolir la propriété personnelle, péniblement acquise par le travail, propriété que l’on déclare être la base de toute liberté, de toute activité, de toute indépendance individuelle."
+    "On nous a reproché, à nous autres communistes, de vouloir abolir la propriété acquise personnellement, fruit du propre travail de chacun ; cette propriété qui formerait le fondement de toute liberté, de toute activité et de toute indépendance personnelles."
   ],
   "ch2_p13": [
-    "La propriété personnelle, fruit du travail d’un homme !",
-    "Veut-on parler de la propriété du petit bourgeois, du petit paysan, forme de propriété antérieure à la propriété bourgeoise ?",
-    "Nous n’avons que faire de l’abolir, le progrès de l’industrie l’a abolie, ou est en train de l’abolir."
+    "Propriété acquise par le travail, acquise par soi-même, méritée par soi-même !",
+    "Parlez-vous de la propriété du petit bourgeois, du petit paysan, qui a précédé la propriété bourgeoise ?",
+    "Nous n'avons pas besoin de l'abolir : le développement de l'industrie l'a abolie et l'abolit chaque jour."
   ],
   "ch2_p14": [
-    "Ou bien veut-on parler de la propriété privée, de la propriété bourgeoise moderne ?"
+    "Ou bien parlez-vous de la propriété privée bourgeoise moderne ?"
   ],
   "ch2_p15": [
-    "Est-ce que le travail salarié crée de la propriété pour le prolétaire ?",
+    "Mais le travail salarié, le travail du prolétaire, lui crée-t-il de la propriété ?",
     "Nullement.",
-    "Il crée le capital, c’est-à-dire la propriété qui exploite le travail salarié, et qui ne peut s’accroître qu’à la condition de produire du nouveau travail salarié afin de l’exploiter de nouveau.",
-    "Dans sa forme présente la propriété se meut entre ces deux termes antinomiques : capital et travail.",
-    "Examinons les deux côtés de cet antagonisme."
+    "Il crée le capital, c'est-à-dire la propriété qui exploite le travail salarié, et qui ne peut s'accroître qu'à la condition de produire du nouveau travail salarié afin de l'exploiter à nouveau.",
+    "La propriété, dans sa forme actuelle, se meut dans l'antagonisme du capital et du travail salarié.",
+    "Examinons les deux termes de cet antagonisme :"
   ],
   "ch2_p16": [
-    "Être capitaliste signifie occuper non seulement une position personnelle, mais encore une position sociale dans le système de la production.",
-    "Le capital est un produit collectif ; il ne peut être mis en mouvement que par les efforts combinés de beaucoup de membres de la société, et même, en dernière instance, que par les efforts combinés de tous les membres de la société.",
-    "Le capital n’est donc pas une force personnelle ; il est une force sociale."
+    "Être capitaliste, ce n'est pas seulement occuper une position purement personnelle, mais une position sociale dans la production.",
+    "Le capital est un produit collectif et ne peut être mis en mouvement que par l'activité commune de nombreux membres de la société, et même, en dernière instance, par l'activité commune de tous les membres de la société.",
+    "Le capital n'est donc pas une puissance personnelle, c'est une puissance sociale."
   ],
   "ch2_p17": [
-    "Dès lors, quand le capital est transformé en propriété commune, appartenant à tous les membres de la société, ce n’est pas là une propriété personnelle transformée en propriété sociale.",
-    "Il n’y a que le caractère social de la propriété qui soit transformé.",
-    "Elle perd son caractère de propriété de classe."
+    "Dès lors, quand le capital est transformé en propriété commune, appartenant à tous les membres de la société, ce n'est pas une propriété personnelle qui se transforme en propriété sociale.",
+    "Seul le caractère social de la propriété se transforme.",
+    "Elle perd son caractère de classe."
   ],
   "ch2_p18": [
-    "Arrivons au travail salarié."
+    "Venons-en au travail salarié :"
   ],
   "ch2_p19": [
-    "Le prix moyen du travail salarié est le minimum du salaire, c’est-à-dire la somme des moyens d’existence dont l’ouvrier a besoin pour vivre en ouvrier.",
-    "Par conséquent, ce que l’ouvrier s’approprie par son activité est tout juste ce qui lui est nécessaire pour entretenir une maigre existence, et pour se reproduire.",
-    "Nous ne voulons en aucune façon abolir cette appropriation personnelle des produits du travail, indispensable à l’entretien et à la reproduction de la vie humaine, cette appropriation ne laissant aucun profit net qui donne du pouvoir sur le travail d’autrui.",
-    "Ce que nous voulons, c’est supprimer ce triste mode d’appropriation qui fait que l’ouvrier ne vit que pour accroître le capital et ne vit que juste autant que l’exigent les intérêts de la classe régnante.",
-    "Dans la société bourgeoise, le travail vivant n’est qu’un moyen d’accroître le travail accumulé.",
-    "Dans la société communiste, le travail accumulé n’est qu’un moyen d’élargir, d’enrichir, et d’embellir l’existence."
+    "Le prix moyen du travail salarié est le minimum du salaire, c'est-à-dire la somme des moyens de subsistance nécessaires pour maintenir l'ouvrier en vie en tant qu'ouvrier.",
+    "Ce que le salarié s'approprie donc par son activité suffit tout juste à reproduire sa nue existence.",
+    "Nous ne voulons nullement abolir cette appropriation personnelle des produits du travail destinée à la reproduction de la vie immédiate, appropriation qui ne laisse aucun produit net conférant un pouvoir sur le travail d'autrui.",
+    "Nous voulons seulement supprimer le caractère misérable de cette appropriation, où l'ouvrier ne vit que pour accroître le capital, et ne vit qu'autant que l'exige l'intérêt de la classe dominante.",
+    "Dans la société bourgeoise, le travail vivant n'est qu'un moyen d'accroître le travail accumulé.",
+    "Dans la société communiste, le travail accumulé n'est qu'un moyen d'élargir, d'enrichir, de promouvoir le processus vital des travailleurs."
   ],
   "ch2_p20": [
-    "Dans la société bourgeoise, le passé domine le présent ; dans la société communiste c’est le présent qui domine le passé.",
-    "Dans la société bourgeoise, le capital est indépendant et personnel, tandis que l’individu agissant est dépendant et privé de personnalité."
+    "Dans la société bourgeoise, le passé domine donc le présent ; dans la société communiste, c'est le présent qui domine le passé.",
+    "Dans la société bourgeoise, le capital est indépendant et personnel, tandis que l'individu agissant est dépendant et impersonnel."
   ],
   "ch2_p21": [
-    "C’est l’abolition d’un pareil état de choses que la bourgeoisie flétrit comme l’abolition de l’individualité et de la liberté.",
-    "Et avec juste raison.",
-    "Car il s’agit effectivement de l’abolition de l’individualité, de l’indépendance et de la liberté bourgeoises."
+    "Et c'est l'abolition d'un tel rapport que la bourgeoisie qualifie d'abolition de la personnalité et de la liberté !",
+    "Et avec raison !",
+    "Car il s'agit bel et bien d'abolir la personnalité, l'indépendance et la liberté bourgeoises."
   ],
   "ch2_p22": [
-    "Par liberté, dans les conditions actuelles de la production bourgeoise, on entend la liberté du commerce, du libre-échange."
+    "Par liberté, on entend, dans le cadre des actuels rapports de production bourgeois, la liberté du commerce, la liberté d'acheter et de vendre."
   ],
   "ch2_p23": [
-    "Mais avec le trafic, le trafic libre disparaît aussi.",
-    "Au reste, tous les grands mots sur le libre-échange, de même que toutes les forfanteries libérales de nos bourgeois n’ont un sens que par contraste au commerce entravé, au bourgeois asservi du moyen âge ; ils n’en ont aucun lorsqu’il s’agit de l’abolition, par les communistes, du trafic, des rapports de la production bourgeoise et de la bourgeoisie elle-même."
+    "Mais si le trafic s'écroule, le libre trafic s'écroule aussi.",
+    "Les déclamations sur le libre trafic, comme toutes les autres rodomontades libérales de notre bourgeoisie, n'ont de sens qu'en regard du trafic entravé, du bourgeois asservi du Moyen Âge, mais n'en ont aucun face à l'abolition communiste du trafic, des rapports de production bourgeois et de la bourgeoisie elle-même."
   ],
   "ch2_p24": [
-    "Vous êtes saisi d’horreur parce que nous voulons abolir la propriété privée.",
-    "Mais dans votre société la propriété privée est abolie pour les neuf dixièmes de ses membres ; elle n'existe précisément que parce qu'elle n'existe pas pour ces neuf dixièmes.",
-    "Vous nous reprochez donc de vouloir abolir une forme de la propriété qui ne peut se constituer qu’à la condition de priver l’immense majorité de la société de toute propriété."
+    "Vous êtes saisis d'horreur parce que nous voulons abolir la propriété privée.",
+    "Mais dans votre société actuelle, la propriété privée est abolie pour les neuf dixièmes de ses membres ; elle n'existe précisément que parce qu'elle n'existe pas pour ces neuf dixièmes.",
+    "Vous nous reprochez donc de vouloir abolir une propriété qui présuppose, comme condition nécessaire, la privation de toute propriété pour l'immense majorité de la société."
   ],
   "ch2_p25": [
-    "En un mot, vous nous accusez de vouloir abolir votre propriété à vous.",
-    "À la vérité, c’est bien là notre intention."
+    "En un mot, vous nous reprochez de vouloir abolir votre propriété.",
+    "À la vérité, c'est bien là ce que nous voulons."
   ],
   "ch2_p26": [
-    "Dès que le travail ne peut plus être converti en capital, en argent, en propriété foncière, bref, en pouvoir social, capable d’être monopolisé, c’est-à-dire dès que la propriété individuelle ne peut plus se transformer en propriété bourgeoise, vous déclarez que l’individualité est supprimée."
+    "Dès l'instant où le travail ne peut plus être converti en capital, en argent, en rente foncière, bref, en une puissance sociale monopolisable, c'est-à-dire dès l'instant où la propriété personnelle ne peut plus se muer en propriété bourgeoise, en capital, dès cet instant vous déclarez que la personne est abolie."
   ],
   "ch2_p27": [
-    "Vous avouez donc que lorsque vous parlez de l’individu, vous n’entendez parler que du bourgeois.",
-    "Et cet individu-là, sans contredit, doit être supprimé."
+    "Vous avouez donc que, par personne, vous n'entendez nul autre que le bourgeois, le propriétaire bourgeois.",
+    "Et cette personne-là, il est vrai, doit être abolie."
   ],
   "ch2_p28": [
-    "Le communisme n’enlève à personne le pouvoir de s’approprier sa part des produits sociaux, il n’ôte que le pouvoir d’assujettir, à l’aide de cette appropriation, le travail d’autrui."
+    "Le communisme n'enlève à personne le pouvoir de s'approprier des produits sociaux ; il n'ôte que le pouvoir d'assujettir le travail d'autrui au moyen de cette appropriation."
   ],
   "ch2_p29": [
-    "On a objecté encore qu’avec l’abolition de la propriété privée toute activité cesserait, qu’une paresse générale s’emparerait du monde."
+    "On a objecté qu'avec l'abolition de la propriété privée toute activité cesserait et qu'une paresse générale s'emparerait du monde."
   ],
   "ch2_p30": [
-    "Si cela était, il y a beau jour que la société bourgeoise aurait succombé à la fainéantise, puisque ceux qui y travaillent ne gagnent pas et que ceux qui y gagnent ne travaillent pas.",
-    "Toute l’objection se réduit à cette tautologie, qu’il n’y a plus de travail salarié là où il n’y a plus de capital."
+    "Si tel était le cas, il y a beau temps que la société bourgeoise aurait péri par l'oisiveté ; car ceux qui y travaillent n'acquièrent rien, et ceux qui y acquièrent ne travaillent pas.",
+    "Toute l'objection se réduit à cette tautologie : il n'y a plus de travail salarié dès lors qu'il n'y a plus de capital."
   ],
   "ch2_p31": [
-    "Les accusations portées contre le mode communiste de production et d’appropriation des produits matériels ont été également portées contre la production et l’appropriation intellectuelles.",
-    "De même que pour le bourgeois la disparition de la propriété de classe équivaut à la disparition de toute production, de même la disparition de la culture intellectuelle de classe signifie, pour lui, la disparition de toute culture intellectuelle.",
-    "La culture, dont il déplore la perte, n’est pour l’immense majorité, que le façonnement à devenir machine."
+    "Toutes les objections dirigées contre le mode d'appropriation et de production communiste des produits matériels ont été de même étendues à l'appropriation et à la production des produits intellectuels.",
+    "De même que pour le bourgeois la disparition de la propriété de classe équivaut à la disparition de la production elle-même, de même la disparition de la culture de classe est pour lui identique à la disparition de toute culture en général.",
+    "La culture dont il déplore la perte n'est pour l'immense majorité qu'un dressage à devenir machine."
   ],
   "ch2_p32": [
-    "Mais ne nous querellez pas tant que vous appliquerez à l’abolition de la propriété bourgeoise l’étalon de vos notions bourgeoises de liberté, de culture, de droit, etc.",
-    "Vos idées sont elles-mêmes les produits des rapports de la production et de la propriété bourgeoises, comme votre droit n’est que la volonté de votre classe érigée en loi, volonté dont le contenu est déterminé par les conditions matérielles d’existence de votre classe."
+    "Mais ne venez point polémiquer avec nous en mesurant l'abolition de la propriété bourgeoise à l'aune de vos représentations bourgeoises de liberté, de culture, de droit, etc.",
+    "Vos idées elles-mêmes sont les produits des rapports bourgeois de production et de propriété, tout comme votre droit n'est que la volonté de votre classe érigée en loi, volonté dont le contenu est déterminé par les conditions matérielles d'existence de votre classe."
   ],
   "ch2_p33": [
-    "La conception intéressée qui vous fait ériger en lois éternelles de la nature et de la raison les rapports sociaux qui naissent de votre mode de production — rapports sociaux transitoires, qui surgissent et disparaissent au cours de la production — cette conception vous la partagez avec toutes les classes jadis régnantes et disparues aujourd’hui.",
-    "Ce que vous concevez pour la propriété antique, ce que vous comprenez pour la propriété féodale, il vous est défendu de l’admettre pour la propriété bourgeoise."
+    "La conception intéressée par laquelle vous métamorphosez vos rapports de production et de propriété — de rapports historiques et transitoires au cours de la production qu'ils sont — en lois éternelles de la nature et de la raison, vous la partagez avec toutes les classes dominantes disparues.",
+    "Ce que vous comprenez pour la propriété antique, ce que vous comprenez pour la propriété féodale, il vous est interdit de le comprendre pour la propriété bourgeoise. —"
   ],
   "ch2_p34": [
-    "Vouloir abolir la famille !",
-    "Jusqu’aux plus radicaux qui s’indignent de cet infâme dessein des communistes."
+    "Abolition de la famille !",
+    "Même les plus radicaux s'indignent de cet infâme dessein des communistes."
   ],
   "ch2_p35": [
-    "Sur quelle base repose la famille bourgeoise de notre époque ?",
-    "Sur le capital, le gain individuel.",
-    "La famille, à l’état complet, n’existe que pour la bourgeoisie ; mais elle trouve son complément dans la suppression forcée de toute famille pour le prolétaire, et dans la prostitution publique."
+    "Sur quoi repose la famille actuelle, la famille bourgeoise ?",
+    "Sur le capital, sur le gain privé.",
+    "Pleinement développée, elle n'existe que pour la bourgeoisie ; mais elle trouve son complément dans l'absence forcée de famille chez les prolétaires et dans la prostitution publique."
   ],
   "ch2_p36": [
-    "La famille bourgeoise s’évanouit naturellement avec l’évanouissement de son complément nécessaire, et l’un et l’autre disparaissent avec la disparition du capital."
+    "La famille bourgeoise s'évanouit naturellement avec l'évanouissement de ce complément qui est le sien, et toutes deux disparaissent avec la disparition du capital."
   ],
   "ch2_p37": [
-    "Nous reprochez-vous de vouloir abolir l’exploitation des enfants par leurs parents ?",
-    "Nous avouons le crime."
+    "Nous reprochez-vous de vouloir abolir l'exploitation des enfants par leurs parents ?",
+    "Ce crime, nous l'avouons."
   ],
   "ch2_p38": [
-    "Mais nous brisons, dites-vous, les liens les plus sacrés, en substituant à l’éducation de famille, l’éducation sociale."
+    "Mais, dites-vous, nous détruisons les rapports les plus intimes en substituant l'éducation sociale à l'éducation domestique."
   ],
   "ch2_p39": [
-    "Et votre éducation à vous, n’est-elle pas, elle aussi, déterminée par la société ?",
-    "Par les conditions sociales dans lesquelles vous élevez vos enfants, par l’intervention directe ou indirecte de la société à l’aide des écoles, etc. ?",
-    "Les communistes n’inventent pas cette ingérence de la société dans l’éducation, ils ne cherchent qu’à en changer le caractère et à arracher l’éducation à l’influence de la classe régnante."
+    "Et votre éducation à vous, n'est-elle pas, elle aussi, déterminée par la société ?",
+    "Déterminée par les rapports sociaux au sein desquels vous éduquez, par l'intervention plus ou moins directe de la société, par le truchement de l'école, etc. ?",
+    "Les communistes n'inventent pas l'action de la société sur l'éducation ; ils ne font qu'en modifier le caractère et arracher l'éducation à l'influence de la classe dominante."
   ],
   "ch2_p40": [
-    "Les déclamations bourgeoises sur la famille et l’éducation, sur les doux liens qui unissent l’enfant à ses parents, deviennent de plus en plus écœurantes à mesure que la grande industrie détruit tout lien de famille pour le prolétaire et transforme les enfants en simples articles de commerce, en simples instruments de travail."
+    "Les déclamations bourgeoises sur la famille et l'éducation, sur les doux rapports entre parents et enfants, deviennent d'autant plus écœurantes qu'avec le développement de la grande industrie tous les liens de famille sont brisés pour les prolétaires et les enfants transformés en simples articles de commerce et instruments de travail."
   ],
   "ch2_p41": [
-    "Mais de la bourgeoisie tout entière s’élève une clameur : vous autres communistes, vous voulez introduire la communauté des femmes !"
+    "Mais vous autres communistes, vous voulez introduire la communauté des femmes ! nous crie en chœur la bourgeoisie tout entière."
   ],
   "ch2_p42": [
-    "Pour le bourgeois sa femme n’est rien qu’un instrument de production.",
-    "Il entend dire que les instruments de production doivent être mis en commun et il conclut naturellement qu’il y aura communauté des femmes."
+    "Le bourgeois ne voit dans sa femme qu'un simple instrument de production.",
+    "Il entend dire que les instruments de production doivent être exploités en commun, et ne peut naturellement se représenter autre chose sinon que le sort de la mise en commun frappera tout autant les femmes."
   ],
   "ch2_p43": [
-    "Il ne soupçonne pas qu’il s’agit précisément d’assigner à la femme un autre rôle que celui de simple instrument de production."
+    "Il ne soupçonne pas qu'il s'agit précisément d'abolir la condition faite aux femmes de n'être que de simples instruments de production."
   ],
   "ch2_p44": [
-    "Rien de plus grotesque, d’ailleurs, que l’horreur ultra-morale qu’inspire à nos bourgeois la prétendue communauté officielle des femmes chez les communistes.",
-    "Les communistes n’ont pas besoin d’introduire la communauté des femmes, elle a presque toujours existé."
+    "Rien n'est d'ailleurs plus grotesque que l'effroi ultra-moralisateur de nos bourgeois devant la prétendue communauté officielle des femmes chez les communistes.",
+    "Les communistes n'ont pas besoin d'introduire la communauté des femmes : elle a presque toujours existé."
   ],
   "ch2_p45": [
-    "Nos bourgeois, non contents d’avoir à leur disposition les femmes et les filles de leurs prolétaires, sans parler de la prostitution officielle, trouvent un plaisir singulier à se cocufier mutuellement."
+    "Nos bourgeois, non contents d'avoir à leur disposition les femmes et les filles de leurs prolétaires, sans même parler de la prostitution officielle, trouvent un plaisir suprême à séduire mutuellement leurs épouses."
   ],
   "ch2_p46": [
-    "Le mariage bourgeois est, en réalité, la communauté des femmes mariées.",
-    "Tout au plus pourrait-on accuser les communistes de vouloir mettre à la place d’une communauté de femmes hypocrite et dissimulée, une autre qui serait franche et officielle.",
-    "Il est évident, du reste, qu’avec l’abolition des rapports de production actuels, la communauté des femmes qui en dérive, c’est-à-dire la prostitution officielle et non officielle, disparaîtra."
+    "Le mariage bourgeois est en réalité la communauté des femmes mariées.",
+    "Tout au plus pourrait-on reprocher aux communistes de vouloir substituer à une communauté des femmes hypocritement dissimulée une communauté officielle et sans fard.",
+    "Il va d'ailleurs de soi qu'avec l'abolition des rapports de production actuels disparaîtra aussi la communauté des femmes qui en dérive, c'est-à-dire la prostitution officielle et clandestine."
   ],
   "ch2_p47": [
-    "En outre, on accuse les communistes de vouloir abolir la patrie, la nationalité.",
-    "Les ouvriers n’ont pas de patrie.",
-    "On ne peut leur ravir ce qu’ils n’ont pas.",
-    "Comme le prolétariat de chaque pays doit, en premier lieu, conquérir le pouvoir politique, s’ériger en classe maîtresse de la nation, il est par là encore national lui-même, quoique nullement dans le sens bourgeois."
+    "On a reproché en outre aux communistes de vouloir abolir la patrie, la nationalité.",
+    "Les ouvriers n'ont pas de patrie.",
+    "On ne peut leur ravir ce qu'ils n'ont pas.",
+    "Comme le prolétariat doit d'abord conquérir le pouvoir politique, s'ériger en classe nationale, se constituer lui-même en nation, il est encore par là national lui-même, quoique nullement au sens où l'entend la bourgeoisie."
   ],
   "ch2_p48": [
-    "Déjà les démarcations et les antagonismes nationaux des peuples disparaissent de plus en plus avec le développement de la bourgeoisie, la liberté du commerce et le marché mondial, avec l’uniformité de la production industrielle et les conditions d’existence qui y correspondent."
+    "Les démarcations nationales et les antagonismes entre peuples s'effacent déjà de plus en plus avec le développement de la bourgeoisie, la liberté du commerce, le marché mondial, l'uniformité de la production industrielle et les conditions d'existence qui y correspondent."
   ],
   "ch2_p49": [
-    "L’avènement du prolétariat les fera disparaître plus vite encore.",
-    "L’action commune des différents prolétariats, dans les pays civilisés, tout au moins, est une des premières conditions de leur émancipation."
+    "La domination du prolétariat les fera disparaître plus encore.",
+    "L'action commune, au moins dans les pays civilisés, est l'une des premières conditions de son émancipation."
   ],
   "ch2_p50": [
-    "Abolissez l’exploitation de l’homme par l’homme, et vous abolissez l’exploitation d’une nation par une autre nation.",
-    "Lorsque l’antagonisme des classes, à l’intérieur des nations, aura disparu, l’hostilité de nation à nation disparaîtra."
+    "À mesure qu'est abolie l'exploitation d'un individu par un autre, l'exploitation d'une nation par une autre est abolie.",
+    "Avec l'antagonisme des classes à l'intérieur de la nation tombe l'hostilité entre les nations."
   ],
   "ch2_p51": [
-    "Quant aux accusations portées contre les communistes, au nom de la religion, de la philosophie et de l’idéologie en général, elles ne méritent pas un examen approfondi."
+    "Les accusations portées contre le communisme sous des angles religieux, philosophiques et généralement idéologiques ne méritent pas un examen plus approfondi."
   ],
   "ch2_p52": [
-    "Est-il besoin d’un esprit bien profond pour comprendre que les vues, les notions et les conceptions, en un mot, que la conscience de l’homme change avec tout changement survenu dans ses relations sociales, dans son existence sociale ?"
+    "Faut-il une perspicacité bien profonde pour comprendre qu'avec les conditions de vie des hommes, avec leurs relations sociales, avec leur existence sociale, changent aussi leurs représentations, leurs conceptions et leurs notions, en un mot leur conscience ?"
   ],
   "ch2_p53": [
-    "Que démontre l’histoire de la pensée si ce n’est que la production intellectuelle se transforme avec la production matérielle ?",
-    "Les idées dominantes d’une époque n’ont jamais été que les idées de la classe dominante."
+    "Que prouve l'histoire des idées, sinon que la production intellectuelle se métamorphose avec la production matérielle ?",
+    "Les idées dominantes d'une époque n'ont jamais été que les idées de la classe dominante."
   ],
   "ch2_p54": [
-    "Lorsqu’on parle d’idées qui révolutionnent une société tout entière, on annonce seulement le fait que dans le sein de la vieille société les éléments d’une nouvelle société se sont formés et que la dissolution des vieilles idées marche de pair avec la dissolution des anciennes relations sociales."
+    "Parle-t-on d'idées qui révolutionnent une société tout entière, on ne fait qu'énoncer le fait qu'au sein de la vieille société se sont formés les éléments d'une société nouvelle, et que la dissolution des vieilles idées va de pair avec la dissolution des anciennes conditions d'existence."
   ],
   "ch2_p55": [
-    "Quand l’ancien monde était à son déclin, les vieilles religions furent vaincues par la religion chrétienne.",
-    "Quand au XVIIIe siècle, les idées chrétiennes cédèrent la place aux idées philosophiques, la société féodale livrait sa dernière bataille à la bourgeoisie, alors révolutionnaire.",
-    "Les idées de liberté religieuse et de liberté de conscience ne firent que proclamer le règne de la libre concurrence dans le domaine de la connaissance."
+    "Lorsque le monde antique était à son déclin, les vieilles religions furent vaincues par la religion chrétienne.",
+    "Lorsque les idées chrétiennes succombèrent au XVIIIe siècle devant les idées des Lumières, la société féodale livrait son combat à mort contre la bourgeoisie, alors révolutionnaire.",
+    "Les idées de liberté de conscience et de liberté religieuse ne firent que proclamer le règne de la libre concurrence dans le domaine du savoir."
   ],
   "ch2_p56": [
-    "« Sans doute, dira-t-on, les idées religieuses, morales, philosophiques, politiques et juridiques se sont modifiées dans le cours du développement historique.",
-    "Mais la religion, la morale, la philosophie se maintenaient toujours à travers ces transformations.",
-    "Il y a de plus des vérités éternelles, telles que la liberté, la justice, etc., qui sont communes à toutes les conditions sociales.",
-    "Or, le communisme abolit les vérités éternelles, il abolit la religion et la morale au lieu de les constituer sur une nouvelle base, ce qui est contradictoire à tout le développement historique antérieur. »"
+    "« Sans doute », dira-t-on, « les idées religieuses, morales, philosophiques, politiques, juridiques, etc., se sont modifiées au cours du développement historique.",
+    "Mais la religion, la morale, la philosophie, la politique, le droit se maintenaient toujours à travers ces changements.",
+    "Il y a en outre des vérités éternelles, telles que la liberté, la justice, etc., qui sont communes à tous les états de la société.",
+    "Or, le communisme abolit les vérités éternelles, il abolit la religion et la morale au lieu de leur donner une forme nouvelle ; il contredit donc tous les développements historiques antérieurs. »"
   ],
   "ch2_p57": [
-    "À quoi se réduit cette objection ?",
-    "L’histoire de toute société se résume dans le développement des antagonismes des classes, antagonismes qui ont revêtu des formes différentes aux différentes époques.",
-    "Mais quelle qu’ait été la forme revêtue par ces antagonismes, l’exploitation d’une partie de la société par l’autre est un fait commun à tous les siècles antérieurs.",
-    "Donc, rien d’étonnant à ce que la conscience sociale de tous les âges, en dépit de toute divergence et de toute diversité, se soit toujours mue dans de certaines formes communes, dans des formes de conscience qui ne se dissoudront complètement qu’avec l’entière disparition de l’antagonisme des classes."
+    "À quoi se réduit cette accusation ?",
+    "L'histoire de toute la société jusqu'à nos jours s'est déroulée dans des antagonismes de classes, qui ont revêtu des formes différentes selon les époques.",
+    "Mais quelle que soit la forme qu'ils aient prise, l'exploitation d'une partie de la société par l'autre est un fait commun à tous les siècles passés.",
+    "Rien d'étonnant dès lors si la conscience sociale de tous les siècles, en dépit de toute multiplicité et diversité, se meut dans certaines formes communes, dans des formes de conscience qui ne se dissoudront complètement qu'avec l'entière disparition de l'antagonisme des classes."
   ],
   "ch2_p58": [
-    "La révolution communiste est la rupture la plus radicale avec les rapports de propriété traditionnels ; rien d’étonnant à ce que, dans le cours de son développement, elle rompe de la façon la plus radicale avec les vieilles idées traditionnelles."
+    "La révolution communiste est la rupture la plus radicale avec les rapports de propriété traditionnels ; rien d'étonnant si, dans le cours de son développement, elle rompt de la façon la plus radicale avec les idées traditionnelles."
   ],
   "ch2_p59": [
-    "Cependant laissons là les objections faites par la bourgeoisie au communisme.",
-    "Ainsi que nous l’avons vu plus haut, la première étape dans la révolution ouvrière est la constitution du prolétariat en classe régnante, la conquête du pouvoir public par la démocratie."
+    "Mais laissons là les objections de la bourgeoisie contre le communisme.",
+    "Nous avons déjà vu plus haut que la première étape de la révolution ouvrière est la constitution du prolétariat en classe dominante, la conquête de la démocratie."
   ],
   "ch2_p60": [
-    "Le prolétariat se servira de sa suprématie politique pour arracher petit à petit tout capital à la bourgeoisie, pour centraliser tous les instruments de production dans les mains de l’État, c’est-à-dire du prolétariat organisé en classe régnante, et pour augmenter au plus vite les masses des forces productives disponibles."
+    "Le prolétariat utilisera sa domination politique pour arracher peu à peu tout capital à la bourgeoisie, pour centraliser tous les instruments de production entre les mains de l'État, c'est-à-dire du prolétariat organisé en classe dominante, et pour accroître au plus vite la masse des forces productives."
   ],
   "ch2_p61": [
-    "Ceci, naturellement, ne pourra s’accomplir, au début, que par une violation despotique des droits de propriété et des rapports de production bourgeoise, c’est-à-dire par la prise de mesures qui, au point de vue économique, paraîtront insuffisantes et insoutenables, mais qui au cours du mouvement se dépassent elles-mêmes et sont indispensables comme moyen de révolutionner le mode de production tout entier.",
-    "Ces mesures, bien entendu, seront différentes dans les différents pays."
+    "Cela ne pourra naturellement s'accomplir au début que par des interventions despotiques dans le droit de propriété et dans les rapports de production bourgeois, c'est-à-dire par des mesures qui apparaissent économiquement insuffisantes et insoutenables, mais qui, au cours du mouvement, se dépassent elles-mêmes et sont inévitables comme moyens de bouleverser l'ensemble du mode de production.",
+    "Ces mesures seront naturellement différentes selon les différents pays."
   ],
   "ch2_p62": [
-    "Cependant, pour les pays les plus avancés, les mesures suivantes pourront assez généralement être applicables."
+    "Pour les pays les plus avancés, les mesures suivantes pourront toutefois être appliquées assez généralement :"
   ],
   "ch2_p63": [
-    "1° Expropriation de la propriété foncière et confiscation de la rente foncière au profit de l’État."
+    "1. Expropriation de la propriété foncière et affectation de la rente foncière aux dépenses de l'État."
   ],
   "ch2_p64": [
-    "2° Impôt fortement progressif."
+    "2. Impôt fortement progressif."
   ],
   "ch2_p65": [
-    "3° Abolition de l’héritage."
+    "3. Abolition du droit d'héritage."
   ],
   "ch2_p66": [
-    "4° Confiscation de la propriété de tous les émigrants et de tous les rebelles."
+    "4. Confiscation de la propriété de tous les émigrés et rebelles."
   ],
   "ch2_p67": [
-    "5° Centralisation du crédit dans les mains de l’État au moyen d’une banque nationale avec capital de l’État et avec le monopole exclusif."
+    "5. Centralisation du crédit entre les mains de l'État au moyen d'une banque nationale à capital d'État et à monopole exclusif."
   ],
   "ch2_p68": [
-    "6° Centralisation, dans les mains de l’État, de tous les moyens de transport."
+    "6. Centralisation de tous les transports entre les mains de l'État."
   ],
   "ch2_p69": [
-    "7° Augmentation des manufactures nationales et des instruments de production, défrichement des terrains incultes et amélioration des terres cultivées d’après un système général."
+    "7. Augmentation du nombre des fabriques nationales et des instruments de production, défrichement et amélioration de toutes les terres selon un plan concerté."
   ],
   "ch2_p70": [
-    "8° Travail obligatoire pour tous, organisation d’armées industrielles, particulièrement pour l’agriculture."
+    "8. Travail obligatoire pour tous, levée d'armées industrielles, particulièrement pour l'agriculture."
   ],
   "ch2_p71": [
-    "9° Combinaison du travail agricole et industriel, mesures tendant à faire disparaître la distinction entre ville et campagne."
+    "9. Unification de l'agriculture et de l'industrie, mesures tendant à éliminer graduellement la différence entre la ville et la campagne."
   ],
   "ch2_p72": [
-    "10° Éducation publique et gratuite de tous les enfants.",
-    "Abolition du travail des enfants dans les fabriques, tel qu’il est pratiqué aujourd’hui.",
-    "Combinaison de l’éducation avec la production matérielle, etc.",
-    "Les antagonismes de classes une fois disparus dans le cours du développement, et toute la production concentrée dans les mains des individus associés, le pouvoir public perd son caractère politique.",
-    "Le pouvoir politique, à proprement parler, est le pouvoir organisé d’une classe pour l’oppression d’une autre.",
-    "Si le prolétariat, dans sa lutte contre la bourgeoisie, se constitue forcément en classe, s’il s’érige par une révolution en classe régnante, et, comme classe régnante détruit violemment les anciens rapports de production, il détruit, en même temps que ces rapports de production, les conditions d’existence de l’antagonisme des classes ; il détruit les classes en général et, par là, sa propre domination comme classe."
+    "10. Éducation publique et gratuite de tous les enfants.",
+    "Abolition du travail des enfants en fabrique sous sa forme actuelle.",
+    "Combinaison de l'éducation avec la production matérielle, etc.",
+    "Une fois que, dans le cours du développement, les différences de classes ont disparu et que toute la production est concentrée entre les mains des individus associés, le pouvoir public perd son caractère politique.",
+    "Le pouvoir politique au sens propre est le pouvoir organisé d'une classe pour l'oppression d'une autre.",
+    "Si le prolétariat, dans sa lutte contre la bourgeoisie, s'unit nécessairement en une classe, s'érige par une révolution en classe dominante et, comme classe dominante, abolit violemment les anciens rapports de production, il abolit en même temps que ces rapports de production les conditions d'existence de l'antagonisme des classes, les classes en général, et supprime par là sa propre domination comme classe."
   ],
   "ch2_p73": [
-    "À la place de l’ancienne société bourgeoise, avec ses classes et ses antagonismes de classes, surgit une association où le libre développement de chacun est la condition du libre développement pour tous."
-  ]
+    "À la place de l'ancienne société bourgeoise, avec ses classes et ses antagonismes de classes, surgit une association où le libre développement de chacun est la condition du libre développement de tous."
+  ],
 };
 
 

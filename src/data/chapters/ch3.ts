@@ -8,7 +8,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p1_s1',
-        translationFr: '1. Le socialisme réactionnaire',
+        translationFr: "1. Le socialisme réactionnaire",
         words: [
           w('ch3_p1_s1_w1', '1.', '1.', 'ADV'),
           w('ch3_p1_s1_w2', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -23,7 +23,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p2_s1',
-        translationFr: 'Par leur position historique, les aristocraties françaises et anglaises se trouvèrent appelées à lancer des libelles contre la société bourgeoise.',
+        translationFr: "Par leur position historique, les aristocraties française et anglaise étaient appelées à écrire des libelles contre la société bourgeoise moderne.",
         words: [
           w('ch3_p2_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p2_s1_w2', 'französische', 'französisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -51,7 +51,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p2_s2',
-        translationFr: 'Dans la révolution française de 1830, dans le mouvement réformiste anglais, elles avaient succombé une fois de plus sous les coups du parvenu abhorré.',
+        translationFr: "Dans la révolution française de Juillet 1830 et dans le mouvement réformiste anglais, elles avaient succombé une fois de plus sous les coups du parvenu abhorré.",
         words: [
           w('ch3_p2_s2_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p2_s2_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -77,7 +77,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p2_s3',
-        translationFr: 'Pour elles, il ne pouvait plus désormais être question d’une lutte politique sérieuse.',
+        translationFr: "Il ne pouvait plus désormais être question d’une lutte politique sérieuse.",
         words: [
           w('ch3_p2_s3_w1', 'Von', 'von', 'PREP', { case: 'DAT' }),
           w('ch3_p2_s3_w2', 'einem', 'ein', 'ART', { case: 'DAT', gender: 'M', number: 'SG' }),
@@ -95,7 +95,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p2_s4',
-        translationFr: 'Il ne leur restait plus que la lutte littéraire.',
+        translationFr: "Seule la lutte littéraire leur restait ouverte.",
         words: [
           w('ch3_p2_s4_w1', 'Nur', 'nur', 'ADV'),
           w('ch3_p2_s4_w2', 'der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -109,7 +109,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p2_s5',
-        translationFr: 'Or, dans le domaine littéraire aussi, la vieille phraséologie de la Restauration était devenue impossible.',
+        translationFr: "Mais, dans le domaine littéraire aussi, la vieille phraséologie de la Restauration était devenue impossible.",
         words: [
           w('ch3_p2_s5_w1', 'Aber', 'aber', 'CONJ'),
           w('ch3_p2_s5_w2', 'auch', 'auch', 'ADV'),
@@ -131,7 +131,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p2_s6',
-        translationFr: 'Pour se créer des sympathies, il fallait que l’aristocratie fît semblant de perdre de vue ses intérêts propres, et qu’elle dressât son acte d’accusation contre la bourgeoisie, dans le seul intérêt de la classe ouvrière exploitée.',
+        translationFr: "Pour susciter de la sympathie, il fallait que l’aristocratie feignît de perdre de vue ses propres intérêts et formulât son acte d’accusation contre la bourgeoisie dans le seul intérêt de la classe ouvrière exploitée.",
         words: [
           w('ch3_p2_s6_w1', 'Um', 'um', 'CONJ'),
           w('ch3_p2_s6_w2', 'Sympathie', 'Sympathie', 'NOUN', { case: 'ACC', gender: 'F', number: 'SG' }),
@@ -166,7 +166,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p2_s7',
-        translationFr: 'Elle se ménagea de la sorte la satisfaction de faire des chansons satiriques sur son nouveau maître et de fredonner à ses oreilles des prophéties grosses de malheurs.',
+        translationFr: "Elle se ménageait ainsi la satisfaction de chanter des chansons satiriques sur son nouveau maître et d'oser lui chuchoter à l’oreille des prophéties plus ou moins chargées de malheurs.",
         words: [
           w('ch3_p2_s7_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', gender: 'F', number: 'SG', person: 3 }),
           w('ch3_p2_s7_w2', 'bereitete', 'vorbereiten', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND', separablePrefix: 'vor' }),
@@ -204,7 +204,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p3_s1',
-        translationFr: 'C’est ainsi que naquit le socialisme féodal, mélange de jérémiades et de pasquinades, d’échos du passé et de vagissements de l’avenir. Si parfois sa critique mordante et spirituelle frappa au cœur la bourgeoisie, son impuissance absolue à comprendre la marche de l’histoire moderne, finit toujours par le rendre ridicule.',
+        translationFr: "C’est ainsi que naquit le socialisme féodal, moitié complainte, moitié pasquinade, moitié écho du passé, moitié grondement menaçant de l’avenir, frappant parfois la bourgeoisie en plein cœur par un jugement amer, spirituel et mordant, mais toujours comique par son impuissance totale à comprendre la marche de l’histoire moderne.",
         words: [
           w('ch3_p3_s1_w1', 'Auf', 'auf', 'PREP', { case: 'ACC' }),
           w('ch3_p3_s1_w2', 'diese', 'dies', 'PRON', { case: 'ACC', gender: 'F', number: 'SG' }),
@@ -267,7 +267,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p4_s1',
-        translationFr: 'En guise de drapeau, ces messieurs arboraient la besace du mendiant, afin d’attirer à eux le peuple.',
+        translationFr: "Ils brandissaient en guise d'étendard la besace de mendiant du prolétariat pour rassembler le peuple derrière eux.",
         words: [
           w('ch3_p4_s1_w1', 'Den', 'der', 'ART', { case: 'ACC', gender: 'M', number: 'SG' }),
           w('ch3_p4_s1_w2', 'proletarischen', 'proletarisch', 'ADJ', { case: 'ACC', gender: 'M', number: 'SG' }),
@@ -293,7 +293,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p4_s2',
-        translationFr: 'Mais dès que le peuple accourut, il aperçut leurs derrières ornés du vieux blason féodal et se dispersa avec de grands et d’irrévérencieux éclats de rires.',
+        translationFr: "Mais, chaque fois que le peuple les suivait, il apercevait sur leur derrière les vieux blasons féodaux et se débandait dans un éclat de rire sonore et irrévérencieux.",
         words: [
           w('ch3_p4_s2_w1', 'Sooft', 'Sooft', 'ADV'),
           w('ch3_p4_s2_w2', 'es', 'es', 'PRON', { case: 'ACC', gender: 'N', number: 'SG', person: 3 }),
@@ -328,7 +328,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p5_s1',
-        translationFr: 'Une partie des légitimistes français et la jeune Angleterre ont donné au monde ce réjouissant spectacle.',
+        translationFr: "Une partie des légitimistes français et la « Jeune Angleterre » donnèrent ce spectacle en régal.",
         words: [
           w('ch3_p5_s1_w1', 'Ein', 'ein', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p5_s1_w2', 'Teil', 'Teil', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -354,7 +354,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p6_s1',
-        translationFr: 'Quand les champions de la féodalité démontrent que le mode d’exploitation de la féodalité était autre que celui de la bourgeoisie, ils n’oublient qu’une chose, c’est qu’elle exploitait dans des conditions tout à fait différentes et aujourd’hui surannées.',
+        translationFr: "Quand les champions de la féodalité démontrent que leur mode d’exploitation était configuré autrement que l’exploitation bourgeoise, ils oublient seulement qu’ils exploitaient dans des circonstances et des conditions tout à fait différentes et aujourd’hui surannées.",
         words: [
           w('ch3_p6_s1_w1', 'Wenn', 'wenn', 'CONJ'),
           w('ch3_p6_s1_w2', 'die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -396,7 +396,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p6_s2',
-        translationFr: 'Quand ils font remarquer que sous leur régime le prolétariat moderne n’existait pas, ils oublient que la bourgeoisie est précisément un rejeton fatal de la société féodale.',
+        translationFr: "Quand ils font valoir que sous leur domination le prolétariat moderne n’existait pas, ils oublient seulement que la bourgeoisie moderne est précisément un rejeton nécessaire de leur ordre social.",
         words: [
           w('ch3_p6_s2_w1', 'Wenn', 'wenn', 'CONJ'),
           w('ch3_p6_s2_w2', 'sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
@@ -439,7 +439,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p7_s1',
-        translationFr: 'Ils cachent si peu, d’ailleurs, le caractère réactionnaire de leur critique, que leur premier chef d’accusation contre la bourgeoisie est justement d’avoir créé sous son régime une classe qui fera sauter tout l’ancien ordre social.',
+        translationFr: "D’ailleurs, ils dissimulent si peu le caractère réactionnaire de leur critique que leur grief principal contre la bourgeoisie est précisément que sous son régime se développe une classe qui fera sauter en l'air tout l’ancien ordre social.",
         words: [
           w('ch3_p7_s1_w1', 'Übrigens', 'übrigens', 'ADV'),
           w('ch3_p7_s1_w2', 'verheimlichen', 'verheimlichen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -490,7 +490,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p8_s1',
-        translationFr: 'Aussi, n’est-ce pas tant d’avoir produit un prolétariat qu’ils imputent à crime à la bourgeoisie que d’avoir produit un prolétariat révolutionnaire.',
+        translationFr: "Ils reprochent d'ailleurs bien plus à la bourgeoisie de produire un prolétariat révolutionnaire que de produire en général un prolétariat.",
         words: [
           w('ch3_p8_s1_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p8_s1_w2', 'werfen', 'vorwerfen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND', separablePrefix: 'vor' }),
@@ -523,7 +523,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p9_s1',
-        translationFr: 'Dans la lutte politique ils prennent donc une part active à toutes les mesures violentes contre la classe ouvrière. Et dans leur vie de tous les jours ils savent, en dépit de leur phraséologie boursoufflée, s’abaisser pour ramasser les fruits d’or qui tombent de l’arbre de l’industrie, et troquer toutes les vertus chevaleresques, l’honneur, l’amour et la fidélité, contre la laine, le sucre de betterave et l’eau-de-vie.',
+        translationFr: "Dans la pratique politique, ils prennent donc une part active à toutes les mesures de violence contre la classe ouvrière, tandis que dans la vie quotidienne, ils s’accommodent, en dépit de toutes leurs phrases boursouflées, de ramasser les pommes d’or et de troquer fidélité, amour et honneur contre le trafic sordide de la laine de mouton, des betteraves et de l’eau-de-vie.",
         words: [
           w('ch3_p9_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p9_s1_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -585,7 +585,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p10_s1',
-        translationFr: 'De même que le prêtre et le seigneur féodal marchèrent jadis la main dans la main, voyons-nous aujourd’hui le socialisme clérical marcher côte à côte avec le socialisme féodal.',
+        translationFr: "Tout comme le calotin a toujours marché la main dans la main avec le seigneur féodal, de même le socialisme clérical marche la main dans la main avec le socialisme féodal.",
         words: [
           w('ch3_p10_s1_w1', 'Wie', 'wie', 'CONJ'),
           w('ch3_p10_s1_w2', 'der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -616,7 +616,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p11_s1',
-        translationFr: 'Rien n’est plus facile que de recouvrir d’un vernis de socialisme l’ascétisme chrétien.',
+        translationFr: "Rien n’est plus aisé que de donner à l’ascétisme chrétien un vernis socialiste.",
         words: [
           w('ch3_p11_s1_w1', 'Nichts', 'nichts', 'PRON', { gender: 'N' }),
           w('ch3_p11_s1_w2', 'leichter', 'leichter', 'ADV'),
@@ -635,7 +635,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p11_s2',
-        translationFr: 'Le christianisme, lui aussi, ne s’est-il pas élevé contre la propriété privée, le mariage, l’État ?',
+        translationFr: "Le christianisme ne s’est-il pas lui aussi élevé avec fureur contre la propriété privée, contre le mariage, contre l’État ?",
         words: [
           w('ch3_p11_s2_w1', 'Hat', 'haben', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
           w('ch3_p11_s2_w2', 'das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -659,7 +659,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p11_s3',
-        translationFr: 'Et à leur place n’a-t-il pas prêché la charité et les guenilles, le célibat et la mortification de la chair, la vie monastique et l’Église ?',
+        translationFr: "N’a-t-il pas prêché à leur place la charité et la mendicité, le célibat et la mortification de la chair, la vie claustrale et l’Église ?",
         words: [
           w('ch3_p11_s3_w1', 'Hat', 'haben', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
           w('ch3_p11_s3_w2', 'es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
@@ -690,7 +690,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p11_s4',
-        translationFr: 'Le socialisme chrétien n’est que l’eau bénite avec laquelle le prêtre consacre le mécontentement de l’aristocratie.',
+        translationFr: "Le socialisme chrétien n’est que l’eau bénite avec laquelle le prêtre bénit la rancœur de l’aristocrate.",
         words: [
           w('ch3_p11_s4_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p11_s4_w2', 'christliche', 'christlich', 'ADJ', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -718,7 +718,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p12_s1',
-        translationFr: 'L’aristocratie féodale n’est pas la seule classe ruinée par la bourgeoisie, elle n’est pas la seule classe dont les conditions d’existence s’étiolaient et dépérissaient dans la société bourgeoise moderne.',
+        translationFr: "L’aristocratie féodale n’est pas la seule classe qui ait été renversée par la bourgeoisie, et dont les conditions d’existence se soient étiolées et soient mortes dans la société bourgeoise moderne.",
         words: [
           w('ch3_p12_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p12_s1_w2', 'feudale', 'feudal', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -751,7 +751,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p12_s2',
-        translationFr: 'Les petits bourgeois et les petits paysans du moyen âge étaient les précurseurs de la bourgeoisie moderne.',
+        translationFr: "La bourgeoisie foraine médiévale et le petit état paysan étaient les précurseurs de la bourgeoisie moderne.",
         words: [
           w('ch3_p12_s2_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch3_p12_s2_w2', 'mittelalterliche', 'mittelalterlich', 'ADJ', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -771,7 +771,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p12_s3',
-        translationFr: 'Dans les pays où le commerce et l’industrie sont peu développés, cette classe continue à végéter à côté de la bourgeoisie qui s’épanouit.',
+        translationFr: "Dans les pays où le commerce et l’industrie sont peu développés, cette classe continue à végéter à côté de la bourgeoisie qui s’épanouit.",
         words: [
           w('ch3_p12_s3_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p12_s3_w2', 'den', 'der', 'ART', { case: 'DAT', number: 'PL' }),
@@ -800,7 +800,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p13_s1',
-        translationFr: 'Dans les pays où la civilisation moderne est florissante, il s’est formé une nouvelle classe de petits bourgeois qui oscillent entre le Prolétariat et la Bourgeoisie ; partie complémentaire de la société bourgeoise, elle se constitue toujours de nouveau. Mais les individus qui la composent se voient sans cesse précipités dans le prolétariat, par suite de la concurrence et, qui plus est, avec la marche progressive de la grande production, ils voient approcher le moment où ils disparaîtront complètement comme fraction indépendante de la société moderne et où ils seront remplacés dans le commerce, la manufacture et l’agriculture par des contre-maîtres, des garçons de boutiques et des laboureurs.',
+        translationFr: "Dans les pays où la civilisation moderne s’est développée, il s’est formé une nouvelle petite-bourgeoisie qui oscille entre le prolétariat et la bourgeoisie et se reconstitue sans cesse comme fraction complémentaire de la société bourgeoise, mais dont les membres sont constamment précipités dans le prolétariat par le jeu de la concurrence ; bien plus, avec le développement de la grande industrie, ils voient approcher le moment où ils disparaîtront complètement en tant que fraction indépendante de la société moderne et seront remplacés, dans le commerce, la manufacture et l'agriculture, par des surveillants et des domestiques.",
         words: [
           w('ch3_p13_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p13_s1_w2', 'den', 'der', 'ART', { case: 'DAT', gender: 'N', number: 'PL' }),
@@ -904,7 +904,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p14_s1',
-        translationFr: 'Dans les pays comme la France, où les paysans forment bien au delà de la moitié de la population, il était naturel que des écrivains, prenant fait et cause pour le prolétariat contre la bourgeoisie, devaient critiquer le régime bourgeois et défendre le parti ouvrier au point de vue du petit bourgeois et du paysan.',
+        translationFr: "Dans des pays comme la France, où la classe paysanne constitue bien plus de la moitié de la population, il était naturel que des écrivains prenant fait et cause pour le prolétariat contre la bourgeoisie appliquassent à leur critique du régime bourgeois l’étalon du petit bourgeois et du petit paysan, et prissent le parti des ouvriers du point de vue de la petite-bourgeoisie.",
         words: [
           w('ch3_p14_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p14_s1_w2', 'Ländern', 'Land', 'NOUN', { case: 'DAT', gender: 'N', number: 'PL' }),
@@ -965,7 +965,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p14_s2',
-        translationFr: 'C’est ainsi que se forma le socialisme du petit bourgeois.',
+        translationFr: "C’est ainsi que se forma le socialisme petit-bourgeois.",
         words: [
           w('ch3_p14_s2_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch3_p14_s2_w2', 'bildete', 'bilden', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -979,7 +979,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p14_s3',
-        translationFr: 'Sismondi est le chef de cette littérature, aussi bien pour l’Angleterre que pour la France.',
+        translationFr: "Sismondi est le chef de file de cette littérature, non seulement pour la France, mais aussi pour l’Angleterre.",
         words: [
           w('ch3_p14_s3_w1', 'Sismondi', 'sismondi', 'NOUN', { case: 'NOM', number: 'SG' }),
           w('ch3_p14_s3_w2', 'ist', 'sein', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -1006,7 +1006,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p15_s1',
-        translationFr: 'Ce socialisme analysa avec beaucoup de pénétration les contradictions inhérentes aux rapports de production modernes.',
+        translationFr: "Ce socialisme disséqua avec la plus grande sagacité les contradictions inhérentes aux rapports de production modernes.",
         words: [
           w('ch3_p15_s1_w1', 'Dieser', 'dies', 'PRON', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p15_s1_w2', 'Sozialismus', 'Sozialismus', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -1024,7 +1024,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p15_s2',
-        translationFr: 'Il mit à nu les hypocrites apologies des économistes.',
+        translationFr: "Il mit à nu les hypocrites enjolivements des économistes.",
         words: [
           w('ch3_p15_s2_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p15_s2_w2', 'enthüllte', 'enthüllen', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -1038,7 +1038,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p15_s3',
-        translationFr: 'Il démontra d’une façon irréfutable les effets meurtriers de la machine et de la division du travail, la concentration des capitaux et de la propriété foncière, la surproduction, les crises, la misère du prolétariat, l’anarchie dans la production, la criante disproportion dans la distribution des richesses, la guerre industrielle d’extermination des nations entre elles, la dissolution des vieilles mœurs, des vieilles relations familiales, des vieilles nationalités.',
+        translationFr: "Il démontra de façon irréfutable les effets destructeurs du machinisme et de la division du travail, la concentration des capitaux et de la propriété foncière, la surproduction, les crises, la disparition fatale des petits bourgeois et des petits paysans, la misère du prolétariat, l’anarchie dans la production, les criantes disproportions dans la distribution de la richesse, la guerre industrielle d’extermination entre les nations, la dissolution des vieilles mœurs, des vieilles relations familiales, des vieilles nationalités.",
         words: [
           w('ch3_p15_s3_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p15_s3_w2', 'wies', 'nachweisen', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND', separablePrefix: 'nach' }),
@@ -1128,7 +1128,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p16_s1',
-        translationFr: 'Le but positif, toutefois, de ce socialisme des petits bourgeois est, soit de rétablir les anciens moyens de production et d’échange, et, avec eux, les anciens rapports de propriété et l’ancienne société, soit de faire rentrer de force les moyens modernes de production et d’échange dans le cadre étroit des anciens rapports de production qui ont été brisés et fatalement brisés par eux.',
+        translationFr: "Quant à son contenu positif, ce socialisme veut, soit rétablir les anciens moyens de production et d’échange, et avec eux les anciens rapports de propriété et l’ancienne société, soit faire rentrer de force les moyens modernes de production et d’échange dans le cadre des anciens rapports de propriété qui ont été brisés par eux, et devaient fatalement l'être.",
         words: [
           w('ch3_p16_s1_w1', 'Seinem', 'sein', 'PRON', { case: 'DAT', gender: 'M', number: 'SG' }),
           w('ch3_p16_s1_w2', 'posititiven', 'posititiv', 'ADJ', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1189,7 +1189,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p16_s2',
-        translationFr: 'Dans l’un et l’autre cas, ce socialisme est tout à la fois réactionnaire et utopique.',
+        translationFr: "Dans les deux cas, il est à la fois réactionnaire et utopique.",
         words: [
           w('ch3_p16_s2_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p16_s2_w2', 'beiden', 'beide', 'PRON', { case: 'DAT', gender: 'M', number: 'PL' }),
@@ -1205,7 +1205,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p16_s3',
-        translationFr: 'Pour la manufacture, le système des corporations, pour l’agriculture, des relations patriarcales ; voilà son dernier mot.',
+        translationFr: "Le régime corporatif pour la manufacture et l'économie patriarcale pour l'agriculture, voilà ses derniers mots.",
         words: [
           w('ch3_p16_s3_w1', 'Zunftwesen', 'Zunftwes', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p16_s3_w2', 'in', 'in', 'PREP', { case: 'DAT' }),
@@ -1233,7 +1233,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p17_s1',
-        translationFr: 'Finalement, quand les faits historiques l’eurent tout à fait désenivrée, cette forme de socialisme s’est abandonnée à une lâche mélancolie.',
+        translationFr: "Dans son évolution ultérieure, cette tendance a fini par se perdre dans une lâche gueule de bois.",
         words: [
           w('ch3_p17_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p17_s1_w2', 'ihrer', 'ihr', 'PRON', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -1258,7 +1258,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p18_s1',
-        translationFr: 'La littérature socialiste et communiste de la France, née sous la pression d’une bourgeoisie régnante, est l’expression littéraire de la révolte contre ce règne. Elle fut introduite en Allemagne au moment où la bourgeoisie commençait sa lutte contre l’absolutisme féodal.',
+        translationFr: "La littérature socialiste et communiste de France, née sous la pression d’une bourgeoisie dominante et expression littéraire de la lutte contre cette domination, fut introduite en Allemagne à une époque où la bourgeoisie venait tout juste de commencer sa lutte contre l’absolutisme féodal.",
         words: [
           w('ch3_p18_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p18_s1_w2', 'sozialistische', 'sozialistisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1315,7 +1315,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p19_s1',
-        translationFr: 'Des philosophes, des demi-philosophes, et des beaux esprits allemands se jetèrent avidement sur cette littérature, mais ils oublièrent qu’avec l’importation de la littérature française en Allemagne, il n’y avait pas eu en même temps importation des conditions sociales de la France.',
+        translationFr: "Des philosophes, des demi-philosophes et des beaux esprits allemands se jetèrent avidement sur cette littérature, oubliant seulement qu’avec l’importation de ces écrits de France en Allemagne, les conditions d’existence françaises n’avaient pas émigré en même temps.",
         words: [
           w('ch3_p19_s1_w1', 'Deutsche', 'deutsch', 'ADJ', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p19_s1_w2', 'Philosophen', 'Philosoph', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -1354,7 +1354,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p19_s2',
-        translationFr: 'Par rapport aux conditions allemandes, la littérature française perdit toute signification pratique immédiate et prit un caractère purement littéraire.',
+        translationFr: "Face aux conditions allemandes, la littérature française perdit toute signification pratique immédiate et prit un caractère purement littéraire.",
         words: [
           w('ch3_p19_s2_w1', 'Den', 'der', 'ART', { case: 'DAT', gender: 'N', number: 'PL' }),
           w('ch3_p19_s2_w2', 'deutschen', 'deutsch', 'ADJ', { case: 'DAT', gender: 'N', number: 'PL' }),
@@ -1380,7 +1380,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p19_s3',
-        translationFr: 'Elle ne devait plus paraître qu’une spéculation oiseuse sur la réalisation de la nature humaine.',
+        translationFr: "Elle devait nécessairement apparaître comme une spéculation oiseuse sur la réalisation de l’essence humaine.",
         words: [
           w('ch3_p19_s3_w1', 'Als', 'als', 'PREP'),
           w('ch3_p19_s3_w2', 'müßige', 'müßig', 'ADJ', { case: 'ACC', gender: 'F', number: 'SG' }),
@@ -1399,7 +1399,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p19_s4',
-        translationFr: 'C’est ainsi que pour les philosophes allemands du xviiie siècle, les revendications de la première révolution française n’étaient que les revendications de la « raison pratique » en général, et la manifestation de la volonté des bourgeois révolutionnaires de la France ne signifiait, à leurs yeux, que la manifestation des lois de la volonté pure, de la volonté telle qu’elle doit être, de la véritable volonté humaine.',
+        translationFr: "C’est ainsi que, pour les philosophes allemands du XVIIIe siècle, les revendications de la première Révolution française n’avaient d'autre sens que d’être les exigences de la « raison pratique » en général, et les manifestations de la volonté de la bourgeoisie révolutionnaire française signifiaient à leurs yeux les lois de la volonté pure, de la volonté telle qu'elle doit être, de la volonté véritablement humaine.",
         words: [
           w('ch3_p19_s4_w1', 'So', 'so', 'ADV'),
           w('ch3_p19_s4_w2', 'hatten', 'haben', 'VERB', { number: 'PL', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -1464,7 +1464,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p19_s5',
-        translationFr: 'Le travail des gens de lettres allemands se bornait à mettre d’accord les idées françaises avec leur vieille conscience philosophique, ou plutôt à s’approprier les idées françaises en les accommodant à leur point de vue philosophique.',
+        translationFr: "Le travail exclusif des gens de lettres allemands consista à mettre en accord les nouvelles idées françaises avec leur vieille conscience philosophique, ou plutôt à s’approprier les idées françaises à partir de leur propre point de vue philosophique.",
         words: [
           w('ch3_p19_s5_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p19_s5_w2', 'ausschließliche', 'ausschließlich', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1505,7 +1505,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p19_s6',
-        translationFr: 'Ils se les approprièrent comme on s’assimile une langue étrangère, par la traduction.',
+        translationFr: "Cette appropriation s’opéra de la même manière qu’on s’approprie généralement une langue étrangère : par la traduction.",
         words: [
           w('ch3_p19_s6_w1', 'Diese', 'dies', 'PRON', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p19_s6_w2', 'Aneignung', 'Aneignung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1536,7 +1536,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p20_s1',
-        translationFr: 'On sait comment les moines superposèrent sur les manuscrits des auteurs classiques du paganisme, les absurdes légendes des saints catholiques.',
+        translationFr: "On sait comment les moines recouvrirent les manuscrits contenant les œuvres classiques de l'antiquité païenne d’absurdes légendes de saints catholiques.",
         words: [
           w('ch3_p20_s1_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch3_p20_s1_w2', 'ist', 'sein', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -1567,7 +1567,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p20_s2',
-        translationFr: 'Les gens de lettres allemands agirent en sens inverse à l’égard de la littérature française.',
+        translationFr: "Les gens de lettres allemands procédèrent en sens inverse avec la littérature profane française.",
         words: [
           w('ch3_p20_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p20_s2_w2', 'deutschen', 'deutsch', 'ADJ', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -1585,7 +1585,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p20_s3',
-        translationFr: 'Ils glissèrent leurs non-sens sous l’original français.',
+        translationFr: "Ils glissèrent leurs inepties philosophiques sous l’original français.",
         words: [
           w('ch3_p20_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p20_s3_w2', 'schrieben', 'schreiben', 'VERB', { number: 'PL', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -1601,7 +1601,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p20_s4',
-        translationFr: 'Par exemple, sous la critique française des fonctions économiques de l’argent, ils écrivirent : « Aliénation de l’être humain », sous la critique française de l’État bourgeois, ils écrivirent : « Élimination de la catégorie de l’universalité abstraite », et ainsi de suite.',
+        translationFr: "Par exemple, sous la critique française des rapports monétaires, ils écrivirent : « Aliénation de l’essence humaine », sous la critique française de l’État bourgeois, ils écrivirent : « Dépassement de la domination de l'universel abstrait », et ainsi de suite.",
         words: [
           w('ch3_p20_s4_w1', 'Z.B.', 'Z.B.', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p20_s4_w2', 'hinter', 'hinter', 'PREP', { case: 'DAT' }),
@@ -1645,7 +1645,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p21_s1',
-        translationFr: 'L’introduction de cette phraséologie philosophique au milieu des développements français, ils la baptisèrent : « Philosophie de l’action », « Vrai Socialisme », « Science allemande du socialisme », « Base philosophique du socialisme », etc.',
+        translationFr: "Cette substitution de leur phraséologie philosophique aux développements français, ils la baptisèrent « Philosophie de l’action », « Vrai socialisme », « Science allemande du socialisme », « Justification philosophique du socialisme », etc.",
         words: [
           w('ch3_p21_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p21_s1_w2', 'Unterschiebung', 'Unterschiebung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1686,7 +1686,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p22_s1',
-        translationFr: 'De cette façon, on émascula complètement la littérature socialiste et communiste française.',
+        translationFr: "La littérature socialiste et communiste française fut ainsi littéralement émasculée.",
         words: [
           w('ch3_p22_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p22_s1_w2', 'französische', 'französisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -1701,7 +1701,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p22_s2',
-        translationFr: 'Et parce qu’elle cessa, entre les mains des allemands, d’être l’expression de la lutte d’une classe contre une autre, ceux-ci se félicitèrent de s’être élevés au-dessus de l’étroitesse française, et d’avoir défendu non pas de vrais besoins, mais « le besoin du vrai » ; d’avoir défendu, non pas les intérêts du prolétaire, mais les intérêts de l’être humain, de l’homme en général ; de l’homme qui n’appartient à aucune classe ni à aucune réalité et qui n’existe que dans le ciel embrumé de la fantaisie philosophique.',
+        translationFr: "Et comme, entre les mains de l’Allemand, elle cessait d’exprimer la lutte d’une classe contre une autre, l’Allemand eut conscience d’avoir surmonté « l’unilatéralité française », d’avoir défendu, au lieu de besoins réels, le besoin de la vérité, et, au lieu des intérêts du prolétaire, les intérêts de l’essence humaine, de l’homme en général — de l'homme qui n’appartient à aucune classe, ne relève d'aucune réalité et n'existe que dans le ciel brumeux de l'illusion philosophique.",
         words: [
           w('ch3_p22_s2_w1', 'Und', 'und', 'CONJ'),
           w('ch3_p22_s2_w2', 'da', 'da', 'CONJ'),
@@ -1793,7 +1793,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p23_s1',
-        translationFr: 'Ce socialisme allemand qui prenait si solennellement au sérieux ses maladroits exercices d’écolier et qui les tambourinait à la façon des saltimbanques, perdit cependant petit à petit son innocence de pédant.',
+        translationFr: "Ce socialisme allemand, qui prenait si solennellement au sérieux ses maladroits devoirs d’écolier et les claironnait avec un tel tapage de charlatan, perdit cependant peu à peu son innocence pédantesque.",
         words: [
           w('ch3_p23_s1_w1', 'Dieser', 'dies', 'PRON', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p23_s1_w2', 'deutsche', 'deutsch', 'ADJ', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -1826,7 +1826,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p23_s2',
-        translationFr: 'La lutte de la bourgeoisie allemande et principalement de la bourgeoisie prussienne contre la monarchie absolue et féodale, en un mot, le mouvement libéral, devint plus sérieux.',
+        translationFr: "La lutte de la bourgeoisie allemande, et principalement de la bourgeoisie prussienne, contre les féodaux et la monarchie absolue, en un mot le mouvement libéral, devint plus sérieuse.",
         words: [
           w('ch3_p23_s2_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p23_s2_w2', 'Kampf', 'Kampf', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -1864,7 +1864,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p24_s1',
-        translationFr: 'De la sorte, le vrai socialisme eut l’occasion tant souhaitée de confronter les réclamations socialistes avec le mouvement politique. Il put lancer les anathèmes traditionnels contre le libéralisme, contre l’état représentatif, contre la concurrence bourgeoise, contre la liberté bourgeoise de la presse, contre le droit bourgeois, contre la liberté et l’égalité bourgeoises ; il put prêcher aux masses qu’elles n’avaient rien à gagner, mais, au contraire, tout à perdre à ce mouvement bourgeois.',
+        translationFr: "Le « vrai » socialisme trouva ainsi l'occasion tant souhaitée d’opposer au mouvement politique les revendications socialistes, de lancer les anathèmes traditionnels contre le libéralisme, contre l’État représentatif, contre la concurrence bourgeoise, contre la liberté de la presse bourgeoise, contre le droit bourgeois, contre la liberté et l’égalité bourgeoises, et de prêcher à la masse populaire qu’elle n’avait rien à gagner à ce mouvement bourgeois, mais bien plutôt tout à y perdre.",
         words: [
           w('ch3_p24_s1_w1', 'Dem', 'der', 'ART', { case: 'DAT', gender: 'M', number: 'SG' }),
           w('ch3_p24_s1_w2', '„', '„', 'PUNCT'),
@@ -1938,7 +1938,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p24_s2',
-        translationFr: 'Le socialisme allemand oublia, bien à propos, que la critique française, dont il était le niais écho, présupposait la société bourgeoise moderne, avec les conditions matérielles d’existence qui y correspondent et une constitution politique conforme, choses précisément que, pour l’Allemagne, il s’agissait encore de conquérir.',
+        translationFr: "Le socialisme allemand oublia fort à propos que la critique française, dont il n’était que l'écho sans esprit, présupposait la société bourgeoise moderne avec les conditions matérielles d’existence correspondantes et la constitution politique appropriée — toutes prémisses qu’il s’agissait encore précisément de conquérir en Allemagne.",
         words: [
           w('ch3_p24_s2_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p24_s2_w2', 'deutsche', 'deutsch', 'ADJ', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -1995,7 +1995,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p25_s1',
-        translationFr: 'Pour les gouvernements absolus, avec leur cortège de prêtres, de pédagogues, de hobereaux et de bureaucrates, ce socialisme servit d’épouvantail pour faire peur à la bourgeoisie qui se dressait menaçante.',
+        translationFr: "Il servit aux gouvernements absolus d’Allemagne, escortés de leur cortège de prêtres, de cuistres, de hobereaux campagnards et de bureaucrates, d’épouvantail providentiel contre la bourgeoisie menaçante en pleine ascension.",
         words: [
           w('ch3_p25_s1_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p25_s1_w2', 'diente', 'dienen', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2032,7 +2032,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p26_s1',
-        translationFr: 'Il compléta, par son hypocrisie doucereuse, les amers coups de fouet et les balles que ces mêmes gouvernements administrèrent aux ouvriers allemands qui se soulevaient.',
+        translationFr: "Il constitua le pendant doucereux aux amers coups de fouet et aux balles de fusil par lesquels ces mêmes gouvernements traitaient les soulèvements d'ouvriers allemands.",
         words: [
           w('ch3_p26_s1_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p26_s1_w2', 'bildete', 'bilden', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2063,7 +2063,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p27_s1',
-        translationFr: 'Si le vrai socialisme devint ainsi une arme entre les mains des gouvernements, il représentait directement, en outre, l’intérêt réactionnaire, l’intérêt du petit bourgeois.',
+        translationFr: "Si le « vrai » socialisme devint ainsi une arme entre les mains des gouvernements contre la bourgeoisie allemande, il représentait aussi directement un intérêt réactionnaire, l'intérêt du philistin allemand borné.",
         words: [
           w('ch3_p27_s1_w1', 'Ward', 'Ward', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p27_s1_w2', 'der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2103,7 +2103,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p27_s2',
-        translationFr: 'La classe des petits bourgeois, léguée par le xvie siècle, et depuis lors sans cesse renaissante sous des formes diverses, constitue pour l’Allemagne la vraie base sociale de l’état de choses existant.',
+        translationFr: "En Allemagne, la petite-bourgeoisie, léguée par le XVIe siècle et depuis lors renaissant sans cesse sous des formes diverses, constitue la véritable base sociale de l’état de choses existant.",
         words: [
           w('ch3_p27_s2_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p27_s2_w2', 'Deutschland', 'Deutschland', 'NOUN', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -2143,7 +2143,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p28_s1',
-        translationFr: 'La maintenir c’est maintenir les conditions allemandes actuelles.',
+        translationFr: "Son maintien est le maintien de l’état de choses allemand actuel.",
         words: [
           w('ch3_p28_s1_w1', 'Seine', 'sein', 'PRON', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p28_s1_w2', 'Erhaltung', 'Erhaltung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2159,7 +2159,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p28_s2',
-        translationFr: 'La suprématie industrielle et politique de la bourgeoisie menace cette classe de destruction certaine, d’une part par la concentration des capitaux, d’autre part par le développement d’un prolétariat révolutionnaire.',
+        translationFr: "De la domination industrielle et politique de la bourgeoisie, elle redoute une ruine certaine, d’une part par suite de la concentration des capitaux, d’autre part par l’émergence d’un prolétariat révolutionnaire.",
         words: [
           w('ch3_p28_s2_w1', 'Von', 'von', 'PREP', { case: 'DAT' }),
           w('ch3_p28_s2_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -2194,7 +2194,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p28_s3',
-        translationFr: 'Le vrai socialisme devait tuer d’une pierre ces deux oiseaux.',
+        translationFr: "Le « vrai » socialisme lui parut faire d’une pierre deux coups.",
         words: [
           w('ch3_p28_s3_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p28_s3_w2', '„', '„', 'PUNCT'),
@@ -2215,7 +2215,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p28_s4',
-        translationFr: 'Il se propagea comme une épidémie.',
+        translationFr: "Il se propagea comme une épidémie.",
         words: [
           w('ch3_p28_s4_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p28_s4_w2', 'verbreitete', 'verbreiten', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2233,7 +2233,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p29_s1',
-        translationFr: 'Le vêtement tissé avec les fils immatériels de la spéculation, brodé de fleurs de rhétorique et tout saturé d’une rosée sentimentale, ce vêtement transcendant, dans lequel les socialistes allemands enveloppèrent leurs quelques maigres « vérités éternelles », ne fit qu’activer la vente de leur marchandise auprès d’un pareil public.',
+        translationFr: "Cette robe tissée d'araignée spéculative, brodée de fleurs de rhétorique bel-esprit, imprégnée d’une rosée sentimentale moite d'amour, ce vêtement dithyrambique dans lequel les socialistes allemands drapaient leurs rares et squelettiques « vérités éternelles », ne fit qu'accroître l'écoulement de leur marchandise auprès d'un tel public.",
         words: [
           w('ch3_p29_s1_w1', 'Das', 'der', 'ART', { case: 'NOM', gender: 'N', number: 'SG' }),
           w('ch3_p29_s1_w2', 'Gewand', 'Gewand', 'NOUN', { case: 'NOM', gender: 'N', number: 'SG' }),
@@ -2284,7 +2284,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p29_s2',
-        translationFr: 'De son côté le socialisme allemand comprit de mieux en mieux que c’était sa vocation d’être le représentant pompeux de cette petite bourgeoisie.',
+        translationFr: "De son côté, le socialisme allemand comprit de mieux en mieux sa vocation d’être le représentant grandiloquent de cette bourgeoisie philistine étriquée.",
         words: [
           w('ch3_p29_s2_w1', 'Seinerseits', 'sein', 'PRON'),
           w('ch3_p29_s2_w2', 'erkannte', 'erkennen', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2313,7 +2313,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p30_s1',
-        translationFr: 'Il proclama la nation allemande la nation normale et le philistin allemand l’homme normal.',
+        translationFr: "Il proclama la nation allemande comme la nation normale et le bourgeois philistin allemand comme l'homme normal.",
         words: [
           w('ch3_p30_s1_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p30_s1_w2', 'proklamierte', 'proklamieren', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2336,7 +2336,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p30_s2',
-        translationFr: 'À toutes les infamies de cet homme normal il donna un sens occulte, un sens supérieur et socialiste qui les faisait tout le contraire de ce qu’elles étaient.',
+        translationFr: "À chaque bassesse de ce dernier, il conféra un sens caché, supérieur et socialiste, où elle signifiait exactement son contraire.",
         words: [
           w('ch3_p30_s2_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p30_s2_w2', 'gab', 'geben', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2361,7 +2361,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p30_s3',
-        translationFr: 'Il alla jusqu’au bout, en s’élevant contre la tendance « brutalement destructive » du communisme et en déclarant que, impartial, il planait au-dessus de toutes les luttes de classes.',
+        translationFr: "Il alla jusqu'au bout de sa logique en s'élevant directement contre la tendance « brutalement destructive » du communisme et en proclamant sa sublime impartialité au-dessus de toutes les luttes de classes.",
         words: [
           w('ch3_p30_s3_w1', 'Er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
           w('ch3_p30_s3_w2', 'zog', 'ziehen', 'VERB', { number: 'SG', person: 3, tense: 'PAST', mood: 'IND' }),
@@ -2394,7 +2394,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p30_s4',
-        translationFr: 'À quelques exceptions près, les publications soi-disant socialistes ou communistes, qui circulent en Allemagne (en 1847) appartiennent à cette sale et énervante littérature.',
+        translationFr: "À de très rares exceptions près, tout ce qui circule en Allemagne d’écrits prétendument socialistes et communistes appartient au domaine de cette littérature fangeuse et débilitante.",
         words: [
           w('ch3_p30_s4_w1', 'Mit', 'mit', 'PREP', { case: 'DAT' }),
           w('ch3_p30_s4_w2', 'sehr', 'sehr', 'ADV'),
@@ -2432,7 +2432,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p31_s1',
-        translationFr: '2. Le socialisme conservateur ou bourgeois',
+        translationFr: "2. Le socialisme conservateur ou bourgeois",
         words: [
           w('ch3_p31_s1_w1', '2.', '2.', 'ADV'),
           w('ch3_p31_s1_w2', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2448,7 +2448,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p32_s1',
-        translationFr: 'Une partie de la bourgeoisie cherche à porter remède aux maux sociaux dans le but d’assurer l’existence de la société bourgeoise.',
+        translationFr: "Une partie de la bourgeoisie souhaite remédier aux anomalies sociales afin de consolider l'existence de la société bourgeoise.",
         words: [
           w('ch3_p32_s1_w1', 'Ein', 'ein', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p32_s1_w2', 'Teil', 'Teil', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2478,7 +2478,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p33_s1',
-        translationFr: 'Dans cette catégorie se rangent les économistes, les philanthropes, les humanitaires, les améliorateurs du sort de la classe ouvrière, les organisateurs de bienfaisance, les protecteurs des animaux, les fondateurs des sociétés de tempérance, les réformateurs en chambre de tout acabit. Et l’on est allé jusqu’à élaborer ce socialisme bourgeois en systèmes complets.',
+        translationFr: "Y appartiennent les économistes, les philanthropes, les humanitaires, les améliorateurs du sort des classes laborieuses, les organisateurs de bienfaisance, les protecteurs des animaux, les fondateurs de ligues de tempérance, les réformateurs en chambre de la plus bariolée espèce. Et ce socialisme bourgeois a même été élaboré en systèmes complets.",
         words: [
           w('ch3_p33_s1_w1', 'Es', 'es', 'PRON', { case: 'NOM', gender: 'N', number: 'SG', person: 3 }),
           w('ch3_p33_s1_w2', 'gehören', 'gehören', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2530,7 +2530,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p34_s1',
-        translationFr: 'Citons, comme exemple, la Philosophie de la Misère de Proudhon.',
+        translationFr: "Citons comme exemple la Philosophie de la misère de Proudhon.",
         words: [
           w('ch3_p34_s1_w1', 'Als', 'als', 'PREP'),
           w('ch3_p34_s1_w2', 'Beispiel', 'Beispiel', 'NOUN', { case: 'ACC', gender: 'N', number: 'SG' }),
@@ -2552,7 +2552,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p35_s1',
-        translationFr: 'Les socialistes bourgeois veulent les conditions de vie de la société moderne sans les dangers et les luttes qui en dérivent fatalement.',
+        translationFr: "Les bourgeois socialistes veulent les conditions d’existence de la société moderne sans les luttes et les dangers qui en découlent nécessairement.",
         words: [
           w('ch3_p35_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p35_s1_w2', 'sozialistischen', 'sozialistisch', 'ADJ', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -2577,7 +2577,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p35_s2',
-        translationFr: 'Ils veulent la société actuelle, mais avec élimination des éléments qui la révolutionnent et la dissolvent.',
+        translationFr: "Ils veulent la société existante, déduction faite des éléments qui la révolutionnent et la dissolvent.",
         words: [
           w('ch3_p35_s2_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p35_s2_w2', 'wollen', 'wollen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2598,7 +2598,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p35_s3',
-        translationFr: 'Ils veulent la bourgeoisie sans le prolétariat.',
+        translationFr: "Ils veulent la bourgeoisie sans le prolétariat.",
         words: [
           w('ch3_p35_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p35_s3_w2', 'wollen', 'wollen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -2612,7 +2612,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p35_s4',
-        translationFr: 'La bourgeoisie, comme de juste, se représente le monde où elle domine comme le meilleur des mondes possibles.',
+        translationFr: "La bourgeoisie se représente tout naturellement le monde où elle domine comme le meilleur des mondes.",
         words: [
           w('ch3_p35_s4_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p35_s4_w2', 'Bourgeoisie', 'Bourgeoisie', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2636,7 +2636,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p35_s5',
-        translationFr: 'Le socialisme bourgeois élabore cette représentation consolante en système ou en demi-système.',
+        translationFr: "Le socialisme bourgeois élabore cette représentation consolante en un système complet ou partiel.",
         words: [
           w('ch3_p35_s5_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p35_s5_w2', 'Bourgeoissozialismus', 'Bourgeoissozialismus', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2656,7 +2656,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p35_s6',
-        translationFr: 'Lorsqu’il somme le prolétariat de réaliser ces systèmes et de faire son entrée dans la nouvelle Jérusalem, il ne fait pas autre chose au fond que de l’engager à s’en tenir à la société actuelle, mais à se débarrasser de sa conception haineuse de cette société.',
+        translationFr: "Lorsqu’il somme le prolétariat de réaliser ses systèmes et d’entrer dans la nouvelle Jérusalem, il n’exige au fond de lui que de s’en tenir à la société actuelle, tout en se dépouillant de ses représentations haineuses de celle-ci.",
         words: [
           w('ch3_p35_s6_w1', 'Wenn', 'wenn', 'CONJ'),
           w('ch3_p35_s6_w2', 'er', 'er', 'PRON', { case: 'NOM', gender: 'M', number: 'SG', person: 3 }),
@@ -2707,7 +2707,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p36_s1',
-        translationFr: 'Une seconde forme de ce socialisme, moins systématique, mais plus pratique, essaya de dégoûter les ouvriers de tout mouvement révolutionnaire, en leur démontrant que ce n’était pas tel ou tel changement politique, mais seulement une transformation des rapports de la vie matérielle et des conditions économiques qui pouvait leur profiter.',
+        translationFr: "Une seconde forme de ce socialisme, moins systématique mais plus pratique, chercha à dégoûter la classe ouvrière de tout mouvement révolutionnaire, en démontrant que ce n’était pas tel ou tel changement politique, mais seulement une transformation des conditions matérielles d’existence, des rapports économiques, qui pouvait lui profiter.",
         words: [
           w('ch3_p36_s1_w1', 'Eine', 'ein', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p36_s1_w2', 'zweite', 'zweiter', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -2763,7 +2763,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p36_s2',
-        translationFr: 'Notez que par transformation des rapports matériels de la société, ce socialisme n’entend pas parler de l’abolition des rapports de production bourgeois, mais uniquement de réformes administratives s’accomplissant sur la base même de la production bourgeoise, qui, par conséquent, n’affectent pas les relations du capital et du salariat, et qui, dans les meilleurs cas, ne font que diminuer les frais et simplifier le travail administratif du gouvernement bourgeois.',
+        translationFr: "Par transformation des conditions matérielles d’existence, ce socialisme n’entend nullement l’abolition des rapports de production bourgeois, qui n’est possible que par la voie révolutionnaire, mais des améliorations administratives s'accomplissant sur le terrain même de ces rapports de production, qui ne modifient donc rien aux rapports du capital et du salariat, mais réduisent tout au plus, dans le meilleur des cas, les coûts de la domination bourgeoise et simplifient le travail administratif de son gouvernement.",
         words: [
           w('ch3_p36_s2_w1', 'Unter', 'unter', 'PREP', { case: 'DAT' }),
           w('ch3_p36_s2_w2', 'Veränderung', 'Veränderung', 'NOUN', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -2838,7 +2838,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p37_s1',
-        translationFr: 'Le socialisme bourgeois n’atteint son expression adéquate qu’alors qu’il devient une simple figure de rhétorique.',
+        translationFr: "Le socialisme bourgeois n’atteint son expression adéquate que lorsqu’il devient une pure figure de rhétorique.",
         words: [
           w('ch3_p37_s1_w1', 'Seinen', 'sein', 'PRON', { case: 'ACC', gender: 'M', number: 'SG' }),
           w('ch3_p37_s1_w2', 'entsprechenden', 'entsprechend', 'ADJ', { case: 'ACC', gender: 'M', number: 'SG' }),
@@ -2866,7 +2866,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p38_s1',
-        translationFr: 'Libre échange ! dans l’intérêt de la classe ouvrière ; droit protecteur ! dans l’intérêt de la classe ouvrière ; prisons cellulaires ! dans l’intérêt de la classe ouvrière : voilà son dernier mot, le seul mot dit sérieusement par le socialisme bourgeois.',
+        translationFr: "Libre-échange ! dans l’intérêt de la classe ouvrière ; droits protecteurs ! dans l’intérêt de la classe ouvrière ; prisons cellulaires ! dans l’intérêt de la classe ouvrière : voilà le dernier mot, le seul mot sérieusement pensé du socialisme bourgeois.",
         words: [
           w('ch3_p38_s1_w1', 'Freier', 'frei', 'ADJ', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p38_s1_w2', 'Handel', 'Handel', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2914,7 +2914,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p39_s1',
-        translationFr: 'Car le socialisme bourgeois tient tout entier dans cette phrase : les bourgeois sont des bourgeois dans l’intérêt de la classe ouvrière.',
+        translationFr: "Le socialisme de la bourgeoisie réside précisément dans l'affirmation que les bourgeois sont des bourgeois — dans l’intérêt de la classe ouvrière.",
         words: [
           w('ch3_p39_s1_w1', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
           w('ch3_p39_s1_w2', 'Sozialismus', 'Sozialismus', 'NOUN', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2947,7 +2947,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p40_s1',
-        translationFr: '3. Le socialisme et le communisme critico-utopiques',
+        translationFr: "3. Le socialisme et le communisme critico-utopiques",
         words: [
           w('ch3_p40_s1_w1', '3.', '3.', 'ADV'),
           w('ch3_p40_s1_w2', 'Der', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'SG' }),
@@ -2964,7 +2964,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p41_s1',
-        translationFr: 'Il ne s’agit pas ici de la littérature qui, dans toutes les grandes révolutions modernes, a formulé les revendications du prolétariat (les écrits de Babœuf, etc.).',
+        translationFr: "Nous ne parlons pas ici de la littérature qui, dans toutes les grandes révolutions modernes, a formulé les revendications du prolétariat (les écrits de Babeuf, etc.).",
         words: [
           w('ch3_p41_s1_w1', 'Wir', 'wir', 'PRON', { case: 'NOM', number: 'PL', person: 1 }),
           w('ch3_p41_s1_w2', 'reden', 'reden', 'VERB', { number: 'PL', person: 1, tense: 'PRES', mood: 'IND' }),
@@ -3000,7 +3000,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p42_s1',
-        translationFr: 'Les premières tentatives directes du prolétariat pour faire prévaloir ses propres intérêts de classe, faites en un temps d’effervescence générale, dans la période du renversement de la société féodale, échouèrent nécessairement, aussi bien à cause de l’état embryonnaire du prolétariat lui-même qu’à cause de l’absence des conditions matérielles de son émancipation, conditions qui ne pouvaient être produites que sous l’ère bourgeoise.',
+        translationFr: "Les premières tentatives du prolétariat pour faire prévaloir directement son propre intérêt de classe, en une époque d’effervescence générale, lors de la période de renversement de la société féodale, échouèrent nécessairement en raison de l’état embryonnaire du prolétariat lui-même ainsi que du défaut des conditions matérielles de son émancipation, lesquelles sont précisément le produit de l’époque bourgeoise.",
         words: [
           w('ch3_p42_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p42_s1_w2', 'ersten', 'erster', 'ADJ', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -3061,7 +3061,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p42_s2',
-        translationFr: 'La littérature révolutionnaire qui accompagnait ces premiers mouvements du prolétariat eut forcément un caractère réactionnaire.',
+        translationFr: "La littérature révolutionnaire qui accompagnait ces premiers mouvements du prolétariat est nécessairement, de par son contenu, réactionnaire.",
         words: [
           w('ch3_p42_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p42_s2_w2', 'revolutionäre', 'revolutionär', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3086,7 +3086,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p42_s3',
-        translationFr: 'Elle préconise un ascétisme général et un grossier égalitarisme.',
+        translationFr: "Elle enseigne un ascétisme universel et un égalitarisme grossier.",
         words: [
           w('ch3_p42_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', gender: 'F', number: 'SG', person: 3 }),
           w('ch3_p42_s3_w2', 'lehrt', 'lehren', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3107,7 +3107,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p43_s1',
-        translationFr: 'Les systèmes socialistes et communistes proprement dits, les systèmes de Saint-Simon, de Fourier, d’Owen, etc., font leur apparition dans la première période de la lutte entre le prolétariat et la bourgeoisie, période décrite ci-dessus (voir Bourgeoisie et Prolétariat.)',
+        translationFr: "Les systèmes proprement socialistes et communistes, les systèmes de Saint-Simon, de Fourier, d’Owen, etc., font leur apparition dans la première période embryonnaire de la lutte entre prolétariat et bourgeoisie, décrite plus haut (voir Bourgeoisie et Prolétariat).",
         words: [
           w('ch3_p43_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p43_s1_w2', 'eigentlich', 'eigentlich', 'ADV'),
@@ -3162,7 +3162,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p44_s1',
-        translationFr: 'Les inventeurs de ces systèmes se rendent bien compte de l’antagonisme des classes, ainsi que de l’action d’éléments dissolvants dans la société dominante elle-même.',
+        translationFr: "Les inventeurs de ces systèmes aperçoivent certes l’antagonisme des classes ainsi que l’action des éléments dissolvants au sein même de la société dominante.",
         words: [
           w('ch3_p44_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p44_s1_w2', 'Erfinder', 'Erfinder', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -3190,7 +3190,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p44_s2',
-        translationFr: 'Mais ils n’aperçoivent du côté du prolétariat aucune action historique, aucun mouvement politique qui lui soient propres.',
+        translationFr: "Mais ils n’aperçoivent du côté du prolétariat aucune initiative historique, aucun mouvement politique qui lui soit propre.",
         words: [
           w('ch3_p44_s2_w1', 'Aber', 'aber', 'CONJ'),
           w('ch3_p44_s2_w2', 'sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
@@ -3219,7 +3219,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p45_s1',
-        translationFr: 'Comme le développement de l’antagonisme des classes marche de pair avec le développement de l’industrie, ils ne trouvent pas davantage les conditions matérielles de l’émancipation du prolétariat et se mettent en quête d’une science sociale, de lois sociales, dans le but de créer ces conditions.',
+        translationFr: "Comme le développement de l’antagonisme de classe marche de pair avec le développement de l’industrie, ils ne trouvent pas davantage les conditions matérielles de l’émancipation du prolétariat et se mettent en quête d’une science sociale, de lois sociales, pour créer ces conditions.",
         words: [
           w('ch3_p45_s1_w1', 'Da', 'da', 'CONJ'),
           w('ch3_p45_s1_w2', 'die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3267,7 +3267,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p45_s2',
-        translationFr: 'L’activité sociale doit céder la place à leur activité cérébrale personnelle, les conditions historiques de l’émancipation à des conditions fantastiques, l’organisation graduelle et spontanée du prolétariat en classe à une organisation fabriquée de toute pièce par eux-mêmes.',
+        translationFr: "À la place de l'action sociale doit s’installer leur ingéniosité personnelle ; à la place des conditions historiques de l’émancipation, des conditions fantastiques ; à la place de l’organisation graduelle et spontanée du prolétariat en classe, une organisation de la société fabriquée de toutes pièces par eux.",
         words: [
           w('ch3_p45_s2_w1', 'An', 'an', 'PREP', { case: 'DAT' }),
           w('ch3_p45_s2_w2', 'die', 'der', 'ART', { case: 'ACC', gender: 'F', number: 'SG' }),
@@ -3316,7 +3316,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p45_s3',
-        translationFr: 'L’histoire future du monde se résout pour eux dans la propagande et la mise en pratique de leurs plans de société.',
+        translationFr: "L’histoire universelle à venir se résout pour eux dans la propagande et la réalisation pratique de leurs plans de société.",
         words: [
           w('ch3_p45_s3_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p45_s3_w2', 'kommende', 'kommend', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3340,7 +3340,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p45_s4',
-        translationFr: 'Dans la formation de leurs plans, toutefois, ils ont la conscience de défendre avant tout les intérêts de la classe ouvrière, parce qu’elle est la classe la plus souffrante.',
+        translationFr: "Ils ont certes conscience de défendre principalement dans leurs plans les intérêts de la classe ouvrière comme classe la plus souffrante.",
         words: [
           w('ch3_p45_s4_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p45_s4_w2', 'sind', 'sein', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3368,7 +3368,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p45_s5',
-        translationFr: 'La classe ouvrière n’existe pour eux que sous cet aspect de la classe la plus souffrante.',
+        translationFr: "C’est seulement sous cet aspect de la classe la plus souffrante que le prolétariat existe pour eux.",
         words: [
           w('ch3_p45_s5_w1', 'Nur', 'nur', 'ADV'),
           w('ch3_p45_s5_w2', 'unter', 'unter', 'PREP', { case: 'DAT' }),
@@ -3392,7 +3392,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p46_s1',
-        translationFr: 'Mais, ainsi que le comportent la forme peu développée de la lutte des classes et leur propre position sociale, ils se considèrent bien au-dessus de tout antagonisme des classes.',
+        translationFr: "La forme embryonnaire de la lutte des classes ainsi que leur propre situation les conduisent cependant à se croire bien au-dessus de tout antagonisme de classe.",
         words: [
           w('ch3_p46_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p46_s1_w2', 'unentwickelte', 'unentwickelt', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3424,7 +3424,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p46_s2',
-        translationFr: 'Ils désirent améliorer les conditions matérielles de la vie pour tous les membres de la société, même des plus privilégiés.',
+        translationFr: "Ils veulent améliorer la condition matérielle de tous les membres de la société, même des mieux nantis.",
         words: [
           w('ch3_p46_s2_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p46_s2_w2', 'wollen', 'wollen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3443,7 +3443,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p46_s3',
-        translationFr: 'Par conséquent, ils ne cessent de faire appel à la société tout entière sans distinction, ou plutôt ils s’adressent de préférence à la classe régnante.',
+        translationFr: "Ils en appellent donc constamment à la société entière sans distinction, et de préférence à la classe dominante.",
         words: [
           w('ch3_p46_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p46_s3_w2', 'appellieren', 'appellieren', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3467,7 +3467,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p46_s4',
-        translationFr: 'Puisque, aussi bien, il suffit de comprendre leur système pour reconnaître que c’est le meilleur de tous les plans possibles de la meilleure des sociétés possibles.',
+        translationFr: "Il suffit en effet de comprendre leur système pour le reconnaître comme le meilleur plan possible de la meilleure société possible.",
         words: [
           w('ch3_p46_s4_w1', 'Man', 'man', 'PRON', { case: 'NOM', number: 'SG' }),
           w('ch3_p46_s4_w2', 'braucht', 'brauchen', 'VERB', { number: 'SG', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3498,7 +3498,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p47_s1',
-        translationFr: 'Ils repoussent donc toute action politique et surtout toute action révolutionnaire, ils cherchent à atteindre leur but par des moyens paisibles et essayent de frayer un chemin au nouvel évangile social par la force de l’exemple, par des expériences en petit, condamnées d’avance à l’insuccès.',
+        translationFr: "Ils rejettent donc toute action politique, et notamment toute action révolutionnaire ; ils veulent atteindre leur but par des voies pacifiques et tentent d'ouvrir la route au nouvel évangile social par de petites expériences vouées naturellement à l'échec, par la force de l'exemple.",
         words: [
           w('ch3_p47_s1_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p47_s1_w2', 'verwerfen', 'verwerfen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3551,7 +3551,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p48_s1',
-        translationFr: 'La peinture fantastique de la société future, faite à une époque où le prolétariat, peu développé encore, envisage sa propre position d’une manière fantastique, correspond aux premières aspirations instinctives des ouvriers vers une complète transformation de la société.',
+        translationFr: "Cette peinture fantastique de la société future surgit à une époque où le prolétariat, encore fort peu développé, conçoit lui-même sa propre situation de façon fantastique, et correspond à ses premières aspirations intuitives vers une transformation générale de la société.",
         words: [
           w('ch3_p48_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p48_s1_w2', 'phantastische', 'phantastisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3601,7 +3601,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p49_s1',
-        translationFr: 'Mais les écrits socialistes et communistes renferment aussi des éléments critiques.',
+        translationFr: "Mais ces écrits socialistes et communistes renferment aussi des éléments critiques.",
         words: [
           w('ch3_p49_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p49_s1_w2', 'sozialistischen', 'sozialistisch', 'ADJ', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -3619,7 +3619,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p49_s2',
-        translationFr: 'Ils attaquent la société existante à ses bases.',
+        translationFr: "Ils attaquent toutes les bases de la société existante.",
         words: [
           w('ch3_p49_s2_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p49_s2_w2', 'greifen', 'angreifen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND', separablePrefix: 'an' }),
@@ -3634,7 +3634,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p49_s3',
-        translationFr: 'Ils ont fourni, par conséquent, dans leur temps, des matériaux d’une grande valeur pour éclairer les ouvriers.',
+        translationFr: "Ils ont donc fourni des matériaux d'une valeur inestimable pour éclairer les ouvriers.",
         words: [
           w('ch3_p49_s3_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p49_s3_w2', 'haben', 'haben', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3652,7 +3652,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p49_s4',
-        translationFr: 'Leurs propositions positives relatives à la société future, telles que la suppression de la distinction entre ville et campagne, l’abolition de la famille, du gain privé et du travail salarié, la proclamation de l’harmonie sociale et la transformation de l’État en une simple administration de la production, toutes ces propositions ne font qu’indiquer la disparition de l’antagonisme des classes, antagonisme qui commence seulement à se dessiner et dont les faiseurs de systèmes ne connaissent encore que les premières formes indistinctes et indéterminées.',
+        translationFr: "Leurs propositions positives sur la société future, telles que la suppression de l'antagonisme entre ville et campagne, l'abolition de la famille, du profit privé, du salariat, la proclamation de l'harmonie sociale, la transformation de l'État en une simple administration de la production — toutes ces thèses n'expriment que la disparition d'un antagonisme de classe qui commence tout juste à se dessiner et qu'ils ne connaissent encore que dans sa première indétermination amorphe.",
         words: [
           w('ch3_p49_s4_w1', 'Ihre', 'ihr', 'PRON', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch3_p49_s4_w2', 'positiven', 'positiv', 'ADJ', { case: 'ACC', gender: 'M', number: 'PL' }),
@@ -3732,7 +3732,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p49_s5',
-        translationFr: 'Aussi ces propositions n’ont-elles encore qu’un sens purement utopique.',
+        translationFr: "Ces propositions elles-mêmes ne conservent donc encore qu'un sens purement utopique.",
         words: [
           w('ch3_p49_s5_w1', 'Diese', 'dies', 'PRON', { case: 'ACC', gender: 'M', number: 'PL' }),
           w('ch3_p49_s5_w2', 'Sätze', 'Satz', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -3754,7 +3754,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p50_s1',
-        translationFr: 'L’importance du socialisme et du communisme critico-utopique est en raison inverse du développement historique.',
+        translationFr: "L’importance du socialisme et du communisme critico-utopiques est en raison inverse du développement historique.",
         words: [
           w('ch3_p50_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'SG' }),
           w('ch3_p50_s1_w2', 'Bedeutung', 'Bedeutung', 'NOUN', { case: 'NOM', gender: 'F', number: 'SG' }),
@@ -3775,7 +3775,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p50_s2',
-        translationFr: 'À mesure que la lutte des classes s’accentue et prend une forme, ce fantastique dédain pour la lutte, cette fantastique opposition à la lutte, perdent toute valeur pratique, toute justification théorique.',
+        translationFr: "À mesure que la lutte des classes se développe et prend forme, cette façon fantastique de s’élever au-dessus d’elle, cette opposition fantastique qu’on lui livre perdent toute valeur pratique, toute justification théorique.",
         words: [
           w('ch3_p50_s2_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch3_p50_s2_w2', 'demselben', 'derselbe', 'ADV'),
@@ -3812,7 +3812,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p50_s3',
-        translationFr: 'C’est pourquoi si, à beaucoup d’égards, les fondateurs de ces systèmes étaient des révolutionnaires, les sectes formées par leurs disciples sont toujours réactionnaires, car ces disciples s’obstinent à opposer les vieilles conceptions des maîtres à l’évolution historique du prolétariat.',
+        translationFr: "Si donc les auteurs de ces systèmes étaient, à maints égards, des révolutionnaires, les sectes formées par leurs disciples sont toujours réactionnaires.",
         words: [
           w('ch3_p50_s3_w1', 'Waren', 'sein', 'VERB', { number: 'PL', person: 3, tense: 'PAST', mood: 'IND' }),
           w('ch3_p50_s3_w2', 'daher', 'daher', 'ADV'),
@@ -3838,7 +3838,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p50_s4',
-        translationFr: 'Ils cherchent donc, et en cela ils sont conséquents, à émousser la lutte des classes et à concilier les antagonismes.',
+        translationFr: "Ces disciples s’obstinent à maintenir les vieilles conceptions de leurs maîtres en face de l’évolution historique du prolétariat.",
         words: [
           w('ch3_p50_s4_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p50_s4_w2', 'halten', 'halten', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3859,7 +3859,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p50_s5',
-        translationFr: 'Ils rêvent toujours la réalisation expérimentale de leurs utopies sociales, l’établissement de phalanstères isolés, la création de colonies à l’intérieur et la fondation d’une petite Icarie — édition in-douze de la nouvelle Jérusalem ; et pour donner une réalité à tous ces châteaux en Espagne, ils se voient forcés de faire appel aux cœurs et aux caisses des bourgeois.',
+        translationFr: "Ils cherchent donc avec obstination à émousser à nouveau la lutte des classes et à concilier les antagonismes.",
         words: [
           w('ch3_p50_s5_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p50_s5_w2', 'suchen', 'suchen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3879,7 +3879,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p50_s6',
-        translationFr: 'Petit à petit, ils tombent dans la catégorie des socialistes réactionnaires ou conservateurs, dépeints plus haut, et ne s’en distinguent plus que par un pédantisme plus systématique et une foi superstitieuse et fanatique dans l’efficacité miraculeuse de leur science sociale.',
+        translationFr: "Ils continuent de rêver à la réalisation expérimentale de leurs utopies sociales, à la fondation de phalanstères isolés, à la création de colonies à l’intérieur (Home-colonies), à l’érection d’une petite Icarie — édition in-douze du nouveau Jérusalem —, et pour bâtir tous ces châteaux en Espagne, ils en sont réduits à faire appel à la philanthropie des cœurs et des bourses des bourgeois.",
         words: [
           w('ch3_p50_s6_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p50_s6_w2', 'träumen', 'träumen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3939,7 +3939,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p51_s1',
-        translationFr: 'Petit à petit, ils tombent dans la catégorie des socialistes réactionnaires ou conservateurs, dépeints plus haut, et ne s’en distinguent plus que par un pédantisme plus systématique et une foi superstitieuse et fanatique dans l’efficacité miraculeuse de leur science sociale.',
+        translationFr: "Peu à peu, ils tombent dans la catégorie des socialistes réactionnaires ou conservateurs dépeints plus haut, et ne s’en distinguent plus guère que par un pédantisme plus systématique et par une foi superstitieuse et fanatique dans les vertus miraculeuses de leur science sociale.",
         words: [
           w('ch3_p51_s1_w1', 'Allmählich', 'allmählich', 'ADV'),
           w('ch3_p51_s1_w2', 'fallen', 'fallen', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND' }),
@@ -3981,7 +3981,7 @@ export const chapter3Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch3_p51_s2',
-        translationFr: 'Ils s’opposent donc avec acharnement à toute action politique de la classe ouvrière, une pareille action ne pouvant provenir, à leur avis, que d’un aveugle manque de foi dans le nouvel évangile.',
+        translationFr: "Ils s’opposent donc avec acharnement à tout mouvement politique des ouvriers, qui ne saurait provenir, à leurs yeux, que d’un aveugle manque de foi dans le nouvel évangile.",
         words: [
           w('ch3_p51_s2_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch3_p51_s2_w2', 'treten', 'entgegentreten', 'VERB', { number: 'PL', person: 3, tense: 'PRES', mood: 'IND', separablePrefix: 'entgegen' }),
@@ -4016,7 +4016,7 @@ export const chapter3Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch3_p52_s1',
-        translationFr: 'Les Owenistes en Angleterre, les Fouriéristes en France réagissent, là contre les Chartistes, ici contre les Réformistes.',
+        translationFr: "Les owenistes en Angleterre et les fouriéristes en France réagissent, là-bas contre les chartistes, ici contre les réformistes.",
         words: [
           w('ch3_p52_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
           w('ch3_p52_s1_w2', 'Owenisten', 'Owenist', 'NOUN', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -4049,222 +4049,222 @@ export const chapter3French: Record<string, string[]> = {
     "1. Le socialisme réactionnaire"
   ],
   "ch3_p2": [
-    "Par leur position historique, les aristocraties françaises et anglaises se trouvèrent appelées à lancer des libelles contre la société bourgeoise.",
-    "Dans la révolution française de 1830, dans le mouvement réformiste anglais, elles avaient succombé une fois de plus sous les coups du parvenu abhorré.",
-    "Pour elles, il ne pouvait plus désormais être question d’une lutte politique sérieuse.",
-    "Il ne leur restait plus que la lutte littéraire.",
-    "Or, dans le domaine littéraire aussi, la vieille phraséologie de la Restauration était devenue impossible.",
-    "Pour se créer des sympathies, il fallait que l’aristocratie fît semblant de perdre de vue ses intérêts propres, et qu’elle dressât son acte d’accusation contre la bourgeoisie, dans le seul intérêt de la classe ouvrière exploitée.",
-    "Elle se ménagea de la sorte la satisfaction de faire des chansons satiriques sur son nouveau maître et de fredonner à ses oreilles des prophéties grosses de malheurs."
+    "Par leur position historique, les aristocraties française et anglaise étaient appelées à écrire des libelles contre la société bourgeoise moderne.",
+    "Dans la révolution française de Juillet 1830 et dans le mouvement réformiste anglais, elles avaient succombé une fois de plus sous les coups du parvenu abhorré.",
+    "Il ne pouvait plus désormais être question d’une lutte politique sérieuse.",
+    "Seule la lutte littéraire leur restait ouverte.",
+    "Mais, dans le domaine littéraire aussi, la vieille phraséologie de la Restauration était devenue impossible.",
+    "Pour susciter de la sympathie, il fallait que l’aristocratie feignît de perdre de vue ses propres intérêts et formulât son acte d’accusation contre la bourgeoisie dans le seul intérêt de la classe ouvrière exploitée.",
+    "Elle se ménageait ainsi la satisfaction de chanter des chansons satiriques sur son nouveau maître et d'oser lui chuchoter à l’oreille des prophéties plus ou moins chargées de malheurs."
   ],
   "ch3_p3": [
-    "C’est ainsi que naquit le socialisme féodal, mélange de jérémiades et de pasquinades, d’échos du passé et de vagissements de l’avenir. Si parfois sa critique mordante et spirituelle frappa au cœur la bourgeoisie, son impuissance absolue à comprendre la marche de l’histoire moderne, finit toujours par le rendre ridicule."
+    "C’est ainsi que naquit le socialisme féodal, moitié complainte, moitié pasquinade, moitié écho du passé, moitié grondement menaçant de l’avenir, frappant parfois la bourgeoisie en plein cœur par un jugement amer, spirituel et mordant, mais toujours comique par son impuissance totale à comprendre la marche de l’histoire moderne."
   ],
   "ch3_p4": [
-    "En guise de drapeau, ces messieurs arboraient la besace du mendiant, afin d’attirer à eux le peuple.",
-    "Mais dès que le peuple accourut, il aperçut leurs derrières ornés du vieux blason féodal et se dispersa avec de grands et d’irrévérencieux éclats de rires."
+    "Ils brandissaient en guise d'étendard la besace de mendiant du prolétariat pour rassembler le peuple derrière eux.",
+    "Mais, chaque fois que le peuple les suivait, il apercevait sur leur derrière les vieux blasons féodaux et se débandait dans un éclat de rire sonore et irrévérencieux."
   ],
   "ch3_p5": [
-    "Une partie des légitimistes français et la jeune Angleterre ont donné au monde ce réjouissant spectacle."
+    "Une partie des légitimistes français et la « Jeune Angleterre » donnèrent ce spectacle en régal."
   ],
   "ch3_p6": [
-    "Quand les champions de la féodalité démontrent que le mode d’exploitation de la féodalité était autre que celui de la bourgeoisie, ils n’oublient qu’une chose, c’est qu’elle exploitait dans des conditions tout à fait différentes et aujourd’hui surannées.",
-    "Quand ils font remarquer que sous leur régime le prolétariat moderne n’existait pas, ils oublient que la bourgeoisie est précisément un rejeton fatal de la société féodale."
+    "Quand les champions de la féodalité démontrent que leur mode d’exploitation était configuré autrement que l’exploitation bourgeoise, ils oublient seulement qu’ils exploitaient dans des circonstances et des conditions tout à fait différentes et aujourd’hui surannées.",
+    "Quand ils font valoir que sous leur domination le prolétariat moderne n’existait pas, ils oublient seulement que la bourgeoisie moderne est précisément un rejeton nécessaire de leur ordre social."
   ],
   "ch3_p7": [
-    "Ils cachent si peu, d’ailleurs, le caractère réactionnaire de leur critique, que leur premier chef d’accusation contre la bourgeoisie est justement d’avoir créé sous son régime une classe qui fera sauter tout l’ancien ordre social."
+    "D’ailleurs, ils dissimulent si peu le caractère réactionnaire de leur critique que leur grief principal contre la bourgeoisie est précisément que sous son régime se développe une classe qui fera sauter en l'air tout l’ancien ordre social."
   ],
   "ch3_p8": [
-    "Aussi, n’est-ce pas tant d’avoir produit un prolétariat qu’ils imputent à crime à la bourgeoisie que d’avoir produit un prolétariat révolutionnaire."
+    "Ils reprochent d'ailleurs bien plus à la bourgeoisie de produire un prolétariat révolutionnaire que de produire en général un prolétariat."
   ],
   "ch3_p9": [
-    "Dans la lutte politique ils prennent donc une part active à toutes les mesures violentes contre la classe ouvrière. Et dans leur vie de tous les jours ils savent, en dépit de leur phraséologie boursoufflée, s’abaisser pour ramasser les fruits d’or qui tombent de l’arbre de l’industrie, et troquer toutes les vertus chevaleresques, l’honneur, l’amour et la fidélité, contre la laine, le sucre de betterave et l’eau-de-vie."
+    "Dans la pratique politique, ils prennent donc une part active à toutes les mesures de violence contre la classe ouvrière, tandis que dans la vie quotidienne, ils s’accommodent, en dépit de toutes leurs phrases boursouflées, de ramasser les pommes d’or et de troquer fidélité, amour et honneur contre le trafic sordide de la laine de mouton, des betteraves et de l’eau-de-vie."
   ],
   "ch3_p10": [
-    "De même que le prêtre et le seigneur féodal marchèrent jadis la main dans la main, voyons-nous aujourd’hui le socialisme clérical marcher côte à côte avec le socialisme féodal."
+    "Tout comme le calotin a toujours marché la main dans la main avec le seigneur féodal, de même le socialisme clérical marche la main dans la main avec le socialisme féodal."
   ],
   "ch3_p11": [
-    "Rien n’est plus facile que de recouvrir d’un vernis de socialisme l’ascétisme chrétien.",
-    "Le christianisme, lui aussi, ne s’est-il pas élevé contre la propriété privée, le mariage, l’État ?",
-    "Et à leur place n’a-t-il pas prêché la charité et les guenilles, le célibat et la mortification de la chair, la vie monastique et l’Église ?",
-    "Le socialisme chrétien n’est que l’eau bénite avec laquelle le prêtre consacre le mécontentement de l’aristocratie."
+    "Rien n’est plus aisé que de donner à l’ascétisme chrétien un vernis socialiste.",
+    "Le christianisme ne s’est-il pas lui aussi élevé avec fureur contre la propriété privée, contre le mariage, contre l’État ?",
+    "N’a-t-il pas prêché à leur place la charité et la mendicité, le célibat et la mortification de la chair, la vie claustrale et l’Église ?",
+    "Le socialisme chrétien n’est que l’eau bénite avec laquelle le prêtre bénit la rancœur de l’aristocrate."
   ],
   "ch3_p12": [
-    "L’aristocratie féodale n’est pas la seule classe ruinée par la bourgeoisie, elle n’est pas la seule classe dont les conditions d’existence s’étiolaient et dépérissaient dans la société bourgeoise moderne.",
-    "Les petits bourgeois et les petits paysans du moyen âge étaient les précurseurs de la bourgeoisie moderne.",
+    "L’aristocratie féodale n’est pas la seule classe qui ait été renversée par la bourgeoisie, et dont les conditions d’existence se soient étiolées et soient mortes dans la société bourgeoise moderne.",
+    "La bourgeoisie foraine médiévale et le petit état paysan étaient les précurseurs de la bourgeoisie moderne.",
     "Dans les pays où le commerce et l’industrie sont peu développés, cette classe continue à végéter à côté de la bourgeoisie qui s’épanouit."
   ],
   "ch3_p13": [
-    "Dans les pays où la civilisation moderne est florissante, il s’est formé une nouvelle classe de petits bourgeois qui oscillent entre le Prolétariat et la Bourgeoisie ; partie complémentaire de la société bourgeoise, elle se constitue toujours de nouveau. Mais les individus qui la composent se voient sans cesse précipités dans le prolétariat, par suite de la concurrence et, qui plus est, avec la marche progressive de la grande production, ils voient approcher le moment où ils disparaîtront complètement comme fraction indépendante de la société moderne et où ils seront remplacés dans le commerce, la manufacture et l’agriculture par des contre-maîtres, des garçons de boutiques et des laboureurs."
+    "Dans les pays où la civilisation moderne s’est développée, il s’est formé une nouvelle petite-bourgeoisie qui oscille entre le prolétariat et la bourgeoisie et se reconstitue sans cesse comme fraction complémentaire de la société bourgeoise, mais dont les membres sont constamment précipités dans le prolétariat par le jeu de la concurrence ; bien plus, avec le développement de la grande industrie, ils voient approcher le moment où ils disparaîtront complètement en tant que fraction indépendante de la société moderne et seront remplacés, dans le commerce, la manufacture et l'agriculture, par des surveillants et des domestiques."
   ],
   "ch3_p14": [
-    "Dans les pays comme la France, où les paysans forment bien au delà de la moitié de la population, il était naturel que des écrivains, prenant fait et cause pour le prolétariat contre la bourgeoisie, devaient critiquer le régime bourgeois et défendre le parti ouvrier au point de vue du petit bourgeois et du paysan.",
-    "C’est ainsi que se forma le socialisme du petit bourgeois.",
-    "Sismondi est le chef de cette littérature, aussi bien pour l’Angleterre que pour la France."
+    "Dans des pays comme la France, où la classe paysanne constitue bien plus de la moitié de la population, il était naturel que des écrivains prenant fait et cause pour le prolétariat contre la bourgeoisie appliquassent à leur critique du régime bourgeois l’étalon du petit bourgeois et du petit paysan, et prissent le parti des ouvriers du point de vue de la petite-bourgeoisie.",
+    "C’est ainsi que se forma le socialisme petit-bourgeois.",
+    "Sismondi est le chef de file de cette littérature, non seulement pour la France, mais aussi pour l’Angleterre."
   ],
   "ch3_p15": [
-    "Ce socialisme analysa avec beaucoup de pénétration les contradictions inhérentes aux rapports de production modernes.",
-    "Il mit à nu les hypocrites apologies des économistes.",
-    "Il démontra d’une façon irréfutable les effets meurtriers de la machine et de la division du travail, la concentration des capitaux et de la propriété foncière, la surproduction, les crises, la misère du prolétariat, l’anarchie dans la production, la criante disproportion dans la distribution des richesses, la guerre industrielle d’extermination des nations entre elles, la dissolution des vieilles mœurs, des vieilles relations familiales, des vieilles nationalités."
+    "Ce socialisme disséqua avec la plus grande sagacité les contradictions inhérentes aux rapports de production modernes.",
+    "Il mit à nu les hypocrites enjolivements des économistes.",
+    "Il démontra de façon irréfutable les effets destructeurs du machinisme et de la division du travail, la concentration des capitaux et de la propriété foncière, la surproduction, les crises, la disparition fatale des petits bourgeois et des petits paysans, la misère du prolétariat, l’anarchie dans la production, les criantes disproportions dans la distribution de la richesse, la guerre industrielle d’extermination entre les nations, la dissolution des vieilles mœurs, des vieilles relations familiales, des vieilles nationalités."
   ],
   "ch3_p16": [
-    "Le but positif, toutefois, de ce socialisme des petits bourgeois est, soit de rétablir les anciens moyens de production et d’échange, et, avec eux, les anciens rapports de propriété et l’ancienne société, soit de faire rentrer de force les moyens modernes de production et d’échange dans le cadre étroit des anciens rapports de production qui ont été brisés et fatalement brisés par eux.",
-    "Dans l’un et l’autre cas, ce socialisme est tout à la fois réactionnaire et utopique.",
-    "Pour la manufacture, le système des corporations, pour l’agriculture, des relations patriarcales ; voilà son dernier mot."
+    "Quant à son contenu positif, ce socialisme veut, soit rétablir les anciens moyens de production et d’échange, et avec eux les anciens rapports de propriété et l’ancienne société, soit faire rentrer de force les moyens modernes de production et d’échange dans le cadre des anciens rapports de propriété qui ont été brisés par eux, et devaient fatalement l'être.",
+    "Dans les deux cas, il est à la fois réactionnaire et utopique.",
+    "Le régime corporatif pour la manufacture et l'économie patriarcale pour l'agriculture, voilà ses derniers mots."
   ],
   "ch3_p17": [
-    "Finalement, quand les faits historiques l’eurent tout à fait désenivrée, cette forme de socialisme s’est abandonnée à une lâche mélancolie."
+    "Dans son évolution ultérieure, cette tendance a fini par se perdre dans une lâche gueule de bois."
   ],
   "ch3_p18": [
-    "La littérature socialiste et communiste de la France, née sous la pression d’une bourgeoisie régnante, est l’expression littéraire de la révolte contre ce règne. Elle fut introduite en Allemagne au moment où la bourgeoisie commençait sa lutte contre l’absolutisme féodal."
+    "La littérature socialiste et communiste de France, née sous la pression d’une bourgeoisie dominante et expression littéraire de la lutte contre cette domination, fut introduite en Allemagne à une époque où la bourgeoisie venait tout juste de commencer sa lutte contre l’absolutisme féodal."
   ],
   "ch3_p19": [
-    "Des philosophes, des demi-philosophes, et des beaux esprits allemands se jetèrent avidement sur cette littérature, mais ils oublièrent qu’avec l’importation de la littérature française en Allemagne, il n’y avait pas eu en même temps importation des conditions sociales de la France.",
-    "Par rapport aux conditions allemandes, la littérature française perdit toute signification pratique immédiate et prit un caractère purement littéraire.",
-    "Elle ne devait plus paraître qu’une spéculation oiseuse sur la réalisation de la nature humaine.",
-    "C’est ainsi que pour les philosophes allemands du xviiie siècle, les revendications de la première révolution française n’étaient que les revendications de la « raison pratique » en général, et la manifestation de la volonté des bourgeois révolutionnaires de la France ne signifiait, à leurs yeux, que la manifestation des lois de la volonté pure, de la volonté telle qu’elle doit être, de la véritable volonté humaine.",
-    "Le travail des gens de lettres allemands se bornait à mettre d’accord les idées françaises avec leur vieille conscience philosophique, ou plutôt à s’approprier les idées françaises en les accommodant à leur point de vue philosophique.",
-    "Ils se les approprièrent comme on s’assimile une langue étrangère, par la traduction."
+    "Des philosophes, des demi-philosophes et des beaux esprits allemands se jetèrent avidement sur cette littérature, oubliant seulement qu’avec l’importation de ces écrits de France en Allemagne, les conditions d’existence françaises n’avaient pas émigré en même temps.",
+    "Face aux conditions allemandes, la littérature française perdit toute signification pratique immédiate et prit un caractère purement littéraire.",
+    "Elle devait nécessairement apparaître comme une spéculation oiseuse sur la réalisation de l’essence humaine.",
+    "C’est ainsi que, pour les philosophes allemands du XVIIIe siècle, les revendications de la première Révolution française n’avaient d'autre sens que d’être les exigences de la « raison pratique » en général, et les manifestations de la volonté de la bourgeoisie révolutionnaire française signifiaient à leurs yeux les lois de la volonté pure, de la volonté telle qu'elle doit être, de la volonté véritablement humaine.",
+    "Le travail exclusif des gens de lettres allemands consista à mettre en accord les nouvelles idées françaises avec leur vieille conscience philosophique, ou plutôt à s’approprier les idées françaises à partir de leur propre point de vue philosophique.",
+    "Cette appropriation s’opéra de la même manière qu’on s’approprie généralement une langue étrangère : par la traduction."
   ],
   "ch3_p20": [
-    "On sait comment les moines superposèrent sur les manuscrits des auteurs classiques du paganisme, les absurdes légendes des saints catholiques.",
-    "Les gens de lettres allemands agirent en sens inverse à l’égard de la littérature française.",
-    "Ils glissèrent leurs non-sens sous l’original français.",
-    "Par exemple, sous la critique française des fonctions économiques de l’argent, ils écrivirent : « Aliénation de l’être humain », sous la critique française de l’État bourgeois, ils écrivirent : « Élimination de la catégorie de l’universalité abstraite », et ainsi de suite."
+    "On sait comment les moines recouvrirent les manuscrits contenant les œuvres classiques de l'antiquité païenne d’absurdes légendes de saints catholiques.",
+    "Les gens de lettres allemands procédèrent en sens inverse avec la littérature profane française.",
+    "Ils glissèrent leurs inepties philosophiques sous l’original français.",
+    "Par exemple, sous la critique française des rapports monétaires, ils écrivirent : « Aliénation de l’essence humaine », sous la critique française de l’État bourgeois, ils écrivirent : « Dépassement de la domination de l'universel abstrait », et ainsi de suite."
   ],
   "ch3_p21": [
-    "L’introduction de cette phraséologie philosophique au milieu des développements français, ils la baptisèrent : « Philosophie de l’action », « Vrai Socialisme », « Science allemande du socialisme », « Base philosophique du socialisme », etc."
+    "Cette substitution de leur phraséologie philosophique aux développements français, ils la baptisèrent « Philosophie de l’action », « Vrai socialisme », « Science allemande du socialisme », « Justification philosophique du socialisme », etc."
   ],
   "ch3_p22": [
-    "De cette façon, on émascula complètement la littérature socialiste et communiste française.",
-    "Et parce qu’elle cessa, entre les mains des allemands, d’être l’expression de la lutte d’une classe contre une autre, ceux-ci se félicitèrent de s’être élevés au-dessus de l’étroitesse française, et d’avoir défendu non pas de vrais besoins, mais « le besoin du vrai » ; d’avoir défendu, non pas les intérêts du prolétaire, mais les intérêts de l’être humain, de l’homme en général ; de l’homme qui n’appartient à aucune classe ni à aucune réalité et qui n’existe que dans le ciel embrumé de la fantaisie philosophique."
+    "La littérature socialiste et communiste française fut ainsi littéralement émasculée.",
+    "Et comme, entre les mains de l’Allemand, elle cessait d’exprimer la lutte d’une classe contre une autre, l’Allemand eut conscience d’avoir surmonté « l’unilatéralité française », d’avoir défendu, au lieu de besoins réels, le besoin de la vérité, et, au lieu des intérêts du prolétaire, les intérêts de l’essence humaine, de l’homme en général — de l'homme qui n’appartient à aucune classe, ne relève d'aucune réalité et n'existe que dans le ciel brumeux de l'illusion philosophique."
   ],
   "ch3_p23": [
-    "Ce socialisme allemand qui prenait si solennellement au sérieux ses maladroits exercices d’écolier et qui les tambourinait à la façon des saltimbanques, perdit cependant petit à petit son innocence de pédant.",
-    "La lutte de la bourgeoisie allemande et principalement de la bourgeoisie prussienne contre la monarchie absolue et féodale, en un mot, le mouvement libéral, devint plus sérieux."
+    "Ce socialisme allemand, qui prenait si solennellement au sérieux ses maladroits devoirs d’écolier et les claironnait avec un tel tapage de charlatan, perdit cependant peu à peu son innocence pédantesque.",
+    "La lutte de la bourgeoisie allemande, et principalement de la bourgeoisie prussienne, contre les féodaux et la monarchie absolue, en un mot le mouvement libéral, devint plus sérieuse."
   ],
   "ch3_p24": [
-    "De la sorte, le vrai socialisme eut l’occasion tant souhaitée de confronter les réclamations socialistes avec le mouvement politique. Il put lancer les anathèmes traditionnels contre le libéralisme, contre l’état représentatif, contre la concurrence bourgeoise, contre la liberté bourgeoise de la presse, contre le droit bourgeois, contre la liberté et l’égalité bourgeoises ; il put prêcher aux masses qu’elles n’avaient rien à gagner, mais, au contraire, tout à perdre à ce mouvement bourgeois.",
-    "Le socialisme allemand oublia, bien à propos, que la critique française, dont il était le niais écho, présupposait la société bourgeoise moderne, avec les conditions matérielles d’existence qui y correspondent et une constitution politique conforme, choses précisément que, pour l’Allemagne, il s’agissait encore de conquérir."
+    "Le « vrai » socialisme trouva ainsi l'occasion tant souhaitée d’opposer au mouvement politique les revendications socialistes, de lancer les anathèmes traditionnels contre le libéralisme, contre l’État représentatif, contre la concurrence bourgeoise, contre la liberté de la presse bourgeoise, contre le droit bourgeois, contre la liberté et l’égalité bourgeoises, et de prêcher à la masse populaire qu’elle n’avait rien à gagner à ce mouvement bourgeois, mais bien plutôt tout à y perdre.",
+    "Le socialisme allemand oublia fort à propos que la critique française, dont il n’était que l'écho sans esprit, présupposait la société bourgeoise moderne avec les conditions matérielles d’existence correspondantes et la constitution politique appropriée — toutes prémisses qu’il s’agissait encore précisément de conquérir en Allemagne."
   ],
   "ch3_p25": [
-    "Pour les gouvernements absolus, avec leur cortège de prêtres, de pédagogues, de hobereaux et de bureaucrates, ce socialisme servit d’épouvantail pour faire peur à la bourgeoisie qui se dressait menaçante."
+    "Il servit aux gouvernements absolus d’Allemagne, escortés de leur cortège de prêtres, de cuistres, de hobereaux campagnards et de bureaucrates, d’épouvantail providentiel contre la bourgeoisie menaçante en pleine ascension."
   ],
   "ch3_p26": [
-    "Il compléta, par son hypocrisie doucereuse, les amers coups de fouet et les balles que ces mêmes gouvernements administrèrent aux ouvriers allemands qui se soulevaient."
+    "Il constitua le pendant doucereux aux amers coups de fouet et aux balles de fusil par lesquels ces mêmes gouvernements traitaient les soulèvements d'ouvriers allemands."
   ],
   "ch3_p27": [
-    "Si le vrai socialisme devint ainsi une arme entre les mains des gouvernements, il représentait directement, en outre, l’intérêt réactionnaire, l’intérêt du petit bourgeois.",
-    "La classe des petits bourgeois, léguée par le xvie siècle, et depuis lors sans cesse renaissante sous des formes diverses, constitue pour l’Allemagne la vraie base sociale de l’état de choses existant."
+    "Si le « vrai » socialisme devint ainsi une arme entre les mains des gouvernements contre la bourgeoisie allemande, il représentait aussi directement un intérêt réactionnaire, l'intérêt du philistin allemand borné.",
+    "En Allemagne, la petite-bourgeoisie, léguée par le XVIe siècle et depuis lors renaissant sans cesse sous des formes diverses, constitue la véritable base sociale de l’état de choses existant."
   ],
   "ch3_p28": [
-    "La maintenir c’est maintenir les conditions allemandes actuelles.",
-    "La suprématie industrielle et politique de la bourgeoisie menace cette classe de destruction certaine, d’une part par la concentration des capitaux, d’autre part par le développement d’un prolétariat révolutionnaire.",
-    "Le vrai socialisme devait tuer d’une pierre ces deux oiseaux.",
+    "Son maintien est le maintien de l’état de choses allemand actuel.",
+    "De la domination industrielle et politique de la bourgeoisie, elle redoute une ruine certaine, d’une part par suite de la concentration des capitaux, d’autre part par l’émergence d’un prolétariat révolutionnaire.",
+    "Le « vrai » socialisme lui parut faire d’une pierre deux coups.",
     "Il se propagea comme une épidémie."
   ],
   "ch3_p29": [
-    "Le vêtement tissé avec les fils immatériels de la spéculation, brodé de fleurs de rhétorique et tout saturé d’une rosée sentimentale, ce vêtement transcendant, dans lequel les socialistes allemands enveloppèrent leurs quelques maigres « vérités éternelles », ne fit qu’activer la vente de leur marchandise auprès d’un pareil public.",
-    "De son côté le socialisme allemand comprit de mieux en mieux que c’était sa vocation d’être le représentant pompeux de cette petite bourgeoisie."
+    "Cette robe tissée d'araignée spéculative, brodée de fleurs de rhétorique bel-esprit, imprégnée d’une rosée sentimentale moite d'amour, ce vêtement dithyrambique dans lequel les socialistes allemands drapaient leurs rares et squelettiques « vérités éternelles », ne fit qu'accroître l'écoulement de leur marchandise auprès d'un tel public.",
+    "De son côté, le socialisme allemand comprit de mieux en mieux sa vocation d’être le représentant grandiloquent de cette bourgeoisie philistine étriquée."
   ],
   "ch3_p30": [
-    "Il proclama la nation allemande la nation normale et le philistin allemand l’homme normal.",
-    "À toutes les infamies de cet homme normal il donna un sens occulte, un sens supérieur et socialiste qui les faisait tout le contraire de ce qu’elles étaient.",
-    "Il alla jusqu’au bout, en s’élevant contre la tendance « brutalement destructive » du communisme et en déclarant que, impartial, il planait au-dessus de toutes les luttes de classes.",
-    "À quelques exceptions près, les publications soi-disant socialistes ou communistes, qui circulent en Allemagne (en 1847) appartiennent à cette sale et énervante littérature."
+    "Il proclama la nation allemande comme la nation normale et le bourgeois philistin allemand comme l'homme normal.",
+    "À chaque bassesse de ce dernier, il conféra un sens caché, supérieur et socialiste, où elle signifiait exactement son contraire.",
+    "Il alla jusqu'au bout de sa logique en s'élevant directement contre la tendance « brutalement destructive » du communisme et en proclamant sa sublime impartialité au-dessus de toutes les luttes de classes.",
+    "À de très rares exceptions près, tout ce qui circule en Allemagne d’écrits prétendument socialistes et communistes appartient au domaine de cette littérature fangeuse et débilitante."
   ],
   "ch3_p31": [
     "2. Le socialisme conservateur ou bourgeois"
   ],
   "ch3_p32": [
-    "Une partie de la bourgeoisie cherche à porter remède aux maux sociaux dans le but d’assurer l’existence de la société bourgeoise."
+    "Une partie de la bourgeoisie souhaite remédier aux anomalies sociales afin de consolider l'existence de la société bourgeoise."
   ],
   "ch3_p33": [
-    "Dans cette catégorie se rangent les économistes, les philanthropes, les humanitaires, les améliorateurs du sort de la classe ouvrière, les organisateurs de bienfaisance, les protecteurs des animaux, les fondateurs des sociétés de tempérance, les réformateurs en chambre de tout acabit. Et l’on est allé jusqu’à élaborer ce socialisme bourgeois en systèmes complets."
+    "Y appartiennent les économistes, les philanthropes, les humanitaires, les améliorateurs du sort des classes laborieuses, les organisateurs de bienfaisance, les protecteurs des animaux, les fondateurs de ligues de tempérance, les réformateurs en chambre de la plus bariolée espèce. Et ce socialisme bourgeois a même été élaboré en systèmes complets."
   ],
   "ch3_p34": [
-    "Citons, comme exemple, la Philosophie de la Misère de Proudhon."
+    "Citons comme exemple la Philosophie de la misère de Proudhon."
   ],
   "ch3_p35": [
-    "Les socialistes bourgeois veulent les conditions de vie de la société moderne sans les dangers et les luttes qui en dérivent fatalement.",
-    "Ils veulent la société actuelle, mais avec élimination des éléments qui la révolutionnent et la dissolvent.",
+    "Les bourgeois socialistes veulent les conditions d’existence de la société moderne sans les luttes et les dangers qui en découlent nécessairement.",
+    "Ils veulent la société existante, déduction faite des éléments qui la révolutionnent et la dissolvent.",
     "Ils veulent la bourgeoisie sans le prolétariat.",
-    "La bourgeoisie, comme de juste, se représente le monde où elle domine comme le meilleur des mondes possibles.",
-    "Le socialisme bourgeois élabore cette représentation consolante en système ou en demi-système.",
-    "Lorsqu’il somme le prolétariat de réaliser ces systèmes et de faire son entrée dans la nouvelle Jérusalem, il ne fait pas autre chose au fond que de l’engager à s’en tenir à la société actuelle, mais à se débarrasser de sa conception haineuse de cette société."
+    "La bourgeoisie se représente tout naturellement le monde où elle domine comme le meilleur des mondes.",
+    "Le socialisme bourgeois élabore cette représentation consolante en un système complet ou partiel.",
+    "Lorsqu’il somme le prolétariat de réaliser ses systèmes et d’entrer dans la nouvelle Jérusalem, il n’exige au fond de lui que de s’en tenir à la société actuelle, tout en se dépouillant de ses représentations haineuses de celle-ci."
   ],
   "ch3_p36": [
-    "Une seconde forme de ce socialisme, moins systématique, mais plus pratique, essaya de dégoûter les ouvriers de tout mouvement révolutionnaire, en leur démontrant que ce n’était pas tel ou tel changement politique, mais seulement une transformation des rapports de la vie matérielle et des conditions économiques qui pouvait leur profiter.",
-    "Notez que par transformation des rapports matériels de la société, ce socialisme n’entend pas parler de l’abolition des rapports de production bourgeois, mais uniquement de réformes administratives s’accomplissant sur la base même de la production bourgeoise, qui, par conséquent, n’affectent pas les relations du capital et du salariat, et qui, dans les meilleurs cas, ne font que diminuer les frais et simplifier le travail administratif du gouvernement bourgeois."
+    "Une seconde forme de ce socialisme, moins systématique mais plus pratique, chercha à dégoûter la classe ouvrière de tout mouvement révolutionnaire, en démontrant que ce n’était pas tel ou tel changement politique, mais seulement une transformation des conditions matérielles d’existence, des rapports économiques, qui pouvait lui profiter.",
+    "Par transformation des conditions matérielles d’existence, ce socialisme n’entend nullement l’abolition des rapports de production bourgeois, qui n’est possible que par la voie révolutionnaire, mais des améliorations administratives s'accomplissant sur le terrain même de ces rapports de production, qui ne modifient donc rien aux rapports du capital et du salariat, mais réduisent tout au plus, dans le meilleur des cas, les coûts de la domination bourgeoise et simplifient le travail administratif de son gouvernement."
   ],
   "ch3_p37": [
-    "Le socialisme bourgeois n’atteint son expression adéquate qu’alors qu’il devient une simple figure de rhétorique."
+    "Le socialisme bourgeois n’atteint son expression adéquate que lorsqu’il devient une pure figure de rhétorique."
   ],
   "ch3_p38": [
-    "Libre échange ! dans l’intérêt de la classe ouvrière ; droit protecteur ! dans l’intérêt de la classe ouvrière ; prisons cellulaires ! dans l’intérêt de la classe ouvrière : voilà son dernier mot, le seul mot dit sérieusement par le socialisme bourgeois."
+    "Libre-échange ! dans l’intérêt de la classe ouvrière ; droits protecteurs ! dans l’intérêt de la classe ouvrière ; prisons cellulaires ! dans l’intérêt de la classe ouvrière : voilà le dernier mot, le seul mot sérieusement pensé du socialisme bourgeois."
   ],
   "ch3_p39": [
-    "Car le socialisme bourgeois tient tout entier dans cette phrase : les bourgeois sont des bourgeois dans l’intérêt de la classe ouvrière."
+    "Le socialisme de la bourgeoisie réside précisément dans l'affirmation que les bourgeois sont des bourgeois — dans l’intérêt de la classe ouvrière."
   ],
   "ch3_p40": [
     "3. Le socialisme et le communisme critico-utopiques"
   ],
   "ch3_p41": [
-    "Il ne s’agit pas ici de la littérature qui, dans toutes les grandes révolutions modernes, a formulé les revendications du prolétariat (les écrits de Babœuf, etc.)."
+    "Nous ne parlons pas ici de la littérature qui, dans toutes les grandes révolutions modernes, a formulé les revendications du prolétariat (les écrits de Babeuf, etc.)."
   ],
   "ch3_p42": [
-    "Les premières tentatives directes du prolétariat pour faire prévaloir ses propres intérêts de classe, faites en un temps d’effervescence générale, dans la période du renversement de la société féodale, échouèrent nécessairement, aussi bien à cause de l’état embryonnaire du prolétariat lui-même qu’à cause de l’absence des conditions matérielles de son émancipation, conditions qui ne pouvaient être produites que sous l’ère bourgeoise.",
-    "La littérature révolutionnaire qui accompagnait ces premiers mouvements du prolétariat eut forcément un caractère réactionnaire.",
-    "Elle préconise un ascétisme général et un grossier égalitarisme."
+    "Les premières tentatives du prolétariat pour faire prévaloir directement son propre intérêt de classe, en une époque d’effervescence générale, lors de la période de renversement de la société féodale, échouèrent nécessairement en raison de l’état embryonnaire du prolétariat lui-même ainsi que du défaut des conditions matérielles de son émancipation, lesquelles sont précisément le produit de l’époque bourgeoise.",
+    "La littérature révolutionnaire qui accompagnait ces premiers mouvements du prolétariat est nécessairement, de par son contenu, réactionnaire.",
+    "Elle enseigne un ascétisme universel et un égalitarisme grossier."
   ],
   "ch3_p43": [
-    "Les systèmes socialistes et communistes proprement dits, les systèmes de Saint-Simon, de Fourier, d’Owen, etc., font leur apparition dans la première période de la lutte entre le prolétariat et la bourgeoisie, période décrite ci-dessus (voir Bourgeoisie et Prolétariat.)"
+    "Les systèmes proprement socialistes et communistes, les systèmes de Saint-Simon, de Fourier, d’Owen, etc., font leur apparition dans la première période embryonnaire de la lutte entre prolétariat et bourgeoisie, décrite plus haut (voir Bourgeoisie et Prolétariat)."
   ],
   "ch3_p44": [
-    "Les inventeurs de ces systèmes se rendent bien compte de l’antagonisme des classes, ainsi que de l’action d’éléments dissolvants dans la société dominante elle-même.",
-    "Mais ils n’aperçoivent du côté du prolétariat aucune action historique, aucun mouvement politique qui lui soient propres."
+    "Les inventeurs de ces systèmes aperçoivent certes l’antagonisme des classes ainsi que l’action des éléments dissolvants au sein même de la société dominante.",
+    "Mais ils n’aperçoivent du côté du prolétariat aucune initiative historique, aucun mouvement politique qui lui soit propre."
   ],
   "ch3_p45": [
-    "Comme le développement de l’antagonisme des classes marche de pair avec le développement de l’industrie, ils ne trouvent pas davantage les conditions matérielles de l’émancipation du prolétariat et se mettent en quête d’une science sociale, de lois sociales, dans le but de créer ces conditions.",
-    "L’activité sociale doit céder la place à leur activité cérébrale personnelle, les conditions historiques de l’émancipation à des conditions fantastiques, l’organisation graduelle et spontanée du prolétariat en classe à une organisation fabriquée de toute pièce par eux-mêmes.",
-    "L’histoire future du monde se résout pour eux dans la propagande et la mise en pratique de leurs plans de société.",
-    "Dans la formation de leurs plans, toutefois, ils ont la conscience de défendre avant tout les intérêts de la classe ouvrière, parce qu’elle est la classe la plus souffrante.",
-    "La classe ouvrière n’existe pour eux que sous cet aspect de la classe la plus souffrante."
+    "Comme le développement de l’antagonisme de classe marche de pair avec le développement de l’industrie, ils ne trouvent pas davantage les conditions matérielles de l’émancipation du prolétariat et se mettent en quête d’une science sociale, de lois sociales, pour créer ces conditions.",
+    "À la place de l'action sociale doit s’installer leur ingéniosité personnelle ; à la place des conditions historiques de l’émancipation, des conditions fantastiques ; à la place de l’organisation graduelle et spontanée du prolétariat en classe, une organisation de la société fabriquée de toutes pièces par eux.",
+    "L’histoire universelle à venir se résout pour eux dans la propagande et la réalisation pratique de leurs plans de société.",
+    "Ils ont certes conscience de défendre principalement dans leurs plans les intérêts de la classe ouvrière comme classe la plus souffrante.",
+    "C’est seulement sous cet aspect de la classe la plus souffrante que le prolétariat existe pour eux."
   ],
   "ch3_p46": [
-    "Mais, ainsi que le comportent la forme peu développée de la lutte des classes et leur propre position sociale, ils se considèrent bien au-dessus de tout antagonisme des classes.",
-    "Ils désirent améliorer les conditions matérielles de la vie pour tous les membres de la société, même des plus privilégiés.",
-    "Par conséquent, ils ne cessent de faire appel à la société tout entière sans distinction, ou plutôt ils s’adressent de préférence à la classe régnante.",
-    "Puisque, aussi bien, il suffit de comprendre leur système pour reconnaître que c’est le meilleur de tous les plans possibles de la meilleure des sociétés possibles."
+    "La forme embryonnaire de la lutte des classes ainsi que leur propre situation les conduisent cependant à se croire bien au-dessus de tout antagonisme de classe.",
+    "Ils veulent améliorer la condition matérielle de tous les membres de la société, même des mieux nantis.",
+    "Ils en appellent donc constamment à la société entière sans distinction, et de préférence à la classe dominante.",
+    "Il suffit en effet de comprendre leur système pour le reconnaître comme le meilleur plan possible de la meilleure société possible."
   ],
   "ch3_p47": [
-    "Ils repoussent donc toute action politique et surtout toute action révolutionnaire, ils cherchent à atteindre leur but par des moyens paisibles et essayent de frayer un chemin au nouvel évangile social par la force de l’exemple, par des expériences en petit, condamnées d’avance à l’insuccès."
+    "Ils rejettent donc toute action politique, et notamment toute action révolutionnaire ; ils veulent atteindre leur but par des voies pacifiques et tentent d'ouvrir la route au nouvel évangile social par de petites expériences vouées naturellement à l'échec, par la force de l'exemple."
   ],
   "ch3_p48": [
-    "La peinture fantastique de la société future, faite à une époque où le prolétariat, peu développé encore, envisage sa propre position d’une manière fantastique, correspond aux premières aspirations instinctives des ouvriers vers une complète transformation de la société."
+    "Cette peinture fantastique de la société future surgit à une époque où le prolétariat, encore fort peu développé, conçoit lui-même sa propre situation de façon fantastique, et correspond à ses premières aspirations intuitives vers une transformation générale de la société."
   ],
   "ch3_p49": [
-    "Mais les écrits socialistes et communistes renferment aussi des éléments critiques.",
-    "Ils attaquent la société existante à ses bases.",
-    "Ils ont fourni, par conséquent, dans leur temps, des matériaux d’une grande valeur pour éclairer les ouvriers.",
-    "Leurs propositions positives relatives à la société future, telles que la suppression de la distinction entre ville et campagne, l’abolition de la famille, du gain privé et du travail salarié, la proclamation de l’harmonie sociale et la transformation de l’État en une simple administration de la production, toutes ces propositions ne font qu’indiquer la disparition de l’antagonisme des classes, antagonisme qui commence seulement à se dessiner et dont les faiseurs de systèmes ne connaissent encore que les premières formes indistinctes et indéterminées.",
-    "Aussi ces propositions n’ont-elles encore qu’un sens purement utopique."
+    "Mais ces écrits socialistes et communistes renferment aussi des éléments critiques.",
+    "Ils attaquent toutes les bases de la société existante.",
+    "Ils ont donc fourni des matériaux d'une valeur inestimable pour éclairer les ouvriers.",
+    "Leurs propositions positives sur la société future, telles que la suppression de l'antagonisme entre ville et campagne, l'abolition de la famille, du profit privé, du salariat, la proclamation de l'harmonie sociale, la transformation de l'État en une simple administration de la production — toutes ces thèses n'expriment que la disparition d'un antagonisme de classe qui commence tout juste à se dessiner et qu'ils ne connaissent encore que dans sa première indétermination amorphe.",
+    "Ces propositions elles-mêmes ne conservent donc encore qu'un sens purement utopique."
   ],
   "ch3_p50": [
-    "L’importance du socialisme et du communisme critico-utopique est en raison inverse du développement historique.",
-    "À mesure que la lutte des classes s’accentue et prend une forme, ce fantastique dédain pour la lutte, cette fantastique opposition à la lutte, perdent toute valeur pratique, toute justification théorique.",
-    "C’est pourquoi si, à beaucoup d’égards, les fondateurs de ces systèmes étaient des révolutionnaires, les sectes formées par leurs disciples sont toujours réactionnaires, car ces disciples s’obstinent à opposer les vieilles conceptions des maîtres à l’évolution historique du prolétariat.",
-    "Ils cherchent donc, et en cela ils sont conséquents, à émousser la lutte des classes et à concilier les antagonismes.",
-    "Ils rêvent toujours la réalisation expérimentale de leurs utopies sociales, l’établissement de phalanstères isolés, la création de colonies à l’intérieur et la fondation d’une petite Icarie — édition in-douze de la nouvelle Jérusalem ; et pour donner une réalité à tous ces châteaux en Espagne, ils se voient forcés de faire appel aux cœurs et aux caisses des bourgeois.",
-    "Petit à petit, ils tombent dans la catégorie des socialistes réactionnaires ou conservateurs, dépeints plus haut, et ne s’en distinguent plus que par un pédantisme plus systématique et une foi superstitieuse et fanatique dans l’efficacité miraculeuse de leur science sociale."
+    "L’importance du socialisme et du communisme critico-utopiques est en raison inverse du développement historique.",
+    "À mesure que la lutte des classes se développe et prend forme, cette façon fantastique de s’élever au-dessus d’elle, cette opposition fantastique qu’on lui livre perdent toute valeur pratique, toute justification théorique.",
+    "Si donc les auteurs de ces systèmes étaient, à maints égards, des révolutionnaires, les sectes formées par leurs disciples sont toujours réactionnaires.",
+    "Ces disciples s’obstinent à maintenir les vieilles conceptions de leurs maîtres en face de l’évolution historique du prolétariat.",
+    "Ils cherchent donc avec obstination à émousser à nouveau la lutte des classes et à concilier les antagonismes.",
+    "Ils continuent de rêver à la réalisation expérimentale de leurs utopies sociales, à la fondation de phalanstères isolés, à la création de colonies à l’intérieur (Home-colonies), à l’érection d’une petite Icarie — édition in-douze du nouveau Jérusalem —, et pour bâtir tous ces châteaux en Espagne, ils en sont réduits à faire appel à la philanthropie des cœurs et des bourses des bourgeois."
   ],
   "ch3_p51": [
-    "Petit à petit, ils tombent dans la catégorie des socialistes réactionnaires ou conservateurs, dépeints plus haut, et ne s’en distinguent plus que par un pédantisme plus systématique et une foi superstitieuse et fanatique dans l’efficacité miraculeuse de leur science sociale.",
-    "Ils s’opposent donc avec acharnement à toute action politique de la classe ouvrière, une pareille action ne pouvant provenir, à leur avis, que d’un aveugle manque de foi dans le nouvel évangile."
+    "Peu à peu, ils tombent dans la catégorie des socialistes réactionnaires ou conservateurs dépeints plus haut, et ne s’en distinguent plus guère que par un pédantisme plus systématique et par une foi superstitieuse et fanatique dans les vertus miraculeuses de leur science sociale.",
+    "Ils s’opposent donc avec acharnement à tout mouvement politique des ouvriers, qui ne saurait provenir, à leurs yeux, que d’un aveugle manque de foi dans le nouvel évangile."
   ],
   "ch3_p52": [
-    "Les Owenistes en Angleterre, les Fouriéristes en France réagissent, là contre les Chartistes, ici contre les Réformistes."
-  ]
+    "Les owenistes en Angleterre et les fouriéristes en France réagissent, là-bas contre les chartistes, ici contre les réformistes."
+  ],
 };
 
 

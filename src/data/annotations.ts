@@ -3,6 +3,8 @@
 // ZÉRO regroupement de mots adjacents dans la traduction, le sens littéral ou l'étymologie.
 
 import type { Annotation } from '../types';
+import { annotationsCh2 } from './annotations_ch2';
+import { annotationsCh3Ch4 } from './annotations_ch3_ch4';
 
 export const annotations: Record<string, Annotation> = {
   "ch0_p1_s1_w1": {
@@ -76,29 +78,29 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p1_s1_w9": {
     "wordId": "ch0_p1_s1_w9",
-    "translationFr": "le spectre",
-    "literalTranslation": "le spectre (nom déterminé par l'article défini)",
-    "contextNote": "Répétition anaphorique martelée : le spectre indéfini de la première partie de phrase (« Ein Gespenst ») est maintenant identifié et défini sans équivoque (« das Gespenst »).",
-    "grammaticalRole": "Nom neutre singulier (das Gespenst) au nominatif, en apposition explicative au sujet initial.",
-    "philosophicalContext": "La répétition souligne le basculement d'une vague peur diffuse à la désignation explicite du communisme moderne.",
+    "translationFr": "spectre / fantôme",
+    "literalTranslation": "spectre, apparition terrifiante, revenant (nominatif neutre singulier)",
+    "contextNote": "Reprise anaphorique solennelle du terme « Gespenst ». Marx lève ici l'indétermination du premier « Ein Gespenst » (un spectre indéfini) pour identifier formellement la puissance historique qui terrifie les cours européennes : le communisme.",
+    "grammaticalRole": "Nom neutre singulier (das Gespenst) au nominatif, noyau du second groupe nominal sujet en apposition explicative.",
+    "philosophicalContext": "Jacques Derrida (« Spectres de Marx », 1993) a mis en lumière la puissance ontologique de cette spectralité : le communisme n'est pas encore un État institué ni une armée officielle, mais il hante déjà l'Europe entière comme la mauvaise conscience des classes dirigeantes et l'imminence inéluctable du dépassement de la société bourgeoise.",
     "relatedConcepts": [
       "gespenst",
-      "def_art",
       "nom"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch0_p1_s1_w9"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « gespenst(e) » (illusion diabolique, leurre trompeur, fantôme), lui-même issu du vieux haut-allemand « gispansti » (tentation, piège, séduction démoniaque), déverbal du verbe fort « spanan » (attirer, séduire, tenter par ruse). En ancien haut-allemand et moyen haut-allemand, le mot ne désigne pas un simple fantôme au sens moderne, mais un piège démoniaque destiné à fourvoyer les âmes (étymon conservé dans l'adjectif « abspenstig » = détourné de sa fidélité). Le terme s'est fixé au XVIe siècle avec Martin Luther au sens moderne d'apparition spectrale terrifiante."
   },
   "ch0_p1_s1_w11": {
     "wordId": "ch0_p1_s1_w11",
-    "translationFr": "du communisme",
-    "literalTranslation": "du communisme (complément déterminatif au génitif)",
-    "contextNote": "Nom masculin terminé par le suffixe savant gréco-latin -us, qui ne prend pas la désinence -es habituelle au génitif masculin.",
-    "grammaticalRole": "Nom masculin (der Kommunismus) au génitif singulier, précédé de l'article défini masculin au génitif « des ».",
-    "etymology": "Emprunt savant au latin classique « communis » (partagé, public, universel, composé de « com- » = ensemble et de l'adjectif archaïque « *munis » = qui s'acquitte de sa charge civique, racine de *munus* / charge, office). Le terme politique moderne « communisme » a été forgé en France vers 1840 au sein des sociétés secrètes révolutionnaires néo-babouvistes (notamment par Théodore Dézamy et Étienne Cabet) avant d'être transposé en allemand par les émigrés de la Ligue des justes.",
-    "philosophicalContext": "Chez Marx et Engels, le communisme ne désigne pas un état de choses à créer ou un idéal moral, mais « le mouvement réel qui abolit l'état actuel des choses » (L'Idéologie allemande, 1845).",
+    "translationFr": "communisme",
+    "literalTranslation": "communisme, doctrine de la mise en commun des moyens de production (génitif masculin singulier)",
+    "contextNote": "Complément du nom déterminant le spectre (« Gespenst »). Lafargue traduit par « du communisme », mais le mot isolé est le substantif au génitif sans préposition.",
+    "grammaticalRole": "Nom masculin singulier (der Kommunismus) au génitif singulier en -us déterminé par l'article « des ».",
+    "etymology": "Formé sur l'adjectif latin « communis » (commun, partagé par tous, issu de con- « ensemble » et de munus « don, charge civique, devoir partagé », de la racine indo-européenne *mey- « échanger ») au moyen du suffixe doctrinal grec et latin « -ismus ». Apparu en français vers 1840 sous la plume de Cabat et des cercles néo-babouvistes pour désigner l'abolition de la propriété privée bourgeoise, le terme est repris par Marx et Engels pour démarquer leur conception matérialiste et scientifique de la lutte de classe des utopies sentimentales du « socialisme » bourgeois ou petit-bourgeois.",
+    "philosophicalContext": "Dans l'Idéologie allemande (1845-1846), Marx et Engels définissent sans équivoque le terme : « Le communisme n'est pour nous ni un état qui doit être créé, ni un idéal sur lequel la réalité devra se régler. Nous appelons communisme le mouvement réel qui abolit l'état actuel. »",
     "cognatesFr": [
       "communisme",
       "commun",
@@ -107,8 +109,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "relatedConcepts": [
       "gen",
-      "communism",
-      "latin_root"
+      "latin_root",
+      "communism"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -134,26 +136,27 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p1_s2_w4": {
     "wordId": "ch0_p1_s2_w4",
-    "translationFr": "de la vieille",
-    "literalTranslation": "vieux, antique, d'autrefois (adjectif au génitif faible)",
-    "contextNote": "La « vieille Europe » renvoie aux monarchies vermoulues issues du Congrès de Vienne (1815) et à l'ordre féodal agonisant.",
-    "grammaticalRole": "Adjectif qualificatif (alt) décliné au génitif neutre singulier (flexion faible en -en après le déterminant défini « des »).",
+    "translationFr": "vieux / ancien",
+    "literalTranslation": "vieux, ancien, d'âge mûr (adjectif au génitif neutre singulier)",
+    "contextNote": "Qualifie « Europa » au génitif singulier. L'adjectif désigne l'Europe dynastique, féodale et absolutiste du Congrès de Vienne (1815), condamnée par le mouvement révolutionnaire de 1848.",
+    "grammaticalRole": "Adjectif qualificatif décliné au génitif neutre singulier en -en après l'article défini « des » (déclinaison faible).",
     "relatedConcepts": [
-      "decl",
-      "gen"
+      "gen",
+      "decl"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "basic",
     "wordIds": [
       "ch0_p1_s2_w4"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « alt », vieux haut-allemand « alt » (vieux, âgé, ancien), du proto-germanique *aldaz (ayant grandi, nourri, mûr), participe passé de la racine germanique *alaną (nourrir, faire croître, cognat du latin alere d'où alumnus, altus)."
   },
   "ch0_p1_s2_w10": {
     "wordId": "ch0_p1_s2_w10",
     "translationFr": "sainte",
-    "literalTranslation": "saint, sacré, consacré religieusement",
+    "literalTranslation": "sacrée, sainte, consacrée par la religion (adjectif au datif féminin singulier)",
     "contextNote": "Lafargue traduit « en une Sainte-Alliance pour traquer ». En allemand, « zu einer heiligen Hetzjagd » qualifie directement la battue de « sainte », parodiant l'appellation mystique de la Sainte-Alliance de 1815.",
     "grammaticalRole": "Adjectif (heilig) décliné au datif féminin singulier après l'article indéfini « einer » (flexion mixte en -en).",
-    "philosophicalContext": "Sarcasme anti-religieux mordant : les monarques habillent leur répression policière du manteau de la sainteté théologique.",
+    "philosophicalContext": "Ironie antireligieuse : le qualificatif chrétien de « saint » sert à sanctifier une féroce coalition contre-révolutionnaire.",
     "relatedConcepts": [
       "decl",
       "dat",
@@ -162,20 +165,21 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "wordIds": [
       "ch0_p1_s2_w10"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « heilic », vieux haut-allemand « heilig » (sacré, saint, inviolable), dérivé au moyen du suffixe « -ig » sur le substantif « Heil » (salut, bonheur, santé, intégrité, du proto-germanique *hailagaz = intègre, consacré aux dieux, cognat de l'anglais holy). Employé par Marx de façon hautement sarcastique pour parodier la Sainte-Alliance de 1815 en une « sainte battue policière »."
   },
   "ch0_p1_s2_w11": {
     "wordId": "ch0_p1_s2_w11",
     "translationFr": "traque / battue / chasse acharnée",
-    "literalTranslation": "chasse à courre avec meute de chiens excités, battue impitoyable",
-    "contextNote": "Mot très dur du registre de la vénerie. Hetzen signifie lancer les chiens et traquer la bête sans lui laisser de répit. Lafargue a traduit par « pour traquer ce spectre » afin de conserver le dynamisme de la chasse.",
-    "grammaticalRole": "Nom composé féminin (die Hetzjagd), au datif singulier après la préposition « zu » indiquant ici le but de la coalition.",
-    "etymology": "Composé cynégétique associant : 1° « hetzen » (en moyen haut-allemand « hetzen », en vieux haut-allemand « hezzen »), formation causative germanique (*hatjanan) rattachée au verbe « hassen » (vieux haut-allemand « hazzōn », racine germanique commune *hataz « haine ») signifiant originellement « exciter à la haine, lancer les meutes de chiens aux trousses de la bête pour la traquer » ; 2° « die Jagd » (en moyen haut-allemand « jaget », en vieux haut-allemand « jagōd », déverbal de jagōn = chasser, poursuivre à vive allure). Marx détourne sarcastiquement le vocabulaire de la vénerie aristocratique pour dépeindre la Sainte-Alliance comme une meute de veneurs lancée aux trousses du spectre communiste.",
-    "philosophicalContext": "Marx dénonce la sauvagerie bestiale des gouvernements qui traitent les militants politiques comme du gibier traqué par des meutes policières.",
+    "literalTranslation": "chasse à courre avec meute de chiens excités, battue impitoyable (datif féminin singulier)",
+    "contextNote": "Mot d'une dureté sarcastique emprunté au lexique de la vénerie : hetzen signifie exciter la meute de chiens pour harceler la bête sans lui laisser aucun répit. Lafargue a traduit par « pour traquer ce spectre » afin de préserver l'élan dynamique de la métaphore cynégétique.",
+    "grammaticalRole": "Nom composé féminin singulier (die Hetzjagd) au datif singulier après la préposition « zu » marquant le but assigné à l'alliance.",
+    "etymology": "Composé cynégétique formé de : 1° « hetzen » (en moyen haut-allemand « hetzen », en vieux haut-allemand « hezzen »), formation causative germanique (*hatjanan) issue de la racine germanique *hataz (« haine », d'où l'allemand hassen), signifiant originellement « exciter à la haine, lancer une meute de chiens furieux aux trousses d'une proie » ; 2° « die Jagd » (en moyen haut-allemand « jaget », en vieux haut-allemand « jagōd », déverbal de jagōn = chasser, poursuivre à la course).",
+    "philosophicalContext": "Parodie cynégétique de la « Sainte-Alliance » de 1815 : Marx dépeint avec un mépris cinglant les souverains d'Europe (pape et tsar, Metternich et Guizot, radicaux français et policiers prussiens) coalisés non dans une foi chrétienne solennelle, mais dans une meute de veneurs policiers déchaînés pour abattre le mouvement ouvrier naissant.",
     "relatedConcepts": [
       "comp_noun",
       "dat",
-      "comp_word"
+      "feudalism"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -216,42 +220,46 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p1_s2_w18": {
     "wordId": "ch0_p1_s2_w18",
-    "translationFr": "le pape",
-    "literalTranslation": "le pape (chef de l'Église catholique romaine)",
-    "contextNote": "Fait référence à Pie IX, qui après quelques réformes initiales en 1846 condamna sans appel toute tentative socialiste.",
-    "grammaticalRole": "Nom masculin singulier (der Papst) au nominatif, premier terme de l'énumération des coalisés.",
-    "etymology": "Emprunt très ancien du vieux haut-allemand « bābest » (attesté au XIe siècle) au latin ecclésiastique « papa » (évêque de Rome), lui-même issu du grec affectueux « pappas » (πάππας = père spirituel vénéré, patriarche). L'adjonction tardive du -t parasite final en haut-allemand s'explique par attraction phonétique et analogique avec les participes passés et superlatifs en -t. Le pape (alors Pie IX) incarne pour Marx le sommet de la réaction théocratique coalisée contre la démocratie populaire.",
+    "translationFr": "pape",
+    "literalTranslation": "pape, chef suprême de l'Église catholique romaine (nominatif masculin singulier)",
+    "contextNote": "Mentionné sans article en tête de la parodie de coalition (« Papst und Zar »). Incarne l'autorité théocratique occidentale liguée contre les libertés populaires.",
+    "grammaticalRole": "Nom masculin singulier (der Papst) au nominatif sans article, premier sujet coordonné en apposition à « Alle Mächte ».",
+    "etymology": "Emprunt ancien (dès le IXe siècle) au latin ecclésiastique « papa » (évêque, père spirituel), lui-même issu du grec chrétien « pápas » (πάπας, titre affectueux donné aux prêtres et évêques, hypocoristique de patḗr = père). Le -t final en haut-allemand (vieux haut-allemand bābes / pābest, moyen haut-allemand bābest / babst / bāpst) est une consonne d'appui phonétique apparue vers le XIIIe siècle.",
     "cognatesFr": [
       "pape",
       "papauté"
     ],
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "feudalism"
     ],
     "difficulty": "basic",
     "wordIds": [
       "ch0_p1_s2_w18"
-    ]
+    ],
+    "philosophicalContext": "Pie IX (élu en 1846), d'abord salué naïvement comme réformateur libéral, s'est rapidement révélé le garant zélé de l'ordre clérical et contre-révolutionnaire le plus intransigeant."
   },
   "ch0_p1_s2_w21": {
     "wordId": "ch0_p1_s2_w21",
-    "translationFr": "le tsar",
-    "literalTranslation": "le tsar (empereur autocratique de toutes les Russies)",
-    "contextNote": "Nicolas Ier de Russie, surnommé le « gendarme de l'Europe », prêt à envoyer ses cosaques réprimer tout soulèvement populaire.",
-    "grammaticalRole": "Nom masculin singulier (der Zar) au nominatif.",
-    "etymology": "Emprunt au russe « tsar » (царь), issu du vieux slave d'église « cěsari », lui-même emprunté au latin classique « Caesar » (cognomen de Jules César devenu titre impérial romain suprême sous Auguste). L'étymon a été reçu deux fois en territoire germanique : très précocement sous la forme « Kaiser », puis plus tardivement via le monde slave sous la forme « Zar ». Nicolas Ier incarne en 1848 le gendarme absolutiste de l'Europe, garant militaire du statu quo féodal.",
+    "translationFr": "tsar",
+    "literalTranslation": "tsar, empereur autocratique de toutes les Russies (nominatif masculin singulier)",
+    "contextNote": "Deuxième tête de la coalition réactionnaire (« Papst und Zar »). Incarne la puissance militaire écrasante de l'Empire russe, gendarme de l'Europe contre les insurrections démocratiques.",
+    "grammaticalRole": "Nom masculin singulier (der Zar) au nominatif sans article, coordonné à « Papst » par « und ».",
+    "etymology": "Emprunt au russe « car' » (царь), issu du vieux slave ecclésiastique « cěsarĭ » (цѣсарь), lui-même emprunté très tôt au nom propre latin « Caesar » (titre des empereurs romains, devenu le symbole de l'autocratie impériale, qui a également donné l'allemand « Kaiser »).",
     "cognatesFr": [
       "tsar",
       "tzar",
       "césarisme"
     ],
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "feudalism"
     ],
-    "difficulty": "basic",
+    "difficulty": "intermediate",
     "wordIds": [
       "ch0_p1_s2_w21"
-    ]
+    ],
+    "philosophicalContext": "Nicolas Ier régnait en autocrate absolu. La Russie tsariste constituait pour Marx et Engels le bastion stratégique de la contre-révolution européenne, toujours prête à envoyer ses troupes écraser les révolutions en Occident (comme en Hongrie en 1849)."
   },
   "ch0_p1_s2_w23": {
     "wordId": "ch0_p1_s2_w23",
@@ -600,18 +608,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p4_s1_w11": {
     "wordId": "ch0_p4_s1_w11",
-    "translationFr": "une puissance",
-    "literalTranslation": "une puissance (attribut du sujet introduit par als)",
-    "contextNote": "Jeu de miroir dialectique magistral : les puissances (« Mächte ») européennes reconnaissent le communisme comme puissance (« Macht »).",
-    "grammaticalRole": "Nom féminin singulier (die Macht) au nominatif après la conjonction de comparaison/statut « als ».",
-    "philosophicalContext": "Ce passage consacre le saut qualitatif du communisme : d'une opinion clandestine pourchassée, il est devenu un acteur historique autonome et redouté.",
+    "translationFr": "puissance / force",
+    "literalTranslation": "puissance politique reconnue, force matérielle souveraine (accusatif féminin singulier)",
+    "contextNote": "Attribut du sujet au passif après « als ». Lafargue traduit « comme une puissance », mais le mot isolé est le substantif féminin sans déterminant.",
+    "grammaticalRole": "Nom féminin singulier (die Macht) à l'accusatif singulier après la conjonction de comparaison attributive « als » et le déterminant « eine ».",
+    "philosophicalContext": "Reconnaissance dialectique : le communisme est passé du statut d'opinion clandestine à celui de force historique objective pesant sur l'échiquier politique du continent.",
     "relatedConcepts": [
-      "nom"
+      "acc"
     ],
     "difficulty": "intermediate",
     "wordIds": [
       "ch0_p4_s1_w11"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « maht », vieux haut-allemand « maht » (puissance, capacité de contraindre et de régir), déverbal de la racine du verbe mögen (vieux haut-allemand magan = avoir le pouvoir physique et politique)."
   },
   "ch0_p4_s1_w12": {
     "wordId": "ch0_p4_s1_w12",
@@ -631,14 +640,17 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p5_s1_w4": {
     "wordId": "ch0_p5_s1_w4",
-    "translationFr": "grand temps",
-    "literalTranslation": "temps culminant, heure haute (locution idiomatique)",
-    "contextNote": "Lafargue traduit exactement par « Il est grand temps ». En allemand, « hohe Zeit » évoque le moment opportun culminant qui ne saurait être différé.",
-    "grammaticalRole": "Locution nominale au nominatif : adjectif « hoch » (décliné « hohe » sans déterminant au féminin) + nom « die Zeit ».",
-    "etymology": "Locution temporelle solennelle : « hoch » (haut, élevé, du vieux haut-allemand hōh, racine germanique *hauhaz) + « die Zeit » (le moment, l'époque, du vieux haut-allemand zīt, racine germanique *tīdiz, cognat de l'anglais tide / time). Utilisée dès le moyen haut-allemand (« hôhe zît ») pour désigner un temps de fête sacrée ou d'accomplissement décisif (qui a aussi donné Hochzeit / mariage). Dans la prose de Marx, elle acquiert une urgence historique dramatique : « le moment critique est venu où il n'est plus permis d'attendre ».",
-    "difficulty": "intermediate",
+    "translationFr": "temps / heure / moment",
+    "literalTranslation": "temps opportun, moment critique, heure venue (nominatif féminin singulier)",
+    "contextNote": "Noyau nominal de la locution idiomatique « Es ist hohe Zeit » (Il est grand temps / L'heure critique est venue). Strictement découplé de l'adjectif « hohe ».",
+    "grammaticalRole": "Nom féminin singulier (die Zeit) au nominatif singulier attribut du sujet impersonnel « Es » et qualifié par « hohe ».",
+    "etymology": "Issu du moyen haut-allemand « zīt », vieux haut-allemand « zīt » (temps, époque, moment favorable, heure prescrite). Du proto-germanique *tīdiz (division temporelle, heure propice), rattaché à la racine indo-européenne *dāy- / *dī- (partager, diviser, fendre). Cognat direct de l'anglais « tide » (marée, temps propice) et « time ». Dans la prose de Marx, le substantif prend un tour d'urgence révolutionnaire : le délai historique accordé à la clandestinité est expiré.",
+    "difficulty": "basic",
     "wordIds": [
       "ch0_p5_s1_w4"
+    ],
+    "relatedConcepts": [
+      "nom"
     ]
   },
   "ch0_p5_s1_w10": {
@@ -693,14 +705,16 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p5_s1_w21": {
     "wordId": "ch0_p5_s1_w21",
-    "translationFr": "ouvertement / à la face du monde",
-    "literalTranslation": "ouvert, de façon ouverte, sans dissimulation",
+    "translationFr": "ouvertement / publiquement",
+    "literalTranslation": "ouvertement, sans dissimulation (adverbe / adjectif prédicatif)",
     "contextNote": "Adjectif employé comme adverbe modifiant « darlegen ».",
     "grammaticalRole": "Adjectif employé adverbialement.",
     "difficulty": "basic",
     "wordIds": [
       "ch0_p5_s1_w21"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « offen », vieux haut-allemand « offan » (ouvert, dégagé, public, manifeste), du proto-germanique *upana- (ouvert vers le haut, apparenté à auf / up).",
+    "philosophicalContext": "Principe fondamental de la publicité communiste : le prolétariat rejette les conspirations de loges pour proclamer ses buts devant la société entière."
   },
   "ch0_p5_s1_w22": {
     "wordId": "ch0_p5_s1_w22",
@@ -736,23 +750,25 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p5_s1_w31": {
     "wordId": "ch0_p5_s1_w31",
-    "translationFr": "un manifeste",
-    "literalTranslation": "un manifeste, une déclaration publique et solennelle",
-    "contextNote": "Terme éponyme de l'ouvrage. Titre et genre littéraire politique révolutionnaire.",
-    "grammaticalRole": "Nom neutre singulier (das Manifest) à l'accusatif, COD de « entgegenstellen ».",
-    "etymology": "Emprunté au XVIe siècle par l'intermédiaire de l'italien « manifesto » au latin classique « manifestus » (littéralement « palpable, touché de la main », composé de manus = main et du morphème verbal *-festus, apparenté au verbe archaïque *fendere = heurter, frapper, d'où ce qui est si évident qu'on le touche du doigt). Le Manifeste est la déclaration programmatique de principes clairs qui substitue la lumière de l'action publique aux complots de sectes secrètes.",
+    "translationFr": "manifeste",
+    "literalTranslation": "manifeste, déclaration publique écrite, proclamation solennelle (accusatif neutre singulier)",
+    "contextNote": "Complément d'objet opposé au conte d'enfants (« ein Manifest ... entgegenzustellen »). Lafargue traduit « un manifeste », mais le terme est le nom neutre sans article.",
+    "grammaticalRole": "Nom neutre singulier (das Manifest) à l'accusatif singulier après l'article indéfini « ein ».",
+    "etymology": "Emprunt au XVIe siècle au latin classique « manifestus » (évident, palpable, flagrant, originellement frappé de la main, composé de manus « main » et de fendere « heurter, frapper »), substantivé au XVIIe siècle en italien (manifesto) puis en français et en allemand pour désigner la déclaration publique solennelle d'un souverain ou d'un parti politique exposant ses principes au grand jour.",
     "cognatesFr": [
       "manifeste",
       "manifester",
       "manifestation"
     ],
     "relatedConcepts": [
+      "acc",
       "latin_root"
     ],
-    "difficulty": "basic",
+    "difficulty": "intermediate",
     "wordIds": [
       "ch0_p5_s1_w31"
-    ]
+    ],
+    "philosophicalContext": "L'acte d'écriture du Manifeste est un geste de rupture politique fondamentale : substituer à la clandestinité conspirative (celle des carbonari et de la Ligue des justes) la publicité intégrale, transparente et théorique de la lutte révolutionnaire."
   },
   "ch0_p5_s1_w35": {
     "wordId": "ch0_p5_s1_w35",
@@ -790,18 +806,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p6_s1_w8": {
     "wordId": "ch0_p6_s1_w8",
-    "translationFr": "des plus diverses",
-    "literalTranslation": "les plus diverses, les plus variées (superlatif au génitif)",
-    "contextNote": "Souligne l'internationalisme concret des délégués réunis à Londres (Allemands, Français, Belges, Suisses, Britanniques).",
-    "grammaticalRole": "Adjectif qualificatif au superlatif de supériorité (verschieden -> am verschiedensten), décliné au génitif féminin singulier en -en après l'article « der ».",
+    "translationFr": "très diverses / extrêmement variées",
+    "literalTranslation": "très diverses, extrêmement différenciées (superlatif au datif féminin pluriel)",
+    "contextNote": "Qualifie « Nationalitäten ». Souligne le caractère cosmopolite et multinational des délégués ouvriers réunis à Londres. Découplé de toute préposition.",
+    "grammaticalRole": "Adjectif qualificatif au superlatif absolu décliné au génitif féminin pluriel en -en après l'article « der ».",
     "relatedConcepts": [
-      "decl",
-      "gen"
+      "gen",
+      "decl"
     ],
     "difficulty": "intermediate",
     "wordIds": [
       "ch0_p6_s1_w8"
-    ]
+    ],
+    "etymology": "Participe passé adjectivé du verbe « verscheiden » (séparer, distinguer, mourir, du moyen haut-allemand verscheiden, de ver- et scheiden = séparer, vieux haut-allemand sceidan, racine proto-germanique *skaidanan)."
   },
   "ch0_p6_s1_w12": {
     "wordId": "ch0_p6_s1_w12",
@@ -853,15 +870,15 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p1_s1_w2": {
     "wordId": "ch1_p1_s1_w2",
-    "translationFr": "L'histoire",
-    "literalTranslation": "l'histoire (processus temporel et récit des événements advenus)",
-    "contextNote": "Mot inaugural de la thèse matérialiste du chapitre. Sujet de la phrase la plus célèbre du marxisme.",
-    "grammaticalRole": "Nom féminin singulier (die Geschichte) au nominatif avec l'article défini.",
-    "etymology": "Substantif abstrait issu du moyen haut-allemand « geschiht » (événement marquant, affaire survenue, destin, récit d'un fait), déverbal féminin en *-ti* du verbe fort « geschehen » (survenir promptement, se produire, vieux haut-allemand giskehan, racine germanique *ga-skehanan). C'est seulement au XVIIIe siècle, sous l'influence des Lumières et de Herder, que « Geschichte » au singulier collectif sans pluriel s'est imposé pour désigner le processus historique global et la science du devenir humain, supplantant l'emprunt latin Historie.",
-    "philosophicalContext": "Rupture décisive avec l'idéalisme de Hegel : l'histoire n'est pas la réalisation de l'Esprit absolu ou d'un dessein divin, mais l'histoire matérielle des conditions réelles d'existence et des luttes pour le surplus social.",
+    "translationFr": "histoire",
+    "literalTranslation": "histoire, procès historique objectif de devenir social (nominatif féminin singulier)",
+    "contextNote": "Premier mot plein et concept inaugural du corps du Manifeste. Strictement découplé de l'article défini « Die » (ch1_p1_s1_w1).",
+    "grammaticalRole": "Nom féminin singulier (die Geschichte) au nominatif singulier, sujet grammatical de la proposition maîtresse régissant « ist ».",
+    "etymology": "Issu du moyen haut-allemand « geschiht » (événement qui advient, occurrence du destin, affaire), vieux haut-allemand « giskiht » (événement, survenue, décret divin). Déverbal préfixé en « ge- » formé sur le radical du verbe fort « geschehen » (arriver, advenir, se produire, en moyen haut-allemand geschehen, vieux haut-allemand giskehan, proto-germanique *skehaną = s'élancer, bondir). Le terme a évolué au XVIIIe siècle, notamment sous l'impulsion de Herder et de Hegel, du récit particulier (une histoire, une chronique) vers le singulier collectif absolu « die Geschichte » désignant le procès unitaire et objectif de développement de l'humanité.",
+    "philosophicalContext": "Formulation inaugurale du matérialisme historique (thèse 1848) : l'histoire humaine n'est pas le produit de volontés individuelles héroïques, d'idées providentielles ou d'une fatalité aveugle, mais le résultat objectif des luttes matérielles de classes. Engels ajoutera en note en 1888 la précision décisive : « ou plus exactement l'histoire écrite », réservant la communauté primitive sans classes découverte par Morgan et Maurer.",
     "relatedConcepts": [
-      "hist_mat",
-      "nom"
+      "nom",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -1098,16 +1115,20 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p2_s1_w21": {
     "wordId": "ch1_p2_s1_w21",
     "translationFr": "opprimés",
-    "literalTranslation": "ceux qui sont opprimés, écrasés sous le poids",
-    "contextNote": "Pôle dominé symétrique du rapport d'exploitation.",
-    "grammaticalRole": "Participe passé substantivé décliné au nominatif pluriel sans article (flexion forte en -e : Unterdrückte).",
+    "literalTranslation": "les opprimés, ceux qui sont écrasés sous le joug (nominatif masculin pluriel substantivé)",
+    "contextNote": "Second terme du couple antithétique « Unterdrücker und Unterdrückte » (oppresseurs et opprimés).",
+    "grammaticalRole": "Participe passé du verbe inséparable « unterdrücken » employé comme substantif décliné au nominatif pluriel sans article.",
     "relatedConcepts": [
-      "exploitation"
+      "nom",
+      "plural",
+      "class_struggle"
     ],
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p2_s1_w21"
-    ]
+    ],
+    "etymology": "Composé du préfixe verbal locatif inséparable « unter- » (en dessous, sous le joug, vieux haut-allemand untar) et du verbe « drücken » (presser, écraser, comprimer avec force, du moyen haut-allemand drücken, vieux haut-allemand drucchen, proto-germanique *thrukjaną = exercer une pression violente).",
+    "philosophicalContext": "La contradiction dialectique fondamentale : le terme passif (Unterdrückte) ne désigne pas des victimes résignées, mais le pôle opprimé dont la résistance souterraine ou ouverte constitue la force motrice de la crise sociale."
   },
   "ch1_p2_s1_w25": {
     "wordId": "ch1_p2_s1_w25",
@@ -1160,8 +1181,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w36": {
     "wordId": "ch1_p2_s1_w36",
-    "translationFr": "ouverte / déclarée",
-    "literalTranslation": "ouverte, déclarée au grand jour",
+    "translationFr": "ouvert / déclaré",
+    "literalTranslation": "ouvert au grand jour, public, déclaré (adjectif à l'accusatif masculin singulier)",
     "contextNote": "Antithèse de « versteckt » : passage à la confrontation révolutionnaire ouverte.",
     "grammaticalRole": "Adjectif qualificatif au masculin accusatif singulier en -en.",
     "relatedConcepts": [
@@ -1170,7 +1191,8 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic",
     "wordIds": [
       "ch1_p2_s1_w36"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « offen », vieux haut-allemand « offan » (manifeste, public, non masqué)."
   },
   "ch1_p2_s1_w47": {
     "wordId": "ch1_p2_s1_w47",
@@ -1192,12 +1214,12 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w56": {
     "wordId": "ch1_p2_s1_w56",
-    "translationFr": "destruction commune / ruine mutuelle",
-    "literalTranslation": "naufrage commun, effondrement partagé vers le bas",
-    "contextNote": "Lafargue traduit « par la destruction des deux classes en lutte ». En allemand, « Untergang » évoque un naufrage ou un écroulement historique total.",
-    "grammaticalRole": "Nom composé masculin (der Untergang) au datif singulier après « mit dem ».",
-    "etymology": "Substantif dramatique unissant la préposition « unter » (vers le fond, dans les profondeurs) et le nom d'action « der Gang » (la marche, l'allée, moyen haut-allemand ganc, vieux haut-allemand gang, déverbal fort du verbe gehen). Littéralement « la descente au tombeau, le naufrage irrémédiable ». Appliqué au coucher des astres (Sonnenuntergang), il acquiert chez Marx une résonance tragique : si la classe révolutionnaire ne parvient pas à abattre l'ancien monde, la guerre civile s'achève par la ruine commune des belligérants.",
-    "philosophicalContext": "Second terme capital de l'alternative dialectique : la lutte des classes n'aboutit pas fatalement au progrès ; si aucune classe n'est capable d'opérer la refonte révolutionnaire, le conflit peut se solder par la ruine mutuelle et la barbarie (comme l'effondrement de l'Empire romain d'Occident).",
+    "translationFr": "ruine / perte / effondrement",
+    "literalTranslation": "naufrage, effondrement vers le bas, écroulement irrémédiable (datif masculin singulier)",
+    "contextNote": "Lafargue traduit « par la destruction des deux classes en lutte ». Untergang désigne littéralement la descente dans l'abîme ou le naufrage total d'un navire. Strictement découplé de l'adjectif « gemeinsamen ».",
+    "grammaticalRole": "Nom composé masculin singulier (der Untergang) au datif singulier avec la désinence archaïque -e après « mit dem ».",
+    "etymology": "Substantif dramatique formé de la préposition germanique « unter » (en dessous, vers le bas, vieux haut-allemand untar, proto-germanique *under) et du déverbal « der Gang » (la marche, l'allée, en moyen haut-allemand ganc, vieux haut-allemand gang, issu du verbe fort gehen = aller, marcher). Évoque littéralement la marche vers l'abîme, le coucher d'un astre (Sonnenuntergang) ou le naufrage irrémédiable d'un navire.",
+    "philosophicalContext": "Second terme capital de l'alternative dialectique posée par Marx : le cours de l'histoire n'est nullement voué à un progrès inéluctable ; si la classe exploitée ne parvient pas à abattre révolutionnairement la classe dominante, la lutte peut s'achever par la barbarie et l'effondrement mutuel des classes en conflit (comme lors de la décomposition de l'Empire romain d'Occident).",
     "relatedConcepts": [
       "comp_noun",
       "dat",
@@ -1328,8 +1350,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p4_s1_w8": {
     "wordId": "ch1_p4_s1_w8",
-    "translationFr": "issue / née des ruines",
-    "literalTranslation": "qui est sortie en s'avançant hors de (participe adjectivé)",
+    "translationFr": "issue / née de",
+    "literalTranslation": "émanée, sortie hors des ruines (participe passé au nominatif féminin singulier)",
     "contextNote": "Lafargue traduit par « élevée sur les ruines de la société féodale ». En allemand, c'est un participe parfait adjectivé (hervorgegangen) encadré dans un groupe participial épithète typique de la syntaxe savante allemande.",
     "grammaticalRole": "Participe parfait adjectivé de « hervorgehen », décliné au nominatif féminin singulier en -e après « die ».",
     "syntaxNote": "Construction participiale étendue allemande : « Die [aus dem Untergange...] hervorgegangene moderne bürgerliche Gesellschaft ». Le complément précède le participe placé avant le nom.",
@@ -1340,19 +1362,20 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p4_s1_w8"
-    ]
+    ],
+    "etymology": "Participe passé du verbe séparable « hervorgehen » (sortir en avant, émaner de, de hervor + gehen)."
   },
   "ch1_p4_s1_w10": {
     "wordId": "ch1_p4_s1_w10",
     "translationFr": "bourgeoise / civile",
-    "literalTranslation": "bourgeoise (de la bourgeoisie urbaine) ET civile (société civile)",
-    "contextNote": "En allemand, « bürgerlich » possède un double sens fondamental : il signifie à la fois « bourgeois » (relatif à la classe capitaliste) et « civil » (relatif au citoyen de la société civile).",
-    "grammaticalRole": "Adjectif qualificatif décliné au nominatif féminin singulier en -e après « die ».",
-    "etymology": "Dérivé au moyen du suffixe d'appartenance « -lich » de « der Bürger » (l'habitant libre d'un bourg fortifié, Burg). Possède en allemand classique une ambivalence philosophique cruciale : il traduit à la fois le français 'bourgeois' (la classe des propriétaires du capital) et 'civil' (le citoyen privé, membre de la société civile). Marx démontre que la « bürgerliche Gesellschaft » célébrée par Hegel n'est rien d'autre que le règne économique sans partage de la bourgeoisie marchande.",
-    "philosophicalContext": "Chez Hegel (« Principes de la philosophie du droit », 1821), la « bürgerliche Gesellschaft » est la société civile des besoins économiques privés. Marx démontre que cette prétendue société civile universelle est en réalité la dictature de classe de la bourgeoisie capitaliste.",
+    "literalTranslation": "bourgeoise (de la bourgeoisie capitaliste) et civile (adjectif au nominatif féminin singulier)",
+    "contextNote": "Adjectif central de la théorie marxienne, strictement découplé du nom voisin « Gesellschaft ».",
+    "grammaticalRole": "Adjectif qualificatif décliné au nominatif féminin singulier en -e après « die moderne ».",
+    "etymology": "Dérivé au moyen du suffixe d'appartenance « -lich » de « der Bürger » (le citoyen franc, l'habitant du bourg fortifié, Burg). Possède en allemand philosophique une ambivalence structurelle : il traduit à la fois le français « bourgeois » (la classe dominante détentrice du capital) et « civil » (le citoyen privé de la sphère des besoins).",
+    "philosophicalContext": "Critique de Hegel : dans les Principes de la philosophie du droit (1821), Hegel glorifiait la « bürgerliche Gesellschaft » comme système des besoins civils pacifiés par l'État. Marx démontre que cette prétendue société civile universelle n'est rien d'autre que l'organisation économique de la domination de classe de la bourgeoisie.",
     "relatedConcepts": [
-      "bourgeoisie",
-      "decl"
+      "nom",
+      "bourgeoisie"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -1362,37 +1385,40 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p4_s1_w14": {
     "wordId": "ch1_p4_s1_w14",
     "translationFr": "antagonismes de classes",
-    "literalTranslation": "oppositions de classes, contradictions de classes",
-    "contextNote": "Pluriel de « Klassengegensatz ». Cœur de la critique marxienne du libéralisme bourgeois.",
-    "grammaticalRole": "Nom composé masculin pluriel (die Klassengegensätze) à l'accusatif, COD de « hat ... aufgehoben ».",
-    "etymology": "Composé dialectique unissant « die Klasse » (emprunt au latin classis, division civique des citoyens romains selon leur fortune) et « der Gegensatz » (calque philosophique de l'antithèse grecque, de gegen = en face + Satz = position posée). Souligne l'incompatibilité absolue des intérêts matériels de deux pôles sociaux irréconciliables.",
+    "literalTranslation": "oppositions fondamentales et irréductibles de classes (accusatif masculin pluriel)",
+    "contextNote": "Fiche autonome complète sans renvoi.",
+    "grammaticalRole": "Nom composé masculin pluriel (die Klassengegensätze) à l'accusatif pluriel, COD de « aufgehoben ».",
+    "etymology": "Composé dialectique associant « die Klasse » (du latin classis) et « der Gegensatz » (calque philosophique du grec antíthesis, formé de gegen = en face, contre + Satz = position posée, déverbal de setzen). Développé par Hegel pour désigner la contradiction objective en mouvement.",
     "relatedConcepts": [
+      "acc",
+      "plural",
       "class_struggle",
-      "comp_noun",
-      "acc"
+      "comp_noun"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p4_s1_w14"
-    ]
+    ],
+    "philosophicalContext": "L'illusion libérale réfutée : la bourgeoisie proclamait en 1789 l'égalité universelle en droits et l'abolition des privilèges. Marx dévoile que cette égalité juridique formelle ne supprime nullement l'antagonisme de classe, mais le rend au contraire plus direct et universel."
   },
   "ch1_p4_s1_w16": {
     "wordId": "ch1_p4_s1_w16",
-    "translationFr": "abolis / surmontés dialectiquement",
-    "literalTranslation": "levés, abolis, conservés en étant dépassés (verbe hégélien canonique)",
-    "contextNote": "Lafargue traduit simplement par « n'a pas aboli ». Mais en allemand, « aufheben » est le maître-mot de toute la philosophie de Hegel. Le verbe possède trois sens indissociables : 1° Supprimer / anéantir (tollere), 2° Conserver / préserver (conservare), 3° Élever à un palier supérieur (elevare).",
-    "grammaticalRole": "Participe passé (Partizip II) du verbe fort inséparable « aufheben » (hebt auf, hob auf, aufgehoben). Forme le parfait avec « hat » en position 12.",
-    "philosophicalContext": "Thèse centrale : la société bourgeoise prétend avoir instauré l'égalité universelle en abolissant les ordres féodaux. Marx réplique qu'elle n'a pas accompli l'Aufhebung dialectique de l'antagonisme de classe : elle n'a fait que le dépouiller de ses oripeaux religieux et corporatifs pour le rendre plus direct et implacable.",
+    "translationFr": "aboli / supprimé",
+    "literalTranslation": "supprimé, aboli, dépassé dialectiquement (participe passé)",
+    "contextNote": "Terme hégélien cardinal (« Aufhebung ») employé ici dans sa portée polémique et philosophique.",
+    "grammaticalRole": "Participe passé du verbe fort séparable « aufheben » formant le passé composé avec l'auxiliaire « hat ».",
+    "philosophicalContext": "Le concept dialectique d'« Aufhebung » chez Hegel possède le triple sens de nier/supprimer, conserver/maintenir, et élever à un niveau supérieur. Marx constate sarcastiquement que la bourgeoisie n'a même pas aboli au sens ordinaire les contradictions : elle les a simplement exacerbées.",
     "syntaxNote": "Cadre de la proposition principale (Satzklammer) : l'auxiliaire conjugué « hat » est en position 12 et le participe « aufgehoben » clôt la phrase en position 16 après la négation « nicht ».",
     "relatedConcepts": [
-      "aufhebung",
-      "hist_mat",
-      "prefix_verb"
+      "past",
+      "sep_verb",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p4_s1_w16"
-    ]
+    ],
+    "etymology": "Formé du préverbe germanique séparable « auf- » (vers le haut, vieux haut-allemand ūf) et du verbe fort « heben » (lever, soulever, en vieux haut-allemand heffan, proto-germanique *habjaną)."
   },
   "ch1_p4_s2_w8": {
     "wordId": "ch1_p4_s2_w8",
@@ -1428,18 +1454,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p4_s2_w21": {
     "wordId": "ch1_p4_s2_w21",
-    "translationFr": "substitué / posé à la place de",
-    "literalTranslation": "posé, placé à la place de (locution an die Stelle setzen)",
-    "contextNote": "Lafargue traduit « Elle n'a fait que substituer [...] à celles d'autrefois ». En allemand, la tournure idiomatique est « an die Stelle setzen » (+ génitif).",
-    "grammaticalRole": "Participe passé (Partizip II) du verbe faible « setzen », complétant l'auxiliaire « hat » (en position 2).",
+    "translationFr": "substitué / mis en place",
+    "literalTranslation": "posé, institué, établi à la place de (participe passé)",
+    "contextNote": "Participe passé fermant la proposition après l'auxiliaire « hat ».",
+    "grammaticalRole": "Participe passé du verbe faible transitif « setzen » formant le parfait avec « hat ».",
     "syntaxNote": "Fermeture du cadre syntaxique verbal (Satzklammer) en dernière position.",
     "relatedConcepts": [
-      "v2"
+      "past"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p4_s2_w21"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « setzen », vieux haut-allemand « sezzen » (faire asseoir, poser, établir), causatif germanique (*satjaną) dérivé du verbe fort « sitzen » (être assis, du proto-germanique *sitjaną, racine indo-européenne *sed-)."
   },
   "ch1_p5_s1_w9": {
     "wordId": "ch1_p5_s1_w9",
@@ -1521,40 +1548,41 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p5_s2_w24": {
     "wordId": "ch1_p5_s2_w24",
-    "translationFr": "la bourgeoisie",
-    "literalTranslation": "la classe bourgeoise capitaliste moderne",
-    "contextNote": "L'un des deux acteurs majeurs de l'antagonisme moderne.",
-    "grammaticalRole": "Nom féminin singulier (die Bourgeoisie) au nominatif en apposition.",
-    "philosophicalContext": "Définie par Engels en 1888 : « On entend par bourgeoisie la classe des capitalistes modernes qui possèdent les moyens de production sociale et emploient le travail salarié ».",
+    "translationFr": "bourgeoisie",
+    "literalTranslation": "bourgeoisie, classe des capitalistes modernes possédant les moyens de production (nominatif féminin singulier)",
+    "contextNote": "Premier pôle de la scission moderne. Mentionné sans article dans le texte allemand. Strictement découplé de l'article « la ».",
+    "grammaticalRole": "Nom féminin singulier (die Bourgeoisie) au nominatif singulier sans article, premier terme de l'explicitation en apposition coordonné par « und ».",
+    "philosophicalContext": "Engels (note de 1888) : « On entend par bourgeoisie la classe des capitalistes modernes qui possèdent les moyens de production sociale et emploient le travail salarié. »",
     "cognatesFr": [
       "bourgeoisie",
       "bourgeois",
       "bourg"
     ],
     "relatedConcepts": [
-      "bourgeoisie",
-      "capital"
+      "nom",
+      "bourgeoisie"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p5_s2_w24"
-    ]
+    ],
+    "etymology": "Emprunt direct au français « bourgeoisie », dérivé de « bourgeois », issu du bas-latin « burgensis » (habitant franc d'un bourg fortifié, Burg)."
   },
   "ch1_p5_s2_w26": {
     "wordId": "ch1_p5_s2_w26",
-    "translationFr": "le prolétariat",
-    "literalTranslation": "la classe ouvrière prolétaire moderne",
-    "contextNote": "Second pôle de l'antagonisme contemporain.",
-    "grammaticalRole": "Nom neutre singulier (das Proletariat) au nominatif en apposition.",
-    "etymology": "Emprunté dans les années 1830-1840 au français « prolétariat », lui-même dérivé de « prolétaire », issu du latin classique « proletarius » (dans la constitution attribuée à Servius Tullius, citoyen de la sixième et dernière classe censitaire, non imposable et exempt du service militaire régulier car dépourvu de tout bien foncier, dont l'unique apport reconnu à la cité était sa progéniture, proles < *pro-alere = nourrir en avant). Réintroduit dans l'analyse économique moderne par Lorenz von Stein et Karl Marx pour caractériser la classe des travailleurs libres juridiquement mais dépossédés de tout moyen de production.",
-    "philosophicalContext": "Définie par Engels en 1888 : « On entend par prolétariat la classe des ouvriers salariés modernes qui, privés de leurs propres moyens de production, sont réduits à vendre leur force de travail pour vivre ».",
+    "translationFr": "prolétariat",
+    "literalTranslation": "prolétariat, classe des ouvriers salariés modernes contraints de vendre leur force de travail (nominatif neutre singulier)",
+    "contextNote": "Second pôle de la scission moderne. Mentionné sans article dans le texte allemand. Strictement découplé de l'article « le ».",
+    "grammaticalRole": "Nom neutre singulier (das Proletariat) au nominatif singulier sans article, coordonné à « Bourgeoisie » par « und ».",
+    "etymology": "Emprunt savant au latin républicain « proletarius » (citoyen romain de la dernière classe civique de Servius Tullius, exempt d'impôts et inapte au service des armes faute de biens, dont la seule contribution à la cité était sa progéniture, de « proles » = descendance, lignée). Le mot est repris par les socialistes français (notamment Auguste Blanqui) vers 1830 avant d'être érigé par Marx en concept fondamental du matérialisme historique.",
+    "philosophicalContext": "Engels (note de 1888) : « On entend par prolétariat la classe des ouvriers salariés modernes qui, ne possédant pas en propre de moyens de production, sont réduits à vendre leur force de travail pour pouvoir vivre. »",
     "cognatesFr": [
       "prolétariat",
       "prolétaire"
     ],
     "relatedConcepts": [
-      "proletariat",
-      "exploitation"
+      "nom",
+      "class_struggle"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -1581,19 +1609,21 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p6_s1_w16": {
     "wordId": "ch1_p6_s1_w16",
-    "translationFr": "population municipale des faubourgs",
-    "literalTranslation": "la collectivité des bourgeois forains (nom collectif en -schaft)",
-    "contextNote": "Lafargue traduit par « de cette population municipale ». Suffixe collectif -schaft désignant l'ensemble du corps civique des faubourgs.",
-    "grammaticalRole": "Nom composé féminin singulier (die Pfahlbürgerschaft) au datif après « aus ».",
-    "etymology": "Dérivation institutionnelle médiévale combinant le substantif « Pfahlbürger » (bourgeois du palis, réfugié dans les faubourgs fortifiés) et le suffixe germanique de collectivité statutaire « -schaft » (du moyen haut-allemand « -schaft », vieux haut-allemand « -scaf / -scāphi », issu de la racine germanique *skapaz « constitution ordonnée, état, condition légale », directement apparenté au verbe schaffen « créer, instituer, façonner » et cognat étymologique de l'anglais « -ship » dans citizenship, fellowship). En droit médiéval germanique, le morphème « -schaft » élève la condition individuelle à celle d'un corps constitué et autonome doté de droits politiques communs (cf. Bürgerschaft, Bruderschaft, Genossenschaft). Marx emploie ici « Pfahlbürgerschaft » pour désigner non un simple groupe d'individus, mais la première corporation collective et municipale des bourgeois forains, matrice institutionnelle du tiers état et berceau historique de la bourgeoisie capitaliste.",
+    "translationFr": "bourgeoisie des faubourgs / population foraine",
+    "literalTranslation": "corps des bourgeois de palissade, collectivité des bourgeois forains (datif féminin singulier)",
+    "contextNote": "Lafargue traduit « de cette population municipale ». Suffixe collectif et institutionnel -schaft désignant le corps civique autonome des faubourgs palissadés.",
+    "grammaticalRole": "Nom composé féminin singulier (die Pfahlbürgerschaft) au datif singulier après « aus dieser ».",
+    "etymology": "Composé institutionnel médiéval associant « Pfahlbürger » (bourgeois de palissade, du latin palus = pieu et Burg = château fortifié) et le suffixe germanique de corps constitué « -schaft » (moyen haut-allemand -schaft, vieux haut-allemand -scaf / -scāphi, du proto-germanique *skapaz = état, condition ordonnée, apparenté à schaffen = créer, instituer).",
     "relatedConcepts": [
       "comp_noun",
-      "dat"
+      "dat",
+      "feudalism"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p6_s1_w16"
-    ]
+    ],
+    "philosophicalContext": "Marx et Engels (MEGA2, Maximilien Rubel) soulignent ici le passage dialectique décisif de la rébellion servile individuelle à la collectivité municipale jurée : le corps constitué des bourgeois forains fournit la matrice politique et territoriale d'où émergeront les premiers éléments révolutionnaires de la bourgeoisie moderne."
   },
   "ch1_p7_s1_w2": {
     "wordId": "ch1_p7_s1_w2",
@@ -1644,15 +1674,21 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s1_w14": {
     "wordId": "ch1_p7_s1_w14",
     "translationFr": "champ d'action / terrain",
-    "literalTranslation": "terrain, espace d'activité ouvert",
-    "contextNote": "Emprunt au français « terrain » fréquemment utilisé en allemand au XIXe siècle dans le sens métaphorique d'arène d'action.",
-    "grammaticalRole": "Nom neutre singulier (das Terrain) à l'accusatif, COD du verbe « schufen ».",
+    "literalTranslation": "terrain, champ matériel d'expansion économique (accusatif neutre singulier)",
+    "contextNote": "COD de « schufen ». Métaphore spatiale de l'arène mondiale ouverte au capital.",
+    "grammaticalRole": "Nom neutre singulier (das Terrain) à l'accusatif singulier après « ein neues ».",
     "cognatesFr": [
       "terrain"
     ],
-    "difficulty": "basic",
+    "difficulty": "intermediate",
     "wordIds": [
       "ch1_p7_s1_w14"
+    ],
+    "etymology": "Emprunt au XVIIIe siècle au français « terrain », dérivé du latin classique « terrenus » (de terre, terrestre), formé sur « terra » (la terre, le sol, issu de la racine indo-européenne *ters- = sécher, terre sèche).",
+    "philosophicalContext": "Le capitalisme exige par nature une expansion géographique permanente : le « Terrain » de la bourgeoisie ne peut se cantonner aux limites de la nation, il embrasse le globe terrestre tout entier.",
+    "relatedConcepts": [
+      "acc",
+      "latin_root"
     ]
   },
   "ch1_p7_s2_w13": {
@@ -1855,35 +1891,41 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s2_w2": {
     "wordId": "ch1_p8_s2_w2",
-    "translationFr": "La manufacture",
-    "literalTranslation": "la manufacture (atelier de travail manuel concentré)",
-    "contextNote": "Lafargue traduit « La manufacture prit sa place ».",
-    "grammaticalRole": "Nom féminin singulier (die Manufaktur) au nominatif sujet.",
-    "etymology": "Emprunt technique au bas-latin humaniste « manufactura » (forgé sur le génitif/ablatif manus = main et factura = travail de façonnage, du supin factum de facere). Chez Marx, la manufacture constitue la période historique intermédiaire (du milieu du XVIe au dernier tiers du XVIIIe siècle) précédant la grande industrie mécanisée : les ouvriers sont déjà rassemblés dans un atelier unique et soumis à une division parcellaire minutieuse des tâches, mais les outils restent encore actionnés manuellement sans vapeur.",
-    "philosophicalContext": "Étape charnière entre l'artisanat corporatif médiéval dispersé et la grande industrie machiniste moderne (Fabrikindustrie) mue par la vapeur.",
+    "translationFr": "manufacture",
+    "literalTranslation": "manufacture, atelier centralisé de travail manuel divisé (nominatif féminin singulier)",
+    "contextNote": "Lafargue traduit « La manufacture ». Le mot allemand est le substantif isolé, strictement découplé de l'article « Die ».",
+    "grammaticalRole": "Nom féminin singulier (die Manufaktur) au nominatif singulier, sujet grammatical de la proposition régissant « trat ».",
+    "etymology": "Emprunt savant au XVIIe siècle au français « manufacture », forgé sur le bas-latin « manufactura » (action de fabriquer à la main), composé du latin classique « manus » (la main) et de « factura » (l'action de fabriquer, façon, déverbal de facere = faire).",
+    "philosophicalContext": "Stade de transition historique fondamental analysé au Livre I du Capital (chap. 14) : la manufacture succède aux corporations urbaines en regroupant des artisans sous le commandement d'un même capitaliste et en divisant minutieusement le travail manuel entre ouvriers parcellaires.",
     "cognatesFr": [
       "manufacture",
       "manufacturier"
     ],
-    "difficulty": "basic",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p8_s2_w2"
+    ],
+    "relatedConcepts": [
+      "nom",
+      "bourgeoisie",
+      "hist_mat"
     ]
   },
   "ch1_p8_s2_w3": {
     "wordId": "ch1_p8_s2_w3",
-    "translationFr": "prit sa place / se substitua à elle",
-    "literalTranslation": "s'avança d'un pas à sa place (locution an die Stelle treten)",
-    "contextNote": "Verbe de mouvement vigoureux : « treten » signifie faire un pas, s'avancer fermement.",
-    "grammaticalRole": "Verbe fort « treten » (tritt, trat, ist getreten) à la 3e personne du singulier au prétérit.",
+    "translationFr": "vint / prit / s'installa",
+    "literalTranslation": "marcha, posa le pied, entra (prétérit fort de treten)",
+    "contextNote": "Verbe régissant la substitution structurelle dans l'expression « trat an ihre Stelle » (vint prendre sa place).",
+    "grammaticalRole": "Verbe fort (treten) au prétérit de l'indicatif, 3e personne du singulier.",
     "syntaxNote": "Position 2 du verbe conjugué dans la proposition principale déclarative.",
     "relatedConcepts": [
-      "v2"
+      "past"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p8_s2_w3"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « trat », vieux haut-allemand « trat », prétérit apophonique du verbe fort « treten » (marcher, poser le pied, en vieux haut-allemand tretan, proto-germanique *tredaną = marcher, fouler)."
   },
   "ch1_p8_s3_w2": {
     "wordId": "ch1_p8_s3_w2",
@@ -1921,16 +1963,17 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w8": {
     "wordId": "ch1_p8_s3_w8",
-    "translationFr": "classe moyenne industrielle / chefs de manufactures",
-    "literalTranslation": "ordre moyen industriel, bourgeoisie moyenne manufacturière",
-    "contextNote": "Lafargue traduit par « la classe moyenne industrielle ». Attention au glissement historique : en 1848, le « industrielle Mittelstand » désignait les fabricants et entrepreneurs manufacturiers, situés entre les barons terriens et les prolétaires, et non la petite bourgeoisie actuelle.",
-    "grammaticalRole": "Nom composé masculin singulier (der Mittelstand) à l'accusatif après « durch ».",
-    "etymology": "Syntagme historique essentiel : « industriell » (issu du latin industria = zèle actif, habileté technique) + « der Mittelstand » (composé de mittel = intermédiaire, vieux haut-allemand mittil + Stand = ordre social féodal, de stehen). Attention à l'anachronisme contemporain : en 1848, l'industrielle Mittelstand ne désigne pas les employés ou la petite-bourgeoisie tertiaire, mais les chefs d'entreprises manufacturières pionniers (les 'fabricants' anglais), situés entre l'aristocratie terrienne et les ouvriers d'atelier.",
-    "philosophicalContext": "Cette classe moyenne industrielle de 1848 formera la fraction montante de la bourgeoisie qui évincera l'artisanat avant de donner naissance aux magnats de la grande industrie.",
+    "translationFr": "classe moyenne / ordre moyen",
+    "literalTranslation": "état social intermédiaire, condition moyenne manufacturière (accusatif masculin singulier)",
+    "contextNote": "Lafargue traduit « la classe moyenne industrielle ». Strictement découplé de l'adjectif « industriellen » qui est annoté pour lui-même.",
+    "grammaticalRole": "Nom composé masculin singulier (der Mittelstand) à l'accusatif singulier après la préposition d'agent « durch » et l'article « den ».",
+    "etymology": "Composé historique associant : 1° l'adjectif germanique « mittel » (médian, moyen, en moyen haut-allemand « mittel », vieux haut-allemand « mittil », issu du proto-germanique *medjaz, cognat du latin medius) ; 2° « der Stand » (l'ordre social féodal, le rang statutaire, vieux haut-allemand stant, déverbal de stehen = se tenir debout).",
+    "philosophicalContext": "Précision sociologique capitale (Maximilien Rubel, MEGA2) : en 1848, « Mittelstand » ne désigne pas la classe moyenne salariée tertiaire contemporaine (cadres, employés), mais les fabricants et maîtres manufacturiers pionniers situés à mi-chemin entre l'aristocratie terrienne et les compagnons salariés. Cette classe moyenne manufacturière évincera les jurandes avant d'être elle-même balayée par la grande bourgeoisie industrielle des trusts et cartels.",
     "relatedConcepts": [
       "comp_noun",
       "acc",
-      "bourgeoisie"
+      "bourgeoisie",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -1995,16 +2038,16 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w27": {
     "wordId": "ch1_p8_s3_w27",
-    "translationFr": "l'atelier même",
-    "literalTranslation": "l'atelier, le lieu où l'on œuvre matériellement",
-    "contextNote": "Lafargue traduit « au sein de l'atelier même » (die Werkstatt selbst). L'atelier manufacturier unifié remplace l'émiettement corporatif dans la cité.",
-    "grammaticalRole": "Nom composé féminin singulier (die Werkstatt) au datif après « in der ».",
-    "etymology": "Composé unissant : 1° « das Werk » (l'ouvrage façonné, le produit du travail vivant, moyen haut-allemand werc, vieux haut-allemand werc, racine indo-européenne *werǵ- « fabriquer, agir », cognat du grec ergon / œuvre et de l'anglais work) ; 2° « die Statt / Stätte » (l'emplacement délimité, le lieu fixe où l'on se tient, moyen haut-allemand stat, vieux haut-allemand stat, apparenté au verbe stehen). La Werkstatt est le lieu spatial physique où s'opère la division technique interne entre ouvriers parcellaires.",
-    "philosophicalContext": "L'atelier moderne n'est plus le domicile chaleureux de l'artisan indépendant, mais le lieu de la concentration des prolétaires sous le commandement direct du capitaliste.",
+    "translationFr": "atelier",
+    "literalTranslation": "atelier de fabrication, lieu de production artisanale ou manufacturière (datif féminin singulier)",
+    "contextNote": "Lafargue traduit « dans l'atelier même ». Le mot isolé est le substantif féminin au datif, strictement découplé de l'article « der » et de l'adverbe « selbst ».",
+    "grammaticalRole": "Nom composé féminin singulier (die Werkstatt) au datif singulier après « in der einzelnen ».",
+    "etymology": "Composé d'artisanat unissant : 1° « das Werk » (l'œuvre, l'ouvrage ouvrier, en moyen haut-allemand werc, vieux haut-allemand werc, proto-germanique *werką, racine indo-européenne *werǵ- = œuvrer, faire, cognat de l'anglais work et du grec érgon) ; 2° « die Statt » (le lieu fixe, l'emplacement aménagé, vieux haut-allemand stat).",
+    "philosophicalContext": "Dans Misère de la philosophie (1847) et Le Capital, Marx distingue la division sociale du travail (qui s'opère par le marché anonyme entre producteurs indépendants) et la division manufacturière du travail dans l'atelier (« in der einzelnen Werkstatt »), qui repose sur le despotisme direct du capitaliste réglant chaque geste ouvrier.",
     "relatedConcepts": [
       "comp_noun",
       "dat",
-      "prod_rel"
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
@@ -2089,15 +2132,17 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p1_s2_w5": {
     "wordId": "ch0_p1_s2_w5",
     "translationFr": "Europe",
-    "literalTranslation": "le continent européen",
-    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom propre neutre, théâtre historique de la première industrialisation et des révolutions de 1848.",
+    "literalTranslation": "Europe, continent européen (génitif neutre singulier sans désinence)",
+    "grammaticalRole": "Nom propre géographique neutre singulier au génitif après l'article « des » et l'adjectif « alten ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch0_p1_s2_w5"
-    ]
+    ],
+    "contextNote": "Nom propre géographique au génitif. Désigne l'espace géopolitique des monarchies et empires absolutistes ligués contre l'irruption du prolétariat.",
+    "etymology": "Emprunt au grec ancien « Eurṓpē » (Εὐρώπη). L'étymon ultime est débattu par les philologues : traditionnellement rattaché par étymologie populaire grecque à eurús (εὐρύς, « large, vaste ») et ṓps (ὤψ, « vue, regard, œil »), signifiant « celle au large regard » ; ou, selon l'hypothèse sémitique privilégiée par les orientalistes, emprunté au phénicien / akkadien « 'ereb » (le soir, le couchant, l'occident), par opposition à « asu » (le levant, l'Asie)."
   },
   "ch0_p1_s2_w6": {
     "wordId": "ch0_p1_s2_w6",
@@ -2164,16 +2209,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p1_s2_w14": {
     "wordId": "ch0_p1_s2_w14",
     "translationFr": "spectre / fantôme",
-    "literalTranslation": "apparition terrifiante, revenant menaçant",
-    "grammaticalRole": "Nom neutre singulier · au accusatif (complément d'objet direct). Nom neutre métaphorique : la hantise panique ressentie par les puissances d'Ancien Régime face au communisme émergent.",
-    "difficulty": "intermediate",
+    "literalTranslation": "spectre, apparition terrifiante, revenant (accusatif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Gespenst) à l'accusatif singulier après la préposition « gegen » et le pronom démonstratif « dies ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "acc",
-      "gespenst"
+      "gespenst",
+      "acc"
     ],
     "wordIds": [
       "ch0_p1_s2_w14"
-    ]
+    ],
+    "contextNote": "Désignation anaphorique directe de l'objet de la traque des souverains (« gegen dies Gespenst »).",
+    "etymology": "Issu du moyen haut-allemand « gespenst(e) » (leurre démoniaque, apparition trompeuse), du vieux haut-allemand « gispansti » (séduction, ruse du démon), déverbal du verbe fort « spanan » (séduire, tenter par appât). Fixé au XVIe siècle au sens moderne d'apparition fantomatique menaçante.",
+    "philosophicalContext": "Autonomie complète de la fiche : Marx montre que l'incompréhension panique des gouvernements absolutistes les conduit à traiter le prolétariat révolutionnaire comme une entité maléfique et surnaturelle, révélant leur propre impuissance historique."
   },
   "ch0_p1_s2_w17": {
     "wordId": "ch0_p1_s2_w17",
@@ -2224,7 +2272,7 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p1_s2_w27": {
     "wordId": "ch0_p1_s2_w27",
     "translationFr": "français",
-    "literalTranslation": "relatif à la France",
+    "literalTranslation": "français, relatif à la nation française (adjectif au nominatif masculin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel nominatif (sujet ou attribut du sujet)). Adjectif désignant les républicains radicaux parisiens.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -2232,7 +2280,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p1_s2_w27"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « franzoyse », emprunt à l'ancien français « françois », dérivé avec le suffixe -iscus sur le nom du peuple germanique des Francs (du proto-germanique *frankō = libre, hardi, ou lance de guerre)."
   },
   "ch0_p1_s2_w29": {
     "wordId": "ch0_p1_s2_w29",
@@ -2246,8 +2295,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p1_s2_w30": {
     "wordId": "ch0_p1_s2_w30",
-    "translationFr": "allemand",
-    "literalTranslation": "relatif aux États germaniques",
+    "translationFr": "allemands",
+    "literalTranslation": "allemands, des États germaniques (adjectif au nominatif masculin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel nominatif (sujet ou attribut du sujet)). Adjectif national désignant les polices des monarchies de la Confédération germanique.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -2255,7 +2304,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p1_s2_w30"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « diutsch », vieux haut-allemand « diutisc » (populaire, qui parle la langue du peuple germanique vernaculaire par opposition au latin des clercs), dérivé en -isc sur « diot » (le peuple, la foule, du proto-germanique *þeudō = peuple, racine indo-européenne *tewtéh₂-)."
   },
   "ch0_p2_s1_w1": {
     "wordId": "ch0_p2_s1_w1",
@@ -2352,12 +2402,13 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p2_s1_w13": {
     "wordId": "ch0_p2_s1_w13",
     "translationFr": "communiste",
-    "literalTranslation": "qui relève du parti ou de l'idéologie communiste",
+    "literalTranslation": "communiste, relatif au parti prolétarien (adjectif prédicatif invariable)",
     "grammaticalRole": "Adjectif qualificatif décliné ( ). Adjectif politique identifiant le mouvement prolétarien révolutionnaire.",
     "difficulty": "intermediate",
     "wordIds": [
       "ch0_p2_s1_w13"
-    ]
+    ],
+    "etymology": "Dérivé de « Kommunismus » (du latin communis) au moyen du suffixe adjectival germanique « -isch »."
   },
   "ch0_p2_s1_w15": {
     "wordId": "ch0_p2_s1_w15",
@@ -2395,16 +2446,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p2_s2_w3": {
     "wordId": "ch0_p2_s2_w3",
     "translationFr": "parti d'opposition",
-    "literalTranslation": "parti politique rival du gouvernement",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet) · nom composé (Kompositum). Nom féminin composé désignant les forces parlementaires contestataires.",
+    "literalTranslation": "parti d'opposition parlementaire ou politique (nominatif féminin singulier)",
+    "grammaticalRole": "Nom composé féminin singulier (die Oppositionspartei) au nominatif singulier déterminé par l'article « die ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "nom",
-      "comp_noun"
+      "comp_noun",
+      "nom"
     ],
     "wordIds": [
       "ch0_p2_s2_w3"
-    ]
+    ],
+    "contextNote": "Sujet grammatical de l'interrogation rhétorique de Marx montrant que tout parti d'opposition est systématiquement diffamé comme communiste par les tenants du pouvoir.",
+    "etymology": "Composé politique associant deux emprunts savants : 1° « die Opposition », emprunt au latin « oppositio » (action de poser en face, obstacle, contradiction, déverbal de opponere, de ob- et ponere) ; 2° « die Partei », emprunt au XVIIe siècle au français « partie / parti », issu du latin « partire » (diviser, partager), dérivé de « pars » (la part, la fraction civique).",
+    "philosophicalContext": "Marx analyse le fonctionnement idéologique du pouvoir réactionnaire : le stigmate infamant de « communiste » sert d'arme rhétorique universelle pour discréditer toute critique, y compris la plus modérée et bourgeoise."
   },
   "ch0_p2_s2_w5": {
     "wordId": "ch0_p2_s2_w5",
@@ -2457,16 +2511,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p2_s2_w13": {
     "wordId": "ch0_p2_s2_w13",
-    "translationFr": "aux adversaires",
-    "literalTranslation": "opposant politique ou social",
-    "grammaticalRole": "Nom masculin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin désignant les forces antagonistes dans l'arène de la lutte politique.",
-    "difficulty": "intermediate",
+    "translationFr": "adversaires",
+    "literalTranslation": "adversaires politiques, antagonistes au pouvoir (datif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Gegner -> die Gegner) au datif pluriel avec désinence -n après la préposition « von ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "plural"
     ],
     "wordIds": [
       "ch0_p2_s2_w13"
-    ]
+    ],
+    "contextNote": "Régime de la préposition d'agent « von ». Désigne les fractions bourgeoises ou dynastiques exerçant le gouvernement.",
+    "etymology": "Issu du moyen haut-allemand « gegener » (celui qui est situé en face, l'antagoniste), dérivé au moyen du suffixe d'agent « -er » sur la préposition et adverbe « gegen » (en face, contre, vieux haut-allemand gegin / gagan, proto-germanique *gagina)."
   },
   "ch0_p2_s2_w14": {
     "wordId": "ch0_p2_s2_w14",
@@ -2497,16 +2554,20 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p2_s2_w18": {
     "wordId": "ch0_p2_s2_w18",
     "translationFr": "communisme",
-    "literalTranslation": "mouvement réel qui abolit l'ordre actuel",
-    "grammaticalRole": "Nom masculin singulier · au génitif (complément du nom marquant l'appartenance). Nom masculin désignant le mouvement politique d'émancipation de la classe travailleuse.",
+    "literalTranslation": "communisme, épithète infamante brandie par le pouvoir (accusatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Kommunismus) à l'accusatif singulier après la préposition « als ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "gen",
+      "acc",
+      "latin_root",
       "communism"
     ],
     "wordIds": [
       "ch0_p2_s2_w18"
-    ]
+    ],
+    "contextNote": "Terme jeté comme une accusation politique aux partis d'opposition.",
+    "etymology": "Formé sur l'adjectif latin « communis » (mis en partage par la collectivité, de con- et munus = charge, obligation réciproque) avec le suffixe doctrinal « -ismus ». Repris des cercles ouvriers parisiens des années 1830-1840.",
+    "philosophicalContext": "L'accusation de communisme sert d'épouvantail universel pour fédérer les possédants contre toute contestation de l'ordre établi."
   },
   "ch0_p2_s2_w19": {
     "wordId": "ch0_p2_s2_w19",
@@ -2580,16 +2641,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p4_s1_w2": {
     "wordId": "ch0_p4_s1_w2",
     "translationFr": "communisme",
-    "literalTranslation": "mouvement réel qui abolit l'ordre actuel",
-    "grammaticalRole": "Nom masculin singulier · au nominatif (sujet ou attribut du sujet). Nom masculin désignant le mouvement politique d'émancipation de la classe travailleuse.",
-    "difficulty": "intermediate",
+    "literalTranslation": "communisme, mouvement historique réel (nominatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Kommunismus) au nominatif sans article, sujet de la proposition complétive « daß der Kommunismus... ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "nom",
       "communism"
     ],
     "wordIds": [
       "ch0_p4_s1_w2"
-    ]
+    ],
+    "contextNote": "Sujet de la première conclusion tirée par Marx : le communisme est déjà reconnu comme une puissance par toutes les forces établies.",
+    "etymology": "Dérivé savant du latin « communis » (commun, collectif) avec le suffixe « -ismus ». Emprunté par la Ligue des communistes pour affirmer la rupture avec les philanthropies bourgeoises.",
+    "philosophicalContext": "Le fait même de la calomnie généralisée est retourné par Marx en aveu historique : les puissances régnantes attestent elles-mêmes que le communisme n'est plus une secte marginale mais une puissance européenne incontournable."
   },
   "ch0_p4_s1_w5": {
     "wordId": "ch0_p4_s1_w5",
@@ -2620,7 +2684,7 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p4_s1_w7": {
     "wordId": "ch0_p4_s1_w7",
     "translationFr": "européennes",
-    "literalTranslation": "propre au continent européen",
+    "literalTranslation": "européennes (adjectif au datif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif définissant le champ continental de l'affrontement révolutionnaire.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -2628,20 +2692,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p4_s1_w7"
-    ]
+    ],
+    "etymology": "Dérivé au moyen du suffixe « -isch » sur le nom propre géographique « Europa » (du grec ancien Eurṓpē)."
   },
   "ch0_p4_s1_w8": {
     "wordId": "ch0_p4_s1_w8",
-    "translationFr": "aux puissances",
-    "literalTranslation": "pouvoir étatique, domination souveraine",
-    "grammaticalRole": "Nom féminin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant les États monarchiques et policiers d'Europe.",
-    "difficulty": "intermediate",
+    "translationFr": "puissances",
+    "literalTranslation": "puissances étatiques, souverainetés politiques (datif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Macht -> die Mächte) au datif pluriel avec désinence -n après « von allen europäischen ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "plural"
     ],
     "wordIds": [
       "ch0_p4_s1_w8"
-    ]
+    ],
+    "contextNote": "Complément d'agent au passif. Désigne les gouvernements coalisés d'Europe.",
+    "etymology": "Issu du moyen haut-allemand « maht », vieux haut-allemand « maht » (force, puissance, capacité d'action souveraine, armée), du proto-germanique *mahtiz, abstrait déverbal en *-ti- formé sur la racine du verbe « mögen » (pouvoir matériellement, avoir la force, vieux haut-allemand magan). Cognat de l'anglais might."
   },
   "ch0_p4_s1_w9": {
     "wordId": "ch0_p4_s1_w9",
@@ -2692,7 +2760,7 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p5_s1_w3": {
     "wordId": "ch0_p5_s1_w3",
     "translationFr": "grand / solennel",
-    "literalTranslation": "de rang élevé, solennel",
+    "literalTranslation": "haut, élevé, d'une gravité solennelle (adjectif au nominatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif marquant la gravité et l'imminence du moment révolutionnaire.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -2700,7 +2768,9 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p5_s1_w3"
-    ]
+    ],
+    "contextNote": "Épithète dans la locution idiomatique « Es ist hohe Zeit ». Strictement découplé de « Zeit ».",
+    "etymology": "Issu du moyen haut-allemand « hōch », vieux haut-allemand « hōh » (haut, élevé en rang, solennel), du proto-germanique *hauhaz (élevé, fier, racine indo-européenne *kewk- = courbé en hauteur, colline)."
   },
   "ch0_p5_s1_w6": {
     "wordId": "ch0_p5_s1_w6",
@@ -2728,16 +2798,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p5_s1_w8": {
     "wordId": "ch0_p5_s1_w8",
     "translationFr": "communistes",
-    "literalTranslation": "partisan de l'émancipation prolétarienne",
-    "grammaticalRole": "Nom masculin pluriel · au nominatif (sujet ou attribut du sujet). Nom masculin désignant les militants de la Ligue des communistes.",
-    "difficulty": "intermediate",
+    "literalTranslation": "communistes, militants du parti prolétarien (nominatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Kommunist -> die Kommunisten) au nominatif pluriel faible en -en après « die ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "nom",
+      "plural",
       "communism"
     ],
     "wordIds": [
       "ch0_p5_s1_w8"
-    ]
+    ],
+    "contextNote": "Sujet grammatical de la proposition annonçant la proclamation publique de leur programme.",
+    "etymology": "Dérivé au moyen du suffixe d'agent d'origine grecque « -ist » sur le radical latin « communis » (partagé en commun, de con- + munus). Désigne les adhérents de la Ligue des communistes (fondée à Londres en 1847)."
   },
   "ch0_p5_s1_w9": {
     "wordId": "ch0_p5_s1_w9",
@@ -2806,8 +2879,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p5_s1_w19": {
     "wordId": "ch0_p5_s1_w19",
-    "translationFr": "tout entier",
-    "literalTranslation": "sans division ni réserve",
+    "translationFr": "entière / tout entière",
+    "literalTranslation": "entière, complète, sans exception (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif insistant sur l'universalité de la polarisation de la société entière.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -2815,20 +2888,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p5_s1_w19"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « ganz », vieux haut-allemand « ganz » (intact, complet, sain, indemne), du proto-germanique *gantaz."
   },
   "ch0_p5_s1_w20": {
     "wordId": "ch0_p5_s1_w20",
     "translationFr": "monde",
-    "literalTranslation": "l'ensemble de la terre et de l'humanité",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin embrassant l'arène globale de la révolution prolétarienne.",
+    "literalTranslation": "monde, totalité des hommes et de l'opinion publique (datif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Welt) au datif singulier après « vor der ganzen ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch0_p5_s1_w20"
-    ]
+    ],
+    "contextNote": "Régime de la préposition spatiale et figurée « vor ». Indique la publicité universelle et cosmopolite de la proclamation.",
+    "etymology": "Issu du moyen haut-allemand « werlt / welt », vieux haut-allemand « weralt / werolt », composé germanique formé de *wira- (« homme », cognat du latin vir) et de *aldi- (« âge, génération, durée de vie », cognat de alt/old). Littéralement « l'âge de l'homme, l'époque de l'humanité terrestre ».",
+    "philosophicalContext": "L'appel de Marx récuse les conciliabules secrets : le parti communiste s'adresse à la terre entière, inaugurant l'internationalisme prolétarien universel."
   },
   "ch0_p5_s1_w23": {
     "wordId": "ch0_p5_s1_w23",
@@ -2869,16 +2946,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p5_s1_w27": {
     "wordId": "ch0_p5_s1_w27",
     "translationFr": "spectre / fantôme",
-    "literalTranslation": "apparition terrifiante, revenant menaçant",
-    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom neutre métaphorique : la hantise panique ressentie par les puissances d'Ancien Régime face au communisme émergent.",
-    "difficulty": "intermediate",
+    "literalTranslation": "spectre, épouvantail chimérique (datif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Gespenst) au datif singulier après la préposition contractée « vom » (von dem).",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "dat",
-      "gespenst"
+      "gespenst",
+      "dat"
     ],
     "wordIds": [
       "ch0_p5_s1_w27"
-    ]
+    ],
+    "contextNote": "Fait partie du syntagme « dem Kindermärchen vom Gespenst des Kommunismus » (le conte pour enfants du spectre du communisme). Marx démystifie la figure spectrale inventée par la police politique.",
+    "etymology": "Issu du moyen haut-allemand « gespenst(e) » (leurre démoniaque, séduction mensongère), vieux haut-allemand « gispansti », déverbal du verbe fort « spanan » (attirer dans un piège, leurrer). Fixé au XVIe siècle au sens d'apparition spectrale terrifiante.",
+    "philosophicalContext": "Démystification radicale : Marx clôt la dialectique ouverte à la première phrase du préambule. Le spectre n'était que le conte de fées (« Kindermärchen ») agité par les gouvernants réactionnaires pour effrayer le peuple ; le Manifeste y substitue la réalité scientifique d'un programme prolétarien."
   },
   "ch0_p5_s1_w28": {
     "wordId": "ch0_p5_s1_w28",
@@ -2896,16 +2976,18 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p5_s1_w29": {
     "wordId": "ch0_p5_s1_w29",
     "translationFr": "communisme",
-    "literalTranslation": "mouvement réel qui abolit l'ordre actuel",
-    "grammaticalRole": "Nom masculin singulier · au génitif (complément du nom marquant l'appartenance). Nom masculin désignant le mouvement politique d'émancipation de la classe travailleuse.",
-    "difficulty": "intermediate",
+    "literalTranslation": "communisme (génitif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Kommunismus) au génitif singulier déterminé par « des ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen",
       "communism"
     ],
     "wordIds": [
       "ch0_p5_s1_w29"
-    ]
+    ],
+    "contextNote": "Complément déterminant le spectre chimérique dans le conte d'enfants des gouvernements.",
+    "etymology": "Formé sur le latin « communis » (mis en partage collectif, de con- et munus = charge civique) avec le suffixe doctrinal « -ismus »."
   },
   "ch0_p5_s1_w30": {
     "wordId": "ch0_p5_s1_w30",
@@ -2936,15 +3018,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p5_s1_w33": {
     "wordId": "ch0_p5_s1_w33",
     "translationFr": "parti",
-    "literalTranslation": "organisation politique de lutte pour le pouvoir",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant le parti communiste constitué en force autonome.",
+    "literalTranslation": "parti, organisation politique de combat de la classe ouvrière (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Partei) au génitif singulier déterminé par l'article « der » et renforcé par l'adverbe « selbst ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "bourgeoisie"
     ],
     "wordIds": [
       "ch0_p5_s1_w33"
-    ]
+    ],
+    "contextNote": "Complément du nom déterminant « Manifest ». Désigne le parti prolétarien dans sa réalité militante autonome.",
+    "etymology": "Emprunt au XVIIe siècle au français « partie / parti », issu du latin « partire » (diviser, partager), déverbal de « pars » (la part, la fraction de citoyens partageant une même cause).",
+    "philosophicalContext": "Pour Marx, le mot « Partei » ne désigne pas simplement un appareil électoral parlementaire, mais l'organisation historique et collective du prolétariat accédant à la conscience de classe politique pour abolir le salariat."
   },
   "ch0_p5_s1_w34": {
     "wordId": "ch0_p5_s1_w34",
@@ -3008,16 +3094,19 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p6_s1_w6": {
     "wordId": "ch0_p6_s1_w6",
     "translationFr": "communistes",
-    "literalTranslation": "partisan de l'émancipation prolétarienne",
-    "grammaticalRole": "Nom masculin pluriel · au nominatif (sujet ou attribut du sujet). Nom masculin désignant les militants de la Ligue des communistes.",
-    "difficulty": "intermediate",
+    "literalTranslation": "communistes, délégués ouvriers internationaux (nominatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (die Kommunisten) au nominatif pluriel sans article.",
+    "difficulty": "basic",
     "relatedConcepts": [
       "nom",
+      "plural",
       "communism"
     ],
     "wordIds": [
       "ch0_p6_s1_w6"
-    ]
+    ],
+    "contextNote": "Sujet de l'assemblée constituante de Londres (« Kommunisten der verschiedensten Nationalitäten »).",
+    "etymology": "Formé sur le latin « communis » avec le suffixe d'adhésion doctrinale « -ist ». Désigne ici les délégués réunis au second congrès de la Ligue des communistes en novembre-décembre 1847."
   },
   "ch0_p6_s1_w7": {
     "wordId": "ch0_p6_s1_w7",
@@ -3034,16 +3123,20 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p6_s1_w9": {
     "wordId": "ch0_p6_s1_w9",
-    "translationFr": "nationalité",
-    "literalTranslation": "appartenance nationale",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin soulignant l'internationalisme du congrès des communistes.",
+    "translationFr": "nationalités",
+    "literalTranslation": "nationalités, appartenances nationales étatiques (génitif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Nationalität -> die Nationalitäten) au génitif pluriel après « der verschiedensten ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "plural"
     ],
     "wordIds": [
       "ch0_p6_s1_w9"
-    ]
+    ],
+    "contextNote": "Désigne la provenance diverse des délégués (Allemands, Français, Anglais, Flamands, Suisses, Polonais).",
+    "etymology": "Emprunt au début du XIXe siècle au français « nationalité », forgé sur « national », dérivé du latin « natio » (naissance, tribu, peuple issu d'une même origine, du verbe nasci = naître).",
+    "philosophicalContext": "L'internationalisme prolétarien est affirmé dès le préambule : le parti communiste transcende d'emblée les frontières des États-nations bourgeois, préfigurant le mot d'ordre final : « Prolétaires de tous les pays, unissez-vous ! »"
   },
   "ch0_p6_s1_w10": {
     "wordId": "ch0_p6_s1_w10",
@@ -3061,15 +3154,18 @@ export const annotations: Record<string, Annotation> = {
   "ch0_p6_s1_w11": {
     "wordId": "ch0_p6_s1_w11",
     "translationFr": "Londres",
-    "literalTranslation": "capitale britannique, siège de la Ligue",
-    "grammaticalRole": "Nom  singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom propre neutre, lieu du congrès communiste de novembre 1847.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Londres, capitale britannique (datif neutre singulier sans désinence)",
+    "grammaticalRole": "Nom propre géographique invariable au datif après la préposition locative « in ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch0_p6_s1_w11"
-    ]
+    ],
+    "contextNote": "Lieu historique du congrès de la Ligue des communistes en 1847.",
+    "etymology": "Emprunt au nom celtique romanisé de la cité « Londinium » (étymon celtique discuté, traditionnellement rattaché à une racine hydronymique pré-celtique ou à l'adjectif celtique *londos = sauvage, furieux, hardi).",
+    "philosophicalContext": "Londres était alors la métropole incontestée du capitalisme industriel le plus avancé au monde et le refuge des révolutionnaires exilés fuyant les polices du continent."
   },
   "ch0_p6_s1_w13": {
     "wordId": "ch0_p6_s1_w13",
@@ -3096,8 +3192,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p6_s1_w15": {
     "wordId": "ch0_p6_s1_w15",
-    "translationFr": "suivant",
-    "literalTranslation": "qui vient immédiatement après",
+    "translationFr": "suivant / ci-après",
+    "literalTranslation": "qui suit, présenté ci-après (participe présent au nominatif neutre singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif introduisant le texte même du Manifeste.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3105,20 +3201,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w15"
-    ]
+    ],
+    "etymology": "Participe présent adjectivé du verbe « folgen » (suivre, obéir, moyen haut-allemand volgen, vieux haut-allemand folgēn, proto-germanique *fulgāną)."
   },
   "ch0_p6_s1_w16": {
     "wordId": "ch0_p6_s1_w16",
-    "translationFr": "manifeste / déclaration publique",
-    "literalTranslation": "proclamation solennelle de principes",
-    "grammaticalRole": "Nom neutre singulier · au accusatif (complément d'objet direct). Nom neutre : le document programmatique fondateur du parti communiste mondial.",
-    "difficulty": "intermediate",
+    "translationFr": "manifeste",
+    "literalTranslation": "manifeste, texte officiel de la proclamation (accusatif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Manifest) à l'accusatif singulier après l'article « das » et l'adjectif « folgende ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "latin_root"
     ],
     "wordIds": [
       "ch0_p6_s1_w16"
-    ]
+    ],
+    "contextNote": "COD du verbe d'élaboration « entworfen ».",
+    "etymology": "Emprunt au latin « manifestus » (évident, palpable, démasqué, de manus + fendere). Substantivé pour désigner la déclaration solennelle de principes et d'action politique."
   },
   "ch0_p6_s1_w19": {
     "wordId": "ch0_p6_s1_w19",
@@ -3148,8 +3248,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p6_s1_w21": {
     "wordId": "ch0_p6_s1_w21",
-    "translationFr": "en langue anglaise",
-    "literalTranslation": "en langue anglaise",
+    "translationFr": "anglaise",
+    "literalTranslation": "anglaise (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour la publication à Londres de l'édition anglaise.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3157,12 +3257,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w21"
-    ]
+    ],
+    "etymology": "Dérivé du nom du peuple des Angles (latin Angli, issu du germanique *angul- = crochet, coin de terre)."
   },
   "ch0_p6_s1_w23": {
     "wordId": "ch0_p6_s1_w23",
-    "translationFr": "en langue française",
-    "literalTranslation": "relatif à la France",
+    "translationFr": "française",
+    "literalTranslation": "française (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif désignant les républicains radicaux parisiens.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3170,12 +3271,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w23"
-    ]
+    ],
+    "etymology": "Dérivé de l'ancien français « françois » (du germanique Franko = libre, homme d'épée)."
   },
   "ch0_p6_s1_w25": {
     "wordId": "ch0_p6_s1_w25",
-    "translationFr": "en langue allemande",
-    "literalTranslation": "relatif aux États germaniques",
+    "translationFr": "allemande",
+    "literalTranslation": "allemande (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif national désignant les polices des monarchies de la Confédération germanique.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3183,12 +3285,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w25"
-    ]
+    ],
+    "etymology": "Issu du vieux haut-allemand « diutisc » (de la langue vernaculaire du peuple, de diot = peuple)."
   },
   "ch0_p6_s1_w27": {
     "wordId": "ch0_p6_s1_w27",
-    "translationFr": "en langue italienne",
-    "literalTranslation": "en langue italienne",
+    "translationFr": "italienne",
+    "literalTranslation": "italienne (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour l'édition italienne du Manifeste.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3196,12 +3299,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w27"
-    ]
+    ],
+    "etymology": "Emprunt au latin « Italicus », dérivé de Italia (du grec Ouitoulía, pays des veaux, du proto-indo-européen *wet- = année, animal d'un an)."
   },
   "ch0_p6_s1_w29": {
     "wordId": "ch0_p6_s1_w29",
-    "translationFr": "en langue flamande",
-    "literalTranslation": "en langue flamande",
+    "translationFr": "flamande",
+    "literalTranslation": "flamande (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour l'édition belge du Manifeste.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3209,7 +3313,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w29"
-    ]
+    ],
+    "etymology": "Dérivé du toponyme Flandre (moyen néerlandais Vlaanderen = terres inondées, alluvions côtières)."
   },
   "ch0_p6_s1_w30": {
     "wordId": "ch0_p6_s1_w30",
@@ -3223,8 +3328,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch0_p6_s1_w31": {
     "wordId": "ch0_p6_s1_w31",
-    "translationFr": "en langue danoise",
-    "literalTranslation": "en langue danoise",
+    "translationFr": "danoise",
+    "literalTranslation": "danoise (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif de langue pour l'édition scandinave du Manifeste.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3232,20 +3337,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch0_p6_s1_w31"
-    ]
+    ],
+    "etymology": "Dérivé du nom du peuple des Danois (Dänen, proto-germanique *Daniz = habitants des terres plates)."
   },
   "ch0_p6_s1_w32": {
     "wordId": "ch0_p6_s1_w32",
     "translationFr": "langue / idiome",
-    "literalTranslation": "moyen linguistique de communication d'un peuple",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin : le Manifeste doit être traduit dans les principales langues d'Europe.",
-    "difficulty": "intermediate",
+    "literalTranslation": "langue naturelle, idiome national de publication (datif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Sprache) au datif singulier sans article après la préposition « in ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch0_p6_s1_w32"
-    ]
+    ],
+    "contextNote": "Nom régissant la série d'adjectifs de langues dans lesquelles le Manifeste doit être imprimé.",
+    "etymology": "Issu du moyen haut-allemand « sprāche », vieux haut-allemand « sprāhha » (la parole, la langue, la faculté de discourir), déverbal direct formé avec allongement apophonique sur le radical du verbe fort « sprechen » (parler, moyen haut-allemand sprechen, vieux haut-allemand sprehhan, proto-germanique *sprekaną).",
+    "philosophicalContext": "La polyglossie du Manifeste reflète l'universalité matérielle du prolétariat moderne, dont les chaînes et les intérêts de classe sont identiques dans toutes les nations."
   },
   "ch0_p6_s1_w34": {
     "wordId": "ch0_p6_s1_w34",
@@ -3296,15 +3405,19 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p1_s1_w8": {
     "wordId": "ch1_p1_s1_w8",
     "translationFr": "histoire",
-    "literalTranslation": "ce qui advient, récit des événements passés",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin : pour Marx, toute l'histoire des sociétés jusqu'à nos jours est l'histoire de la lutte des classes.",
-    "difficulty": "intermediate",
+    "literalTranslation": "histoire, déroulement continu des luttes (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Geschichte) au nominatif singulier, attribut du sujet « Die Geschichte ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "hist_mat"
     ],
     "wordIds": [
       "ch1_p1_s1_w8"
-    ]
+    ],
+    "contextNote": "Attribut du sujet après la copule « ist », identifiant l'histoire à la lutte de classes.",
+    "etymology": "Issu du moyen haut-allemand « geschiht », vieux haut-allemand « giskiht », déverbal du verbe fort geschehen (advenir, se produire).",
+    "philosophicalContext": "L'identité posée entre histoire et lutte de classes est la proposition fondamentale du Manifeste : toute la dynamique des transformations sociales réside dans l'antagonisme entre oppresseurs et opprimés."
   },
   "ch1_p1_s1_w9": {
     "wordId": "ch1_p1_s1_w9",
@@ -3381,12 +3494,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w22": {
     "wordId": "ch1_p2_s1_w22",
-    "translationFr": "se tenir debout / faire face",
-    "literalTranslation": "être érigé sur ses pieds",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe marquant l'opposition frontale dressée entre oppresseur et opprimé.",
+    "translationFr": "se tenaient / faisaient face",
+    "literalTranslation": "se dressaient debout l'un contre l'autre, se faisaient face (prétérit pluriel)",
+    "grammaticalRole": "Verbe fort (stehen) au prétérit de l'indicatif, 3e personne du pluriel.",
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p2_s1_w22"
+    ],
+    "contextNote": "Verbe de posture dialectique exprimant l'opposition structurelle permanente et indéracinable des classes en lutte.",
+    "etymology": "Issu du moyen haut-allemand « stuonden », vieux haut-allemand « stuont / stuondun », prétérit apophonique du verbe fort « stehen » (se tenir debout, être dressé immobile, en vieux haut-allemand stān / stēn, du proto-germanique *standaną, issu de la racine indo-européenne fondamentale *steh₂- « se tenir debout, être ferme »).",
+    "philosophicalContext": "La formule « standen ... zueinander » traduit la spatialité objective des rapports de production : les classes ne se rencontrent pas par hasard, elles sont posées structurellement en vis-à-vis antagonique dans le mode de production.",
+    "relatedConcepts": [
+      "past",
+      "verb_paradigm"
     ]
   },
   "ch1_p2_s1_w23": {
@@ -3404,8 +3524,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w24": {
     "wordId": "ch1_p2_s1_w24",
-    "translationFr": "constant / continuel",
-    "literalTranslation": "sans arrêt ni défaillance",
+    "translationFr": "constant / continuel / permanent",
+    "literalTranslation": "incessant, continu, permanent sans défaillance (adjectif au datif masculin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la permanence obstinée du conflit de classes à travers les âges.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3413,7 +3533,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p2_s1_w24"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « stæte », vieux haut-allemand « stāti » (fixe, ferme, persistant, immuable), dérivé en *-t- formé sur la racine du verbe fort « stehen » (se tenir debout, racine indo-européenne *steh₂-)."
   },
   "ch1_p2_s1_w26": {
     "wordId": "ch1_p2_s1_w26",
@@ -3427,12 +3548,17 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w28": {
     "wordId": "ch1_p2_s1_w28",
-    "translationFr": "mener / conduire",
-    "literalTranslation": "guider vers un terme",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant l'action continue de mener une lutte sans répit.",
-    "difficulty": "intermediate",
+    "translationFr": "menaient / poursuivaient",
+    "literalTranslation": "menaient, conduisaient activement (prétérit pluriel)",
+    "grammaticalRole": "Verbe faible (führen) au prétérit de l'indicatif, 3e personne du pluriel.",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p2_s1_w28"
+    ],
+    "contextNote": "Verbe régissant le combat (« Kampf »). Exprime la conduite active d'une guerre sociale continue.",
+    "etymology": "Issu du moyen haut-allemand « vüeren », vieux haut-allemand « fuoren » (mener, transporter, guider), verbe causatif germanique (*fōrijaną) dérivé du verbe fort « fahren » (se déplacer, voyager, en vieux haut-allemand faran, proto-germanique *faraną).",
+    "relatedConcepts": [
+      "past"
     ]
   },
   "ch1_p2_s1_w29": {
@@ -3471,15 +3597,19 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p2_s1_w37": {
     "wordId": "ch1_p2_s1_w37",
     "translationFr": "lutte / combat",
-    "literalTranslation": "affrontement antagonique",
-    "grammaticalRole": "Nom masculin singulier · au accusatif (complément d'objet direct). Nom masculin, moteur dialectique des transformations matérielles de l'humanité.",
-    "difficulty": "intermediate",
+    "literalTranslation": "combat acharné, affrontement direct (accusatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Kampf) à l'accusatif singulier sans article répété, COD de « führten ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "class_struggle"
     ],
     "wordIds": [
       "ch1_p2_s1_w37"
-    ]
+    ],
+    "contextNote": "Premier jalon du doublet caractérisant la lutte de classe tantôt cachée, tantôt ouverte.",
+    "etymology": "Issu du moyen haut-allemand « kampf », vieux haut-allemand « kampf » (combat singulier, duel armé, bataille rangée), emprunt très ancien (dès les premiers siècles av. J.-C. lors des guerres de frontière de Germanie) au latin classique « campus » (le champ de manœuvre militaire, le champ de bataille).",
+    "philosophicalContext": "La lutte des classes n'est pas toujours spectaculaire ou armée : elle alterne entre lutte larvée, silencieuse, quotidienne (freinage, sabotage, résistance à la cadence) et insurrection politique ouverte."
   },
   "ch1_p2_s1_w39": {
     "wordId": "ch1_p2_s1_w39",
@@ -3497,15 +3627,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p2_s1_w40": {
     "wordId": "ch1_p2_s1_w40",
     "translationFr": "lutte / combat",
-    "literalTranslation": "affrontement antagonique",
-    "grammaticalRole": "Nom masculin singulier · au accusatif (complément d'objet direct). Nom masculin, moteur dialectique des transformations matérielles de l'humanité.",
-    "difficulty": "intermediate",
+    "literalTranslation": "combat, affrontement ouvert (accusatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Kampf) à l'accusatif singulier déterminé par l'adjectif « offenen ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "class_struggle"
     ],
     "wordIds": [
       "ch1_p2_s1_w40"
-    ]
+    ],
+    "contextNote": "Second terme du doublet rythmé par « bald ... bald ».",
+    "etymology": "Issu du moyen haut-allemand « kampf », vieux haut-allemand « kampf », du latin « campus » (champ de bataille)."
   },
   "ch1_p2_s1_w42": {
     "wordId": "ch1_p2_s1_w42",
@@ -3559,15 +3692,20 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p2_s1_w46": {
     "wordId": "ch1_p2_s1_w46",
     "translationFr": "révolutionnaire",
-    "literalTranslation": "qui renverse violemment les bases matérielles de la société",
-    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif qualifiant la transformation radicale produite par la lutte des classes.",
+    "literalTranslation": "révolutionnaire, qui renverse radicalement les fondements matériels (datif féminin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné au datif féminin singulier en -en après « einer ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "decl",
+      "hist_mat"
     ],
     "wordIds": [
       "ch1_p2_s1_w46"
-    ]
+    ],
+    "contextNote": "Épithète de « Umgestaltung » (refonte / transformation radicale).",
+    "etymology": "Emprunt au français « révolutionnaire », dérivé savant en « -aire » de « révolution », issu du bas-latin « revolutio » (mouvement de rotation astronomique et retournement complet des astres, du verbe revolvere = faire rouler en arrière, retourner, renverser). Transféré au XVIIIe siècle de l'astronomie à la rupture politique radicale.",
+    "philosophicalContext": "Premier terme de l'alternative dialectique : la révolution prolétarienne n'est pas une simple réforme ministérielle, mais le bouleversement complet de l'infrastructure économique et de la superstructure sociale."
   },
   "ch1_p2_s1_w48": {
     "wordId": "ch1_p2_s1_w48",
@@ -3584,8 +3722,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w49": {
     "wordId": "ch1_p2_s1_w49",
-    "translationFr": "tout entier",
-    "literalTranslation": "sans division ni réserve",
+    "translationFr": "tout entière / intégrale",
+    "literalTranslation": "totale, entière, globale (adjectif au génitif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier génitif (complément du nom marquant l'appartenance)). Adjectif insistant sur l'universalité de la polarisation de la société entière.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3593,29 +3731,37 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p2_s1_w49"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « ganz », vieux haut-allemand « ganz » (intact, complet)."
   },
   "ch1_p2_s1_w50": {
     "wordId": "ch1_p2_s1_w50",
     "translationFr": "société",
-    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant la formation économique et sociale globale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "société tout entière, formation sociale globale (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au génitif singulier après « der ganzen ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p2_s1_w50"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Umgestaltung ».",
+    "etymology": "Issu du moyen haut-allemand « geselleschaft » (compagnie, réunion jurée, association d'artisans ou de compagnons), dérivé au moyen du suffixe germanique de collectivité statutaire « -schaft » (du proto-germanique *skapaz = constitution, ordre) sur « Geselle » (le compagnon, celui qui partage la même chambre, de sal = pièce, salle). Le terme s'est élargi au XVIIIe siècle pour traduire le français « société » et le latin « societas »."
   },
   "ch1_p2_s1_w51": {
     "wordId": "ch1_p2_s1_w51",
-    "translationFr": "se terminer / aboutir",
-    "literalTranslation": "trouver son terme",
-    "grammaticalRole": "Forme verbale · (3e personne du singulier) · temps: PAST. Verbe marquant l'issue dialectique inéluctable du combat de classe.",
-    "difficulty": "intermediate",
+    "translationFr": "se terminait / prenait fin",
+    "literalTranslation": "aboutissait, trouvait son issue ultime (prétérit indicatif)",
+    "grammaticalRole": "Verbe régulier faible (enden) au prétérit de l'indicatif, 3e personne du singulier.",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p2_s1_w51"
+    ],
+    "contextNote": "Verbe régissant l'issue historique binaire de la lutte des classes.",
+    "etymology": "Déverbal du substantif « das Ende » (le bout, la fin, le terme, en moyen haut-allemand ende, en vieux haut-allemand enti, du proto-germanique *andijaz = point extrême, bout, limite).",
+    "relatedConcepts": [
+      "past"
     ]
   },
   "ch1_p2_s1_w52": {
@@ -3656,16 +3802,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w55": {
     "wordId": "ch1_p2_s1_w55",
-    "translationFr": "commun / mutuel",
-    "literalTranslation": "partagé par les deux côtés",
-    "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la destruction réciproque des deux classes en lutte si la révolution échoue.",
-    "difficulty": "intermediate",
+    "translationFr": "commun / partagé / mutuel",
+    "literalTranslation": "commun, partagé par les deux belligérants (datif masculin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné au datif masculin singulier en -en après « dem ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "decl"
     ],
     "wordIds": [
       "ch1_p2_s1_w55"
-    ]
+    ],
+    "contextNote": "Qualifie « Untergange ». Souligne la réciprocité de la destruction si aucune classe révolutionnaire ne triomphe.",
+    "etymology": "Issu du moyen haut-allemand « gemein », vieux haut-allemand « gimeini » (partagé en commun, universel, accessible à tous), du proto-germanique *gamainiz (partagé collectivement, issu de ga- et de la racine *mey- « échanger », parent étymologique du latin communis)."
   },
   "ch1_p2_s1_w57": {
     "wordId": "ch1_p2_s1_w57",
@@ -3682,30 +3831,38 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p2_s1_w58": {
     "wordId": "ch1_p2_s1_w58",
-    "translationFr": "combattant / en lutte",
-    "literalTranslation": "engagé dans un combat mortel",
-    "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif décrivant les deux classes aux prises dans l'arène historique.",
-    "difficulty": "intermediate",
-    "relatedConcepts": [
-      "gen"
-    ],
-    "wordIds": [
-      "ch1_p2_s1_w58"
-    ]
-  },
-  "ch1_p2_s1_w59": {
-    "wordId": "ch1_p2_s1_w59",
-    "translationFr": "classes",
-    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
-    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept central du matérialisme historique.",
-    "difficulty": "intermediate",
+    "translationFr": "en lutte / combattantes",
+    "literalTranslation": "qui combattent, engagées dans une lutte à mort (participe présent au génitif féminin pluriel)",
+    "grammaticalRole": "Participe présent du verbe « kämpfen » décliné au génitif pluriel en -en après « der » (déclinaison faible).",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen",
       "class_struggle"
     ],
     "wordIds": [
+      "ch1_p2_s1_w58"
+    ],
+    "contextNote": "Qualifie « Klassen » au génitif pluriel. Participe présent marquant l'affrontement actif continu.",
+    "etymology": "Formé sur le verbe « kämpfen » (combattre, lutter), déverbal de Kampf, lui-même emprunté au latin « campus » (champ de bataille)."
+  },
+  "ch1_p2_s1_w59": {
+    "wordId": "ch1_p2_s1_w59",
+    "translationFr": "classes",
+    "literalTranslation": "classes, groupements antagoniques définis par leur place dans les rapports de production (génitif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Klassen) au génitif pluriel dépendant du substantif « Untergange ».",
+    "difficulty": "advanced",
+    "relatedConcepts": [
+      "gen",
+      "plural",
+      "class_struggle",
+      "hist_mat"
+    ],
+    "wordIds": [
       "ch1_p2_s1_w59"
-    ]
+    ],
+    "contextNote": "Régime du génitif dépendant de « Untergange ». Fiche autonome complète sans renvoi.",
+    "etymology": "Emprunt savant au XVIIIe siècle au latin classique « classis » (originellement la convocation sous les armes des citoyens romains répartis en cinq ordres censitaires par la constitution servienne selon le niveau de leur fortune foncière, de la racine indo-européenne *kelh₁- / calare = appeler, convoquer).",
+    "philosophicalContext": "Opposition théorique fondamentale entre « Klasse » et « Stand » : chez Marx, les classes ne sont ni des castes de sang héréditaires ni des catégories statutaires de prestige (Stände), mais des positions objectives irréconciliables au sein des rapports matériels de production et de propriété des instruments de travail."
   },
   "ch1_p3_s1_w1": {
     "wordId": "ch1_p3_s1_w1",
@@ -3735,8 +3892,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p3_s1_w3": {
     "wordId": "ch1_p3_s1_w3",
-    "translationFr": "ancien / primitif",
-    "literalTranslation": "qui se situe au début des temps",
+    "translationFr": "anciennes / antérieures",
+    "literalTranslation": "plus anciennes, antérieures dans le temps historique (adjectif au datif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif comparatif marquant les époques historiques révolues.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3744,20 +3901,25 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p3_s1_w3"
-    ]
+    ],
+    "etymology": "Comparatif de l'adjectif « früh » (tôt, matinal, ancien, moyen haut-allemand vruo, vieux haut-allemand vruoi, proto-germanique *frōwjaz)."
   },
   "ch1_p3_s1_w4": {
     "wordId": "ch1_p3_s1_w4",
-    "translationFr": "époque",
-    "literalTranslation": "période historique définie par un mode de production",
-    "grammaticalRole": "Nom féminin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant une ère matérielle spécifique dominée par des rapports de production distincts.",
+    "translationFr": "époques",
+    "literalTranslation": "époques, grandes ères historiques de l'humanité (datif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Epoche -> die Epochen) au datif pluriel après « In den früheren ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "plural",
+      "hist_mat"
     ],
     "wordIds": [
       "ch1_p3_s1_w4"
-    ]
+    ],
+    "contextNote": "Régime de la préposition temporelle « In den früheren ».",
+    "etymology": "Emprunt savant au XVIIe siècle au grec ancien « epokhḗ » (ἐποχή, point d'arrêt, suspension du jugement, moment fixe qui marque le début d'une ère nouvelle, déverbal de epékhein « retenir, suspendre »)."
   },
   "ch1_p3_s1_w5": {
     "wordId": "ch1_p3_s1_w5",
@@ -3775,15 +3937,17 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p3_s1_w6": {
     "wordId": "ch1_p3_s1_w6",
     "translationFr": "histoire",
-    "literalTranslation": "ce qui advient, récit des événements passés",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin : pour Marx, toute l'histoire des sociétés jusqu'à nos jours est l'histoire de la lutte des classes.",
-    "difficulty": "intermediate",
+    "literalTranslation": "histoire (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Geschichte) au génitif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p3_s1_w6"
-    ]
+    ],
+    "contextNote": "Complément du nom déterminant « Epochen ».",
+    "etymology": "Issu du moyen haut-allemand « geschiht », vieux haut-allemand « giskiht », déverbal du verbe geschehen (advenir)."
   },
   "ch1_p3_s1_w7": {
     "wordId": "ch1_p3_s1_w7",
@@ -3843,8 +4007,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p3_s1_w12": {
     "wordId": "ch1_p3_s1_w12",
-    "translationFr": "complet / intégral",
-    "literalTranslation": "qui possède toutes ses composantes",
+    "translationFr": "complète / intégrale",
+    "literalTranslation": "complète, intégrale, dont toutes les composantes sont présentes (adjectif à l'accusatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif décrivant la division méticuleuse du corps social médiéval.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3852,7 +4016,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p3_s1_w12"
-    ]
+    ],
+    "etymology": "Composé de « voll » (plein, vieux haut-allemand fol) et « ständig » (qui tient debout, de stehen)."
   },
   "ch1_p3_s1_w14": {
     "wordId": "ch1_p3_s1_w14",
@@ -3870,15 +4035,17 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p3_s1_w15": {
     "wordId": "ch1_p3_s1_w15",
     "translationFr": "société",
-    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant la formation économique et sociale globale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "société humaine globale (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au génitif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p3_s1_w15"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Gliederung » (articulation / hiérarchie).",
+    "etymology": "Issu du moyen haut-allemand « geselleschaft » (association jurée, corps constitué), formé sur « Geselle » (compagnon)."
   },
   "ch1_p3_s1_w16": {
     "wordId": "ch1_p3_s1_w16",
@@ -3895,8 +4062,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p3_s1_w17": {
     "wordId": "ch1_p3_s1_w17",
-    "translationFr": "différent / divers",
-    "literalTranslation": "séparé, pluriel",
+    "translationFr": "divers / différents",
+    "literalTranslation": "différenciés, distincts les uns des autres (adjectif à l'accusatif masculin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif marquant la pluralité des nationalités et des échelons féodaux.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3904,7 +4071,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p3_s1_w17"
-    ]
+    ],
+    "etymology": "Participe passé du verbe « verscheiden » (séparer, distinguer, de ver- et scheiden = trancher)."
   },
   "ch1_p3_s1_w20": {
     "wordId": "ch1_p3_s1_w20",
@@ -3934,8 +4102,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p3_s1_w24": {
     "wordId": "ch1_p3_s1_w24",
-    "translationFr": "social",
-    "literalTranslation": "qui relève de la société humaine",
+    "translationFr": "sociales",
+    "literalTranslation": "sociales, relatives à l'organisation de la société (adjectif à l'accusatif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif désignant les positions et hiérarchies au sein du corps social.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3943,20 +4111,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p3_s1_w24"
-    ]
+    ],
+    "etymology": "Dérivé au moyen du suffixe « -lich » sur « Gesellschaft » (société, de Geselle = compagnon)."
   },
   "ch1_p3_s1_w25": {
     "wordId": "ch1_p3_s1_w25",
-    "translationFr": "positions sociales / rangs",
-    "literalTranslation": "emplacement institutionnel dans la société",
-    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant les échelons et rangs d'honneur au sein des ordres féodaux.",
+    "translationFr": "positions / conditions sociales",
+    "literalTranslation": "places statutaires, degrés de rang social (accusatif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Stellung -> die Stellungen) à l'accusatif pluriel après « in verschiedene ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "gen"
+      "acc",
+      "plural"
     ],
     "wordIds": [
       "ch1_p3_s1_w25"
-    ]
+    ],
+    "contextNote": "Désigne la hiérarchie complexe des rangs dans les sociétés pré-capitalistes.",
+    "etymology": "Déverbal en « -ung » formé sur le verbe « stellen » (placer debout, poser fermement), causatif germanique du verbe fort « stehen » (se tenir debout)."
   },
   "ch1_p3_s2_w1": {
     "wordId": "ch1_p3_s2_w1",
@@ -3973,8 +4145,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p3_s2_w2": {
     "wordId": "ch1_p3_s2_w2",
-    "translationFr": "vieux / ancien",
-    "literalTranslation": "d'âge mûr, révolu",
+    "translationFr": "antique / ancienne",
+    "literalTranslation": "antique, de l'âge révolu (adjectif au datif neutre singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la décrépitude des monarchies d'Ancien Régime.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -3982,20 +4154,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p3_s2_w2"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « alt », vieux haut-allemand « alt » (ayant mûri, proto-germanique *aldaz)."
   },
   "ch1_p3_s2_w3": {
     "wordId": "ch1_p3_s2_w3",
     "translationFr": "Rome",
-    "literalTranslation": "la Rome antique impériale et républicaine",
-    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom propre neutre, archétype historique de société esclavagiste divisée en ordres stricts.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Rome antique (datif neutre singulier sans article)",
+    "grammaticalRole": "Nom propre géographique au datif après la contraction prépositionnelle « Im » (In dem) et l'adjectif « alten ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch1_p3_s2_w3"
-    ]
+    ],
+    "contextNote": "Premier exemple historique mobilisé par Marx pour illustrer la stratification complexe des ordres anciens.",
+    "etymology": "Emprunt au nom propre latin « Rōma » (nom de la ville sur le Tibre, étymon pré-latin ou étrusque débattu : traditionnellement rattaché à « ruma » = mamelle, évoquant les collines jumelles du Palatin, ou à un ancien nom fluvial archaïque).",
+    "philosophicalContext": "Marx s'appuie sur la formation sociale romaine antique, dominée par le mode de production esclavagiste et l'antagonisme complexe entre patriciens fonciers, plébéiens libres mais appauvris, et esclaves non libres."
   },
   "ch1_p3_s2_w4": {
     "wordId": "ch1_p3_s2_w4",
@@ -4023,41 +4199,51 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p3_s2_w6": {
     "wordId": "ch1_p3_s2_w6",
     "translationFr": "patriciens",
-    "literalTranslation": "noble citoyen de la Rome antique",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant la classe dominante aristocratique dans l'Antiquité romaine.",
+    "literalTranslation": "patriciens, membres de l'aristocratie sénatoriale de Rome (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Patrizier -> die Patrizier) à l'accusatif pluriel sans article, COD de « haben ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p3_s2_w6"
-    ]
+    ],
+    "contextNote": "Premier ordre de la cité romaine, détenteur exclusif des magistratures et des terres.",
+    "etymology": "Emprunt au latin « patricius » (qui a des ancêtres illustres, membre de la classe sénatoriale héréditaire primitive de Rome, dérivé de « pater » = père de famille, chef de gens aristocratique)."
   },
   "ch1_p3_s2_w10": {
     "wordId": "ch1_p3_s2_w10",
     "translationFr": "plébéiens",
-    "literalTranslation": "citoyen ordinaire non noble de Rome",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant la classe populaire laborieuse de l'Antiquité.",
+    "literalTranslation": "plébéiens, citoyens romains libres exclus de l'aristocratie (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Plebejer -> die Plebejer) à l'accusatif pluriel sans article.",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p3_s2_w10"
-    ]
+    ],
+    "contextNote": "La masse des citoyens libres opposée aux patriciens dans la lutte civile de la République romaine.",
+    "etymology": "Emprunt au latin « plebeius », dérivé de « plebs » (la foule, la multitude du peuple non noble), issu de la racine indo-européenne *pleh₁- (être plein, remplir, d'où proviennent le latin plenus, le grec plēthos / foule, et l'allemand voll)."
   },
   "ch1_p3_s2_w12": {
     "wordId": "ch1_p3_s2_w12",
     "translationFr": "esclaves",
-    "literalTranslation": "être humain réduit à l'état de marchandise et propriété d'un maître",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant la classe exploitée suprême du mode de production antique.",
-    "difficulty": "intermediate",
+    "literalTranslation": "esclaves, êtres humains chosifiés et asservis (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Sklave -> die Sklaven) à l'accusatif pluriel sans article.",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p3_s2_w12"
-    ]
+    ],
+    "contextNote": "La classe asservie fondamentale du mode de production antique.",
+    "etymology": "Issu du moyen haut-allemand « slave », emprunt au latin médiéval « sclavus », altération du grec byzantin « Skláboi » (Σκλάβοι = les peuples slaves, réduits massivement en servitude lors des conquêtes des empereurs carolingiens et byzantins aux VIIIe-Xe siècles, substituant ce terme au latin classique servus).",
+    "philosophicalContext": "L'esclave antique est la négation absolue de la personne juridique : il est un instrument vocal (« instrumentum vocale ») possédé corps et âme, à la différence de l'ouvrier salarié moderne qui conserve formellement sa liberté juridique mais vend temporairement sa force de travail."
   },
   "ch1_p3_s2_w14": {
     "wordId": "ch1_p3_s2_w14",
@@ -4075,54 +4261,70 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p3_s2_w15": {
     "wordId": "ch1_p3_s2_w15",
     "translationFr": "Moyen Âge",
-    "literalTranslation": "l'âge intermédiaire, l'époque féodale",
-    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom neutre désignant la longue période féodale précédant l'essor bourgeois.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Moyen Âge, époque féodale intermédiaire (datif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Mittelalter) au datif singulier après la contraction « im » (in dem).",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p3_s2_w15"
-    ]
+    ],
+    "contextNote": "Seconde illustration historique de stratification statutaire complexe.",
+    "etymology": "Composé forgé au XVIIe siècle comme calque du latin humaniste « medium aevum » (l'âge moyen entre l'Antiquité classique et la Renaissance) : 1° l'adjectif « mittel » (médian, moyen) ; 2° « das Alter » (l'âge, l'époque, du vieux haut-allemand altar, du proto-germanique *aldraz)."
   },
   "ch1_p3_s2_w20": {
     "wordId": "ch1_p3_s2_w20",
-    "translationFr": "maîtres de jurande",
-    "literalTranslation": "maître artisan membre d'une corporation fermée",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin composé désignant les membres privilégiés des jurandes urbaines médiévales.",
-    "difficulty": "intermediate",
+    "translationFr": "maîtres de jurande / maîtres de corporation",
+    "literalTranslation": "maîtres artisans membres de plein droit d'une jurande fermée (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom composé masculin pluriel (der Zunftbürger -> die Zunftbürger) à l'accusatif pluriel sans article, COD de « haben ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "feudalism",
+      "comp_noun"
     ],
     "wordIds": [
       "ch1_p3_s2_w20"
-    ]
+    ],
+    "contextNote": "Lafargue traduit par « maîtres de jurande ». Désigne le maître de corporation propriétaire de son atelier médiéval. Fiche autonome complète sans renvoi.",
+    "etymology": "Composé corporatif médiéval : 1° « die Zunft » (la jurande artisanale, corporation fermée dotée de monopoles municipaux stricts, issu du moyen haut-allemand « zumft », vieux haut-allemand « zumft », littéralement accord réglé, convenance statutaire, déverbal du verbe ziemen = convenir, être décent et conforme à la règle) ; 2° « der Bürger » (le citoyen franc de la cité fortifiée, dérivé de Burg = bourg fortifié).",
+    "philosophicalContext": "Note capitale d'Engels (1888) : « Le Zunftbürger est le maître de jurande, membre à part entière d'une corporation, et non son doyen ou chef ». Il possède ses outils, son atelier et exploite des compagnons (« Gesellen ») et apprentis dans un cadre de privilèges urbains féodaux étanches."
   },
   "ch1_p3_s2_w22": {
     "wordId": "ch1_p3_s2_w22",
     "translationFr": "compagnons",
-    "literalTranslation": "artisan qualifié dépendant du maître",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant l'ouvrier corporatif placé sous l'autorité directe du maître de jurande.",
+    "literalTranslation": "compagnons artisans, ouvriers qualifiés subordonnés au maître de jurande (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Geselle -> die Gesellen) à l'accusatif pluriel sans article (déclinaison faible en -n).",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p3_s2_w22"
-    ]
+    ],
+    "contextNote": "Opposé directement au « Zunftbürger » au sein de la corporation d'atelier médiévale.",
+    "etymology": "Issu du moyen haut-allemand « geselle », vieux haut-allemand « gisello » (compagnon de chambre, de chambrée, celui qui partage la même demeure ou la même salle de travail), formé sur le substantif « sal » (la grande pièce, la salle de réception, vieux haut-allemand sal).",
+    "philosophicalContext": "L'artisan compagnon médiéval ne peut devenir maître que sous des conditions statutaires drastiques imposées par les jurandes, ce qui crée une guerre larvée entre compagnons et maîtres au sein même des villes médiévales."
   },
   "ch1_p3_s2_w24": {
     "wordId": "ch1_p3_s2_w24",
     "translationFr": "serfs",
-    "literalTranslation": "paysan attaché corporellement à la glèbe",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin désignant les producteurs ruraux dominés de la féodalité.",
-    "difficulty": "intermediate",
+    "literalTranslation": "serfs, personnes asservies à la glèbe dont le corps appartient au seigneur (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel substantivé (der Leibeigene -> die Leibeigenen) à l'accusatif pluriel sans article.",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p3_s2_w24"
-    ]
+    ],
+    "contextNote": "Dernier rang de la hiérarchie féodale terrienne.",
+    "etymology": "Composé juridique médiéval associant : 1° « der Leib » (le corps physique vivant, en moyen haut-allemand līp, vieux haut-allemand līb = corps, vie, proto-germanique *lībam, cognat de l'anglais life) ; 2° l'adjectif « eigen » (propre, possédé en propriété exclusive, vieux haut-allemand eigan). Désigne littéralement l'homme dont le corps physique même est la propriété légale et perpétuelle du maître seigneurial.",
+    "philosophicalContext": "Le serf féodal est rivé héréditairement à la terre seigneuriale (la glèbe). Il livre une part de sa récolte et effectue des corvées non payées sous la contrainte extra-économique des armes du seigneur."
   },
   "ch1_p3_s2_w26": {
     "wordId": "ch1_p3_s2_w26",
@@ -4186,16 +4388,20 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p3_s2_w31": {
     "wordId": "ch1_p3_s2_w31",
     "translationFr": "classes",
-    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
-    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept central du matérialisme historique.",
-    "difficulty": "intermediate",
+    "literalTranslation": "classes, groupements sociaux et économiques (datif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Klassen) au datif pluriel après « in fast jeder dieser ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "gen",
+      "dat",
+      "plural",
       "class_struggle"
     ],
     "wordIds": [
       "ch1_p3_s2_w31"
-    ]
+    ],
+    "contextNote": "Fiche autonome complète sans renvoi. Désigne les subdivisions internes observées dans chaque classe historique.",
+    "etymology": "Emprunt savant au latin classique « classis » (les classes civiques censitaires de Rome sous Servius Tullius, du verbe calare = convoquer les citoyens selon leur fortune).",
+    "philosophicalContext": "Marx montre que chaque grande classe sociale comporte en son sein des fractions et des gradations particulières (« besondere Abstufungen »), loin d'une masse homogène."
   },
   "ch1_p3_s2_w32": {
     "wordId": "ch1_p3_s2_w32",
@@ -4209,8 +4415,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p3_s2_w33": {
     "wordId": "ch1_p3_s2_w33",
-    "translationFr": "particulier / distinct",
-    "literalTranslation": "propre à un rang singulier",
+    "translationFr": "particulières / spécifiques",
+    "literalTranslation": "singulières, propres à un ordre distinct (adjectif à l'accusatif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif caractérisant les privilèges corporatifs spécifiques.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4218,20 +4424,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p3_s2_w33"
-    ]
+    ],
+    "etymology": "Dérivé de « sonder » (à part, séparé, sans, en vieux haut-allemand suntar = à l'écart)."
   },
   "ch1_p3_s2_w34": {
     "wordId": "ch1_p3_s2_w34",
-    "translationFr": "gradation / échelonnement",
-    "literalTranslation": "hiérarchie en gradins",
-    "grammaticalRole": "Nom féminin pluriel · au accusatif (complément d'objet direct). Nom féminin marquant la segmentation hiérarchique complexe des rangs sociaux féodaux.",
+    "translationFr": "gradations / degrés / nuances",
+    "literalTranslation": "gradations hiérarchiques, échelons statutaires particuliers (accusatif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Abstufung -> die Abstufungen) à l'accusatif pluriel, COD de « finden ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "plural"
     ],
     "wordIds": [
       "ch1_p3_s2_w34"
-    ]
+    ],
+    "contextNote": "Souligne la granularité et la multiplicité des échelons de rang dans les ordres féodaux et antiques.",
+    "etymology": "Déverbal en « -ung » formé sur le verbe « abstufen » (graduer, échelonner par marches d'escalier), dérivé du substantif « die Stufe » (le degré, la marche d'escalier, en moyen haut-allemand stuofe, vieux haut-allemand stuofa, issu du verbe germanique stapfen = faire un pas)."
   },
   "ch1_p4_s1_w1": {
     "wordId": "ch1_p4_s1_w1",
@@ -4274,16 +4484,21 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p4_s1_w4": {
     "wordId": "ch1_p4_s1_w4",
-    "translationFr": "ruine / disparition",
-    "literalTranslation": "effondrement, chute au fond de l'abîme",
-    "grammaticalRole": "Nom masculin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin tragique : l'issue historique où deux classes antagonistes s'abîment ensemble.",
-    "difficulty": "intermediate",
+    "translationFr": "ruine / effondrement / disparition",
+    "literalTranslation": "chute dans l'abîme, effondrement historique complet de l'ordre féodal (datif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Untergang) au datif singulier avec la désinence archaïque -e après la préposition « aus dem ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "dat"
+      "comp_noun",
+      "dat",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p4_s1_w4"
-    ]
+    ],
+    "contextNote": "Régime de provenance « aus dem Untergange ». Fiche autonome complète sans renvoi.",
+    "etymology": "Composé de la préposition germanique « unter » (en dessous, vers le bas, vieux haut-allemand untar) et du déverbal « der Gang » (la marche, l'allée, en moyen haut-allemand ganc, vieux haut-allemand gang, issu du verbe fort gehen = aller). Évoque au sens propre la descente au tombeau, le naufrage ou le coucher des astres.",
+    "philosophicalContext": "L'effondrement inéluctable de la féodalité : le mode de production féodal s'est écroulé parce que ses rapports de propriété corporatifs et serviles entravaient le développement des forces productives. La bourgeoisie moderne est sortie directement de cet Untergang."
   },
   "ch1_p4_s1_w5": {
     "wordId": "ch1_p4_s1_w5",
@@ -4300,8 +4515,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p4_s1_w6": {
     "wordId": "ch1_p4_s1_w6",
-    "translationFr": "féodaux",
-    "literalTranslation": "fondé sur le fief et le servage",
+    "translationFr": "féodale",
+    "literalTranslation": "féodale, fondée sur le fief et le servage (adjectif au génitif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier génitif (complément du nom marquant l'appartenance)). Adjectif désignant l'ordre hiérarchique seigneurial terrien antérieur au capital.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4309,25 +4524,29 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p4_s1_w6"
-    ]
+    ],
+    "etymology": "Emprunt au latin médiéval « feudalis » (relatif au fief, de feudum, du francique *fehu = bétail, bien foncier octroyé en échange d'hommage lige)."
   },
   "ch1_p4_s1_w7": {
     "wordId": "ch1_p4_s1_w7",
     "translationFr": "société",
-    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant la formation économique et sociale globale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "société féodale (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au génitif singulier après « der feudalen ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p4_s1_w7"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Untergange ».",
+    "etymology": "Issu du moyen haut-allemand « geselleschaft », dérivé de Geselle (compagnon)."
   },
   "ch1_p4_s1_w9": {
     "wordId": "ch1_p4_s1_w9",
     "translationFr": "moderne",
-    "literalTranslation": "propre au temps présent",
+    "literalTranslation": "moderne, contemporaine du capitalisme mécanisé (adjectif au nominatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif qualifiant l'ordre bourgeois né des ruines de la féodalité.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4335,20 +4554,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p4_s1_w9"
-    ]
+    ],
+    "etymology": "Emprunt savant au latin classique tardif « modernus » (actuel, de notre temps, formé sur l'adverbe « modo » = récemment, à l'instant, de la racine de modus = mesure du temps présent)."
   },
   "ch1_p4_s1_w11": {
     "wordId": "ch1_p4_s1_w11",
     "translationFr": "société",
-    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant la formation économique et sociale globale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "société bourgeoise moderne (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au nominatif singulier déterminé par « die moderne bürgerliche ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "bourgeoisie"
     ],
     "wordIds": [
       "ch1_p4_s1_w11"
-    ]
+    ],
+    "contextNote": "Sujet grammatical de la proposition régissant « hat ... nicht aufgehoben ».",
+    "etymology": "Issu du moyen haut-allemand « geselleschaft », dérivé de Geselle (compagnon)."
   },
   "ch1_p4_s1_w12": {
     "wordId": "ch1_p4_s1_w12",
@@ -4419,7 +4642,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p4_s2_w4": {
     "wordId": "ch1_p4_s2_w4",
     "translationFr": "nouvelles",
-    "literalTranslation": "qui n'existait pas auparavant",
+    "literalTranslation": "nouvelles, inédites dans l'histoire (adjectif à l'accusatif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4427,26 +4650,31 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p4_s2_w4"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « niuwe », vieux haut-allemand « niuwi » (neuf, récent), du proto-germanique *neujaz, issu de la racine indo-européenne *newos (d'où latin novus, grec néos)."
   },
   "ch1_p4_s2_w5": {
     "wordId": "ch1_p4_s2_w5",
     "translationFr": "classes",
-    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
-    "grammaticalRole": "Nom féminin pluriel · au accusatif (complément d'objet direct). Nom féminin, concept central du matérialisme historique.",
-    "difficulty": "intermediate",
+    "literalTranslation": "classes économiques nouvelles produites par le capitalisme (accusatif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Klassen) à l'accusatif pluriel qualifié par l'adjectif « neue », premier COD de « gesetzt ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
       "acc",
+      "plural",
       "class_struggle"
     ],
     "wordIds": [
       "ch1_p4_s2_w5"
-    ]
+    ],
+    "contextNote": "Fiche autonome complète sans renvoi.",
+    "etymology": "Emprunt au latin « classis » (division censitaire des citoyens selon la propriété, de calare = appeler).",
+    "philosophicalContext": "Le capitalisme ne met pas fin à la lutte des classes : il engendre la classe bourgeoise d'un côté, et le prolétariat salarié de l'autre, poussant la contradiction à son point le plus aigu."
   },
   "ch1_p4_s2_w7": {
     "wordId": "ch1_p4_s2_w7",
     "translationFr": "nouvelles",
-    "literalTranslation": "qui n'existait pas auparavant",
+    "literalTranslation": "nouvelles (adjectif à l'accusatif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4454,7 +4682,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p4_s2_w7"
-    ]
+    ],
+    "etymology": "Issu du vieux haut-allemand « niuwi » (proto-germanique *neujaz, racine indo-européenne *newos)."
   },
   "ch1_p4_s2_w9": {
     "wordId": "ch1_p4_s2_w9",
@@ -4472,20 +4701,24 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p4_s2_w10": {
     "wordId": "ch1_p4_s2_w10",
     "translationFr": "oppression",
-    "literalTranslation": "action d'écraser sous le poids de la domination",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin caractérisant les rapports de soumission politique et économique.",
+    "literalTranslation": "oppression économique et politique, assujettissement forcé (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Unterdrückung) au génitif singulier après « der ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "class_struggle"
     ],
     "wordIds": [
       "ch1_p4_s2_w10"
-    ]
+    ],
+    "contextNote": "Complément du nom déterminant « Bedingungen ».",
+    "etymology": "Déverbal en « -ung » formé sur le verbe inséparable « unterdrücken » (comprimer vers le bas, écraser par contrainte, de unter- + drücken = presser, du vieux haut-allemand drucchen).",
+    "philosophicalContext": "L'oppression a changé de forme : elle n'est plus assise sur le servage féodal ou les chaînes de l'esclavage légal, mais sur la contrainte économique silencieuse qui force l'ouvrier dépourvu de moyens de production à vendre sa force de travail pour ne pas mourir de faim."
   },
   "ch1_p4_s2_w12": {
     "wordId": "ch1_p4_s2_w12",
     "translationFr": "nouvelles",
-    "literalTranslation": "qui n'existait pas auparavant",
+    "literalTranslation": "nouvelles (adjectif à l'accusatif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4493,7 +4726,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p4_s2_w12"
-    ]
+    ],
+    "etymology": "Issu du vieux haut-allemand « niuwi » (proto-germanique *neujaz, racine indo-européenne *newos)."
   },
   "ch1_p4_s2_w14": {
     "wordId": "ch1_p4_s2_w14",
@@ -4511,15 +4745,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p4_s2_w15": {
     "wordId": "ch1_p4_s2_w15",
     "translationFr": "lutte / combat",
-    "literalTranslation": "affrontement antagonique",
-    "grammaticalRole": "Nom masculin singulier · au génitif (complément du nom marquant l'appartenance). Nom masculin, moteur dialectique des transformations matérielles de l'humanité.",
-    "difficulty": "intermediate",
+    "literalTranslation": "lutte, guerre de classe (génitif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Kampf) au génitif singulier avec désinence forte -es après « des ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "class_struggle"
     ],
     "wordIds": [
       "ch1_p4_s2_w15"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Gestaltungen » (formes / configurations).",
+    "etymology": "Issu du moyen haut-allemand « kampf », vieux haut-allemand « kampf », emprunt au latin « campus » (champ de bataille)."
   },
   "ch1_p4_s2_w16": {
     "wordId": "ch1_p4_s2_w16",
@@ -4549,16 +4786,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p4_s2_w18": {
     "wordId": "ch1_p4_s2_w18",
-    "translationFr": "place / position",
-    "literalTranslation": "lieu précis, rôle substitué",
-    "grammaticalRole": "Nom féminin singulier · au accusatif (complément d'objet direct). Nom féminin : la bourgeoisie a substitué de nouveaux rapports de classe aux anciens.",
-    "difficulty": "intermediate",
+    "translationFr": "place",
+    "literalTranslation": "place, position de substitution historique (accusatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Stelle) à l'accusatif singulier après la préposition directionnelle « an die ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "acc"
     ],
     "wordIds": [
       "ch1_p4_s2_w18"
-    ]
+    ],
+    "contextNote": "Fait partie de la locution prépositionnelle « an die Stelle » (à la place de).",
+    "etymology": "Issu du moyen haut-allemand « stelle », vieux haut-allemand « stella » (emplacement fixe, poste), déverbal de stellen (poser debout)."
   },
   "ch1_p4_s2_w19": {
     "wordId": "ch1_p4_s2_w19",
@@ -4575,8 +4814,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p4_s2_w20": {
     "wordId": "ch1_p4_s2_w20",
-    "translationFr": "vieux / ancien",
-    "literalTranslation": "d'âge mûr, révolu",
+    "translationFr": "anciennes",
+    "literalTranslation": "anciennes conditions et classes féodales (adjectif au génitif féminin pluriel substantivé)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif marquant la décrépitude des monarchies d'Ancien Régime.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4584,7 +4823,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p4_s2_w20"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « alt », vieux haut-allemand « alt » (proto-germanique *aldaz)."
   },
   "ch1_p5_s1_w1": {
     "wordId": "ch1_p5_s1_w1",
@@ -4602,15 +4842,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p5_s1_w2": {
     "wordId": "ch1_p5_s1_w2",
     "translationFr": "époque",
-    "literalTranslation": "période historique définie par un mode de production",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant une ère matérielle spécifique dominée par des rapports de production distincts.",
-    "difficulty": "intermediate",
+    "literalTranslation": "époque, ère historique (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Epoche) au nominatif singulier déterminé par l'adjectif possessif « Unsere ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "hist_mat"
     ],
     "wordIds": [
       "ch1_p5_s1_w2"
-    ]
+    ],
+    "contextNote": "Sujet de la proposition caractérisant l'époque bourgeoise par la simplification des antagonismes.",
+    "etymology": "Emprunt savant au grec ancien « epokhḗ » (point d'arrêt, halte dans le temps, de epékhein = arrêter)."
   },
   "ch1_p5_s1_w4": {
     "wordId": "ch1_p5_s1_w4",
@@ -4628,15 +4871,17 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p5_s1_w5": {
     "wordId": "ch1_p5_s1_w5",
     "translationFr": "époque",
-    "literalTranslation": "période historique définie par un mode de production",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant une ère matérielle spécifique dominée par des rapports de production distincts.",
-    "difficulty": "intermediate",
+    "literalTranslation": "époque, ère historique (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Epoche) au nominatif singulier après « die ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "nom"
     ],
     "wordIds": [
       "ch1_p5_s1_w5"
-    ]
+    ],
+    "contextNote": "Reprise anaphorique en apposition explicative.",
+    "etymology": "Emprunt au grec ancien « epokhḗ » (point d'arrêt, ère nouvelle)."
   },
   "ch1_p5_s1_w6": {
     "wordId": "ch1_p5_s1_w6",
@@ -4654,16 +4899,19 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p5_s1_w7": {
     "wordId": "ch1_p5_s1_w7",
     "translationFr": "bourgeoisie",
-    "literalTranslation": "classe des détenteurs du capital moderne",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin emprunté au français, désignant chez Marx la classe dominante qui possède les moyens de production.",
-    "difficulty": "intermediate",
+    "literalTranslation": "bourgeoisie, classe dominante capitaliste (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Bourgeoisie) au génitif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen",
       "bourgeoisie"
     ],
     "wordIds": [
       "ch1_p5_s1_w7"
-    ]
+    ],
+    "contextNote": "Complément déterminant l'époque moderne.",
+    "etymology": "Emprunt direct au français « bourgeoisie », dérivé de « bourgeois », issu du bas-latin « burgensis » (habitant franc d'un bourg fortifié, Burg).",
+    "philosophicalContext": "L'époque de la bourgeoisie est le moment historique où le capitalisme subordonne la société entière à l'accumulation de profit et à la production marchande."
   },
   "ch1_p5_s1_w10": {
     "wordId": "ch1_p5_s1_w10",
@@ -4746,16 +4994,22 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p5_s1_w18": {
     "wordId": "ch1_p5_s1_w18",
-    "translationFr": "antagonismes de classe",
-    "literalTranslation": "opposition irréductible de deux classes",
-    "grammaticalRole": "Nom masculin pluriel · au accusatif (complément d'objet direct). Nom masculin composé désignant la contradiction motrice de la société bourgeoise.",
-    "difficulty": "intermediate",
+    "translationFr": "antagonismes de classes",
+    "literalTranslation": "antagonismes de classes, contradictions économiques majeures (accusatif masculin pluriel)",
+    "grammaticalRole": "Nom composé masculin pluriel (die Klassengegensätze) à l'accusatif pluriel, COD de « vereinfacht hat ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "plural",
+      "class_struggle",
+      "comp_noun"
     ],
     "wordIds": [
       "ch1_p5_s1_w18"
-    ]
+    ],
+    "contextNote": "Fiche autonome complète sans renvoi.",
+    "etymology": "Composé associant « die Klasse » (du latin classis) et « der Gegensatz » (calque allemand du grec antíthesis, de gegen = contre + Satz = position).",
+    "philosophicalContext": "La thèse de la simplification dialectique : à l'enchevêtrement baroque des ordres féodaux (noblesse, clergé, maîtres, compagnons, serfs, vilains) succède la clarté brutale d'une opposition binaire."
   },
   "ch1_p5_s1_w20": {
     "wordId": "ch1_p5_s1_w20",
@@ -4782,8 +5036,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p5_s2_w2": {
     "wordId": "ch1_p5_s2_w2",
-    "translationFr": "entier / tout / complet",
-    "literalTranslation": "sans division ni réserve",
+    "translationFr": "entière / tout entière",
+    "literalTranslation": "entière, prise dans sa totalité organique (adjectif au nominatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif insistant sur l'universalité de la polarisation de la société entière.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4791,20 +5045,23 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p5_s2_w2"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « ganz », vieux haut-allemand « ganz » (intact, complet)."
   },
   "ch1_p5_s2_w3": {
     "wordId": "ch1_p5_s2_w3",
     "translationFr": "société",
-    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin désignant la formation économique et sociale globale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "société tout entière (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au nominatif singulier après « Die ganze ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "nom"
     ],
     "wordIds": [
       "ch1_p5_s2_w3"
-    ]
+    ],
+    "contextNote": "Sujet de la scission dialectique universelle.",
+    "etymology": "Issu du moyen haut-allemand « geselleschaft », dérivé de Geselle (compagnon)."
   },
   "ch1_p5_s2_w5": {
     "wordId": "ch1_p5_s2_w5",
@@ -4875,7 +5132,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p5_s2_w11": {
     "wordId": "ch1_p5_s2_w11",
     "translationFr": "grands",
-    "literalTranslation": "de vaste dimension",
+    "literalTranslation": "vastes, de dimension colossale (adjectif à l'accusatif neutre pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif soulignant la division monolithique de la société moderne en deux camps gigantesques.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4883,12 +5140,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p5_s2_w11"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « grōz », vieux haut-allemand « grōz » (grand, imposant, corpulent), du proto-germanique *grautaz (gros, grossier)."
   },
   "ch1_p5_s2_w12": {
     "wordId": "ch1_p5_s2_w12",
     "translationFr": "ennemis / hostiles",
-    "literalTranslation": "portant une inimitié mortelle",
+    "literalTranslation": "ennemis, irréconciliables, portant une hostilité mortelle (adjectif à l'accusatif neutre pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif caractérisant les deux camps belligérants de la société moderne.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4896,7 +5154,9 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p5_s2_w12"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « vīntlich », dérivé en « -lich » sur « der Feind » (l'ennemi, l'adversaire de combat, en vieux haut-allemand fīant, participe présent substantivé du verbe germanique *fijōną = haïr, détester).",
+    "philosophicalContext": "L'antagonisme moderne n'est pas une simple émulation concurrentielle : c'est une hostilité de guerre civile objective entre la classe possédante et la classe spoliée."
   },
   "ch1_p5_s2_w15": {
     "wordId": "ch1_p5_s2_w15",
@@ -4923,8 +5183,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p5_s2_w17": {
     "wordId": "ch1_p5_s2_w17",
-    "translationFr": "grands",
-    "literalTranslation": "de vaste dimension",
+    "translationFr": "grandes",
+    "literalTranslation": "grandes, universelles (adjectif à l'accusatif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel accusatif (complément d'objet direct)). Adjectif soulignant la division monolithique de la société moderne en deux camps gigantesques.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -4932,7 +5192,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p5_s2_w17"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « grōz », vieux haut-allemand « grōz »."
   },
   "ch1_p5_s2_w19": {
     "wordId": "ch1_p5_s2_w19",
@@ -4949,27 +5210,33 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p5_s2_w20": {
     "wordId": "ch1_p5_s2_w20",
-    "translationFr": "directement / sans intermédiaire",
-    "literalTranslation": "en ligne droite, immédiat",
+    "translationFr": "directement / face à face",
+    "literalTranslation": "en ligne droite, immédiatement, sans écran féodal intermédiaire (adverbe / adjectif)",
     "grammaticalRole": "Adjectif qualificatif décliné ( ). Adverbe marquant la simplification capitaliste réduisant les médiations féodales au rapport d'argent nu.",
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p5_s2_w20"
-    ]
+    ],
+    "etymology": "Emprunt savant au latin classique « directus » (droit, en ligne droite, sans détour), participe passé de dirigere (aligner, guider, de dis- et regere = mener droit).",
+    "philosophicalContext": "La disparition des corps intermédiaires corporatifs met pour la première fois les deux classes fondamentales en face à face direct sans aucune médiation."
   },
   "ch1_p5_s2_w22": {
     "wordId": "ch1_p5_s2_w22",
     "translationFr": "classes",
-    "literalTranslation": "groupe d'individus partageant la même place dans les rapports de production",
-    "grammaticalRole": "Nom féminin pluriel · au accusatif (complément d'objet direct). Nom féminin, concept central du matérialisme historique.",
-    "difficulty": "intermediate",
+    "literalTranslation": "classes, camps belligérants économiques fondamentaux (accusatif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Klassen) à l'accusatif pluriel après « in zwei große ... Klassen ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
       "acc",
+      "plural",
       "class_struggle"
     ],
     "wordIds": [
       "ch1_p5_s2_w22"
-    ]
+    ],
+    "contextNote": "Fiche autonome complète sans renvoi.",
+    "etymology": "Emprunt au latin « classis » (division censitaire des citoyens romains selon la fortune, de calare = convoquer).",
+    "philosophicalContext": "Polarisation historique ultime : l'ensemble des couches intermédiaires (artisans, boutiquiers, paysans parcellaires) est broyé par la concurrence du grand capital et précipité dans le prolétariat, ne laissant face à face que les deux classes fondamentales du mode de production moderne : la Bourgeoisie et le Prolétariat."
   },
   "ch1_p5_s2_w25": {
     "wordId": "ch1_p5_s2_w25",
@@ -5009,16 +5276,21 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p6_s1_w3": {
     "wordId": "ch1_p6_s1_w3",
-    "translationFr": "serf",
-    "literalTranslation": "paysan attaché corporellement à la glèbe",
-    "grammaticalRole": "Nom masculin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin désignant les producteurs ruraux dominés de la féodalité.",
-    "difficulty": "intermediate",
+    "translationFr": "serfs",
+    "literalTranslation": "serfs, tenanciers asservis à la glèbe seigneuriale (datif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel substantivé (die Leibeigenen) au datif pluriel après « Aus den ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "plural",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p6_s1_w3"
-    ]
+    ],
+    "contextNote": "Point de départ historique de la genèse de la bourgeoisie.",
+    "etymology": "Composé de « Leib » (le corps, la vie physique) et « eigen » (propre, possédé en bien exclusif). Le serf dont le corps même est la propriété du seigneur.",
+    "philosophicalContext": "Paradoxe dialectique fondamental : la classe dominante qui régit aujourd'hui le monde entier (la bourgeoisie) ne descend pas des rois ou des seigneurs féodaux, mais de la fuite clandestine des serfs les plus opprimés hors des terres de leurs maîtres."
   },
   "ch1_p6_s1_w4": {
     "wordId": "ch1_p6_s1_w4",
@@ -5036,24 +5308,33 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p6_s1_w5": {
     "wordId": "ch1_p6_s1_w5",
     "translationFr": "Moyen Âge",
-    "literalTranslation": "l'âge intermédiaire, l'époque féodale",
-    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom neutre désignant la longue période féodale précédant l'essor bourgeois.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Moyen Âge féodal (génitif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Mittelalter) au génitif fort en -s après « des ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p6_s1_w5"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Leibeigenen ».",
+    "etymology": "Composé de mittel (moyen) et Alter (âge, époque), calque du latin medium aevum."
   },
   "ch1_p6_s1_w6": {
     "wordId": "ch1_p6_s1_w6",
-    "translationFr": "découler / résulter",
-    "literalTranslation": "sortir en avant de",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
+    "translationFr": "sortirent / émergèrent",
+    "literalTranslation": "émanèrent, sortirent en marchant (prétérit pluriel de hervorgehen)",
+    "grammaticalRole": "Radical verbal du verbe séparable fort « hervorgehen » au prétérit de l'indicatif, 3e personne du pluriel.",
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p6_s1_w6"
+    ],
+    "contextNote": "Verbe séparable « hervorgehen » exprimant l'émergence historique progressive.",
+    "etymology": "Verbe fort (moyen haut-allemand hervorgān, vieux haut-allemand hervor gān), unissant le préverbe hervor (vers l'avant, hors de, de her + vor) et le verbe gehen (marcher, aller).",
+    "relatedConcepts": [
+      "sep_verb",
+      "past"
     ]
   },
   "ch1_p6_s1_w7": {
@@ -5084,8 +5365,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p6_s1_w10": {
     "wordId": "ch1_p6_s1_w10",
-    "translationFr": "premier",
-    "literalTranslation": "qui vient en tête chronologiquement",
+    "translationFr": "premières",
+    "literalTranslation": "qui apparaissent en premier chronologiquement (adjectif au génitif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel génitif (complément du nom marquant l'appartenance)). Adjectif ordonnant les origines historiques de la bourgeoisie primitive.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5093,29 +5374,38 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p6_s1_w10"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « êrst », vieux haut-allemand « ēristo » (premier, tout au début, superlatif du proto-germanique *airiz = plus tôt, jadis, racine de eher/early)."
   },
   "ch1_p6_s1_w11": {
     "wordId": "ch1_p6_s1_w11",
-    "translationFr": "villes",
-    "literalTranslation": "agglomération urbaine",
-    "grammaticalRole": "Nom féminin pluriel · au génitif (complément du nom marquant l'appartenance). Nom féminin : le berceau urbain où s'émancipe la classe marchande (« Stadtluft macht frei »).",
-    "difficulty": "intermediate",
+    "translationFr": "villes / cités franches",
+    "literalTranslation": "villes médiévales franches, cités bourgeoises autonomes (génitif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Stadt -> die Städte) au génitif pluriel après « der ersten ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "plural"
     ],
     "wordIds": [
       "ch1_p6_s1_w11"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Pfahlbürger ».",
+    "etymology": "Issu du moyen haut-allemand « stat » (lieu, emplacement fixe, bourg fortifié), vieux haut-allemand « stat » (lieu, place, cité, proto-germanique *stadiz, racine indo-européenne *steh₂- = se tenir debout). Cognat de l'anglais stead."
   },
   "ch1_p6_s1_w12": {
     "wordId": "ch1_p6_s1_w12",
-    "translationFr": "découler / résulter",
-    "literalTranslation": "sortir en avant de",
-    "grammaticalRole": "Particule verbale ou négative. Verbe de déduction logique et matérielle tirée de l'analyse des faits.",
-    "difficulty": "intermediate",
+    "translationFr": "en avant / au jour",
+    "literalTranslation": "hors de, en avant (particule séparable verbale)",
+    "grammaticalRole": "Particule verbale séparable du verbe « hervorgehen ».",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p6_s1_w12"
+    ],
+    "contextNote": "Particule séparable de « hervorgehen » rejetée en position de parenthèse verbale.",
+    "etymology": "Composé adverbial germanique formé de « her » (vers ici) et « vor » (devant, en avant).",
+    "relatedConcepts": [
+      "sep_verb"
     ]
   },
   "ch1_p6_s1_w14": {
@@ -5146,12 +5436,17 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p6_s1_w17": {
     "wordId": "ch1_p6_s1_w17",
-    "translationFr": "développer / déployer",
-    "literalTranslation": "déplier ce qui était enroulé, faire croître",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe matérialiste marquant la croissance organique des forces productives.",
-    "difficulty": "intermediate",
+    "translationFr": "se développèrent",
+    "literalTranslation": "se développèrent, se déployèrent hors du repli (prétérit réfléchi pluriel)",
+    "grammaticalRole": "Verbe faible au prétérit de l'indicatif, 3e personne du pluriel.",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p6_s1_w17"
+    ],
+    "contextNote": "Verbe réfléchi « sich entwickeln » exprimant la maturation organique des forces économiques.",
+    "etymology": "Composé du préfixe privatif et séparatif « ent- » (vieux haut-allemand ant-) et du verbe « wickeln » (envelopper, enrouler, vieux haut-allemand wickilīn). Littéralement « déplier ce qui était enroulé ou enveloppé ».",
+    "relatedConcepts": [
+      "past"
     ]
   },
   "ch1_p6_s1_w18": {
@@ -5182,8 +5477,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p6_s1_w20": {
     "wordId": "ch1_p6_s1_w20",
-    "translationFr": "premier",
-    "literalTranslation": "qui vient en tête chronologiquement",
+    "translationFr": "premiers",
+    "literalTranslation": "fondateurs, initiaux (adjectif à l'accusatif neutre pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel nominatif (sujet ou attribut du sujet)). Adjectif ordonnant les origines historiques de la bourgeoisie primitive.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5191,20 +5486,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p6_s1_w20"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « êrst », vieux haut-allemand « ēristo »."
   },
   "ch1_p6_s1_w21": {
     "wordId": "ch1_p6_s1_w21",
-    "translationFr": "éléments embryonnaires",
-    "literalTranslation": "composante fondamentale",
-    "grammaticalRole": "Nom neutre pluriel · au nominatif (sujet ou attribut du sujet). Nom neutre désignant les germes embryonnaires d'une classe au sein de l'ordre ancien.",
-    "difficulty": "intermediate",
+    "translationFr": "éléments",
+    "literalTranslation": "éléments germinaux constitutifs (nominatif neutre pluriel)",
+    "grammaticalRole": "Nom neutre pluriel (das Element -> die Elemente) au nominatif pluriel après « die ersten ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "plural"
     ],
     "wordIds": [
       "ch1_p6_s1_w21"
-    ]
+    ],
+    "contextNote": "Sujet grammatical de la proposition annonçant l'éclosion de la bourgeoisie.",
+    "etymology": "Emprunt savant au latin classique « elementum » (principe premier, composante originelle indécomposable d'un tout)."
   },
   "ch1_p6_s1_w22": {
     "wordId": "ch1_p6_s1_w22",
@@ -5222,16 +5521,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p6_s1_w23": {
     "wordId": "ch1_p6_s1_w23",
     "translationFr": "bourgeoisie",
-    "literalTranslation": "classe des détenteurs du capital moderne",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin emprunté au français, désignant chez Marx la classe dominante qui possède les moyens de production.",
-    "difficulty": "intermediate",
+    "literalTranslation": "bourgeoisie (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Bourgeoisie) au génitif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen",
       "bourgeoisie"
     ],
     "wordIds": [
       "ch1_p6_s1_w23"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Elemente ».",
+    "etymology": "Emprunt au français « bourgeoisie », du bas-latin burgensis (Burg)."
   },
   "ch1_p7_s1_w1": {
     "wordId": "ch1_p7_s1_w1",
@@ -5249,15 +5550,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s1_w3": {
     "wordId": "ch1_p7_s1_w3",
     "translationFr": "Amérique",
-    "literalTranslation": "le continent américain",
-    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom propre neutre désignant le Nouveau Monde dont la découverte accéléra l'essor capitaliste.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Amérique, continent américain (génitif neutre singulier)",
+    "grammaticalRole": "Nom propre géographique neutre singulier au génitif fort en -s sans article.",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p7_s1_w3"
-    ]
+    ],
+    "contextNote": "Complément du nom déterminant « Entdeckung ».",
+    "etymology": "Nom forgé en 1507 par le cartographe Martin Waldseemüller sur le prénom latinisé du navigateur florentin Amerigo Vespucci (Americus Vespucius). Le prénom germanique « Amerigo / Amalric » est composé de amal (zèle laborieux) et rihhi (puissant, noble).",
+    "philosophicalContext": "L'irruption de l'Amérique dans l'économie européenne marque le coup d'envoi de l'accumulation primitive du capital : pillage des métaux précieux, traite des esclaves et création du premier réseau marchand intercontinental."
   },
   "ch1_p7_s1_w5": {
     "wordId": "ch1_p7_s1_w5",
@@ -5275,24 +5579,31 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s1_w7": {
     "wordId": "ch1_p7_s1_w7",
     "translationFr": "Afrique",
-    "literalTranslation": "le continent africain",
-    "grammaticalRole": "Nom neutre singulier · au génitif (complément du nom marquant l'appartenance). Nom propre neutre, repère géographique de l'expansion coloniale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Afrique, continent africain (génitif neutre singulier)",
+    "grammaticalRole": "Nom propre géographique neutre singulier au génitif fort en -s sans article.",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p7_s1_w7"
-    ]
+    ],
+    "contextNote": "Complément du nom déterminant « Umschiffung » (la circumnavigation).",
+    "etymology": "Emprunt au latin « Africa », nom donné par les Romains aux terres de Carthage d'après le peuple autochtone des Afri (étymon berbère ou phénicien 'afar = poussière, terre sèche)."
   },
   "ch1_p7_s1_w8": {
     "wordId": "ch1_p7_s1_w8",
-    "translationFr": "créer / engendrer",
-    "literalTranslation": "produire à l'existence",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant la puissance démiurgique de la bourgeoisie créant de nouveaux marchés.",
-    "difficulty": "intermediate",
+    "translationFr": "créèrent / ouvrirent",
+    "literalTranslation": "façonnèrent, créèrent matériellement (prétérit fort pluriel)",
+    "grammaticalRole": "Verbe fort (schaffen) au prétérit de l'indicatif, 3e personne du pluriel.",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p7_s1_w8"
+    ],
+    "contextNote": "Verbe régissant le nouveau terrain conquis par la bourgeoisie.",
+    "etymology": "Issu du moyen haut-allemand « schuofen », vieux haut-allemand « scuofun », prétérit apophonique du verbe fort « schaffen » (créer, produire, façonner, en moyen haut-allemand schaffen, vieux haut-allemand scaffan, proto-germanique *skapjaną).",
+    "relatedConcepts": [
+      "past"
     ]
   },
   "ch1_p7_s1_w9": {
@@ -5311,16 +5622,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s1_w11": {
     "wordId": "ch1_p7_s1_w11",
     "translationFr": "bourgeoisie",
-    "literalTranslation": "classe des détenteurs du capital moderne",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin emprunté au français, désignant chez Marx la classe dominante qui possède les moyens de production.",
-    "difficulty": "intermediate",
+    "literalTranslation": "bourgeoisie montante (datif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Bourgeoisie) au datif singulier après « der aufkommenden ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat",
       "bourgeoisie"
     ],
     "wordIds": [
       "ch1_p7_s1_w11"
-    ]
+    ],
+    "contextNote": "Bénéficiaire au datif de la création du nouveau terrain d'expansion.",
+    "etymology": "Emprunt au français « bourgeoisie », du bas-latin burgensis (Burg)."
   },
   "ch1_p7_s1_w12": {
     "wordId": "ch1_p7_s1_w12",
@@ -5338,7 +5651,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s1_w13": {
     "wordId": "ch1_p7_s1_w13",
     "translationFr": "nouveau / inédit",
-    "literalTranslation": "qui n'existait pas auparavant",
+    "literalTranslation": "nouveau, vierge de contraintes féodales (adjectif à l'accusatif neutre singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5346,7 +5659,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p7_s1_w13"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « niuwe », vieux haut-allemand « niuwi » (proto-germanique *neujaz)."
   },
   "ch1_p7_s2_w1": {
     "wordId": "ch1_p7_s2_w1",
@@ -5363,16 +5677,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p7_s2_w2": {
     "wordId": "ch1_p7_s2_w2",
-    "translationFr": "des Indes orientales",
-    "literalTranslation": "relatif à l'Asie méridionale sous domination marchande",
-    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif marquant la conquête coloniale par les compagnies de commerce britanniques et hollandaises.",
+    "translationFr": "est-indien / d'Inde orientale",
+    "literalTranslation": "d'Inde orientale, est-indien (adjectif au nominatif masculin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné au nominatif masculin singulier en -e après l'article « Der ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "decl"
     ],
     "wordIds": [
       "ch1_p7_s2_w2"
-    ]
+    ],
+    "contextNote": "Strictement découplé de toute préposition ou article. Qualifie « Markt ».",
+    "etymology": "Composé géographique associant « Ost » (l'Est, l'Orient, du vieux haut-allemand ōstan, proto-germanique *austaz = à l'est, racine indo-européenne *h₂ews- = briller, aube) et « indisch » (relatif à l'Inde, du fleuve Indus / sanskrit Sindhu)."
   },
   "ch1_p7_s2_w3": {
     "wordId": "ch1_p7_s2_w3",
@@ -5387,7 +5704,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w4": {
     "wordId": "ch1_p7_s2_w4",
     "translationFr": "chinois",
-    "literalTranslation": "relatif à la Chine impériale",
+    "literalTranslation": "chinois, relatif à l'Empire du Milieu (adjectif au nominatif masculin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif géographique marquant l'ouverture impérialiste du gigantesque marché asiatique.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5395,20 +5712,23 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p7_s2_w4"
-    ]
+    ],
+    "etymology": "Dérivé avec le suffixe germanique « -isch » sur le toponyme « China » (emprunt au sanskrit Cīna, désignant la dynastie Qin / Ts'in qui unifia l'empire chinois au IIIe siècle av. J.-C.)."
   },
   "ch1_p7_s2_w5": {
     "wordId": "ch1_p7_s2_w5",
     "translationFr": "marché",
-    "literalTranslation": "espace marchand d'échange des denrées",
-    "grammaticalRole": "Nom masculin singulier · au nominatif (sujet ou attribut du sujet). Nom masculin économique dont la constante mondialisation nourrit la bourgeoisie.",
-    "difficulty": "intermediate",
+    "literalTranslation": "marché, débouché commercial colonial (nominatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Markt) au nominatif singulier déterminé par « Der ostindische und chinesische ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "nom"
     ],
     "wordIds": [
       "ch1_p7_s2_w5"
-    ]
+    ],
+    "contextNote": "Premier sujet de la phrase détaillant les nouveaux débouchés mondiaux.",
+    "etymology": "Emprunt ancien (dès le VIIIe siècle) au latin classique « mercatus » (commerce, trafic, lieu de foire, dérivé de « merx » = marchandise)."
   },
   "ch1_p7_s2_w7": {
     "wordId": "ch1_p7_s2_w7",
@@ -5426,15 +5746,19 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w8": {
     "wordId": "ch1_p7_s2_w8",
     "translationFr": "colonisation",
-    "literalTranslation": "soumission marchande et territoriale",
-    "grammaticalRole": "Nom féminin singulier · au nominatif (sujet ou attribut du sujet). Nom féminin marquant le processus d'expansion mondiale des forces productives capitalistes.",
+    "literalTranslation": "colonisation, conquête et exploitation coloniale de territoires (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Kolonisierung) au nominatif singulier déterminé par « die ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "latin_root"
     ],
     "wordIds": [
       "ch1_p7_s2_w8"
-    ]
+    ],
+    "contextNote": "Sujet coordonné énumérant les piliers de l'accumulation primitive.",
+    "etymology": "Déverbal en « -ung » formé sur le verbe « kolonisieren » (coloniser), emprunt au latin « colonia » (établissement de colons sur une terre conquise, de colonus = cultivateur, fermier, issu de colere = habiter, cultiver).",
+    "philosophicalContext": "Dans Le Capital (Livre I, section 8), Marx montre que la colonisation n'a rien d'une œuvre civilisatrice : elle est le pillage méthodique des continents extra-européens pour convertir les matières premières et l'or en capital marchand."
   },
   "ch1_p7_s2_w9": {
     "wordId": "ch1_p7_s2_w9",
@@ -5452,15 +5776,17 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w10": {
     "wordId": "ch1_p7_s2_w10",
     "translationFr": "Amérique",
-    "literalTranslation": "le continent américain",
-    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom propre neutre désignant le Nouveau Monde dont la découverte accéléra l'essor capitaliste.",
-    "difficulty": "intermediate",
+    "literalTranslation": "Amérique (datif neutre singulier sans article)",
+    "grammaticalRole": "Nom propre géographique invariable au datif après la préposition « von ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch1_p7_s2_w10"
-    ]
+    ],
+    "contextNote": "Complément de lieu après « von ».",
+    "etymology": "Formé d'après le prénom du navigateur Amerigo Vespucci (Americus)."
   },
   "ch1_p7_s2_w12": {
     "wordId": "ch1_p7_s2_w12",
@@ -5504,15 +5830,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w16": {
     "wordId": "ch1_p7_s2_w16",
     "translationFr": "colonies",
-    "literalTranslation": "territoire conquis et asservi par une métropole",
-    "grammaticalRole": "Nom féminin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant les débouchés impérialistes indispensables à la bourgeoisie manufacturière.",
-    "difficulty": "intermediate",
+    "literalTranslation": "colonies, possessions territoriales assujetties outre-mer (datif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Kolonie -> die Kolonien) au datif pluriel après « mit den ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "plural"
     ],
     "wordIds": [
       "ch1_p7_s2_w16"
-    ]
+    ],
+    "contextNote": "Régime de la préposition « mit den ».",
+    "etymology": "Emprunt au latin « colonia » (terre attribuée à des colons, de colere)."
   },
   "ch1_p7_s2_w18": {
     "wordId": "ch1_p7_s2_w18",
@@ -5575,12 +5904,17 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p7_s2_w26": {
     "wordId": "ch1_p7_s2_w26",
-    "translationFr": "donner / procurer / susciter",
-    "literalTranslation": "remettre, apporter",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Verbe désignant l'impulsion décisive donnée par la colonisation aux forces marchandes.",
-    "difficulty": "intermediate",
+    "translationFr": "donnèrent",
+    "literalTranslation": "conférèrent, insufflèrent (prétérit fort pluriel)",
+    "grammaticalRole": "Verbe fort (geben) au prétérit de l'indicatif, 3e personne du pluriel.",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p7_s2_w26"
+    ],
+    "contextNote": "Verbe régissant l'impulsion donnée aux forces productives.",
+    "etymology": "Issu du moyen haut-allemand « gāben », vieux haut-allemand « gābun », prétérit apophonique du verbe fort « geben » (vieux haut-allemand geban, proto-germanique *gebaną = donner).",
+    "relatedConcepts": [
+      "past"
     ]
   },
   "ch1_p7_s2_w27": {
@@ -5599,15 +5933,17 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w28": {
     "wordId": "ch1_p7_s2_w28",
     "translationFr": "commerce / négoce",
-    "literalTranslation": "échange marchand de biens",
-    "grammaticalRole": "Nom masculin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin désignant le capital commercial qui précipite la ruine du féodalisme.",
-    "difficulty": "intermediate",
+    "literalTranslation": "commerce marchand, échange de marchandises (datif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Handel) au datif singulier après « dem ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch1_p7_s2_w28"
-    ]
+    ],
+    "contextNote": "Premier bénéficiaire au datif de l'impulsion mondiale.",
+    "etymology": "Issu du moyen haut-allemand « handel » (transaction, affaire, manière d'agir, négoce), déverbal de handeln (agir, manipuler, faire du commerce), dérivé du substantif « die Hand » (la main, vieux haut-allemand hant, proto-germanique *handuz). Littéralement « ce qui se manie de la main »."
   },
   "ch1_p7_s2_w30": {
     "wordId": "ch1_p7_s2_w30",
@@ -5625,15 +5961,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w31": {
     "wordId": "ch1_p7_s2_w31",
     "translationFr": "navigation maritime",
-    "literalTranslation": "voyage par mer sur des navires",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin composé marquant le réseau maritime mondial reliant les marchés planétaires.",
-    "difficulty": "intermediate",
+    "literalTranslation": "navigation maritime marchande (datif féminin singulier)",
+    "grammaticalRole": "Nom composé féminin singulier (die Schiffahrt) au datif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
+      "comp_noun",
       "dat"
     ],
     "wordIds": [
       "ch1_p7_s2_w31"
-    ]
+    ],
+    "contextNote": "Second bénéficiaire au datif.",
+    "etymology": "Composé associant : 1° « das Schiff » (le bateau, le navire, du moyen haut-allemand schif, vieux haut-allemand skif, proto-germanique *skipą) ; 2° « die Fahrt » (le voyage, le trajet, déverbal en -t du verbe fahren = se déplacer, voyager, vieux haut-allemand faran)."
   },
   "ch1_p7_s2_w33": {
     "wordId": "ch1_p7_s2_w33",
@@ -5650,16 +5989,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p7_s2_w34": {
     "wordId": "ch1_p7_s2_w34",
-    "translationFr": "industrie / production manufacturière",
-    "literalTranslation": "activité technique de transformation matérielle",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant l'appareil de production mécanisé moderne.",
-    "difficulty": "intermediate",
+    "translationFr": "industrie",
+    "literalTranslation": "industrie, production manufacturière et industrielle (datif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Industrie) au datif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "latin_root"
     ],
     "wordIds": [
       "ch1_p7_s2_w34"
-    ]
+    ],
+    "contextNote": "Troisième bénéficiaire au datif.",
+    "etymology": "Emprunt au XVIIIe siècle au français « industrie », issu du latin classique « industria » (application zélée, activité laborieuse, habileté productive, formé de indu- « à l'intérieur » et struere « bâtir, ordonner »)."
   },
   "ch1_p7_s2_w35": {
     "wordId": "ch1_p7_s2_w35",
@@ -5687,7 +6029,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w37": {
     "wordId": "ch1_p7_s2_w37",
     "translationFr": "connu / éprouvé",
-    "literalTranslation": "dont on a fait l'expérience",
+    "literalTranslation": "dont on avait l'expérience jusqu'alors (participe passé au datif masculin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif soulignant l'inédit sans précédent de l'essor industriel moderne.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5695,7 +6037,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p7_s2_w37"
-    ]
+    ],
+    "etymology": "Participe passé du verbe « kennen » (connaître, savoir d'expérience, vieux haut-allemand kennan, causatif du proto-germanique *kunnaną = savoir)."
   },
   "ch1_p7_s2_w39": {
     "wordId": "ch1_p7_s2_w39",
@@ -5733,7 +6076,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p7_s2_w42": {
     "wordId": "ch1_p7_s2_w42",
     "translationFr": "révolutionnaire",
-    "literalTranslation": "qui renverse violemment les bases matérielles de la société",
+    "literalTranslation": "révolutionnaire, porteur de transformation radicale (adjectif au datif neutre singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif qualifiant la transformation radicale produite par la lutte des classes.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5741,20 +6084,23 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p7_s2_w42"
-    ]
+    ],
+    "etymology": "Emprunt au français « révolutionnaire », du bas-latin revolutio (retournement complet, du verbe revolvere)."
   },
   "ch1_p7_s2_w43": {
     "wordId": "ch1_p7_s2_w43",
     "translationFr": "élément",
-    "literalTranslation": "composante fondamentale",
-    "grammaticalRole": "Nom neutre singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom neutre désignant les germes embryonnaires d'une classe au sein de l'ordre ancien.",
-    "difficulty": "intermediate",
+    "literalTranslation": "élément révolutionnaire subversif, facteur de bouleversement (datif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Element) au datif singulier après « dem revolutionären ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch1_p7_s2_w43"
-    ]
+    ],
+    "contextNote": "Désigne la bourgeoisie montante comme ferment de décomposition du monde féodal.",
+    "etymology": "Emprunt savant au latin « elementum » (principe constituant premier)."
   },
   "ch1_p7_s2_w44": {
     "wordId": "ch1_p7_s2_w44",
@@ -5784,8 +6130,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p7_s2_w47": {
     "wordId": "ch1_p7_s2_w47",
-    "translationFr": "féodaux",
-    "literalTranslation": "fondé sur le fief et le servage",
+    "translationFr": "féodale",
+    "literalTranslation": "féodale, fondée sur le fief (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif désignant l'ordre hiérarchique seigneurial terrien antérieur au capital.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5793,20 +6139,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p7_s2_w47"
-    ]
+    ],
+    "etymology": "Emprunt au latin médiéval feudalis (fief)."
   },
   "ch1_p7_s2_w48": {
     "wordId": "ch1_p7_s2_w48",
     "translationFr": "société",
-    "literalTranslation": "communauté d'hommes organisée par des rapports de production",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin désignant la formation économique et sociale globale.",
-    "difficulty": "intermediate",
+    "literalTranslation": "société féodale en décomposition (datif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Gesellschaft) au datif singulier après « in der zerfallenden feudalen ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "feudalism"
     ],
     "wordIds": [
       "ch1_p7_s2_w48"
-    ]
+    ],
+    "contextNote": "Complément de lieu et de circonstance.",
+    "etymology": "Issu du moyen haut-allemand « geselleschaft », formé sur Geselle (compagnon)."
   },
   "ch1_p7_s2_w49": {
     "wordId": "ch1_p7_s2_w49",
@@ -5823,8 +6173,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p7_s2_w50": {
     "wordId": "ch1_p7_s2_w50",
-    "translationFr": "rapide / prompt",
-    "literalTranslation": "avec une extrême vitesse",
+    "translationFr": "rapide / accéléré",
+    "literalTranslation": "prompt, accéléré avec vivacité (adjectif à l'accusatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif soulignant la fulgurance du développement de l'industrie capitaliste.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5832,7 +6182,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p7_s2_w50"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « rasch », vieux haut-allemand « rasc » (vif, agile, rapide, hardi), du proto-germanique *raskaz."
   },
   "ch1_p8_s1_w1": {
     "wordId": "ch1_p8_s1_w1",
@@ -5849,21 +6200,24 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s1_w2": {
     "wordId": "ch1_p8_s1_w2",
-    "translationFr": "qui a existé jusqu'alors / passé",
-    "literalTranslation": "qui s'étendait jusqu'à présent",
-    "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif marquant le seuil historique entre les sociétés passées et la modernité.",
-    "difficulty": "intermediate",
+    "translationFr": "en vigueur jusqu'alors / traditionnelle",
+    "literalTranslation": "qui s'est maintenue jusqu'à présent (adjectif au nominatif féminin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné au nominatif féminin singulier en -e après « Die ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "nom"
+      "nom",
+      "decl"
     ],
     "wordIds": [
       "ch1_p8_s1_w2"
-    ]
+    ],
+    "contextNote": "Qualifie « Betriebsweise » (mode d'exploitation / mode de production).",
+    "etymology": "Dérivé au moyen du suffixe d'appartenance « -ig » sur l'adverbe temporel « bisher » (jusqu'à maintenant, jusqu'ici, composé de la préposition bis et de l'adverbe her)."
   },
   "ch1_p8_s1_w3": {
     "wordId": "ch1_p8_s1_w3",
     "translationFr": "féodal",
-    "literalTranslation": "fondé sur le fief et le servage",
+    "literalTranslation": "féodal, sous le régime du fief et des privilèges de naissance (adjectif au nominatif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier nominatif (sujet ou attribut du sujet)). Adjectif désignant l'ordre hiérarchique seigneurial terrien antérieur au capital.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -5871,7 +6225,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p8_s1_w3"
-    ]
+    ],
+    "etymology": "Emprunt au latin médiéval feudalis (fief, feudum)."
   },
   "ch1_p8_s1_w4": {
     "wordId": "ch1_p8_s1_w4",
@@ -5898,16 +6253,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s1_w8": {
     "wordId": "ch1_p8_s1_w8",
-    "translationFr": "industrie / production manufacturière",
-    "literalTranslation": "activité technique de transformation matérielle",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin désignant l'appareil de production mécanisé moderne.",
-    "difficulty": "intermediate",
+    "translationFr": "industrie",
+    "literalTranslation": "industrie corporative artisanale (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Industrie) au génitif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p8_s1_w8"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Betriebsweise ».",
+    "etymology": "Emprunt au latin « industria » (application laborieuse)."
   },
   "ch1_p8_s1_w10": {
     "wordId": "ch1_p8_s1_w10",
@@ -5994,7 +6351,7 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p8_s1_w17": {
     "wordId": "ch1_p8_s1_w17",
     "translationFr": "nouveaux",
-    "literalTranslation": "qui n'existait pas auparavant",
+    "literalTranslation": "nouveaux (adjectif au datif masculin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif martelé par Marx pour démontrer que la bourgeoisie n'a fait que renouveler les formes d'oppression.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -6002,20 +6359,24 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p8_s1_w17"
-    ]
+    ],
+    "etymology": "Issu du moyen haut-allemand « niuwe », vieux haut-allemand « niuwi »."
   },
   "ch1_p8_s1_w18": {
     "wordId": "ch1_p8_s1_w18",
-    "translationFr": "marché",
-    "literalTranslation": "espace marchand d'échange des denrées",
-    "grammaticalRole": "Nom masculin pluriel · au datif (complément d'objet indirect ou régime prépositionnel). Nom masculin économique dont la constante mondialisation nourrit la bourgeoisie.",
-    "difficulty": "intermediate",
+    "translationFr": "marchés",
+    "literalTranslation": "nouveaux débouchés marchands mondiaux (datif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Markt -> die Märkte) au datif pluriel avec désinence -n après « mit den neuen ».",
+    "difficulty": "basic",
     "relatedConcepts": [
-      "dat"
+      "dat",
+      "plural"
     ],
     "wordIds": [
       "ch1_p8_s1_w18"
-    ]
+    ],
+    "contextNote": "Régime de la préposition « mit den neuen ».",
+    "etymology": "Emprunt au latin « mercatus » (marché, foire, de merx = marchandise)."
   },
   "ch1_p8_s2_w1": {
     "wordId": "ch1_p8_s2_w1",
@@ -6058,16 +6419,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s2_w6": {
     "wordId": "ch1_p8_s2_w6",
-    "translationFr": "place / position",
-    "literalTranslation": "lieu précis, rôle substitué",
-    "grammaticalRole": "Nom féminin singulier · au accusatif (complément d'objet direct). Nom féminin : la bourgeoisie a substitué de nouveaux rapports de classe aux anciens.",
-    "difficulty": "intermediate",
+    "translationFr": "place",
+    "literalTranslation": "place de substitution (accusatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Stelle) à l'accusatif singulier après « an ihre ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "acc"
     ],
     "wordIds": [
       "ch1_p8_s2_w6"
-    ]
+    ],
+    "contextNote": "Régime de « an ihre ».",
+    "etymology": "Issu du moyen haut-allemand « stelle », vieux haut-allemand « stella » (emplacement fixe, poste)."
   },
   "ch1_p8_s3_w1": {
     "wordId": "ch1_p8_s3_w1",
@@ -6084,12 +6447,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w3": {
     "wordId": "ch1_p8_s3_w3",
-    "translationFr": "devenir / auxiliaire du passif",
-    "literalTranslation": "entrer dans un état nouveau",
-    "grammaticalRole": "Forme verbale · (3e personne du pluriel) · temps: PAST. Auxiliaire fondamental de la voix passive allemande.",
-    "difficulty": "intermediate",
+    "translationFr": "furent",
+    "literalTranslation": "devinrent, furent (auxiliaire du passif au prétérit pluriel)",
+    "grammaticalRole": "Verbe fort (werden) au prétérit de l'indicatif, 3e personne du pluriel, auxiliaire du passif.",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p8_s3_w3"
+    ],
+    "contextNote": "Auxiliaire du passif d'action (« wurden verdrängt »).",
+    "etymology": "Issu du moyen haut-allemand « wurden », vieux haut-allemand « wurtun », prétérit pluriel du verbe fort « werden » (devenir, en vieux haut-allemand werdan, proto-germanique *werthaną, racine indo-européenne *wert- = tourner, advenir, cf. latin vertere).",
+    "relatedConcepts": [
+      "past",
+      "passive"
     ]
   },
   "ch1_p8_s3_w5": {
@@ -6121,15 +6490,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p8_s3_w7": {
     "wordId": "ch1_p8_s3_w7",
     "translationFr": "industrielle",
-    "literalTranslation": "relatif à la grande production mécanisée",
-    "grammaticalRole": "Adjectif qualificatif décliné (singulier accusatif (complément d'objet direct)). Adjectif définissant la bourgeoisie d'usine moderne.",
+    "literalTranslation": "industriel, manufacturier, relatif à l'activité productive organisée (adjectif à l'accusatif masculin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné à l'accusatif masculin singulier en -en après l'article « den ».",
     "difficulty": "intermediate",
     "relatedConcepts": [
-      "acc"
+      "acc",
+      "decl"
     ],
     "wordIds": [
       "ch1_p8_s3_w7"
-    ]
+    ],
+    "contextNote": "Qualifie « Mittelstand ». Strictement découplé du substantif.",
+    "etymology": "Emprunt savant au latin classique « industria » (zèle laborieux, activité ordonnée, habileté technique) au moyen du suffixe adjectival « -ell » (emprunté au français -el / latin -alis). Utilisé au début du XIXe siècle pour qualifier les nouvelles méthodes de production manufacturière et mécanisée."
   },
   "ch1_p8_s3_w10": {
     "wordId": "ch1_p8_s3_w10",
@@ -6159,16 +6531,20 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w13": {
     "wordId": "ch1_p8_s3_w13",
-    "translationFr": "travail / force de travail",
-    "literalTranslation": "labeur, travail productif",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept cardinal chez Marx désignant l'activité productrice transformant la nature.",
-    "difficulty": "intermediate",
+    "translationFr": "travail",
+    "literalTranslation": "travail humain productif (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Arbeit) au génitif singulier après « der ».",
+    "difficulty": "advanced",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "hist_mat"
     ],
     "wordIds": [
       "ch1_p8_s3_w13"
-    ]
+    ],
+    "contextNote": "Complément déterminant « Teilung » dans le syntagme canonique de la division du travail.",
+    "etymology": "Issu du moyen haut-allemand « arbeit », vieux haut-allemand « arabeit » (peine pénible, labeur écrasant, détresse servile), du proto-germanique *arbēdiz (labeur imposé à l'orphelin ou au serf, apparenté à la racine slave *orbota / rabota = corvée, travail forcé, d'où provient le mot moderne « robot »).",
+    "philosophicalContext": "Concept pivot de l'économie politique classique (Adam Smith) et de la critique marxienne : la division du travail (« Teilung der Arbeit ») commence entre métiers distincts avant d'être introduite au sein même de l'atelier, où elle mutile l'ouvrier en en faisant un travailleur parcellaire."
   },
   "ch1_p8_s3_w14": {
     "wordId": "ch1_p8_s3_w14",
@@ -6198,8 +6574,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w16": {
     "wordId": "ch1_p8_s3_w16",
-    "translationFr": "différent / divers",
-    "literalTranslation": "séparé, pluriel",
+    "translationFr": "diverses / différentes",
+    "literalTranslation": "différenciées, séparées corporativement (adjectif au datif féminin pluriel)",
     "grammaticalRole": "Adjectif qualificatif décliné (pluriel datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant la pluralité des nationalités et des échelons féodaux.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -6207,7 +6583,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p8_s3_w16"
-    ]
+    ],
+    "etymology": "Participe passé du verbe « verscheiden » (séparer, scinder, de ver- et scheiden)."
   },
   "ch1_p8_s3_w19": {
     "wordId": "ch1_p8_s3_w19",
@@ -6237,16 +6614,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w21": {
     "wordId": "ch1_p8_s3_w21",
-    "translationFr": "division / morcellement",
-    "literalTranslation": "fragmentation d'une tâche ou d'un corps",
-    "grammaticalRole": "Nom féminin singulier · au datif (complément d'objet indirect ou régime prépositionnel). Nom féminin économique désignant la division manufacturière du travail.",
-    "difficulty": "intermediate",
+    "translationFr": "division / partition",
+    "literalTranslation": "division technique, parcellisation organisée (datif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Teilung) au datif singulier après « vor der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "dat"
     ],
     "wordIds": [
       "ch1_p8_s3_w21"
-    ]
+    ],
+    "contextNote": "Régime de « vor der » marquant la disparition des métiers corporatifs sous l'avancée de la division manufacturière.",
+    "etymology": "Déverbal en « -ung » formé sur le verbe « teilen » (partager, scinder en parts, en moyen haut-allemand teilen, vieux haut-allemand teilen, dérivé de Teil = la part, le fragment)."
   },
   "ch1_p8_s3_w22": {
     "wordId": "ch1_p8_s3_w22",
@@ -6263,16 +6642,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w23": {
     "wordId": "ch1_p8_s3_w23",
-    "translationFr": "travail / force de travail",
-    "literalTranslation": "labeur, travail productif",
-    "grammaticalRole": "Nom féminin singulier · au génitif (complément du nom marquant l'appartenance). Nom féminin, concept cardinal chez Marx désignant l'activité productrice transformant la nature.",
-    "difficulty": "intermediate",
+    "translationFr": "travail",
+    "literalTranslation": "travail (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Arbeit) au génitif singulier après « der ».",
+    "difficulty": "basic",
     "relatedConcepts": [
       "gen"
     ],
     "wordIds": [
       "ch1_p8_s3_w23"
-    ]
+    ],
+    "contextNote": "Complément déterminant la division au sein de l'atelier individuel.",
+    "etymology": "Issu du moyen haut-allemand « arbeit », vieux haut-allemand « arabeit » (peine servile, proto-germanique *arbēdiz)."
   },
   "ch1_p8_s3_w24": {
     "wordId": "ch1_p8_s3_w24",
@@ -6302,8 +6683,8 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p8_s3_w26": {
     "wordId": "ch1_p8_s3_w26",
-    "translationFr": "individuel / particulier",
-    "literalTranslation": "isolé un par un",
+    "translationFr": "individuel / séparé",
+    "literalTranslation": "isolé, individuel, particulier (adjectif au datif féminin singulier)",
     "grammaticalRole": "Adjectif qualificatif décliné (singulier datif (complément d'objet indirect ou régime prépositionnel)). Adjectif marquant le morcellement des ouvriers au sein de la manufacture.",
     "difficulty": "intermediate",
     "relatedConcepts": [
@@ -6311,7 +6692,8 @@ export const annotations: Record<string, Annotation> = {
     ],
     "wordIds": [
       "ch1_p8_s3_w26"
-    ]
+    ],
+    "etymology": "Dérivé au moyen du suffixe « -eln » sur l'adjectif « ein » (un, unique, moyen haut-allemand einzel, vieux haut-allemand einzig / einlīh)."
   },
   "ch1_p8_s3_w28": {
     "wordId": "ch1_p8_s3_w28",
@@ -6370,10 +6752,10 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s1_w5": {
     "wordId": "ch1_p9_s1_w5",
-    "translationFr": "les marchés",
-    "literalTranslation": "les marchés (débouchés commerciaux et foires d'échange)",
-    "grammaticalRole": "Nom masculin pluriel avec métaphonie (der Markt -> die Märkte) au nominatif, sujet grammatical du verbe « wuchsen ».",
-    "etymology": "Issu du moyen haut-allemand « markt / marct », très ancien emprunt du vieux haut-allemand « markāt / markat » (attesté au VIIIe siècle) au latin classique « mercātus » (commerce, foire, marché), dérivé du verbe « mercari » (acheter, trafiquer) et du substantif « merx / mercis » (marchandise, racine du théonyme Mercure).",
+    "translationFr": "marchés",
+    "literalTranslation": "marchés, débouchés commerciaux (nominatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Markt -> die Märkte) au nominatif pluriel déterminé par « Die ».",
+    "etymology": "Emprunt au latin classique « mercatus » (marché, négoce, foire).",
     "philosophicalContext": "Pour Marx, le marché sous le capitalisme n'est pas un simple lieu de troc local, mais un champ de valorisation autonome dont la croissance insatiable dicte la révolution des forces productives.",
     "cognatesFr": [
       "marché",
@@ -6382,12 +6764,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "relatedConcepts": [
       "nom",
-      "capital"
+      "plural"
     ],
     "difficulty": "basic",
     "wordIds": [
       "ch1_p9_s1_w5"
-    ]
+    ],
+    "contextNote": "Sujet de l'expansion permanente. Strictement découplé de l'article « Die »."
   },
   "ch1_p9_s1_w8": {
     "wordId": "ch1_p9_s1_w8",
@@ -6406,19 +6789,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s1_w10": {
     "wordId": "ch1_p9_s1_w10",
-    "translationFr": "le besoin / la demande",
-    "literalTranslation": "le besoin économique, la demande solvable requise",
-    "grammaticalRole": "Nom masculin singulier (der Bedarf) au nominatif, sujet du verbe « stieg ».",
-    "etymology": "Déverbal du moyen haut-allemand « bedürfen », vieux haut-allemand « bidurfan » (avoir besoin de, manquer de, être dans la nécessité), verbe prétérito-présent formé du préfixe transitif d'application « be- » et de la racine germanique *þurfaną (avoir besoin, manquer, cognat de l'anglais dare/tharf et du vieux slave trěba / nécessité).",
+    "translationFr": "besoin / demande",
+    "literalTranslation": "besoin solvable, demande économique marchande (nominatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Bedarf) au nominatif singulier après « der ».",
+    "etymology": "Déverbal abstrait formé sur le verbe fort « bedürfen » (avoir besoin de, requérir matériellement, composé de be- et durfen = avoir la permission ou le besoin, en moyen haut-allemand bedürfen, vieux haut-allemand bidurfan, proto-germanique *thurftiz = besoin vital).",
     "philosophicalContext": "Le « Bedarf » capitaliste n'est pas la simple subsistance biologique naturelle, mais une demande solvable quantitativement créée par l'extension du commerce mondial.",
     "relatedConcepts": [
-      "nom",
-      "capital"
+      "nom"
     ],
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p9_s1_w10"
-    ]
+    ],
+    "contextNote": "Sujet de l'accroissement de la consommation. Strictement découplé de l'article « der »."
   },
   "ch1_p9_s2_w1": {
     "wordId": "ch1_p9_s2_w1",
@@ -6436,24 +6819,24 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s2_w3": {
     "wordId": "ch1_p9_s2_w3",
-    "translationFr": "la manufacture",
-    "literalTranslation": "la manufacture (atelier de travail manuel divisé et concentré)",
-    "grammaticalRole": "Nom féminin singulier (die Manufaktur) au nominatif, sujet grammatical de la proposition régissant « reichte ... aus ».",
-    "etymology": "Emprunt savant au XVIIe siècle au français « manufacture », forgé sur le bas-latin « manufactura » (action de fabriquer à la main), composé du latin classique « manus » (main) et de « factura » (fabrication, façon, supin factum du verbe facere).",
-    "philosophicalContext": "Stade de transition historique analysé au Livre I du Capital (chap. 14) : la manufacture rassemble de nombreux artisans sous l'autorité d'un même capitaliste et divise les gestes de travail, mais elle reste bridée par la force musculaire et l'habileté manuelle humaine.",
+    "translationFr": "manufacture",
+    "literalTranslation": "manufacture (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Manufaktur) au nominatif singulier sujet de « reichte ... aus ».",
+    "etymology": "Emprunt savant au latin « manufactura » (façon manuelle, de manus + factura).",
+    "philosophicalContext": "La contradiction dialectique entre forces productives et rapports de production : la manufacture manuelle devient un frein à l'expansion du marché qu'elle a elle-même suscité, exigeant le saut qualitatif vers le machinisme à vapeur.",
     "cognatesFr": [
       "manufacture",
       "manufacturier"
     ],
     "relatedConcepts": [
       "nom",
-      "prod_rel",
-      "ind_rev"
+      "hist_mat"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p9_s2_w3"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « la manufacture ». Le mot isolé est le substantif féminin sans article."
   },
   "ch1_p9_s2_w4": {
     "wordId": "ch1_p9_s2_w4",
@@ -6508,27 +6891,28 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s3_w4": {
     "wordId": "ch1_p9_s3_w4",
-    "translationFr": "la vapeur",
-    "literalTranslation": "la vapeur d'eau sous pression (force motrice thermomécanique)",
-    "grammaticalRole": "Nom masculin singulier (der Dampf) au nominatif, premier sujet grammatical coordonné de « revolutionierte ».",
-    "etymology": "Issu du moyen haut-allemand « tampf » (vapeur, fumée chaude étouffante), vieux haut-allemand « damph » (XIe siècle). Proto-germanique *dampaz (vapeur, fumée), substantif apophonique rattaché au verbe fort en vieux haut-allemand « dimpfen » (fumer sans flamme) et au causatif germanique *dampjanan (allemand moderne dämpfen = étouffer, cuire à la vapeur). Cognat direct du néerlandais « damp » et de l'anglais « damp ».",
-    "philosophicalContext": "La machine à vapeur (perfectionnée par James Watt) émancipe la manufacture des cours d'eau ruraux et permet la concentration gigantesque des usines dans les métropoles charbonnières.",
+    "translationFr": "vapeur",
+    "literalTranslation": "vapeur d'eau sous pression, force motrice thermodynamique (nominatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Dampf) au nominatif singulier sans article, premier sujet coordonné régissant « revolutionierten ».",
+    "etymology": "Issu du moyen haut-allemand « tampf » (vapeur, fumée chaude étouffante), vieux haut-allemand « damph » (XIe siècle). Du proto-germanique *dampaz (vapeur, exhalaison), rattaché à la racine indo-européenne *dʰembʰ- (fumer, souffler). Cognat de l'anglais damp.",
+    "philosophicalContext": "La machine à vapeur (perfectionnée par James Watt) affranchit la production des limites naturelles locales (cours d'eau, vent, force musculaire) et permet la concentration spatiale gigantesque des usines dans les métropoles industrielles.",
     "relatedConcepts": [
       "nom",
-      "ind_rev"
+      "hist_mat"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p9_s3_w4"
-    ]
+    ],
+    "contextNote": "Premier sujet coordonné du bouleversement industriel. Strictement découplé de l'article absent dans le texte allemand (« Dampf und Maschinerie revolutionierten »)."
   },
   "ch1_p9_s3_w7": {
     "wordId": "ch1_p9_s3_w7",
-    "translationFr": "la machinerie / le machinisme",
-    "literalTranslation": "la machinerie (système articulé d'engins mécaniques automatiques)",
-    "grammaticalRole": "Nom féminin singulier (die Maschinerie) au nominatif, second sujet coordonné par « und ».",
-    "etymology": "Emprunt au XVIIIe siècle (vers 1750) au français « machinerie » (dérivé en -erie de « machine »), issu du latin « machina » (dispositif, appareil mécanique, invention), lui-même emprunté au grec dorien « machana » / attique « mēchanḗ » (μηχανή = moyen ingénieux, ruse, expédient, mécanique, rattaché à « mēchos » / μῆχος = remède, moyen, racine indo-européenne *magh- = être capable, avoir le pouvoir).",
-    "philosophicalContext": "Concept fondamental du Livre I du Capital (chapitre 15) : la « Maschinerie » n'est pas un instrument passif manié par l'ouvrier, mais un système mécanique autonome mû par un moteur central qui assujettit l'ouvrier et le réduit au statut de simple appendice de la machine.",
+    "translationFr": "machinerie / machinisme",
+    "literalTranslation": "machinerie, système articulé d'engins mécaniques automatiques (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Maschinerie) au nominatif singulier sans article, second sujet coordonné de « revolutionierten ».",
+    "etymology": "Emprunt au XVIIIe siècle au français « machinerie » (dérivé en -erie de « machine »), issu du latin « machina », lui-même emprunté au grec dorien « mākhanā » (attique « mēkhanē », dispositif ingénieux, artifice, engin, de la racine indo-européenne *magʰ- = pouvoir, être capable).",
+    "philosophicalContext": "Théorie décisive du Livre I du Capital (chap. 15) : la « Maschinerie » ne désigne pas un simple outil manié par l'ouvrier, mais un gigantesque automate mécanique auquel le travailleur vivant est asservi comme simple appendice interchangeable.",
     "cognatesFr": [
       "machinerie",
       "machine",
@@ -6536,13 +6920,13 @@ export const annotations: Record<string, Annotation> = {
     ],
     "relatedConcepts": [
       "nom",
-      "ind_rev",
-      "prod_rel"
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p9_s3_w7"
-    ]
+    ],
+    "contextNote": "Second sujet coordonné. Strictement découplé de tout article."
   },
   "ch1_p9_s3_w10": {
     "wordId": "ch1_p9_s3_w10",
@@ -6565,18 +6949,18 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s4_w3": {
     "wordId": "ch1_p9_s4_w3",
-    "translationFr": "la place",
-    "literalTranslation": "la place, le poste (accusatif directionnel après an die Stelle)",
-    "grammaticalRole": "Nom féminin singulier (die Stelle) à l'accusatif après la préposition directrice « an » dans la locution figée « an die Stelle treten » (prendre la place de, supplanter).",
-    "etymology": "Issu du moyen haut-allemand « stelle » (lieu où l'on s'arrête, halte, place), vieux haut-allemand « stella » (repos, place stable). Déverbal du verbe germanique *staljanan (poser debout, fixer, allemand stellen), forme causative de la racine indo-européenne *stel- (poser debout, dresser, cognat du grec στήλη / stèle et du latin locus < *stlocus).",
+    "translationFr": "place",
+    "literalTranslation": "place de substitution (accusatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Stelle) à l'accusatif singulier après « An die ».",
+    "etymology": "Issu du moyen haut-allemand « stelle », vieux haut-allemand « stella » (emplacement fixe, poste).",
     "relatedConcepts": [
-      "acc",
-      "prep"
+      "acc"
     ],
     "difficulty": "basic",
     "wordIds": [
       "ch1_p9_s4_w3"
-    ]
+    ],
+    "contextNote": "Locution « An die Stelle » (à la place de). Découplé de l'article."
   },
   "ch1_p9_s4_w6": {
     "wordId": "ch1_p9_s4_w6",
@@ -6615,20 +6999,21 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s4_w17": {
     "wordId": "ch1_p9_s4_w17",
-    "translationFr": "classe moyenne",
-    "literalTranslation": "état moyen / condition intermédiaire",
-    "grammaticalRole": "Nom masculin singulier au génitif.",
-    "etymology": "Composé de « mittel » (moyen) + « der Stand » (état, ordre social).",
-    "philosophicalContext": "Marx désigne par « industrieller Mittelstand » les petits patrons de manufactures et maîtres artisans qui formaient la classe moyenne entre les seigneurs féodaux et les plébéiens, avant d'être évincés par la concentration du grand capital.",
+    "translationFr": "classe moyenne / ordre moyen",
+    "literalTranslation": "état moyen manufacturier, bourgeoisie moyenne d'atelier (génitif masculin singulier)",
+    "grammaticalRole": "Nom composé masculin singulier (der Mittelstand) au génitif singulier en -es après « des industriellen ».",
+    "etymology": "Composé de mittel (moyen, en moyen haut-allemand mittel, vieux haut-allemand mittil) et Stand (ordre, état social, de stehen).",
+    "philosophicalContext": "L'éviction de l'artisanat et des petits patrons manufacturiers par les « industriellen Millionäre » consacre la concentration vertigineuse du capital entre les mains d'une oligarchie financière et industrielle mondiale.",
     "relatedConcepts": [
-      "gen",
       "comp_noun",
-      "class_struggle"
+      "gen",
+      "bourgeoisie"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p9_s4_w17"
-    ]
+    ],
+    "contextNote": "Complément déterminant la place évincée par les magnats modernes. Strictement découplé d'industriellen."
   },
   "ch1_p9_s4_w21": {
     "wordId": "ch1_p9_s4_w21",
@@ -6653,10 +7038,10 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p9_s4_w24": {
     "wordId": "ch1_p9_s4_w24",
-    "translationFr": "les chefs",
-    "literalTranslation": "les chefs, commandants suprêmes (nominatif pluriel)",
-    "grammaticalRole": "Nom masculin pluriel (der Chef -> die Chefs) au nominatif, en apposition explicative au sujet « die industriellen Millionäre ».",
-    "etymology": "Emprunt direct au français « chef » (meneur, tête, commandant), issu de l'ancien français « chief », lui-même du latin classique « caput » (la tête, le chef militaire, capitale, racine indo-européenne *kaput-).",
+    "translationFr": "chefs / commandants / capitaines",
+    "literalTranslation": "chefs, dirigeants et commandants suprêmes d'armées industrielles (nominatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel (der Chef -> die Chefs) au nominatif pluriel après « die ».",
+    "etymology": "Emprunt au XVIIIe siècle au français « chef » (la tête, le conducteur suprême), issu du latin populaire *capum, altération du latin classique « caput » (la tête, l'extrémité supérieure, issu de la racine indo-européenne *kaput-).",
     "cognatesFr": [
       "chef",
       "capitaine",
@@ -6664,12 +7049,15 @@ export const annotations: Record<string, Annotation> = {
     ],
     "relatedConcepts": [
       "nom",
-      "latin_root"
+      "plural",
+      "bourgeoisie"
     ],
-    "difficulty": "basic",
+    "difficulty": "intermediate",
     "wordIds": [
       "ch1_p9_s4_w24"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « les chefs d'armées industrielles tout entières ». Strictement découplé de l'article « die ».",
+    "philosophicalContext": "Métaphore militaire révélatrice : Marx assimile la fabrique capitaliste moderne à une caserne et à un régiment militaire. Le grand capitaliste n'est pas un bienfaiteur, mais le général despotique d'une armée de prolétaires enrégimentés sous la discipline d'usine."
   },
   "ch1_p9_s4_w27": {
     "wordId": "ch1_p9_s4_w27",
@@ -6694,10 +7082,10 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p9_s4_w31": {
     "wordId": "ch1_p9_s4_w31",
     "translationFr": "bourgeois",
-    "literalTranslation": "citadins francs des bourgs / capitalistes modernes",
-    "grammaticalRole": "Nom masculin pluriel au datif.",
-    "etymology": "Emprunt direct au français « bourgeois » (habitant du bourg, Burg).",
-    "philosophicalContext": "La genèse se conclut : le bourgeois moderne n'est plus l'habitant timoré d'un bourg médiéval, mais le maître cosmopolite des armées de travailleurs salariés et du marché mondial.",
+    "literalTranslation": "bourgeois modernes, magnats du capital mondial (nominatif masculin pluriel)",
+    "grammaticalRole": "Nom masculin pluriel invariable en allemand (der Bourgeois -> die Bourgeois) au nominatif pluriel après « die modernen ».",
+    "etymology": "Emprunt direct au français « bourgeois » (habitant franc du bourg, du bas-latin burgensis, formé sur Burg).",
+    "philosophicalContext": "La genèse se conclut en apothéose : le bourgeois moderne n'a plus rien de l'habitant forain timoré des palissades médiévales (« Pfahlbürger ») ; il est devenu le maître cosmopolite des armées de prolétaires salariés et du marché planétaire.",
     "cognatesFr": [
       "bourgeois",
       "bourgeoisie",
@@ -6707,31 +7095,34 @@ export const annotations: Record<string, Annotation> = {
       "nom",
       "bourgeoisie"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p9_s4_w31"
-    ]
+    ],
+    "contextNote": "Apothéose de la genèse historique de la bourgeoisie."
   },
   "ch1_p10_s1_w6": {
     "wordId": "ch1_p10_s1_w6",
-    "translationFr": "le marché mondial",
-    "literalTranslation": "le marché mondial (COD à l'accusatif masculin singulier)",
-    "grammaticalRole": "Nom masculin singulier composé (der Weltmarkt) à l'accusatif singulier après l'article masculin « den », complément d'objet direct de « hergestellt ».",
-    "etymology": "Composé associant : 1° « die Welt » (en moyen haut-allemand werlt / welt, en vieux haut-allemand weralt / werolt, littéralement 'l'âge de l'homme', composé germanique de *wira- / homme, latin vir, et de *aldi- / âge, génération, cf. alt/old) ; 2° « der Markt » (emprunt du VIIIe siècle au latin classique mercātus / commerce, foire, de merx = marchandise). Le composé « Weltmarkt » apparaît au début du XIXe siècle chez Goethe et les économistes libéraux.",
-    "philosophicalContext": "Concept fondamental du matérialisme historique : le marché mondial est à la fois la condition préalable et le résultat achevé du mode de production capitaliste, brisant tous les particularismes nationaux et locaux.",
+    "translationFr": "marché mondial",
+    "literalTranslation": "marché mondial unifié par l'échange universel (accusatif masculin singulier)",
+    "grammaticalRole": "Nom composé masculin singulier (der Weltmarkt) à l'accusatif singulier après l'article « den », COD de « hergestellt ».",
+    "etymology": "Composé universel associant : 1° « die Welt » (en moyen haut-allemand werlt / welt, en vieux haut-allemand weralt / werolt, littéralement 'l'âge de l'homme', composé germanique formé de *wira- = homme, cf. latin vir, et de *aldi- = génération, âge, durée de vie, cf. alt/old) ; 2° « der Markt » (emprunt du VIIIe siècle au latin classique mercātus = trafic marchand, foire, de merx = marchandise). Le terme composite « Weltmarkt » a été diffusé au début du XIXe siècle par Goethe et les économistes anglais pour saluer l'interdépendance planétaire des échanges.",
+    "philosophicalContext": "Concept stratégique du matérialisme historique (Maximilien Rubel, Étienne Balibar, MEGA2) : le marché mondial (« Weltmarkt ») est à la fois la condition préalable et le résultat achevé du mode de production capitaliste. En brisant les barrières nationales, douanières et culturelles, la bourgeoisie mondialise les rapports marchands et prépare le terrain de l'émancipation universelle du prolétariat cosmopolite.",
     "cognatesFr": [
       "marché",
       "monde"
     ],
     "relatedConcepts": [
-      "acc",
       "comp_noun",
-      "capital"
+      "acc",
+      "bourgeoisie",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p10_s1_w6"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « le marché mondial ». Le mot isolé est le nom masculin composé, strictement découplé de l'article défini accusatif « den »."
   },
   "ch1_p10_s1_w7": {
     "wordId": "ch1_p10_s1_w7",
@@ -6832,10 +7223,10 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p10_s2_w13": {
     "wordId": "ch1_p10_s2_w13",
-    "translationFr": "une impulsion incommensurable / prodigieuse",
-    "literalTranslation": "qui ne peut être mesuré, sans commune mesure (accusatif féminin singulier)",
-    "grammaticalRole": "Adjectif qualificatif (unermeßlich) à l'accusatif féminin singulier en -e après l'article indéfini « eine » (flexion mixte), qualifiant « Entwicklung ».",
-    "etymology": "Composé du préfixe privatif germanique « un- », du préfixe verbal d'achèvement « er- », du radical du verbe fort « messen » (mesurer, en moyen haut-allemand mezzen, en vieux haut-allemand mezzan, proto-germanique *metaną, racine indo-européenne *med- = peser, mesurer) et du suffixe adjectival de potentialité « -lich ».",
+    "translationFr": "incommensurable / prodigieux / immense",
+    "literalTranslation": "qui ne peut être mesuré, sans commune mesure, colossal (adjectif à l'accusatif masculin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné à l'accusatif masculin singulier en -en après « einen ».",
+    "etymology": "Composé du préfixe négatif d'impossibilité « un- » et du participe passé adjectivé du verbe « ermessen » (mesurer, évaluer, en moyen haut-allemand ermezzen, vieux haut-allemand ermezzan, du verbe messen = mesurer, proto-germanique *metaną, racine indo-européenne *med- = mesurer, ordonner, cf. latin modus, méditer).",
     "cognatesFr": [
       "mesure",
       "mètre"
@@ -6847,27 +7238,28 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p10_s2_w13"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « un essor incommensurable ». L'adjectif isolé est strictement découplé du substantif « Aufschwung » (essor / élan)."
   },
   "ch1_p10_s3_w6": {
     "wordId": "ch1_p10_s3_w6",
-    "translationFr": "l'extension",
-    "literalTranslation": "l'étirement vers l'extérieur, l'agrandissement de l'aire productive (accusatif singulier)",
-    "grammaticalRole": "Nom féminin singulier (die Ausdehnung) à l'accusatif singulier après la préposition directrice « auf » régissant l'accusatif.",
-    "etymology": "Substantif d'action en « -ung » dérivé du verbe à particule séparable « aus|dehnen » (étirer, étendre au loin). Composé de « aus » (hors de, au loin) et du verbe « dehnen » (étirer, tendre, en moyen haut-allemand denen, en vieux haut-allemand denen, proto-germanique *þanjaną, issu de la racine indo-européenne *ten- = tendre, étendre, cognat du latin tendere et du grec teinō).",
+    "translationFr": "extension / expansion / développement",
+    "literalTranslation": "extension spatiale, étalement géographique, expansion matérielle (nominatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Ausdehnung) au nominatif singulier déterminé par l'adjectif démonstratif « diese ».",
+    "etymology": "Déverbal en « -ung » formé sur le verbe séparable « ausdehnen » (étendre, étirer vers l'extérieur, composé de aus = hors de et dehnen = étirer, tendre, en moyen haut-allemand dënen, vieux haut-allemand dennen, proto-germanique *tanjaną, racine indo-européenne *ten- = tendre, étirer, cf. latin tendere, extenuare).",
     "cognatesFr": [
       "extension",
       "étendre",
       "tension"
     ],
     "relatedConcepts": [
-      "acc",
-      "prefix_verb"
+      "nom"
     ],
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p10_s3_w6"
-    ]
+    ],
+    "contextNote": "Sujet de la proposition relative proportionnelle. Strictement découplé du démonstratif « diese »."
   },
   "ch1_p10_s3_w9": {
     "wordId": "ch1_p10_s3_w9",
@@ -6903,20 +7295,22 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p10_s3_w23": {
     "wordId": "ch1_p10_s3_w23",
-    "translationFr": "les chemins de fer",
-    "literalTranslation": "les voies de fer (nominatif pluriel)",
-    "grammaticalRole": "Nom féminin pluriel composé (die Eisenbahn -> die Eisenbahnen) au nominatif pluriel, sujet coordonné de « sich ausdehnten ».",
-    "etymology": "Composé moderne du premier tiers du XIXe siècle : 1° « das Eisen » (en moyen haut-allemand īsen, en vieux haut-allemand īsan, proto-germanique *īsarnan = fer, emprunt au celtique *īsarnon) ; 2° « die Bahn » (en moyen haut-allemand ban / bane = chemin frayé, voie ouverte, en vieux haut-allemand bana, rattaché à la racine germanique *banan = frapper, ouvrir un passage à coups).",
-    "philosophicalContext": "Pour Marx, le chemin de fer est l'incarnation technologique suprême de l'anéantissement de l'espace par le temps (« Vernichtung des Raums durch die Zeit ») nécessaire à la rotation rapide du capital.",
+    "translationFr": "chemins de fer",
+    "literalTranslation": "chemins de fer, voies ferrées mécanisées de transport (génitif féminin pluriel)",
+    "grammaticalRole": "Nom composé féminin pluriel (die Eisenbahn -> die Eisenbahnen) au génitif pluriel après l'article « der ».",
+    "etymology": "Composé technique forgé au début du XIXe siècle associant : 1° « das Eisen » (le fer métallique, en moyen haut-allemand īsen, vieux haut-allemand īsan / īsarn, du proto-germanique *īsarną, emprunt très ancien aux langues celtiques *īsarnon = fer) ; 2° « die Bahn » (la voie frayée, le chemin dégagé, en moyen haut-allemand bane, vieux haut-allemand bana, apparenté à schlagen = battre une voie).",
+    "philosophicalContext": "Symbole magistral de la révolution industrielle : le chemin de fer supprime l'espace par le temps (« Annihilation of space by time » selon les Grundrisse de Marx), accélérant la rotation du capital et unifiant matériellement le marché national et mondial.",
     "relatedConcepts": [
-      "nom",
       "comp_noun",
-      "ind_rev"
+      "gen",
+      "plural",
+      "hist_mat"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p10_s3_w23"
-    ]
+    ],
+    "contextNote": "Complément énuméré au génitif pluriel. Strictement découplé de l'article « der »."
   },
   "ch1_p10_s3_w38": {
     "wordId": "ch1_p10_s3_w38",
@@ -6974,24 +7368,25 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p11_s1_w11": {
     "wordId": "ch1_p11_s1_w11",
-    "translationFr": "le produit",
-    "literalTranslation": "le produit, le résultat matériel historique (nominatif neutre singulier)",
-    "grammaticalRole": "Nom neutre singulier (das Produkt) au nominatif singulier, attribut du sujet « die moderne Bourgeoisie » introduit par le verbe copule « ist ».",
-    "etymology": "Emprunt savant au XVIIe siècle au latin « productum » (fruit produit, résultat obtenu, mis au jour), supin neutre substantivé du verbe « producere » (mener en avant, faire paraître).",
-    "philosophicalContext": "Thèse matérialiste centrale : la bourgeoisie n'est pas le créateur démiurgique du monde moderne, mais elle-même le « produit » nécessaire des contradictions immanentes de la production féodale.",
+    "translationFr": "produit",
+    "literalTranslation": "produit matériel, résultat achevé d'un procès historique (nominatif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Produkt) au nominatif singulier après « das », attribut du sujet « die moderne Bourgeoisie ».",
+    "etymology": "Emprunt savant au latin « productum » (ce qui est conduit en avant, porté à la lumière, résultat d'un procès, participe passé passif neutre du verbe producere, de pro- « en avant » et ducere « conduire »).",
+    "philosophicalContext": "Thèse historique centrale : la bourgeoisie n'est pas une création spontanée ou naturelle du génie humain, mais le produit matériel et nécessaire d'une longue série de révolutions économiques dans les modes de production et d'échange.",
     "cognatesFr": [
       "produit",
       "production"
     ],
     "relatedConcepts": [
       "nom",
-      "hist_mat",
-      "latin_root"
+      "latin_root",
+      "hist_mat"
     ],
-    "difficulty": "basic",
+    "difficulty": "intermediate",
     "wordIds": [
       "ch1_p11_s1_w11"
-    ]
+    ],
+    "contextNote": "Attribut du sujet définissant la bourgeoisie moderne. Strictement découplé de l'article « das »."
   },
   "ch1_p11_s1_w14": {
     "wordId": "ch1_p11_s1_w14",
@@ -7097,36 +7492,39 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p12_s2_w2": {
     "wordId": "ch1_p12_s2_w2",
-    "translationFr": "classe opprimée / ordre opprimé",
-    "literalTranslation": "état social opprimé sous le joug féodal (nominatif masculin sans article)",
-    "grammaticalRole": "Nom masculin singulier (der Stand) au nominatif sans article qualifié par l'adjectif « unterdrückter », première apposition historique caractérisant le sujet « sie » (la bourgeoisie).",
-    "etymology": "Issu du moyen haut-allemand « stant » (état, statut, rang d'ordre, tenue), vieux haut-allemand « stant ». Déverbal apophonique du verbe fort « stehen » (se tenir debout, en vieux haut-allemand stān / stēn, proto-germanique *standaną, racine indo-européenne *steh₂-). Équivalent direct du latin status (condition, état social).",
-    "philosophicalContext": "Distinction capitale entre « Stand » (ordre d'Ancien Régime défini par des privilèges coutumiers et de sang) et « Klasse » (classe moderne définie par les rapports économiques de production). La bourgeoisie naît comme ordre asservi avant de devenir classe dominante.",
+    "translationFr": "ordre opprimé / état opprimé",
+    "literalTranslation": "état social, ordre opprimé sous le joug féodal (nominatif masculin singulier sans article)",
+    "grammaticalRole": "Nom masculin singulier (der Stand) au nominatif sans article, qualifié par « Unterdrückter », en apposition caractérisant « sie » (la bourgeoisie).",
+    "etymology": "Issu du moyen haut-allemand « stant » (état, statut, rang d'ordre, tenue), vieux haut-allemand « stant ». Déverbal apophonique du verbe fort « stehen » (se tenir debout, vieux haut-allemand stān / stēn, proto-germanique *standaną, racine indo-européenne *steh₂-). Équivalent exact du latin status (condition juridique héréditaire).",
+    "philosophicalContext": "Distinction conceptuelle majeure entre « Stand » (ordre d'Ancien Régime fondé sur des privilèges féodaux coutumiers de sang) et « Klasse » (classe moderne définie par les rapports marchands et économiques). La bourgeoisie naît comme ordre opprimé du tiers état avant de briser la société féodale pour s'ériger en classe universelle dominante.",
     "relatedConcepts": [
       "nom",
       "feudalism",
       "class_struggle"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p12_s2_w2"
-    ]
+    ],
+    "contextNote": "Première étape de l'ascension historique de la bourgeoisie : elle commence comme ordre asservi avant de conquérir le pouvoir souverain."
   },
   "ch1_p12_s2_w7": {
     "wordId": "ch1_p12_s2_w7",
-    "translationFr": "des seigneurs féodaux",
-    "literalTranslation": "des maîtres de fief féodaux (génitif pluriel masculin à déclinaison faible)",
-    "grammaticalRole": "Nom masculin composé à déclinaison faible (der Feudalherr, des Feudalherrn -> die Feudalherren) au génitif pluriel après « der », complément déterminatif de « Herrschaft ».",
-    "etymology": "Composé associant : 1° « feudal » (du bas-latin feudum = fief, emprunt au vieux bas-francique *fehu-ōd / bétail-possession, cf. allemand Vieh et anglais fee) ; 2° « der Herr » (seigneur, maître, en vieux haut-allemand hērro, comparatif substantivé de l'adjectif hēr = noble, vénérable, aux cheveux blancs, proto-germanique *hairaz).",
+    "translationFr": "seigneurs féodaux",
+    "literalTranslation": "seigneurs féodaux, maîtres de la terre sous le servage (génitif masculin pluriel)",
+    "grammaticalRole": "Nom composé masculin pluriel (der Feudalherr -> die Feudalherren) au génitif pluriel après « der Herrschaft der ».",
+    "etymology": "Composé unissant : 1° l'adjectif « feudal » (emprunt au latin médiéval feudalis, du francique *fehu = fief, bien mobilier) ; 2° « der Herr » (le maître, le seigneur, issu du comparatif vieux haut-allemand hēriro = le plus âgé, le plus vénérable, de hēr = vénérable, noble).",
     "relatedConcepts": [
-      "gen",
       "comp_noun",
+      "gen",
+      "plural",
       "feudalism"
     ],
     "difficulty": "intermediate",
     "wordIds": [
       "ch1_p12_s2_w7"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « des seigneurs féodaux ». Strictement découplé de l'article défini « der »."
   },
   "ch1_p12_s2_w14": {
     "wordId": "ch1_p12_s2_w14",
@@ -7149,24 +7547,24 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p12_s2_w17": {
     "wordId": "ch1_p12_s2_w17",
-    "translationFr": "la commune",
-    "literalTranslation": "la commune urbaine jurée autonome médiévale (datif féminin singulier)",
+    "translationFr": "commune",
+    "literalTranslation": "commune urbaine affranchie, corps municipal juré (datif féminin singulier)",
     "grammaticalRole": "Nom féminin singulier (die Kommune) au datif singulier après « in der ».",
-    "etymology": "Emprunt au français médiéval « commune », issu du bas-latin « communia » (ligue jurée des bourgeois affranchis du ban seigneurial), neutre pluriel substantivé du latin classique « communis » (partagé par tous, public).",
-    "philosophicalContext": "Engels explicite dans la note de l'édition anglaise de 1888 que la « Kommune » renvoie ici aux cités naissantes d'Italie et de France qui arrachèrent par les armes leurs chartes de franchises aux seigneurs féodaux.",
+    "etymology": "Emprunt au français médiéval « commune », issu du bas-latin « communia » (association jurée de bourgeois, corps municipal indépendant, neutre pluriel substantivé du latin communis = partagé en commun).",
+    "philosophicalContext": "L'autonomie municipale des communes médiévales est le laboratoire politique précoce de la bourgeoisie où elle s'organise en contre-pouvoir armé face aux seigneurs féodaux.",
     "cognatesFr": [
       "commune",
       "communauté"
     ],
     "relatedConcepts": [
       "dat",
-      "latin_root",
-      "bourgeoisie"
+      "feudalism"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p12_s2_w17"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « dans la commune ». Le mot isolé est le nom féminin au datif sans article. Engels ajoute en note en 1888 : « C'est ainsi que les bourgeois des villes d'Italie et de France appelaient leur communauté urbaine une fois qu'ils avaient acheté ou arraché à leurs seigneurs féodaux les premiers droits d'administration autonome »."
   },
   "ch1_p12_s2_w26": {
     "wordId": "ch1_p12_s2_w26",
@@ -7203,18 +7601,19 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p12_s2_w39": {
     "wordId": "ch1_p12_s2_w39",
-    "translationFr": "la noblesse",
-    "literalTranslation": "la noblesse féodale de sang (accusatif singulier masculin)",
-    "grammaticalRole": "Nom masculin singulier (der Adel) à l'accusatif singulier après la préposition « gegen den ».",
-    "etymology": "Issu du moyen haut-allemand « adel » (noble lignage, race illustre, privilège de sang), vieux haut-allemand « adal » (famille d'ascendance noble). Proto-germanique *aþala- (patrimoine ancestral, noblesse héréditaire, cognat du vieil anglais æþelu et de prénoms royaux comme Ethelred ou Adolf).",
+    "translationFr": "noblesse",
+    "literalTranslation": "noblesse féodale d'épée et de sang (accusatif masculin singulier)",
+    "grammaticalRole": "Nom masculin singulier (der Adel) à l'accusatif singulier après « gegen den ».",
+    "etymology": "Issu du moyen haut-allemand « adel », vieux haut-allemand « adal » (noble ascendance, lignée illustre, race libre), du proto-germanique *aþalą (famille noble, biens patrimoniaux héréditaires). Cognat de l'ancien anglais æðelu.",
     "relatedConcepts": [
       "acc",
       "feudalism"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "basic",
     "wordIds": [
       "ch1_p12_s2_w39"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « contre la noblesse ». Strictement découplé de l'article « den »."
   },
   "ch1_p12_s2_w49": {
     "wordId": "ch1_p12_s2_w49",
@@ -7251,24 +7650,25 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p12_s2_w70": {
     "wordId": "ch1_p12_s2_w70",
-    "translationFr": "l'État représentatif",
-    "literalTranslation": "l'État constitutionnel fondé sur la représentation parlementaire (datif singulier)",
-    "grammaticalRole": "Nom masculin composé (der Repräsentativstaat) au datif singulier après la préposition contractée « im » (in dem).",
-    "etymology": "Composé associant : 1° l'emprunt au français « représentatif », dérivé du latin classique « repraesentare » (mettre sous les yeux, rendre présent de nouveau) ; 2° « der Staat », emprunt au bas-latin « status » (état, régime politique, ordre civique, racine indo-européenne *steh₂-).",
-    "philosophicalContext": "Pour Marx, l'État représentatif (la monarchie constitutionnelle parlementaire ou la république bourgeoise) est l'habillage institutionnel exact correspondant aux besoins du capitalisme moderne.",
+    "translationFr": "État représentatif",
+    "literalTranslation": "État représentatif parlementaire constitutionnel (datif masculin singulier)",
+    "grammaticalRole": "Nom composé masculin singulier (der Repräsentativstaat) au datif singulier après la contraction « im » (in dem) et l'adjectif « modernen ».",
+    "etymology": "Composé politique associant : 1° l'adjectif « repräsentativ » (du bas-latin repraesentare = rendre présent, placer sous les yeux) ; 2° « der Staat » (l'État, emprunt au latin status = condition, ordre politique stable).",
+    "philosophicalContext": "La conquête finale de l'État : dans l'État représentatif moderne, la bourgeoisie a conquis le monopole exclusif de la puissance politique, subordonnant l'administration entière à ses intérêts de classe.",
     "cognatesFr": [
       "représentatif",
       "État"
     ],
     "relatedConcepts": [
-      "dat",
       "comp_noun",
-      "latin_root"
+      "dat",
+      "bourgeoisie"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p12_s2_w70"
-    ]
+    ],
+    "contextNote": "Désigne le régime politique parlementaire où la bourgeoisie exerce sa domination directe sous couvert de représentation nationale."
   },
   "ch1_p12_s2_w74": {
     "wordId": "ch1_p12_s2_w74",
@@ -7291,36 +7691,41 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p12_s3_w3": {
     "wordId": "ch1_p12_s3_w3",
-    "translationFr": "le pouvoir d'État moderne / le gouvernement moderne",
-    "literalTranslation": "la puissance publique étatique moderne (nominatif féminin singulier)",
-    "grammaticalRole": "Nom féminin singulier composé (die Staatsgewalt) au nominatif singulier, sujet grammatical du verbe « ist ».",
-    "etymology": "Composé associant : 1° « der Staat » (l'État, du latin status) + « -s- » ; 2° « die Gewalt » (la puissance, l'autorité souveraine de coercition légitime, en moyen haut-allemand gewalt, en vieux haut-allemand giwalt, dérivé à préfixe gi- du verbe fort germanique walten = gouverner, régner, racine indo-européenne *wald- = avoir du pouvoir).",
-    "philosophicalContext": "Thèse fondamentale de la théorie marxiste de l'État : la « Staatsgewalt » n'est pas un arbitre neutre ou universel garant de l'intérêt général, mais l'appareil répressif centralisé d'une classe.",
+    "translationFr": "pouvoir d'État / autorité étatique",
+    "literalTranslation": "pouvoir d'État souverain, puissance publique coercitive (nominatif féminin singulier)",
+    "grammaticalRole": "Nom composé féminin singulier (die Staatsgewalt) au nominatif singulier après « Die moderne ».",
+    "etymology": "Composé politique associant : 1° « der Staat » (l'État politique, du latin status) ; 2° « die Gewalt » (la puissance légitime ou coercitive, l'autorité, du moyen haut-allemand gewalt, vieux haut-allemand giwalt = domination, force souveraine, déverbal du verbe walten = régir, gouverner, proto-germanique *waldaną).",
+    "philosophicalContext": "Définition canonique de l'État dans le marxisme : l'État moderne n'est pas l'incarnation de l'intérêt général hégélien ni un arbitre neutre entre les classes, mais un instrument coercitif de domination d'une classe sur une autre.",
     "relatedConcepts": [
-      "nom",
       "comp_noun",
-      "bourgeoisie"
+      "nom",
+      "bourgeoisie",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p12_s3_w3"
-    ]
+    ],
+    "contextNote": "Sujet de la célèbre définition marxienne de l'État bourgeois. Strictement découplé de l'article « Die » et de l'adjectif « moderne »."
   },
   "ch1_p12_s3_w7": {
     "wordId": "ch1_p12_s3_w7",
-    "translationFr": "un comité / une commission",
-    "literalTranslation": "un comité de gestion délégué, une commission d'hommes triés sur le volet (attribut du sujet)",
-    "grammaticalRole": "Nom masculin singulier (der Ausschuß) au nominatif après l'article indéfini « ein », attribut du sujet « die moderne Staatsgewalt » relié par le verbe copule « ist ».",
-    "etymology": "Issu du moyen haut-allemand « ausschuz » (rebut ou au contraire sélection choisie), déverbal du verbe fort « ausschießen » (en vieux haut-allemand ūzsciozan = rejeter, séparer en triant). Le mot s'est fixé au XVIIe siècle dans la terminologie administrative pour désigner un comité restreint d'élus chargés de gérer une mission commune.",
-    "philosophicalContext": "Formulation politique devenue proverbiale : l'État moderne n'est rien d'autre que le conseil d'administration du grand patronat, chargé de concilier les concurrences féroces entre capitalistes pour sauvegarder l'ordre bourgeois global.",
+    "translationFr": "comité / commission / délégation",
+    "literalTranslation": "comité restreint, commission déléguée pour gérer des affaires (nominatif masculin singulier)",
+    "grammaticalRole": "Nom composé masculin singulier (der Ausschuß) au nominatif singulier après « ein », attribut du sujet « Die moderne Staatsgewalt ».",
+    "etymology": "Issu du moyen haut-allemand « ausschuz » (action de trier, de rejeter le rebut ou de détacher une commission d'élus), déverbal du verbe fort « ausschießen » (choisir en triant, éjecter, de aus- et schießen = tirer, lancer). Désignait originellement le corps des délégués choisis parmi les bourgeois pour expédier les affaires courantes d'une municipalité.",
+    "philosophicalContext": "Formule percutante et démystificatrice de Marx et Engels : le gouvernement moderne « n'est qu'un comité qui gère les affaires communes de toute la classe bourgeoise » (ein Ausschuß, der die gemeinschaftlichen Geschäfte der ganzen Bourgeoisklasse verwaltet). Les ministres et parlements ne sont que les mandataires du grand capital.",
     "relatedConcepts": [
+      "comp_noun",
       "nom",
-      "bourgeoisie"
+      "bourgeoisie",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p12_s3_w7"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « n'est qu'un comité qui gère les affaires communes ». Strictement découplé de l'article « ein »."
   },
   "ch1_p12_s3_w12": {
     "wordId": "ch1_p12_s3_w12",
@@ -7339,24 +7744,26 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p12_s3_w15": {
     "wordId": "ch1_p12_s3_w15",
-    "translationFr": "de la classe bourgeoise",
-    "literalTranslation": "de la classe des bourgeois tout entière (génitif féminin singulier)",
-    "grammaticalRole": "Nom féminin composé (die Bourgeoisklasse) au génitif singulier après « der ganzen ».",
-    "etymology": "Composé associant l'emprunt au français « Bourgeois » et « die Klasse », emprunt savant (XVIIIe siècle) au latin classique « classis » (division civique censitaire des citoyens romains, de la racine du grec kalein = convoquer, appeler).",
-    "philosophicalContext": "La « Bourgeoisklasse » est désignée dans sa totalité : en dépit de leurs luttes fratricides sur le marché, tous les bourgeois partagent l'intérêt vital commun de maintenir l'exploitation salariée.",
+    "translationFr": "classe bourgeoise",
+    "literalTranslation": "classe des bourgeois tout entière dans sa totalité objective (génitif féminin singulier)",
+    "grammaticalRole": "Nom composé féminin singulier (die Bourgeoisklasse) au génitif singulier après « der ganzen ».",
+    "etymology": "Composé hybride associant l'emprunt au français « Bourgeois » (habitant du bourg, Burg) et « die Klasse », emprunt savant au latin classique « classis » (les classes censitaires de Rome sous Servius Tullius, de calare = convoquer).",
+    "philosophicalContext": "L'État bourgeois gère les intérêts de la bourgeoisie en tant que « classe tout entière » (der ganzen Bourgeoisklasse) : il est capable d'arbitrer les conflits concurrentiels fratricides entre capitalistes individuels pour préserver la pérennité du mode de production capitaliste dans son ensemble.",
     "cognatesFr": [
       "bourgeoisie",
       "classe"
     ],
     "relatedConcepts": [
-      "gen",
       "comp_noun",
-      "bourgeoisie"
+      "gen",
+      "bourgeoisie",
+      "class_struggle"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p12_s3_w15"
-    ]
+    ],
+    "contextNote": "Complément au génitif de « Geschäfte ». Strictement découplé de la préposition française « de la » et de l'article allemand « der »."
   },
   "ch1_p12_s3_w16": {
     "wordId": "ch1_p12_s3_w16",
@@ -7389,11 +7796,11 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p13_s1_w10": {
     "wordId": "ch1_p13_s1_w10",
-    "translationFr": "un rôle",
-    "literalTranslation": "un rôle théâtral sur la scène du monde (accusatif féminin singulier)",
-    "grammaticalRole": "Nom féminin singulier (die Rolle) à l'accusatif précédé de « eine höchst revolutionäre », COD de « gespielt ».",
-    "etymology": "Emprunt au XVIIe siècle au français « rôle » (rouleau de parchemin contenant le texte d'un acteur au théâtre), issu du latin « rotula » (petite roue, rouleau, diminutif de rota).",
-    "philosophicalContext": "Reconnaissance dialectique saisissante : avant d'être condamnée comme classe oppressive condamnée par l'histoire, la bourgeoisie est célébrée par Marx comme la force la plus révolutionnaire et dynamique que l'humanité ait connue.",
+    "translationFr": "rôle",
+    "literalTranslation": "rôle agissant, fonction motrice dans le procès historique (accusatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Rolle) à l'accusatif singulier après « eine höchst revolutionäre », COD de « gespielt ».",
+    "etymology": "Emprunt au XVIIe siècle au français « rôle » (le rouleau de parchemin sur lequel était transcrit le texte d'un acteur de théâtre), issu du latin médiéval « rotulus » (petit rouleau, diminutif de rota = la roue, de la racine indo-européenne *Hret- = rouler, courir).",
+    "philosophicalContext": "L'éloge paradoxal et dialectique de la bourgeoisie par Marx : loin d'être une force conservatrice dès son origine, la bourgeoisie a accompli des merveilles bien supérieures aux pyramides d'Égypte et aux cathédrales gothiques en liquidant impitoyablement la stagnation féodale.",
     "cognatesFr": [
       "rôle",
       "rouleau"
@@ -7403,10 +7810,11 @@ export const annotations: Record<string, Annotation> = {
       "bourgeoisie",
       "hist_mat"
     ],
-    "difficulty": "basic",
+    "difficulty": "intermediate",
     "wordIds": [
       "ch1_p13_s1_w10"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « un rôle éminemment révolutionnaire ». Strictement découplé de l'article indéfini « eine » et de l'adverbe « höchst »."
   },
   "ch1_p14_s1_w14": {
     "wordId": "ch1_p14_s1_w14",
@@ -7452,18 +7860,21 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p14_s1_w17": {
     "wordId": "ch1_p14_s1_w17",
     "translationFr": "rapports / relations sociales",
-    "literalTranslation": "rapports sociaux objectifs, relations réciproques (accusatif neutre pluriel)",
-    "grammaticalRole": "Nom neutre pluriel (das Verhältnis -> die Verhältnisse) à l'accusatif pluriel déterminé par « alle », COD de « zerstört ».",
-    "etymology": "Substantif dérivé avec le suffixe abstrait neutre « -nis » sur le verbe « sich verhalten » (se comporter, être en rapport mutuel, de ver- et halten = tenir, garder, en vieux haut-allemand haltan). Le sens a évolué au XVIIIe siècle de la proportion mathématique vers la relation sociale concrète.",
-    "philosophicalContext": "Concept fondamental du matérialisme historique : les hommes nouent des « Verhältnisse » (rapports de production) qui s'imposent à eux indépendamment de leur volonté subjective.",
+    "literalTranslation": "rapports sociaux objectifs, relations structurelles de production (accusatif neutre pluriel)",
+    "grammaticalRole": "Nom neutre pluriel (das Verhältnis -> die Verhältnisse) à l'accusatif pluriel déterminé par l'adjectif indéfini « alle », COD du verbe parfait « zerstört ».",
+    "etymology": "Substantif abstrait dérivé avec le suffixe neutre « -nis » (en vieux haut-allemand -nassi / -nissa, cognat de l'anglais -ness) sur le verbe réfléchi « sich verhalten » (se comporter, se rapporter mutuellement à, de la particule ver- et de halten = tenir fermement, garder, en vieux haut-allemand haltan). Le terme a évolué au XVIIIe siècle de la proportion géométrique vers la relation sociale objective entre les hommes.",
+    "philosophicalContext": "Maximilien Rubel, Jacques Rancière et Étienne Balibar ont insisté sur la rigueur de la traduction : « Verhältnisse » désigne les rapports sociaux de production (Produktionsverhältnisse) et non de simples « conditions » (qui se disent Bedingungen). Les rapports féodaux, drapés de piété patriarcale et d'illusions religieuses, sont dissous et anéantis par le capital.",
     "relatedConcepts": [
       "acc",
-      "prod_rel"
+      "plural",
+      "hist_mat",
+      "feudalism"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s1_w17"
-    ]
+    ],
+    "contextNote": "Concept clé du matérialisme historique. Strictement découplé des adjectifs énumérés."
   },
   "ch1_p14_s1_w18": {
     "wordId": "ch1_p14_s1_w18",
@@ -7497,11 +7908,11 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s2_w5": {
     "wordId": "ch1_p14_s2_w5",
-    "translationFr": "les liens féodaux",
-    "literalTranslation": "les liens, chaînes et attaches féodales (accusatif neutre pluriel)",
-    "grammaticalRole": "Nom neutre pluriel composé (das Feudalband -> die Feudalbande) à l'accusatif neutre pluriel après « die », COD du verbe « zerrissen ».",
-    "etymology": "Composé de : 1° « feudal » (du bas-latin feudum = fief, emprunt au vieux bas-francique *fehu-ōd / bétail-propriété, cf. Vieh) ; 2° « das Band » (lien, chaîne, attache, en moyen haut-allemand bant, en vieux haut-allemand bant, proto-germanique *bandą, déverbal apophonique du verbe fort binden = lier, attacher, racine indo-européenne *bʰendʰ-).",
-    "philosophicalContext": "Les liens féodaux (hommage, foi jurée, servage) attachaient l'homme à son seigneur par une soumission personnalisée et sanctifiée par l'Église.",
+    "translationFr": "liens féodaux",
+    "literalTranslation": "liens féodaux de dépendance personnelle et hiérarchique (accusatif neutre pluriel)",
+    "grammaticalRole": "Nom composé neutre pluriel (das Feudalband -> die Feudalbande) à l'accusatif pluriel, COD de « zerrissen ».",
+    "etymology": "Composé associant : 1° l'adjectif « feudal » (du latin médiéval feudalis, fief) ; 2° « das Band » (le lien, l'attache, la chaîne, en moyen haut-allemand bant, vieux haut-allemand bant, déverbal apophonique du verbe fort binden = lier, attacher, proto-germanique *bindaną).",
+    "philosophicalContext": "Sous la féodalité, les liens unissant le serf au seigneur étaient bariolés et multiples (hommage, foi, vasselage, obligations religieuses, coutumes locales). Le capitalisme a brisé impitoyablement ces chaînes traditionnelles pour ne laisser subsister qu'un seul lien : l'argent nu.",
     "syntaxNote": "Attention philologique : « Feudalbande » est ici le pluriel neutre régulier en -e du nom neutre « das Band » (le lien, l'attache physique ou morale, pluriel : die Bande), et nullement le substantif féminin singulier die Bande (la bande de malfaiteurs).",
     "cognatesFr": [
       "bande",
@@ -7509,14 +7920,16 @@ export const annotations: Record<string, Annotation> = {
       "fief"
     ],
     "relatedConcepts": [
-      "acc",
       "comp_noun",
+      "acc",
+      "plural",
       "feudalism"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s2_w5"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « les liens féodaux multicolores ». Strictement découplé de l'article « die » et de l'adjectif « buntscheckigen »."
   },
   "ch1_p14_s2_w13": {
     "wordId": "ch1_p14_s2_w13",
@@ -7593,14 +8006,14 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s2_w30": {
     "wordId": "ch1_p14_s2_w30",
-    "translationFr": "l'intérêt",
-    "literalTranslation": "ce qui importe / avantage financier",
-    "grammaticalRole": "Nom neutre singulier à l'accusatif, premier terme de l'alternative après « als ».",
+    "translationFr": "intérêt",
+    "literalTranslation": "intérêt matériel égoïste, avantage pécuniaire marchand (accusatif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Interesse) à l'accusatif singulier après « als das nackte ».",
     "wordIds": [
       "ch1_p14_s2_w30"
     ],
-    "etymology": "Emprunt savant au XVIe siècle au latin classique « interesse » (littéralement être entre, différer, puis au bas-latin juridique id quod interest = le dédommagement, l'avantage financier calculable).",
-    "philosophicalContext": "Le capitalisme simplifie les rapports humains : il arrache le masque de la piété, de la courtoisie chevaleresque et des devoirs chrétiens pour ne laisser subsister que la recherche brutale du gain.",
+    "etymology": "Emprunt au XVIe siècle au latin classique « interesse » (être entre, participer, être important, infinitif présent substantivé de inter- « entre » et esse « être »). Substantivé en droit pour désigner le dédommagement pécuniaire d'une perte financière (« dommage et intérêt »), puis chez les philosophes des Lumières (Helvétius) pour désigner le mobile égoïste de l'action humaine.",
+    "philosophicalContext": "La société bourgeoise a dépouillé toutes les relations humaines de leur parure spirituelle pour les réduire au calcul pécuniaire du profit immédiat.",
     "cognatesFr": [
       "intérêt",
       "intéresser"
@@ -7609,7 +8022,8 @@ export const annotations: Record<string, Annotation> = {
       "acc",
       "latin_root"
     ],
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "contextNote": "Lafargue traduit « que le simple intérêt ». Strictement découplé de « das nackte »."
   },
   "ch1_p14_s2_w36": {
     "wordId": "ch1_p14_s2_w36",
@@ -7646,18 +8060,18 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p14_s3_w8": {
     "wordId": "ch1_p14_s3_w8",
     "translationFr": "extase / exaltation mystique",
-    "literalTranslation": "rêverie exaltée / exaltation d'essaim",
-    "grammaticalRole": "Nom féminin singulier (die Schwärmerei) au génitif singulier après « der », premier complément de Schauer.",
+    "literalTranslation": "rêverie exaltée, exaltation mystique d'essaim (génitif neutre singulier)",
+    "grammaticalRole": "Infinitif substantivé neutre (das Schwärmen), décliné au génitif neutre singulier fort en -s après l'article et l'adjectif « des frommen », premier complément de « Schauer ».",
     "wordIds": [
       "ch1_p14_s3_w8"
     ],
-    "etymology": "Dérivé en « -erei » de « schwärmen » (bourdonner, tournoyer en essaim, en moyen haut-allemand swermen, de Schwarm / essaim). Utilisé polémiquement par Martin Luther pour fustiger les anabaptistes et illuminés religieux (« die Schwärmer »), puis au siècle des Lumières pour dénoncer le mysticisme déréglé.",
-    "philosophicalContext": "L'extase religieuse et le mysticisme chrétien sont démasqués comme des narcotiques spirituels qui justifiaient l'ordre féodal en détournant les opprimés de la lutte matérielle.",
+    "etymology": "Infinitif substantivé du verbe « schwärmen » (bourdonner, tournoyer en essaim comme des abeilles, en moyen haut-allemand swermen, dérivé du substantif Schwarm = essaim, foule en mouvement désordonné). Utilisé polémiquement par Martin Luther pour fustiger les anabaptistes et illuminés (« die Schwärmer »), puis au siècle des Lumières pour dénoncer le fanatisme religieux déréglé.",
+    "philosophicalContext": "Marx démasque l'extase et la dévotion religieuse comme des narcotiques idéologiques qui sanctifiaient l'ordre féodal en détournant les masses de la contestation matérielle.",
     "relatedConcepts": [
-      "gen",
-      "latin_root"
+      "gen"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "contextNote": "Complément déterminant « Schauer » (frissons sacrés). Rétablissement de l'analyse grammaticale rigoureuse (infinitif substantivé neutre et non nom féminin)."
   },
   "ch1_p14_s3_w12": {
     "wordId": "ch1_p14_s3_w12",
@@ -7677,30 +8091,30 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s3_w16": {
     "wordId": "ch1_p14_s3_w16",
-    "translationFr": "sentimentalité / mélancolie",
-    "literalTranslation": "tristesse d'âme / affliction douloureuse (génitif)",
-    "grammaticalRole": "Nom féminin singulier (die Wehmut) au génitif singulier après « der », troisième complément de Schauer.",
+    "translationFr": "mélancolie / sentimentalité nostalgique",
+    "literalTranslation": "tristesse d'âme, mélancolie douloureuse (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Wehmut) au génitif singulier après « der spießbürgerlichen ».",
     "wordIds": [
       "ch1_p14_s3_w16"
     ],
-    "etymology": "En moyen haut-allemand « wēmuot », en vieux haut-allemand « wēmuoti » (affliction d'âme, mélancolie), composé de « wehe / wē » (hélas, malheur, interjection germanique *wai, cf. latin vae) et de « Mut » (disposition intérieure de l'âme, humeur, en vieux haut-allemand muot, cognat de l'anglais mood).",
-    "philosophicalContext": "Marx tourne en dérision les lamentations sentimentales et régressives des artisans et boutiquiers qui pleurent la dissolution de leurs corporations tranquilles sous les coups du grand capital.",
+    "etymology": "Issu du moyen haut-allemand « wēmuot », vieux haut-allemand « wēmuoti » (affliction d'âme, douleur intime, tristesse), composé germanique associant : 1° l'interjection de douleur « wē / wehe » (hélas, malheur, interjection germanique commune *wai, cognat du latin vae !) ; 2° « der Mut » (la disposition intérieure de l'âme, l'humeur, en vieux haut-allemand muot, proto-germanique *mōdaz, cognat de l'anglais mood).",
+    "philosophicalContext": "La mélancolie petite-bourgeoise est l'expression affective de la classe condamnée par le progrès technique : elle pleure un passé corporatif idéalisé et refuse le combat révolutionnaire moderne.",
     "relatedConcepts": [
-      "gen",
-      "comp_noun"
+      "gen"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "contextNote": "Lafargue traduit « de la sentimentalité petite-bourgeoise ». Strictement découplé de l'adjectif « spießbürgerlichen ». Troisième complément de « Schauer »."
   },
   "ch1_p14_s3_w20": {
     "wordId": "ch1_p14_s3_w20",
-    "translationFr": "l'eau",
-    "literalTranslation": "l'eau (datif neutre singulier)",
-    "grammaticalRole": "Nom neutre singulier (das Wasser) au datif singulier après « in dem ».",
+    "translationFr": "eau",
+    "literalTranslation": "eau, élément liquide froid et dissolvant (datif neutre singulier)",
+    "grammaticalRole": "Nom neutre singulier (das Wasser) au datif singulier après « in dem eiskalten ».",
     "wordIds": [
       "ch1_p14_s3_w20"
     ],
-    "etymology": "Issu du moyen haut-allemand « wazzer », vieux haut-allemand « wazzar » (eau). Proto-germanique *watar, issu de la racine indo-européenne *wod-r̥ / *wed- (eau, humide, d'où découlent le grec hydōr, le latin unda / vague, le russe voda et l'anglais water).",
-    "philosophicalContext": "Une des plus célèbres métaphores de la littérature mondiale : le capitalisme refroidit instantanément toute chaleur émotionnelle, spirituelle et communautaire dans le bain glacé de l'arithmétique du profit.",
+    "etymology": "Issu du moyen haut-allemand « wazzer », vieux haut-allemand « wazzar » (l'eau, l'élément fluide), du proto-germanique *watōr, issu de la racine indo-européenne fondamentale *wódr̥ (d'où proviennent l'anglais water, le grec húdōr / hydre, et le slave voda / vodka).",
+    "philosophicalContext": "Métaphore saisissante du baptême inversé : l'eau bourgeoise n'est pas l'eau tiède de la régénération chrétienne, mais l'eau glacée du calcul égoïste qui noie les illusions métaphysiques pour imposer la rationalité impitoyable du profit marchand.",
     "cognatesFr": [
       "eau",
       "onde",
@@ -7709,7 +8123,8 @@ export const annotations: Record<string, Annotation> = {
     "relatedConcepts": [
       "dat"
     ],
-    "difficulty": "basic"
+    "difficulty": "intermediate",
+    "contextNote": "Lafargue traduit « dans les eaux glacées ». Le mot isolé est le nom neutre singulier au datif, strictement découplé de « dem eiskalten »."
   },
   "ch1_p14_s3_w22": {
     "wordId": "ch1_p14_s3_w22",
@@ -7762,23 +8177,25 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s4_w8": {
     "wordId": "ch1_p14_s4_w8",
-    "translationFr": "la valeur d'échange",
-    "literalTranslation": "la valeur marchande de troc et d'échange pécuniaire (accusatif masculin singulier)",
-    "grammaticalRole": "Nom masculin composé (der Tauschwert) à l'accusatif singulier après la préposition « in den » marquant la transformation / transmutation.",
-    "etymology": "Composé économique associant : 1° « der Tausch » (déverbal du verbe tauschen / troquer, échanger, en moyen haut-allemand tūschen = marchander, badiner, tromper par le troc ; étymon discuté et origine incertaine selon Kluge et Pfeifer, sans doute onomatopéique ou moyen-bas-allemand) ; 2° « der Wert » (valeur, prix, en moyen haut-allemand wert, en vieux haut-allemand werd, proto-germanique *werþaz = équivalent en prix, cognat de l'anglais worth).",
-    "philosophicalContext": "Concept cardinal de la critique de l'économie politique : la réduction de l'individu et de son travail à une pure « valeur d'échange » quantifiée déracine toutes les relations qualitatives humaines pour les soumettre au fétichisme de la marchandise.",
+    "translationFr": "valeur d'échange",
+    "literalTranslation": "valeur d'échange, proportion quantitative d'équivalence marchande (accusatif masculin singulier)",
+    "grammaticalRole": "Nom composé masculin singulier (der Tauschwert) à l'accusatif singulier après « in den », terme de la dissolution de « die persönliche Würde ».",
+    "etymology": "Composé économique unissant : 1° « der Tausch » (l'échange de biens, le troc, en moyen haut-allemand tūsch = tromperie, ruse de foire, troc, déverbal de tuschen = échanger, étymologie incertaine discutée par Pfeifer et Kluge) ; 2° « der Wert » (la valeur, le prix d'un bien, en moyen haut-allemand wert, vieux haut-allemand werd, du proto-germanique *werþaz = équivalent, digne de prix).",
+    "philosophicalContext": "Théorie de l'aliénation et de la marchandise : le capitalisme convertit la dignité personnelle incommensurable en une simple grandeur marchande abstraite et négociable sur le marché.",
     "cognatesFr": [
       "valeur"
     ],
     "relatedConcepts": [
-      "acc",
       "comp_noun",
-      "capital"
+      "acc",
+      "bourgeoisie",
+      "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s4_w8"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « dans la valeur d'échange ». Strictement découplé de l'article « den »."
   },
   "ch1_p14_s4_w9": {
     "wordId": "ch1_p14_s4_w9",
@@ -7832,19 +8249,21 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s4_w19": {
     "wordId": "ch1_p14_s4_w19",
-    "translationFr": "des libertés / des franchises",
-    "literalTranslation": "des libertés particulières et franchises corporatives (génitif pluriel)",
+    "translationFr": "franchises / libertés",
+    "literalTranslation": "libertés coutumières, privilèges féodaux locaux et franchises jurées (génitif féminin pluriel)",
     "grammaticalRole": "Nom féminin pluriel (die Freiheit -> die Freiheiten) au génitif pluriel après « der zahllosen verbrieften und wohlerworbenen ».",
-    "etymology": "Issu du moyen haut-allemand « vrīheit », vieux haut-allemand « frīheit » (condition d'homme libre, privilège légal, franchise). Dérivé en -heit de l'adjectif « frei » (libre, en vieux haut-allemand frī, proto-germanique *frijaz = chéri, aimé, de condition libre au sein du clan par opposition aux serfs capturés, racine indo-européenne *priyH-ó- = aimé, cher).",
-    "philosophicalContext": "Sous le féodalisme, la liberté n'existait pas au singulier universel, mais uniquement au pluriel (« die Freiheiten ») : c'étaient des exemptions, franchises de foire, droits de péage ou immunités seigneuriales particulières.",
+    "etymology": "Dérivé abstrait en « -heit » de l'adjectif « frei » (libre, franc d'obligations serviles, en moyen haut-allemand vrī, vieux haut-allemand frī, proto-germanique *frijaz = aimé, chéri, de la racine indo-européenne *priyos = cher, aimé, qui a aussi donné Freund / ami).",
+    "philosophicalContext": "Marx opère une distinction juridique fondamentale : les « libertés » médiévales au pluriel étaient en réalité des franchises locales, des exemptions de taxes et des privilèges corporatifs d'Ancien Régime. La bourgeoisie les liquide pour leur substituer la liberté unique et impitoyable du commerce.",
     "relatedConcepts": [
       "gen",
+      "plural",
       "feudalism"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s4_w19"
-    ]
+    ],
+    "contextNote": "Lafargue traduit « libertés si chèrement conquises ». Strictement découplé de toute préposition française."
   },
   "ch1_p14_s4_w22": {
     "wordId": "ch1_p14_s4_w22",
@@ -7898,57 +8317,65 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p14_s5_w16": {
     "wordId": "ch1_p14_s5_w16",
     "translationFr": "illusions",
-    "literalTranslation": "illusions trompeuses (datif pluriel)",
-    "grammaticalRole": "Nom féminin pluriel au datif après « mit ».",
-    "etymology": "Emprunt au latin « illusio » (raillerie, tromperie des sens), du verbe « illudere » (se jouer de, de in- + ludere jouer).",
-    "philosophicalContext": "L'idéologie religieuse féodale (droit divin, obéissance au prêtre et au baron) n'était qu'un voile trompeur masquant le fait objectif de l'extorsion de surtravail paysan.",
+    "literalTranslation": "illusions mystificatrices, fictions idéologiques trompeuses (datif féminin pluriel)",
+    "grammaticalRole": "Nom féminin pluriel (die Illusion -> die Illusionen) au datif pluriel après « mit religiösen und politischen ».",
+    "etymology": "Emprunt savant au latin classique « illusio » (raillerie, tromperie des sens, action de se jouer de quelqu'un), déverbal de « illudere » (se moquer, abuser, composé de in- « contre, sur » et ludere « jouer »).",
+    "philosophicalContext": "Théorie du déchirement du voile mystique et de l'Entzauberung : sous la féodalité, le surtravail paysan était extorqué sous le couvert d'obligations sacrées, du droit divin et de la fidélité chevaleresque. La bourgeoisie déchire impitoyablement ces illusions pour révéler l'extorsion de surtravail dans sa vérité nue.",
     "cognatesFr": [
       "illusion",
       "illusoire"
     ],
     "relatedConcepts": [
       "dat",
-      "latin_root"
+      "plural",
+      "latin_root",
+      "hist_mat"
     ],
-    "difficulty": "basic",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s5_w16"
-    ]
+    ],
+    "contextNote": "Complément instrumental après « mit ». Fiche enrichie au plus haut niveau conceptuel."
   },
   "ch1_p14_s5_w17": {
     "wordId": "ch1_p14_s5_w17",
-    "translationFr": "voilée / masquée",
-    "literalTranslation": "dissimulée sous un voile, enveloppée d'un manteau (participe passé adjectivé)",
-    "grammaticalRole": "Participe passé adjectivé du verbe inséparable « verhüllen », décliné au génitif féminin singulier en -en après « der », qualifiant « Ausbeutung ».",
-    "etymology": "Composé du préfixe transitif d'occultation « ver- » et du verbe « hüllen » (envelopper, couvrir), en moyen haut-allemand hüllen, en vieux haut-allemand hullen, dérivé de die Hülle (le voile, l'enveloppe, en vieux haut-allemand hulla, proto-germanique *huljaną = couvrir, cacher, issu de la racine indo-européenne *ḱel- = cacher, dérober, d'où proviennent le latin celare, occultere, et l'allemand hehlen).",
+    "translationFr": "voilée / masquée / dissimulée",
+    "literalTranslation": "dissimulée sous un voile, enveloppée d'un manteau trompeur (participe passé au génitif féminin singulier)",
+    "grammaticalRole": "Participe passé adjectivé du verbe inséparable « verhüllen », décliné au génitif féminin singulier en -en après « der », épithète de « Ausbeutung ».",
+    "etymology": "Composé du préfixe verbal transitif d'occultation « ver- » et du verbe « hüllen » (envelopper, couvrir d'un voile, en moyen haut-allemand hüllen, vieux haut-allemand hullen), dérivé du substantif « die Hülle » (le voile, l'enveloppe protectrice, vieux haut-allemand hulla, du proto-germanique *huljaną = couvrir, cacher, issu de la racine indo-européenne *ḱel- = cacher, dérober, d'où proviennent le latin celare, occultere, et l'allemand hehlen).",
     "relatedConcepts": [
       "gen",
-      "prefix_verb"
+      "decl",
+      "prefix_verb",
+      "hist_mat"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s5_w17"
-    ]
+    ],
+    "contextNote": "Participe passé passif qualifiant la première forme d'exploitation (l'exploitation féodale).",
+    "philosophicalContext": "Concept décisif d'Entzauberung (désenchantement du monde) et de déchirement du voile mystique : Marx anticipe Max Weber en montrant que le mode de production capitaliste procède à une laïcisation brutale et démystificatrice de la société. En déchirant le voile religieux qui sanctifiait l'ordre seigneurial, le capital contraint l'humanité à contempler avec lucidité ses conditions d'existence réelles."
   },
   "ch1_p14_s5_w18": {
     "wordId": "ch1_p14_s5_w18",
     "translationFr": "exploitation",
-    "literalTranslation": "action de tirer profit, exploitation",
-    "grammaticalRole": "Nom féminin singulier au génitif singulier.",
-    "etymology": "Déverbal en « -ung » de « ausbeuten » (terme technique minier désignant l'extraction complète du filon 'Beute', transposé par Marx à l'extraction de plus-value sur le travail vivant).",
-    "philosophicalContext": "Marx transfère le terme de l'exploitation des mines de charbon à l'exploitation de l'homme par l'homme : l'extraction systématique de la plus-value ouvrière.",
+    "literalTranslation": "exploitation, extraction exhaustive d'un gisement ou d'une ressource (génitif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Ausbeutung) au génitif singulier après « der mit religiösen und politischen Illusionen verhüllten ».",
+    "etymology": "Déverbal en « -ung » formé sur le verbe préfixé « ausbeuten » (extraire complètement le minerai d'une fosse, exploiter un filon jusqu'à épuisement). Le terme appartenait au lexique technique des mineurs saxons et du Harz (du moyen haut-allemand bōte, vieux haut-allemand būta, déverbal de « die Beute » = le butin, le gain utile). Marx opère un transfert métaphorique fondamental de l'exploitation minérale à l'exploitation économique de l'homme par l'homme : l'extraction systématique du surtravail et de la plus-value ouvrière.",
+    "philosophicalContext": "L'exploitation n'a pas été inventée par la bourgeoisie : toutes les sociétés de classe reposent sur l'extorsion de surtravail au profit d'une minorité oisive. Mais le capitalisme en dépouille le mécanisme de toute légitimation extra-économique.",
     "cognatesFr": [
       "butin"
     ],
     "relatedConcepts": [
       "gen",
-      "exploitation",
+      "class_struggle",
       "hist_mat"
     ],
     "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s5_w18"
-    ]
+    ],
+    "contextNote": "Premier terme du chiasme historique opposant l'exploitation féodale voilée à l'exploitation bourgeoise directe."
   },
   "ch1_p14_s5_w20": {
     "wordId": "ch1_p14_s5_w20",
@@ -8002,36 +8429,40 @@ export const annotations: Record<string, Annotation> = {
   },
   "ch1_p14_s5_w26": {
     "wordId": "ch1_p14_s5_w26",
-    "translationFr": "brutale / aride / décharnée",
-    "literalTranslation": "sèche, décharnée, desséchée, sans fard (accusatif féminin singulier)",
-    "grammaticalRole": "Adjectif qualificatif (dürr) à l'accusatif féminin singulier en -e, quatrième et ultime épithète de l'énumération.",
-    "etymology": "Issu du moyen haut-allemand « dürre », vieux haut-allemand « durri » (sec, aride, desséché, stérile, maigre). Proto-germanique *þurzu- (sec, aride), issu de la racine indo-européenne *ters- (sécher, être assoiffé, d'où proviennent l'allemand Durst / soif, le latin torrere / torréfier, brûler, et le grec tersomai).",
-    "philosophicalContext": "L'adjectif « dürr » est d'une force stylistique extraordinaire : l'exploitation capitaliste est réduite à son squelette économique desséché, dépouillée de toute chair morale, poétique ou affective.",
+    "translationFr": "aride / décharnée / sans fard",
+    "literalTranslation": "sèche, aride, décharnée, dépouillée de tout ornement (adjectif à l'accusatif féminin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné à l'accusatif féminin singulier en -e après « die », épithète de « Ausbeutung ».",
+    "etymology": "Issu du moyen haut-allemand « dürre », vieux haut-allemand « durri » (sec, aride, desséché, stérile, amaigri), du proto-germanique *þursuz (desséché par la soif), rattaché à la racine indo-européenne *ters- (sécher, soif, d'où proviennent le latin torrere, terra, et l'anglais thirst).",
+    "philosophicalContext": "L'adjectif « dürr » (sec, aride, décharné) achève magistralement l'opération de désenchantement (Entzauberung) : le rapport d'exploitation capitaliste est d'une aridité clinique, sans poésie, sans fard moral ni paternalisme féodal, réduit à la froideur mathématique d'un bilan comptable.",
     "relatedConcepts": [
       "acc",
-      "decl"
+      "decl",
+      "hist_mat"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "wordIds": [
       "ch1_p14_s5_w26"
-    ]
+    ],
+    "contextNote": "Quatrième et ultime adjectif de la gradation impitoyable caractérisant l'exploitation capitaliste."
   },
   "ch1_p14_s5_w27": {
     "wordId": "ch1_p14_s5_w27",
     "translationFr": "exploitation",
-    "literalTranslation": "exploitation, tirage de butin",
-    "grammaticalRole": "Nom féminin singulier à l'accusatif singulier.",
-    "philosophicalContext": "Chiasme historique et anaphore antithétique monumentale qui clôt le paragraphe 14 : la bourgeoisie n'a nullement émancipé l'humanité de l'exploitation féodale, elle a simplement substitué à une exploitation voilée d'illusions une exploitation nue, impudente et cynique.",
+    "literalTranslation": "exploitation nue et directe de la force de travail salariée (accusatif féminin singulier)",
+    "grammaticalRole": "Nom féminin singulier (die Ausbeutung) à l'accusatif singulier après « die offene, unverschämte, direkte, dürre », COD de « gesetzt ».",
+    "philosophicalContext": "Chiasme historique et anaphore antithétique monumentale qui clôt le paragraphe 14 : la bourgeoisie n'a nullement émancipé l'humanité de l'exploitation féodale ; elle a simplement substitué à une exploitation voilée d'illusions pieuses une exploitation ouverte, éhontée, directe et cynique, posant ainsi les conditions de sa destruction révolutionnaire.",
     "relatedConcepts": [
       "acc",
-      "exploitation",
-      "bourgeoisie"
+      "class_struggle",
+      "bourgeoisie",
+      "hist_mat"
     ],
     "difficulty": "advanced",
-    "etymology": "Déverbal de « ausbeuten » (extraire le minerai ou le butin utile).",
+    "etymology": "Déverbal en « -ung » de « ausbeuten » (extraire exhaustivement le minerai d'une veine, du moyen haut-allemand būta / Beute). Terme de l'industrie minière saxonne transposé par Marx à l'extorsion méthodique de la plus-value sur le travail vivant.",
     "wordIds": [
       "ch1_p14_s5_w27"
-    ]
+    ],
+    "contextNote": "Clôture anaphorique monumentale du paragraphe 14. Fiche autonome complète sans renvoi."
   },
   "ch1_p10_s3_w13": {
     "wordId": "ch1_p10_s3_w13",
@@ -8065,17 +8496,20 @@ export const annotations: Record<string, Annotation> = {
   "ch1_p14_s3_w15": {
     "wordId": "ch1_p14_s3_w15",
     "translationFr": "petite-bourgeoise / philistine",
-    "literalTranslation": "de petit-bourgeois étriqué",
-    "grammaticalRole": "Adjectif qualificatif au génitif féminin singulier, épithète de Wehmut.",
+    "literalTranslation": "de petit-bourgeois étriqué, de philistin borné (génitif féminin singulier)",
+    "grammaticalRole": "Adjectif qualificatif décliné au génitif féminin singulier en -en après l'article « der ».",
     "wordIds": [
       "ch1_p14_s3_w15"
     ],
-    "etymology": "Dérivé de « Spießbürger » (petit-bourgeois borné, philistin). Composé historique de : 1° « der Spieß » (la pique de guerre, arme d'hast modeste des miliciens bourgeois gardant les remparts médiévaux, en moyen haut-allemand spiez, en vieux haut-allemand spioz, proto-germanique *speutaz) + 2° « der Bürger » (le bourgeois). Étymologie documentée chez Kluge et Pfeifer (le milicien armé d'une simple pique par opposition au noble à cheval et à l'épée est devenu une épithète méprisante d'étudiants désignant les boutiquiers timorés).",
-    "philosophicalContext": "Marx tourne en dérision les lamentations sentimentales et régressives des artisans et boutiquiers qui pleurent la dissolution de leurs corporations tranquilles sous les coups du grand capital.",
+    "etymology": "Dérivé au moyen du suffixe « -lich » de « Spießbürger » (petit-bourgeois borné, philistin). Composé historique associant : 1° « der Spieß » (la pique de fer, arme d'hast modeste des miliciens bourgeois gardant les remparts municipaux, en moyen haut-allemand spiez, vieux haut-allemand spioz, proto-germanique *speutaz) ; 2° « der Bürger » (le bourgeois). Étymologie documentée chez Kluge et Pfeifer : le milicien armé d'une simple pique, par opposition au noble armé d'une épée et d'un cheval, est devenu au XVIIIe siècle dans le jargon des étudiants une épithète méprisante désignant le boutiquier timoré et conformiste.",
+    "philosophicalContext": "Marx stigmatise la sentimentalité régressive et pleurnicharde des petits artisans et boutiquiers qui se lamentent sur la ruine de leurs privilèges d'atelier sans comprendre la marche de l'histoire.",
     "relatedConcepts": [
-      "gen"
+      "gen",
+      "decl",
+      "bourgeoisie"
     ],
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "contextNote": "Épithète de « Wehmut ». Strictement découplé du substantif « Wehmut »."
   },
   "ch1_p14_s3_w11": {
     "wordId": "ch1_p14_s3_w11",
@@ -8194,3 +8628,6 @@ export const annotations: Record<string, Annotation> = {
     "difficulty": "basic"
   }
 };
+
+Object.assign(annotations, annotationsCh2);
+Object.assign(annotations, annotationsCh3Ch4);

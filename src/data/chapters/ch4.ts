@@ -21,7 +21,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p1_s1',
-        translationFr: "D’après ce que nous avons dit plus haut (voir Section II), la position des communistes vis-à-vis des partis ouvriers déjà constitués, s’explique d’elle-même, et, partant, leur position vis-à-vis des Chartistes en Angleterre et des réformateurs agraires dans l’Amérique du Nord.",
+        translationFr: "D’après la Section II, la position des communistes vis-à-vis des partis ouvriers déjà constitués s’explique d’elle-même, c'est-à-dire leur position vis-à-vis des chartistes en Angleterre et des réformateurs agraires en Amérique du Nord.",
         words: [
           w('ch4_p1_s1_w1', 'Nach', 'nach', 'PREP', { case: 'DAT' }),
           w('ch4_p1_s1_w2', 'Abschnitt', 'Abschnitt', 'NOUN', { case: 'DAT', gender: 'M', number: 'SG' }),
@@ -65,7 +65,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p2_s1',
-        translationFr: "Ils combattent pour les intérêts et les buts immédiats de la classe ouvrière, mais dans le mouvement du présent, ils défendent et représentent en même temps l’avenir du mouvement.",
+        translationFr: "Ils combattent pour les intérêts et les buts immédiats de la classe ouvrière, mais dans le mouvement du présent, ils représentent et défendent en même temps l’avenir du mouvement.",
         words: [
           w('ch4_p2_s1_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch4_p2_s1_w2', 'kämpfen', 'kämpfen', 'VERB', { person: 3, number: 'PL', tense: 'PRES', mood: 'IND' }),
@@ -98,7 +98,7 @@ export const chapter4Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch4_p2_s2',
-        translationFr: "En France, les communistes se rallient au parti démocrate-socialiste contre la bourgeoisie conservatrice et radicale, tout en se réservant le droit de critiquer les phrases et les illusions léguées par la tradition révolutionnaire.",
+        translationFr: "En France, les communistes se rallient au parti démocrate-socialiste contre la bourgeoisie conservatrice et radicale, sans pour autant renoncer au droit d'adopter une attitude critique à l’égard des phrases et des illusions léguées par la tradition révolutionnaire.",
         words: [
           w('ch4_p2_s2_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch4_p2_s2_w2', 'Frankreich', 'Frankreich', 'NOUN', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -149,7 +149,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p3_s1',
-        translationFr: "En Suisse ils appuient les radicaux, sans méconnaître que ce parti se compose d’éléments contradictoires, moitié de démocrates socialistes, dans l’acception française du mot, moitié de bourgeois radicaux.",
+        translationFr: "En Suisse, ils soutiennent les radicaux, sans méconnaître que ce parti se compose d’éléments contradictoires, pour une part de démocrates socialistes au sens français, pour une part de bourgeois radicaux.",
         words: [
           w('ch4_p3_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch4_p3_s1_w2', 'der', 'der', 'ART', { case: 'DAT', gender: 'F', number: 'SG' }),
@@ -194,7 +194,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p4_s1',
-        translationFr: "En Pologne les communistes soutiennent le parti qui voit dans une révolution agraire la condition de l’affranchissement national, c’est-à-dire le parti qui fit la révolution de Cracovie en 1846.",
+        translationFr: "Chez les Polonais, les communistes soutiennent le parti qui fait d’une révolution agraire la condition de l’émancipation nationale, ce même parti qui suscita l'insurrection de Cracovie en 1846.",
         words: [
           w('ch4_p4_s1_w1', 'Unter', 'unter', 'PREP', { case: 'DAT' }),
           w('ch4_p4_s1_w2', 'den', 'der', 'ART', { case: 'DAT', gender: 'M', number: 'PL' }),
@@ -239,7 +239,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p5_s1',
-        translationFr: "En Allemagne le parti communiste lutte d’accord avec la bourgeoisie, toutes les fois que la bourgeoisie agit révolutionnairement, contre la monarchie absolue, la propriété foncière féodale et la petite bourgeoisie.",
+        translationFr: "En Allemagne, le Parti communiste combat aux côtés de la bourgeoisie dès que celle-ci adopte une attitude révolutionnaire, contre la monarchie absolue, la propriété foncière féodale et la petite-bourgeoisie étriquée.",
         words: [
           w('ch4_p5_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch4_p5_s1_w2', 'Deutschland', 'Deutschland', 'NOUN', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -280,7 +280,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p6_s1',
-        translationFr: "Mais jamais, à aucun moment, ce parti ne néglige d’éveiller chez les ouvriers une conscience claire et nette de l’antagonisme profond qui existe entre la bourgeoisie et le prolétariat, afin que, l’heure venue, les ouvriers allemands sachent convertir les conditions sociales et politiques, créées par le régime bourgeois, en autant d’armes contre la bourgeoisie ; afin que, sitôt les classes réactionnaires de l’Allemagne détruites, la lutte puisse s’engager contre la bourgeoisie elle-même.",
+        translationFr: "Mais il ne néglige à aucun moment de développer chez les ouvriers une conscience aussi claire que possible de l’antagonisme hostile entre bourgeoisie et prolétariat, afin que les ouvriers allemands puissent aussitôt tourner les conditions sociales et politiques que la bourgeoisie doit instaurer avec sa domination comme autant d’armes contre la bourgeoisie elle-même, et afin qu'aussitôt après la chute des classes réactionnaires en Allemagne s’engage immédiatement le combat contre la bourgeoisie.",
         words: [
           w('ch4_p6_s1_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', gender: 'F', number: 'SG', person: 3 }),
           w('ch4_p6_s1_w2', 'unterläßt', 'unterlassen', 'VERB', { person: 3, number: 'SG', tense: 'PRES', mood: 'IND' }),
@@ -359,7 +359,7 @@ export const chapter4Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch4_p6_s2',
-        translationFr: "C’est vers l’Allemagne surtout que se tourne l’attention des communistes, parce que l’Allemagne se trouve à la veille d’une révolution bourgeoise, et parce qu’elle accomplira cette révolution dans des conditions plus avancées de la civilisation européenne et avec un prolétariat infiniment plus développé que l’Angleterre et la France n’en possédaient au XVIIe et au XVIIIe siècles, et que, par conséquent, la révolution bourgeoise allemande ne saurait être que le court prélude d’une révolution prolétarienne.",
+        translationFr: "C’est vers l’Allemagne que les communistes tournent leur attention principale, parce que l’Allemagne se trouve à la veille d’une révolution bourgeoise, et parce qu’elle accomplit ce bouleversement dans les conditions plus avancées de la civilisation européenne en général et avec un prolétariat infiniment plus développé que l’Angleterre au XVIIe et la France au XVIIIe siècle, la révolution bourgeoise allemande ne pouvant donc être que le prélude immédiat d’une révolution prolétarienne.",
         words: [
           w('ch4_p6_s2_w1', 'Auf', 'auf', 'PREP', { case: 'ACC' }),
           w('ch4_p6_s2_w2', 'Deutschland', 'Deutschland', 'NOUN', { case: 'ACC', gender: 'N', number: 'SG' }),
@@ -432,7 +432,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p7_s1',
-        translationFr: "En somme, les communistes appuient partout tout mouvement révolutionnaire contre l’état de choses social et politique existant.",
+        translationFr: "En un mot, les communistes appuient partout tout mouvement révolutionnaire contre l’état de choses social et politique existant.",
         words: [
           w('ch4_p7_s1_w1', 'Mit', 'mit', 'PREP', { case: 'DAT' }),
           w('ch4_p7_s1_w2', 'einem', 'ein', 'ART', { case: 'DAT', gender: 'N', number: 'SG' }),
@@ -463,7 +463,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p8_s1',
-        translationFr: "Dans tous ces mouvements, ils mettent en avant la question de la propriété, quelle que soit la forme plus ou moins développée qu’elle ait revêtue, comme la question fondamentale du mouvement.",
+        translationFr: "Dans tous ces mouvements, ils mettent au premier plan la question de la propriété, quelle que soit la forme plus ou moins développée qu’elle ait pu revêtir, comme la question fondamentale du mouvement.",
         words: [
           w('ch4_p8_s1_w1', 'In', 'in', 'PREP', { case: 'DAT' }),
           w('ch4_p8_s1_w2', 'allen', 'all', 'PRON', { case: 'DAT', gender: 'F', number: 'PL' }),
@@ -497,7 +497,7 @@ export const chapter4Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch4_p8_s2',
-        translationFr: "Enfin les communistes travaillent à l’union et à l’entente des partis démocratiques de tous les pays.",
+        translationFr: "Enfin, les communistes travaillent partout à l’union et à l’entente des partis démocratiques de tous les pays.",
         words: [
           w('ch4_p8_s2_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch4_p8_s2_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -525,7 +525,7 @@ export const chapter4Paragraphs: Paragraph[] = [
     sentences: [
       {
         id: 'ch4_p9_s1',
-        translationFr: "Les communistes ne s’abaissent pas à dissimuler leurs opinions et leurs buts.",
+        translationFr: "Les communistes dédaignent de dissimuler leurs opinions et leurs desseins.",
         words: [
           w('ch4_p9_s1_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch4_p9_s1_w2', 'Kommunisten', 'Kommunist', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -543,7 +543,7 @@ export const chapter4Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch4_p9_s2',
-        translationFr: "Ils proclament hautement que ces buts ne pourront être atteints sans le renversement violent de tout ordre social actuel.",
+        translationFr: "Ils déclarent ouvertement que leurs fins ne peuvent être atteintes que par le renversement violent de tout l’ordre social passé.",
         words: [
           w('ch4_p9_s2_w1', 'Sie', 'sie', 'PRON', { case: 'NOM', number: 'PL', person: 3 }),
           w('ch4_p9_s2_w2', 'erklären', 'erklären', 'VERB', { person: 3, number: 'PL', tense: 'PRES', mood: 'IND' }),
@@ -569,7 +569,7 @@ export const chapter4Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch4_p9_s3',
-        translationFr: "Que les classes régnantes tremblent à l’idée d’une révolution communiste.",
+        translationFr: "Puissent les classes dominantes trembler devant une révolution communiste !",
         words: [
           w('ch4_p9_s3_w1', 'Mögen', 'mögen', 'VERB', { person: 3, number: 'PL', tense: 'PRES', mood: 'SUBJ' }),
           w('ch4_p9_s3_w2', 'die', 'der', 'ART', { case: 'NOM', gender: 'F', number: 'PL' }),
@@ -585,7 +585,7 @@ export const chapter4Paragraphs: Paragraph[] = [
       },
       {
         id: 'ch4_p9_s4',
-        translationFr: "Les prolétaires n’ont rien à y perdre, hors leurs chaînes.",
+        translationFr: "Les prolétaires n’y ont rien à perdre que leurs chaînes.",
         words: [
           w('ch4_p9_s4_w1', 'Die', 'der', 'ART', { case: 'NOM', gender: 'M', number: 'PL' }),
           w('ch4_p9_s4_w2', 'Proletarier', 'Proletarier', 'NOUN', { case: 'NOM', gender: 'M', number: 'PL' }),
@@ -639,42 +639,42 @@ export const chapter4Paragraphs: Paragraph[] = [
 
 export const chapter4French: Record<string, string[]> = {
   'ch4_p1': [
-    "D’après ce que nous avons dit plus haut (voir Section II), la position des communistes vis-à-vis des partis ouvriers déjà constitués, s’explique d’elle-même, et, partant, leur position vis-à-vis des Chartistes en Angleterre et des réformateurs agraires dans l’Amérique du Nord."
+    "D’après la Section II, la position des communistes vis-à-vis des partis ouvriers déjà constitués s’explique d’elle-même, c'est-à-dire leur position vis-à-vis des chartistes en Angleterre et des réformateurs agraires en Amérique du Nord."
   ],
   'ch4_p2': [
-    "Ils combattent pour les intérêts et les buts immédiats de la classe ouvrière, mais dans le mouvement du présent, ils défendent et représentent en même temps l’avenir du mouvement.",
-    "En France, les communistes se rallient au parti démocrate-socialiste contre la bourgeoisie conservatrice et radicale, tout en se réservant le droit de critiquer les phrases et les illusions léguées par la tradition révolutionnaire."
+    "Ils combattent pour les intérêts et les buts immédiats de la classe ouvrière, mais dans le mouvement du présent, ils représentent et défendent en même temps l’avenir du mouvement.",
+    "En France, les communistes se rallient au parti démocrate-socialiste contre la bourgeoisie conservatrice et radicale, sans pour autant renoncer au droit d'adopter une attitude critique à l’égard des phrases et des illusions léguées par la tradition révolutionnaire."
   ],
   'ch4_p3': [
-    "En Suisse ils appuient les radicaux, sans méconnaître que ce parti se compose d’éléments contradictoires, moitié de démocrates socialistes, dans l’acception française du mot, moitié de bourgeois radicaux."
+    "En Suisse, ils soutiennent les radicaux, sans méconnaître que ce parti se compose d’éléments contradictoires, pour une part de démocrates socialistes au sens français, pour une part de bourgeois radicaux."
   ],
   'ch4_p4': [
-    "En Pologne les communistes soutiennent le parti qui voit dans une révolution agraire la condition de l’affranchissement national, c’est-à-dire le parti qui fit la révolution de Cracovie en 1846."
+    "Chez les Polonais, les communistes soutiennent le parti qui fait d’une révolution agraire la condition de l’émancipation nationale, ce même parti qui suscita l'insurrection de Cracovie en 1846."
   ],
   'ch4_p5': [
-    "En Allemagne le parti communiste lutte d’accord avec la bourgeoisie, toutes les fois que la bourgeoisie agit révolutionnairement, contre la monarchie absolue, la propriété foncière féodale et la petite bourgeoisie."
+    "En Allemagne, le Parti communiste combat aux côtés de la bourgeoisie dès que celle-ci adopte une attitude révolutionnaire, contre la monarchie absolue, la propriété foncière féodale et la petite-bourgeoisie étriquée."
   ],
   'ch4_p6': [
-    "Mais jamais, à aucun moment, ce parti ne néglige d’éveiller chez les ouvriers une conscience claire et nette de l’antagonisme profond qui existe entre la bourgeoisie et le prolétariat, afin que, l’heure venue, les ouvriers allemands sachent convertir les conditions sociales et politiques, créées par le régime bourgeois, en autant d’armes contre la bourgeoisie ; afin que, sitôt les classes réactionnaires de l’Allemagne détruites, la lutte puisse s’engager contre la bourgeoisie elle-même.",
-    "C’est vers l’Allemagne surtout que se tourne l’attention des communistes, parce que l’Allemagne se trouve à la veille d’une révolution bourgeoise, et parce qu’elle accomplira cette révolution dans des conditions plus avancées de la civilisation européenne et avec un prolétariat infiniment plus développé que l’Angleterre et la France n’en possédaient au XVIIe et au XVIIIe siècles, et que, par conséquent, la révolution bourgeoise allemande ne saurait être que le court prélude d’une révolution prolétarienne."
+    "Mais il ne néglige à aucun moment de développer chez les ouvriers une conscience aussi claire que possible de l’antagonisme hostile entre bourgeoisie et prolétariat, afin que les ouvriers allemands puissent aussitôt tourner les conditions sociales et politiques que la bourgeoisie doit instaurer avec sa domination comme autant d’armes contre la bourgeoisie elle-même, et afin qu'aussitôt après la chute des classes réactionnaires en Allemagne s’engage immédiatement le combat contre la bourgeoisie.",
+    "C’est vers l’Allemagne que les communistes tournent leur attention principale, parce que l’Allemagne se trouve à la veille d’une révolution bourgeoise, et parce qu’elle accomplit ce bouleversement dans les conditions plus avancées de la civilisation européenne en général et avec un prolétariat infiniment plus développé que l’Angleterre au XVIIe et la France au XVIIIe siècle, la révolution bourgeoise allemande ne pouvant donc être que le prélude immédiat d’une révolution prolétarienne."
   ],
   'ch4_p7': [
-    "En somme, les communistes appuient partout tout mouvement révolutionnaire contre l’état de choses social et politique existant."
+    "En un mot, les communistes appuient partout tout mouvement révolutionnaire contre l’état de choses social et politique existant."
   ],
   'ch4_p8': [
-    "Dans tous ces mouvements, ils mettent en avant la question de la propriété, quelle que soit la forme plus ou moins développée qu’elle ait revêtue, comme la question fondamentale du mouvement.",
-    "Enfin les communistes travaillent à l’union et à l’entente des partis démocratiques de tous les pays."
+    "Dans tous ces mouvements, ils mettent au premier plan la question de la propriété, quelle que soit la forme plus ou moins développée qu’elle ait pu revêtir, comme la question fondamentale du mouvement.",
+    "Enfin, les communistes travaillent partout à l’union et à l’entente des partis démocratiques de tous les pays."
   ],
   'ch4_p9': [
-    "Les communistes ne s’abaissent pas à dissimuler leurs opinions et leurs buts.",
-    "Ils proclament hautement que ces buts ne pourront être atteints sans le renversement violent de tout ordre social actuel.",
-    "Que les classes régnantes tremblent à l’idée d’une révolution communiste.",
-    "Les prolétaires n’ont rien à y perdre, hors leurs chaînes.",
+    "Les communistes dédaignent de dissimuler leurs opinions et leurs desseins.",
+    "Ils déclarent ouvertement que leurs fins ne peuvent être atteintes que par le renversement violent de tout l’ordre social passé.",
+    "Puissent les classes dominantes trembler devant une révolution communiste !",
+    "Les prolétaires n’y ont rien à perdre que leurs chaînes.",
     "Ils ont un monde à gagner."
   ],
   'ch4_p10': [
     "Prolétaires de tous les pays, unissez-vous !"
-  ]
+  ],
 };
 
 
