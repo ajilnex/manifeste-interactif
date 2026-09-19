@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 interface SettingsPanelProps {
   isOpen: boolean;
   onClose: () => void;
-  filterBasicWords: boolean;
-  onToggleFilterBasicWords: () => void;
+  translateAllWords: boolean;
+  onToggleTranslateAllWords: () => void;
   showInterlinearTranslations: boolean;
   onToggleInterlinearTranslations: () => void;
   showGrammarColors: boolean;
@@ -16,8 +16,8 @@ interface SettingsPanelProps {
 export const SettingsPanel: React.FC<SettingsPanelProps> = ({
   isOpen,
   onClose,
-  filterBasicWords,
-  onToggleFilterBasicWords,
+  translateAllWords,
+  onToggleTranslateAllWords,
   showInterlinearTranslations,
   onToggleInterlinearTranslations,
   showGrammarColors,
@@ -84,28 +84,28 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
             01 / OPTIONS D'APPRENTISSAGE
           </h3>
 
-          {/* Filtrer les mots élémentaires */}
+          {/* Traduire tous les mots (y compris élémentaires) */}
           <button
             type="button"
-            onClick={onToggleFilterBasicWords}
+            onClick={onToggleTranslateAllWords}
             className="w-full flex items-center justify-between p-2.5 border border-black bg-white hover:bg-neutral-50 transition-colors text-left cursor-pointer"
           >
             <div className="flex flex-col pr-2">
               <span className="font-mono text-[11px] font-bold uppercase text-black">
-                Ignorer mots basiques
+                Traduire tous les mots
               </span>
               <span className="text-[10px] text-neutral-500 leading-tight">
-                Sans fiche sur "und", "der", "in"...
+                Inclure les mots élémentaires (« und », « der », « in »...)
               </span>
             </div>
             <span
-              className={`font-mono text-[10px] font-bold px-2 py-0.5 border ${
-                filterBasicWords
+              className={`font-mono text-[10px] font-bold px-2 py-0.5 border transition-colors ${
+                translateAllWords
                   ? 'bg-black text-white border-black'
                   : 'bg-neutral-100 text-neutral-400 border-neutral-300'
               }`}
             >
-              {filterBasicWords ? 'ACTIF' : 'INACTIF'}
+              {translateAllWords ? 'ACTIF' : 'INACTIF'}
             </span>
           </button>
 

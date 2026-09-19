@@ -8,7 +8,7 @@ interface InteractiveWordProps {
   word: Word;
   annotation?: Annotation;
   showGrammarColors: boolean;
-  filterBasicWords: boolean;
+  translateAllWords: boolean;
   isHighlighted: boolean;
   onHover?: (wordId: string | null) => void;
 }
@@ -32,7 +32,7 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
   word,
   annotation,
   showGrammarColors,
-  filterBasicWords,
+  translateAllWords,
   isHighlighted,
   onHover,
 }) => {
@@ -44,9 +44,9 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
 
   const isPunctuation = word.pos === 'PUNCT';
   const isBasic = isBasicWord(word);
-  // Si le filtre des mots élémentaires est activé, et que ce mot est élémentaire,
-  // on ne le rend pas interactif avec un tooltip pour ne pas polluer la lecture.
-  const isExcluded = filterBasicWords && isBasic;
+  // Si l'option de traduire tous les mots est désactivée, on exclut les mots élémentaires
+  // pour ne rendre interactifs que les termes substantiels.
+  const isExcluded = !translateAllWords && isBasic;
 
   const clearTimers = () => {
     if (openTimerRef.current) {

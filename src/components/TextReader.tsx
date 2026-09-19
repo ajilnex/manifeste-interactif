@@ -6,7 +6,7 @@ interface TextReaderProps {
   chapter: Chapter;
   annotations: Record<string, Annotation>;
   showGrammarColors: boolean;
-  filterBasicWords: boolean;
+  translateAllWords: boolean;
   showInterlinearTranslations: boolean;
   isCollapsingTranslations?: boolean;
   highlightedWordId: string | null;
@@ -47,7 +47,7 @@ export const TextReader: React.FC<TextReaderProps> = ({
   chapter,
   annotations,
   showGrammarColors,
-  filterBasicWords,
+  translateAllWords,
   showInterlinearTranslations,
   isCollapsingTranslations = false,
   highlightedWordId,
@@ -106,7 +106,7 @@ export const TextReader: React.FC<TextReaderProps> = ({
                                 word={word}
                                 annotation={annotations[word.id]}
                                 showGrammarColors={showGrammarColors}
-                                filterBasicWords={filterBasicWords}
+                                translateAllWords={translateAllWords}
                                 isHighlighted={highlightedWordId === word.id}
                                 onHover={onWordHover}
                               />
@@ -150,7 +150,7 @@ export const TextReader: React.FC<TextReaderProps> = ({
                               word={word}
                               annotation={annotations[word.id]}
                               showGrammarColors={showGrammarColors}
-                              filterBasicWords={filterBasicWords}
+                              translateAllWords={translateAllWords}
                               isHighlighted={highlightedWordId === word.id}
                               onHover={onWordHover}
                             />

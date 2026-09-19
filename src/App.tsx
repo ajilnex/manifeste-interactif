@@ -18,8 +18,8 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [showGrammarColors, setShowGrammarColors] = useState(false);
-  const [filterBasicWords, setFilterBasicWords] = useState(true);
-  const [showInterlinearTranslations, setShowInterlinearTranslations] = useState(false);
+  const [translateAllWords, setTranslateAllWords] = useState(true);
+  const [showInterlinearTranslations, setShowInterlinearTranslations] = useState(true);
   const [isCollapsingTranslations, setIsCollapsingTranslations] = useState(false);
   const collapseTimerRef = useRef<number | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -117,8 +117,8 @@ function App() {
     setShowGrammarColors((prev) => !prev);
   }, []);
 
-  const handleToggleFilterBasicWords = useCallback(() => {
-    setFilterBasicWords((prev) => !prev);
+  const handleToggleTranslateAllWords = useCallback(() => {
+    setTranslateAllWords((prev) => !prev);
   }, []);
 
   const handleToggleInterlinearTranslations = useCallback(() => {
@@ -372,8 +372,8 @@ function App() {
       <SettingsPanel
         isOpen={settingsOpen}
         onClose={() => setSettingsOpen(false)}
-        filterBasicWords={filterBasicWords}
-        onToggleFilterBasicWords={handleToggleFilterBasicWords}
+        translateAllWords={translateAllWords}
+        onToggleTranslateAllWords={handleToggleTranslateAllWords}
         showInterlinearTranslations={showInterlinearTranslations && !isCollapsingTranslations}
         onToggleInterlinearTranslations={handleToggleInterlinearTranslations}
         showGrammarColors={showGrammarColors}
@@ -388,7 +388,7 @@ function App() {
           chapter={currentChapter}
           annotations={annotations}
           showGrammarColors={showGrammarColors}
-          filterBasicWords={filterBasicWords}
+          translateAllWords={translateAllWords}
           showInterlinearTranslations={showInterlinearTranslations}
           isCollapsingTranslations={isCollapsingTranslations}
           highlightedWordId={highlightedWordId}
