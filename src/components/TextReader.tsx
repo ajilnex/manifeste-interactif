@@ -13,6 +13,8 @@ interface TextReaderProps {
   highlightedParagraphId: string | null;
   onWordHover: (wordId: string | null) => void;
   onParagraphHover: (paragraphId: string | null) => void;
+  hasSeenTutorial?: boolean;
+  onDismissTutorial?: () => void;
 }
 
 const renderInvertedFrench = (text: string) => {
@@ -54,6 +56,8 @@ export const TextReader: React.FC<TextReaderProps> = ({
   highlightedParagraphId,
   onWordHover,
   onParagraphHover,
+  hasSeenTutorial = true,
+  onDismissTutorial,
 }) => {
   return (
     <article className={`max-w-[70ch] mx-auto ${showGrammarColors ? 'grammar-colors' : ''}`}>
@@ -109,6 +113,8 @@ export const TextReader: React.FC<TextReaderProps> = ({
                                 translateAllWords={translateAllWords}
                                 isHighlighted={highlightedWordId === word.id}
                                 onHover={onWordHover}
+                                showNudge={word.id === 'ch0_p1_s1_w2' && !hasSeenTutorial}
+                                onInteraction={onDismissTutorial}
                               />
                             </Fragment>
                           );
@@ -153,6 +159,8 @@ export const TextReader: React.FC<TextReaderProps> = ({
                               translateAllWords={translateAllWords}
                               isHighlighted={highlightedWordId === word.id}
                               onHover={onWordHover}
+                              showNudge={word.id === 'ch0_p1_s1_w2' && !hasSeenTutorial}
+                              onInteraction={onDismissTutorial}
                             />
                           </Fragment>
                         );

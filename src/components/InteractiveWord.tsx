@@ -3,6 +3,7 @@ import type { Annotation, Word } from '../types';
 import { isBasicWord } from '../utils/language';
 import { getWordTranslationFr } from '../data/lexicon';
 import { Tooltip } from './Tooltip';
+import { InteractiveNudge } from './InteractiveNudge';
 
 interface InteractiveWordProps {
   word: Word;
@@ -11,6 +12,8 @@ interface InteractiveWordProps {
   translateAllWords: boolean;
   isHighlighted: boolean;
   onHover?: (wordId: string | null) => void;
+  showNudge?: boolean;
+  onInteraction?: () => void;
 }
 
 const POS_CLASS_MAP: Record<string, string> = {
@@ -35,6 +38,8 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
   translateAllWords,
   isHighlighted,
   onHover,
+  showNudge = false,
+  onInteraction,
 }) => {
   const [isTooltipOpen, setIsTooltipOpen] = useState(false);
   const [isLocked, setIsLocked] = useState(false);
@@ -62,13 +67,14 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
   const handleMouseEnter = useCallback(() => {
     if (isPunctuation || isExcluded) return;
     onHover?.(word.id);
+    onInteraction?.();
     clearTimers();
 
     // Délai très court (140ms) avant d'ouvrir pour une réactivité naturelle sans effet flash
     openTimerRef.current = setTimeout(() => {
       setIsTooltipOpen(true);
     }, 140);
-  }, [isPunctuation, isExcluded, onHover, word.id]);
+  }, [isPunctuation, isExcluded, onHover, onInteraction, word.id]);
 
   const handleMouseLeave = useCallback(() => {
     if (isPunctuation || isExcluded) return;
@@ -114,6 +120,7 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
   const handleClick = useCallback((e: React.MouseEvent) => {
     e.stopPropagation();
     if (isPunctuation || isExcluded) return;
+    onInteraction?.();
     // Un clic permet d'ouvrir ou de fermer sans forcer un verrouillage automatique
     if (isTooltipOpen) {
       if (!isLocked) {
@@ -124,7 +131,7 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
     } else {
       setIsTooltipOpen(true);
     }
-  }, [isPunctuation, isExcluded, isTooltipOpen, isLocked, handleClose]);
+  }, [isPunctuation, isExcluded, onInteraction, isTooltipOpen, isLocked, handleClose]);
 
   // Si c'est de la ponctuation, simple rendu
   if (isPunctuation) {
@@ -148,7 +155,7 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
     <>
       <span
         ref={setAnchorEl}
-        className={`word-interactive ${showGrammarColors ? posClass : ''} ${highlightClass} ${lockedClass} transition-colors duration-100`}
+        className={`word-interactive ${showGrammarColors ? posClass : ''} ${highlightClass} ${lockedClass} transition-colors duration-100 relative`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}
@@ -164,6 +171,7 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
         aria-label={`${word.text} — ${getWordTranslationFr(word, annotation)}`}
       >
         {word.text}
+        {showNudge && <InteractiveNudge isVisible={!isTooltipOpen} />}
       </span>
       <Tooltip
         word={word}

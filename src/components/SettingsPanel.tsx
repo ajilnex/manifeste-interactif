@@ -11,6 +11,7 @@ interface SettingsPanelProps {
   onToggleGrammarColors: () => void;
   isFullscreen: boolean;
   onToggleFullscreen: () => void;
+  onResetTutorial?: () => void;
 }
 
 export const SettingsPanel: React.FC<SettingsPanelProps> = ({
@@ -24,6 +25,7 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
   onToggleGrammarColors,
   isFullscreen,
   onToggleFullscreen,
+  onResetTutorial,
 }) => {
   // Fermeture par touche Echap
   useEffect(() => {
@@ -188,6 +190,27 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
               {isFullscreen ? 'ACTIF' : 'INACTIF'}
             </span>
           </button>
+
+          {/* Guide d'accueil initial */}
+          {onResetTutorial && (
+            <button
+              type="button"
+              onClick={onResetTutorial}
+              className="w-full flex items-center justify-between p-2.5 border border-black bg-white hover:bg-neutral-50 transition-colors text-left cursor-pointer"
+            >
+              <div className="flex flex-col pr-2">
+                <span className="font-mono text-[11px] font-bold uppercase text-black">
+                  Guide d'accueil
+                </span>
+                <span className="text-[10px] text-neutral-500 leading-tight">
+                  Réafficher l'indicateur d'accueil sur « Gespenst »
+                </span>
+              </div>
+              <span className="font-mono text-[10px] font-bold px-2 py-0.5 border border-black bg-neutral-100 hover:bg-black hover:text-white transition-colors">
+                RÉINITIALISER
+              </span>
+            </button>
+          )}
         </div>
 
         {/* Légende syntaxique dynamique */}

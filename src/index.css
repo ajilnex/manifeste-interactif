@@ -301,4 +301,41 @@ body {
   }
 }
 
+@keyframes nudge-float {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -4px);
+  }
+}
+
+.animate-nudge-float {
+  animation: nudge-float 2.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-nudge-float {
+    animation: none;
+    transform: translate(-50%, 0);
+  }
+}
+
+.nudge-touch-text {
+  display: inline;
+}
+
+.nudge-hover-text {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nudge-touch-text {
+    display: none;
+  }
+  .nudge-hover-text {
+    display: inline;
+  }
+}
+
 

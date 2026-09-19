@@ -27,6 +27,40 @@ function App() {
   const [highlightedWordId, setHighlightedWordId] = useState<string | null>(null);
   const [highlightedParagraphId, setHighlightedParagraphId] = useState<string | null>(null);
 
+  // Micro-tutoriel d'accueil sur le mot Gespenst
+  const [hasSeenTutorial, setHasSeenTutorial] = useState(() => {
+    try {
+      return localStorage.getItem('manifesto_tutorial_seen') === 'true';
+    } catch {
+      return false;
+    }
+  });
+
+  const handleDismissTutorial = useCallback(() => {
+    setHasSeenTutorial((prev) => {
+      if (!prev) {
+        try {
+          localStorage.setItem('manifesto_tutorial_seen', 'true');
+        } catch (e) {
+          console.warn('Erreur persistance tutoriel:', e);
+        }
+        return true;
+      }
+      return prev;
+    });
+  }, []);
+
+  const handleResetTutorial = useCallback(() => {
+    try {
+      localStorage.removeItem('manifesto_tutorial_seen');
+    } catch (e) {
+      console.warn('Erreur suppression persistance tutoriel:', e);
+    }
+    setHasSeenTutorial(false);
+    setCurrentChapterId('ch0');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   // Synchronisation de l'état plein écran avec le navigateur
   useEffect(() => {
     const handleFullscreenChange = () => {
@@ -169,7 +203,10 @@ function App() {
 
   const handleWordHover = useCallback((wordId: string | null) => {
     setHighlightedWordId(wordId);
-  }, []);
+    if (wordId !== null) {
+      handleDismissTutorial();
+    }
+  }, [handleDismissTutorial]);
 
   const handleParagraphHover = useCallback((paragraphId: string | null) => {
     setHighlightedParagraphId(paragraphId);
@@ -380,6 +417,7 @@ function App() {
         onToggleGrammarColors={handleToggleGrammarColors}
         isFullscreen={isFullscreen}
         onToggleFullscreen={handleToggleFullscreen}
+        onResetTutorial={handleResetTutorial}
       />
 
       {/* 6. Zone de lecture principale Bauhaus épurée et centrée */}
@@ -395,6 +433,8 @@ function App() {
           highlightedParagraphId={highlightedParagraphId}
           onWordHover={handleWordHover}
           onParagraphHover={handleParagraphHover}
+          hasSeenTutorial={hasSeenTutorial}
+          onDismissTutorial={handleDismissTutorial}
         />
       </main>
     </div>
