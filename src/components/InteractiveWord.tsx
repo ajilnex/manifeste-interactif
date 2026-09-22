@@ -150,13 +150,13 @@ export const InteractiveWord: React.FC<InteractiveWordProps> = ({
   const posClass = POS_CLASS_MAP[word.pos] || '';
   const highlightClass = isHighlighted ? 'word-highlighted' : '';
   const lockedClass = isLocked && isTooltipOpen ? 'word-locked' : '';
-  const nudgeTargetClass = showNudge && !isTooltipOpen ? 'nudge-target-word' : '';
+  const nudgeClass = showNudge && !isTooltipOpen ? 'nudge-target-word' : '';
 
   return (
     <>
       <span
         ref={setAnchorEl}
-        className={`word-interactive ${showGrammarColors ? posClass : ''} ${highlightClass} ${lockedClass} ${nudgeTargetClass} transition-colors duration-100 relative`}
+        className={`word-interactive ${showGrammarColors ? posClass : ''} ${highlightClass} ${lockedClass} ${nudgeClass} transition-colors duration-100 relative`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}
